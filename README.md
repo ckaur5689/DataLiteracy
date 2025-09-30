@@ -20,15 +20,75 @@ ii) Consequences of not solving it
 iii) Benefits of solving it
 iv) Objectives and the end state after it's all solved
 
-# Theory of Change and Logic Models
-https://www.linkedin.com/posts/activity-7357661148223029248-TyXv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5JMMwBIUIXoGFojbGkFhWKvd_v2TtT3AU
-
 # The Top-Down Thinking Approach
 i) Set out the Problem Statement or the Opportunity succintly
 ii) The Options (which could be different working hypotheses/options you will be analysing/exploring)
 iii) Conclude with your recommended course of action following the results of ii)
 
 https://prezi.com/sqysrut0_r7s/top-down-thinking-explained/
+
+# Theory of Change and Logic Models
+#TheoryofChange and hashtag#LogicModel are both planning and evaluation tools used in healthcare, public services, and non-profits (including ICBs), but they serve slightly different purposes and offer different levels of detail and abstraction.
+
+hashtag#ICB
+hashtag#NHS
+hashtag#ICBBlueprint
+
+Here’s a clear breakdown:
+
+🧠 Theory of Change (ToC)
+
+➡️What it is:
+A high-level, strategic narrative (often with a visual) that explains how and why change is expected to happen in a particular context. It focuses on causal pathways, assumptions, and contextual factors.
+
+Key features:
+ • Emphasises the why behind the change.
+ • Begins with the long-term impact and works backward to identify necessary preconditions.
+ • Includes external influences and assumptions (e.g. political, social, behavioural).
+ • Often used in complex or system-level interventions.
+ • More flexible and conceptual than a logic model.
+
+➡️When to use it:
+ • For strategic planning or programme design.
+ • To map out how multiple interventions connect to broad systemic change.
+ • To align stakeholders on shared outcomes.
+
+📊 Logic Model
+
+➡️What it is:
+A practical, structured tool that outlines the inputs, activities, outputs, outcomes, and impact of a programme or project. It shows the what and how in a linear or step-by-step way.
+
+Key features:
+ • Focuses on program mechanics.
+ • Begins with inputs/resources and moves forward logically.
+ • Less emphasis on assumptions and external factors.
+ • Best used for programme implementation, monitoring, and evaluation.
+ • Easy to map in Excel or tables.
+
+➡️When to use it:
+ • For operational planning.
+ • When designing, tracking, or reporting a project.
+ • To define KPIs and success metrics for a single initiative.
+
+🎯 Theory of Change vs Logic Model — Core Differences
+ • Level of abstraction: ToC is higher-level and strategic; logic models are more detailed and operational.
+ • Focus: ToC explains why change will happen; logic models describe how it will happen.
+ • Assumptions and context: Explicit in ToC, often implicit or excluded in logic models.
+ • Sequence: ToC is often built from outcomes backward; logic models are built from inputs forward.
+
+🏥 Example in ICB Context
+
+Imagine an ICB wants to improve mental health outcomes for young people.
+ • Theory of Change: Describes how improving digital access, reducing stigma, training teachers, and increasing early intervention will together contribute to a long-term reduction in adolescent mental illness. It maps causal pathways, risk factors, and assumptions about system readiness.
+ • Logic Model: Details the specific resources (staff, funding, tools), activities (screenings, school workshops), and measurable outputs (students reached, referrals made) along with short-term and long-term outcomes.
+
+💡 Final Thought
+
+You can think of the Theory of Change as the strategic blueprint; the why and what needs to happen and the Logic Model as the construction plan; the how you’re going to do it. In practice, they complement each other.
+
+https://www.linkedin.com/posts/activity-7357661148223029248-TyXv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5JMMwBIUIXoGFojbGkFhWKvd_v2TtT3AU
+
+
 
 
 

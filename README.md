@@ -30,13 +30,9 @@ https://prezi.com/sqysrut0_r7s/top-down-thinking-explained/
 # Theory of Change and Logic Models
 #TheoryofChange and hashtag#LogicModel are both planning and evaluation tools used in healthcare, public services, and non-profits (including ICBs), but they serve slightly different purposes and offer different levels of detail and abstraction.
 
-hashtag#ICB
-hashtag#NHS
-hashtag#ICBBlueprint
-
 Here’s a clear breakdown:
 
-🧠 Theory of Change (ToC)
+# 🧠 Theory of Change (ToC)
 
 ➡️What it is:
 A high-level, strategic narrative (often with a visual) that explains how and why change is expected to happen in a particular context. It focuses on causal pathways, assumptions, and contextual factors.
@@ -53,7 +49,7 @@ Key features:
  • To map out how multiple interventions connect to broad systemic change.
  • To align stakeholders on shared outcomes.
 
-📊 Logic Model
+# 📊 Logic Model
 
 ➡️What it is:
 A practical, structured tool that outlines the inputs, activities, outputs, outcomes, and impact of a programme or project. It shows the what and how in a linear or step-by-step way.
@@ -82,7 +78,7 @@ Imagine an ICB wants to improve mental health outcomes for young people.
  • Theory of Change: Describes how improving digital access, reducing stigma, training teachers, and increasing early intervention will together contribute to a long-term reduction in adolescent mental illness. It maps causal pathways, risk factors, and assumptions about system readiness.
  • Logic Model: Details the specific resources (staff, funding, tools), activities (screenings, school workshops), and measurable outputs (students reached, referrals made) along with short-term and long-term outcomes.
 
-💡 Final Thought
+# 💡 Final Thought
 
 You can think of the Theory of Change as the strategic blueprint; the why and what needs to happen and the Logic Model as the construction plan; the how you’re going to do it. In practice, they complement each other.
 

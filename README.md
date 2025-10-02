@@ -84,8 +84,8 @@ You can think of the Theory of Change as the strategic blueprint; the why and wh
 
 https://www.linkedin.com/posts/activity-7357661148223029248-TyXv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5JMMwBIUIXoGFojbGkFhWKvd_v2TtT3AU
 
-
-
+Link to Resources:
+https://github.com/ckaur5689/DataLiteracy/blob/main/Resources
 
 
 

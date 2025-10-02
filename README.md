@@ -20,6 +20,11 @@ ii) Consequences of not solving it
 iii) Benefits of solving it
 iv) Objectives and the end state after it's all solved
 
+# Resources
+https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6094/How-A-Problem-Statement-Kept-Me-In-Control-Of-My-Analysis.aspx
+https://medium.com/@fseewald/why-your-project-should-start-with-a-problem-statement-2934c3f59d9b
+https://www.figma.com/resource-library/problem-statement/
+
 # The Top-Down Thinking Approach
 i) Set out the Problem Statement or the Opportunity succintly
 ii) The Options (which could be different working hypotheses/options you will be analysing/exploring)

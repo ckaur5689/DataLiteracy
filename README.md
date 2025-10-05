@@ -20,10 +20,15 @@ ii) Consequences of not solving it
 iii) Benefits of solving it
 iv) Objectives and the end state after it's all solved
 
-# Resources
+# Example: Developing Problem Statements for Health Inequalities in Stroke
+Download PowerPoint file from here: https://github.com/ckaur5689/DataLiteracy/blob/main/Structuring%20Problem%20Statements_Health%20Inequalities%20Stroke%20Example.pptx
+
+# Other Problem Statement Resources
 https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/6094/How-A-Problem-Statement-Kept-Me-In-Control-Of-My-Analysis.aspx
 https://medium.com/@fseewald/why-your-project-should-start-with-a-problem-statement-2934c3f59d9b
 https://www.figma.com/resource-library/problem-statement/
+
+# Other Frameworks:
 
 # The Top-Down Thinking Approach
 i) Set out the Problem Statement or the Opportunity succintly

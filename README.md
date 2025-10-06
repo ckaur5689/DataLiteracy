@@ -1,6 +1,6 @@
-# DataLiteracy
+# Data Literacy
 
-Welcome to the landing page for the Data Literacy repository
+Welcome to the landing page for the Data Literacy repository.
 
 # License
 Unless stated otherwise, the codebase is released under the MIT Licence. This covers both the codebase and any sample code in the documentation.

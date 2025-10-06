@@ -1,13 +1,21 @@
 # DataLiteracy
-A set of Data Literacy tools improve the data culture of an organisation and for analysts to support their organisation leverage their skills effectively
+
+Welcome to the landing page for the Data Literacy repository
+
+# License
+Unless stated otherwise, the codebase is released under the MIT Licence. This covers both the codebase and any sample code in the documentation.
+
+HTML and Markdown documentation is © Crown copyright and available under the terms of the Open Government Licence (OGL):
+https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
+This repository contains tools and frameworks designed to enhance an organisation's data culture while empowering analysts to effectively share their expertise and drive data-informed decision-making.
 
 # Motivation
 A data-driven culture is crucial for organisations to make informed decisions, gain a competitive edge, and improve outcomes by leveraging evidence and data rather than assumptions.
-This approach fosters agility, enhances collaboration, enables greater customer understanding, and ultimately leads to increased efficiency and profitability by identifying trends,
-personalising services, and testing hypotheses quickly.
 
-Leveraging the organisation's analytical resource effectively is the flip of this coin. The resources below are geared towards equipping analysts to support their respective organisations
-to do that.
+This approach fosters agility, enhances collaboration, enables greater customer understanding, and ultimately leads to increased efficiency and profitability by identifying trends, personalising services, and testing hypotheses quickly.
+
+Leveraging the organisation's analytical resource effectively is the flip of this coin. The resources below are geared towards equipping analysts to support their respective organisations to do that.
 
 # Getting the starting blocks into place
 

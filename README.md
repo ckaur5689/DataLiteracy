@@ -15,10 +15,10 @@ to do that.
 A problem statement is a high-level summary of a problem/challenge
 It also helps an analyst maintain control when conducting analysis
 What a good problem statement consists of:
-# i) Problem/challenge
-# ii) Consequences of not solving it
-# iii) Benefits of solving it
-# iv) Objectives and the end state after it's all solved
+  # i) Problem/challenge
+  # ii) Consequences of not solving it
+  # iii) Benefits of solving it
+  # iv) Objectives and the end state after it's all solved
 
 # Example: Developing Problem Statements for Health Inequalities in Stroke
 Download PowerPoint file from here: https://github.com/ckaur5689/DataLiteracy/blob/main/Structuring%20Problem%20Statements_Health%20Inequalities%20Stroke%20Example.pptx

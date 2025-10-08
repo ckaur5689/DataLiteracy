@@ -11,11 +11,11 @@ https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 This repository provides tools, frameworks, and practical examples to strengthen organisational data culture. It empowers analysts to share their expertise effectively, collaborate with business stakeholders, and collectively drive data-informed decision-making.
 
 # Motivation
-A data-driven culture is crucial for organisations to make informed decisions, gain a competitive edge, and improve outcomes by leveraging evidence and data rather than assumptions.
+A data-driven culture is crucial for organisations to make informed decisions, to become more efficient/productive, and improve outcomes by leveraging evidence and data rather than assumptions.
 
-This approach fosters agility, enhances collaboration, enables greater customer understanding, and ultimately leads to increased efficiency and profitability by identifying trends, personalising services, and testing hypotheses quickly.
+Leveraging the organisation's analytical resource effectively is the flip of this coin. The resources below are geared towards equipping analysts to support their respective organisations to do that by working in partnership with business users to ensure insights are actionable, expertise is shared effectively, and data-informed thinking becomes embedded across all levels of decision-making.
 
-Leveraging the organisation's analytical resource effectively is the flip of this coin. The resources below are geared towards equipping analysts to support their respective organisations to do that.
+Let's get started!
 
 # Getting the starting blocks into place
 

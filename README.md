@@ -8,7 +8,8 @@ Unless stated otherwise, the codebase is released under the MIT Licence. This co
 HTML and Markdown documentation is © Crown copyright and available under the terms of the Open Government Licence (OGL):
 https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
-This repository contains tools and frameworks designed to enhance an organisation's data culture while empowering analysts to effectively share their expertise and drive data-informed decision-making.
+This repository contains tools and frameworks designed to enhance an organisation's data culture while empowering analysts to effectively share their expertise, work
+in partnershop and drive data-informed decision-making.
 
 # Motivation
 A data-driven culture is crucial for organisations to make informed decisions, gain a competitive edge, and improve outcomes by leveraging evidence and data rather than assumptions.

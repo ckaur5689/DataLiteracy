@@ -1,4 +1,4 @@
-# Data Literacy
+# 👥 Data Literacy
 
 Welcome to the landing page for the Data Literacy repository.
 
@@ -10,16 +10,16 @@ https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
 This repository provides tools, frameworks, and practical examples to strengthen organisational data culture. It empowers analysts to share their expertise effectively, collaborate with business stakeholders, and collectively drive data-informed decision-making.
 
-# Motivation
+# 📣 Motivation
 A data-driven culture is crucial for organisations to make informed decisions, to become more efficient/productive, and improve outcomes by leveraging evidence and data rather than assumptions.
 
 Leveraging the organisation's analytical resource effectively is the flip of this coin. The resources below are geared towards equipping analysts to support their respective organisations to do that by working in partnership with business users to ensure insights are actionable, expertise is shared effectively, and data-informed thinking becomes embedded across all levels of decision-making.
 
 Let's get started!
 
-# Getting the starting blocks into place
+# 🚀Getting the starting blocks into place
 
-# Defining the Problem Statement
+# 🧭Defining the Problem Statement
 A problem statement is a high-level summary of a problem/challenge
 It also helps an analyst maintain control when conducting analysis
 What a good problem statement consists of:
@@ -42,17 +42,17 @@ https://www.figma.com/resource-library/problem-statement/
 
 # Other Frameworks:
 
-# The Top-Down Thinking Approach
+# 🧠The Top-Down Thinking Approach
 
-i) Set out the Problem Statement or the Opportunity succintly
+i) Set out the Problem Statement or the Opportunity succinctly
 
 ii) The Options (which could be different working hypotheses/options you will be analysing/exploring)
 
-iii) Conclude with your recommended course of action following the results of ii)
+iii) Conclude with your recommended course of action following the results/analyses of ii)
 
 https://prezi.com/sqysrut0_r7s/top-down-thinking-explained/
 
-# Theory of Change and Logic Models
+# ♻️Theory of Change and Logic Models
 Theory of Change and Logic Models are both planning and evaluation tools used in healthcare, public services, and non-profits (including ICBs), but they serve slightly different purposes and offer different levels of detail and abstraction.
 
 Here’s a clear breakdown:

@@ -94,11 +94,11 @@ A high-level, strategic narrative (often with a visual) that explains how and wh
     4️⃣ Often used in complex or system-level interventions
  
 # When to use it:
-   1️⃣ For strategic planning or programme design
-   
-   2️⃣ To map out how multiple interventions connect to broad systemic change
-   
-   3️⃣ To align stakeholders on shared outcomes
+     1️⃣ For strategic planning or programme design
+      
+     2️⃣ To map out how multiple interventions connect to broad systemic change
+      
+     3️⃣ To align stakeholders on shared outcomes
 
 # 📊 Logic Model
 

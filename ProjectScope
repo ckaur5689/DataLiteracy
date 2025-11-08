@@ -7,31 +7,33 @@ Project Leads:
 Team: Healthcare Experience Analysts
 
 🧠 Why We're Doing This
-        • We want to create a practical playbook that shows how analysts and business users work together effectively in healthcare settings. It'll be full of real examples and useful tips that everyone can actually use day-to-day.
-🤝What We Want to Achieve
-		•	Pull together 8-12 real examples of analysts working well with business users
-		•	Write down the ways of working that actually get results
-		•	Help everyone speak the same language when it comes to analytics projects
-		•	Make it easier to get new people up to speed
-		•	Make sure we're all doing things consistently across the organisation
+	• We want to create a practical playbook that shows how analysts and business users work together effectively in healthcare settings. 
+	  It will be full of real examples and useful tips that everyone can actually use day-to-day.
+
+🎯What We Want to Achieve
+	•	Pull together 8-12 real examples of analysts working well with business users
+	•	Write down the ways of working that actually get results
+	•	Help everyone speak the same language when it comes to analytics projects
+	•	Make it easier to get new people up to speed
+	•	Make sure we're all doing things consistently across the organisation
 
 ✅ What's Included (and What Isn't)
 
 📍What goes in the playbook:
-		•	8-12 detailed examples from different healthcare areas (patient experience, clinical ops, finance, quality metrics, etc.)
-		•	Step-by-step guides for the most common types of analytics work
-		•	Templates and tips for communicating well with business users
-		•	A simple guide to help decide when analysts should get involved
-		•	Reference section on useful tools and techniques
-		•	Glossary so everyone knows what we're talking about
+	•	8-12 detailed examples from different healthcare areas (patient experience, clinical ops, finance, quality metrics, etc.)
+	•	Step-by-step guides for the most common types of analytics work
+	•	Templates and tips for communicating well with business users
+	•	A simple guide to help decide when analysts should get involved
+	•	Reference section on useful tools and techniques
+	•	Glossary so everyone knows what we're talking about
 
 📍Types of situations we'll include:
-		•	Quick reporting requests
-		•	Building and improving dashboards
-		•	Digging into problems to find root causes
-		•	Predictive modelling projects
-		•	Checking data quality
-		•	Helping people use analytics tools themselves
+	•	Quick reporting requests
+	•	Building and improving dashboards
+	•	Digging into problems to find root causes
+	•	Predictive modelling projects (applied statistics and machine learning)
+	•	Checking data quality
+	•	Helping people use analytics tools themselves
 
 📍Format:
 	•	Digital playbook (PDF and/or online version)
@@ -39,12 +41,12 @@ Team: Healthcare Experience Analysts
 	•	Easy to search and navigate
 
 ❌ We're Not Covering
-		•	How to use specific analytics software (that's for technical training)
-		•	In-depth statistics lessons
-		•	Data governance policies
-		•	IT infrastructure stuff
-		•	Big organisational change programmes
-		•	Building new analytics platforms
+	•	How to use specific analytics software (that's for technical training)
+	•	In-depth statistics lessons
+	•	Data governance policies
+	•	IT infrastructure stuff
+	•	Big organisational change programmes
+	•	Building new analytics platforms
 
 🚀 What You'll Get
 1.	The Full Playbook with all examples and frameworks
@@ -55,16 +57,16 @@ Team: Healthcare Experience Analysts
 
 🧑‍🤝‍🧑Who's Involved
 The Project Team:
-		•	Experience Analysts (writing and reviewing content)
-		•	[Project Lead/Manager]
+	•	Experience Analysts (writing and reviewing content)
+	•	[Project Lead/Manager]
 
 👥 People We'll Need Input From:
-		•	Business users from key departments for feedback (clinical ops, public health, patient experience, finance, quality)
-		•	Chief Analysts or Heads of Informatic Departments
-		•	Department heads who often ask for analytics help
+	•	Business users from key departments for feedback (clinical ops, public health, patient experience, finance, quality)
+	•	Chief Analysts or Heads of Informatic Departments
+	•	Department heads who often ask for analytics help
 
 ✅ Sign-Off:
-		•	Project Team
+	•	Project Team
 
 ⏰ How We'll Do It:
 
@@ -80,45 +82,45 @@ Phase 2: Writing the Content (Months 2 to 4)
 	•	Develop supporting materials
 
 Phase 3: Review and Improvements (Month 5)
-•	Team review and edits
-•	Get feedback from stakeholders
-•	Make changes based on feedback
+	•	Team review and edits
+	•	Get feedback from stakeholders
+	•	Make changes based on feedback
 
 Phase 4: Finalising and Launch (Month 6)
-•	Final design and formatting
-•	Create presentation materials
-•	Plan how we'll roll it out
-•	Launch with training sessions
+	•	Final design and formatting
+	•	Create presentation materials
+	•	Plan how we'll roll it out
+	•	Launch with training sessions
 
 ✅ How We'll Know It's Working
 
-        •	At least 60% of analysts are using it within 3 months
-        •	Good feedback from both analysts and business users (aiming for 4+ out of 5)
-        •	Projects get started more smoothly (fewer back-and-forth emails)
-        •	Examples are used in at least half of new projects
-        •	It becomes part of standard training for new starters
+	•	At least 60% of analysts are referring to it within 3 months
+	•	Good feedback from both analysts and business users (aiming for 4+ out of 5)
+	•	Projects get started more smoothly (fewer back-and-forth emails)
+	•	Examples are used in at least half of new projects
+	•	It becomes part of standard training for new starters
 
 🤔 What We're Assuming
-•	Team members can spend 20% of their time on this
-•	Business users will be available for chats and feedback
-•	We can use and adapt existing project examples (made anonymous)
-•	The organisation supports this way of working
-
+	•	Team members can spend 10-20% of their time on this
+	•	Business users will be available for chats and feedback
+	•	We can use and adapt existing project examples (made anonymous)
+	•	The organisation supports this way of working
 
 # What We'll Need
 People:
-•	Experience analyst team (to create content)
-•	Business users (for interviews and feedback)
-•	Design support (if possible, for making it look good)
-•	Project coordinator
+	•	Experience analyst team (to create content)
+	•	Business users (for interviews and feedback)
+	•	Design support (if possible, for making it look good)
+	•	Project coordinator
 Tools:
-•	
+	•	Excel, R, Python, SQL	
 Budget:
-•	
+	• Time and committment from project analysts
+
 Keeping Everyone Updated
-•	Fortnightly catch ups
-•	Review sessions at the end of each phase
-•	Launch communications through team meetings, emails, and training sessions
+	•	Fortnightly catch ups
+	•	Review sessions at the end of each phase
+	•	Launch communications through team meetings, emails, and training sessions
 
 What Happens Next
 1.	Review and approve this scope

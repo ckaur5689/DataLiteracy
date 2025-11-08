@@ -1,84 +1,89 @@
-# Project Scope: Guided Analytics Playbook (Draft)
+** Project Scope: Guided Analytics Playbook (Draft)
 
-# What We're Doing
-# Project: Creating a Guided Analytics Playbook
-# Timeline: 6 months
-# Project Leads:  
-# Team: Healthcare Experience Analysts
+What We're Doing
+Project: Creating a Guided Analytics Playbook
+Timeline: 6 months
+Project Leads:  
+Team: Healthcare Experience Analysts
 
 🧠 Why We're Doing This
-        We want to create a practical playbook that shows how analysts and business users work together effectively in healthcare settings. It'll be full of real examples and useful tips that everyone can actually use day-to-day.
+        • We want to create a practical playbook that shows how analysts and business users work together effectively in healthcare settings. It'll be full of real examples and useful tips that everyone can actually use day-to-day.
 🤝What We Want to Achieve
-        •	Pull together 8-12 real examples of analysts working well with business users
-        •	Write down the ways of working that actually get results
-        •	Help everyone speak the same language when it comes to analytics projects
-        •	Make it easier to get new people up to speed
-        •	Make sure we're all doing things consistently across the organisation
+		•	Pull together 8-12 real examples of analysts working well with business users
+		•	Write down the ways of working that actually get results
+		•	Help everyone speak the same language when it comes to analytics projects
+		•	Make it easier to get new people up to speed
+		•	Make sure we're all doing things consistently across the organisation
+
 ✅ What's Included (and What Isn't)
 
-        What goes in the playbook:
-        •	8-12 detailed examples from different healthcare areas (patient experience, clinical ops, finance, quality metrics, etc.)
-        •	Step-by-step guides for the most common types of analytics work
-        •	Templates and tips for communicating well with business users
-        •	A simple guide to help decide when analysts should get involved
-        •	Reference section on useful tools and techniques
-        •	Glossary so everyone knows what we're talking about
-        Types of situations we'll include:
-        •	Quick reporting requests
-        •	Building and improving dashboards
-        •	Digging into problems to find root causes
-        •	Predictive modelling projects
-        •	Checking data quality
-        •	Helping people use analytics tools themselves
-        Format:
-        •	Digital playbook (PDF and/or online version)
-        •	Diagrams, flowcharts, and screenshots to make it  easy to follow
-        •	Easy to search and navigate
+📍What goes in the playbook:
+		•	8-12 detailed examples from different healthcare areas (patient experience, clinical ops, finance, quality metrics, etc.)
+		•	Step-by-step guides for the most common types of analytics work
+		•	Templates and tips for communicating well with business users
+		•	A simple guide to help decide when analysts should get involved
+		•	Reference section on useful tools and techniques
+		•	Glossary so everyone knows what we're talking about
 
+📍Types of situations we'll include:
+		•	Quick reporting requests
+		•	Building and improving dashboards
+		•	Digging into problems to find root causes
+		•	Predictive modelling projects
+		•	Checking data quality
+		•	Helping people use analytics tools themselves
+
+📍Format:
+	•	Digital playbook (PDF and/or online version)
+	•	Diagrams, flowcharts, and screenshots to make it  easy to follow
+	•	Easy to search and navigate
 
 ❌ We're Not Covering
-        •	How to use specific analytics software (that's for technical training)
-        •	In-depth statistics lessons
-        •	Data governance policies
-        •	IT infrastructure stuff
-        •	Big organisational change programmes
-        •	Building new analytics platforms
+		•	How to use specific analytics software (that's for technical training)
+		•	In-depth statistics lessons
+		•	Data governance policies
+		•	IT infrastructure stuff
+		•	Big organisational change programmes
+		•	Building new analytics platforms
 
-# What You'll Get
+🚀 What You'll Get
 1.	The Full Playbook with all examples and frameworks
 2.	Executive Summary covering the key points (2-3 pages)
 3.	Quick Reference Guide with checklists and decision tools
 4.	Presentation Slides for launching the playbook and training sessions
 5.	Feedback Form so we can keep improving it
 
-# Who's Involved
+🧑‍🤝‍🧑Who's Involved
 The Project Team:
+		•	Experience Analysts (writing and reviewing content)
+		•	[Project Lead/Manager]
 
-        •	Experience Analysts (writing and reviewing content)
-        •	[Project Lead/Manager]
+👥 People We'll Need Input From:
+		•	Business users from key departments for feedback (clinical ops, public health, patient experience, finance, quality)
+		•	Chief Analysts or Heads of Informatic Departments
+		•	Department heads who often ask for analytics help
 
-People We'll Need Input From:
+✅ Sign-Off:
+		•	Project Team
 
-        •	Business users from key departments (clinical ops, public health, patient experience, finance, quality)
-        •	Analytics managers
-        •	Department heads who often ask for analytics help
-Sign-Off:
-•	[Insert names/roles of people who need to approve this]
+⏰ How We'll Do It:
 
-#   How We'll Do It
 Phase 1: Discovery and Planning (Month 1)
-•	Gather existing examples and documents
-•	Chat with business users and analysts about what works well
-•	Sort out the playbook structure
-•	Agree on style and format
+	•	Gather existing examples and documents
+	•	Chat with business users and analysts about what works well
+	•	Sort out the playbook structure
+	•	Agree on style and format
+
 Phase 2: Writing the Content (Months 2 to 4)
-•	Write up the case examples and frameworks
-•	Create diagrams and templates
-•	Develop supporting materials
+	•	Write up the case examples and frameworks
+	•	Create diagrams and templates
+	•	Develop supporting materials
+
 Phase 3: Review and Improvements (Month 5)
 •	Team review and edits
 •	Get feedback from stakeholders
 •	Make changes based on feedback
+
 Phase 4: Finalising and Launch (Month 6)
 •	Final design and formatting
 •	Create presentation materials
@@ -93,7 +98,7 @@ Phase 4: Finalising and Launch (Month 6)
         •	Examples are used in at least half of new projects
         •	It becomes part of standard training for new starters
 
-# What We're Assuming
+🤔 What We're Assuming
 •	Team members can spend 20% of their time on this
 •	Business users will be available for chats and feedback
 •	We can use and adapt existing project examples (made anonymous)

@@ -35,9 +35,10 @@ The goal isn't to turn everyone into data analyst; it's to create a common langu
 Data culture isn't built by analysts alone. It's built by analysts who empower everyone else.
 
       💬Leveraging the organisation's analytical resource effectively is the flip of this coin.
-      The resources below are geared towards equipping analysts to support their respective organisations to do that by working 
-      in partnership with business users to ensure insights are actionable, expertise is shared effectively, 
-      and data-informed thinking becomes embedded across all levels of decision-making.
+      The resources below are geared towards equipping analysts to support their respective organisations
+      to do just that, by working in partnership with business users to ensure insights are actionable, 
+      where expertise is shared effectively and data-informed thinking becomes embedded across all levels
+      of decision-making.
 
 # 🧑‍🤝‍🧑 Let's get started! 🚀Getting the starting blocks into place:
 

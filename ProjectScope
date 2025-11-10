@@ -2,7 +2,7 @@
 
 What We're Doing
 Project: Creating a Guided Analytics Playbook
-Timeline: 6 months
+Timeline: 6 months from Dec 2025
 Project Leads:  
 Team: Healthcare Experience Analysts
 
@@ -21,16 +21,15 @@ Team: Healthcare Experience Analysts
 
 📍What goes in the playbook:
 	•	8-12 detailed examples from different healthcare areas (patient experience, clinical ops, finance, quality metrics, etc.)
-	•	Step-by-step guides for the most common types of analytics work
-	•	Templates and tips for communicating well with business users
+	•	Step-by-step guides for the most common types of analytics work including examples of Prioritisation Frameworks
+	•	Templates and tips for communicating well with business users, including "Storytelling with Data"
 	•	A simple guide to help decide when analysts should get involved
 	•	Reference section on useful tools and techniques
 	•	Glossary so everyone knows what we're talking about
 
 📍Types of situations we'll include:
-	•	Quick reporting requests
-	•	Building and improving dashboards
-	•	Digging into problems to find root causes
+	•	Developing a Problem Statement with requester when request made is unclear
+    •	Digging into problems to find root causes
 	•	Predictive modelling projects (applied statistics and machine learning)
 	•	Checking data quality
 	•	Helping people use analytics tools themselves
@@ -94,16 +93,16 @@ Phase 4: Finalising and Launch (Month 6)
 
 ✅ How We'll Know It's Working
 
-	•	At least 60% of analysts are referring to it within 3 months
-	•	Good feedback from both analysts and business users (aiming for 4+ out of 5)
+	•	At least 60% of analysts are referring to it within 3 months and is promoted by Heads of Informatics or Chief Analysts
+    •   Endorsed by NHS CDAO network and AphA (Association of Professional Healthcare Analysts)
+	•	Good feedback from both analysts and business users (aiming for 3+ out of 5)
 	•	Projects get started more smoothly (fewer back-and-forth emails)
 	•	Examples are used in at least half of new projects
 	•	It becomes part of standard training for new starters
 
 🤔 What We're Assuming
-	•	Team members can spend 10-20% of their time on this
-	•	Business users will be available for chats and feedback
-	•	We can use and adapt existing project examples (made anonymous)
+	•	Team members can spend 20% of their time on this per month (~one day per month)
+	•	Business users will be available for chats and agile feedback
 	•	The organisation supports this way of working
 
 # What We'll Need
@@ -113,13 +112,13 @@ People:
 	•	Design support (if possible, for making it look good)
 	•	Project coordinator
 Tools:
-	•	Excel, R, Python, SQL	
+	•	Excel, R, Python, SQL, Jira for project planning and monitoring (free)
 Budget:
 	• Time and committment from project analysts
 
 Keeping Everyone Updated
 	•	Fortnightly catch ups
-	•	Review sessions at the end of each phase
+	•	Review at the end of each phase
 	•	Launch communications through team meetings, emails, and training sessions
 
 What Happens Next

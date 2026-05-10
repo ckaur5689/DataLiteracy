@@ -2,7 +2,7 @@
 
  Counts are an important metric to gain a feel for volumes of activity or patients. However they are not useful when comparing with other geographical areas.
 
- Rates are often referred to as "Crude Rates" and offer a fairer way for comparison.
+ Rates (often per 10,000 or 100,000) are often referred to as "Crude Rates" and offer a fairer way for comparison.
 
 ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates.png)
 

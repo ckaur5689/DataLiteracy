@@ -422,8 +422,6 @@ while still requiring very different operational expectations.
 
 ---
 
-# This Would Make Another Excellent Visual
-
 ## “Fair Comparison Does Not Mean Equal Reduction Targets”
 
 Showing:
@@ -446,4 +444,6 @@ with:
 
 all influencing achievable reduction.
 
+
+ ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_Age_FullPicture.png)
 

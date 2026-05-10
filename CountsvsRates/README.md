@@ -167,3 +167,284 @@ Use age-standardised rates.
 
 Use actual age-specific demand profiles.
 
+## Consideration #2
+## When setting reduction targets e.g. ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts
+
+No — applying the same percentage reduction target across two ICBs is often *not* fair or operationally realistic, even if both are measured using rates.
+
+This is exactly where people move from:
+
+* simple benchmarking
+  to
+* meaningful population-adjusted operational planning.
+
+The key issue is:
+
+> identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.
+
+That is rarely true.
+
+# Why This Matters
+
+Imagine:
+
+| ICB   | Population Profile            |
+| ----- | ----------------------------- |
+| ICB A | Younger, urban, lower frailty |
+| ICB B | Older, rural, higher frailty  |
+
+Even after using age-specific ED attendance rates, the systems may still differ because of:
+
+* deprivation
+* multimorbidity
+* access to primary care
+* transport
+* care home prevalence
+* community service availability
+* rurality
+* ambulance conveyance patterns
+* social care capacity
+
+So:
+
+> a 10% reduction target may be much more achievable in one system than another.
+
+---
+
+# Important Nuance
+
+## Rates improve fairness
+
+…but they do not eliminate structural differences.
+
+That’s a crucial distinction.
+
+Age-specific rates answer:
+
+> “Are we comparing similar age groups?”
+
+But not:
+
+> “Do these systems have the same modifiable demand?”
+
+---
+
+# Example
+
+## ICB A
+
+65+ ED attendance rate:
+
+* 8,000 per 100k
+
+Drivers:
+
+* potentially avoidable attendances
+* weak same-day urgent care
+* poor community frailty support
+
+---
+
+## ICB B
+
+65+ ED attendance rate:
+
+* 8,200 per 100k
+
+Drivers:
+
+* very elderly population
+* care home concentration
+* rural transport delays
+* higher stroke/frailty burden
+
+Same rate.
+Very different operational reality.
+
+A blanket:
+
+> “reduce by 10%”
+
+implicitly assumes equal reducibility.
+
+That’s often false.
+
+---
+
+# What Works Better Operationally
+
+## 1. Understand Reducible vs Non-Reducible Demand
+
+Some ED activity is:
+
+* clinically appropriate
+* structurally unavoidable
+* demographically driven
+
+Some is potentially avoidable.
+
+Operationally, the focus should be:
+
+* avoidable admissions
+* ambulatory-sensitive conditions
+* pathway gaps
+* delayed community response
+* repeat attendance cohorts
+
+rather than crude overall reductions alone.
+
+---
+
+# 2. Segment by Cohort
+
+Better targets are often cohort-specific:
+
+| Cohort             | Better Target                |
+| ------------------ | ---------------------------- |
+| Frailty            | reduce avoidable conveyances |
+| LTCs               | improve proactive management |
+| Frequent attenders | reduce repeat attendances    |
+| Care homes         | improve in-place care        |
+| Children           | improve same-day access      |
+
+---
+
+# 3. Use Improvement Opportunity, Not Just Current Rate
+
+Two ICBs may have:
+
+* similar rates
+* different pathway maturity
+
+Example:
+
+| System | Community Frailty Service |
+| ------ | ------------------------- |
+| ICB A  | immature                  |
+| ICB B  | already optimised         |
+
+ICB A may have more achievable reduction opportunity.
+
+---
+
+# 4. Consider Capacity Constraints
+
+Reduction targets often assume systems can absorb demand elsewhere.
+
+But if:
+
+* community rehab
+* urgent community response
+* primary care
+* virtual wards
+* social care
+
+are weak, ED reduction becomes harder.
+
+---
+
+# 5. Use Relative + Contextual Targets
+
+Better approaches often combine:
+
+## Relative improvement
+
+e.g.
+
+* improve against own baseline
+
+PLUS
+
+## Peer benchmarking
+
+e.g.
+
+* compare against statistically similar systems
+
+This is more sophisticated than:
+
+> “everyone reduce by X%.”
+
+---
+
+# Better Questions Than:
+
+## “Can both reduce by 10%?”
+
+Ask:
+
+* What proportion is avoidable?
+* Which cohorts drive growth?
+* Which attendances are pathway-sensitive?
+* What operational levers exist?
+* What capacity exists outside ED?
+* What does good look like for similar systems?
+* What inequities are driving demand?
+
+---
+
+# In Practice
+
+The most analytically mature systems usually:
+
+* benchmark fairly
+* stratify cohorts
+* identify modifiable demand
+* model realistic improvement opportunity
+* set pathway-specific targets
+
+rather than blanket percentage reductions.
+
+---
+
+# Analytically
+
+This is where:
+
+* age-standardisation
+* cohort segmentation
+* risk adjustment
+* cluster benchmarking
+* deprivation adjustment
+* pathway analytics
+
+become essential.
+
+---
+
+# A Strong Principle
+
+## Fair comparison ≠ fair target
+
+That’s an important healthcare analytics lesson.
+
+Two systems can be fairly compared statistically,
+while still requiring very different operational expectations.
+
+---
+
+# This Would Make Another Excellent Visual
+
+## “Fair Comparison Does Not Mean Equal Reduction Targets”
+
+Showing:
+
+```text
+Rates
+    ↓
+Fair comparison
+    ≠
+Equal operational opportunity
+```
+
+with:
+
+* age profile
+* frailty
+* deprivation
+* pathway maturity
+* community capacity
+
+all influencing achievable reduction.
+
+

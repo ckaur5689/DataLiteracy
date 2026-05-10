@@ -91,27 +91,26 @@ Age-specific rates
 
 ## Example 2:
 
-Cohort	ED Attendances per 100k
-0–19	  5,800
-20–64	  1,200
-65+	    8,700
+     Cohort	  ED Attendances per 100k
+     0–19	    5,800
+     20–64	   1,200
+     65+	     8,700
 
 This is usually:
-
     easier to interpret
     operationally meaningful
     clinically intuitive
     Practical NHS Guidance
 
-Use ESP / standard populations when:
+# Use ESP / standard populations when:
 
-Public health style comparison
+Public health style comparison:
   mortality
   prevalence
   admissions
   inequalities
 
-Benchmarking
+Benchmarking:
   comparing ICBs
   comparing local authorities
   comparing Trust populations
@@ -121,18 +120,18 @@ Research / publication
   comparability
 
 ## Use Actual Population Cohorts When:
-Operational analytics
+Operational analytics:
     capacity planning
     demand modelling
     workforce planning
     frailty services
     community services
 
-Population health management
+Population health management:
   identifying actual burden
   targeting interventions
 
-Service utilisation analysis
+Service utilisation analysis:
   who is using services
   where pressure originates
   
@@ -161,14 +160,14 @@ A Strong Rule of Thumb
 
 ##For fair comparison:
 
-Use age-standardised rates.
+   Use age-standardised rates.
 
 ##For operational decision-making:
 
-Use actual age-specific demand profiles.
+  Use actual age-specific demand profiles.
 
 ## Consideration #2
-## When setting reduction targets e.g. ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts
+# When setting reduction targets e.g. ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts
 
 No — applying the same percentage reduction target across two ICBs is often *not* fair or operationally realistic, even if both are measured using rates.
 

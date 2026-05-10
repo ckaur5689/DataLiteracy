@@ -91,10 +91,12 @@ Age-specific rates
 
 ## Example 2:
 
-     Cohort	  | ED Attendances per 100k
-     0–19	    | 5,800
-     20–64	   | 1,200
-     65+	     |  8,700
+
+| Cohort   | ED Attendances per 100k  |
+| -------- | ------------------------ |
+|  0–19    | 5,800                    |
+| 20–64	   | 1,200                    |
+| 65+      | 8,700                    |
 
 This is usually:
     easier to interpret

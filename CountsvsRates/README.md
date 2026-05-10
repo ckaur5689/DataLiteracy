@@ -24,7 +24,8 @@
   For healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure
   so comparisons are fair.
     
-      Use national standard populations (e.g.European Standard Population/ESP2013 or directly standardised national populations) when:
+      Use national standard populations (e.g.European Standard Population/ESP2013 or directly standardised national populations)
+      when:
         comparing areas fairly
         benchmarking organisations
         tracking inequalities

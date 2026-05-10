@@ -11,30 +11,31 @@
 
    What about the scenario when age profiles are different amongst geographical areas?
     
-   For example there is are proportionally more working age people in ICB B compared to ICB A or when more people aged 65 and over in ICB B compared to ICB A. 
+   For example there is are proportionally more working age people in ICB B compared to ICB A or when more people aged 65 and over
+   in ICB B compared to ICB A. 
     
 ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_AgeProfiles.png)
 
 
- ## Consideration #2
-
-  What about age standardised rates? For what purpose is it important to switch to these?
+  This is when it might be appropriate to switch to age standardised rates? For what purpose is it important to switch to these?
 
   It depends on the purpose of the comparison and what question you are trying to answer.
 
-  For healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure so comparisons are fair.
+  For healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure
+  so comparisons are fair.
     
       Use national standard populations (e.g. European Standard Population / ESP2013 or directly standardised national populations) when:
-      comparing areas fairly
-      benchmarking organisations
-      tracking inequalities
-      publishing comparable rates
-      supporting epidemiological/public health interpretation
+        comparing areas fairly
+        benchmarking organisations
+        tracking inequalities
+        publishing comparable rates
+        supporting epidemiological/public health interpretation
+      
       Use actual local population cohorts or age-specific rates when:
-      operational planning matters more than comparability
-      you want to understand real demand
-      analysing service utilisation by age
-      working with specific cohorts (e.g. frailty, paediatrics, working-age adults)
+        operational planning matters more than comparability
+        you want to understand real demand
+        analysing service utilisation by age
+        working with specific cohorts (e.g. frailty, paediatrics, working-age adults)
 
  For many NHS operational use cases, age-specific rates are often more interpretable than a single age-standardised figure.
 

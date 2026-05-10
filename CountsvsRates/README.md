@@ -447,7 +447,7 @@ with:
 all influencing achievable reduction.
 
 ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountvsRates_UnfairReductionTargets.png)
- ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_UnfairReductionTargets.png)
+
  
  
 

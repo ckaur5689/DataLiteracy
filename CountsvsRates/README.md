@@ -17,14 +17,14 @@
 ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_AgeProfiles.png)
 
 
- ## When it is important to switch to Age Standardised Rates
+ ## When it is important to consider switching to Age Standardised Rates
 
   Whether to switch or not depends on the purpose of the comparison and what question you are trying to answer.
 
   For healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure
   so comparisons are fair.
     
-      Use national standard populations (e.g. European Standard Population / ESP2013 or directly standardised national populations) when:
+      Use national standard populations (e.g.European Standard Population/ESP2013 or directly standardised national populations) when:
         comparing areas fairly
         benchmarking organisations
         tracking inequalities

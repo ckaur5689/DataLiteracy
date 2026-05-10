@@ -160,11 +160,11 @@ An area with:
 
 A Strong Rule of Thumb
 
-##For fair comparison:
+## For fair comparison:
 
    Use age-standardised rates.
 
-##For operational decision-making:
+## For operational decision-making:
 
   Use actual age-specific demand profiles.
 
@@ -181,9 +181,9 @@ This is exactly where people move from:
 
 The key issue is:
 
-> identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.
+# >> identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.
 
-That is rarely true.
+## That is rarely true.
 
 # Why This Matters
 

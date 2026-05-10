@@ -12,15 +12,18 @@ The aim is to improve data literacy across healthcare by combining:
       - visual analytics
       - strategic interpretation
 
-## Topics include:
+## Topics include (to be confirmed):
 
-      1) rates vs counts
-      2) benchmarking
-      3) regression
-      4) forecasting
-      5) healthcare AI
-      6) interpretability
-      7) operational analytics
+        1. Counts vs Rates
+        2. Mean vs Median
+        3. Correlation vs Causation
+        4. Data Quality
+        5. Forecasting Demand
+        6. Risk Adjustment
+        7. PCA Transparency
+        8. Regression Assumptions
+        9. Explainable AI
+       10. BI → Augmented Analytics
 
 ## Audience:
 

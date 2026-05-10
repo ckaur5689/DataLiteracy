@@ -45,7 +45,7 @@
  ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_Age_FullPicture.png)
 
 
-## Example
+## Example 1:
 
 Imagine:
 
@@ -89,7 +89,7 @@ In these cases, it’s often better to use:
 
 Age-specific rates
 
-## Example:
+## Example 2:
 
 Cohort	ED Attendances per 100k
 0–19	  5,800
@@ -229,7 +229,7 @@ But not:
 
 ---
 
-# Example
+# Example 2
 
 ## ICB A
 

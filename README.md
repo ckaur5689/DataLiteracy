@@ -27,20 +27,20 @@ The aim is to improve data literacy across healthcare by combining:
 
 ## Audience:
 
-   Healthcare analysts
-   BI professionals
-   Data scientists
-   Operational managers
-   Clinicians
-   NHS leaders
-   Students entering healthcare analytics
+         Healthcare analysts
+         BI professionals
+         Data scientists
+         Operational managers
+         Clinicians
+         NHS leaders
+         Students entering healthcare analytics
 
 ## Technologies:
-   Python
-   Pandas
-   Scikit-learn
-   Matplotlib
-   Jupyter Notebooks
+         Python
+         Pandas
+         Scikit-learn
+         Matplotlib
+         Jupyter Notebooks
    
 ## Why This Repository Exists
 

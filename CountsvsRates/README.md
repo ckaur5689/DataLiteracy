@@ -11,7 +11,7 @@
 
    What about the scenario when age profiles are different amongst geographical areas?
     
-   For example there is are proportionally more working age people in ICB B compared to ICB A or when more people aged 65 and over
+   For example there is proportionally more working age people in ICB B compared to ICB A or when more people aged 65 and over
    in ICB B compared to ICB A. 
     
 ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_AgeProfiles.png)

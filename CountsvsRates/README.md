@@ -17,9 +17,9 @@
 ![Alt text](https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_AgeProfiles.png)
 
 
-  This is when it might be appropriate to switch to age standardised rates? For what purpose is it important to switch to these?
+ ## When it is important to switch to Age Standardised Rates
 
-  It depends on the purpose of the comparison and what question you are trying to answer.
+  Whether to switch or not depends on the purpose of the comparison and what question you are trying to answer.
 
   For healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure
   so comparisons are fair.

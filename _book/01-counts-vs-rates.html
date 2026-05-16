@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2&nbsp; Counts vs Rates – Health Data Literacy</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-counts-vs-rates.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Counts vs Rates</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Health Data Literacy</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-counts-vs-rates.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Counts vs Rates</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#example-1" id="toc-example-1" class="nav-link active" data-scroll-target="#example-1"><span class="header-section-number">2.1</span> Example 1:</a></li>
+  <li><a href="#example-2" id="toc-example-2" class="nav-link" data-scroll-target="#example-2"><span class="header-section-number">2.2</span> Example 2:</a></li>
+  <li><a href="#use-esp-standard-populations-when" id="toc-use-esp-standard-populations-when" class="nav-link" data-scroll-target="#use-esp-standard-populations-when"><span class="header-section-number">3</span> Use ESP / standard populations when:</a>
+  <ul class="collapse">
+  <li><a href="#use-actual-population-cohorts-when" id="toc-use-actual-population-cohorts-when" class="nav-link" data-scroll-target="#use-actual-population-cohorts-when"><span class="header-section-number">3.1</span> Use Actual Population Cohorts When:</a></li>
+  <li><a href="#very-important-caveat" id="toc-very-important-caveat" class="nav-link" data-scroll-target="#very-important-caveat"><span class="header-section-number">3.2</span> Very Important Caveat</a></li>
+  <li><a href="#thats-why-executives-should-usually-see-both" id="toc-thats-why-executives-should-usually-see-both" class="nav-link" data-scroll-target="#thats-why-executives-should-usually-see-both"><span class="header-section-number">3.3</span> That’s why executives should usually see BOTH:</a></li>
+  <li><a href="#together" id="toc-together" class="nav-link" data-scroll-target="#together"><span class="header-section-number">3.4</span> Together</a></li>
+  <li><a href="#for-fair-comparison" id="toc-for-fair-comparison" class="nav-link" data-scroll-target="#for-fair-comparison"><span class="header-section-number">3.5</span> For fair comparison:</a></li>
+  <li><a href="#for-operational-decision-making" id="toc-for-operational-decision-making" class="nav-link" data-scroll-target="#for-operational-decision-making"><span class="header-section-number">3.6</span> For operational decision-making:</a></li>
+  <li><a href="#consideration-2" id="toc-consideration-2" class="nav-link" data-scroll-target="#consideration-2"><span class="header-section-number">3.7</span> Consideration #2</a></li>
+  </ul></li>
+  <li><a href="#when-setting-reduction-targets-e.g.-ed-attendances-is-it-fair-to-apply-the-same-reduction-to-both-icbs-even-if-split-into-age-specific-cohorts" id="toc-when-setting-reduction-targets-e.g.-ed-attendances-is-it-fair-to-apply-the-same-reduction-to-both-icbs-even-if-split-into-age-specific-cohorts" class="nav-link" data-scroll-target="#when-setting-reduction-targets-e.g.-ed-attendances-is-it-fair-to-apply-the-same-reduction-to-both-icbs-even-if-split-into-age-specific-cohorts"><span class="header-section-number">4</span> When setting reduction targets e.g.&nbsp;ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts</a></li>
+  <li><a href="#identical-percentage-reductions-assume-the-same-underlying-opportunity-risk-profile-and-pathway-flexibility." id="toc-identical-percentage-reductions-assume-the-same-underlying-opportunity-risk-profile-and-pathway-flexibility." class="nav-link" data-scroll-target="#identical-percentage-reductions-assume-the-same-underlying-opportunity-risk-profile-and-pathway-flexibility."><span class="header-section-number">5</span> &gt;&gt; identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.</a>
+  <ul class="collapse">
+  <li><a href="#that-is-rarely-true." id="toc-that-is-rarely-true." class="nav-link" data-scroll-target="#that-is-rarely-true."><span class="header-section-number">5.1</span> That is rarely true.</a></li>
+  </ul></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters"><span class="header-section-number">6</span> Why This Matters</a></li>
+  <li><a href="#important-nuance" id="toc-important-nuance" class="nav-link" data-scroll-target="#important-nuance"><span class="header-section-number">7</span> Important Nuance</a>
+  <ul class="collapse">
+  <li><a href="#rates-improve-fairness" id="toc-rates-improve-fairness" class="nav-link" data-scroll-target="#rates-improve-fairness"><span class="header-section-number">7.1</span> Rates improve fairness</a></li>
+  </ul></li>
+  <li><a href="#example-2-1" id="toc-example-2-1" class="nav-link" data-scroll-target="#example-2-1"><span class="header-section-number">8</span> Example 2</a>
+  <ul class="collapse">
+  <li><a href="#icb-a" id="toc-icb-a" class="nav-link" data-scroll-target="#icb-a"><span class="header-section-number">8.1</span> ICB A</a></li>
+  <li><a href="#icb-b" id="toc-icb-b" class="nav-link" data-scroll-target="#icb-b"><span class="header-section-number">8.2</span> ICB B</a></li>
+  </ul></li>
+  <li><a href="#what-works-better-operationally" id="toc-what-works-better-operationally" class="nav-link" data-scroll-target="#what-works-better-operationally"><span class="header-section-number">9</span> What Works Better Operationally</a>
+  <ul class="collapse">
+  <li><a href="#understand-reducible-vs-non-reducible-demand" id="toc-understand-reducible-vs-non-reducible-demand" class="nav-link" data-scroll-target="#understand-reducible-vs-non-reducible-demand"><span class="header-section-number">9.1</span> 1. Understand Reducible vs Non-Reducible Demand</a></li>
+  </ul></li>
+  <li><a href="#segment-by-cohort" id="toc-segment-by-cohort" class="nav-link" data-scroll-target="#segment-by-cohort"><span class="header-section-number">10</span> 2. Segment by Cohort</a></li>
+  <li><a href="#use-improvement-opportunity-not-just-current-rate" id="toc-use-improvement-opportunity-not-just-current-rate" class="nav-link" data-scroll-target="#use-improvement-opportunity-not-just-current-rate"><span class="header-section-number">11</span> 3. Use Improvement Opportunity, Not Just Current Rate</a></li>
+  <li><a href="#consider-capacity-constraints" id="toc-consider-capacity-constraints" class="nav-link" data-scroll-target="#consider-capacity-constraints"><span class="header-section-number">12</span> 4. Consider Capacity Constraints</a></li>
+  <li><a href="#use-relative-contextual-targets" id="toc-use-relative-contextual-targets" class="nav-link" data-scroll-target="#use-relative-contextual-targets"><span class="header-section-number">13</span> 5. Use Relative + Contextual Targets</a>
+  <ul class="collapse">
+  <li><a href="#relative-improvement" id="toc-relative-improvement" class="nav-link" data-scroll-target="#relative-improvement"><span class="header-section-number">13.1</span> Relative improvement</a></li>
+  <li><a href="#peer-benchmarking" id="toc-peer-benchmarking" class="nav-link" data-scroll-target="#peer-benchmarking"><span class="header-section-number">13.2</span> Peer benchmarking</a></li>
+  </ul></li>
+  <li><a href="#better-questions-than" id="toc-better-questions-than" class="nav-link" data-scroll-target="#better-questions-than"><span class="header-section-number">14</span> Better Questions Than:</a>
+  <ul class="collapse">
+  <li><a href="#can-both-reduce-by-10" id="toc-can-both-reduce-by-10" class="nav-link" data-scroll-target="#can-both-reduce-by-10"><span class="header-section-number">14.1</span> “Can both reduce by 10%?”</a></li>
+  </ul></li>
+  <li><a href="#in-practice" id="toc-in-practice" class="nav-link" data-scroll-target="#in-practice"><span class="header-section-number">15</span> In Practice</a></li>
+  <li><a href="#analytically" id="toc-analytically" class="nav-link" data-scroll-target="#analytically"><span class="header-section-number">16</span> Analytically</a></li>
+  <li><a href="#a-strong-principle" id="toc-a-strong-principle" class="nav-link" data-scroll-target="#a-strong-principle"><span class="header-section-number">17</span> A Strong Principle</a>
+  <ul class="collapse">
+  <li><a href="#fair-comparison-fair-target" id="toc-fair-comparison-fair-target" class="nav-link" data-scroll-target="#fair-comparison-fair-target"><span class="header-section-number">17.1</span> Fair comparison ≠ fair target</a></li>
+  <li><a href="#fair-comparison-does-not-mean-equal-reduction-targets" id="toc-fair-comparison-does-not-mean-equal-reduction-targets" class="nav-link" data-scroll-target="#fair-comparison-does-not-mean-equal-reduction-targets"><span class="header-section-number">17.2</span> “Fair Comparison Does Not Mean Equal Reduction Targets”</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Counts vs Rates</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Counts are an important metric to gain a feel for volumes of activity or patients. However they are not useful when comparing with other geographical areas.</p>
+<p>Rates (often per 10,000 or 100,000) are often referred to as “Crude Rates” and offer a fairer way for comparison.</p>
+<p><img src="images/CountsvsRates.png" class="img-fluid"></p>
+<p>## Consideration #1</p>
+<p>What about the scenario when age profiles are different amongst geographical areas?</p>
+<p>For example there is proportionally more working age people in ICB B compared to ICB A or when more people aged 65 and over in ICB B compared to ICB A.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/ckaur5689/DataLiteracy/blob/main/images/CountsvsRates_AgeProfiles.png" class="img-fluid figure-img"></p>
+<figcaption>Alt text</figcaption>
+</figure>
+</div>
+<p>## When it is important to consider switching to Age Standardised Rates</p>
+<p>Whether to switch or not depends on the purpose of the comparison and what question you are trying to answer.</p>
+<p>For healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure so comparisons are fair.</p>
+<pre><code>  Use national standard populations (e.g.European Standard Population/ESP2013 or directly standardised national populations)
+  when:
+    comparing areas fairly
+    benchmarking organisations
+    tracking inequalities
+    publishing comparable rates
+    supporting epidemiological/public health interpretation
+  
+  Use actual local population cohorts or age-specific rates when:
+    operational planning matters more than comparability
+    you want to understand real demand
+    analysing service utilisation by age
+    working with specific cohorts (e.g. frailty, paediatrics, working-age adults)</code></pre>
+<p>For many NHS operational use cases, age-specific rates are often more interpretable than a single age-standardised figure.</p>
+<pre><code> Crude rates are useful for operational decision making </code></pre>
+<p><img src="images/CountsvsRates_Age_FullPicture.png" class="img-fluid"></p>
+<section id="example-1" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="example-1"><span class="header-section-number">2.1</span> Example 1:</h2>
+<p>Imagine:</p>
+<pre><code>ICB A - younger urban population
+ICB B - older rural/coastal population</code></pre>
+<p>ED attendance crude rates may naturally be higher in ICB B because:</p>
+<pre><code>  older adults attend ED more often
+  more frailty
+  more multimorbidity</code></pre>
+<p>Age-standardisation removes this structural difference.</p>
+<p>That’s useful if asking:</p>
+<pre><code>“Is the underlying utilisation risk genuinely higher?”</code></pre>
+<p>But less useful if asking:</p>
+<pre><code>“Which system actually needs more ED capacity?”</code></pre>
+<p>Because the actual older population still exists operationally.</p>
+<p>For Specific Age Cohorts</p>
+<p>If you are already analysing:</p>
+<pre><code> - 65+
+ - 0–19
+ - working-age adults
+ - frailty cohorts</code></pre>
+<p>…then applying age-standardisation again can become less meaningful.</p>
+<p>Why?</p>
+<p>Because you’ve already partially controlled for age through cohort restriction.</p>
+<p>In these cases, it’s often better to use:</p>
+<p>Age-specific rates</p>
+</section>
+<section id="example-2" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="example-2"><span class="header-section-number">2.2</span> Example 2:</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Cohort</th>
+<th>ED Attendances per 100k</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0–19</td>
+<td>5,800</td>
+</tr>
+<tr class="even">
+<td>20–64</td>
+<td>1,200</td>
+</tr>
+<tr class="odd">
+<td>65+</td>
+<td>8,700</td>
+</tr>
+</tbody>
+</table>
+<p>This is usually: easier to interpret operationally meaningful clinically intuitive Practical NHS Guidance</p>
+</section>
+<section id="use-esp-standard-populations-when" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Use ESP / standard populations when:</h1>
+<p>Public health style comparison: mortality prevalence admissions inequalities</p>
+<p>Benchmarking: comparing ICBs comparing local authorities comparing Trust populations</p>
+<p>Research / publication reproducibility comparability</p>
+<section id="use-actual-population-cohorts-when" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="use-actual-population-cohorts-when"><span class="header-section-number">3.1</span> Use Actual Population Cohorts When:</h2>
+<p>Operational analytics: capacity planning demand modelling workforce planning frailty services community services</p>
+<p>Population health management: identifying actual burden targeting interventions</p>
+<p>Service utilisation analysis: who is using services where pressure originates</p>
+</section>
+<section id="very-important-caveat" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="very-important-caveat"><span class="header-section-number">3.2</span> Very Important Caveat</h2>
+<p>Age-standardised rates can sometimes obscure true operational burden.</p>
+<p>An area with:</p>
+<p>genuinely older populations higher frailty more multimorbidity</p>
+<p>…may appear “average” after standardisation despite facing substantially greater service pressure.</p>
+</section>
+<section id="thats-why-executives-should-usually-see-both" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="thats-why-executives-should-usually-see-both"><span class="header-section-number">3.3</span> That’s why executives should usually see BOTH:</h2>
+<pre><code>crude rates
+age-standardised rates
+actual counts
+age-specific breakdowns</code></pre>
+</section>
+<section id="together" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="together"><span class="header-section-number">3.4</span> Together</h2>
+<p>A Strong Rule of Thumb</p>
+</section>
+<section id="for-fair-comparison" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="for-fair-comparison"><span class="header-section-number">3.5</span> For fair comparison:</h2>
+<p>Use age-standardised rates.</p>
+</section>
+<section id="for-operational-decision-making" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="for-operational-decision-making"><span class="header-section-number">3.6</span> For operational decision-making:</h2>
+<p>Use actual age-specific demand profiles.</p>
+</section>
+<section id="consideration-2" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="consideration-2"><span class="header-section-number">3.7</span> Consideration #2</h2>
+</section>
+</section>
+<section id="when-setting-reduction-targets-e.g.-ed-attendances-is-it-fair-to-apply-the-same-reduction-to-both-icbs-even-if-split-into-age-specific-cohorts" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> When setting reduction targets e.g.&nbsp;ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts</h1>
+<p>No — applying the same percentage reduction target across two ICBs is often <em>not</em> fair or operationally realistic, even if both are measured using rates.</p>
+<p>This is exactly where people move from:</p>
+<ul>
+<li>simple benchmarking to</li>
+<li>meaningful population-adjusted operational planning.</li>
+</ul>
+<p>The key issue is:</p>
+</section>
+<section id="identical-percentage-reductions-assume-the-same-underlying-opportunity-risk-profile-and-pathway-flexibility." class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> &gt;&gt; identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.</h1>
+<section id="that-is-rarely-true." class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="that-is-rarely-true."><span class="header-section-number">5.1</span> That is rarely true.</h2>
+</section>
+</section>
+<section id="why-this-matters" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Why This Matters</h1>
+<p>Imagine:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>ICB</th>
+<th>Population Profile</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ICB A</td>
+<td>Younger, urban, lower frailty</td>
+</tr>
+<tr class="even">
+<td>ICB B</td>
+<td>Older, rural, higher frailty</td>
+</tr>
+</tbody>
+</table>
+<p>Even after using age-specific ED attendance rates, the systems may still differ because of:</p>
+<ul>
+<li>deprivation</li>
+<li>multimorbidity</li>
+<li>access to primary care</li>
+<li>transport</li>
+<li>care home prevalence</li>
+<li>community service availability</li>
+<li>rurality</li>
+<li>ambulance conveyance patterns</li>
+<li>social care capacity</li>
+</ul>
+<p>So:</p>
+<blockquote class="blockquote">
+<p>a 10% reduction target may be much more achievable in one system than another.</p>
+</blockquote>
+<hr>
+</section>
+<section id="important-nuance" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Important Nuance</h1>
+<section id="rates-improve-fairness" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="rates-improve-fairness"><span class="header-section-number">7.1</span> Rates improve fairness</h2>
+<p>…but they do not eliminate structural differences.</p>
+<p>That’s a crucial distinction.</p>
+<p>Age-specific rates answer:</p>
+<blockquote class="blockquote">
+<p>“Are we comparing similar age groups?”</p>
+</blockquote>
+<p>But not:</p>
+<blockquote class="blockquote">
+<p>“Do these systems have the same modifiable demand?”</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="example-2-1" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Example 2</h1>
+<section id="icb-a" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="icb-a"><span class="header-section-number">8.1</span> ICB A</h2>
+<p>65+ ED attendance rate:</p>
+<ul>
+<li>8,000 per 100k</li>
+</ul>
+<p>Drivers:</p>
+<ul>
+<li>potentially avoidable attendances</li>
+<li>weak same-day urgent care</li>
+<li>poor community frailty support</li>
+</ul>
+<hr>
+</section>
+<section id="icb-b" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="icb-b"><span class="header-section-number">8.2</span> ICB B</h2>
+<p>65+ ED attendance rate:</p>
+<ul>
+<li>8,200 per 100k</li>
+</ul>
+<p>Drivers:</p>
+<ul>
+<li>very elderly population</li>
+<li>care home concentration</li>
+<li>rural transport delays</li>
+<li>higher stroke/frailty burden</li>
+</ul>
+<p>Same rate. Very different operational reality.</p>
+<p>A blanket:</p>
+<blockquote class="blockquote">
+<p>“reduce by 10%”</p>
+</blockquote>
+<p>implicitly assumes equal reducibility.</p>
+<p>That’s often false.</p>
+<hr>
+</section>
+</section>
+<section id="what-works-better-operationally" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> What Works Better Operationally</h1>
+<section id="understand-reducible-vs-non-reducible-demand" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="understand-reducible-vs-non-reducible-demand"><span class="header-section-number">9.1</span> 1. Understand Reducible vs Non-Reducible Demand</h2>
+<p>Some ED activity is:</p>
+<ul>
+<li>clinically appropriate</li>
+<li>structurally unavoidable</li>
+<li>demographically driven</li>
+</ul>
+<p>Some is potentially avoidable.</p>
+<p>Operationally, the focus should be:</p>
+<ul>
+<li>avoidable admissions</li>
+<li>ambulatory-sensitive conditions</li>
+<li>pathway gaps</li>
+<li>delayed community response</li>
+<li>repeat attendance cohorts</li>
+</ul>
+<p>rather than crude overall reductions alone.</p>
+<hr>
+</section>
+</section>
+<section id="segment-by-cohort" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> 2. Segment by Cohort</h1>
+<p>Better targets are often cohort-specific:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Cohort</th>
+<th>Better Target</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Frailty</td>
+<td>reduce avoidable conveyances</td>
+</tr>
+<tr class="even">
+<td>LTCs</td>
+<td>improve proactive management</td>
+</tr>
+<tr class="odd">
+<td>Frequent attenders</td>
+<td>reduce repeat attendances</td>
+</tr>
+<tr class="even">
+<td>Care homes</td>
+<td>improve in-place care</td>
+</tr>
+<tr class="odd">
+<td>Children</td>
+<td>improve same-day access</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="use-improvement-opportunity-not-just-current-rate" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> 3. Use Improvement Opportunity, Not Just Current Rate</h1>
+<p>Two ICBs may have:</p>
+<ul>
+<li>similar rates</li>
+<li>different pathway maturity</li>
+</ul>
+<p>Example:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>System</th>
+<th>Community Frailty Service</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ICB A</td>
+<td>immature</td>
+</tr>
+<tr class="even">
+<td>ICB B</td>
+<td>already optimised</td>
+</tr>
+</tbody>
+</table>
+<p>ICB A may have more achievable reduction opportunity.</p>
+<hr>
+</section>
+<section id="consider-capacity-constraints" class="level1" data-number="12">
+<h1 data-number="12"><span class="header-section-number">12</span> 4. Consider Capacity Constraints</h1>
+<p>Reduction targets often assume systems can absorb demand elsewhere.</p>
+<p>But if:</p>
+<ul>
+<li>community rehab</li>
+<li>urgent community response</li>
+<li>primary care</li>
+<li>virtual wards</li>
+<li>social care</li>
+</ul>
+<p>are weak, ED reduction becomes harder.</p>
+<hr>
+</section>
+<section id="use-relative-contextual-targets" class="level1" data-number="13">
+<h1 data-number="13"><span class="header-section-number">13</span> 5. Use Relative + Contextual Targets</h1>
+<p>Better approaches often combine:</p>
+<section id="relative-improvement" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="relative-improvement"><span class="header-section-number">13.1</span> Relative improvement</h2>
+<p>e.g.</p>
+<ul>
+<li>improve against own baseline</li>
+</ul>
+<p>PLUS</p>
+</section>
+<section id="peer-benchmarking" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="peer-benchmarking"><span class="header-section-number">13.2</span> Peer benchmarking</h2>
+<p>e.g.</p>
+<ul>
+<li>compare against statistically similar systems</li>
+</ul>
+<p>This is more sophisticated than:</p>
+<blockquote class="blockquote">
+<p>“everyone reduce by X%.”</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="better-questions-than" class="level1" data-number="14">
+<h1 data-number="14"><span class="header-section-number">14</span> Better Questions Than:</h1>
+<section id="can-both-reduce-by-10" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="can-both-reduce-by-10"><span class="header-section-number">14.1</span> “Can both reduce by 10%?”</h2>
+<p>Ask:</p>
+<ul>
+<li>What proportion is avoidable?</li>
+<li>Which cohorts drive growth?</li>
+<li>Which attendances are pathway-sensitive?</li>
+<li>What operational levers exist?</li>
+<li>What capacity exists outside ED?</li>
+<li>What does good look like for similar systems?</li>
+<li>What inequities are driving demand?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="in-practice" class="level1" data-number="15">
+<h1 data-number="15"><span class="header-section-number">15</span> In Practice</h1>
+<p>The most analytically mature systems usually:</p>
+<ul>
+<li>benchmark fairly</li>
+<li>stratify cohorts</li>
+<li>identify modifiable demand</li>
+<li>model realistic improvement opportunity</li>
+<li>set pathway-specific targets</li>
+</ul>
+<p>rather than blanket percentage reductions.</p>
+<hr>
+</section>
+<section id="analytically" class="level1" data-number="16">
+<h1 data-number="16"><span class="header-section-number">16</span> Analytically</h1>
+<p>This is where:</p>
+<ul>
+<li>age-standardisation</li>
+<li>cohort segmentation</li>
+<li>risk adjustment</li>
+<li>cluster benchmarking</li>
+<li>deprivation adjustment</li>
+<li>pathway analytics</li>
+</ul>
+<p>become essential.</p>
+<hr>
+</section>
+<section id="a-strong-principle" class="level1" data-number="17">
+<h1 data-number="17"><span class="header-section-number">17</span> A Strong Principle</h1>
+<section id="fair-comparison-fair-target" class="level2" data-number="17.1">
+<h2 data-number="17.1" class="anchored" data-anchor-id="fair-comparison-fair-target"><span class="header-section-number">17.1</span> Fair comparison ≠ fair target</h2>
+<p>That’s an important healthcare analytics lesson.</p>
+<p>Two systems can be fairly compared statistically, while still requiring very different operational expectations.</p>
+<hr>
+</section>
+<section id="fair-comparison-does-not-mean-equal-reduction-targets" class="level2" data-number="17.2">
+<h2 data-number="17.2" class="anchored" data-anchor-id="fair-comparison-does-not-mean-equal-reduction-targets"><span class="header-section-number">17.2</span> “Fair Comparison Does Not Mean Equal Reduction Targets”</h2>
+<p>Showing:</p>
+<pre class="text"><code>Rates
+    ↓
+Fair comparison
+    ≠
+Equal operational opportunity</code></pre>
+<p>with:</p>
+<ul>
+<li>age profile</li>
+<li>frailty</li>
+<li>deprivation</li>
+<li>pathway maturity</li>
+<li>community capacity</li>
+</ul>
+<p>all influencing achievable reduction.</p>
+<p><img src="images/CountvsRates_UnfairReductionTargets.png" class="img-fluid"></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Welcome">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

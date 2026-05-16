@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Health Data Literacy",
+    "section": "",
+    "text": "1 Welcome\nThis Health Data Literacy series uses practical healthcare examples to explain common data and analytics concepts.\nThe aim is to support better interpretation of healthcare data across NHS decision-making, including:\n\noperational analytics\npopulation health\nbenchmarking\ninequalities analysis\npathway improvement",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html",
+    "href": "01-counts-vs-rates.html",
+    "title": "2  Counts vs Rates",
+    "section": "",
+    "text": "2.1 Example 1:\nCounts are an important metric to gain a feel for volumes of activity or patients. However they are not useful when comparing with other geographical areas.\nRates (often per 10,000 or 100,000) are often referred to as “Crude Rates” and offer a fairer way for comparison.\n## Consideration #1\nWhat about the scenario when age profiles are different amongst geographical areas?\nFor example there is proportionally more working age people in ICB B compared to ICB A or when more people aged 65 and over in ICB B compared to ICB A.\n## When it is important to consider switching to Age Standardised Rates\nWhether to switch or not depends on the purpose of the comparison and what question you are trying to answer.\nFor healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure so comparisons are fair.\nFor many NHS operational use cases, age-specific rates are often more interpretable than a single age-standardised figure.\nImagine:\nED attendance crude rates may naturally be higher in ICB B because:\nAge-standardisation removes this structural difference.\nThat’s useful if asking:\nBut less useful if asking:\nBecause the actual older population still exists operationally.\nFor Specific Age Cohorts\nIf you are already analysing:\n…then applying age-standardisation again can become less meaningful.\nWhy?\nBecause you’ve already partially controlled for age through cohort restriction.\nIn these cases, it’s often better to use:\nAge-specific rates",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#example-1",
+    "href": "01-counts-vs-rates.html#example-1",
+    "title": "2  Counts vs Rates",
+    "section": "",
+    "text": "ICB A - younger urban population\nICB B - older rural/coastal population\n\n  older adults attend ED more often\n  more frailty\n  more multimorbidity\n\n\n“Is the underlying utilisation risk genuinely higher?”\n\n“Which system actually needs more ED capacity?”\n\n\n\n - 65+\n - 0–19\n - working-age adults\n - frailty cohorts",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#example-2",
+    "href": "01-counts-vs-rates.html#example-2",
+    "title": "2  Counts vs Rates",
+    "section": "2.2 Example 2:",
+    "text": "2.2 Example 2:\n\n\n\nCohort\nED Attendances per 100k\n\n\n\n\n0–19\n5,800\n\n\n20–64\n1,200\n\n\n65+\n8,700\n\n\n\nThis is usually: easier to interpret operationally meaningful clinically intuitive Practical NHS Guidance",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#use-actual-population-cohorts-when",
+    "href": "01-counts-vs-rates.html#use-actual-population-cohorts-when",
+    "title": "2  Counts vs Rates",
+    "section": "3.1 Use Actual Population Cohorts When:",
+    "text": "3.1 Use Actual Population Cohorts When:\nOperational analytics: capacity planning demand modelling workforce planning frailty services community services\nPopulation health management: identifying actual burden targeting interventions\nService utilisation analysis: who is using services where pressure originates",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#very-important-caveat",
+    "href": "01-counts-vs-rates.html#very-important-caveat",
+    "title": "2  Counts vs Rates",
+    "section": "3.2 Very Important Caveat",
+    "text": "3.2 Very Important Caveat\nAge-standardised rates can sometimes obscure true operational burden.\nAn area with:\ngenuinely older populations higher frailty more multimorbidity\n…may appear “average” after standardisation despite facing substantially greater service pressure.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#thats-why-executives-should-usually-see-both",
+    "href": "01-counts-vs-rates.html#thats-why-executives-should-usually-see-both",
+    "title": "2  Counts vs Rates",
+    "section": "3.3 That’s why executives should usually see BOTH:",
+    "text": "3.3 That’s why executives should usually see BOTH:\ncrude rates\nage-standardised rates\nactual counts\nage-specific breakdowns",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#together",
+    "href": "01-counts-vs-rates.html#together",
+    "title": "2  Counts vs Rates",
+    "section": "3.4 Together",
+    "text": "3.4 Together\nA Strong Rule of Thumb",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#for-fair-comparison",
+    "href": "01-counts-vs-rates.html#for-fair-comparison",
+    "title": "2  Counts vs Rates",
+    "section": "3.5 For fair comparison:",
+    "text": "3.5 For fair comparison:\nUse age-standardised rates.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#for-operational-decision-making",
+    "href": "01-counts-vs-rates.html#for-operational-decision-making",
+    "title": "2  Counts vs Rates",
+    "section": "3.6 For operational decision-making:",
+    "text": "3.6 For operational decision-making:\nUse actual age-specific demand profiles.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#consideration-2",
+    "href": "01-counts-vs-rates.html#consideration-2",
+    "title": "2  Counts vs Rates",
+    "section": "3.7 Consideration #2",
+    "text": "3.7 Consideration #2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#that-is-rarely-true.",
+    "href": "01-counts-vs-rates.html#that-is-rarely-true.",
+    "title": "2  Counts vs Rates",
+    "section": "5.1 That is rarely true.",
+    "text": "5.1 That is rarely true.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#rates-improve-fairness",
+    "href": "01-counts-vs-rates.html#rates-improve-fairness",
+    "title": "2  Counts vs Rates",
+    "section": "7.1 Rates improve fairness",
+    "text": "7.1 Rates improve fairness\n…but they do not eliminate structural differences.\nThat’s a crucial distinction.\nAge-specific rates answer:\n\n“Are we comparing similar age groups?”\n\nBut not:\n\n“Do these systems have the same modifiable demand?”",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#icb-a",
+    "href": "01-counts-vs-rates.html#icb-a",
+    "title": "2  Counts vs Rates",
+    "section": "8.1 ICB A",
+    "text": "8.1 ICB A\n65+ ED attendance rate:\n\n8,000 per 100k\n\nDrivers:\n\npotentially avoidable attendances\nweak same-day urgent care\npoor community frailty support",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#icb-b",
+    "href": "01-counts-vs-rates.html#icb-b",
+    "title": "2  Counts vs Rates",
+    "section": "8.2 ICB B",
+    "text": "8.2 ICB B\n65+ ED attendance rate:\n\n8,200 per 100k\n\nDrivers:\n\nvery elderly population\ncare home concentration\nrural transport delays\nhigher stroke/frailty burden\n\nSame rate. Very different operational reality.\nA blanket:\n\n“reduce by 10%”\n\nimplicitly assumes equal reducibility.\nThat’s often false.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#understand-reducible-vs-non-reducible-demand",
+    "href": "01-counts-vs-rates.html#understand-reducible-vs-non-reducible-demand",
+    "title": "2  Counts vs Rates",
+    "section": "9.1 1. Understand Reducible vs Non-Reducible Demand",
+    "text": "9.1 1. Understand Reducible vs Non-Reducible Demand\nSome ED activity is:\n\nclinically appropriate\nstructurally unavoidable\ndemographically driven\n\nSome is potentially avoidable.\nOperationally, the focus should be:\n\navoidable admissions\nambulatory-sensitive conditions\npathway gaps\ndelayed community response\nrepeat attendance cohorts\n\nrather than crude overall reductions alone.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#relative-improvement",
+    "href": "01-counts-vs-rates.html#relative-improvement",
+    "title": "2  Counts vs Rates",
+    "section": "13.1 Relative improvement",
+    "text": "13.1 Relative improvement\ne.g.\n\nimprove against own baseline\n\nPLUS",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#peer-benchmarking",
+    "href": "01-counts-vs-rates.html#peer-benchmarking",
+    "title": "2  Counts vs Rates",
+    "section": "13.2 Peer benchmarking",
+    "text": "13.2 Peer benchmarking\ne.g.\n\ncompare against statistically similar systems\n\nThis is more sophisticated than:\n\n“everyone reduce by X%.”",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#can-both-reduce-by-10",
+    "href": "01-counts-vs-rates.html#can-both-reduce-by-10",
+    "title": "2  Counts vs Rates",
+    "section": "14.1 “Can both reduce by 10%?”",
+    "text": "14.1 “Can both reduce by 10%?”\nAsk:\n\nWhat proportion is avoidable?\nWhich cohorts drive growth?\nWhich attendances are pathway-sensitive?\nWhat operational levers exist?\nWhat capacity exists outside ED?\nWhat does good look like for similar systems?\nWhat inequities are driving demand?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#fair-comparison-fair-target",
+    "href": "01-counts-vs-rates.html#fair-comparison-fair-target",
+    "title": "2  Counts vs Rates",
+    "section": "17.1 Fair comparison ≠ fair target",
+    "text": "17.1 Fair comparison ≠ fair target\nThat’s an important healthcare analytics lesson.\nTwo systems can be fairly compared statistically, while still requiring very different operational expectations.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  },
+  {
+    "objectID": "01-counts-vs-rates.html#fair-comparison-does-not-mean-equal-reduction-targets",
+    "href": "01-counts-vs-rates.html#fair-comparison-does-not-mean-equal-reduction-targets",
+    "title": "2  Counts vs Rates",
+    "section": "17.2 “Fair Comparison Does Not Mean Equal Reduction Targets”",
+    "text": "17.2 “Fair Comparison Does Not Mean Equal Reduction Targets”\nShowing:\nRates\n    ↓\nFair comparison\n    ≠\nEqual operational opportunity\nwith:\n\nage profile\nfrailty\ndeprivation\npathway maturity\ncommunity capacity\n\nall influencing achievable reduction.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Counts vs Rates</span>"
+    ]
+  }
+]

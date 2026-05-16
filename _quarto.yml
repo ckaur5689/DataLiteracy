@@ -12,5 +12,5 @@ format:
   html:
     theme: cosmo
     toc: true
-    include-in-header: include.html
     number-sections: false
+    include-in-header: include.html

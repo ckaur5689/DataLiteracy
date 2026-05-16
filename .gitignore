@@ -1,2 +1,2 @@
-/.quarto/
-**/*.quarto_ipynb
+.quarto/
+_book/

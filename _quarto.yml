@@ -12,4 +12,4 @@ format:
   html:
     theme: cosmo
     toc: true
-    number-sections: true
+    number-sections: false

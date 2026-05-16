@@ -34,13 +34,6 @@ The aim is to improve data literacy across healthcare by combining:
          Clinicians
          NHS leaders
          Students entering healthcare analytics
-
-## Technologies:
-         Python
-         Pandas
-         Scikit-learn
-         Matplotlib
-         Jupyter Notebooks
    
 ## Why This Repository Exists
 

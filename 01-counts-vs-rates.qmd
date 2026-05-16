@@ -7,7 +7,7 @@
 ![](images/CountsvsRates.png)
 
 
-  ## Consideration #1
+  # Consideration #1
 
    What about the scenario when age profiles are different amongst geographical areas?
     
@@ -17,7 +17,7 @@
 ![](images/CountsvsRates_AgeProfiles.png)
 
 
- ## When it is important to consider switching to Age Standardised Rates
+ # When it is important to consider switching to Age Standardised Rates
 
   Whether to switch or not depends on the purpose of the comparison and what question you are trying to answer.
 
@@ -45,7 +45,7 @@
 ![](images/CountsvsRates_Age_FullPicture.png)
 
 
-## Example 1:
+# Example 1:
 
 Imagine:
 
@@ -121,7 +121,7 @@ Research / publication
   reproducibility
   comparability
 
-## Use Actual Population Cohorts When:
+# Use Actual Population Cohorts When:
 Operational analytics:
     capacity planning
     demand modelling
@@ -137,7 +137,7 @@ Service utilisation analysis:
   who is using services
   where pressure originates
   
-## Very Important Caveat
+# Very Important Caveat
 
 Age-standardised rates can sometimes obscure true operational burden.
 
@@ -149,27 +149,28 @@ An area with:
 
 …may appear “average” after standardisation despite facing substantially greater service pressure.
 
-## That’s why executives should usually see BOTH:
+# That’s why executives should usually see BOTH:
 
     crude rates
     age-standardised rates
     actual counts
     age-specific breakdowns
 
-## Together
+Together
 
-A Strong Rule of Thumb
+# A Strong Rule of Thumb
 
-## For fair comparison:
+For fair comparison:
 
    Use age-standardised rates.
 
-## For operational decision-making:
+For operational decision-making:
 
   Use actual age-specific demand profiles.
 
-## Consideration #2
-# When setting reduction targets e.g. ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts
+# Consideration #2
+ 
+When setting reduction targets e.g. ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts
 
 No — applying the same percentage reduction target across two ICBs is often *not* fair or operationally realistic, even if both are measured using rates.
 
@@ -181,11 +182,11 @@ This is exactly where people move from:
 
 The key issue is:
 
-# >> identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.
+>> identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.
 
-## That is rarely true.
+That is rarely true.
 
-# Why This Matters
+Why This Matters
 
 Imagine:
 
@@ -214,7 +215,7 @@ So:
 
 # Important Nuance
 
-## Rates improve fairness
+Rates improve fairness
 
 …but they do not eliminate structural differences.
 
@@ -232,7 +233,7 @@ But not:
 
 # Example 2
 
-## ICB A
+ICB A
 
 65+ ED attendance rate:
 
@@ -246,7 +247,7 @@ Drivers:
 
 ---
 
-## ICB B
+ICB B
 
 65+ ED attendance rate:
 
@@ -274,7 +275,7 @@ That’s often false.
 
 # What Works Better Operationally
 
-## 1. Understand Reducible vs Non-Reducible Demand
+1. Understand Reducible vs Non-Reducible Demand
 
 Some ED activity is:
 
@@ -296,7 +297,7 @@ rather than crude overall reductions alone.
 
 ---
 
-# 2. Segment by Cohort
+2. Segment by Cohort
 
 Better targets are often cohort-specific:
 
@@ -310,7 +311,7 @@ Better targets are often cohort-specific:
 
 ---
 
-# 3. Use Improvement Opportunity, Not Just Current Rate
+3. Use Improvement Opportunity, Not Just Current Rate
 
 Two ICBs may have:
 
@@ -328,7 +329,7 @@ ICB A may have more achievable reduction opportunity.
 
 ---
 
-# 4. Consider Capacity Constraints
+4. Consider Capacity Constraints
 
 Reduction targets often assume systems can absorb demand elsewhere.
 
@@ -344,7 +345,7 @@ are weak, ED reduction becomes harder.
 
 ---
 
-# 5. Use Relative + Contextual Targets
+5. Use Relative + Contextual Targets
 
 Better approaches often combine:
 
@@ -356,7 +357,7 @@ e.g.
 
 PLUS
 
-## Peer benchmarking
+# Peer benchmarking
 
 e.g.
 
@@ -368,9 +369,9 @@ This is more sophisticated than:
 
 ---
 
-# Better Questions Than:
+Better Questions Than:
 
-## “Can both reduce by 10%?”
+“Can both reduce by 10%?”
 
 Ask:
 
@@ -384,7 +385,7 @@ Ask:
 
 ---
 
-# In Practice
+In Practice
 
 The most analytically mature systems usually:
 
@@ -398,7 +399,7 @@ rather than blanket percentage reductions.
 
 ---
 
-# Analytically
+Analytically
 
 This is where:
 
@@ -413,9 +414,9 @@ become essential.
 
 ---
 
-# A Strong Principle
+# A Strong Principle - Fair comparison ≠ fair target
 
-## Fair comparison ≠ fair target
+"Fair comparison ≠ fair target"
 
 That’s an important healthcare analytics lesson.
 
@@ -424,7 +425,7 @@ while still requiring very different operational expectations.
 
 ---
 
-## “Fair Comparison Does Not Mean Equal Reduction Targets”
+ “Fair Comparison Does Not Mean Equal Reduction Targets”
 
 Showing:
 

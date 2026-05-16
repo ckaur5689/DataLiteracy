@@ -89,7 +89,7 @@ In these cases, it’s often better to use:
 
 Age-specific rates
 
-## Example 2:
+# Example 2:
 
 
 | Cohort   | ED Attendances per 100k  |
@@ -168,7 +168,7 @@ For operational decision-making:
 
   Use actual age-specific demand profiles.
 
-# Consideration #2
+# Consideration 2
  
 When setting reduction targets e.g. ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts
 
@@ -231,7 +231,7 @@ But not:
 
 ---
 
-# Example 2
+# Example 3
 
 ICB A
 
@@ -318,7 +318,7 @@ Two ICBs may have:
 * similar rates
 * different pathway maturity
 
-Example:
+Example 5:
 
 | System | Community Frailty Service |
 | ------ | ------------------------- |
@@ -349,7 +349,7 @@ are weak, ED reduction becomes harder.
 
 Better approaches often combine:
 
-## Relative improvement
+# Relative improvement
 
 e.g.
 

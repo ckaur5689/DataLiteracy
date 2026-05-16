@@ -9,8 +9,6 @@ book:
   chapters:
     - index.qmd
     - 01-counts-vs-rates.qmd
-    - 02-mean-vs-median.qmd
-    - 03-correlation-vs-causation.qmd
 
 format:
   html:

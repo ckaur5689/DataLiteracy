@@ -7,7 +7,7 @@
 ![](images/CountsvsRates.png)
 
 
-  # Consideration 1
+ # Consideration 1
 
    What about the scenario when age profiles are different amongst geographical areas?
     
@@ -121,7 +121,8 @@ Research / publication
   reproducibility
   comparability
 
-# Use Actual Population Cohorts When:
+# Use Actual Population Cohorts When?
+
 Operational analytics:
     capacity planning
     demand modelling
@@ -231,7 +232,7 @@ But not:
 
 ---
 
-# Example 3
+# Example 3:
 
 ICB A
 

@@ -7,7 +7,7 @@
 ![](images/CountsvsRates.png)
 
 
- # Consideration 1
+# Consideration 1
 
    What about the scenario when age profiles are different amongst geographical areas?
     

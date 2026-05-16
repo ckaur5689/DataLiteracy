@@ -1,0 +1,11 @@
+# Welcome
+
+This Health Data Literacy series uses practical healthcare examples to explain common data and analytics concepts.
+
+The aim is to support better interpretation of healthcare data across NHS decision-making, including:
+
+- operational analytics
+- population health
+- benchmarking
+- inequalities analysis
+- pathway improvement

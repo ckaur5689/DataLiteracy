@@ -333,7 +333,7 @@ Adjustment attempts to account for these differences so comparisons become faire
 
 An age-specific rate is calculated separately for each age group:
 
-
+ - placeholder for formulae
 
 
 This allows comparison within similar age groups.
@@ -344,7 +344,7 @@ This allows comparison within similar age groups.
 
 Age-standardisation applies a standard population structure to both populations:
 
-
+ - placeholder for formulae
 
 This answers:
 
@@ -374,11 +374,10 @@ Smoking may be represented as:
 
 Smoker = 1
 Non-smoker = 0
-```
 
 Example model:
 
-
+  - placeholder for formulae
 
 This estimates whether deprivation remains associated with stroke mortality after accounting for smoking prevalence.
 
@@ -401,7 +400,7 @@ where:
 
 Diabetes may also be included:
 
-\log\left(\frac{p}{1-p}\right)=\beta_0+\beta_1(\text{deprivation})+\beta_2(\text{age})+\beta_3(\text{smoking})+\beta_4(\text{hypertension})+\beta_5(\text{diabetes})
+ - placeholder for formulae
 
 This helps distinguish:
 
@@ -421,7 +420,7 @@ Frailty can be represented in several ways:
 
 Example model:
 
-\log\left(\frac{p}{1-p}\right)=\beta_0+\beta_1(\text{deprivation})+\beta_2(\text{age})+\beta_3(\text{smoking})+\beta_4(\text{hypertension})+\beta_5(\text{diabetes})+\beta_6(\text{frailty})
+ - placeholder for formulae
 
 This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.
 

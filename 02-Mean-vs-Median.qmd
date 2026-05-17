@@ -99,7 +99,7 @@ However, a relatively small number of long-stay patients can account for a dispr
 
 Operationally, this matters enormously.
 
-![](images/Mean-vs-Medians_LoS.png)
+![](images/MeanvsMedian_LoS.png)
 
 ---
 

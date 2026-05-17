@@ -7,7 +7,7 @@ book:
   chapters:
     - index.qmd
     - 01-counts-vs-rates.qmd
-    - 02-mean-vs-median.qmd
+    - 02-Mean-vs-Median.qmd
 
 format:
   html:

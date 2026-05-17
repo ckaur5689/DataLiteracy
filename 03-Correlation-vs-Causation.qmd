@@ -108,7 +108,6 @@ This means:
 
 ![](images/CorrelationvsCausation.png)
 
-
 ---
 
 # Confounding Variables
@@ -239,7 +238,6 @@ This moves analytics from:
 
 Effective healthcare analytics often follows this progression:
 
-```text id="v8mjlwm"
 Correlation
     ↓
 Identify underlying drivers
@@ -379,7 +377,6 @@ may all influence stroke outcomes simultaneously.
 
 Smoking may be represented as:
 
-```text id="ffdnl4"
 Smoker = 1
 Non-smoker = 0
 ```
@@ -434,6 +431,7 @@ Example model:
 This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.
 
 ---
+![](images/AppendixA_HowAdjustmentWorks)
 
 # Important Interpretation Point
 

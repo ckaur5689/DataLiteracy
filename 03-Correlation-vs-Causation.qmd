@@ -247,7 +247,7 @@ Cohort segmentation
 Operational targeting
     ↓
 Pathway redesign
-```
+
 
 This is where analytics becomes most valuable.
 
@@ -329,15 +329,12 @@ Adjustment attempts to account for these differences so comparisons become faire
 
 # Age Adjustment
 
-## Age-specific rate
+# Age-specific rate
 
 An age-specific rate is calculated separately for each age group:
 
-\text{Age-specific rate} = \frac{\text{Stroke deaths in age group}}{\text{Population in age group}} \times 100,000
 
-Example:
 
-\frac{120}{50,000} \times 100,000 = 240 \text{ per 100,000}
 
 This allows comparison within similar age groups.
 
@@ -347,7 +344,7 @@ This allows comparison within similar age groups.
 
 Age-standardisation applies a standard population structure to both populations:
 
-\text{Age-standardised rate} = \frac{\sum(\text{age-specific rate} \times \text{standard population})}{\sum(\text{standard population})}
+
 
 This answers:
 
@@ -381,7 +378,7 @@ Non-smoker = 0
 
 Example model:
 
-\text{Stroke mortality} = \beta_0 + \beta_1(\text{deprivation}) + \beta_2(\text{smoking})
+
 
 This estimates whether deprivation remains associated with stroke mortality after accounting for smoking prevalence.
 
@@ -391,7 +388,7 @@ This estimates whether deprivation remains associated with stroke mortality afte
 
 Hypertension can be added as another variable:
 
-\log\left(\frac{p}{1-p}\right)=\beta_0+\beta_1(\text{deprivation})+\beta_2(\text{age})+\beta_3(\text{smoking})+\beta_4(\text{hypertension})
+
 
 where:
 

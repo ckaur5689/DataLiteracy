@@ -425,8 +425,8 @@ Example model:
 
 This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.
 
----
 ![](images/AppendixA_HowAdjustmentWorks)
+
 
 # Important Interpretation Point
 

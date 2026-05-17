@@ -116,13 +116,11 @@ A confounding variable is a factor that influences both variables being studied.
 
 For example:
 
-```text id="cp9q6j"
 Deprivation
       ↓
 Smoking prevalence
       ↓
 Stroke risk
-```
 
 If smoking prevalence is not considered, we may overestimate the direct effect of deprivation alone.
 
@@ -165,7 +163,7 @@ It means:
 
 Adjustment improves understanding — it does not remove complexity.
 
-### Looking deeper
+# Looking deeper
 
 See:
 
@@ -311,7 +309,7 @@ When reviewing correlated healthcare metrics:
 
 # Appendix — How Adjustment Works
 
-## Why do we adjust healthcare data?
+# Why do we adjust healthcare data?
 
 Healthcare populations are rarely directly comparable.
 

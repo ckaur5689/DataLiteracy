@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Counts vs Rates – Health Data Literacy</title>
+<title>Module 2 — Mean vs Median – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./02-Mean-vs-Median.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./01-counts-vs-rates.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -99,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-counts-vs-rates.html"><span class="chapter-title">Counts vs Rates</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02-Mean-vs-Median.html"><span class="chapter-title">Module 2 — Mean vs Median</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -131,12 +130,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01-counts-vs-rates.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Counts vs Rates</span></a>
+  <a href="./01-counts-vs-rates.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Counts vs Rates</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-Mean-vs-Median.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 2 — Mean vs Median</span></a>
+  <a href="./02-Mean-vs-Median.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 2 — Mean vs Median</span></a>
   </div>
 </li>
     </ul>
@@ -149,21 +148,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#consideration-1" id="toc-consideration-1" class="nav-link active" data-scroll-target="#consideration-1">Consideration 1</a></li>
-  <li><a href="#example-1" id="toc-example-1" class="nav-link" data-scroll-target="#example-1">Example 1:</a></li>
-  <li><a href="#example-2" id="toc-example-2" class="nav-link" data-scroll-target="#example-2">Example 2:</a></li>
-  <li><a href="#use-esp-standard-populations-when" id="toc-use-esp-standard-populations-when" class="nav-link" data-scroll-target="#use-esp-standard-populations-when">Use ESP / standard populations when:</a></li>
-  <li><a href="#use-actual-population-cohorts-when" id="toc-use-actual-population-cohorts-when" class="nav-link" data-scroll-target="#use-actual-population-cohorts-when">Use Actual Population Cohorts When?</a></li>
-  <li><a href="#very-important-caveat" id="toc-very-important-caveat" class="nav-link" data-scroll-target="#very-important-caveat">Very Important Caveat</a></li>
-  <li><a href="#thats-why-executives-should-usually-see-both" id="toc-thats-why-executives-should-usually-see-both" class="nav-link" data-scroll-target="#thats-why-executives-should-usually-see-both">That’s why executives should usually see BOTH:</a></li>
-  <li><a href="#a-strong-rule-of-thumb" id="toc-a-strong-rule-of-thumb" class="nav-link" data-scroll-target="#a-strong-rule-of-thumb">A Strong Rule of Thumb</a></li>
-  <li><a href="#consideration-2" id="toc-consideration-2" class="nav-link" data-scroll-target="#consideration-2">Consideration 2</a></li>
-  <li><a href="#important-nuance" id="toc-important-nuance" class="nav-link" data-scroll-target="#important-nuance">Important Nuance</a></li>
-  <li><a href="#example-3" id="toc-example-3" class="nav-link" data-scroll-target="#example-3">Example 3:</a></li>
-  <li><a href="#what-works-better-operationally" id="toc-what-works-better-operationally" class="nav-link" data-scroll-target="#what-works-better-operationally">What Works Better Operationally</a></li>
-  <li><a href="#relative-improvement" id="toc-relative-improvement" class="nav-link" data-scroll-target="#relative-improvement">Relative improvement</a></li>
-  <li><a href="#peer-benchmarking" id="toc-peer-benchmarking" class="nav-link" data-scroll-target="#peer-benchmarking">Peer benchmarking</a></li>
-  <li><a href="#a-strong-principle---fair-comparison-fair-target" id="toc-a-strong-principle---fair-comparison-fair-target" class="nav-link" data-scroll-target="#a-strong-principle---fair-comparison-fair-target">A Strong Principle - Fair comparison ≠ fair target</a></li>
+  <li><a href="#why-averages-can-hide-operational-reality" id="toc-why-averages-can-hide-operational-reality" class="nav-link active" data-scroll-target="#why-averages-can-hide-operational-reality">Why averages can hide operational reality</a></li>
+  <li><a href="#what-can-an-average-mean" id="toc-what-can-an-average-mean" class="nav-link" data-scroll-target="#what-can-an-average-mean">What can an average mean?</a></li>
+  <li><a href="#why-this-matters-in-healthcare" id="toc-why-this-matters-in-healthcare" class="nav-link" data-scroll-target="#why-this-matters-in-healthcare">Why This Matters in Healthcare</a></li>
+  <li><a href="#mean-vs-median" id="toc-mean-vs-median" class="nav-link" data-scroll-target="#mean-vs-median">Mean vs Median</a></li>
+  <li><a href="#example-length-of-stay-los" id="toc-example-length-of-stay-los" class="nav-link" data-scroll-target="#example-length-of-stay-los">Example — Length of Stay (LoS)</a></li>
+  <li><a href="#why-the-distribution-matters" id="toc-why-the-distribution-matters" class="nav-link" data-scroll-target="#why-the-distribution-matters">Why The Distribution Matters</a></li>
+  <li><a href="#is-it-fair-to-compare-trusts-or-icbs-using-averages" id="toc-is-it-fair-to-compare-trusts-or-icbs-using-averages" class="nav-link" data-scroll-target="#is-it-fair-to-compare-trusts-or-icbs-using-averages">Is It Fair To Compare Trusts or ICBs Using Averages?</a></li>
+  <li><a href="#what-does-model-hospital-use" id="toc-what-does-model-hospital-use" class="nav-link" data-scroll-target="#what-does-model-hospital-use">What Does Model Hospital Use?</a></li>
+  <li><a href="#operational-implications" id="toc-operational-implications" class="nav-link" data-scroll-target="#operational-implications">Operational Implications</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
   </ul>
 </nav>
     </div>
@@ -172,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Counts vs Rates</span></h1>
+<h1 class="title"><span class="chapter-title">Module 2 — Mean vs Median</span></h1>
 </div>
 
 
@@ -189,409 +184,263 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Counts are an important metric to gain a feel for volumes of activity or patients. However they are not useful when comparing with other geographical areas.</p>
-<p>Rates (often per 10,000 or 100,000) are often referred to as “Crude Rates” and offer a fairer way for comparison.</p>
-<p><img src="images/CountsvsRates.png" class="img-fluid"></p>
-<section id="consideration-1" class="level1">
-<h1>Consideration 1</h1>
-<p>What about the scenario when age profiles are different amongst geographical areas?</p>
-<p>For example there is proportionally more working age people in ICB B compared to ICB A or when more people aged 65 and over in ICB B compared to ICB A.</p>
-<p><img src="images/CountsvsRates_AgeProfiles.png" class="img-fluid"></p>
-<p># When it is important to consider switching to Age Standardised Rates</p>
-<p>Whether to switch or not depends on the purpose of the comparison and what question you are trying to answer.</p>
-<p>For healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure so comparisons are fair.</p>
-<pre><code>  Use national standard populations (e.g.European Standard Population/ESP2013 or directly standardised national populations)
-  when:
-    comparing areas fairly
-    benchmarking organisations
-    tracking inequalities
-    publishing comparable rates
-    supporting epidemiological/public health interpretation
-  
-  Use actual local population cohorts or age-specific rates when:
-    operational planning matters more than comparability
-    you want to understand real demand
-    analysing service utilisation by age
-    working with specific cohorts (e.g. frailty, paediatrics, working-age adults)</code></pre>
-<p>For many NHS operational use cases, age-specific rates are often more interpretable than a single age-standardised figure.</p>
-<pre><code> Crude rates are useful for operational decision making </code></pre>
-<p><img src="images/CountsvsRates_Age_FullPicture.png" class="img-fluid"></p>
+<section id="why-averages-can-hide-operational-reality" class="level1">
+<h1>Why averages can hide operational reality</h1>
 </section>
-<section id="example-1" class="level1">
-<h1>Example 1:</h1>
-<p>Imagine:</p>
-<pre><code>ICB A - younger urban population
-ICB B - older rural/coastal population</code></pre>
-<p>ED attendance crude rates may naturally be higher in ICB B because:</p>
-<pre><code>  older adults attend ED more often
-  more frailty
-  more multimorbidity</code></pre>
-<p>Age-standardisation removes this structural difference.</p>
-<p>That’s useful if asking:</p>
-<pre><code>“Is the underlying utilisation risk genuinely higher?”</code></pre>
-<p>But less useful if asking:</p>
-<pre><code>“Which system actually needs more ED capacity?”</code></pre>
-<p>Because the actual older population still exists operationally.</p>
-<p>For Specific Age Cohorts</p>
-<p>If you are already analysing:</p>
-<pre><code> - 65+
- - 0–19
- - working-age adults
- - frailty cohorts</code></pre>
-<p>…then applying age-standardisation again can become less meaningful.</p>
-<p>Why?</p>
-<p>Because you’ve already partially controlled for age through cohort restriction.</p>
-<p>In these cases, it’s often better to use:</p>
-<p>Age-specific rates</p>
-</section>
-<section id="example-2" class="level1">
-<h1>Example 2:</h1>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Cohort</th>
-<th>ED Attendances per 100k</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0–19</td>
-<td>5,800</td>
-</tr>
-<tr class="even">
-<td>20–64</td>
-<td>1,200</td>
-</tr>
-<tr class="odd">
-<td>65+</td>
-<td>8,700</td>
-</tr>
-</tbody>
-</table>
-<p>This is usually: easier to interpret operationally meaningful clinically intuitive Practical NHS Guidance</p>
-</section>
-<section id="use-esp-standard-populations-when" class="level1">
-<h1>Use ESP / standard populations when:</h1>
-<p>Public health style comparison: mortality prevalence admissions inequalities</p>
-<p>Benchmarking: comparing ICBs comparing local authorities comparing Trust populations</p>
-<p>Research / publication reproducibility comparability</p>
-</section>
-<section id="use-actual-population-cohorts-when" class="level1">
-<h1>Use Actual Population Cohorts When?</h1>
-<p>Operational analytics: capacity planning demand modelling workforce planning frailty services community services</p>
-<p>Population health management: identifying actual burden targeting interventions</p>
-<p>Service utilisation analysis: who is using services where pressure originates</p>
-</section>
-<section id="very-important-caveat" class="level1">
-<h1>Very Important Caveat</h1>
-<p>Age-standardised rates can sometimes obscure true operational burden.</p>
-<p>An area with:</p>
-<p>genuinely older populations higher frailty more multimorbidity</p>
-<p>…may appear “average” after standardisation despite facing substantially greater service pressure.</p>
-</section>
-<section id="thats-why-executives-should-usually-see-both" class="level1">
-<h1>That’s why executives should usually see BOTH:</h1>
-<pre><code>crude rates
-age-standardised rates
-actual counts
-age-specific breakdowns</code></pre>
-<p>Together</p>
-</section>
-<section id="a-strong-rule-of-thumb" class="level1">
-<h1>A Strong Rule of Thumb</h1>
-<p>For fair comparison:</p>
-<p>Use age-standardised rates.</p>
-<p>For operational decision-making:</p>
-<p>Use actual age-specific demand profiles.</p>
-</section>
-<section id="consideration-2" class="level1">
-<h1>Consideration 2</h1>
-<p>When setting reduction targets e.g.&nbsp;ED Attendances is it fair to apply the same % reduction to both ICBs even if split into Age specific cohorts</p>
-<p>No — applying the same percentage reduction target across two ICBs is often <em>not</em> fair or operationally realistic, even if both are measured using rates.</p>
-<p>This is exactly where people move from:</p>
+<section id="what-can-an-average-mean" class="level1">
+<h1>What can an average mean?</h1>
+<p>In healthcare analytics, averages are everywhere.</p>
+<p>We regularly see:</p>
 <ul>
-<li>simple benchmarking to</li>
-<li>meaningful population-adjusted operational planning.</li>
+<li>average Length of Stay (LoS)</li>
+<li>average waiting times</li>
+<li>average cost per patient</li>
+<li>average ED attendances</li>
+<li>average theatre utilisation</li>
 </ul>
-<p>The key issue is:</p>
-<blockquote class="blockquote">
-<blockquote class="blockquote">
-<p>identical percentage reductions assume the same underlying opportunity, risk profile, and pathway flexibility.</p>
-</blockquote>
-</blockquote>
-<p>That is rarely true.</p>
-<p>Why This Matters</p>
-<p>Imagine:</p>
+<p>Averages are useful because they simplify complex information into a single number that is easy to communicate and compare.</p>
+<p>But healthcare systems are rarely “average”.</p>
+<p>Behind a single average often sits:</p>
+<ul>
+<li>significant variation</li>
+<li>operational complexity</li>
+<li>long-tail demand</li>
+<li>very different patient experiences</li>
+</ul>
+<p>This means averages can sometimes hide more than they reveal.</p>
+<hr>
+</section>
+<section id="why-this-matters-in-healthcare" class="level1">
+<h1>Why This Matters in Healthcare</h1>
+<p>Suppose two Trusts report the following:</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>ICB</th>
-<th>Population Profile</th>
+<th>Trust</th>
+<th>Average Length of Stay</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ICB A</td>
-<td>Younger, urban, lower frailty</td>
+<td>Trust A</td>
+<td>5.1 days</td>
 </tr>
 <tr class="even">
-<td>ICB B</td>
-<td>Older, rural, higher frailty</td>
+<td>Trust B</td>
+<td>7.2 days</td>
 </tr>
 </tbody>
 </table>
-<p>Even after using age-specific ED attendance rates, the systems may still differ because of:</p>
+<p>At first glance, Trust B may appear less efficient.</p>
+<p>But is that comparison fair?</p>
+<p>What if Trust B:</p>
 <ul>
+<li>serves an older population</li>
+<li>has higher frailty prevalence</li>
+<li>has more patients with multiple long-term conditions</li>
+<li>experiences delayed discharges due to social care pressures</li>
+<li>operates a tertiary specialist service</li>
+<li>has limited community capacity</li>
+</ul>
+<p>The average alone does not tell us this.</p>
+<p>This is one of the most important principles in healthcare analytics:</p>
+<blockquote class="blockquote">
+<p>Averages summarise data — but they do not explain it.</p>
+</blockquote>
+<hr>
+</section>
+<section id="mean-vs-median" class="level1">
+<h1>Mean vs Median</h1>
+<p>Two commonly used “averages” are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th>What it represents</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mean</td>
+<td>The arithmetic average across all patients</td>
+</tr>
+<tr class="even">
+<td>Median</td>
+<td>The middle patient when values are ordered</td>
+</tr>
+</tbody>
+</table>
+<p>The mean is sensitive to extreme values (outliers).</p>
+<p>The median is often more stable and better reflects the “typical” patient experience.</p>
+<hr>
+</section>
+<section id="example-length-of-stay-los" class="level1">
+<h1>Example — Length of Stay (LoS)</h1>
+<p>Length of Stay data is usually heavily right-skewed.</p>
+<p>This means:</p>
+<ul>
+<li>most patients stay a relatively short time</li>
+<li>a small number stay much longer</li>
+<li>those long stays pull the mean upward</li>
+</ul>
+<p>For example:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Patient Group</th>
+<th>Mean LoS</th>
+<th>Median LoS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>All Patients</td>
+<td>6.6 days</td>
+<td>3 days</td>
+</tr>
+<tr class="even">
+<td>Patients aged 65+</td>
+<td>7.9 days</td>
+<td>3 days</td>
+</tr>
+<tr class="odd">
+<td>Moderate/severe frailty</td>
+<td>10.8 days</td>
+<td>4 days</td>
+</tr>
+<tr class="even">
+<td>Multiple long-term conditions</td>
+<td>12.2 days</td>
+<td>4 days</td>
+</tr>
+</tbody>
+</table>
+<p>The median patient may stay only a few days.</p>
+<p>However, a relatively small number of long-stay patients can account for a disproportionate number of occupied bed days.</p>
+<p>Operationally, this matters enormously.</p>
+<p><img src="images/MeanvsMedian_LoS.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="why-the-distribution-matters" class="level1">
+<h1>Why The Distribution Matters</h1>
+<p>If we only report the mean:</p>
+<ul>
+<li>we lose visibility of variation</li>
+<li>we may miss operational bottlenecks</li>
+<li>we may misunderstand where pressure originates</li>
+</ul>
+<p>Understanding the full distribution helps answer more meaningful operational questions:</p>
+<ul>
+<li>Who are our longest-stay patients?</li>
+<li>Why are stays prolonged?</li>
+<li>Which patients drive bed occupancy?</li>
+<li>Are delays clinical, social or pathway-related?</li>
+<li>Where would interventions have the greatest operational impact?</li>
+</ul>
+<p>Sometimes:</p>
+<blockquote class="blockquote">
+<p>the story is in the shape of the data, not just the average.</p>
+</blockquote>
+<hr>
+</section>
+<section id="is-it-fair-to-compare-trusts-or-icbs-using-averages" class="level1">
+<h1>Is It Fair To Compare Trusts or ICBs Using Averages?</h1>
+<p>Partly — but with caution.</p>
+<p>Healthcare organisations serve different populations under different operational conditions.</p>
+<p>Simple averages may not fully account for:</p>
+<ul>
+<li>age structure</li>
 <li>deprivation</li>
-<li>multimorbidity</li>
-<li>access to primary care</li>
-<li>transport</li>
-<li>care home prevalence</li>
-<li>community service availability</li>
+<li>frailty burden</li>
+<li>case complexity</li>
 <li>rurality</li>
-<li>ambulance conveyance patterns</li>
 <li>social care capacity</li>
+<li>community service availability</li>
 </ul>
-<p>So:</p>
+<p>This is why fair comparison often requires:</p>
+<ul>
+<li>peer-group benchmarking</li>
+<li>case-mix adjustment</li>
+<li>pathway segmentation</li>
+<li>contextual interpretation</li>
+</ul>
+<p>Benchmarking should support questions and learning — not simplistic league tables.</p>
+<hr>
+</section>
+<section id="what-does-model-hospital-use" class="level1">
+<h1>What Does Model Hospital Use?</h1>
+<p>NHS England’s Model Hospital (Model Health System) uses many averages and benchmark metrics including:</p>
+<ul>
+<li>average LoS</li>
+<li>theatre utilisation</li>
+<li>productivity metrics</li>
+<li>operational performance indicators</li>
+</ul>
+<p>However, Model Hospital also attempts to improve fairness by using:</p>
+<ul>
+<li>peer-group comparisons</li>
+<li>specialty-level analysis</li>
+<li>segmentation</li>
+<li>contextual benchmarking</li>
+</ul>
+<p>This reflects an important reality:</p>
 <blockquote class="blockquote">
-<p>a 10% reduction target may be much more achievable in one system than another.</p>
+<p>Healthcare operational benchmarking is inherently complex.</p>
 </blockquote>
+<p>No single metric tells the whole story.</p>
 <hr>
 </section>
-<section id="important-nuance" class="level1">
-<h1>Important Nuance</h1>
-<p>Rates improve fairness</p>
-<p>…but they do not eliminate structural differences.</p>
-<p>That’s a crucial distinction.</p>
-<p>Age-specific rates answer:</p>
-<blockquote class="blockquote">
-<p>“Are we comparing similar age groups?”</p>
-</blockquote>
-<p>But not:</p>
-<blockquote class="blockquote">
-<p>“Do these systems have the same modifiable demand?”</p>
-</blockquote>
+<section id="operational-implications" class="level1">
+<h1>Operational Implications</h1>
+<p>Averages remain useful because they:</p>
+<ul>
+<li>summarise activity quickly</li>
+<li>support benchmarking</li>
+<li>identify broad variation</li>
+<li>help monitor trends over time</li>
+</ul>
+<p>But averages alone should rarely drive operational decisions.</p>
+<p>Particularly in healthcare, we must understand:</p>
+<ul>
+<li>variation</li>
+<li>outliers</li>
+<li>long-tail demand</li>
+<li>patient complexity</li>
+<li>operational context</li>
+</ul>
+<p>Otherwise we risk:</p>
+<ul>
+<li>drawing incorrect conclusions</li>
+<li>setting unrealistic targets</li>
+<li>overlooking hidden operational pressures</li>
+</ul>
 <hr>
 </section>
-<section id="example-3" class="level1">
-<h1>Example 3:</h1>
-<p>ICB A</p>
-<p>65+ ED attendance rate:</p>
+<section id="key-takeaways" class="level1">
+<h1>Key Takeaways</h1>
 <ul>
-<li>8,000 per 100k</li>
+<li>The mean and median measure different aspects of a population</li>
+<li>Healthcare data is often skewed rather than normally distributed</li>
+<li>A small number of patients can drive disproportionate operational pressure</li>
+<li>The median often better reflects the “typical” patient experience</li>
+<li>The distribution may matter more than the average itself</li>
+<li>Fair comparison requires context, not just metrics</li>
+<li>Benchmarking should start conversations, not end them</li>
 </ul>
-<p>Drivers:</p>
-<ul>
-<li>potentially avoidable attendances</li>
-<li>weak same-day urgent care</li>
-<li>poor community frailty support</li>
-</ul>
-<hr>
-<p>ICB B</p>
-<p>65+ ED attendance rate:</p>
-<ul>
-<li>8,200 per 100k</li>
-</ul>
-<p>Drivers:</p>
-<ul>
-<li>very elderly population</li>
-<li>care home concentration</li>
-<li>rural transport delays</li>
-<li>higher stroke/frailty burden</li>
-</ul>
-<p>Same rate. Very different operational reality.</p>
-<p>A blanket:</p>
-<blockquote class="blockquote">
-<p>“reduce by 10%”</p>
-</blockquote>
-<p>implicitly assumes equal reducibility.</p>
-<p>That’s often false.</p>
 <hr>
 </section>
-<section id="what-works-better-operationally" class="level1">
-<h1>What Works Better Operationally</h1>
-<ol type="1">
-<li>Understand Reducible vs Non-Reducible Demand</li>
-</ol>
-<p>Some ED activity is:</p>
+<section id="questions-decision-makers-should-ask" class="level1">
+<h1>Questions Decision-Makers Should Ask</h1>
+<p>When reviewing averages:</p>
 <ul>
-<li>clinically appropriate</li>
-<li>structurally unavoidable</li>
-<li>demographically driven</li>
+<li>What does this average actually represent?</li>
+<li>How variable is the underlying data?</li>
+<li>Are there important outliers?</li>
+<li>Are populations comparable?</li>
+<li>What operational factors sit behind the numbers?</li>
+<li>Does the distribution reveal something the average hides?</li>
+<li>What action is realistically possible?</li>
 </ul>
-<p>Some is potentially avoidable.</p>
-<p>Operationally, the focus should be:</p>
-<ul>
-<li>avoidable admissions</li>
-<li>ambulatory-sensitive conditions</li>
-<li>pathway gaps</li>
-<li>delayed community response</li>
-<li>repeat attendance cohorts</li>
-</ul>
-<p>rather than crude overall reductions alone.</p>
-<hr>
-<ol start="2" type="1">
-<li>Segment by Cohort</li>
-</ol>
-<p>Better targets are often cohort-specific:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Cohort</th>
-<th>Better Target</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Frailty</td>
-<td>reduce avoidable conveyances</td>
-</tr>
-<tr class="even">
-<td>LTCs</td>
-<td>improve proactive management</td>
-</tr>
-<tr class="odd">
-<td>Frequent attenders</td>
-<td>reduce repeat attendances</td>
-</tr>
-<tr class="even">
-<td>Care homes</td>
-<td>improve in-place care</td>
-</tr>
-<tr class="odd">
-<td>Children</td>
-<td>improve same-day access</td>
-</tr>
-</tbody>
-</table>
-<hr>
-<ol start="3" type="1">
-<li>Use Improvement Opportunity, Not Just Current Rate</li>
-</ol>
-<p>Two ICBs may have:</p>
-<ul>
-<li>similar rates</li>
-<li>different pathway maturity</li>
-</ul>
-<p>Example 5:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>System</th>
-<th>Community Frailty Service</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ICB A</td>
-<td>immature</td>
-</tr>
-<tr class="even">
-<td>ICB B</td>
-<td>already optimised</td>
-</tr>
-</tbody>
-</table>
-<p>ICB A may have more achievable reduction opportunity.</p>
-<hr>
-<ol start="4" type="1">
-<li>Consider Capacity Constraints</li>
-</ol>
-<p>Reduction targets often assume systems can absorb demand elsewhere.</p>
-<p>But if:</p>
-<ul>
-<li>community rehab</li>
-<li>urgent community response</li>
-<li>primary care</li>
-<li>virtual wards</li>
-<li>social care</li>
-</ul>
-<p>are weak, ED reduction becomes harder.</p>
-<hr>
-<ol start="5" type="1">
-<li>Use Relative + Contextual Targets</li>
-</ol>
-<p>Better approaches often combine:</p>
-</section>
-<section id="relative-improvement" class="level1">
-<h1>Relative improvement</h1>
-<p>e.g.</p>
-<ul>
-<li>improve against own baseline</li>
-</ul>
-<p>PLUS</p>
-</section>
-<section id="peer-benchmarking" class="level1">
-<h1>Peer benchmarking</h1>
-<p>e.g.</p>
-<ul>
-<li>compare against statistically similar systems</li>
-</ul>
-<p>This is more sophisticated than:</p>
-<blockquote class="blockquote">
-<p>“everyone reduce by X%.”</p>
-</blockquote>
-<hr>
-<p>Better Questions Than:</p>
-<p>“Can both reduce by 10%?”</p>
-<p>Ask:</p>
-<ul>
-<li>What proportion is avoidable?</li>
-<li>Which cohorts drive growth?</li>
-<li>Which attendances are pathway-sensitive?</li>
-<li>What operational levers exist?</li>
-<li>What capacity exists outside ED?</li>
-<li>What does good look like for similar systems?</li>
-<li>What inequities are driving demand?</li>
-</ul>
-<hr>
-<p>In Practice</p>
-<p>The most analytically mature systems usually:</p>
-<ul>
-<li>benchmark fairly</li>
-<li>stratify cohorts</li>
-<li>identify modifiable demand</li>
-<li>model realistic improvement opportunity</li>
-<li>set pathway-specific targets</li>
-</ul>
-<p>rather than blanket percentage reductions.</p>
-<hr>
-<p>Analytically</p>
-<p>This is where:</p>
-<ul>
-<li>age-standardisation</li>
-<li>cohort segmentation</li>
-<li>risk adjustment</li>
-<li>cluster benchmarking</li>
-<li>deprivation adjustment</li>
-<li>pathway analytics</li>
-</ul>
-<p>become essential.</p>
-<hr>
-</section>
-<section id="a-strong-principle---fair-comparison-fair-target" class="level1">
-<h1>A Strong Principle - Fair comparison ≠ fair target</h1>
-<p>“Fair comparison ≠ fair target”</p>
-<p>That’s an important healthcare analytics lesson.</p>
-<p>Two systems can be fairly compared statistically, while still requiring very different operational expectations.</p>
-<hr>
-<p>“Fair Comparison Does Not Mean Equal Reduction Targets”</p>
-<p>Showing:</p>
-<pre class="text"><code>Rates
-    ↓
-Fair comparison
-    ≠
-Equal operational opportunity</code></pre>
-<p>with:</p>
-<ul>
-<li>age profile</li>
-<li>frailty</li>
-<li>deprivation</li>
-<li>pathway maturity</li>
-<li>community capacity</li>
-</ul>
-<p>all influencing achievable reduction.</p>
-<p><img src="images/CountvsRates_UnfairReductionTargets.png" class="img-fluid"></p>
 
 
 </section>
@@ -999,14 +848,11 @@ Equal operational opportunity</code></pre>
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Welcome">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Welcome</span></span>
+      <a href="./01-counts-vs-rates.html" class="pagination-link" aria-label="Counts vs Rates">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Counts vs Rates</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./02-Mean-vs-Median.html" class="pagination-link" aria-label="Module 2 — Mean vs Median">
-        <span class="nav-page-text"><span class="chapter-title">Module 2 — Mean vs Median</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

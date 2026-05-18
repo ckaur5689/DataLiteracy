@@ -106,6 +106,8 @@ This means:
 
 > the observed inequality is real, but the pathway causing it is complex.
 
+The example below illustrates how healthcare inequalities often emerge through multiple interconnected risk factors rather than a single direct cause-and-effect relationship.
+
 ![](images/CorrelationvsCausation.png)
 
 ---
@@ -333,8 +335,20 @@ Adjustment attempts to account for these differences so comparisons become faire
 
 An age-specific rate is calculated separately for each age group:
 
- - placeholder for formulae
+$$
+\text{Age-specific rate} =
+\frac{\text{Stroke deaths in age group}}
+{\text{Population in age group}}
+\times 100,000
+$$
 
+Exmample calculation:
+
+$$
+\frac{120}{50,000} \times 100,000
+=
+240 \text{ per 100,000}
+$$
 
 This allows comparison within similar age groups.
 
@@ -344,7 +358,15 @@ This allows comparison within similar age groups.
 
 Age-standardisation applies a standard population structure to both populations:
 
- - placeholder for formulae
+ $$
+\text{Age-standardised rate}
+=
+\frac{
+\sum(\text{age-specific rate} \times \text{standard population})
+}{
+\sum(\text{standard population})
+}
+$$
 
 This answers:
 
@@ -377,7 +399,15 @@ Non-smoker = 0
 
 Example model:
 
-  - placeholder for formulae
+$$
+\text{Stroke mortality}
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{smoking})
+$$
 
 This estimates whether deprivation remains associated with stroke mortality after accounting for smoking prevalence.
 
@@ -387,7 +417,19 @@ This estimates whether deprivation remains associated with stroke mortality afte
 
 Hypertension can be added as another variable:
 
-
+$$
+\log\left(\frac{p}{1-p}\right)
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{age})
++
+\beta_3(\text{smoking})
++
+\beta_4(\text{hypertension})
+$$
 
 where:
 
@@ -400,7 +442,21 @@ where:
 
 Diabetes may also be included:
 
- - placeholder for formulae
+$$
+\log\left(\frac{p}{1-p}\right)
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{age})
++
+\beta_3(\text{smoking})
++
+\beta_4(\text{hypertension})
++
+\beta_5(\text{diabetes})
+$$
 
 This helps distinguish:
 
@@ -420,9 +476,27 @@ Frailty can be represented in several ways:
 
 Example model:
 
- - placeholder for formulae
+$$
+\log\left(\frac{p}{1-p}\right)
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{age})
++
+\beta_3(\text{smoking})
++
+\beta_4(\text{hypertension})
++
+\beta_5(\text{diabetes})
++
+\beta_6(\text{frailty})
+$$
 
 This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.
+
+The diagram below summarises some of the most common approaches used to adjust healthcare data and improve fairness in comparison.
 
 ![](images/AppendixA_HowAdjustmentWorks)
 

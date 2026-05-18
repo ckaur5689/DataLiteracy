@@ -9,3 +9,5 @@ The aim is to support better interpretation of healthcare data across NHS decisi
 - benchmarking
 - inequalities analysis
 - pathway improvement
+
+# Look out for the "Questions Decision-Makers Should Ask" section in each module

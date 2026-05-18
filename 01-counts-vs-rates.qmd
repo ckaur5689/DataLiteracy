@@ -454,18 +454,18 @@ all influencing achievable reduction.
  
  When reviewing healthcare activity counts or rates:
 
- - Are we comparing populations of similar size?
- - Do the populations have similar age structures?
- - Would a rate provide a fairer comparison than a raw count?
- - Does a higher rate reflect greater need, better identification, or both?
- - Are there underlying differences in deprivation, frailty or multimorbidity?
- - Is operational demand driven by a particular age cohort or patient group?
- - Are we comparing populations with similar service availability and access?
- - Could differences reflect pathway maturity rather than performance?
- - What does this metric actually represent operationally?
- - Would age-standardisation change the interpretation?
- - Are targets equally realistic across different population profiles?
- - Are we focusing on reducible demand or unavoidable demand?
- - What action is realistically possible from this information?
- - What additional context is needed before drawing conclusions?
- - Are we making a fair comparison — or simply comparing numbers?
+ * Are we comparing populations of similar size?
+ * Do the populations have similar age structures?
+ * Would a rate provide a fairer comparison than a raw count?
+ * Does a higher rate reflect greater need, better identification, or both?
+ * Are there underlying differences in deprivation, frailty or multimorbidity?
+ * Is operational demand driven by a particular age cohort or patient group?
+ * Are we comparing populations with similar service availability and access?
+ * Could differences reflect pathway maturity rather than performance?
+ * What does this metric actually represent operationally?
+ * Would age-standardisation change the interpretation?
+ * Are targets equally realistic across different population profiles?
+ * Are we focusing on reducible demand or unavoidable demand?
+ * What action is realistically possible from this information?
+ * What additional context is needed before drawing conclusions?
+ * Are we making a fair comparison — or simply comparing numbers?

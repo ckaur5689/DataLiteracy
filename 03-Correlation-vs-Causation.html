@@ -86,6 +86,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -331,6 +360,7 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>the observed inequality is real, but the pathway causing it is complex.</p>
 </blockquote>
+<p>The example below illustrates how healthcare inequalities often emerge through multiple interconnected risk factors rather than a single direct cause-and-effect relationship.</p>
 <p><img src="images/CorrelationvsCausation.png" class="img-fluid"></p>
 <hr>
 </section>
@@ -527,18 +557,33 @@ ul.task-list li input[type="checkbox"] {
 <section id="age-specific-rate" class="level1">
 <h1>Age-specific rate</h1>
 <p>An age-specific rate is calculated separately for each age group:</p>
-<ul>
-<li>placeholder for formulae</li>
-</ul>
+<p><span class="math display">\[
+\text{Age-specific rate} =
+\frac{\text{Stroke deaths in age group}}
+{\text{Population in age group}}
+\times 100,000
+\]</span></p>
+<p>Exmample calculation:</p>
+<p><span class="math display">\[
+\frac{120}{50,000} \times 100,000
+=
+240 \text{ per 100,000}
+\]</span></p>
 <p>This allows comparison within similar age groups.</p>
 <hr>
 </section>
 <section id="direct-age-standardised-rate" class="level1">
 <h1>Direct age-standardised rate</h1>
 <p>Age-standardisation applies a standard population structure to both populations:</p>
-<ul>
-<li>placeholder for formulae</li>
-</ul>
+<p><span class="math display">\[
+\text{Age-standardised rate}
+=
+\frac{
+\sum(\text{age-specific rate} \times \text{standard population})
+}{
+\sum(\text{standard population})
+}
+\]</span></p>
 <p>This answers:</p>
 <blockquote class="blockquote">
 <p>“What would the outcome rate look like if both populations had the same age structure?”</p>
@@ -564,15 +609,34 @@ ul.task-list li input[type="checkbox"] {
 <p>Smoking may be represented as:</p>
 <p>Smoker = 1 Non-smoker = 0</p>
 <p>Example model:</p>
-<ul>
-<li>placeholder for formulae</li>
-</ul>
+<p><span class="math display">\[
+\text{Stroke mortality}
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{smoking})
+\]</span></p>
 <p>This estimates whether deprivation remains associated with stroke mortality after accounting for smoking prevalence.</p>
 <hr>
 </section>
 <section id="hypertension-adjustment" class="level1">
 <h1>Hypertension Adjustment</h1>
 <p>Hypertension can be added as another variable:</p>
+<p><span class="math display">\[
+\log\left(\frac{p}{1-p}\right)
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{age})
++
+\beta_3(\text{smoking})
++
+\beta_4(\text{hypertension})
+\]</span></p>
 <p>where:</p>
 <ul>
 <li><ol start="16" type="a">
@@ -585,9 +649,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="diabetes-adjustment" class="level1">
 <h1>Diabetes Adjustment</h1>
 <p>Diabetes may also be included:</p>
-<ul>
-<li>placeholder for formulae</li>
-</ul>
+<p><span class="math display">\[
+\log\left(\frac{p}{1-p}\right)
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{age})
++
+\beta_3(\text{smoking})
++
+\beta_4(\text{hypertension})
++
+\beta_5(\text{diabetes})
+\]</span></p>
 <p>This helps distinguish:</p>
 <ul>
 <li>the relationship between deprivation and stroke outcomes from</li>
@@ -604,10 +680,25 @@ ul.task-list li input[type="checkbox"] {
 <li>electronic frailty index (EFI)</li>
 </ul>
 <p>Example model:</p>
-<ul>
-<li>placeholder for formulae</li>
-</ul>
+<p><span class="math display">\[
+\log\left(\frac{p}{1-p}\right)
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{age})
++
+\beta_3(\text{smoking})
++
+\beta_4(\text{hypertension})
++
+\beta_5(\text{diabetes})
++
+\beta_6(\text{frailty})
+\]</span></p>
 <p>This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.</p>
+<p>The diagram below summarises some of the most common approaches used to adjust healthcare data and improve fairness in comparison.</p>
 <p><img src="images/AppendixA_HowAdjustmentWorks.png" class="img-fluid"></p>
 </section>
 <section id="important-interpretation-point" class="level1">

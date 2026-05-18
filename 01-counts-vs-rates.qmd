@@ -1,4 +1,4 @@
-# Counts vs Rates
+# Module 1 - Counts vs Rates
 
  Counts are an important metric to gain a feel for volumes of activity or patients. However they are not useful when comparing with other geographical areas.
 

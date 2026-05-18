@@ -15,4 +15,5 @@ format:
     theme: cosmo
     toc: true
     number-sections: false
+    html-math-method: mathjax
     include-in-header: include.html

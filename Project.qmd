@@ -1,0 +1,242 @@
+# Project - Healthcare Data Literacy Series
+
+Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics
+Timeline: 6 months from May 2026
+Author: Chandan Kaur  
+Audience: Analysts and Decision Makers
+
+# Project Overview
+
+The Healthcare Data Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.
+
+The series aims to bridge the gap between:
+
+healthcare analysts
+and
+decision-makers, operational leaders, clinicians and service managers.
+
+Rather than focusing purely on statistical methods or software training, the series focuses on:
+
+	- analytical reasoning
+	- interpretation
+	- operational context
+	- fair comparison
+	- healthcare systems thinking
+	- communicating uncertainty and complexity appropriately.
+
+The resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.
+
+# Why This Project Matters
+
+Healthcare organisations increasingly rely on data to:
+
+	- prioritise resources
+	- benchmark services
+	- monitor inequalities
+	- redesign pathways
+	- support operational and strategic decisions.
+
+However:
+
+	- healthcare metrics are often misunderstood or oversimplified
+	- comparisons between organisations are not always fair
+	- dashboards can unintentionally hide operational reality
+	- analytical outputs may lack sufficient context or interpretation.
+
+This project aims to improve:
+
+	- healthcare data literacy
+	- analytical questioning
+	- interpretation of metrics
+	- understanding of variation and fairness
+	- communication between analysts and decision-makers.
+
+The long-term goal is to support:
+
+better questions, better interpretation and better decision-making across healthcare systems.
+
+# Project Objectives
+
+The project aims to:
+
+	Develop a structured NHS-focused healthcare data literacy series
+	Improve understanding of common healthcare analytics concepts and pitfalls
+	Support fairer interpretation of healthcare metrics and benchmarking
+	Help decision-makers understand operational context behind the numbers
+	Improve communication between analysts and healthcare leaders
+	Create practical examples using realistic NHS operational scenarios
+	Provide openly accessible educational resources for healthcare systems
+	Support analytical maturity across NHS organisations
+
+# Core Principles
+
+The series will aim to be:
+
+	* Operationally grounded
+	* Accessible to non-statisticians
+	* NHS-relevant
+	* Visually engaging
+	* Conceptually rigorous
+	* Openly accessible
+	* Practical rather than academic
+	* Focused on interpretation and reasoning rather than software training
+
+Proposed Initial Modules:
+
+# Part 1 — Foundations of Healthcare Analytics Interpretation
+	- Counts vs Rates
+	- Mean vs Median
+	- Correlation vs Causation
+	- Variation & Distributions
+	- Standardisation & Fair Comparison
+
+# Part 2 — Understanding Healthcare Systems
+
+	- Population Health Management & Segmentation
+	- Demand, Capacity & Operational Flow
+	- Pathway Analytics & Intervention Design
+
+# Part 3 — Modern Healthcare Analytics
+
+	- Explainable AI in Healthcare
+	- Predictive Modelling & Risk Stratification
+	- BI to Augmented Analytics
+	- AI, Sustainability & Healthcare Systems
+
+# The project will include:
+
+	* Publicly accessible Quarto/GitHub Pages digital book
+	* Educational modules with practical NHS examples
+	* Visual infographics and diagrams
+	* Operational interpretation examples
+	* Decision-maker reflection questions
+	* Worked healthcare scenarios
+	* Supporting presentation materials
+	* Executive summaries and quick-reference guides
+	* Optional downloadable PDF/Word versions
+
+# What Is Out Of Scope
+
+The project will not focus on:
+
+	* Software-specific technical training
+	* Coding tutorials
+	* Advanced statistical derivations
+	* NHS data governance policy documentation
+	* Building analytical platforms or infrastructure
+	* Formal accreditation or certification
+	* Organisation-specific implementation programmes
+
+# Target Audience
+
+Primary audiences include:
+
+	* Healthcare operational leaders
+	* Service managers
+	* Clinicians
+	* Public health teams
+	* BI and analytics teams
+	* Integrated Care Board colleagues
+	* NHS transformation teams
+	* Informatics trainees and early-career analysts
+
+Secondary audiences may include:
+
+	* Local authorities
+	* Healthcare consultancies
+	* Academic/public health programmes
+	* Wider public sector analytical communities
+
+# Delivery Approach
+
+## Platform
+	GitHub Pages
+	Quarto Book framework
+	PDF and Word export options
+
+## Style
+	Visual and example-led
+	Operationally realistic
+	Plain English where possible
+	Progressive conceptual layering
+
+# Project Phases
+
+## Phase 1 — Foundation Development
+## Months 1–2
+	Establish project structure
+	Develop initial visual identity and formatting
+	Create foundational modules
+	Build GitHub/Quarto publishing workflow
+
+## Phase 2 — Core Content Development
+## Months 3–5
+	Develop additional modules
+	Expand operational examples and visual content
+	Gather peer feedback from NHS analytical community
+	Refine educational structure and readability
+
+## Phase 3 — External Review & Refinement
+## Months 5–6
+
+	Seek structured feedback from:
+	NHS CDAO network
+	AphA members
+	healthcare analysts
+	operational leaders
+	Improve content based on feedback
+	Refine visuals and accessibility
+
+## Phase 4 — Publication & Dissemination
+## Month 6 onwards
+
+	Public launch of the series
+	Social and professional dissemination
+	Presentation sessions/webinars
+	Ongoing iterative development
+	Success Measures
+
+Success indicators may include:
+
+  Positive feedback from NHS analysts and operational leaders
+  Adoption within NHS analytical communities
+  Use in analyst onboarding or data literacy initiatives
+  Engagement through GitHub Pages analytics
+  Requests for reuse/adaptation across organisations
+  AphA and/or NHS analytical community endorsement
+  Evidence of improved analytical questioning and interpretation
+
+# Key Assumptions
+	
+  * Contributors can support development alongside operational roles
+	* NHS analytical communities will engage constructively with feedback
+	* Open-access publication is supported
+	* The series will evolve iteratively over time
+
+# Long-Term Vision
+
+The long-term ambition is to create:
+
+  * a widely used NHS healthcare data literacy resource
+  * a practical guide to analytical interpretation in healthcare
+  * an openly accessible educational reference for healthcare analytics and operational decision-making.
+
+The series may later evolve into:
+
+  * a formally published digital book
+  * workshop/training materials
+  * conference presentations
+  * broader healthcare analytical capability resources
+
+# Guiding Philosophy
+
+“Good healthcare analytics is not just about producing numbers.
+It is about helping people interpret, question and use those numbers responsibly within complex healthcare systems.”
+
+
+________________________________________
+Sign-Off:
+Name		      Role						          Signature	  Date
+Chandan Kaur	Senior Strategic BI Lead	CK	        10th May 2026
+			
+			

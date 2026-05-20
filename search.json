@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "Health Data Literacy",
     "section": "",
-    "text": "Welcome\nThis Health Data Literacy series uses practical healthcare examples to explain common data and analytics concepts.\nThe aim is to support better interpretation of healthcare data across NHS decision-making, including:\n\noperational analytics\npopulation health\nbenchmarking\ninequalities analysis\npathway improvement\n\nLook out for the “Questions Decision-Makers Should Ask” section in each module *",
+    "text": "Welcome\nThe Healthcare Data Literacy series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.\nThe series is designed to support: - analysts - operational leaders - clinicians - managers - decision-makers\nin developing a stronger understanding of: - healthcare metrics - variation - benchmarking - inequalities - operational performance - population health - analytical fairness and interpretation\nRather than focusing purely on statistical methods, the series emphasises: - analytical reasoning - operational context - fair comparison - interpretation of healthcare metrics - asking better questions of data\nThe examples throughout the series are intentionally grounded in realistic NHS operational and population health scenarios.\nEach module includes: - practical examples - visual explanations - operational interpretation - “Questions Decision-Makers Should Ask” sections to encourage critical thinking and discussion.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#guiding-philosophy",
+    "href": "index.html#guiding-philosophy",
+    "title": "Health Data Literacy",
+    "section": "Guiding Philosophy",
+    "text": "Guiding Philosophy\n\nGood healthcare analytics is not just about producing numbers.\nIt is about helping people interpret, question and use those numbers responsibly within complex healthcare systems.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
     ]
@@ -255,6 +265,16 @@
     "title": "Project - Healthcare Data Literacy Series",
     "section": "Month 6 onwards",
     "text": "Month 6 onwards\n\nPublic launch of the series\nSocial and professional dissemination\nPresentation sessions/webinars\nOngoing iterative development\nSuccess Measures\n\nSuccess indicators may include:\n\nPositive feedback from NHS analysts and operational leaders\nAdoption within NHS analytical communities\nUse in analyst onboarding or data literacy initiatives\nEngagement through GitHub Pages analytics\nRequests for reuse/adaptation across organisations\nAphA and/or NHS analytical community endorsement\nEvidence of improved analytical questioning and interpretation",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#sign-off",
+    "href": "Project.html#sign-off",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Sign-Off:",
+    "text": "Sign-Off:\nName: Chandan Kaur\nRole: Senior Strategic BI Lead",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]

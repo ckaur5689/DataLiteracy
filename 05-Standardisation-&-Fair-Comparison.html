@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Module 3 — Correlation vs Causation – Health Data Literacy</title>
+<title>Module 5- Standardisation &amp; Fair Comparison – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./04-Variation-&amp;-Distributions.html" rel="next">
-<link href="./02-Mean-vs-Median.html" rel="prev">
+<link href="./04-Variation-&amp;-Distributions.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -87,6 +86,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -99,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-Correlation-vs-Causation.html"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./05-Standardisation-&amp;-Fair-Comparison.html"><span class="chapter-title">Module 5- Standardisation &amp; Fair Comparison</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -141,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
+  <a href="./03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -151,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-Standardisation-&amp;-Fair-Comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 5- Standardisation &amp; Fair Comparison</span></a>
+  <a href="./05-Standardisation-&amp;-Fair-Comparison.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 5- Standardisation &amp; Fair Comparison</span></a>
   </div>
 </li>
     </ul>
@@ -164,19 +192,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#why-relationships-in-healthcare-data-are-rarely-straightforward" id="toc-why-relationships-in-healthcare-data-are-rarely-straightforward" class="nav-link active" data-scroll-target="#why-relationships-in-healthcare-data-are-rarely-straightforward">Why relationships in healthcare data are rarely straightforward</a></li>
-  <li><a href="#when-two-things-move-together-does-one-cause-the-other" id="toc-when-two-things-move-together-does-one-cause-the-other" class="nav-link" data-scroll-target="#when-two-things-move-together-does-one-cause-the-other">When two things move together, does one cause the other?</a></li>
-  <li><a href="#what-is-correlation" id="toc-what-is-correlation" class="nav-link" data-scroll-target="#what-is-correlation">What Is Correlation?</a></li>
-  <li><a href="#correlation-does-not-automatically-mean-causation" id="toc-correlation-does-not-automatically-mean-causation" class="nav-link" data-scroll-target="#correlation-does-not-automatically-mean-causation">Correlation Does Not Automatically Mean Causation</a></li>
-  <li><a href="#example-stroke-outcomes-and-inequalities" id="toc-example-stroke-outcomes-and-inequalities" class="nav-link" data-scroll-target="#example-stroke-outcomes-and-inequalities">Example — Stroke Outcomes and Inequalities</a></li>
-  <li><a href="#confounding-variables" id="toc-confounding-variables" class="nav-link" data-scroll-target="#confounding-variables">Confounding Variables</a></li>
-  <li><a href="#why-adjustment-matters" id="toc-why-adjustment-matters" class="nav-link" data-scroll-target="#why-adjustment-matters">Why Adjustment Matters</a></li>
-  <li><a href="#looking-deeper" id="toc-looking-deeper" class="nav-link" data-scroll-target="#looking-deeper">Looking deeper</a></li>
-  <li><a href="#correlation-can-still-be-extremely-useful" id="toc-correlation-can-still-be-extremely-useful" class="nav-link" data-scroll-target="#correlation-can-still-be-extremely-useful">Correlation Can Still Be Extremely Useful</a></li>
-  <li><a href="#operational-implications" id="toc-operational-implications" class="nav-link" data-scroll-target="#operational-implications">Operational Implications</a></li>
-  <li><a href="#from-correlation-to-operational-action" id="toc-from-correlation-to-operational-action" class="nav-link" data-scroll-target="#from-correlation-to-operational-action">From Correlation to Operational Action</a></li>
-  <li><a href="#why-healthcare-data-is-particularly-complex" id="toc-why-healthcare-data-is-particularly-complex" class="nav-link" data-scroll-target="#why-healthcare-data-is-particularly-complex">Why Healthcare Data Is Particularly Complex</a></li>
+  <li><a href="#why-do-we-adjust-healthcare-data" id="toc-why-do-we-adjust-healthcare-data" class="nav-link active" data-scroll-target="#why-do-we-adjust-healthcare-data">Why do we adjust healthcare data?</a></li>
+  <li><a href="#age-adjustment" id="toc-age-adjustment" class="nav-link" data-scroll-target="#age-adjustment">Age Adjustment</a>
+  <ul class="collapse">
+  <li><a href="#age-specific-rate" id="toc-age-specific-rate" class="nav-link" data-scroll-target="#age-specific-rate">Age-specific rate</a></li>
+  <li><a href="#direct-age-standardised-rate" id="toc-direct-age-standardised-rate" class="nav-link" data-scroll-target="#direct-age-standardised-rate">Direct age-standardised rate</a></li>
+  </ul></li>
+  <li><a href="#which-standard-population-should-we-use" id="toc-which-standard-population-should-we-use" class="nav-link" data-scroll-target="#which-standard-population-should-we-use">Which Standard Population Should We Use?</a>
+  <ul class="collapse">
+  <li><a href="#european-standard-population-esp2013" id="toc-european-standard-population-esp2013" class="nav-link" data-scroll-target="#european-standard-population-esp2013">European Standard Population (ESP2013)</a></li>
+  </ul></li>
+  <li><a href="#when-national-population-structures-may-be-useful" id="toc-when-national-population-structures-may-be-useful" class="nav-link" data-scroll-target="#when-national-population-structures-may-be-useful">When National Population Structures May Be Useful</a></li>
+  <li><a href="#operational-interpretation-matters" id="toc-operational-interpretation-matters" class="nav-link" data-scroll-target="#operational-interpretation-matters">Operational Interpretation Matters</a></li>
+  <li><a href="#adjustment-using-regression-models" id="toc-adjustment-using-regression-models" class="nav-link" data-scroll-target="#adjustment-using-regression-models">Adjustment Using Regression Models</a></li>
+  <li><a href="#frailty-adjustment" id="toc-frailty-adjustment" class="nav-link" data-scroll-target="#frailty-adjustment">Frailty Adjustment</a></li>
+  <li><a href="#important-interpretation-point" id="toc-important-interpretation-point" class="nav-link" data-scroll-target="#important-interpretation-point">Important Interpretation Point</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#key-question-have-we-genuinely-made-a-fair-comparison-between-populations-or-have-we-just-used-statistical-techniques-to-make-the-numbers-look-more-comparable-on-paper" id="toc-key-question-have-we-genuinely-made-a-fair-comparison-between-populations-or-have-we-just-used-statistical-techniques-to-make-the-numbers-look-more-comparable-on-paper" class="nav-link" data-scroll-target="#key-question-have-we-genuinely-made-a-fair-comparison-between-populations-or-have-we-just-used-statistical-techniques-to-make-the-numbers-look-more-comparable-on-paper">Key question: Have we genuinely made a fair comparison between populations — or have we just used statistical techniques to make the numbers look more comparable on paper?”</a></li>
   <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
   </ul>
 </nav>
@@ -186,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Module 3 — Correlation vs Causation</span></h1>
+<h1 class="title"><span class="chapter-title">Module 5- Standardisation &amp; Fair Comparison</span></h1>
 </div>
 
 
@@ -203,162 +235,143 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="why-relationships-in-healthcare-data-are-rarely-straightforward" class="level1">
-<h1>Why relationships in healthcare data are rarely straightforward</h1>
+<p>Healthcare organisations often compare: - admission rates - mortality - ED attendance - stroke outcomes - Length of Stay</p>
+<p>But populations are rarely directly comparable.</p>
+<ul>
+<li>Some areas are older.</li>
+<li>Some experience greater deprivation.</li>
+<li>Some have higher frailty or multimorbidity.</li>
+</ul>
+<p>This creates an important challenge:</p>
+<p>How can we compare healthcare outcomes fairly without losing sight of operational reality?</p>
+<section id="why-do-we-adjust-healthcare-data" class="level1">
+<h1>Why do we adjust healthcare data?</h1>
+<p>Adjustment attempts to account for these differences so comparisons become fairer and more meaningful.</p>
+<hr>
 </section>
-<section id="when-two-things-move-together-does-one-cause-the-other" class="level1">
-<h1>When two things move together, does one cause the other?</h1>
-<p>Healthcare analytics frequently identifies relationships between variables.</p>
+<section id="age-adjustment" class="level1">
+<h1>Age Adjustment</h1>
+<section id="age-specific-rate" class="level2">
+<h2 class="anchored" data-anchor-id="age-specific-rate">Age-specific rate</h2>
+<p>An age-specific rate is calculated separately for each age group:</p>
+<p><span class="math display">\[
+\text{Age-specific rate} =
+\frac{\text{Stroke deaths in age group}}
+{\text{Population in age group}}
+\times 100,000
+\]</span></p>
+<p>Example calculation:</p>
+<p><span class="math display">\[
+\frac{120}{50,000} \times 100,000
+=
+240 \text{ per 100,000}
+\]</span></p>
+<p>This allows comparison within similar age groups.</p>
+<hr>
+</section>
+<section id="direct-age-standardised-rate" class="level2">
+<h2 class="anchored" data-anchor-id="direct-age-standardised-rate">Direct age-standardised rate</h2>
+<p>Age-standardisation applies a standard population structure to both populations:</p>
+<p><span class="math display">\[
+\text{Age-standardised rate}
+=
+\frac{
+\sum(\text{age-specific rate} \times \text{standard population})
+}{
+\sum(\text{standard population})
+}
+\]</span></p>
+<p>This answers:</p>
+<blockquote class="blockquote">
+<p>“What would the outcome rate look like if both populations had the same age structure?”</p>
+</blockquote>
+</section>
+</section>
+<section id="which-standard-population-should-we-use" class="level1">
+<h1>Which Standard Population Should We Use?</h1>
+<p>Age-standardisation requires the use of a standard population structure.</p>
+<p>In England, the most commonly used standard population is the:</p>
+<section id="european-standard-population-esp2013" class="level2">
+<h2 class="anchored" data-anchor-id="european-standard-population-esp2013">European Standard Population (ESP2013)</h2>
+<p>This provides a consistent age distribution that allows fairer comparison between populations with different age structures.</p>
+<p>However, the choice of standard population matters.</p>
+<p>The ESP2013 is widely used because it:</p>
+<ul>
+<li>supports consistency across analyses</li>
+<li>enables comparison between regions and countries</li>
+<li>removes some of the influence of differing age structures</li>
+</ul>
+<p>This is particularly useful for:</p>
+<ul>
+<li>mortality comparisons</li>
+<li>public health analysis</li>
+<li>disease incidence rates</li>
+<li>long-term trend analysis</li>
+</ul>
+<blockquote class="blockquote">
+<p>Important Limitation</p>
+</blockquote>
+<p>The ESP2013 is an artificial reference population.</p>
+<p>It does not necessarily reflect:</p>
+<ul>
+<li>the actual age structure of England</li>
+<li>local ICB populations</li>
+<li>operational healthcare demand</li>
+</ul>
+<blockquote class="blockquote">
+<p>Statistical comparability does not always equal operational comparability.</p>
+</blockquote>
+<p>Example — Older Populations</p>
+<p>Suppose:</p>
+<ul>
+<li>ICB A has a substantially older population</li>
+<li>ICB B has a younger working-age population</li>
+</ul>
+<p>After age-standardisation:</p>
+<p>their rates may appear more similar</p>
+<p>However:</p>
+<p>ICB A may still experience significantly greater operational pressure due to: * frailty * multimorbidity * discharge complexity * higher service utilisation</p>
+<p>This highlights an important distinction:</p>
+<blockquote class="blockquote">
+<p>Statistical comparability does not always equal operational comparability.</p>
+</blockquote>
+</section>
+</section>
+<section id="when-national-population-structures-may-be-useful" class="level1">
+<h1>When National Population Structures May Be Useful</h1>
+<p>In some operational analyses, using:</p>
+<p>national population distributions OR age-specific rates</p>
+<p>may provide a more realistic reflection of expected healthcare demand.</p>
+<p>This can be particularly relevant when analysing:</p>
+<ul>
+<li>specific age cohorts</li>
+<li>service planning</li>
+<li>operational capacity</li>
+<li>demand forecasting</li>
+</ul>
 <p>For example:</p>
 <ul>
-<li>higher deprivation and worse health outcomes</li>
-<li>frailty and increased admissions</li>
-<li>obesity and diabetes</li>
-<li>delayed discharge and longer Length of Stay</li>
-<li>smoking and stroke incidence</li>
+<li>ED attendance rates for people aged 75+</li>
+<li>frailty prevalence</li>
+<li>community service utilisation</li>
 </ul>
-<p>When two variables appear related, this is known as a correlation.</p>
-<p>However, correlation alone does not prove that one variable directly causes the other.</p>
-<p>This distinction matters enormously in healthcare analytics because healthcare systems are complex, interconnected and influenced by many overlapping factors.</p>
-<hr>
+<p>In these situations:</p>
+<ul>
+<li>age-specific operational demand may matter more than fully standardised comparison.</li>
+</ul>
 </section>
-<section id="what-is-correlation" class="level1">
-<h1>What Is Correlation?</h1>
-<p>Correlation describes a relationship between two variables.</p>
+<section id="operational-interpretation-matters" class="level1">
+<h1>Operational Interpretation Matters</h1>
+<p>Neither approach is universally “correct”.</p>
+<p>The appropriate approach depends on the question being asked. For example:</p>
+<p><img src="images/AnalyticalQuestion_MostUsefulApproach.png" class="img-fluid"></p>
+<p><img src="images/StatisticalFairnessvsOperationalReality.png" class="img-fluid"></p>
+</section>
+<section id="adjustment-using-regression-models" class="level1">
+<h1>Adjustment Using Regression Models</h1>
+<p>Standardisation is one approach to improving fairness in comparison.</p>
+<p>Healthcare analytics may also use statistical models to adjust simultaneously for multiple interacting factors.</p>
 <p>For example:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 78%">
-<col style="width: 21%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Observation</th>
-<th>Relationship</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Areas with higher deprivation often have higher stroke mortality</td>
-<td>Positive correlation</td>
-</tr>
-<tr class="even">
-<td>Increased physical activity is associated with lower cardiovascular risk</td>
-<td>Negative correlation</td>
-</tr>
-</tbody>
-</table>
-<p>Correlation helps us:</p>
-<ul>
-<li>identify patterns</li>
-<li>detect variation</li>
-<li>generate hypotheses</li>
-<li>prioritise investigation</li>
-</ul>
-<p>But correlation alone cannot tell us:</p>
-<ul>
-<li>why the relationship exists</li>
-<li>whether the relationship is direct</li>
-<li>whether other factors are involved</li>
-</ul>
-<hr>
-</section>
-<section id="correlation-does-not-automatically-mean-causation" class="level1">
-<h1>Correlation Does Not Automatically Mean Causation</h1>
-<p>Suppose we observe:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Area</th>
-<th>Stroke Mortality</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Most deprived areas</td>
-<td>Higher</td>
-</tr>
-<tr class="even">
-<td>Least deprived areas</td>
-<td>Lower</td>
-</tr>
-</tbody>
-</table>
-<p>It may be tempting to conclude:</p>
-<blockquote class="blockquote">
-<p>“Deprivation directly causes higher stroke mortality.”</p>
-</blockquote>
-<p>However, healthcare outcomes are rarely driven by a single factor.</p>
-<p>Deprivation may instead be linked to:</p>
-<ul>
-<li>higher smoking prevalence</li>
-<li>hypertension</li>
-<li>obesity</li>
-<li>diabetes</li>
-<li>delayed healthcare access</li>
-<li>poorer housing</li>
-<li>reduced access to prevention</li>
-<li>increased multimorbidity</li>
-<li>environmental factors</li>
-</ul>
-<p>In reality, deprivation often acts as a marker for a wider set of underlying risks and system pressures.</p>
-<hr>
-</section>
-<section id="example-stroke-outcomes-and-inequalities" class="level1">
-<h1>Example — Stroke Outcomes and Inequalities</h1>
-<p>Stroke outcomes often vary significantly between populations.</p>
-<p>For example, more deprived populations may experience:</p>
-<ul>
-<li>higher stroke incidence</li>
-<li>earlier onset of stroke</li>
-<li>increased mortality</li>
-<li>longer rehabilitation needs</li>
-<li>poorer long-term outcomes</li>
-</ul>
-<p>However, these differences are usually influenced by multiple interconnected factors including:</p>
-<ul>
-<li>prevalence of hypertension</li>
-<li>smoking rates</li>
-<li>access to primary care</li>
-<li>anticoagulation gaps in atrial fibrillation</li>
-<li>housing and social conditions</li>
-<li>delayed presentation to services</li>
-<li>rehabilitation access</li>
-<li>transport and geography</li>
-</ul>
-<p>This means:</p>
-<blockquote class="blockquote">
-<p>the observed inequality is real, but the pathway causing it is complex.</p>
-</blockquote>
-<p>The example below illustrates how healthcare inequalities often emerge through multiple interconnected risk factors rather than a single direct cause-and-effect relationship.</p>
-<p><img src="images/CorrelationvsCausation.png" class="img-fluid"></p>
-<hr>
-</section>
-<section id="confounding-variables" class="level1">
-<h1>Confounding Variables</h1>
-<p>A confounding variable is a factor that influences both variables being studied.</p>
-<p>For example:</p>
-<p>Deprivation ↓ Smoking prevalence ↓ Stroke risk</p>
-<p>If smoking prevalence is not considered, we may overestimate the direct effect of deprivation alone.</p>
-<p>Healthcare datasets often contain many confounding variables simultaneously.</p>
-<p>This is one reason why interpreting healthcare analytics requires caution.</p>
-<hr>
-</section>
-<section id="why-adjustment-matters" class="level1">
-<h1>Why Adjustment Matters</h1>
-<p>Healthcare analytics often uses adjustment methods to improve fairness and interpretation.</p>
-<p>Examples include:</p>
-<ul>
-<li>age standardisation</li>
-<li>case-mix adjustment</li>
-<li>regression modelling</li>
-<li>risk adjustment</li>
-</ul>
-<p>Adjustment attempts to answer:</p>
-<blockquote class="blockquote">
-<p>“What would outcomes look like if populations were more comparable?”</p>
-</blockquote>
-<p>For example, after adjusting for:</p>
 <ul>
 <li>age</li>
 <li>smoking</li>
@@ -366,141 +379,121 @@ ul.task-list li input[type="checkbox"] {
 <li>diabetes</li>
 <li>frailty</li>
 </ul>
-<p>…the gap in stroke mortality between populations may reduce substantially.</p>
-<p>This does not mean inequalities disappear.</p>
-<p>It means:</p>
-<blockquote class="blockquote">
-<p>part of the observed relationship was explained by other linked factors.</p>
-</blockquote>
-<p>Adjustment improves understanding — it does not remove complexity.</p>
-</section>
-<section id="looking-deeper" class="level1">
-<h1>Looking deeper</h1>
-<p>See:</p>
-<blockquote class="blockquote">
-<p>Appendix — How Adjustment Works</p>
-</blockquote>
+<p>may all influence stroke outcomes simultaneously.</p>
 <hr>
 </section>
-<section id="correlation-can-still-be-extremely-useful" class="level1">
-<h1>Correlation Can Still Be Extremely Useful</h1>
-<p>Importantly:</p>
-<blockquote class="blockquote">
-<p>correlation is not “bad”.</p>
-</blockquote>
-<p>Correlation is often the starting point for:</p>
+<section id="frailty-adjustment" class="level1">
+<h1>Frailty Adjustment</h1>
+<p>Frailty can be represented in several ways:</p>
 <ul>
-<li>identifying inequalities</li>
-<li>detecting unwarranted variation</li>
-<li>prioritising interventions</li>
-<li>operational investigation</li>
-<li>pathway redesign</li>
+<li>frailty score</li>
+<li>mild/moderate/severe frailty categories</li>
+<li>electronic frailty index (EFI)</li>
 </ul>
-<p>Without correlation analysis:</p>
-<ul>
-<li>many healthcare inequalities would remain hidden.</li>
-</ul>
-<p>The key is understanding that:</p>
-<blockquote class="blockquote">
-<p>correlation should start questions, not end them.</p>
-</blockquote>
-<hr>
+<p>Example model:</p>
+<p><span class="math display">\[
+\log\left(\frac{p}{1-p}\right)
+=
+\beta_0
++
+\beta_1(\text{deprivation})
++
+\beta_2(\text{age})
++
+\beta_3(\text{smoking})
++
+\beta_4(\text{hypertension})
++
+\beta_5(\text{diabetes})
++
+\beta_6(\text{frailty})
+\]</span></p>
+<p>This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.</p>
+<p>The diagram below illustrates how regression adjustment attempts to account for multiple interacting factors simultaneously when analysing healthcare outcomes.</p>
+<p><img src="images/HowRegressionAdjustmentAidsHealthcareAnalysis.png" class="img-fluid"></p>
 </section>
-<section id="operational-implications" class="level1">
-<h1>Operational Implications</h1>
-<p>Misinterpreting correlation as causation can lead to:</p>
+<section id="important-interpretation-point" class="level1">
+<h1>Important Interpretation Point</h1>
+<p>Adjustment does not “remove” inequalities.</p>
+<p>Instead, it helps us understand:</p>
 <ul>
-<li>simplistic conclusions</li>
-<li>ineffective interventions</li>
-<li>unrealistic targets</li>
-<li>inappropriate benchmarking</li>
+<li>which factors may explain part of the observed difference</li>
+<li>which inequalities remain after accounting for measurable risk factors</li>
 </ul>
 <p>For example:</p>
-<p>If analysis shows:</p>
-<ul>
-<li>higher ED attendance in deprived areas</li>
-</ul>
-<p>…the operational response should not simply be:</p>
+<p>Before adjustment:</p>
 <blockquote class="blockquote">
-<p>“reduce ED demand.”</p>
+<p>Stroke mortality may appear substantially higher in deprived populations.</p>
 </blockquote>
-<p>Instead, systems may need to examine:</p>
-<ul>
-<li>primary care access</li>
-<li>prevention services</li>
-<li>frailty support</li>
-<li>transport barriers</li>
-<li>community capacity</li>
-<li>housing instability</li>
-<li>proactive care pathways</li>
-</ul>
-<p>This moves analytics from:</p>
-<ul>
-<li>descriptive reporting towards:</li>
-<li>operational understanding and intervention.</li>
-</ul>
-<hr>
-</section>
-<section id="from-correlation-to-operational-action" class="level1">
-<h1>From Correlation to Operational Action</h1>
-<p>Effective healthcare analytics often follows this progression:</p>
-<p>Correlation ↓ Identify underlying drivers ↓ Adjustment and contextual analysis ↓ Cohort segmentation ↓ Operational targeting ↓ Pathway redesign</p>
-<p>This is where analytics becomes most valuable.</p>
-<hr>
-</section>
-<section id="why-healthcare-data-is-particularly-complex" class="level1">
-<h1>Why Healthcare Data Is Particularly Complex</h1>
-<p>Healthcare systems involve:</p>
-<ul>
-<li>biological factors</li>
-<li>behavioural factors</li>
-<li>social determinants</li>
-<li>operational constraints</li>
-<li>service variation</li>
-<li>workforce pressures</li>
-<li>policy decisions</li>
-</ul>
-<p>As a result:</p>
-<ul>
-<li>relationships are rarely linear</li>
-<li>multiple factors interact simultaneously</li>
-<li>causation is often difficult to isolate fully</li>
-</ul>
-<p>This is why healthcare analytics requires:</p>
-<ul>
-<li>interpretation</li>
-<li>context</li>
-<li>operational understanding —not just statistical outputs.</li>
-</ul>
+<p>After adjustment:</p>
+<blockquote class="blockquote">
+<p>Some of the gap may reduce because smoking, hypertension, diabetes and frailty explain part of the difference.</p>
+</blockquote>
+<p>However:</p>
+<blockquote class="blockquote">
+<p>a remaining gap may still exist due to wider social, behavioural and healthcare inequalities.</p>
+</blockquote>
 <hr>
 </section>
 <section id="key-takeaways" class="level1">
 <h1>Key Takeaways</h1>
+<p>Adjustment improves fairness and interpretation.</p>
+<p>But healthcare systems remain complex.</p>
+<p>Even sophisticated adjustment models cannot fully capture:</p>
 <ul>
-<li>Correlation describes relationships between variables</li>
-<li>Correlation alone does not prove causation</li>
-<li>Healthcare inequalities are usually driven by multiple interacting factors</li>
-<li>Confounding variables can distort interpretation</li>
-<li>Adjustment helps improve fairness and understanding</li>
-<li>Correlation remains extremely valuable for identifying patterns and prioritising investigation</li>
-<li>Healthcare analytics should support better questions, not simplistic conclusions</li>
+<li>social context</li>
+<li>behavioural factors</li>
+<li>housing</li>
+<li>service access</li>
+<li>operational pressures</li>
+<li>community support capacity</li>
 </ul>
-<hr>
+<p>This is why:</p>
+<blockquote class="blockquote">
+<p>healthcare analytics should support thoughtful interpretation, not simplistic conclusions.</p>
+</blockquote>
+</section>
+<section id="key-question-have-we-genuinely-made-a-fair-comparison-between-populations-or-have-we-just-used-statistical-techniques-to-make-the-numbers-look-more-comparable-on-paper" class="level1">
+<h1>Key question: Have we genuinely made a fair comparison between populations — or have we just used statistical techniques to make the numbers look more comparable on paper?”</h1>
+<p>For example:</p>
+<p>Two ICBs may end up with similar age-standardised ED attendance rates after adjustment.</p>
+<p>But one ICB may still:</p>
+<ul>
+<li>have far more older people</li>
+<li>experience greater frailty</li>
+<li>face higher discharge complexity</li>
+<li>carry much greater operational pressure day-to-day</li>
+</ul>
+<p>So statistically, the comparison may now be “fairer”.</p>
+<p>But operationally:</p>
+<blockquote class="blockquote">
+<p>The lived reality for services may still be very different.</p>
+</blockquote>
+<p>That’s the key tension.</p>
 </section>
 <section id="questions-decision-makers-should-ask" class="level1">
 <h1>Questions Decision-Makers Should Ask</h1>
-<p>When reviewing correlated healthcare metrics:</p>
+<p>When reviewing standardised or adjusted healthcare metrics:</p>
 <ul>
-<li>What factors may sit behind this relationship?</li>
-<li>Are important confounding variables being missed?</li>
-<li>Does this represent causation, association, or both?</li>
-<li>Are populations truly comparable?</li>
-<li>What operational factors influence these outcomes?</li>
-<li>Which drivers are actually modifiable?</li>
-<li>What intervention opportunities exist?</li>
-<li>What additional analysis is needed before acting?</li>
+<li>Could standardisation be masking genuine operational pressure?</li>
+<li>Are we interpreting statistical fairness as operational fairness?</li>
+<li>What action would realistically follow from this comparison?</li>
+<li>Are the populations actually comparable?</li>
+<li>Would crude rates give a misleading impression?</li>
+<li>How different are the underlying age structures?</li>
+<li>What factors have been adjusted for — and what has not been adjusted for?</li>
+<li>Does the adjustment method fit the operational question being asked?</li>
+<li>Are we trying to understand epidemiological risk, operational demand, or both?</li>
+<li>Are differences driven by population need, pathway maturity, service access, or performance?</li>
+<li>Does a “better” standardised rate necessarily mean lower operational burden?</li>
+<li>Are age-standardised rates appropriate for this specific cohort or pathway?</li>
+<li>Should we also examine age-specific rates alongside standardised rates?</li>
+<li>Would peer-group comparison be fairer than national comparison?</li>
+<li>Are targets equally realistic across systems with different population profiles?</li>
+<li>Are we comparing healthcare systems with similar levels of deprivation, frailty and multimorbidity?</li>
+<li>What important contextual information may still be missing after adjustment?</li>
+<li>Could the metric still be hiding inequalities within subgroups?</li>
 </ul>
-<hr>
 
 
 </section>
@@ -908,14 +901,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./02-Mean-vs-Median.html" class="pagination-link" aria-label="Module 2 — Mean vs Median">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 2 — Mean vs Median</span></span>
+      <a href="./04-Variation-&amp;-Distributions.html" class="pagination-link" aria-label="Module 4 - Variation &amp; Distributions">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 4 - Variation &amp; Distributions</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./04-Variation-&amp;-Distributions.html" class="pagination-link" aria-label="Module 4 - Variation &amp; Distributions">
-        <span class="nav-page-text"><span class="chapter-title">Module 4 - Variation &amp; Distributions</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

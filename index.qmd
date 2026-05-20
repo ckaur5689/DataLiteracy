@@ -1,13 +1,39 @@
 # Welcome
 
-This Health Data Literacy series uses practical healthcare examples to explain common data and analytics concepts.
+The Healthcare Data Literacy series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.
 
-The aim is to support better interpretation of healthcare data across NHS decision-making, including:
+The series is designed to support:
+- analysts
+- operational leaders
+- clinicians
+- managers
+- decision-makers
 
-- operational analytics
-- population health
+in developing a stronger understanding of:
+- healthcare metrics
+- variation
 - benchmarking
-- inequalities analysis
-- pathway improvement
+- inequalities
+- operational performance
+- population health
+- analytical fairness and interpretation
 
-Look out for the "Questions Decision-Makers Should Ask" section in each module *
+Rather than focusing purely on statistical methods, the series emphasises:
+- analytical reasoning
+- operational context
+- fair comparison
+- interpretation of healthcare metrics
+- asking better questions of data
+
+The examples throughout the series are intentionally grounded in realistic NHS operational and population health scenarios.
+
+Each module includes:
+- practical examples
+- visual explanations
+- operational interpretation
+- “Questions Decision-Makers Should Ask” sections to encourage critical thinking and discussion.
+
+## Guiding Philosophy
+
+> Good healthcare analytics is not just about producing numbers.  
+> It is about helping people interpret, question and use those numbers responsibly within complex healthcare systems.

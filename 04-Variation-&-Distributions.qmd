@@ -1,4 +1,7 @@
-# The most common distrubtions see in healthcare
-# Different distributions resulting in the same mean/average
-# Statistical Process Control Charts
+# Module 4 - Variation & Distributions
+
+## The most common distrubtions seen in healthcare
+## Different distributions resulting in the same mean/average
+## Statistical Process Control Charts
+## LoS as an example
 

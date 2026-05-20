@@ -118,5 +118,115 @@
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5- Standardisation & Fair Comparison</span>"
     ]
+  },
+  {
+    "objectID": "Project.html",
+    "href": "Project.html",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "",
+    "text": "Project Overview\nProject: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics Timeline: 6 months from May 2026 Author: Chandan Kaur\nAudience: Analysts and Decision Makers\nThe Healthcare Data Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.\nThe series aims to bridge the gap between:\nhealthcare analysts and decision-makers, operational leaders, clinicians and service managers.\nRather than focusing purely on statistical methods or software training, the series focuses on:\nThe resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#platform",
+    "href": "Project.html#platform",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Platform",
+    "text": "Platform\nGitHub Pages\nQuarto Book framework\nPDF and Word export options",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#style",
+    "href": "Project.html#style",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Style",
+    "text": "Style\nVisual and example-led\nOperationally realistic\nPlain English where possible\nProgressive conceptual layering",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#phase-1-foundation-development",
+    "href": "Project.html#phase-1-foundation-development",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Phase 1 — Foundation Development",
+    "text": "Phase 1 — Foundation Development",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#months-12",
+    "href": "Project.html#months-12",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Months 1–2",
+    "text": "Months 1–2\nEstablish project structure\nDevelop initial visual identity and formatting\nCreate foundational modules\nBuild GitHub/Quarto publishing workflow",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#phase-2-core-content-development",
+    "href": "Project.html#phase-2-core-content-development",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Phase 2 — Core Content Development",
+    "text": "Phase 2 — Core Content Development",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#months-35",
+    "href": "Project.html#months-35",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Months 3–5",
+    "text": "Months 3–5\nDevelop additional modules\nExpand operational examples and visual content\nGather peer feedback from NHS analytical community\nRefine educational structure and readability",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#phase-3-external-review-refinement",
+    "href": "Project.html#phase-3-external-review-refinement",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Phase 3 — External Review & Refinement",
+    "text": "Phase 3 — External Review & Refinement",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#months-56",
+    "href": "Project.html#months-56",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Months 5–6",
+    "text": "Months 5–6\nSeek structured feedback from:\nNHS CDAO network\nAphA members\nhealthcare analysts\noperational leaders\nImprove content based on feedback\nRefine visuals and accessibility",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#phase-4-publication-dissemination",
+    "href": "Project.html#phase-4-publication-dissemination",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Phase 4 — Publication & Dissemination",
+    "text": "Phase 4 — Publication & Dissemination",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#month-6-onwards",
+    "href": "Project.html#month-6-onwards",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Month 6 onwards",
+    "text": "Month 6 onwards\nPublic launch of the series\nSocial and professional dissemination\nPresentation sessions/webinars\nOngoing iterative development\nSuccess Measures\nSuccess indicators may include:\nPositive feedback from NHS analysts and operational leaders Adoption within NHS analytical communities Use in analyst onboarding or data literacy initiatives Engagement through GitHub Pages analytics Requests for reuse/adaptation across organisations AphA and/or NHS analytical community endorsement Evidence of improved analytical questioning and interpretation",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
   }
 ]

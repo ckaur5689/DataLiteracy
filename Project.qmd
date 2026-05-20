@@ -1,28 +1,29 @@
 # Project - Healthcare Data Literacy Series
 
-Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics
+## Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics
+
 Timeline: 6 months from May 2026
+
 Author: Chandan Kaur  
+
 Audience: Analysts and Decision Makers
 
 # Project Overview
 
 The Healthcare Data Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.
 
-The series aims to bridge the gap between:
+## The series aims to bridge the gap between:
 
-healthcare analysts
-and
-decision-makers, operational leaders, clinicians and service managers.
+healthcare analysts and decision-makers, operational leaders, clinicians and service managers.
 
 Rather than focusing purely on statistical methods or software training, the series focuses on:
 
-	- analytical reasoning
-	- interpretation
-	- operational context
-	- fair comparison
-	- healthcare systems thinking
-	- communicating uncertainty and complexity appropriately.
+- analytical reasoning
+- interpretation
+- operational context
+- fair comparison
+- healthcare systems thinking
+- communicating uncertainty and complexity appropriately.
 
 The resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.
 
@@ -30,26 +31,26 @@ The resource will be developed as an openly accessible digital book and supporti
 
 Healthcare organisations increasingly rely on data to:
 
-	- prioritise resources
-	- benchmark services
-	- monitor inequalities
-	- redesign pathways
-	- support operational and strategic decisions.
+- prioritise resources
+- benchmark services
+- monitor inequalities
+- redesign pathways
+- support operational and strategic decisions.
 
 However:
 
-	- healthcare metrics are often misunderstood or oversimplified
-	- comparisons between organisations are not always fair
-	- dashboards can unintentionally hide operational reality
-	- analytical outputs may lack sufficient context or interpretation.
+- healthcare metrics are often misunderstood or oversimplified
+- comparisons between organisations are not always fair
+- dashboards can unintentionally hide operational reality
+- analytical outputs may lack sufficient context or interpretation.
 
 This project aims to improve:
 
-	- healthcare data literacy
-	- analytical questioning
-	- interpretation of metrics
-	- understanding of variation and fairness
-	- communication between analysts and decision-makers.
+- healthcare data literacy
+- analytical questioning
+- interpretation of metrics
+- understanding of variation and fairness
+- communication between analysts and decision-makers.
 
 The long-term goal is to support:
 
@@ -59,27 +60,27 @@ better questions, better interpretation and better decision-making across health
 
 The project aims to:
 
-	Develop a structured NHS-focused healthcare data literacy series
-	Improve understanding of common healthcare analytics concepts and pitfalls
-	Support fairer interpretation of healthcare metrics and benchmarking
-	Help decision-makers understand operational context behind the numbers
-	Improve communication between analysts and healthcare leaders
-	Create practical examples using realistic NHS operational scenarios
-	Provide openly accessible educational resources for healthcare systems
-	Support analytical maturity across NHS organisations
+- Develop a structured NHS-focused healthcare data literacy series
+- Improve understanding of common healthcare analytics concepts and pitfalls
+- Support fairer interpretation of healthcare metrics and benchmarking
+- Help decision-makers understand operational context behind the numbers
+- Improve communication between analysts and healthcare leaders
+- Create practical examples using realistic NHS operational scenarios
+- Provide openly accessible educational resources for healthcare systems
+- Support analytical maturity across NHS organisations
 
 # Core Principles
 
 The series will aim to be:
 
-	* Operationally grounded
-	* Accessible to non-statisticians
-	* NHS-relevant
-	* Visually engaging
-	* Conceptually rigorous
-	* Openly accessible
-	* Practical rather than academic
-	* Focused on interpretation and reasoning rather than software training
+	- Operationally grounded
+	- Accessible to non-statisticians
+	- NHS-relevant
+	- Visually engaging
+	- Conceptually rigorous
+	- Openly accessible
+	- Practical rather than academic
+	- Focused on interpretation and reasoning rather than software training
 
 Proposed Initial Modules:
 
@@ -105,47 +106,47 @@ Proposed Initial Modules:
 
 # The project will include:
 
-	* Publicly accessible Quarto/GitHub Pages digital book
-	* Educational modules with practical NHS examples
-	* Visual infographics and diagrams
-	* Operational interpretation examples
-	* Decision-maker reflection questions
-	* Worked healthcare scenarios
-	* Supporting presentation materials
-	* Executive summaries and quick-reference guides
-	* Optional downloadable PDF/Word versions
+	- Publicly accessible Quarto/GitHub Pages digital book
+	- Educational modules with practical NHS examples
+	- Visual infographics and diagrams
+	- Operational interpretation examples
+	- Decision-maker reflection questions
+	- Worked healthcare scenarios
+	- Supporting presentation materials
+	- Executive summaries and quick-reference guides
+	- Optional downloadable PDF/Word versions
 
 # What Is Out Of Scope
 
 The project will not focus on:
 
-	* Software-specific technical training
-	* Coding tutorials
-	* Advanced statistical derivations
-	* NHS data governance policy documentation
-	* Building analytical platforms or infrastructure
-	* Formal accreditation or certification
-	* Organisation-specific implementation programmes
+	- Software-specific technical training
+	- Coding tutorials
+	- Advanced statistical derivations
+	- NHS data governance policy documentation
+	- Building analytical platforms or infrastructure
+	- Formal accreditation or certification
+	- Organisation-specific implementation programmes
 
 # Target Audience
 
-Primary audiences include:
+## Primary audiences include:
 
-	* Healthcare operational leaders
-	* Service managers
-	* Clinicians
-	* Public health teams
-	* BI and analytics teams
-	* Integrated Care Board colleagues
-	* NHS transformation teams
-	* Informatics trainees and early-career analysts
+	- Healthcare operational leaders
+	- Service managers
+	- Clinicians
+	- Public health teams
+	- BI and analytics teams
+	- Integrated Care Board colleagues
+	- NHS transformation teams
+	- Informatics trainees and early-career analysts
 
-Secondary audiences may include:
+## Secondary audiences may include:
 
-	* Local authorities
-	* Healthcare consultancies
-	* Academic/public health programmes
-	* Wider public sector analytical communities
+	- Local authorities
+	- Healthcare consultancies
+	- Academic/public health programmes
+	- Wider public sector analytical communities
 
 # Delivery Approach
 

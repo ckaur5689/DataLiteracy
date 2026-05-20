@@ -192,21 +192,23 @@ Frailty can be represented in several ways:
 Example model:
 
 $$
+\begin{aligned}
 \log\left(\frac{p}{1-p}\right)
-=
-\beta_0
-+
-\beta_1(\text{deprivation})
-+
-\beta_2(\text{age})
-+
-\beta_3(\text{smoking})
-+
-\beta_4(\text{hypertension})
-+
-\beta_5(\text{diabetes})
-+
+&=
+\beta_0 \\
+&+
+\beta_1(\text{deprivation}) \\
+&+
+\beta_2(\text{age}) \\
+&+
+\beta_3(\text{smoking}) \\
+&+
+\beta_4(\text{hypertension}) \\
+&+
+\beta_5(\text{diabetes}) \\
+&+
 \beta_6(\text{frailty})
+\end{aligned}
 $$
 
 This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.

@@ -124,7 +124,37 @@
     "href": "Project.html",
     "title": "Project - Healthcare Data Literacy Series",
     "section": "",
-    "text": "Project Overview\nProject: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics Timeline: 6 months from May 2026 Author: Chandan Kaur\nAudience: Analysts and Decision Makers\nThe Healthcare Data Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.\nThe series aims to bridge the gap between:\nhealthcare analysts and decision-makers, operational leaders, clinicians and service managers.\nRather than focusing purely on statistical methods or software training, the series focuses on:\nThe resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.",
+    "text": "Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics\nTimeline: 6 months from May 2026\nAuthor: Chandan Kaur\nAudience: Analysts and Decision Makers",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#the-series-aims-to-bridge-the-gap-between",
+    "href": "Project.html#the-series-aims-to-bridge-the-gap-between",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "The series aims to bridge the gap between:",
+    "text": "The series aims to bridge the gap between:\nhealthcare analysts and decision-makers, operational leaders, clinicians and service managers.\nRather than focusing purely on statistical methods or software training, the series focuses on:\n\nanalytical reasoning\ninterpretation\noperational context\nfair comparison\nhealthcare systems thinking\ncommunicating uncertainty and complexity appropriately.\n\nThe resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#primary-audiences-include",
+    "href": "Project.html#primary-audiences-include",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Primary audiences include:",
+    "text": "Primary audiences include:\n- Healthcare operational leaders\n- Service managers\n- Clinicians\n- Public health teams\n- BI and analytics teams\n- Integrated Care Board colleagues\n- NHS transformation teams\n- Informatics trainees and early-career analysts",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+    ]
+  },
+  {
+    "objectID": "Project.html#secondary-audiences-may-include",
+    "href": "Project.html#secondary-audiences-may-include",
+    "title": "Project - Healthcare Data Literacy Series",
+    "section": "Secondary audiences may include:",
+    "text": "Secondary audiences may include:\n- Local authorities\n- Healthcare consultancies\n- Academic/public health programmes\n- Wider public sector analytical communities",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]

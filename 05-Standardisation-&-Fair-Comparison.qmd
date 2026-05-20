@@ -261,15 +261,18 @@ the lived reality for services may still be very different.
 That’s the key tension.
 
 # Questions Decision-Makers Should Ask
+
 When reviewing standardised or adjusted healthcare metrics:
 
+* Could standardisation be masking genuine operational pressure?”
+* Are we interpreting statistical fairness as operational fairness?”
+* What action would realistically follow from this comparison?”
 * Are the populations actually comparable?
 * Would crude rates give a misleading impression?
 * How different are the underlying age structures?
 * What factors have been adjusted for — and what has not been adjusted for?
 * Does the adjustment method fit the operational question being asked?
 * Are we trying to understand epidemiological risk, operational demand, or both?
-* Could standardisation be masking genuine operational pressure?
 * Are differences driven by population need, pathway maturity, service access, or performance?
 * Does a “better” standardised rate necessarily mean lower operational burden?
 * Are age-standardised rates appropriate for this specific cohort or pathway?
@@ -279,5 +282,4 @@ When reviewing standardised or adjusted healthcare metrics:
 * Are we comparing healthcare systems with similar levels of deprivation, frailty and multimorbidity?
 * What important contextual information may still be missing after adjustment?
 * Could the metric still be hiding inequalities within subgroups?
-* Are we interpreting statistical fairness as operational fairness?
-* What action would realistically follow from this comparison?
+

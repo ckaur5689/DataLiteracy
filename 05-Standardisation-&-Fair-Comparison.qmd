@@ -1,18 +1,23 @@
-# Making healthcare comparisons fairer
+# Why do healthcare comparisons become complicated?
+
+Healthcare organisations often compare:
+- admission rates
+- mortality
+- ED attendance
+- stroke outcomes
+- Length of Stay
+
+But populations are rarely directly comparable.
+
+ - Some areas are older.
+ - Some experience greater deprivation.
+ - Some have higher frailty or multimorbidity.
+
+This creates an important challenge:
+
+How can we compare healthcare outcomes fairly without losing sight of operational reality?
 
 # Why do we adjust healthcare data?
-
-Healthcare populations are rarely directly comparable. 
-
-Two areas may differ significantly in:
-
-* age structure
-* smoking prevalence
-* frailty burden
-* diabetes prevalence
-* hypertension prevalence
-* deprivation
-* access to healthcare
 
 Adjustment attempts to account for these differences so comparisons become fairer and more meaningful.
 

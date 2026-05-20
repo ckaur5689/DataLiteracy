@@ -4,7 +4,47 @@
     "href": "index.html",
     "title": "Health Data Literacy",
     "section": "",
-    "text": "Welcome\nThe Healthcare Data Literacy series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.\nThe series is designed to support: - analysts - operational leaders - clinicians - managers - decision-makers\nin developing a stronger understanding of: - healthcare metrics - variation - benchmarking - inequalities - operational performance - population health - analytical fairness and interpretation\nRather than focusing purely on statistical methods, the series emphasises: - analytical reasoning - operational context - fair comparison - interpretation of healthcare metrics - asking better questions of data\nThe examples throughout the series are intentionally grounded in realistic NHS operational and population health scenarios.\nEach module includes: - practical examples - visual explanations - operational interpretation - “Questions Decision-Makers Should Ask” sections to encourage critical thinking and discussion.",
+    "text": "Welcome\nThe Healthcare Data Literacy series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#the-series-is-designed-to-support",
+    "href": "index.html#the-series-is-designed-to-support",
+    "title": "Health Data Literacy",
+    "section": "The series is designed to support:",
+    "text": "The series is designed to support:\n\nanalysts\noperational leaders\nclinicians\nmanagers\ndecision-makers",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#in-developing-a-stronger-understanding-of",
+    "href": "index.html#in-developing-a-stronger-understanding-of",
+    "title": "Health Data Literacy",
+    "section": "in developing a stronger understanding of:",
+    "text": "in developing a stronger understanding of:\n\nhealthcare metrics\nvariation\nbenchmarking\ninequalities\noperational performance\npopulation health\nanalytical fairness and interpretation",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#rather-than-focusing-purely-on-statistical-methods-the-series-emphasises",
+    "href": "index.html#rather-than-focusing-purely-on-statistical-methods-the-series-emphasises",
+    "title": "Health Data Literacy",
+    "section": "Rather than focusing purely on statistical methods, the series emphasises:",
+    "text": "Rather than focusing purely on statistical methods, the series emphasises:\n\nanalytical reasoning\noperational context\nfair comparison\ninterpretation of healthcare metrics\nasking better questions of data\n\nThe examples throughout the series are intentionally grounded in realistic NHS operational and population health scenarios.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#each-module-includes",
+    "href": "index.html#each-module-includes",
+    "title": "Health Data Literacy",
+    "section": "Each module includes:",
+    "text": "Each module includes:\n\npractical examples\nvisual explanations\noperational interpretation\n“Questions Decision-Makers Should Ask” sections to encourage critical thinking and discussion.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
     ]

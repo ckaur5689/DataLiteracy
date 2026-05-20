@@ -1,1 +1,4 @@
+# The most common distrubtions see in healthcare
+# Different distributions resulting in the same mean/average
+# Statistical Process Control Charts
 

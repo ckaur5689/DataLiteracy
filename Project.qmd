@@ -179,18 +179,16 @@ The project will not focus on:
 
 ## Phase 3 — External Review & Refinement
 ## Months 5–6
-
 	Seek structured feedback from:
-	NHS CDAO network
-	AphA members
-	healthcare analysts
-	operational leaders
-	Improve content based on feedback
-	Refine visuals and accessibility
+		- NHS CDAO network
+		- AphA members
+		- healthcare analysts
+		- operational leaders and strategic commissioners
+		- Improve content based on feedback
+		- Refine visuals and accessibility
 
 ## Phase 4 — Publication & Dissemination
 ## Month 6 onwards
-
 	Public launch of the series
 	Social and professional dissemination
 	Presentation sessions/webinars
@@ -199,35 +197,35 @@ The project will not focus on:
 
 Success indicators may include:
 
-  Positive feedback from NHS analysts and operational leaders
-  Adoption within NHS analytical communities
-  Use in analyst onboarding or data literacy initiatives
-  Engagement through GitHub Pages analytics
-  Requests for reuse/adaptation across organisations
-  AphA and/or NHS analytical community endorsement
-  Evidence of improved analytical questioning and interpretation
+- Positive feedback from NHS analysts and operational leaders
+- Adoption within NHS analytical communities
+- Use in analyst onboarding or data literacy initiatives
+- Engagement through GitHub Pages analytics
+-  Requests for reuse/adaptation across organisations
+-  AphA and/or NHS analytical community endorsement
+-  Evidence of improved analytical questioning and interpretation
 
 # Key Assumptions
 	
-  * Contributors can support development alongside operational roles
-	* NHS analytical communities will engage constructively with feedback
-	* Open-access publication is supported
-	* The series will evolve iteratively over time
+- Contributors can support development alongside operational roles
+- NHS analytical communities will engage constructively with feedback
+- Open-access publication is supported
+- The series will evolve iteratively over time
 
 # Long-Term Vision
 
 The long-term ambition is to create:
 
-  * a widely used NHS healthcare data literacy resource
-  * a practical guide to analytical interpretation in healthcare
-  * an openly accessible educational reference for healthcare analytics and operational decision-making.
+- a widely used NHS healthcare data literacy resource
+- a practical guide to analytical interpretation in healthcare
+- an openly accessible educational reference for healthcare analytics and operational decision-making.
 
 The series may later evolve into:
 
-  * a formally published digital book
-  * workshop/training materials
-  * conference presentations
-  * broader healthcare analytical capability resources
+- a formally published digital book
+- workshop/training materials
+- conference presentations
+- broader healthcare analytical capability resources
 
 # Guiding Philosophy
 
@@ -237,7 +235,8 @@ It is about helping people interpret, question and use those numbers responsibly
 
 ________________________________________
 Sign-Off:
-Name		      Role						          Signature	  Date
-Chandan Kaur	Senior Strategic BI Lead	CK	        10th May 2026
+Name: Chandan Kaur		      
+Role: Senior Strategic BI Lead
+Date: 10th May 2026
 			
 			

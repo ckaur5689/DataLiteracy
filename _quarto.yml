@@ -9,6 +9,8 @@ book:
     - 01-counts-vs-rates.qmd
     - 02-Mean-vs-Median.qmd
     - 03-Correlation-vs-Causation.qmd
+    - 04-Variation-&-Distributions.qmd
+    - 05-Standardisation-&-Fair-Comparison.qmd
 
 format:
   html:

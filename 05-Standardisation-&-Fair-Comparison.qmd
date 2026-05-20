@@ -66,7 +66,102 @@ This answers:
 
 > “What would the outcome rate look like if both populations had the same age structure?”
 
----
+# Which Standard Population Should We Use?
+
+Age-standardisation requires the use of a standard population structure.
+
+In England, the most commonly used standard population is the:
+
+## European Standard Population (ESP2013)
+
+This provides a consistent age distribution that allows fairer comparison between populations with different age structures.
+
+However, the choice of standard population matters.
+
+European Standard Population (ESP2013)
+
+The ESP2013 is widely used because it:
+
+* supports consistency across analyses
+* enables comparison between regions and countries
+* removes some of the influence of differing age structures
+
+This is particularly useful for:
+
+* mortality comparisons
+* public health analysis
+* disease incidence rates
+* long-term trend analysis
+
+--> But There Is An Important Limitation
+
+The ESP2013 is an artificial reference population.
+
+It does not necessarily reflect:
+
+* the actual age structure of England
+* local ICB populations
+* operational healthcare demand
+
+--> This means a standardised rate may become statistically fairer while still feeling operationally unintuitive.
+
+Example — Older Populations
+
+Suppose:
+
+ICB A has a substantially older population
+ICB B has a younger working-age population
+
+After age-standardisation:
+
+their rates may appear more similar
+
+However:
+
+ICB A may still experience significantly greater operational pressure due to:
+ * frailty
+ * multimorbidity
+ * discharge complexity
+ * higher service utilisation
+
+This highlights an important distinction:
+
+--> statistical comparability does not always equal operational comparability.
+
+# When National Population Structures May Be Useful
+
+In some operational analyses, using:
+
+national population distributions
+OR
+age-specific rates
+
+may provide a more realistic reflection of expected healthcare demand.
+
+This can be particularly relevant when analysing:
+
+ - specific age cohorts
+ - service planning
+ - operational capacity
+ - demand forecasting
+
+For example:
+
+ - ED attendance rates for people aged 75+
+ - frailty prevalence
+ - community service utilisation
+
+In these situations:
+
+ - age-specific operational demand may matter more than fully standardised comparison.
+
+# Operational Interpretation Matters
+
+Neither approach is universally “correct”.
+
+The appropriate approach depends on the question being asked. For example:
+
+![](images/AnalyticalQuestion_MostUsefulApproach)
 
 # Adjustment Using Regression Models
 

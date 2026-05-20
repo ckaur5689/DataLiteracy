@@ -1,4 +1,4 @@
-# Module 5- Why do healthcare comparisons become complicated?
+# Module 5- Standardisation & Fair Comparison
 
 Healthcare organisations often compare:
 - admission rates
@@ -78,8 +78,6 @@ This provides a consistent age distribution that allows fairer comparison betwee
 
 However, the choice of standard population matters.
 
-European Standard Population (ESP2013)
-
 The ESP2013 is widely used because it:
 
 * supports consistency across analyses
@@ -124,7 +122,9 @@ ICB A may still experience significantly greater operational pressure due to:
  * discharge complexity
  * higher service utilisation
 
-This highlights an important distinction > Statistical comparability does not always equal operational comparability.
+This highlights an important distinction:
+
+> Statistical comparability does not always equal operational comparability.
 
 # When National Population Structures May Be Useful
 
@@ -211,6 +211,8 @@ $$
 
 This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.
 
+The diagram below illustrates how regression adjustment attempts to account for multiple interacting factors simultaneously when analysing healthcare outcomes.
+
 ![](images/HowRegressionAdjustmentAidsHealthcareAnalysis.png)
 
 # Important Interpretation Point
@@ -274,7 +276,7 @@ So statistically, the comparison may now be “fairer”.
 
 But operationally:
 
-the lived reality for services may still be very different.
+> The lived reality for services may still be very different.
 
 That’s the key tension.
 

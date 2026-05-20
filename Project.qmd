@@ -239,7 +239,7 @@ It is about helping people interpret, question and use those numbers responsibly
 
 
 ________________________________________
-Sign-Off:
+## Sign-Off:
 Name: Chandan Kaur		      
 Role: Senior Strategic BI Lead
 

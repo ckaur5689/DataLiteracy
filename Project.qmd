@@ -73,127 +73,132 @@ The project aims to:
 
 The series will aim to be:
 
-	- Operationally grounded
-	- Accessible to non-statisticians
-	- NHS-relevant
-	- Visually engaging
-	- Conceptually rigorous
-	- Openly accessible
-	- Practical rather than academic
-	- Focused on interpretation and reasoning rather than software training
+- Operationally grounded
+- Accessible to non-statisticians
+- NHS-relevant
+- Visually engaging
+- Conceptually rigorous
+- Openly accessible
+- Practical rather than academic
+- Focused on interpretation and reasoning rather than software training
 
 Proposed Initial Modules:
 
 # Part 1 — Foundations of Healthcare Analytics Interpretation
-	- Counts vs Rates
-	- Mean vs Median
-	- Correlation vs Causation
-	- Variation & Distributions
-	- Standardisation & Fair Comparison
+
+- Counts vs Rates
+- Mean vs Median
+- Correlation vs Causation
+- Variation & Distributions
+- Standardisation & Fair Comparison
 
 # Part 2 — Understanding Healthcare Systems
 
-	- Population Health Management & Segmentation
-	- Demand, Capacity & Operational Flow
-	- Pathway Analytics & Intervention Design
+- Population Health Management & Segmentation
+- Demand, Capacity & Operational Flow
+- Pathway Analytics & Intervention Design
 
 # Part 3 — Modern Healthcare Analytics
 
-	- Explainable AI in Healthcare
-	- Predictive Modelling & Risk Stratification
-	- BI to Augmented Analytics
-	- AI, Sustainability & Healthcare Systems
+- Explainable AI in Healthcare
+- Predictive Modelling & Risk Stratification
+- BI to Augmented Analytics
+- AI, Sustainability & Healthcare Systems
 
 # The project will include:
 
-	- Publicly accessible Quarto/GitHub Pages digital book
-	- Educational modules with practical NHS examples
-	- Visual infographics and diagrams
-	- Operational interpretation examples
-	- Decision-maker reflection questions
-	- Worked healthcare scenarios
-	- Supporting presentation materials
-	- Executive summaries and quick-reference guides
-	- Optional downloadable PDF/Word versions
+- Publicly accessible Quarto/GitHub Pages digital book
+- Educational modules with practical NHS examples
+- Visual infographics and diagrams
+- Operational interpretation examples
+- Decision-maker reflection questions
+- Worked healthcare scenarios
+- Supporting presentation materials
+- Executive summaries and quick-reference guides
+- Optional downloadable PDF/Word versions
 
 # What Is Out Of Scope
 
 The project will not focus on:
 
-	- Software-specific technical training
-	- Coding tutorials
-	- Advanced statistical derivations
-	- NHS data governance policy documentation
-	- Building analytical platforms or infrastructure
-	- Formal accreditation or certification
-	- Organisation-specific implementation programmes
+- Software-specific technical training
+- Coding tutorials
+- Advanced statistical derivations
+- NHS data governance policy documentation
+- Building analytical platforms or infrastructure
+- Formal accreditation or certification
+- Organisation-specific implementation programmes
 
 # Target Audience
 
 ## Primary audiences include:
 
-	- Healthcare operational leaders
-	- Service managers
-	- Clinicians
-	- Public health teams
-	- BI and analytics teams
-	- Integrated Care Board colleagues
-	- NHS transformation teams
-	- Informatics trainees and early-career analysts
+- Healthcare operational leaders
+- Service managers
+- Clinicians
+- Public health teams
+- BI and analytics teams
+- Integrated Care Board colleagues
+- NHS transformation teams
+- Informatics trainees and early-career analysts
 
 ## Secondary audiences may include:
 
-	- Local authorities
-	- Healthcare consultancies
-	- Academic/public health programmes
-	- Wider public sector analytical communities
+- Local authorities
+- Healthcare consultancies
+- Academic/public health programmes
+- Wider public sector analytical communities
 
 # Delivery Approach
 
 ## Platform
-	GitHub Pages
-	Quarto Book framework
-	PDF and Word export options
+GitHub Pages
+Quarto Book framework
+PDF and Word export options
 
 ## Style
-	Visual and example-led
-	Operationally realistic
-	Plain English where possible
-	Progressive conceptual layering
+Visual and example-led
+Operationally realistic
+Plain English where possible
+Progressive conceptual layering
 
 # Project Phases
 
 ## Phase 1 — Foundation Development
 ## Months 1–2
-	Establish project structure
-	Develop initial visual identity and formatting
-	Create foundational modules
-	Build GitHub/Quarto publishing workflow
+
+- Establish project structure
+- Develop initial visual identity and formatting
+- Create foundational modules
+- Build GitHub/Quarto publishing workflow
 
 ## Phase 2 — Core Content Development
 ## Months 3–5
-	Develop additional modules
-	Expand operational examples and visual content
-	Gather peer feedback from NHS analytical community
-	Refine educational structure and readability
+
+- Develop additional modules
+- Expand operational examples and visual content
+- Gather peer feedback from NHS analytical community
+- Refine educational structure and readability
 
 ## Phase 3 — External Review & Refinement
 ## Months 5–6
-	Seek structured feedback from:
-		- NHS CDAO network
-		- AphA members
-		- healthcare analysts
-		- operational leaders and strategic commissioners
-		- Improve content based on feedback
-		- Refine visuals and accessibility
+
+Seek structured feedback from:
+- NHS CDAO network
+- AphA members
+- healthcare analysts
+- operational leaders and strategic commissioners
+- Improve content based on feedback
+- Refine visuals and accessibility
 
 ## Phase 4 — Publication & Dissemination
 ## Month 6 onwards
-	Public launch of the series
-	Social and professional dissemination
-	Presentation sessions/webinars
-	Ongoing iterative development
-	Success Measures
+
+- Public launch of the series
+- Social and professional dissemination
+- Presentation sessions/webinars
+- Ongoing iterative development
+- Success Measures
 
 Success indicators may include:
 
@@ -201,9 +206,9 @@ Success indicators may include:
 - Adoption within NHS analytical communities
 - Use in analyst onboarding or data literacy initiatives
 - Engagement through GitHub Pages analytics
--  Requests for reuse/adaptation across organisations
--  AphA and/or NHS analytical community endorsement
--  Evidence of improved analytical questioning and interpretation
+- Requests for reuse/adaptation across organisations
+- AphA and/or NHS analytical community endorsement
+- Evidence of improved analytical questioning and interpretation
 
 # Key Assumptions
 	

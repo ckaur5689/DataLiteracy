@@ -163,6 +163,8 @@ The appropriate approach depends on the question being asked. For example:
 
 ![](images/AnalyticalQuestion_MostUsefulApproach.png)
 
+![](images/StatisticalFairnessvsOperationalReality.png)
+
 # Adjustment Using Regression Models
 
 Healthcare analytics often adjusts for multiple factors simultaneously using regression models.
@@ -284,11 +286,6 @@ $$
 $$
 
 This estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.
-
-The diagram below summarises some of the most common approaches used to adjust healthcare data and improve fairness in comparison.
-
-![](images/AppendixA_HowAdjustmentWorks.png)
-
 
 # Important Interpretation Point
 

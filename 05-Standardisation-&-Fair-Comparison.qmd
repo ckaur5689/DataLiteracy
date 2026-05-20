@@ -124,9 +124,7 @@ ICB A may still experience significantly greater operational pressure due to:
  * discharge complexity
  * higher service utilisation
 
-This highlights an important distinction:
-
---> statistical comparability does not always equal operational comparability.
+This highlights an important distinction > Statistical comparability does not always equal operational comparability.
 
 # When National Population Structures May Be Useful
 
@@ -167,7 +165,9 @@ The appropriate approach depends on the question being asked. For example:
 
 # Adjustment Using Regression Models
 
-Healthcare analytics often adjusts for multiple factors simultaneously using regression models.
+Standardisation is one approach to improving fairness in comparison.
+
+Healthcare analytics may also use statistical models to adjust simultaneously for multiple interacting factors.
 
 For example:
 
@@ -178,82 +178,6 @@ For example:
 * frailty
 
 may all influence stroke outcomes simultaneously.
-
----
-
-# Smoking Adjustment
-
-Smoking may be represented as:
-
-Smoker = 1
-Non-smoker = 0
-
-Example model:
-
-$$
-\text{Stroke mortality}
-=
-\beta_0
-+
-\beta_1(\text{deprivation})
-+
-\beta_2(\text{smoking})
-$$
-
-This estimates whether deprivation remains associated with stroke mortality after accounting for smoking prevalence.
-
----
-
-# Hypertension Adjustment
-
-Hypertension can be added as another variable:
-
-$$
-\log\left(\frac{p}{1-p}\right)
-=
-\beta_0
-+
-\beta_1(\text{deprivation})
-+
-\beta_2(\text{age})
-+
-\beta_3(\text{smoking})
-+
-\beta_4(\text{hypertension})
-$$
-
-where:
-
-* (p) represents the probability of the outcome
-* the model estimates how strongly each factor is associated with the outcome while holding the others constant
-
----
-
-# Diabetes Adjustment
-
-Diabetes may also be included:
-
-$$
-\log\left(\frac{p}{1-p}\right)
-=
-\beta_0
-+
-\beta_1(\text{deprivation})
-+
-\beta_2(\text{age})
-+
-\beta_3(\text{smoking})
-+
-\beta_4(\text{hypertension})
-+
-\beta_5(\text{diabetes})
-$$
-
-This helps distinguish:
-
-* the relationship between deprivation and stroke outcomes
-  from
-* the influence of diabetes prevalence.
 
 ---
 
@@ -312,7 +236,7 @@ However:
 
 ---
 
-# Key takeaways
+# Key Takeaways
 
 Adjustment improves fairness and interpretation.
 

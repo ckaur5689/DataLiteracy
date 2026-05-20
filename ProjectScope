@@ -1,134 +1,241 @@
-** Project Scope: Guided Analytics Playbook (Draft)
+## Healthcare Data Literacy Series
 
-What We're Doing
-Project: Creating a Guided Analytics Playbook
+Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics
 Timeline: 6 months from May 2026
-Project Leads:  
-Team: Healthcare Experienced Analysts
+Author: Chandan Kaur  
+Audience: Analysts and Decision Makers
 
-🧠 Why We're Doing This
-	• We want to create a practical playbook that shows how analysts and business users work together effectively in healthcare settings. 
-	  It will be full of real examples and useful tips that everyone can actually use day-to-day.
+## Project Overview
 
-🎯What We Want to Achieve
-	•	Pull together 8-12 real examples of analysts working well with business users
-	•	Write down the ways of working that actually get results
-	•	Help everyone speak the same language when it comes to analytics projects
-	•	Make it easier to get new people up to speed
-	•	Make sure we're all doing things consistently across the organisation
+The Healthcare Data Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.
 
-✅ What's Included (and What Isn't)
+The series aims to bridge the gap between:
 
-📍What goes in the playbook:
-	•	8-12 detailed examples from different healthcare areas (patient experience, clinical ops, finance, quality metrics, etc.)
-	•	Step-by-step guides for the most common types of analytics work including examples of Prioritisation Frameworks
-	•	Templates and tips for communicating well with business users, including "Storytelling with Data"
-	•	A simple guide to help decide when analysts should get involved
-	•	Reference section on useful tools and techniques
-	•	Glossary so everyone knows what we're talking about
+healthcare analysts
+and
+decision-makers, operational leaders, clinicians and service managers.
 
-📍Types of situations we'll include:
-	•	Developing a Problem Statement with requester when request made is unclear
-    •	Digging into problems to find root causes
-	•	Predictive modelling projects (applied statistics and machine learning)
-	•	Checking data quality
-	•	Helping people use analytics tools themselves
+Rather than focusing purely on statistical methods or software training, the series focuses on:
 
-📍Format:
-	•	Digital playbook (PDF and/or online version)
-	•	Diagrams, flowcharts, and screenshots to make it  easy to follow
-	•	Easy to search and navigate
+	- analytical reasoning
+	- interpretation
+	- operational context
+	- fair comparison
+	- healthcare systems thinking
+	- communicating uncertainty and complexity appropriately.
 
-❌ We're Not Covering
-	•	How to use specific analytics software (that's for technical training)
-	•	In-depth statistics lessons
-	•	Data governance policies
-	•	IT infrastructure stuff
-	•	Big organisational change programmes
-	•	Building new analytics platforms
+The resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.
 
-🚀 What You'll Get
-1.	The Full Playbook with all examples and frameworks
-2.	Executive Summary covering the key points (2-3 pages)
-3.	Quick Reference Guide with checklists and decision tools
-4.	Presentation Slides for launching the playbook and training sessions
-5.	Feedback Form so we can keep improving it
+## Why This Project Matters
 
-🧑‍🤝‍🧑Who's Involved
-The Project Team:
-	•	Experience Analysts (writing and reviewing content)
-	•	[Project Lead/Manager]
+Healthcare organisations increasingly rely on data to:
 
-👥 People We'll Need Input From:
-	•	Business users from key departments for feedback (clinical ops, public health, patient experience, finance, quality)
-	•	Chief Analysts or Heads of Informatic Departments
-	•	Department heads who often ask for analytics help
+	- prioritise resources
+	- benchmark services
+	- monitor inequalities
+	- redesign pathways
+	- support operational and strategic decisions.
 
-✅ Sign-Off:
-	•	Project Team
+However:
 
-⏰ How We'll Do It:
+	- healthcare metrics are often misunderstood or oversimplified
+	- comparisons between organisations are not always fair
+	- dashboards can unintentionally hide operational reality
+	- analytical outputs may lack sufficient context or interpretation.
 
-Phase 1: Discovery and Planning (Month 1)
-	•	Gather existing examples and documents
-	•	Chat with business users and analysts about what works well
-	•	Sort out the playbook structure
-	•	Agree on style and format
+This project aims to improve:
 
-Phase 2: Writing the Content (Months 2 to 4)
-	•	Write up the case examples and frameworks
-	•	Create diagrams and templates
-	•	Develop supporting materials
+	- healthcare data literacy
+	- analytical questioning
+	- interpretation of metrics
+	- understanding of variation and fairness
+	- communication between analysts and decision-makers.
 
-Phase 3: Review and Improvements (Month 5)
-	•	Team review and edits
-	•	Get feedback from stakeholders
-	•	Make changes based on feedback
+The long-term goal is to support:
 
-Phase 4: Finalising and Launch (Month 6)
-	•	Final design and formatting
-	•	Create presentation materials
-	•	Plan how we'll roll it out
-	•	Launch with training sessions
+better questions, better interpretation and better decision-making across healthcare systems.
 
-✅ How We'll Know It's Working
+# Project Objectives
 
-	•	At least 60% of analysts are referring to it within 3 months and is promoted by Heads of Informatics or Chief Analysts
-    •   Endorsed by NHS CDAO network and AphA (Association of Professional Healthcare Analysts)
-	•	Good feedback from both analysts and business users (aiming for 3+ out of 5)
-	•	Projects get started more smoothly (fewer back-and-forth emails)
-	•	Examples are used in at least half of new projects
-	•	It becomes part of standard training for new starters
+The project aims to:
 
-🤔 What We're Assuming
-	•	Team members can spend 20% of their time on this per month (~one day per month)
-	•	Business users will be available for chats and agile feedback
-	•	The organisation supports this way of working
+	Develop a structured NHS-focused healthcare data literacy series
+	Improve understanding of common healthcare analytics concepts and pitfalls
+	Support fairer interpretation of healthcare metrics and benchmarking
+	Help decision-makers understand operational context behind the numbers
+	Improve communication between analysts and healthcare leaders
+	Create practical examples using realistic NHS operational scenarios
+	Provide openly accessible educational resources for healthcare systems
+	Support analytical maturity across NHS organisations
 
-# What We'll Need
-People:
-	•	Experience analyst team (to create content)
-	•	Business users (for interviews and feedback)
-	•	Design support (if possible, for making it look good)
-	•	Project coordinator
-Tools:
-	•	Excel, R, Python, SQL, Jira for project planning and monitoring (free)
-Budget:
-	• Time and committment from project analysts
+## Core Principles
 
-Keeping Everyone Updated
-	•	Fortnightly catch ups
-	•	Review at the end of each phase
-	•	Launch communications through team meetings, emails, and training sessions
+The series will aim to be:
 
-What Happens Next
-1.	Review and approve this scope
-2.	Confirm who's available and what they'll do
-3.	Schedule kickoff meeting
-4.	Start Phase 1 discovery work
+	* Operationally grounded
+	* Accessible to non-statisticians
+	* NHS-relevant
+	* Visually engaging
+	* Conceptually rigorous
+	* Openly accessible
+	* Practical rather than academic
+	* Focused on interpretation and reasoning rather than software training
+
+Proposed Initial Modules:
+
+## Part 1 — Foundations of Healthcare Analytics Interpretation
+	- Counts vs Rates
+	- Mean vs Median
+	- Correlation vs Causation
+	- Variation & Distributions
+	- Standardisation & Fair Comparison
+
+## Part 2 — Understanding Healthcare Systems
+
+	- Population Health Management & Segmentation
+	- Demand, Capacity & Operational Flow
+	- Pathway Analytics & Intervention Design
+
+## Part 3 — Modern Healthcare Analytics
+
+	- Explainable AI in Healthcare
+	- Predictive Modelling & Risk Stratification
+	- BI to Augmented Analytics
+	- AI, Sustainability & Healthcare Systems
+
+# The project will include:
+
+	* Publicly accessible Quarto/GitHub Pages digital book
+	* Educational modules with practical NHS examples
+	* Visual infographics and diagrams
+	* Operational interpretation examples
+	* Decision-maker reflection questions
+	* Worked healthcare scenarios
+	* Supporting presentation materials
+	* Executive summaries and quick-reference guides
+	* Optional downloadable PDF/Word versions
+
+# What Is Out Of Scope
+
+The project will not focus on:
+
+	* Software-specific technical training
+	* Coding tutorials
+	* Advanced statistical derivations
+	* NHS data governance policy documentation
+	* Building analytical platforms or infrastructure
+	* Formal accreditation or certification
+	* Organisation-specific implementation programmes
+
+## Target Audience
+
+Primary audiences include:
+
+	* Healthcare operational leaders
+	* Service managers
+	* Clinicians
+	* Public health teams
+	* BI and analytics teams
+	* Integrated Care Board colleagues
+	* NHS transformation teams
+	* Informatics trainees and early-career analysts
+
+Secondary audiences may include:
+
+	* Local authorities
+	* Healthcare consultancies
+	* Academic/public health programmes
+	* Wider public sector analytical communities
+
+## Delivery Approach
+
+# Platform
+	GitHub Pages
+	Quarto Book framework
+	PDF and Word export options
+
+# Style
+	Visual and example-led
+	Operationally realistic
+	Plain English where possible
+	Progressive conceptual layering
+
+## Project Phases
+
+# Phase 1 — Foundation Development
+# Months 1–2
+	Establish project structure
+	Develop initial visual identity and formatting
+	Create foundational modules
+	Build GitHub/Quarto publishing workflow
+
+# Phase 2 — Core Content Development
+# Months 3–5
+	Develop additional modules
+	Expand operational examples and visual content
+	Gather peer feedback from NHS analytical community
+	Refine educational structure and readability
+
+# Phase 3 — External Review & Refinement
+# Months 5–6
+
+	Seek structured feedback from:
+	NHS CDAO network
+	AphA members
+	healthcare analysts
+	operational leaders
+	Improve content based on feedback
+	Refine visuals and accessibility
+
+Phase 4 — Publication & Dissemination
+Month 6 onwards
+
+	Public launch of the series
+	Social and professional dissemination
+	Presentation sessions/webinars
+	Ongoing iterative development
+	Success Measures
+
+Success indicators may include:
+
+Positive feedback from NHS analysts and operational leaders
+Adoption within NHS analytical communities
+Use in analyst onboarding or data literacy initiatives
+Engagement through GitHub Pages analytics
+Requests for reuse/adaptation across organisations
+AphA and/or NHS analytical community endorsement
+Evidence of improved analytical questioning and interpretation
+
+Key Assumptions
+	Contributors can support development alongside operational roles
+	NHS analytical communities will engage constructively with feedback
+	Open-access publication is supported
+	The series will evolve iteratively over time
+
+## Long-Term Vision
+
+The long-term ambition is to create:
+
+a widely used NHS healthcare data literacy resource
+a practical guide to analytical interpretation in healthcare
+an openly accessible educational reference for healthcare analytics and operational decision-making.
+
+The series may later evolve into:
+
+a formally published digital book
+workshop/training materials
+conference presentations
+broader healthcare analytical capability resources
+
+# Guiding Philosophy
+
+“Good healthcare analytics is not just about producing numbers.
+It is about helping people interpret, question and use those numbers responsibly within complex healthcare systems.”
+
+
 ________________________________________
 Sign-Off:
-Name	Role	Signature	Date
-			
+Name			Role						Signature	Date
+Chandan Kaur	Senior Strategic BI Lead	CK	        10th May 2026
 			
 			

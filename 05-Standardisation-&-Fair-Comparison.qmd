@@ -25,7 +25,7 @@ Adjustment attempts to account for these differences so comparisons become faire
 
 # Age Adjustment
 
-# Age-specific rate
+## Age-specific rate
 
 An age-specific rate is calculated separately for each age group:
 
@@ -36,7 +36,7 @@ $$
 \times 100,000
 $$
 
-Exmample calculation:
+Example calculation:
 
 $$
 \frac{120}{50,000} \times 100,000
@@ -48,7 +48,7 @@ This allows comparison within similar age groups.
 
 ---
 
-# Direct age-standardised rate
+## Direct age-standardised rate
 
 Age-standardisation applies a standard population structure to both populations:
 
@@ -93,7 +93,7 @@ This is particularly useful for:
 * disease incidence rates
 * long-term trend analysis
 
---> But There Is An Important Limitation
+> Important Limitation
 
 The ESP2013 is an artificial reference population.
 
@@ -103,14 +103,14 @@ It does not necessarily reflect:
 * local ICB populations
 * operational healthcare demand
 
---> This means a standardised rate may become statistically fairer while still feeling operationally unintuitive.
+> Statistical comparability does not always equal operational comparability.
 
 Example — Older Populations
 
 Suppose:
 
-ICB A has a substantially older population
-ICB B has a younger working-age population
+- ICB A has a substantially older population
+- ICB B has a younger working-age population
 
 After age-standardisation:
 
@@ -161,7 +161,7 @@ Neither approach is universally “correct”.
 
 The appropriate approach depends on the question being asked. For example:
 
-![](images/AnalyticalQuestion_MostUsefulApproach)
+![](images/AnalyticalQuestion_MostUsefulApproach.png)
 
 # Adjustment Using Regression Models
 
@@ -287,7 +287,7 @@ This estimates whether deprivation still appears associated with stroke mortalit
 
 The diagram below summarises some of the most common approaches used to adjust healthcare data and improve fairness in comparison.
 
-![](images/AppendixA_HowAdjustmentWorks)
+![](images/AppendixA_HowAdjustmentWorks.png)
 
 
 # Important Interpretation Point
@@ -359,9 +359,9 @@ That’s the key tension.
 
 When reviewing standardised or adjusted healthcare metrics:
 
-* Could standardisation be masking genuine operational pressure?”
-* Are we interpreting statistical fairness as operational fairness?”
-* What action would realistically follow from this comparison?”
+* Could standardisation be masking genuine operational pressure?
+* Are we interpreting statistical fairness as operational fairness?
+* What action would realistically follow from this comparison?
 * Are the populations actually comparable?
 * Would crude rates give a misleading impression?
 * How different are the underlying age structures?

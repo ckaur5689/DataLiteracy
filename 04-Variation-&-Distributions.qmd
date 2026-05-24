@@ -483,6 +483,7 @@ Question:
 
 > Are we seeing sustained improvement or random fluctuation?
 
+![](images/SPCExamples_5.png)
 ---
 
 # When NOT To Use SPC
@@ -545,7 +546,7 @@ Simulation is explored in more detail in Module 6.
 * Identical means may mask very different pressures
 * SPC charts help distinguish normal vs unusual variation
 * SPC does not explain causes
-* Simulation becomes useful when systems are highly variable and complex
+* Simulation may become useful when healthcare systems become highly variable, interconnected or operationally complex
 
 ---
 

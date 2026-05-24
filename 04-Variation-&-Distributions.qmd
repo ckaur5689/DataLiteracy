@@ -6,7 +6,7 @@ Understanding how healthcare activity really behaves
 
 This module helps explain:
 
-why healthcare systems rarely behave in smooth or predictable ways — and why understanding variation is often more important than understanding averages.
+why healthcare systems naturally exhibit variation and rarely behave in perfectly predictable ways — and why understanding variation is often more important than understanding averages.
 
 ## Why Looking at the Data Matters
 
@@ -80,9 +80,10 @@ This matters enormously in healthcare.
 
 Imagine two hospitals:
 
-### Trust	Mean Length of Stay:
-* Trust A	6 days
-* Trust B	6 days
+| Trust | Mean Length of Stay |
+|---|---:|
+| Trust A | 6 days |
+| Trust B | 6 days |
 
 The averages look identical.
 
@@ -121,11 +122,9 @@ identical summary statistics do not imply identical operational systems.
 ### 
 “Always look at the data, not just the summary statistics.”
 
-
-
 # Common Patterns of Variation in Healthcare
 
-### Before returning to Length of Stay, it is helpful to understand some common ways healthcare data behaves.
+Before returning to Length of Stay in more detail, it is useful to understand some common ways healthcare activity behaves statistically.
 
 ## Normal Distribution
 
@@ -359,7 +358,7 @@ even though the average Length of Stay is the same.
 
 This highlights an important lesson:
 
--> identical averages do not imply identical operational systems.
+> identical averages do not imply identical operational systems.
 
 # Why This Matters for Population Health Management (PHM)
 
@@ -483,6 +482,8 @@ Question:
 
 > Are we seeing sustained improvement or random fluctuation?
 
+The examples below illustrate how SPC can help distinguish expected fluctuation from meaningful change in healthcare systems.
+
 ![](images/SPCExamples_5.png)
 ---
 
@@ -524,11 +525,11 @@ and ask:
 
 Examples include:
 
-adding ED capacity
-reducing discharge delays
-workforce shortages
-winter demand pressures
-elective backlog recovery
+- adding ED capacity
+- reducing discharge delays
+- workforce shortages
+- winter demand pressures
+- elective backlog recovery
 
 ## This is where simulation models can help.
 

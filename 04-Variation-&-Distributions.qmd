@@ -123,7 +123,7 @@ identical summary statistics do not imply identical operational systems.
 
 
 
-# 3. Common Patterns of Variation in Healthcare
+# Common Patterns of Variation in Healthcare
 
 ### Before returning to Length of Stay, it is helpful to understand some common ways healthcare data behaves.
 
@@ -232,7 +232,7 @@ May suggest:
 
 ---
 
-## 5. Length of Stay (LoS): Looking Beyond the Average
+# Length of Stay (LoS): Looking Beyond the Average
 
 Length of Stay (LoS) is one of the most common healthcare measures used to monitor hospital performance, patient flow and operational pressure.
 
@@ -424,7 +424,7 @@ Which patients are driving demand, why, and what can realistically be done diffe
 
 A relatively small cohort may consume a disproportionate share of bed days — and understanding this cohort may unlock some of the greatest opportunities for pathway redesign, prevention and demand management.
 
-# 6. Statistical Process Control (SPC) Charts
+# Statistical Process Control (SPC) Charts
 
 ## What Are SPC Charts?
 

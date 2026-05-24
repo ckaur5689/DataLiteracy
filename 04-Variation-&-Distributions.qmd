@@ -518,7 +518,7 @@ Rather than relying only on averages or historical trends, simulation allows hea
 
 > What might happen under different scenarios?
 
-Simulation is explored in more detail in Module 6.
+Simulation will be explored in more detail in a later module in the series.
 
 # Key Takeaways
 

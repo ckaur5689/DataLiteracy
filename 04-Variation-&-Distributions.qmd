@@ -78,9 +78,14 @@ This matters enormously in healthcare.
 
 Imagine two hospitals:
 
-| Trust   | Mean Length of Stay |
-| Trust A | 6 days              |
-| Trust B | 6 days              |
+Imagine two hospitals:
+
+| Trust | Mean Length of Stay |
+|---|---:|
+| Trust A | 6 days |
+| Trust B | 6 days |
+
+The averages look identical.
 
 The averages look identical.
 
@@ -299,9 +304,14 @@ Imagine two hospitals with a similar average Length of Stay.
 
 On paper:
 
-  | Trust  	 | Mean LoS|
-  | Trust A  |	6 days  |
-  | Trust B	 | 6 days  |
+Imagine two hospitals:
+
+| Trust | Mean Length of Stay |
+|---|---:|
+| Trust A | 6 days |
+| Trust B | 6 days |
+
+The averages look identical.
 
 The averages appear identical.
 

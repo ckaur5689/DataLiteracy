@@ -1,10 +1,8 @@
-# Module 4 - Variation & Distributions
-
-Understanding how healthcare activity really behaves
+# Module 4 - Variation & Distributions: Understanding how healthcare activity really behaves
 
 # Module Learning Objective
 
-This module helps explain:
+## This module helps explain
 
 why healthcare systems naturally exhibit variation and rarely behave in perfectly predictable ways — and why understanding variation is often more important than understanding averages.
 

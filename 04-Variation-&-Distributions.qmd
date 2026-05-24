@@ -89,18 +89,15 @@ The averages look identical.
 
 However, plotting the data reveals a different story.
 
-## Trust A
-
+### Trust A
 Most patients stay: 4–8 days
 
 Variation is relatively predictable.
 
-## Trust B
-
+### Trust B
 Most patients stay: 1–3 days
 
 But a relatively small cohort stays much longer:
-
 - 30–60+ days
 
 due to:
@@ -212,7 +209,7 @@ Characteristics:
 
 * two peaks
 
-## Healthcare examples:
+Healthcare examples:
 
 * ED waiting times split between minors and majors
 * mental health LoS groups
@@ -530,32 +527,38 @@ Examples include:
 
 ## This is where simulation models can help.
 
-Rather than relying only on averages or trends, simulation allows healthcare systems to explore:
+Rather than relying only on averages or historical trends, simulation allows healthcare systems to explore:
 
-what might happen under different scenarios.
+> What might happen under different scenarios?
 
 Simulation is explored in more detail in Module 6.
 
 # Key Takeaways
 
-* Healthcare systems are full of variation
-* Averages can hide operational reality
-* Different distributions imply different system behaviour
-* Identical means may mask very different pressures
-* SPC charts help distinguish normal vs unusual variation
-* SPC does not explain causes
-* Simulation may become useful when healthcare systems become highly variable, interconnected or operationally complex
+# Key Takeaways
+
+* Healthcare systems naturally exhibit variation — averages rarely tell the whole story
+* Summary statistics can look similar while masking very different operational realities
+* Understanding distributions helps explain demand, flow and system pressure
+* A relatively small cohort of patients may consume a disproportionate share of bed days
+* Statistical Process Control (SPC) helps distinguish expected variation from meaningful change
+* SPC highlights signals — but does not explain causes
+* When systems become highly variable or operationally complex, simulation models may help explore future scenarios
 
 ---
 
 # Questions Decision-Makers Should Ask
 
-* Are we looking at the average — or the distribution?
-* Could a small number of patients be driving disproportionate demand?
-* Are we seeing normal variation or something unusual?
-* Is this signal meaningful or random fluctuation?
-* Does the mean hide operational instability?
-* Would SPC help interpret this trend?
-* Are there different subgroups hidden within this data?
-* Is the system becoming too complex for simple averages?
+# Questions Decision-Makers Should Ask
+
+* Are we looking only at an average — or the full distribution of activity?
+* Could a relatively small cohort be driving disproportionate operational pressure or demand?
+* Are we seeing expected variation — or evidence of something meaningfully different?
+* Is this signal likely to reflect real change or random fluctuation?
+* Does this metric hide operational complexity (for example, frailty, delayed discharge or multimorbidity)?
+* Are there different patient groups or pathways hidden within the data?
+* What operational actions would realistically follow from this analysis?
+* Would SPC help us distinguish real change from normal fluctuation?
+* Has the system become too complex for averages and trend lines alone?
+* Would scenario modelling or simulation help us test future options?
 

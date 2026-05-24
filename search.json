@@ -94,37 +94,197 @@
     "href": "04-Variation-&-Distributions.html",
     "title": "Module 4 - Variation & Distributions",
     "section": "",
-    "text": "The most common distrubtions seen in healthcare",
+    "text": "Module Learning Objective",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
-    "objectID": "04-Variation-&-Distributions.html#different-distributions-resulting-in-the-same-meanaverage",
-    "href": "04-Variation-&-Distributions.html#different-distributions-resulting-in-the-same-meanaverage",
+    "objectID": "04-Variation-&-Distributions.html#this-module-helps-explain",
+    "href": "04-Variation-&-Distributions.html#this-module-helps-explain",
     "title": "Module 4 - Variation & Distributions",
-    "section": "Different distributions resulting in the same mean/average",
-    "text": "Different distributions resulting in the same mean/average",
+    "section": "This module helps explain",
+    "text": "This module helps explain\nwhy healthcare systems naturally exhibit variation and rarely behave in perfectly predictable ways — and why understanding variation is often more important than understanding averages.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
-    "objectID": "04-Variation-&-Distributions.html#statistical-process-control-charts",
-    "href": "04-Variation-&-Distributions.html#statistical-process-control-charts",
+    "objectID": "04-Variation-&-Distributions.html#why-looking-at-the-data-matters",
+    "href": "04-Variation-&-Distributions.html#why-looking-at-the-data-matters",
     "title": "Module 4 - Variation & Distributions",
-    "section": "Statistical Process Control Charts",
-    "text": "Statistical Process Control Charts",
+    "section": "Why Looking at the Data Matters",
+    "text": "Why Looking at the Data Matters\nHealthcare analytics often relies on summary statistics such as:\n\naverages (means)\nmedians\npercentages\nrates\nstandard deviations\n\nThese measures are useful because they simplify complex data.\nHowever, summary statistics can sometimes be misleading.\nVery different underlying patterns may produce:\n\nthe same mean\nsimilar variation\nsimilar summary statistics\n\nwhile representing very different operational realities.\nThis creates an important lesson:\n\nAlways look at the shape of the data — not just the summary numbers.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
-    "objectID": "04-Variation-&-Distributions.html#los-as-an-example",
-    "href": "04-Variation-&-Distributions.html#los-as-an-example",
+    "objectID": "04-Variation-&-Distributions.html#key-lesson",
+    "href": "04-Variation-&-Distributions.html#key-lesson",
     "title": "Module 4 - Variation & Distributions",
-    "section": "LoS as an example",
-    "text": "LoS as an example",
+    "section": "Key Lesson",
+    "text": "Key Lesson\nNumbers summarise data — but plots help us understand it.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#a-healthcare-example-length-of-stay",
+    "href": "04-Variation-&-Distributions.html#a-healthcare-example-length-of-stay",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "A Healthcare Example: Length of Stay",
+    "text": "A Healthcare Example: Length of Stay\nThis matters enormously in healthcare.\nImagine two hospitals:\nTrust | Mean Length of Stay |\n  | |\nTrust A | 6 days |\nTrust B | 6 days |\nThe averages look identical.\nHowever, plotting the data reveals a different story.\n\nTrust A\nMost patients stay: 4–8 days\nVariation is relatively predictable.\n\n\nTrust B\nMost patients stay: 1–3 days\nBut a relatively small cohort stays much longer: - 30–60+ days\ndue to:\n\nfrailty\nmultimorbidity\ndelayed discharge\nsocial care complexity\n\nOperationally:\n\nthe systems may feel completely different despite identical averages.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#this-highlights-an-important-lesson",
+    "href": "04-Variation-&-Distributions.html#this-highlights-an-important-lesson",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "This highlights an important lesson:",
+    "text": "This highlights an important lesson:\nidentical summary statistics do not imply identical operational systems.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#normal-distribution",
+    "href": "04-Variation-&-Distributions.html#normal-distribution",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Normal Distribution",
+    "text": "Normal Distribution\ngenui{“math_block_widget_always_prefetch_v2”:{“content”:“y=e{-x2}”}}\nCharacteristics:\n\nsymmetrical\nclustered around a central value\npredictable variation\n\nHealthcare examples:\n\nadult height\nblood pressure (in selected populations)\nlaboratory measurements\n\n\nInterpretation\nVariation is relatively predictable.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#right-skewed-distribution-most-common-in-healthcare",
+    "href": "04-Variation-&-Distributions.html#right-skewed-distribution-most-common-in-healthcare",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Right-Skewed Distribution (Most Common in Healthcare)",
+    "text": "Right-Skewed Distribution (Most Common in Healthcare)\nCharacteristics:\n\nmany small values\nfewer large values\nlong tail\n\nHealthcare examples:\n\nLength of Stay\nED attendances per patient\noutpatient waiting times\nfrequent attenders\ndelayed discharge\n\n\nInterpretation\nA small number of patients often drive disproportionate operational demand.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#poisson-distribution-counts",
+    "href": "04-Variation-&-Distributions.html#poisson-distribution-counts",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Poisson Distribution (Counts)",
+    "text": "Poisson Distribution (Counts)\nCommon for:\n\nfalls\ninfections\nincidents\nadmissions\ncomplaints\n\nExample:\n\nnumber of falls per ward per month\n\n\nInterpretation\nUseful for monitoring rare events over time.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#binomial-proportion-distribution",
+    "href": "04-Variation-&-Distributions.html#binomial-proportion-distribution",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Binomial / Proportion Distribution",
+    "text": "Binomial / Proportion Distribution\nCommon for:\n\nmortality rates\nreadmission proportions\ninfection percentages\ncompliance rates\n\nExample:\n\n% stroke patients receiving thrombolysis\n\n\nInterpretation\nUsed when monitoring proportions.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#bimodal-distributions",
+    "href": "04-Variation-&-Distributions.html#bimodal-distributions",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Bimodal Distributions",
+    "text": "Bimodal Distributions\nCharacteristics:\n\ntwo peaks\n\nHealthcare examples:\n\nED waiting times split between minors and majors\nmental health LoS groups\nelective vs emergency pathways\n\n\nInterpretation\nMay suggest:\n\ndifferent patient groups\nhidden segmentation\npathway effects",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#understanding-skew-and-tails",
+    "href": "04-Variation-&-Distributions.html#understanding-skew-and-tails",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Understanding Skew and Tails",
+    "text": "Understanding Skew and Tails\nIn a symmetrical distribution, most values cluster evenly around the middle.\nHealthcare data often behaves differently.\nLength of Stay commonly demonstrates a right-skewed distribution, where:\n\nmany short stays occur\nprogressively fewer longer stays occur\na small number of patients create a long operational tail\n\nThe important insight is:\nnot all patients contribute equally to hospital bed occupancy.\nA relatively small number of patients can consume a disproportionate number of bed days.\nThis matters enormously operationally.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#moderate-to-severe-frailty-and-multimorbidity",
+    "href": "04-Variation-&-Distributions.html#moderate-to-severe-frailty-and-multimorbidity",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Moderate to Severe Frailty and Multimorbidity",
+    "text": "Moderate to Severe Frailty and Multimorbidity\nLonger stays are often not random.\nThey may be disproportionately associated with patients who experience:\n\nmoderate or severe frailty\nmultiple long-term conditions (multimorbidity)\ncognitive impairment\nsocial care needs\nhousing instability\ncomplex discharge requirements\n\n\nFor example:\nA relatively fit patient admitted with pneumonia may recover and return home quickly.\nIn contrast, an older frail patient with:\n\nheart failure\ndiabetes\ndementia\nreduced mobility\n\nmay require:\n\ntherapy input\nsocial care assessment\ndischarge planning\ncommunity support coordination\n\nEven if medically fit, discharge may remain delayed due to wider system complexity.\nThis means Length of Stay is often influenced by much more than clinical recovery alone.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#delayed-discharge-and-operational-pressure",
+    "href": "04-Variation-&-Distributions.html#delayed-discharge-and-operational-pressure",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Delayed Discharge and Operational Pressure",
+    "text": "Delayed Discharge and Operational Pressure\nDelayed discharge provides an important example of how distributions matter.\nImagine two hospitals with a similar average Length of Stay.\nOn paper:\n\nTrust Mean LoS\nTrust A 6 days\nTrust B 6 days\n\nThe averages appear identical.\nHowever:\n\nTrust A\nMost patients stay: 4–8 days\n\n\nTrust B\nMost patients stay:\n\n1–3 days\n\nBut a smaller group experience:\n\n30–60+ day stays due to delayed discharge and frailty-related complexity\n\nOperationally, these hospitals may feel very different.\n\nTrust B may experience:\n\nbed occupancy pressure\ndelayed patient flow\ndischarge bottlenecks\ncorridor care risk\nescalation pressures\n\neven though the average Length of Stay is the same.\nThis highlights an important lesson:\n\nidentical averages do not imply identical operational systems.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#why-this-matters-for-population-health-management-phm",
+    "href": "04-Variation-&-Distributions.html#why-this-matters-for-population-health-management-phm",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Why This Matters for Population Health Management (PHM)",
+    "text": "Why This Matters for Population Health Management (PHM)\nUnderstanding who sits in the long tail matters.\nIf a relatively small cohort consumes a large proportion of bed days, important questions emerge:\n\nWho are these patients?\nWhat risks or characteristics do they share?\nAre there opportunities for earlier intervention?\nCould support be delivered upstream?\n\nThis moves analytics beyond description and into action.\n\nFor example:\nHealthcare systems may identify cohorts with:\n\nmoderate/severe frailty\nrepeated non-elective admissions\nmultimorbidity\nsocial care dependency\ndischarge delays\n\nThese cohorts may benefit from:\n\nanticipatory care\nfrailty pathways\nintegrated neighbourhood working\nenhanced discharge planning\ncommunity-based intervention",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#what-are-spc-charts",
+    "href": "04-Variation-&-Distributions.html#what-are-spc-charts",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "What Are SPC Charts?",
+    "text": "What Are SPC Charts?\nSPC charts help distinguish:\n\ncommon cause variation\n(normal system variation)\nvs\n\n\nspecial cause variation\n(unusual change requiring investigation)\nThis is extremely NHS relevant.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#when-spc-charts-work-well",
+    "href": "04-Variation-&-Distributions.html#when-spc-charts-work-well",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "When SPC Charts Work Well",
+    "text": "When SPC Charts Work Well\nWhen monitoring:\n\nCounts (c-chart/u-chart)\nExample:\n\nfalls per ward\ncomplaints\ninfections\n\n\n\nProportions (p-chart)\nExample:\n\n% stroke patients thrombolysed\n% patients seen within target",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#example-counts",
+    "href": "04-Variation-&-Distributions.html#example-counts",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Example: Counts",
+    "text": "Example: Counts\nMonthly falls on Ward A.\nQuestion:\n\nIs variation normal — or has something changed?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#example-proportion",
+    "href": "04-Variation-&-Distributions.html#example-proportion",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "Example: Proportion",
+    "text": "Example: Proportion\n% stroke patients receiving assessment within target timeframe.\nQuestion:\n\nAre we seeing sustained improvement or random fluctuation?\n\nThe examples below illustrate how SPC can help distinguish expected fluctuation from meaningful change in healthcare systems.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+    ]
+  },
+  {
+    "objectID": "04-Variation-&-Distributions.html#this-is-where-simulation-models-can-help.",
+    "href": "04-Variation-&-Distributions.html#this-is-where-simulation-models-can-help.",
+    "title": "Module 4 - Variation & Distributions",
+    "section": "This is where simulation models can help.",
+    "text": "This is where simulation models can help.\nRather than relying only on averages or historical trends, simulation allows healthcare systems to explore:\n\nWhat might happen under different scenarios?\n\nSimulation is explored in more detail in Module 6.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]

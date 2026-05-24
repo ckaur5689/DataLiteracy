@@ -120,8 +120,6 @@ These patterns help explain why healthcare systems rarely behave in smooth or pr
 
 ## Normal Distribution
 
-genui{"math_block_widget_always_prefetch_v2":{"content":"y=e^{-x^2}"}}
-
 Characteristics:
 
 * symmetrical

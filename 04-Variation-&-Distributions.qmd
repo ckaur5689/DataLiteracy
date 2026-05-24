@@ -32,7 +32,7 @@ while representing very different operational realities.
 
 This creates an important lesson:
 
--> Always look at the shape of the data — not just the summary numbers.
+> Always look at the shape of the data — not just the summary numbers.
 
 # A Statistical Cautionary Tale
 
@@ -74,7 +74,7 @@ Numbers summarise data — but plots help us understand it.
 
 ![](images/SameSummaryStatistics_DifferentReality_1.png)
 
-A Healthcare Example: Length of Stay
+## A Healthcare Example: Length of Stay
 
 This matters enormously in healthcare.
 
@@ -123,9 +123,9 @@ identical summary statistics do not imply identical operational systems.
 
 
 
-# 3. Common Distributions Seen in Healthcare
+# 3. Common Patterns of Variation in Healthcare
 
-This section is very strong and distinctive.
+### Before returning to Length of Stay, it is helpful to understand some common ways healthcare data behaves.
 
 ## Normal Distribution
 
@@ -150,8 +150,6 @@ Variation is relatively predictable.
 ---
 
 ## Right-Skewed Distribution (Most Common in Healthcare)
-
-This is the big one.
 
 Characteristics:
 
@@ -218,7 +216,7 @@ Characteristics:
 
 * two peaks
 
-Healthcare examples:
+## Healthcare examples:
 
 * ED waiting times split between minors and majors
 * mental health LoS groups
@@ -231,55 +229,6 @@ May suggest:
 * different patient groups
 * hidden segmentation
 * pathway effects
-
----
-
-# 4. Cautionary Tale — Same Mean, Very Different Reality
-
-This should become a centrepiece section.
-
-## Example
-
-Two hospitals:
-
-| Trust | Mean LoS |
-| ----- | -------: |
-| A     |   6 days |
-| B     |   6 days |
-
-Looks identical.
-
-But:
-
-### Trust A
-
-Most stays:
-5–7 days
-
-### Trust B
-
-Most stays:
-1–2 days
-
-Small group:
-40–60 days
-
-Operationally:
-
-Trust B may experience:
-
-* delayed flow
-* discharge bottlenecks
-* stranded patients
-* capacity instability
-
-Even though:
-
-> the mean is identical.
-
-### Key lesson
-
-> identical averages do not imply identical operational systems.
 
 ---
 
@@ -380,11 +329,11 @@ The averages appear identical.
 
 However:
 
-Trust A
+### Trust A
 
 Most patients stay: 4–8 days
 
- - Trust B
+### Trust B
 
 Most patients stay:
 

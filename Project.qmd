@@ -91,17 +91,20 @@ Proposed Initial Modules:
 - Correlation vs Causation
 - Variation & Distributions
 - Standardisation & Fair Comparison
+- Risk, Probability & Uncertainty
+- How to Read a Dashboard
 
 # Part 2 — Understanding Healthcare Systems
 
-- Population Health Management & Segmentation
 - Demand, Capacity & Operational Flow
+- Population Health Management & Segmentation
 - Pathway Analytics & Intervention Design
+- Simulation & Scenario Modelling
 
 # Part 3 — Modern Healthcare Analytics
 
-- Explainable AI in Healthcare
 - Predictive Modelling & Risk Stratification
+- Explainable AI in Healthcare
 - BI to Augmented Analytics
 - AI, Sustainability & Healthcare Systems
 

@@ -91,17 +91,17 @@ Proposed Initial Modules:
 - Correlation vs Causation
 - Variation & Distributions
 - Standardisation & Fair Comparison
-- Risk, Probability & Uncertainty
 - How to Read a Dashboard
+- Risk, Probability & Uncertainty
 
-# Part 2 — Understanding Healthcare Systems
+# Part 2 — Understanding & Improving Healthcare Systems
 
 - Demand, Capacity & Operational Flow
 - Population Health Management & Segmentation
 - Pathway Analytics & Intervention Design
+- Evaluating Interventions & Scheme
+- Health Economics & Value in Healthcare Decision-Making
 - Simulation & Scenario Modelling
-- Evaluation of interventions
-- Health Economics
 
 # Part 3 — Modern Healthcare Analytics
 

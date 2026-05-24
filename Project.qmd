@@ -100,6 +100,8 @@ Proposed Initial Modules:
 - Population Health Management & Segmentation
 - Pathway Analytics & Intervention Design
 - Simulation & Scenario Modelling
+- Evaluation of interventions
+- Health Economics
 
 # Part 3 — Modern Healthcare Analytics
 

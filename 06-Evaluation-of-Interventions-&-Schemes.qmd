@@ -256,13 +256,13 @@ What might reasonably have happened anyway
 
 The closer we can get to a believable counterfactual:
 
-> the more confidence we have in our conclusions.
+> the greater our confidence that the intervention genuinely contributed to the observed change.
 
 ## Why Counterfactual Thinking Matters
 
 The image below illustrates a common evaluation mistake:
 
-assuming improvement after an intervention automatically implies impact.
+assuming that improvement after an intervention automatically implies impact.
 
 Good evaluation instead asks:
 
@@ -287,8 +287,6 @@ Others provide stronger evidence.
 A useful question for decision-makers is:
 
 > **How confident should we be that the intervention caused the observed change?**
-
-The diagram below illustrates a simplified hierarchy.
 
 The diagram below illustrates a simplified hierarchy of evaluation approaches and the confidence they provide that an intervention caused observed change.
 
@@ -320,6 +318,8 @@ In practice:
 * schemes overlap
 * data quality may vary
 * funding cycles are short
+
+This is particularly important in healthcare, where decisions often need to be made despite incomplete evidence and competing operational pressures.
 
 This means healthcare evaluation often involves balancing:
 

@@ -394,7 +394,7 @@ because random fluctuation becomes less influential.
 
 This does not mean:
 
-> **larger automatically means better**
+> **larger samples do not automatically mean better evidence**
 
 Poor evaluation design can still produce misleading conclusions.
 
@@ -490,7 +490,7 @@ This does not guarantee truth.
 
 But it increases confidence.
 
-The image below illustrates why small evaluations often produce more unstable and uncertain findings.
+The image below illustrates why small evaluations often produce more unstable and uncertain findings — even when results initially look promising.
 
 ![](images/SmallSamplesvsStrongerEvidence_4.png)
 
@@ -611,9 +611,7 @@ Some people improve naturally because:
 
 This means:
 
-> **extreme patients often improve somewhat even without intervention**
-
----
+> **some improvement may occur even if the intervention had little or no effect**
 
 ## Why Regression to the Mean Matters
 
@@ -642,6 +640,22 @@ The image below illustrates an important evaluation risk:
 
 ![](images/RegressionToMean_5.png)
 
+## Why This Matters for Healthcare Decision-Making
+
+Healthcare systems frequently target interventions at patients with the highest levels of need.
+
+This makes regression to the mean particularly important.
+
+Without recognising it, decision-makers may:
+
+- overestimate intervention impact
+- scale ineffective schemes
+- misallocate scarce resources
+
+A useful question becomes:
+
+> *Would some improvement have happened anyway?*
+
 ## Key Message
 
 Small pilots and extreme patient groups can easily mislead evaluation.
@@ -658,13 +672,12 @@ and
 
 > *Could improvement have happened anyway?*
 
----
 
 ## Part 2 Reflection
 
 Before moving on, ask:
 
-> *If outcomes improved, are we confident this reflects intervention impact — or could small numbers and natural fluctuation explain part of the change?*
+> *If outcomes improved, how confident are we that this reflects intervention impact rather than small numbers or natural fluctuation?*
 
 In the next section, we explore practical approaches that healthcare systems use to strengthen comparisons in real-world settings:
 

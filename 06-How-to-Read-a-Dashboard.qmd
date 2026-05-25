@@ -386,7 +386,7 @@ More thoughtful interpretation instead asks:
 
 Good dashboard interpretation focuses less on immediate conclusions and more on:
 
-> **context, comparison, variation and better questions**
+> **> context, comparison, variation and critical questioning**
 
 Dashboards help surface patterns and areas requiring attention.
 

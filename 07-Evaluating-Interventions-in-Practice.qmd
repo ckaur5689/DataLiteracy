@@ -36,7 +36,7 @@ Healthcare systems frequently observe change after an intervention.
 
 For example:
 
-```text
+```
 ED attendances ↓
 Emergency admissions ↓
 ```
@@ -329,7 +329,7 @@ For example:
 
 A frailty intervention is piloted for:
 
-```text id="rz2k14"
+```
 20 patients
 ```
 
@@ -416,7 +416,7 @@ For example:
 
 a frailty scheme may genuinely reduce emergency admissions by:
 
-```text id="v6q2mu"
+```
 5%
 ```
 
@@ -444,14 +444,14 @@ Imagine two evaluations of the same frailty pathway.
 
 ### Evaluation A
 
-```text id="h9sq2n"
+```
 20 patients
 2 months follow-up
 ```
 
 Observed result:
 
-```text id="m34m0w"
+```
 Emergency admissions ↓
 ```
 
@@ -463,7 +463,7 @@ Confidence remains limited.
 
 ### Evaluation B
 
-```text id="8vj5kh"
+```
 2,000 patients
 12 months follow-up
 Comparator group included
@@ -471,7 +471,7 @@ Comparator group included
 
 Observed result:
 
-```text id="ey0v1z"
+```
 Emergency admissions ↓
 ```
 
@@ -560,7 +560,7 @@ In other words:
 
 Imagine a healthcare system identifies:
 
-```text id="mvv65s"
+```
 20 patients
 ```
 
@@ -568,7 +568,7 @@ with very high Emergency Department attendance.
 
 Each attended:
 
-```text id="fhvpg2"
+```
 10–15 times
 ```
 
@@ -756,7 +756,7 @@ This distinction matters.
 
 Instead of simply comparing:
 
-```text id="0kqt79"
+```
 before
 vs
 after
@@ -764,7 +764,7 @@ after
 
 ITS asks:
 
-```text id="lu5e1q"
+```
 Was the trajectory interrupted?
 ```
 
@@ -791,19 +791,19 @@ Imagine an Integrated Care Board introduces a frailty pathway to reduce emergenc
 
 Instead of comparing:
 
-```text id="hdtg1r"
+```
 before vs after
 ```
 
 we examine:
 
-```text id="1f0rjg"
+```
 monthly emergency admissions over time
 ```
 
 Suppose the intervention begins in:
 
-```text id="m7s5qq"
+```
 Month 8
 ```
 
@@ -920,7 +920,7 @@ In simple terms:
 
 we compare:
 
-```text id="a3ajqi"
+```
 change
 vs
 change
@@ -928,7 +928,7 @@ change
 
 rather than:
 
-```text id="vccwkt"
+```
 before
 vs
 after
@@ -964,13 +964,13 @@ After twelve months:
 
 ### PCN A
 
-```text id="p7dcb1"
+```
 Emergency admissions ↓ 15%
 ```
 
 ### PCN B
 
-```text id="g11kcm"
+```
 Emergency admissions ↓ 5%
 ```
 

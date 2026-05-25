@@ -109,8 +109,6 @@ ED attendance has fallen.
 
 Emergency admissions have fallen.
 
-The scheme appears to have worked.
-
 But an important question remains:
 
 > **Would this reduction have happened anyway?**
@@ -292,7 +290,7 @@ A useful question for decision-makers is:
 
 The diagram below illustrates a simplified hierarchy.
 
-Different evaluation approaches provide different levels of confidence about whether an intervention caused observed change.
+The diagram below illustrates a simplified hierarchy of evaluation approaches and the confidence they provide that an intervention caused observed change.
 
 ![](images/LevelsofEvaluationConfidence_2.png)
 
@@ -352,3 +350,11 @@ Before moving to more formal evaluation approaches, ask:
 > *If outcomes changed after an intervention, what evidence would genuinely convince us that the intervention caused the change?*
 
 In the next section, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS methods through to Randomised Controlled Trials.
+
+Rather than asking:
+
+> *Did outcomes change?*
+
+we begin asking:
+
+> *How confident are we that the intervention caused the change?*

@@ -298,18 +298,7 @@ A useful question for decision-makers is:
 
 The diagram below illustrates a simplified hierarchy.
 
-```text
-Higher confidence in attribution
-↑
-Randomised Controlled Trial (RCT)
-Difference-in-Differences
-Interrupted Time Series
-Matched Comparator
-Trend Comparison
-Simple Before–After
-↓
-Lower confidence in attribution
-```
+![](images/LevelsofEvaluationConfidence_2.png)
 
 This hierarchy is not about:
 

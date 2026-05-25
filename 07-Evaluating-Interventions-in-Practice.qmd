@@ -201,31 +201,6 @@ Because patients were randomly allocated, we can generally have:
 
 rather than underlying differences between patient groups.
 
----
-
-## Why Randomisation Matters
-
-Without randomisation:
-
-services may unintentionally select patients who are:
-
-* easier to help
-* more engaged
-* less clinically complex
-* more motivated
-
-This creates a problem known as:
-
-> **selection bias**
-
-For example:
-
-a frailty service might prioritise patients who are already likely to improve.
-
-The intervention may then appear more successful than it truly is.
-
-Randomisation helps reduce this risk.
-
 ## Why Randomisation Matters
 
 Without randomisation:
@@ -253,13 +228,7 @@ Randomisation helps reduce this risk.
 
 The key idea is simple:
 
-> **random allocation improves confidence that differences between groups are more likely to reflect the intervention rather than underlying differences between patients.**
-
-## Why RCTs Are Difficult in Real Healthcare Systems
-
-Despite their strengths:
-
-RCTs are often difficult to implement in real healthcare systems.
+> **random allocation improves confidence that differences in outcomes are more likely to reflect the intervention rather than underlying differences between patients.**
 
 ## Why RCTs Are Difficult in Real Healthcare Systems
 
@@ -301,17 +270,13 @@ many healthcare evaluations rely on:
 
 that improve confidence without requiring a full RCT.
 
----
-
-## Key Message
-
-RCTs are powerful because they create:
-
-> **a stronger comparison between intervention and non-intervention groups**
+RCTs can provide strong evidence.
 
 However:
 
-> **strong evidence is not always practical evidence**
+> strong evidence is not always operationally practical evidence
+
+## Key Message
 
 Healthcare systems often need approaches that balance:
 

@@ -93,7 +93,7 @@ Proposed Initial Modules:
 - Standardisation & Fair Comparison
 - Evaluating Interventions & Schemes (Thinking About Evidence)
 - Evaluating Interventions in Practice (Methods)
-- Evaluating Complex Change in Healthcare Systems
+- Why Healthcare Improvement Is Hard to Evaluate
 - Risk, Probability & Uncertainty
 - How to Read a Dashboard
 

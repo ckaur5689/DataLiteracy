@@ -514,7 +514,7 @@ Good dashboard interpretation begins with curiosity rather than immediate conclu
 
 Dashboards become most useful when they encourage:
 
-> **better questions**
+> better questions rather than faster conclusions
 
 rather than immediate conclusions.
 
@@ -690,7 +690,13 @@ The key question becomes:
 
 > *Are we observing signal — or noise?*
 
-![](image/DashboardInterpretation_2.png)
+The framework below summarises a practical way to interpret dashboards before jumping to conclusions.
+
+Rather than reacting immediately to a metric or colour:
+
+> pause, question and interpret.
+
+![](images/DashboardInterpretation_2.png)
 
 ---
 

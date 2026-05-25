@@ -343,7 +343,7 @@ Evaluation therefore becomes less about certainty and more about:
 
 > making proportionate, evidence-informed judgements.
 
-## Part 1 Key Reflection
+## Reflection
 
 Before moving on, ask:
 
@@ -368,11 +368,11 @@ to ask:
 ## Key Takeaways
 
 - improvement alone does not prove intervention impact
-- fair comparison improves confidence in findings
-- small numbers and short pilots can mislead
-- some improvement may occur naturally over time
-- stronger evaluation asks whether trajectories changed
-- comparison groups improve confidence when randomisation is not practical
+- healthcare systems change for many reasons at the same time
+- simple before-and-after comparisons can be misleading
+- stronger evaluation asks what might have happened anyway
+- evaluation is about improving confidence, not proving certainty
+- good decision-making balances pragmatism with evidence
 
 Good evaluation moves beyond:
 
@@ -386,12 +386,12 @@ to ask:
 
 Before acting on evaluation findings, ask:
 
-- Compared with what?
-- Were the groups genuinely comparable?
-- Could small numbers or short follow-up be misleading?
-- Could improvement have happened naturally anyway?
-- Did the trajectory meaningfully change?
-- How confident are we that the intervention genuinely contributed to change?
+- What else changed at the same time?
+- Would improvement have happened anyway?
+- Are we confusing correlation with causation?
+- What evidence would increase our confidence?
+- How certain do we really need to be before acting?
+- What level of confidence is proportionate for this decision?
 
 In the next module, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS evaluation methods through to Randomised Controlled Trials, Interrupted Time Series and Difference-in-Differences.
 

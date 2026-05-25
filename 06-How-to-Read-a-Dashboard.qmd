@@ -376,7 +376,7 @@ and
 
 > **interpreting dashboards critically**
 
-Fast dashboard interpretation often jumps to conclusions based on colours, isolated metrics or single-month changes.
+Fast dashboard interpretation can sometimes lead to conclusions based on colours, isolated metrics or single-month changes.
 
 More thoughtful interpretation instead asks:
 
@@ -419,24 +419,21 @@ The answer depends on:
 - expected baseline utilisation
 - comparison with peers
 
+
+```markdown
 Similarly:
 
-```text
-40 falls 
+> **40 inpatient falls**
 
-might look alarming.
+might initially feel alarming.
 
 But interpretation changes dramatically if this occurred across:
 
-500 admissions
+> **500 admissions**
 
 versus:
 
-25,000 occupied bed days
-
-A useful question becomes:
-
-> *Relative to what?*
+> **25,000 occupied bed days**
 
 This matters for:
 
@@ -449,6 +446,10 @@ This matters for:
 * pathway conversion
 
 Raw numbers alone rarely tell the full story.
+
+Good dashboard interpretation therefore asks:
+
+> *Relative to what?*
 
 ---
 
@@ -503,11 +504,8 @@ Before moving on, ask:
 
 > *If a dashboard suddenly looked concerning, what questions would I want answered before acting?*
 
-In the next section, we explore:
-
-> **what questions good decision-makers ask when reading dashboards**
+Good dashboard interpretation begins with curiosity rather than immediate conclusions.
 
 ---
 ## Part 2 — What Questions Should Decision-Makers Ask?
 ---
-

@@ -711,8 +711,6 @@ Instead:
 
 > **they improve confidence in findings by creating stronger comparisons.**
 
----
-
 # Interrupted Time Series (ITS)
 
 One challenge with simple before-and-after evaluation is this:
@@ -732,8 +730,6 @@ This creates an important risk:
 > **improvement may already have been happening before an intervention started**
 
 Interrupted Time Series (ITS) helps address this problem.
-
----
 
 ## What Is Interrupted Time Series?
 
@@ -778,8 +774,6 @@ Did emergency admissions:
 * stop increasing?
 * improve in a sustained way?
 
----
-
 ## A Practical Healthcare Example
 
 Imagine an Integrated Care Board introduces a frailty pathway to reduce emergency admissions.
@@ -820,8 +814,6 @@ Question:
 
 Confidence in intervention impact remains limited.
 
----
-
 ### Scenario 2 — Sudden Change
 
 Admissions drop sharply immediately after implementation.
@@ -831,8 +823,6 @@ Question:
 > *Could this represent intervention impact?*
 
 Confidence increases.
-
----
 
 ### Scenario 3 — Sustained Improvement
 
@@ -856,7 +846,6 @@ from
 
 ![](images/InterruptedTimeSeries_6.png)
 
----
 
 ## Why ITS Matters for Healthcare Decision-Making
 

@@ -511,3 +511,314 @@ Good dashboard interpretation begins with curiosity rather than immediate conclu
 ---
 ## Part 2 — What Questions Should Decision-Makers Ask?
 ---
+
+Dashboards become most useful when they encourage:
+
+> **better questions**
+
+rather than immediate conclusions.
+
+Good dashboard interpretation is not about memorising metrics.
+
+Instead:
+
+> **it is about learning how to think critically about what the dashboard might — and might not — be telling us**
+
+The following questions can provide a practical framework for interpreting dashboards more effectively.
+
+---
+
+## 1. What Am I Actually Looking At?
+
+Before interpreting a metric, it helps to understand:
+
+> **what the measure actually represents**
+
+For example:
+
+is it:
+
+* a count?
+* a rate?
+* a percentage?
+* an average?
+* a median?
+* a target?
+* a trend?
+
+This matters.
+
+A dashboard may show:
+
+```text
+Emergency admissions ↑
+```
+
+Question:
+
+> *Compared with what definition?*
+
+Does this include:
+
+* same-day emergency care?
+* observation activity?
+* short stay admissions?
+* only non-elective inpatient spells?
+
+Similarly:
+
+a dashboard may show:
+
+```text
+Average waiting time
+```
+
+Question:
+
+> *Average according to whom?*
+
+Mean?
+
+Median?
+
+90th percentile?
+
+The same label can sometimes describe very different things.
+
+A useful first question therefore becomes:
+
+> *What exactly am I looking at?*
+
+---
+
+## 2. Compared With What?
+
+Numbers rarely mean much in isolation.
+
+A dashboard showing:
+
+```text
+72%
+```
+
+immediately prompts another question:
+
+> *Compared with what?*
+
+Possible comparisons include:
+
+* previous month
+* previous year
+* peer organisations
+* national average
+* target or threshold
+* expected seasonal pattern
+* statistical control limits
+
+For example:
+
+ED performance may appear poor.
+
+However:
+
+if all peer systems experienced winter deterioration during the same period:
+
+> the interpretation changes.
+
+Similarly:
+
+an increase in emergency admissions may feel alarming.
+
+But interpretation changes if:
+
+> demand increased nationally
+
+or:
+
+> population need increased substantially.
+
+Good dashboard interpretation asks:
+
+> *Is this number unusual — or expected?*
+
+---
+
+## 3. Is This Meaningful Change — or Normal Variation?
+
+Healthcare systems fluctuate.
+
+Not every change matters.
+
+A common mistake is assuming:
+
+```text
+performance changed
+```
+
+therefore:
+
+```text
+something important happened
+```
+
+Sometimes this is true.
+
+Sometimes it is simply:
+
+> **normal variation**
+
+For example:
+
+a dashboard may show:
+
+```text
+ED attendances ↑ 4%
+```
+
+Question:
+
+> *Is this meaningful?*
+
+Good interpretation asks:
+
+* Is this one month or a sustained trend?
+* Does the change exceed normal fluctuation?
+* What does the SPC chart suggest?
+* Has seasonality been considered?
+
+The key question becomes:
+
+> *Are we observing signal — or noise?*
+
+![](image/DashboardInterpretation_2)
+
+---
+
+## 4. What Context Might Explain This?
+
+Dashboards rarely explain:
+
+> **why**
+
+something happened.
+
+Context matters.
+
+For example:
+
+a deterioration in urgent care performance may reflect:
+
+* winter respiratory illness
+* workforce shortages
+* discharge delays
+* bed occupancy
+* industrial action
+* increased acuity
+* coding or operational changes
+
+Similarly:
+
+an apparent improvement may not always mean:
+
+> improvement caused by intervention.
+
+Good interpretation therefore asks:
+
+> *What else changed at the same time?*
+
+This links closely with:
+
+> **Module 7 — Thinking About Evidence & Evaluation**
+
+because dashboard interpretation should avoid:
+
+> jumping from association to causation.
+
+---
+
+## 5. What Decision Does This Information Support?
+
+Perhaps the most important question is:
+
+> *What decision are we trying to make?*
+
+Not every metric needs action.
+
+Not every deterioration requires escalation.
+
+And not every improvement should trigger celebration.
+
+A dashboard should help support:
+
+* prioritisation
+* investigation
+* monitoring
+* resource allocation
+* quality improvement
+* escalation where appropriate
+
+Good interpretation therefore asks:
+
+> *What decision does this information meaningfully support?*
+
+Sometimes the right answer is:
+
+> *monitor more closely*
+
+rather than:
+
+> *act immediately*
+
+---
+
+## Reflection
+
+When looking at a dashboard, pause before acting and ask:
+
+> *What am I actually looking at, compared with what, and what context might explain it?*
+
+Good dashboard interpretation moves from:
+
+> **seeing numbers**
+
+to
+
+> **thinking critically about meaning**
+
+---
+
+## Key Takeaways
+
+* dashboards present information — they do not automatically explain it
+* numbers rarely make sense without context or comparison
+* variation matters — not every change is meaningful
+* dashboards show patterns but rarely prove causation
+* good interpretation focuses on questioning before action
+
+Effective dashboard interpretation moves beyond:
+
+> *What happened?*
+
+to ask:
+
+> *What might explain this — and what should we do next?*
+
+---
+
+## Questions Decision-Makers Should Ask
+
+Before acting on dashboard information, ask:
+
+* What am I actually looking at?
+* Compared with what?
+* Is this signal or normal variation?
+* What context might explain this?
+* What decision does this information support?
+* What additional information would improve confidence?
+
+---
+
+### Suggested closing line for Module 6
+
+> **Dashboards are most valuable not when they provide answers — but when they help decision-makers ask better questions.**
+

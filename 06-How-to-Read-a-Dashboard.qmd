@@ -386,7 +386,7 @@ More thoughtful interpretation instead asks:
 
 Good dashboard interpretation focuses less on immediate conclusions and more on:
 
-> **> context, comparison, variation and critical questioning**
+> **context, comparison, variation and critical questioning**
 
 Dashboards help surface patterns and areas requiring attention.
 
@@ -690,7 +690,7 @@ The key question becomes:
 
 > *Are we observing signal — or noise?*
 
-![](image/DashboardInterpretation_2)
+![](image/DashboardInterpretation_2.png)
 
 ---
 
@@ -773,7 +773,7 @@ rather than:
 
 ## Reflection
 
-When looking at a dashboard, pause before acting and ask:
+Before acting on dashboard information, pause and ask:
 
 > *What am I actually looking at, compared with what, and what context might explain it?*
 
@@ -784,6 +784,18 @@ Good dashboard interpretation moves from:
 to
 
 > **thinking critically about meaning**
+
+---
+
+## A Simple Dashboard Interpretation Checklist
+
+Before acting, ask:
+
+1. What am I looking at?
+2. Compared with what?
+3. Signal or noise?
+4. What context matters?
+5. What decision does this support?
 
 ---
 

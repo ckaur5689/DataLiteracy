@@ -26,8 +26,6 @@ Rather than assuming healthcare systems can ever prove impact with complete cert
 
 through more thoughtful and structured approaches.
 
----
-
 # From Module 6 to Module 7
 
 In Module 6, we introduced an important idea:
@@ -65,8 +63,6 @@ These approaches do not eliminate uncertainty.
 Instead, they help decision-makers ask:
 
 > *How confident should we be?*
-
----
 
 # Why Practical Evaluation Methods Matter
 
@@ -106,8 +102,6 @@ Instead:
 
 > they help reduce the risk of reaching the wrong conclusion.
 
----
-
 # Randomised Controlled Trials (RCTs)
 
 One of the strongest ways to evaluate whether an intervention caused change is through a:
@@ -119,8 +113,6 @@ RCTs are often described as the:
 > **gold standard of evaluation**
 
 because they help create a stronger counterfactual.
-
----
 
 ## What Is an RCT?
 
@@ -156,8 +148,6 @@ rather than:
 * selection bias
 * population differences
 * other confounding factors
-
----
 
 ## A Practical Healthcare Example
 
@@ -326,8 +316,6 @@ become important.
 
 Fortunately, the core idea is much simpler than the terminology suggests.
 
----
-
 # Why Small Numbers Can Mislead
 
 Healthcare systems often evaluate schemes using:
@@ -385,8 +373,6 @@ This means:
 
 > **small pilots may produce strong-looking results that are less reliable than they first appear.**
 
----
-
 ## What Do We Mean by Sample Size?
 
 Sample size simply refers to:
@@ -415,8 +401,6 @@ Poor evaluation design can still produce misleading conclusions.
 However:
 
 > **small numbers deserve greater caution**
-
----
 
 ## Statistical Power (In Plain English)
 
@@ -454,8 +438,6 @@ In practice:
 
 > **small evaluations are more likely to miss real effects — or overreact to random fluctuation.**
 
----
-
 ## A Practical Healthcare Example
 
 Imagine two evaluations of the same frailty pathway.
@@ -478,8 +460,6 @@ Question:
 > *Was this meaningful improvement — or random fluctuation?*
 
 Confidence remains limited.
-
----
 
 ### Evaluation B
 
@@ -510,47 +490,9 @@ This does not guarantee truth.
 
 But it increases confidence.
 
----
-
-## Suggested Image 2 Placement
-
-**Place after:**
-
 > *A Practical Healthcare Example*
 
-### Image Concept:
-
-# Small Samples vs Stronger Evidence
-
-Split-panel visual.
-
-### Left side
-
-```text id="lyvwxk"
-20 patients
-2 months
-high fluctuation
-lower confidence
-```
-
-Illustrate unstable results.
-
----
-
-### Right side
-
-```text id="3zfr4x"
-2,000 patients
-12 months
-stable pattern
-higher confidence
-```
-
-Footer:
-
-> More data does not guarantee truth — but it often increases confidence.
-
----
+![](images/SmallSamplesvsStrongerEvidence_4.png)
 
 ## Why This Matters for Healthcare Decision-Making
 

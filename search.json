@@ -420,6 +420,276 @@
     ]
   },
   {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html",
+    "href": "07-Evaluating-Interventions-in-Practice.html",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "",
+    "text": "How healthcare systems improve confidence in evaluation findings",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#module-learning-objective",
+    "href": "07-Evaluating-Interventions-in-Practice.html#module-learning-objective",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Module Learning Objective",
+    "text": "Module Learning Objective\nThis module helps explain:\n\nhow healthcare systems move beyond simple before-and-after comparisons by using more robust approaches to improve confidence that an intervention genuinely contributed to observed change.\n\nBy the end of this module, readers should feel more confident asking:\n\nHow strong is the evidence that this intervention worked?\n\nThe module focuses on practical healthcare examples, particularly interventions intended to reduce:\n\nEmergency Department (ED) attendances\nemergency admissions\navoidable hospital utilisation\ndelayed discharge\noperational pressure\n\nRather than assuming healthcare systems can ever prove impact with complete certainty, the module focuses on:\n\nimproving confidence in evaluation findings\n\nthrough more thoughtful and structured approaches.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#what-is-an-rct",
+    "href": "07-Evaluating-Interventions-in-Practice.html#what-is-an-rct",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "What Is an RCT?",
+    "text": "What Is an RCT?\nIn simple terms:\nan RCT compares two groups.\nOne group receives:\n\nthe intervention\n\nThe other receives:\n\nusual care (or no intervention)\n\nParticipants are assigned randomly.\nThis is important because randomisation helps reduce bias.\nIn theory:\n\nthe two groups should be broadly similar at the start.\n\nIf outcomes later differ:\nwe can have greater confidence that:\n\nthe intervention contributed to the change\n\nrather than:\n\nchance\nselection bias\npopulation differences\nother confounding factors",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example",
+    "href": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "A Practical Healthcare Example",
+    "text": "A Practical Healthcare Example\nImagine an Integrated Care Board introduces a frailty intervention designed to reduce emergency admissions.\nRather than implementing the service everywhere immediately:\nseveral Primary Care Networks (PCNs) are selected to participate.\nPatients are randomly allocated.\n\nGroup A\nReceives:\n\nproactive frailty review\nmedication optimisation\nMDT support\ncommunity monitoring\n\n\n\nGroup B\nReceives:\n\nusual care\n\nAfter twelve months:\n\n\n\nMeasure\nIntervention Group\nUsual Care\n\n\n\n\nED attendances\n900\n1,100\n\n\nEmergency admissions\n320\n420\n\n\n\nQuestion:\n\nDid the intervention contribute to improvement?\n\nBecause patients were randomly allocated, we can generally have:\n\ngreater confidence that observed differences are more likely to reflect the intervention rather than underlying differences between patients.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-randomisation-matters",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-randomisation-matters",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why Randomisation Matters",
+    "text": "Why Randomisation Matters\nWithout randomisation:\nservices may unintentionally select patients who are:\n\neasier to help\nmore engaged\nless clinically complex\nmore motivated\n\nThis creates a problem known as:\n\nselection bias\n\nFor example:\na frailty service might prioritise patients who are already likely to improve.\nThe intervention may then appear more successful than it truly is.\nRandomisation helps reduce this risk.\n\nThe key idea is simple:\nRCTs attempt to improve fairness in comparison by reducing differences between groups before outcomes are compared.\n\nrandom allocation improves confidence that differences in outcomes are more likely to reflect the intervention rather than underlying differences between patients.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-rcts-are-difficult-in-real-healthcare-systems",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-rcts-are-difficult-in-real-healthcare-systems",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why RCTs Are Difficult in Real Healthcare Systems",
+    "text": "Why RCTs Are Difficult in Real Healthcare Systems\nDespite their strengths:\nRCTs are often difficult to implement in real healthcare systems.\nRCTs can provide strong evidence.\nHowever:\n\nstrong evidence is not always operationally practical\n\nHealthcare environments are messy.\nOperational realities include:\n\nworkforce shortages\nservice redesign during implementation\nchanging pathways\npolitical and operational pressure to scale interventions quickly\nethical concerns about withholding care\n\nFor example:\nif early evidence suggests a service is beneficial:\nleaders may feel uncomfortable withholding support from some patients.\nSimilarly:\nhealthcare systems often need to move quickly.\nWaiting several years for a perfect evaluation may not feel realistic when:\n\nEmergency Departments are under pressure\nemergency admissions are rising\noperational performance is deteriorating\n\nAs a result:\nmany healthcare evaluations rely on:\n\npragmatic approaches\n\nthat improve confidence without requiring a full RCT.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#key-message",
+    "href": "07-Evaluating-Interventions-in-Practice.html#key-message",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Key Message",
+    "text": "Key Message\nRCTs are powerful because they help create stronger comparisons between intervention and non-intervention groups.\nHowever:\n\nstrong evidence is not always operationally practical evidence\n\nHealthcare systems often need approaches that balance:\n\nrigour\n\nwith\n\noperational reality",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#part-1-reflection",
+    "href": "07-Evaluating-Interventions-in-Practice.html#part-1-reflection",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Part 1 Reflection",
+    "text": "Part 1 Reflection\nBefore moving on, ask:\n\nIf a scheme appears successful, how confident are we that the groups being compared were genuinely comparable?\n\nIn the next section, we explore another important question:\n\nHow much evidence is enough to trust the findings?\n\nThis introduces:\n\nsample size and statistical power",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-small-numbers-can-mislead",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-small-numbers-can-mislead",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why Small Numbers Can Mislead",
+    "text": "Why Small Numbers Can Mislead\nHealthcare systems often evaluate schemes using:\n\nsmall pilots\nshort implementation periods\nhighly selected patient groups\nlimited operational data\n\nFor example:\nA frailty intervention is piloted for:\ntext id=\"rz2k14\" 20 patients\nAfter three months:\n\n\n\nMeasure\nBefore\nAfter\n\n\n\n\nED attendances\n42\n28\n\n\nEmergency admissions\n17\n10\n\n\n\nAt first glance:\n\nthe scheme appears successful.\n\nBut an important question remains:\n\nHow confident should we be that this change reflects genuine impact rather than normal fluctuation?\n\nSmall numbers naturally fluctuate.\nA handful of patients can disproportionately influence results.\nFor example:\nif two highly complex patients experience:\n\nhospitalisation\nbereavement\nworsening frailty\nmedication changes\n\noutcomes may change substantially.\nSimilarly:\nif several patients improve naturally:\nresults may look highly positive.\nThis means:\n\nSmall pilots may produce convincing-looking results that are less reliable than they first appear.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#what-do-we-mean-by-sample-size",
+    "href": "07-Evaluating-Interventions-in-Practice.html#what-do-we-mean-by-sample-size",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "What Do We Mean by Sample Size?",
+    "text": "What Do We Mean by Sample Size?\nSample size simply refers to:\n\nhow many people, events or observations are included in an evaluation\n\nExamples include:\n\nnumber of patients enrolled in a scheme\nnumber of Emergency Department attendances analysed\nnumber of GP practices or PCNs involved\nnumber of months of activity included\n\nIn general:\n\nlarger samples tend to produce more stable and reliable findings\n\nbecause random fluctuation becomes less influential.\nThis does not mean:\n\nlarger samples automatically guarantee better evidence\n\nPoor evaluation design can still produce misleading conclusions.\nHowever:\n\nsmall numbers deserve greater caution",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#statistical-power-in-plain-english",
+    "href": "07-Evaluating-Interventions-in-Practice.html#statistical-power-in-plain-english",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Statistical Power (In Plain English)",
+    "text": "Statistical Power (In Plain English)\nStatistical power sounds technical.\nBut the underlying question is straightforward:\n\nIf a real improvement exists, how likely are we to detect it?\n\nLow-powered evaluations may fail to detect genuine effects.\nFor example:\na frailty scheme may genuinely reduce emergency admissions by:\ntext id=\"v6q2mu\" 5%\nBut if:\n\nonly a small number of patients are included\nfollow-up time is short\nvariation is high\n\nthe evaluation may struggle to detect the change.\nDecision-makers may incorrectly conclude:\n\nThe intervention didn’t work\n\nwhen the evaluation simply lacked enough information.\nIn practice:\n\nsmall evaluations are more likely to miss real effects — or overreact to random fluctuation.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-1",
+    "href": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-1",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "A Practical Healthcare Example",
+    "text": "A Practical Healthcare Example\nImagine two evaluations of the same frailty pathway.\n\nEvaluation A\ntext id=\"h9sq2n\" 20 patients 2 months follow-up\nObserved result:\ntext id=\"m34m0w\" Emergency admissions ↓\nQuestion:\n\nWas this meaningful improvement — or random fluctuation?\n\nConfidence remains limited.\n\n\nEvaluation B\ntext id=\"8vj5kh\" 2,000 patients 12 months follow-up Comparator group included\nObserved result:\ntext id=\"ey0v1z\" Emergency admissions ↓\nQuestion:\n\nHow confident are we now?\n\nConfidence is greater because:\n\nmore patients were observed\nlonger time period analysed\nnatural fluctuation matters less\ncomparison is stronger\n\nThis does not guarantee truth.\nBut it increases confidence.\nThe image below illustrates why small evaluations often produce more unstable and uncertain findings — even when results initially look promising.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-this-matters-for-healthcare-decision-making",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-this-matters-for-healthcare-decision-making",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why This Matters for Healthcare Decision-Making",
+    "text": "Why This Matters for Healthcare Decision-Making\nHealthcare systems often pilot schemes quickly.\nLeaders may face pressure to decide:\n\ncontinue funding\nscale across the system\nredesign\nstop\n\nbefore strong evidence exists.\nThis creates an important tension:\n\nspeed of learning\n\nversus\n\nconfidence in conclusions\n\nThe question is rarely:\n\nCan we be completely certain?\n\nInstead:\n\nHow confident should we be before acting?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-2",
+    "href": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-2",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "A Practical Healthcare Example",
+    "text": "A Practical Healthcare Example\nImagine a healthcare system identifies:\ntext id=\"mvv65s\" 20 patients\nwith very high Emergency Department attendance.\nEach attended:\ntext id=\"fhvpg2\" 10–15 times\nduring the previous year.\nA targeted intervention is introduced.\nFor example:\n\ncare coordination\nfrailty MDT support\nproactive monitoring\nsocial prescribing\nmedication review\n\nOne year later:\nED attendance falls.\nQuestion:\n\nDid the intervention work?\n\nMaybe.\nBut another possibility exists.\nPatients selected because they experienced unusually extreme healthcare utilisation may naturally move closer to average levels over time.\nSome people improve naturally because:\n\nacute illness resolves\nsocial circumstances stabilise\nmedication changes occur\ntemporary crises pass\n\nThis means:\n\nsome improvement may occur even if the intervention had little or no effect",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-regression-to-the-mean-matters",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-regression-to-the-mean-matters",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why Regression to the Mean Matters",
+    "text": "Why Regression to the Mean Matters\nWithout recognising regression to the mean:\nhealthcare systems may mistakenly conclude:\n\nThe scheme worked\n\nwhen some improvement might have happened anyway.\nThis is particularly important when evaluating:\n\nhigh-intensity ED attenders\nfrequent emergency admissions\nsevere frailty cohorts\ncomplex multimorbidity pathways\n\nThe higher the starting level of risk:\n\nthe greater the risk of mistaking natural fluctuation for intervention impact\n\nThe image below illustrates an important evaluation risk:\n\nimprovement does not always mean intervention impact.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-this-matters-for-healthcare-decision-making-1",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-this-matters-for-healthcare-decision-making-1",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why This Matters for Healthcare Decision-Making",
+    "text": "Why This Matters for Healthcare Decision-Making\nHealthcare systems frequently target interventions at patients with the highest levels of need.\nThis makes regression to the mean particularly important.\nWithout recognising it, decision-makers may:\n\noverestimate intervention impact\nscale ineffective schemes\nmisallocate scarce resources\n\nA useful question becomes:\n\nWould some improvement have happened anyway?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#key-message-1",
+    "href": "07-Evaluating-Interventions-in-Practice.html#key-message-1",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Key Message",
+    "text": "Key Message\nSmall pilots and extreme patient groups can easily mislead evaluation.\nHealthcare systems should therefore ask:\n\nAre we observing genuine intervention impact — or natural fluctuation?\n\nGood evaluation becomes stronger when we ask:\n\nDo we have enough evidence?\n\nand\n\nCould improvement have happened anyway?\n\nBefore moving on, ask:\n\nIf outcomes improved, how confident are we that this reflects intervention impact rather than small numbers or natural fluctuation?\n\nIn the next section, we explore practical ways healthcare systems strengthen confidence in evaluation findings.\nIn Part 1 and Part 2 of this module, we explored:\n\nfair comparison through Randomised Controlled Trials (RCTs)\nwhy small numbers can mislead\nstatistical power\nRegression to the Mean\n\nYet another challenge remains.\nHealthcare systems rarely operate in perfect conditions.\nLeaders often need to evaluate schemes:\n\nquickly\nunder operational pressure\nwithout randomisation\nwhile multiple changes happen simultaneously\n\nIn reality:\n\nRCTs are often difficult, expensive or impractical\n\nThis creates an important question:\n\nHow can healthcare systems strengthen evaluation when RCTs are unrealistic?\n\nTwo practical approaches commonly used in healthcare evaluation are:\n\nInterrupted Time Series (ITS)\n\nand\n\nDifference-in-Differences (DiD)\n\nThese approaches do not eliminate uncertainty.\nInstead:\n\nthey improve confidence in findings by creating stronger comparisons.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#what-is-interrupted-time-series",
+    "href": "07-Evaluating-Interventions-in-Practice.html#what-is-interrupted-time-series",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "What Is Interrupted Time Series?",
+    "text": "What Is Interrupted Time Series?\nRather than asking:\n\nDid outcomes improve?\n\nITS asks:\n\nDid the pattern of change meaningfully alter after the intervention?\n\nThis distinction matters.\nInstead of simply comparing:\ntext id=\"0kqt79\" before vs after\nITS asks:\ntext id=\"lu5e1q\" Was the trajectory interrupted?\nIn simple terms:\nITS looks at:\n\ntrends before intervention\ntrends after intervention\nwhether the pattern changed meaningfully\n\nFor example:\nDid emergency admissions:\n\nsuddenly reduce?\nbegin falling faster?\nstop increasing?\nimprove in a sustained way?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-3",
+    "href": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-3",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "A Practical Healthcare Example",
+    "text": "A Practical Healthcare Example\nImagine an Integrated Care Board introduces a frailty pathway to reduce emergency admissions.\nInstead of comparing:\ntext id=\"hdtg1r\" before vs after\nwe examine:\ntext id=\"1f0rjg\" monthly emergency admissions over time\nSuppose the intervention begins in:\ntext id=\"m7s5qq\" Month 8\nQuestion:\n\nDid emergency admissions meaningfully change after implementation?\n\nThree possibilities might emerge:\n\nScenario 1 — No Meaningful Change\nAdmissions were already falling.\nThe trend simply continues.\nQuestion:\n\nDid the intervention add anything?\n\nConfidence in intervention impact remains limited.\n\n\nScenario 2 — Sudden Change\nAdmissions drop sharply immediately after implementation.\nQuestion:\n\nCould this represent intervention impact?\n\nConfidence increases.\n\n\nScenario 3 — Sustained Improvement\nAdmissions begin falling faster after implementation and remain lower over time.\nQuestion:\n\nDoes this suggest a meaningful shift in trajectory?\n\nConfidence increases further.\nThe image below illustrates the key question ITS asks:\n\nDid the trajectory meaningfully change after intervention?\n\nInterrupted Time Series helps distinguish:\n\nnormal change over time\n\nfrom\n\npotential intervention impact",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-its-matters-for-healthcare-decision-making",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-its-matters-for-healthcare-decision-making",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why ITS Matters for Healthcare Decision-Making",
+    "text": "Why ITS Matters for Healthcare Decision-Making\nHealthcare systems often mistake:\n\nnormal trends\n\nfor\n\nintervention impact\n\nFor example:\nEmergency admissions may naturally improve after winter.\nOperational performance may recover after temporary disruption.\nWaiting lists may already have been stabilising.\nWithout considering trends:\ndecision-makers risk concluding:\n\nThe scheme worked\n\nwhen outcomes may have improved anyway.\nA useful question becomes:\n\nDid outcomes improve — or did the trajectory change?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#what-is-difference-in-differences",
+    "href": "07-Evaluating-Interventions-in-Practice.html#what-is-difference-in-differences",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "What Is Difference-in-Differences?",
+    "text": "What Is Difference-in-Differences?\nRather than asking:\n\nDid outcomes improve?\n\nDiD asks:\n\nDid outcomes improve more where the intervention happened?\n\nIn simple terms:\nwe compare:\ntext id=\"a3ajqi\" change vs change\nrather than:\ntext id=\"vccwkt\" before vs after\nThe idea is simple:\nIf two similar groups experience similar pressures —\nbut only one receives the intervention —\nthen differences in improvement may provide stronger evidence of impact.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-4",
+    "href": "07-Evaluating-Interventions-in-Practice.html#a-practical-healthcare-example-4",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "A Practical Healthcare Example",
+    "text": "A Practical Healthcare Example\nImagine:\n\nPCN A\nIntroduces a frailty pathway.\n\n\nPCN B\nDoes not.\nBoth experience:\n\nwinter pressure\nworkforce shortages\nrising demand\n\nAfter twelve months:\n\n\nPCN A\ntext id=\"p7dcb1\" Emergency admissions ↓ 15%\n\n\nPCN B\ntext id=\"g11kcm\" Emergency admissions ↓ 5%\nQuestion:\n\nDid the intervention contribute to additional improvement?\n\nThe key question becomes:\n\nWas improvement greater where the intervention occurred?\n\nThis provides stronger evidence than:\n\nbefore-and-after comparison alone\n\nThe image below illustrates the core idea behind Difference-in-Differences:\n\ngood evaluation compares change — not just outcomes",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#why-did-matters-for-healthcare-decision-making",
+    "href": "07-Evaluating-Interventions-in-Practice.html#why-did-matters-for-healthcare-decision-making",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Why DiD Matters for Healthcare Decision-Making",
+    "text": "Why DiD Matters for Healthcare Decision-Making\nHealthcare systems frequently implement interventions:\n\ngradually\nin some places before others\nunder different operational conditions\n\nThis makes DiD especially useful when:\n\nRCTs are unrealistic\nphased roll-out exists\ncomparator organisations or places are available\n\nWithout comparators:\ndecision-makers risk attributing:\n\nsystem-wide improvement\n\nto\n\nlocal intervention impact\n\nA useful question becomes:\n\nWould similar improvement have happened elsewhere anyway?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#key-message-2",
+    "href": "07-Evaluating-Interventions-in-Practice.html#key-message-2",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Key Message",
+    "text": "Key Message\nGood evaluation becomes stronger when healthcare systems ask:\n\nDid trajectories change?\n\nand\n\nCompared with what?\n\nrather than simply asking:\n\nDid outcomes improve?\n\nPragmatic evaluation methods such as:\n\nInterrupted Time Series (ITS)\n\nand\n\nDifference-in-Differences (DiD)\n\nhelp strengthen confidence when Randomised Controlled Trials are not practical.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#part-3-reflection",
+    "href": "07-Evaluating-Interventions-in-Practice.html#part-3-reflection",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Part 3 Reflection",
+    "text": "Part 3 Reflection\nBefore acting on evaluation findings, ask:\n\nCould this improvement reflect an existing trend — or would similar change have happened elsewhere anyway?\n\nGood evaluation moves beyond:\n\nDid outcomes improve?\n\nto ask:\n\nHow confident are we that the intervention genuinely contributed to change?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#key-takeaways",
+    "href": "07-Evaluating-Interventions-in-Practice.html#key-takeaways",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nimprovement alone does not prove impact\nfair comparison matters\nsmall numbers can mislead\nsome improvement may happen naturally\ntrajectories matter\ncomparison groups strengthen confidence\n\nGood evaluation asks:\n\nHow confident are we that the intervention genuinely contributed to change?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
+    "objectID": "07-Evaluating-Interventions-in-Practice.html#questions-decision-makers-should-ask",
+    "href": "07-Evaluating-Interventions-in-Practice.html#questions-decision-makers-should-ask",
+    "title": "Module 7 — Evaluating Interventions in Practice - Methods",
+    "section": "Questions Decision-Makers Should Ask",
+    "text": "Questions Decision-Makers Should Ask\n\nCompared with what?\nDid the trajectory change?\nCould improvement have happened naturally?\nWas the evaluation large enough to be informative?\nHow strong is our confidence in attribution?",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Evaluating Interventions in Practice - Methods</span>"
+    ]
+  },
+  {
     "objectID": "Project.html",
     "href": "Project.html",
     "title": "Project - Healthcare Data Literacy Series",

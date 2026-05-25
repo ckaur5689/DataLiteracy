@@ -197,9 +197,7 @@ Question:
 
 Because patients were randomly allocated, we can generally have:
 
-> **greater confidence that observed differences are more likely to reflect the intervention rather than underlying differences between patients**
-
-rather than underlying differences between patient groups.
+> **greater confidence that observed differences are more likely to reflect the intervention rather than underlying differences between patients.**
 
 ## Why Randomisation Matters
 

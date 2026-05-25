@@ -640,7 +640,7 @@ The image below illustrates an important evaluation risk:
 
 > not all improvement necessarily reflects intervention impact.
 
-![](images/SmallSamplevsStrongerEvidence_4.png)
+![](images/RegressionToMean_5.png)
 
 ## Key Message
 

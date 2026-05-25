@@ -197,7 +197,7 @@ Question:
 
 Because patients were randomly allocated, we can generally have:
 
-> **greater confidence that the observed difference reflects intervention impact**
+> **greater confidence that observed differences are more likely to reflect intervention impact**
 
 rather than underlying differences between patient groups.
 
@@ -228,6 +228,8 @@ Randomisation helps reduce this risk.
 
 The key idea is simple:
 
+RCTs attempt to improve fairness in comparison.
+
 > **random allocation improves confidence that differences in outcomes are more likely to reflect the intervention rather than underlying differences between patients.**
 
 ## Why RCTs Are Difficult in Real Healthcare Systems
@@ -256,12 +258,6 @@ Similarly:
 
 healthcare systems often need to move quickly.
 
-Waiting several years for a perfect evaluation may not feel realistic when:
-
-* Emergency Departments are under pressure
-* emergency admissions are rising
-* operational performance is deteriorating
-
 As a result:
 
 many healthcare evaluations rely on:
@@ -274,9 +270,25 @@ RCTs can provide strong evidence.
 
 However:
 
-> strong evidence is not always operationally practical evidence
+> strong evidence is not always operationally practical evidence.
+
+Healthcare environments are messy.
+
+Operational realities include:
+
+Waiting several years for a perfect evaluation may not feel realistic when:
+
+* Emergency Departments are under pressure
+* emergency admissions are rising
+* operational performance is deteriorating
 
 ## Key Message
+
+RCTs are powerful because they help create stronger comparisons between intervention and non-intervention groups.
+
+However:
+
+> **strong evidence is not always operationally practical evidence**
 
 Healthcare systems often need approaches that balance:
 
@@ -285,8 +297,6 @@ Healthcare systems often need approaches that balance:
 with
 
 > **operational reality**
-
----
 
 ## Part 1 Reflection
 

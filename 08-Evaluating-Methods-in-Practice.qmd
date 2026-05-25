@@ -1,4 +1,4 @@
-# Module 7 — Evaluation Methods in Practice
+# Module 8 — Evaluation Methods in Practice
 
 ### *How healthcare systems improve confidence in evaluation findings*
 
@@ -26,9 +26,9 @@ Rather than assuming healthcare systems can ever prove impact with complete cert
 
 through more thoughtful and structured approaches.
 
-# From Module 6 to Module 7
+# From Module 7 to Module 8
 
-In Module 6, we introduced an important idea:
+In Module 7 we introduced an important idea:
 
 > **improvement alone does not prove impact**
 

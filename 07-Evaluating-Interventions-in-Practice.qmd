@@ -197,7 +197,7 @@ Question:
 
 Because patients were randomly allocated, we can generally have:
 
-> **greater confidence that observed differences are more likely to reflect intervention impact**
+> **greater confidence that observed differences are more likely to reflect the intervention rather than underlying differences between patients**
 
 rather than underlying differences between patient groups.
 
@@ -228,7 +228,7 @@ Randomisation helps reduce this risk.
 
 The key idea is simple:
 
-RCTs attempt to improve fairness in comparison.
+RCTs attempt to improve fairness in comparison by reducing differences between groups before outcomes are compared.
 
 > **random allocation improves confidence that differences in outcomes are more likely to reflect the intervention rather than underlying differences between patients.**
 
@@ -298,7 +298,7 @@ with
 
 Before moving on, ask:
 
-> *If a scheme appears successful, how confident are we that the patients receiving it were genuinely comparable to those who did not?*
+> *If a scheme appears successful, how confident are we that the groups being compared were genuinely comparable?*
 
 In the next section, we explore another important question:
 

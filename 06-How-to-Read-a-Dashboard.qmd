@@ -77,11 +77,11 @@ A dashboard presents information.
 
 It does not automatically explain:
 
-> **why something happened**
+> why something happened
 
 or
 
-> **what should happen next**
+> what should happen next
 
 This distinction matters.
 
@@ -153,7 +153,7 @@ One of the biggest risks in healthcare analytics is assuming dashboards are self
 
 In practice:
 
-people often make interpretation mistakes without realising it.
+well-intentioned decision-makers often draw conclusions too quickly.
 
 The goal is not to criticise dashboards.
 
@@ -388,11 +388,11 @@ Good dashboard interpretation focuses less on immediate conclusions and more on:
 
 > **context, comparison, variation and better questions**
 
-Dashboards are powerful because they help surface patterns.
+Dashboards help surface patterns and areas requiring attention.
 
 However:
 
-> **they do not automatically explain what those patterns mean**
+> interpretation still requires context, judgement and questioning
 
 Before moving on, consider:
 
@@ -404,13 +404,9 @@ Before moving on, consider:
 
 Another common mistake is focusing only on raw numbers.
 
-For example:
+A dashboard may show:
 
-A dashboard reports:
-
-```text
-10 complaints
-```
+> **50 emergency admissions from care homes**
 
 Question:
 
@@ -418,29 +414,25 @@ Question:
 
 The answer depends on:
 
-> **out of how many patients?**
+- how many care home residents exist
+- the size of the older population
+- expected baseline utilisation
+- comparison with peers
 
-For example:
-
-```text
-10 complaints
-```
-
-may feel very different if the service saw:
+Similarly:
 
 ```text
-100 patients
-```
+40 falls 
+
+might look alarming.
+
+But interpretation changes dramatically if this occurred across:
+
+500 admissions
 
 versus:
 
-```text
-50,000 patients
-```
-
-Without denominators:
-
-dashboard interpretation becomes difficult.
+25,000 occupied bed days
 
 A useful question becomes:
 
@@ -514,4 +506,8 @@ Before moving on, ask:
 In the next section, we explore:
 
 > **what questions good decision-makers ask when reading dashboards**
+
+---
+## Part 2 — What Questions Should Decision-Makers Ask?
+---
 

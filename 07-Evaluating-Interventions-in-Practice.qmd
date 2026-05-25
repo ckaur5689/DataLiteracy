@@ -1058,5 +1058,23 @@ to ask:
 
 > *How confident are we that the intervention genuinely contributed to change?*
 
+## Key Takeaways
 
+- improvement alone does not prove impact
+- fair comparison matters
+- small numbers can mislead
+- some improvement may happen naturally
+- trajectories matter
+- comparison groups strengthen confidence
 
+Good evaluation asks:
+
+> *How confident are we that the intervention genuinely contributed to change?*
+
+## Questions Decision-Makers Should Ask
+
+- Compared with what?
+- Did the trajectory change?
+- Could improvement have happened naturally?
+- Was the evaluation large enough to be informative?
+- How strong is our confidence in attribution?

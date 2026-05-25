@@ -394,7 +394,7 @@ because random fluctuation becomes less influential.
 
 This does not mean:
 
-> **larger samples automatically guarantee stronger evidence**
+> **larger samples automatically guarantee better evidence**
 
 Poor evaluation design can still produce misleading conclusions.
 
@@ -636,7 +636,7 @@ The higher the starting level of risk:
 
 The image below illustrates an important evaluation risk:
 
-> not all improvement necessarily reflects intervention impact.
+> improvement does not always mean intervention impact.
 
 ![](images/RegressionToMean_5.png)
 

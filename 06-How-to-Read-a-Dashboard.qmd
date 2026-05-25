@@ -295,10 +295,6 @@ dashboards can unintentionally mislead.
 
 ---
 
-Here is the revised section with the image integrated naturally and the narrative tightened around it. The goal is for the image to feel like part of the teaching flow rather than a bolt-on.
-
----
-
 ## Mistake 3 — Overreacting to Single-Month Changes
 
 Healthcare systems naturally fluctuate.
@@ -386,7 +382,7 @@ More thoughtful interpretation instead asks:
 
 > **What context, comparison or explanation might sit behind the numbers?**
 
-![](images/ReadingADashboard_1.png)
+![](images/ReadingDashboard_1.png)
 
 Good dashboard interpretation focuses less on immediate conclusions and more on:
 

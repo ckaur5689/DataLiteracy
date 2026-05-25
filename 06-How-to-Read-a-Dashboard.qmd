@@ -376,7 +376,7 @@ and
 
 > **interpreting dashboards critically**
 
-Fast dashboard interpretation can sometimes lead to conclusions based on colours, isolated metrics or single-month changes.
+Fast dashboard interpretation can sometimes encourage conclusions based on colours, isolated metrics or single-month changes.
 
 More thoughtful interpretation instead asks:
 
@@ -419,8 +419,11 @@ The answer depends on:
 - expected baseline utilisation
 - comparison with peers
 
+Without this context:
 
-```markdown
+> raw numbers become difficult to interpret.
+
+```
 Similarly:
 
 > **40 inpatient falls**

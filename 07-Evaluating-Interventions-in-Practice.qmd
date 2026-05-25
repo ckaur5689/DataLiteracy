@@ -238,6 +238,12 @@ Despite their strengths:
 
 RCTs are often difficult to implement in real healthcare systems.
 
+RCTs can provide strong evidence.
+
+However:
+
+> **strong evidence is not always operationally practical evidence**
+
 Healthcare environments are messy.
 
 Operational realities include:
@@ -258,6 +264,12 @@ Similarly:
 
 healthcare systems often need to move quickly.
 
+Waiting several years for a perfect evaluation may not feel realistic when:
+
+* Emergency Departments are under pressure
+* emergency admissions are rising
+* operational performance is deteriorating
+
 As a result:
 
 many healthcare evaluations rely on:
@@ -265,22 +277,6 @@ many healthcare evaluations rely on:
 > **pragmatic approaches**
 
 that improve confidence without requiring a full RCT.
-
-RCTs can provide strong evidence.
-
-However:
-
-> strong evidence is not always operationally practical evidence.
-
-Healthcare environments are messy.
-
-Operational realities include:
-
-Waiting several years for a perfect evaluation may not feel realistic when:
-
-* Emergency Departments are under pressure
-* emergency admissions are rising
-* operational performance is deteriorating
 
 ## Key Message
 

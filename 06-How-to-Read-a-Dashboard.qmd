@@ -423,7 +423,6 @@ Without this context:
 
 > raw numbers become difficult to interpret.
 
-```
 Similarly:
 
 > **40 inpatient falls**

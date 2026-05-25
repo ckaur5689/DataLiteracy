@@ -306,3 +306,426 @@ This introduces:
 
 > **sample size and statistical power**
 
+## Sample Size, Statistical Power and Confidence in Findings
+
+In Module 6, we introduced an important question:
+
+> *How confident are we that an intervention genuinely contributed to observed change?*
+
+Even when groups are fairly compared, another important challenge remains:
+
+> **Do we have enough evidence to trust what we are seeing?**
+
+This is where:
+
+> **sample size**
+> and
+> **statistical power**
+
+become important.
+
+Fortunately, the core idea is much simpler than the terminology suggests.
+
+---
+
+# Why Small Numbers Can Mislead
+
+Healthcare systems often evaluate schemes using:
+
+* small pilots
+* short implementation periods
+* highly selected patient groups
+* limited operational data
+
+For example:
+
+A frailty intervention is piloted for:
+
+```text id="rz2k14"
+20 patients
+```
+
+After three months:
+
+| Measure              | Before | After |
+| -------------------- | -----: | ----: |
+| ED attendances       |     42 |    28 |
+| Emergency admissions |     17 |    10 |
+
+At first glance:
+
+> the scheme appears successful.
+
+But an important question remains:
+
+> **How confident should we be that this change reflects genuine impact rather than normal fluctuation?**
+
+Small numbers naturally fluctuate.
+
+A handful of patients can disproportionately influence results.
+
+For example:
+
+if two highly complex patients experience:
+
+* hospitalisation
+* bereavement
+* worsening frailty
+* medication changes
+
+outcomes may change substantially.
+
+Similarly:
+
+if several patients improve naturally:
+
+results may look highly positive.
+
+This means:
+
+> **small pilots may produce strong-looking results that are less reliable than they first appear.**
+
+---
+
+## What Do We Mean by Sample Size?
+
+Sample size simply refers to:
+
+> **how many people, events or observations are included in an evaluation**
+
+Examples include:
+
+* number of patients enrolled in a scheme
+* number of Emergency Department attendances analysed
+* number of GP practices or PCNs involved
+* number of months of activity included
+
+In general:
+
+> **larger samples tend to produce more stable and reliable findings**
+
+because random fluctuation becomes less influential.
+
+This does not mean:
+
+> **larger automatically means better**
+
+Poor evaluation design can still produce misleading conclusions.
+
+However:
+
+> **small numbers deserve greater caution**
+
+---
+
+## Statistical Power (In Plain English)
+
+Statistical power sounds technical.
+
+But the underlying question is straightforward:
+
+> **If a real improvement exists, how likely are we to detect it?**
+
+Low-powered evaluations may fail to detect genuine effects.
+
+For example:
+
+a frailty scheme may genuinely reduce emergency admissions by:
+
+```text id="v6q2mu"
+5%
+```
+
+But if:
+
+* only a small number of patients are included
+* follow-up time is short
+* variation is high
+
+the evaluation may struggle to detect the change.
+
+Decision-makers may incorrectly conclude:
+
+> *The intervention didn’t work*
+
+when the evaluation simply lacked enough information.
+
+In practice:
+
+> **small evaluations are more likely to miss real effects — or overreact to random fluctuation.**
+
+---
+
+## A Practical Healthcare Example
+
+Imagine two evaluations of the same frailty pathway.
+
+### Evaluation A
+
+```text id="h9sq2n"
+20 patients
+2 months follow-up
+```
+
+Observed result:
+
+```text id="m34m0w"
+Emergency admissions ↓
+```
+
+Question:
+
+> *Was this meaningful improvement — or random fluctuation?*
+
+Confidence remains limited.
+
+---
+
+### Evaluation B
+
+```text id="8vj5kh"
+2,000 patients
+12 months follow-up
+Comparator group included
+```
+
+Observed result:
+
+```text id="ey0v1z"
+Emergency admissions ↓
+```
+
+Question:
+
+> *How confident are we now?*
+
+Confidence is greater because:
+
+* more patients were observed
+* longer time period analysed
+* natural fluctuation matters less
+* comparison is stronger
+
+This does not guarantee truth.
+
+But it increases confidence.
+
+---
+
+## Suggested Image 2 Placement
+
+**Place after:**
+
+> *A Practical Healthcare Example*
+
+### Image Concept:
+
+# Small Samples vs Stronger Evidence
+
+Split-panel visual.
+
+### Left side
+
+```text id="lyvwxk"
+20 patients
+2 months
+high fluctuation
+lower confidence
+```
+
+Illustrate unstable results.
+
+---
+
+### Right side
+
+```text id="3zfr4x"
+2,000 patients
+12 months
+stable pattern
+higher confidence
+```
+
+Footer:
+
+> More data does not guarantee truth — but it often increases confidence.
+
+---
+
+## Why This Matters for Healthcare Decision-Making
+
+Healthcare systems often pilot schemes quickly.
+
+Leaders may face pressure to decide:
+
+* continue funding
+* scale across the system
+* redesign
+* stop
+
+before strong evidence exists.
+
+This creates an important tension:
+
+> **speed of learning**
+
+versus
+
+> **confidence in conclusions**
+
+The question is rarely:
+
+> *Can we be completely certain?*
+
+Instead:
+
+> *How confident should we be before acting?*
+
+---
+
+# Regression to the Mean
+
+Another challenge in healthcare evaluation is something called:
+
+> **regression to the mean**
+
+The name sounds complicated.
+
+The idea is not.
+
+It describes a simple tendency:
+
+> **extreme outcomes often become less extreme over time**
+
+even without intervention.
+
+This matters enormously in healthcare.
+
+Because interventions are often targeted at:
+
+* high-risk patients
+* high-intensity users
+* people with repeated admissions
+* people with severe frailty
+
+In other words:
+
+> **the very people already experiencing unusually extreme outcomes**
+
+---
+
+## A Practical Healthcare Example
+
+Imagine a healthcare system identifies:
+
+```text id="mvv65s"
+20 patients
+```
+
+with very high Emergency Department attendance.
+
+Each attended:
+
+```text id="fhvpg2"
+10–15 times
+```
+
+during the previous year.
+
+A targeted intervention is introduced.
+
+For example:
+
+* care coordination
+* frailty MDT support
+* proactive monitoring
+* social prescribing
+* medication review
+
+One year later:
+
+ED attendance falls.
+
+Question:
+
+> *Did the intervention work?*
+
+Maybe.
+
+But another possibility exists.
+
+Patients selected because they experienced unusually extreme healthcare utilisation may naturally move closer to average levels over time.
+
+Some people improve naturally because:
+
+* acute illness resolves
+* social circumstances stabilise
+* medication changes occur
+* temporary crises pass
+
+This means:
+
+> **extreme patients often improve somewhat even without intervention**
+
+---
+
+## Why Regression to the Mean Matters
+
+Without recognising regression to the mean:
+
+healthcare systems may mistakenly conclude:
+
+> *The scheme worked*
+
+when some improvement might have happened anyway.
+
+This is particularly important when evaluating:
+
+* high-intensity ED attenders
+* frequent emergency admissions
+* severe frailty cohorts
+* complex multimorbidity pathways
+
+The higher the starting level of risk:
+
+> **the greater the risk of mistaking natural fluctuation for intervention impact**
+
+> *Why Regression to the Mean Matters*
+
+### Image Concept:
+
+# Regression to the Mean
+
+![](images/SmallSamplevsStrongerEvidence_4.png)
+
+## Key Message
+
+Small pilots and extreme patient groups can easily mislead evaluation.
+
+Healthcare systems should therefore ask:
+
+> **Are we observing genuine intervention impact — or natural fluctuation?**
+
+Good evaluation becomes stronger when we ask:
+
+> *Do we have enough evidence?*
+
+and
+
+> *Could improvement have happened anyway?*
+
+---
+
+## Part 2 Reflection
+
+Before moving on, ask:
+
+> *If outcomes improved, are we confident this reflects intervention impact — or could small numbers and natural fluctuation explain part of the change?*
+
+In the next section, we explore practical approaches that healthcare systems use to strengthen comparisons in real-world settings:
+
+> **Interrupted Time Series (ITS)**
+> and
+> **Difference-in-Differences (DiD)**
+
+

@@ -371,7 +371,7 @@ results may look highly positive.
 
 This means:
 
-> **small pilots may produce strong-looking results that are less reliable than they first appear.**
+> **Small pilots may produce convincing-looking results that are less reliable than they first appear.**
 
 ## What Do We Mean by Sample Size?
 
@@ -490,7 +490,7 @@ This does not guarantee truth.
 
 But it increases confidence.
 
-> *A Practical Healthcare Example*
+The image below illustrates why small evaluations often produce more unstable and uncertain findings.
 
 ![](images/SmallSamplesvsStrongerEvidence_4.png)
 
@@ -527,9 +527,13 @@ Instead:
 
 # Regression to the Mean
 
-Another challenge in healthcare evaluation is something called:
+Even when evaluations include enough observations, another important challenge remains:
 
-> **regression to the mean**
+> **could improvement have happened naturally anyway?**
+
+This brings us to:
+
+> regression to the mean
 
 The name sounds complicated.
 
@@ -632,11 +636,9 @@ The higher the starting level of risk:
 
 > **the greater the risk of mistaking natural fluctuation for intervention impact**
 
-> *Why Regression to the Mean Matters*
+The image below illustrates an important evaluation risk:
 
-### Image Concept:
-
-# Regression to the Mean
+> not all improvement necessarily reflects intervention impact.
 
 ![](images/SmallSamplevsStrongerEvidence_4.png)
 

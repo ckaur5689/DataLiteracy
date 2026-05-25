@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Module 3 — Correlation vs Causation – Health Data Literacy</title>
+<title>Module 7 — Thinking About Evidence &amp; Evaluation – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./04-Variation-&amp;-Distributions.html" rel="next">
-<link href="./02-Mean-vs-Median.html" rel="prev">
+<link href="./08-Evaluating-Methods-in-Practice.html" rel="next">
+<link href="./06-How-to-Read-a-Dashboard.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-Correlation-vs-Causation.html"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07-Thinking-About-Evidence-&amp;-Evaluation.html"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
+  <a href="./03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07-Thinking-About-Evidence-&amp;-Evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a>
+  <a href="./07-Thinking-About-Evidence-&amp;-Evaluation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -184,20 +184,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#why-relationships-in-healthcare-data-are-rarely-straightforward" id="toc-why-relationships-in-healthcare-data-are-rarely-straightforward" class="nav-link active" data-scroll-target="#why-relationships-in-healthcare-data-are-rarely-straightforward">Why relationships in healthcare data are rarely straightforward</a></li>
-  <li><a href="#when-two-things-move-together-does-one-cause-the-other" id="toc-when-two-things-move-together-does-one-cause-the-other" class="nav-link" data-scroll-target="#when-two-things-move-together-does-one-cause-the-other">When two things move together, does one cause the other?</a></li>
-  <li><a href="#what-is-correlation" id="toc-what-is-correlation" class="nav-link" data-scroll-target="#what-is-correlation">What Is Correlation?</a></li>
-  <li><a href="#correlation-does-not-automatically-mean-causation" id="toc-correlation-does-not-automatically-mean-causation" class="nav-link" data-scroll-target="#correlation-does-not-automatically-mean-causation">Correlation Does Not Automatically Mean Causation</a></li>
-  <li><a href="#example-stroke-outcomes-and-inequalities" id="toc-example-stroke-outcomes-and-inequalities" class="nav-link" data-scroll-target="#example-stroke-outcomes-and-inequalities">Example — Stroke Outcomes and Inequalities</a></li>
-  <li><a href="#confounding-variables" id="toc-confounding-variables" class="nav-link" data-scroll-target="#confounding-variables">Confounding Variables</a></li>
-  <li><a href="#why-adjustment-matters" id="toc-why-adjustment-matters" class="nav-link" data-scroll-target="#why-adjustment-matters">Why Adjustment Matters</a></li>
-  <li><a href="#looking-deeper" id="toc-looking-deeper" class="nav-link" data-scroll-target="#looking-deeper">Looking deeper</a></li>
-  <li><a href="#correlation-can-still-be-extremely-useful" id="toc-correlation-can-still-be-extremely-useful" class="nav-link" data-scroll-target="#correlation-can-still-be-extremely-useful">Correlation Can Still Be Extremely Useful</a></li>
-  <li><a href="#operational-implications" id="toc-operational-implications" class="nav-link" data-scroll-target="#operational-implications">Operational Implications</a></li>
-  <li><a href="#from-correlation-to-operational-action" id="toc-from-correlation-to-operational-action" class="nav-link" data-scroll-target="#from-correlation-to-operational-action">From Correlation to Operational Action</a></li>
-  <li><a href="#why-healthcare-data-is-particularly-complex" id="toc-why-healthcare-data-is-particularly-complex" class="nav-link" data-scroll-target="#why-healthcare-data-is-particularly-complex">Why Healthcare Data Is Particularly Complex</a></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
-  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
+  <li><a href="#did-it-work-or-would-things-have-changed-anyway" id="toc-did-it-work-or-would-things-have-changed-anyway" class="nav-link active" data-scroll-target="#did-it-work-or-would-things-have-changed-anyway"><em>Did it work — or would things have changed anyway?</em></a></li>
+  <li><a href="#module-learning-objective" id="toc-module-learning-objective" class="nav-link" data-scroll-target="#module-learning-objective">Module Learning Objective</a></li>
+  <li><a href="#why-evaluating-healthcare-interventions-matters" id="toc-why-evaluating-healthcare-interventions-matters" class="nav-link" data-scroll-target="#why-evaluating-healthcare-interventions-matters">Why Evaluating Healthcare Interventions Matters</a>
+  <ul class="collapse">
+  <li><a href="#a-practical-healthcare-example" id="toc-a-practical-healthcare-example" class="nav-link" data-scroll-target="#a-practical-healthcare-example">A Practical Healthcare Example</a></li>
+  </ul></li>
+  <li><a href="#the-biggest-evaluation-mistake-before-and-after-comparisons" id="toc-the-biggest-evaluation-mistake-before-and-after-comparisons" class="nav-link" data-scroll-target="#the-biggest-evaluation-mistake-before-and-after-comparisons">The Biggest Evaluation Mistake: Before-and-After Comparisons</a>
+  <ul class="collapse">
+  <li><a href="#why-before-and-after-comparisons-feel-convincing" id="toc-why-before-and-after-comparisons-feel-convincing" class="nav-link" data-scroll-target="#why-before-and-after-comparisons-feel-convincing">Why Before-and-After Comparisons Feel Convincing</a></li>
+  </ul></li>
+  <li><a href="#counterfactual-thinking-what-would-have-happened-anyway" id="toc-counterfactual-thinking-what-would-have-happened-anyway" class="nav-link" data-scroll-target="#counterfactual-thinking-what-would-have-happened-anyway">Counterfactual Thinking: What Would Have Happened Anyway?</a>
+  <ul class="collapse">
+  <li><a href="#a-simple-example" id="toc-a-simple-example" class="nav-link" data-scroll-target="#a-simple-example">A Simple Example</a></li>
+  <li><a href="#counterfactual-thinking-in-practice" id="toc-counterfactual-thinking-in-practice" class="nav-link" data-scroll-target="#counterfactual-thinking-in-practice">Counterfactual Thinking in Practice</a></li>
+  <li><a href="#why-counterfactual-thinking-matters" id="toc-why-counterfactual-thinking-matters" class="nav-link" data-scroll-target="#why-counterfactual-thinking-matters">Why Counterfactual Thinking Matters</a></li>
+  </ul></li>
+  <li><a href="#levels-of-evaluation-confidence" id="toc-levels-of-evaluation-confidence" class="nav-link" data-scroll-target="#levels-of-evaluation-confidence">Levels of Evaluation Confidence</a>
+  <ul class="collapse">
+  <li><a href="#a-practical-nhs-reality" id="toc-a-practical-nhs-reality" class="nav-link" data-scroll-target="#a-practical-nhs-reality">A Practical NHS Reality</a></li>
+  <li><a href="#part-1-key-reflection" id="toc-part-1-key-reflection" class="nav-link" data-scroll-target="#part-1-key-reflection">Part 1 Key Reflection</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -206,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Module 3 — Correlation vs Causation</span></h1>
+<h1 class="title"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></h1>
 </div>
 
 
@@ -223,306 +230,356 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="why-relationships-in-healthcare-data-are-rarely-straightforward" class="level1">
-<h1>Why relationships in healthcare data are rarely straightforward</h1>
+<section id="did-it-work-or-would-things-have-changed-anyway" class="level3">
+<h3 class="anchored" data-anchor-id="did-it-work-or-would-things-have-changed-anyway"><em>Did it work — or would things have changed anyway?</em></h3>
 </section>
-<section id="when-two-things-move-together-does-one-cause-the-other" class="level1">
-<h1>When two things move together, does one cause the other?</h1>
-<p>Healthcare analytics frequently identifies relationships between variables.</p>
-<p>For example:</p>
-<ul>
-<li>higher deprivation and worse health outcomes</li>
-<li>frailty and increased admissions</li>
-<li>obesity and diabetes</li>
-<li>delayed discharge and longer Length of Stay</li>
-<li>smoking and stroke incidence</li>
-</ul>
-<p>When two variables appear related, this is known as a correlation.</p>
-<p>However, correlation alone does not prove that one variable directly causes the other.</p>
-<p>This distinction matters enormously in healthcare analytics because healthcare systems are complex, interconnected and influenced by many overlapping factors.</p>
-<hr>
-</section>
-<section id="what-is-correlation" class="level1">
-<h1>What Is Correlation?</h1>
-<p>Correlation describes a relationship between two variables.</p>
-<p>For example:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 78%">
-<col style="width: 21%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Observation</th>
-<th>Relationship</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Areas with higher deprivation often have higher stroke mortality</td>
-<td>Positive correlation</td>
-</tr>
-<tr class="even">
-<td>Increased physical activity is associated with lower cardiovascular risk</td>
-<td>Negative correlation</td>
-</tr>
-</tbody>
-</table>
-<p>Correlation helps us:</p>
-<ul>
-<li>identify patterns</li>
-<li>detect variation</li>
-<li>generate hypotheses</li>
-<li>prioritise investigation</li>
-</ul>
-<p>But correlation alone cannot tell us:</p>
-<ul>
-<li>why the relationship exists</li>
-<li>whether the relationship is direct</li>
-<li>whether other factors are involved</li>
-</ul>
-<hr>
-</section>
-<section id="correlation-does-not-automatically-mean-causation" class="level1">
-<h1>Correlation Does Not Automatically Mean Causation</h1>
-<p>Suppose we observe:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Area</th>
-<th>Stroke Mortality</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Most deprived areas</td>
-<td>Higher</td>
-</tr>
-<tr class="even">
-<td>Least deprived areas</td>
-<td>Lower</td>
-</tr>
-</tbody>
-</table>
-<p>It may be tempting to conclude:</p>
+<section id="module-learning-objective" class="level2">
+<h2 class="anchored" data-anchor-id="module-learning-objective">Module Learning Objective</h2>
+<p>This module helps explain:</p>
 <blockquote class="blockquote">
-<p>“Deprivation directly causes higher stroke mortality.”</p>
+<p>why evaluating healthcare interventions is often more difficult than it first appears — and how decision-makers can think more critically about whether changes in outcomes are genuinely attributable to a scheme or intervention.</p>
 </blockquote>
-<p>However, healthcare outcomes are rarely driven by a single factor.</p>
-<p>Deprivation may instead be linked to:</p>
+<p>By the end of this module, readers should feel more confident asking:</p>
+<blockquote class="blockquote">
+<p><em>Did this intervention actually work — or would things have changed anyway?</em></p>
+</blockquote>
+<p>The module focuses on practical healthcare examples, particularly interventions intended to reduce:</p>
 <ul>
-<li>higher smoking prevalence</li>
-<li>hypertension</li>
-<li>obesity</li>
-<li>diabetes</li>
-<li>delayed healthcare access</li>
-<li>poorer housing</li>
-<li>reduced access to prevention</li>
-<li>increased multimorbidity</li>
-<li>environmental factors</li>
+<li>Emergency Department (ED) attendances</li>
+<li>emergency admissions</li>
+<li>avoidable hospital utilisation</li>
+<li>delayed discharge</li>
+<li>operational pressure</li>
 </ul>
-<p>In reality, deprivation often acts as a marker for a wider set of underlying risks and system pressures.</p>
-<hr>
+<p>It introduces practical approaches to evaluation without assuming prior statistical knowledge.</p>
 </section>
-<section id="example-stroke-outcomes-and-inequalities" class="level1">
-<h1>Example — Stroke Outcomes and Inequalities</h1>
-<p>Stroke outcomes often vary significantly between populations.</p>
-<p>For example, more deprived populations may experience:</p>
+<section id="why-evaluating-healthcare-interventions-matters" class="level1">
+<h1>Why Evaluating Healthcare Interventions Matters</h1>
+<p>Healthcare systems frequently introduce schemes designed to improve outcomes or reduce demand.</p>
+<p>Examples may include:</p>
 <ul>
-<li>higher stroke incidence</li>
-<li>earlier onset of stroke</li>
-<li>increased mortality</li>
-<li>longer rehabilitation needs</li>
-<li>poorer long-term outcomes</li>
+<li>frailty pathways</li>
+<li>virtual wards</li>
+<li>Same Day Emergency Care (SDEC) services</li>
+<li>care navigation models</li>
+<li>community multidisciplinary teams (MDTs)</li>
+<li>anticipatory care programmes</li>
+<li>admission avoidance services</li>
+<li>discharge coordination schemes</li>
 </ul>
-<p>However, these differences are usually influenced by multiple interconnected factors including:</p>
+<p>These interventions are often introduced with positive intentions:</p>
+<blockquote class="blockquote">
+<p>reduce Emergency Department attendance</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>avoid unnecessary admissions</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>improve patient outcomes</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>reduce pressure on services</p>
+</blockquote>
+<p>After implementation, a common question quickly emerges:</p>
+<blockquote class="blockquote">
+<p><strong>Did it work?</strong></p>
+</blockquote>
+<p>Yet healthcare systems often struggle to distinguish:</p>
+<blockquote class="blockquote">
+<p>genuine impact</p>
+</blockquote>
+<p>from</p>
+<blockquote class="blockquote">
+<p>change that may have happened anyway.</p>
+</blockquote>
+<p>At first glance, this may seem straightforward.</p>
+<p>However, evaluating healthcare interventions is often far more complicated than it first appears.</p>
+<p>Healthcare systems rarely remain static.</p>
+<p>At the same time as an intervention is introduced:</p>
 <ul>
-<li>prevalence of hypertension</li>
-<li>smoking rates</li>
-<li>access to primary care</li>
-<li>anticoagulation gaps in atrial fibrillation</li>
-<li>housing and social conditions</li>
-<li>delayed presentation to services</li>
-<li>rehabilitation access</li>
-<li>transport and geography</li>
+<li>winter pressures may occur</li>
+<li>staffing may change</li>
+<li>patient need may shift</li>
+<li>flu or respiratory illness may rise or fall</li>
+<li>other schemes may begin</li>
+<li>pathways may change</li>
+<li>coding practices may evolve</li>
 </ul>
 <p>This means:</p>
 <blockquote class="blockquote">
-<p>the observed inequality is real, but the pathway causing it is complex.</p>
+<p>Improvement does not automatically imply impact — and observed change does not automatically mean the intervention caused it.</p>
 </blockquote>
-<p>The example below illustrates how healthcare inequalities often emerge through multiple interconnected risk factors rather than a single direct cause-and-effect relationship.</p>
-<p><img src="images/CorrelationvsCausation.png" class="img-fluid"></p>
-<hr>
+<p>A reduction in Emergency Department attendance does not necessarily mean:</p>
+<blockquote class="blockquote">
+<p><em>the intervention caused the reduction.</em></p>
+</blockquote>
+<section id="a-practical-healthcare-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example">A Practical Healthcare Example</h2>
+<p>Imagine an Integrated Care Board introduces a new frailty service intended to reduce Emergency Department attendance among older adults.</p>
+<p>The service provides:</p>
+<ul>
+<li>proactive frailty assessment</li>
+<li>community MDT support</li>
+<li>medication review</li>
+<li>rapid response care coordination</li>
+</ul>
+<p>After six months:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th style="text-align: right;">Before Scheme</th>
+<th style="text-align: right;">After Scheme</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ED attendances</td>
+<td style="text-align: right;">1,200</td>
+<td style="text-align: right;">980</td>
+</tr>
+<tr class="even">
+<td>Emergency admissions</td>
+<td style="text-align: right;">450</td>
+<td style="text-align: right;">390</td>
+</tr>
+</tbody>
+</table>
+<p>At first glance:</p>
+<blockquote class="blockquote">
+<p>The scheme appears successful.</p>
+</blockquote>
+<p>ED attendance has fallen.</p>
+<p>Emergency admissions have also fallen.</p>
+<p>But an important question remains:</p>
+<blockquote class="blockquote">
+<p><strong>Would this reduction have happened anyway?</strong></p>
+</blockquote>
+<p>This question sits at the heart of intervention evaluation.</p>
 </section>
-<section id="confounding-variables" class="level1">
-<h1>Confounding Variables</h1>
-<p>A confounding variable is a factor that influences both variables being studied.</p>
+</section>
+<section id="the-biggest-evaluation-mistake-before-and-after-comparisons" class="level1">
+<h1>The Biggest Evaluation Mistake: Before-and-After Comparisons</h1>
+<p>One of the most common mistakes in healthcare evaluation is relying solely on simple before-and-after comparisons.</p>
 <p>For example:</p>
-<p>Deprivation ↓ Smoking prevalence ↓ Stroke risk</p>
-<p>If smoking prevalence is not considered, we may overestimate the direct effect of deprivation alone.</p>
-<p>Healthcare datasets often contain many confounding variables simultaneously.</p>
-<p>This is one reason why interpreting healthcare analytics requires caution.</p>
-<hr>
-</section>
-<section id="why-adjustment-matters" class="level1">
-<h1>Why Adjustment Matters</h1>
-<p>Healthcare analytics often uses adjustment methods to improve fairness and interpretation.</p>
-<p>Examples include:</p>
+<pre class="text"><code>Before intervention:
+1,200 ED attendances
+
+After intervention:
+980 ED attendances</code></pre>
+<p>Conclusion:</p>
+<blockquote class="blockquote">
+<p>“The scheme worked.”</p>
+</blockquote>
+<p>Sometimes that conclusion may be correct.</p>
+<p>But sometimes it may not.</p>
+<p>Why?</p>
+<p>Because healthcare systems are full of variation and competing influences.</p>
+<p>For example:</p>
 <ul>
-<li>age standardisation</li>
-<li>case-mix adjustment</li>
-<li>regression modelling</li>
-<li>risk adjustment</li>
+<li>winter demand may have been milder</li>
+<li>influenza rates may have fallen</li>
+<li>ambulance conveyance patterns may have changed</li>
+<li>another community service may have launched</li>
+<li>hospital admission thresholds may have changed</li>
+<li>random fluctuation may have occurred</li>
 </ul>
-<p>Adjustment attempts to answer:</p>
+<p>A simple before-and-after comparison cannot easily distinguish:</p>
 <blockquote class="blockquote">
-<p>“What would outcomes look like if populations were more comparable?”</p>
+<p><strong>correlation</strong></p>
 </blockquote>
-<p>For example, after adjusting for:</p>
+<p>from</p>
+<blockquote class="blockquote">
+<p><strong>causation</strong></p>
+</blockquote>
+<p>This links directly back to Module 3:</p>
+<blockquote class="blockquote">
+<p><em>Correlation vs Causation</em></p>
+</blockquote>
+<p>A change occurring after an intervention does not automatically mean:</p>
+<blockquote class="blockquote">
+<p>the intervention caused the change.</p>
+</blockquote>
+<section id="why-before-and-after-comparisons-feel-convincing" class="level2">
+<h2 class="anchored" data-anchor-id="why-before-and-after-comparisons-feel-convincing">Why Before-and-After Comparisons Feel Convincing</h2>
+<p>Simple comparisons are attractive because they are:</p>
 <ul>
-<li>age</li>
-<li>smoking</li>
-<li>hypertension</li>
-<li>diabetes</li>
-<li>frailty</li>
-</ul>
-<p>…the gap in stroke mortality between populations may reduce substantially.</p>
-<p>This does not mean inequalities disappear.</p>
-<p>It means:</p>
-<blockquote class="blockquote">
-<p>part of the observed relationship was explained by other linked factors.</p>
-</blockquote>
-<p>Adjustment improves understanding — it does not remove complexity.</p>
-</section>
-<section id="looking-deeper" class="level1">
-<h1>Looking deeper</h1>
-<p>See:</p>
-<blockquote class="blockquote">
-<p>Appendix — How Adjustment Works</p>
-</blockquote>
-<hr>
-</section>
-<section id="correlation-can-still-be-extremely-useful" class="level1">
-<h1>Correlation Can Still Be Extremely Useful</h1>
-<p>Importantly:</p>
-<blockquote class="blockquote">
-<p>correlation is not “bad”.</p>
-</blockquote>
-<p>Correlation is often the starting point for:</p>
-<ul>
-<li>identifying inequalities</li>
-<li>detecting unwarranted variation</li>
-<li>prioritising interventions</li>
-<li>operational investigation</li>
-<li>pathway redesign</li>
-</ul>
-<p>Without correlation analysis:</p>
-<ul>
-<li>many healthcare inequalities would remain hidden.</li>
-</ul>
-<p>The key is understanding that:</p>
-<blockquote class="blockquote">
-<p>correlation should start questions, not end them.</p>
-</blockquote>
-<hr>
-</section>
-<section id="operational-implications" class="level1">
-<h1>Operational Implications</h1>
-<p>Misinterpreting correlation as causation can lead to:</p>
-<ul>
-<li>simplistic conclusions</li>
-<li>ineffective interventions</li>
-<li>unrealistic targets</li>
-<li>inappropriate benchmarking</li>
+<li>easy to understand</li>
+<li>quick to produce</li>
+<li>intuitive to explain</li>
 </ul>
 <p>For example:</p>
-<p>If analysis shows:</p>
+<pre class="text"><code>Admissions reduced by 15%</code></pre>
+<p>sounds persuasive.</p>
+<p>But healthcare systems are noisy and complex.</p>
+<p>Without additional context, before-and-after comparisons can create:</p>
 <ul>
-<li>higher ED attendance in deprived areas</li>
+<li>false confidence</li>
+<li>overclaiming of impact</li>
+<li>poor investment decisions</li>
+<li>misleading conclusions</li>
 </ul>
-<p>…the operational response should not simply be:</p>
+<p>The question should not simply be:</p>
 <blockquote class="blockquote">
-<p>“reduce ED demand.”</p>
+<p><em>Did things improve?</em></p>
 </blockquote>
-<p>Instead, systems may need to examine:</p>
-<ul>
-<li>primary care access</li>
-<li>prevention services</li>
-<li>frailty support</li>
-<li>transport barriers</li>
-<li>community capacity</li>
-<li>housing instability</li>
-<li>proactive care pathways</li>
-</ul>
-<p>This moves analytics from:</p>
-<ul>
-<li>descriptive reporting towards:</li>
-<li>operational understanding and intervention.</li>
-</ul>
-<hr>
+<p>Instead, decision-makers should ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention caused the improvement?</em></p>
+</blockquote>
 </section>
-<section id="from-correlation-to-operational-action" class="level1">
-<h1>From Correlation to Operational Action</h1>
-<p>Effective healthcare analytics often follows this progression:</p>
-<p>Correlation ↓ Identify underlying drivers ↓ Adjustment and contextual analysis ↓ Cohort segmentation ↓ Operational targeting ↓ Pathway redesign</p>
-<p>This is where analytics becomes most valuable.</p>
-<hr>
 </section>
-<section id="why-healthcare-data-is-particularly-complex" class="level1">
-<h1>Why Healthcare Data Is Particularly Complex</h1>
-<p>Healthcare systems involve:</p>
+<section id="counterfactual-thinking-what-would-have-happened-anyway" class="level1">
+<h1>Counterfactual Thinking: What Would Have Happened Anyway?</h1>
+<p>One of the most important ideas in evaluation is surprisingly simple.</p>
+<p>To understand whether an intervention worked, we need to ask:</p>
+<blockquote class="blockquote">
+<p><strong>What would likely have happened if we had done nothing?</strong></p>
+</blockquote>
+<p>This idea is known as:</p>
+<blockquote class="blockquote">
+<p><strong>the counterfactual</strong></p>
+</blockquote>
+<p>In plain English:</p>
+<blockquote class="blockquote">
+<p><em>What would probably have happened anyway?</em></p>
+</blockquote>
+<p>This is often the missing question in healthcare evaluation.</p>
+<section id="a-simple-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-simple-example">A Simple Example</h2>
+<p>Imagine ED attendance falls following introduction of a community frailty service.</p>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p>Did the intervention reduce attendance?</p>
+</blockquote>
+<p>Maybe.</p>
+<p>But another possibility exists:</p>
+<p>ED attendance might have reduced anyway because:</p>
 <ul>
-<li>biological factors</li>
-<li>behavioural factors</li>
-<li>social determinants</li>
-<li>operational constraints</li>
-<li>service variation</li>
-<li>workforce pressures</li>
-<li>policy decisions</li>
+<li>winter demand was lower</li>
+<li>viral illness reduced</li>
+<li>population behaviour changed</li>
+<li>ambulance conveyance thresholds shifted</li>
+<li>other services improved</li>
 </ul>
-<p>As a result:</p>
-<ul>
-<li>relationships are rarely linear</li>
-<li>multiple factors interact simultaneously</li>
-<li>causation is often difficult to isolate fully</li>
-</ul>
-<p>This is why healthcare analytics requires:</p>
-<ul>
-<li>interpretation</li>
-<li>context</li>
-<li>operational understanding —not just statistical outputs.</li>
-</ul>
-<hr>
+<p>Without considering the counterfactual:</p>
+<blockquote class="blockquote">
+<p>we risk mistaking coincidence for impact.</p>
+</blockquote>
 </section>
-<section id="key-takeaways" class="level1">
-<h1>Key Takeaways</h1>
-<ul>
-<li>Correlation describes relationships between variables</li>
-<li>Correlation alone does not prove causation</li>
-<li>Healthcare inequalities are usually driven by multiple interacting factors</li>
-<li>Confounding variables can distort interpretation</li>
-<li>Adjustment helps improve fairness and understanding</li>
-<li>Correlation remains extremely valuable for identifying patterns and prioritising investigation</li>
-<li>Healthcare analytics should support better questions, not simplistic conclusions</li>
-</ul>
-<hr>
+<section id="counterfactual-thinking-in-practice" class="level2">
+<h2 class="anchored" data-anchor-id="counterfactual-thinking-in-practice">Counterfactual Thinking in Practice</h2>
+<p>Evaluation becomes stronger when we compare reality with a plausible alternative.</p>
+<p>In simple terms:</p>
+<pre class="text"><code>Observed outcome
+        vs
+What might reasonably have happened anyway</code></pre>
+<p>The closer we can get to a believable counterfactual:</p>
+<blockquote class="blockquote">
+<p>the greater our confidence that the intervention genuinely contributed to the observed change.</p>
+</blockquote>
 </section>
-<section id="questions-decision-makers-should-ask" class="level1">
-<h1>Questions Decision-Makers Should Ask</h1>
-<p>When reviewing correlated healthcare metrics:</p>
+<section id="why-counterfactual-thinking-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-counterfactual-thinking-matters">Why Counterfactual Thinking Matters</h2>
+<p>The image below illustrates a common evaluation mistake:</p>
+<p>assuming that improvement after an intervention automatically implies impact.</p>
+<p>Good evaluation instead asks:</p>
+<blockquote class="blockquote">
+<p><em>Compared with what?</em></p>
+</blockquote>
+<p><img src="images/DidInterventionWork_1.png" class="img-fluid"></p>
+<p>The purpose of counterfactual thinking is not to dismiss improvement.</p>
+<p>Instead, it encourages us to ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention caused the change?</em></p>
+</blockquote>
+</section>
+</section>
+<section id="levels-of-evaluation-confidence" class="level1">
+<h1>Levels of Evaluation Confidence</h1>
+<p>Not all evaluation approaches provide the same level of confidence.</p>
+<p>Some approaches provide weak evidence.</p>
+<p>Others provide stronger evidence.</p>
+<p>A useful question for decision-makers is:</p>
+<blockquote class="blockquote">
+<p><strong>How confident should we be that the intervention caused the observed change?</strong></p>
+</blockquote>
+<p>The diagram below illustrates a simplified hierarchy of evaluation approaches and the confidence they provide that an intervention caused observed change.</p>
+<p><img src="images/LevelsofEvaluationConfidence_2.png" class="img-fluid"></p>
+<p>This hierarchy is not about:</p>
+<blockquote class="blockquote">
+<p><em>good versus bad methods</em></p>
+</blockquote>
+<p>Instead, it helps us think about:</p>
+<blockquote class="blockquote">
+<p><strong>how confident we should be in causal conclusions.</strong></p>
+</blockquote>
+<p>Sometimes a simple before-and-after comparison may be all that is practical.</p>
+<p>However:</p>
+<blockquote class="blockquote">
+<p>decision-makers should recognise its limitations.</p>
+</blockquote>
+<section id="a-practical-nhs-reality" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-nhs-reality">A Practical NHS Reality</h2>
+<p>Healthcare systems rarely operate under ideal evaluation conditions.</p>
+<p>In practice:</p>
 <ul>
-<li>What factors may sit behind this relationship?</li>
-<li>Are important confounding variables being missed?</li>
-<li>Does this represent causation, association, or both?</li>
-<li>Are populations truly comparable?</li>
-<li>What operational factors influence these outcomes?</li>
-<li>Which drivers are actually modifiable?</li>
-<li>What intervention opportunities exist?</li>
-<li>What additional analysis is needed before acting?</li>
+<li>interventions evolve over time</li>
+<li>implementation varies between sites</li>
+<li>operational pressures disrupt delivery</li>
+<li>schemes overlap</li>
+<li>data quality may vary</li>
+<li>funding cycles are short</li>
 </ul>
-<hr>
+<p>This is particularly important in healthcare, where decisions often need to be made despite incomplete evidence and competing operational pressures.</p>
+<p>Healthcare evaluation therefore often involves balancing:</p>
+<blockquote class="blockquote">
+<p><strong>pragmatism</strong></p>
+</blockquote>
+<p>with</p>
+<blockquote class="blockquote">
+<p><strong>confidence in findings</strong></p>
+</blockquote>
+<p>The question is rarely:</p>
+<blockquote class="blockquote">
+<p><em>Can we be completely certain?</em></p>
+</blockquote>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p><em>How confident should we be?</em></p>
+</blockquote>
+<p>This means decision-makers often need to act before perfect evidence exists.</p>
+<p>Evaluation therefore becomes less about certainty and more about:</p>
+<blockquote class="blockquote">
+<p>making proportionate, evidence-informed judgements.</p>
+</blockquote>
+</section>
+<section id="part-1-key-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-key-reflection">Part 1 Key Reflection</h2>
+<p>Before moving on, ask:</p>
+<blockquote class="blockquote">
+<p><em>If outcomes changed after an intervention, what evidence would genuinely convince us that the intervention caused the change?</em></p>
+</blockquote>
+<p>This module has focused on:</p>
+<blockquote class="blockquote">
+<p><strong>thinking critically about evidence</strong></p>
+</blockquote>
+<p>because healthcare systems frequently observe change without always knowing:</p>
+<blockquote class="blockquote">
+<p>whether the intervention caused it.</p>
+</blockquote>
+<p>Good evaluation therefore moves beyond:</p>
+<blockquote class="blockquote">
+<p><em>Did outcomes improve?</em></p>
+</blockquote>
+<p>to ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention contributed to improvement?</em></p>
+</blockquote>
+<p>In the next module, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS evaluation methods through to Randomised Controlled Trials, Interrupted Time Series and Difference-in-Differences.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -928,13 +985,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./02-Mean-vs-Median.html" class="pagination-link" aria-label="Module 2 — Mean vs Median">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 2 — Mean vs Median</span></span>
+      <a href="./06-How-to-Read-a-Dashboard.html" class="pagination-link" aria-label="06-How-to-Read-a-Dashboard.html">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">06-How-to-Read-a-Dashboard.html</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./04-Variation-&amp;-Distributions.html" class="pagination-link" aria-label="Module 4 - Variation &amp; Distributions">
-        <span class="nav-page-text"><span class="chapter-title">Module 4 - Variation &amp; Distributions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./08-Evaluating-Methods-in-Practice.html" class="pagination-link" aria-label="Module 8 — Evaluation Methods in Practice">
+        <span class="nav-page-text"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Module 8 — Evaluation Methods in Practice – Health Data Literacy</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Project.html" rel="next">
+<link href="./07-Thinking-About-Evidence-&amp;-Evaluation.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- Privacy-friendly analytics by Plausible -->
+
+<script async="" src="https://plausible.io/js/pa-coCTmyI_rulN60WT7evG5.js"></script>
+
+<script>
+
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+
+  plausible.init()
+
+</script>
+
+
+
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./08-Evaluating-Methods-in-Practice.html"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Health Data Literacy</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-counts-vs-rates.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 1 - Counts vs Rates</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02-Mean-vs-Median.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 2 — Mean vs Median</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04-Variation-&amp;-Distributions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 4 - Variation &amp; Distributions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05-Standardisation-&amp;-Fair-Comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 5- Standardisation &amp; Fair Comparison</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06-How-to-Read-a-Dashboard.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">06-How-to-Read-a-Dashboard.html</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07-Thinking-About-Evidence-&amp;-Evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08-Evaluating-Methods-in-Practice.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#how-healthcare-systems-improve-confidence-in-evaluation-findings" id="toc-how-healthcare-systems-improve-confidence-in-evaluation-findings" class="nav-link active" data-scroll-target="#how-healthcare-systems-improve-confidence-in-evaluation-findings"><em>How healthcare systems improve confidence in evaluation findings</em></a></li>
+  <li><a href="#module-learning-objective" id="toc-module-learning-objective" class="nav-link" data-scroll-target="#module-learning-objective">Module Learning Objective</a></li>
+  <li><a href="#from-module-7-to-module-8" id="toc-from-module-7-to-module-8" class="nav-link" data-scroll-target="#from-module-7-to-module-8">From Module 7 to Module 8</a></li>
+  <li><a href="#why-practical-evaluation-methods-matter" id="toc-why-practical-evaluation-methods-matter" class="nav-link" data-scroll-target="#why-practical-evaluation-methods-matter">Why Practical Evaluation Methods Matter</a></li>
+  <li><a href="#randomised-controlled-trials-rcts" id="toc-randomised-controlled-trials-rcts" class="nav-link" data-scroll-target="#randomised-controlled-trials-rcts">Randomised Controlled Trials (RCTs)</a>
+  <ul class="collapse">
+  <li><a href="#what-is-an-rct" id="toc-what-is-an-rct" class="nav-link" data-scroll-target="#what-is-an-rct">What Is an RCT?</a></li>
+  <li><a href="#a-practical-healthcare-example" id="toc-a-practical-healthcare-example" class="nav-link" data-scroll-target="#a-practical-healthcare-example">A Practical Healthcare Example</a>
+  <ul class="collapse">
+  <li><a href="#group-a" id="toc-group-a" class="nav-link" data-scroll-target="#group-a">Group A</a></li>
+  <li><a href="#group-b" id="toc-group-b" class="nav-link" data-scroll-target="#group-b">Group B</a></li>
+  </ul></li>
+  <li><a href="#why-randomisation-matters" id="toc-why-randomisation-matters" class="nav-link" data-scroll-target="#why-randomisation-matters">Why Randomisation Matters</a></li>
+  <li><a href="#why-rcts-are-difficult-in-real-healthcare-systems" id="toc-why-rcts-are-difficult-in-real-healthcare-systems" class="nav-link" data-scroll-target="#why-rcts-are-difficult-in-real-healthcare-systems">Why RCTs Are Difficult in Real Healthcare Systems</a></li>
+  <li><a href="#key-message" id="toc-key-message" class="nav-link" data-scroll-target="#key-message">Key Message</a></li>
+  <li><a href="#part-1-reflection" id="toc-part-1-reflection" class="nav-link" data-scroll-target="#part-1-reflection">Part 1 Reflection</a></li>
+  </ul></li>
+  <li><a href="#sample-size-statistical-power-and-confidence-in-findings" id="toc-sample-size-statistical-power-and-confidence-in-findings" class="nav-link" data-scroll-target="#sample-size-statistical-power-and-confidence-in-findings">Sample Size, Statistical Power and Confidence in Findings</a>
+  <ul class="collapse">
+  <li><a href="#why-small-numbers-can-mislead" id="toc-why-small-numbers-can-mislead" class="nav-link" data-scroll-target="#why-small-numbers-can-mislead">Why Small Numbers Can Mislead</a></li>
+  <li><a href="#what-do-we-mean-by-sample-size" id="toc-what-do-we-mean-by-sample-size" class="nav-link" data-scroll-target="#what-do-we-mean-by-sample-size">What Do We Mean by Sample Size?</a></li>
+  <li><a href="#statistical-power-in-plain-english" id="toc-statistical-power-in-plain-english" class="nav-link" data-scroll-target="#statistical-power-in-plain-english">Statistical Power (In Plain English)</a></li>
+  <li><a href="#a-practical-healthcare-example-1" id="toc-a-practical-healthcare-example-1" class="nav-link" data-scroll-target="#a-practical-healthcare-example-1">A Practical Healthcare Example</a>
+  <ul class="collapse">
+  <li><a href="#evaluation-a" id="toc-evaluation-a" class="nav-link" data-scroll-target="#evaluation-a">Evaluation A</a></li>
+  <li><a href="#evaluation-b" id="toc-evaluation-b" class="nav-link" data-scroll-target="#evaluation-b">Evaluation B</a></li>
+  </ul></li>
+  <li><a href="#why-this-matters-for-healthcare-decision-making" id="toc-why-this-matters-for-healthcare-decision-making" class="nav-link" data-scroll-target="#why-this-matters-for-healthcare-decision-making">Why This Matters for Healthcare Decision-Making</a></li>
+  </ul></li>
+  <li><a href="#regression-to-the-mean" id="toc-regression-to-the-mean" class="nav-link" data-scroll-target="#regression-to-the-mean">Regression to the Mean</a>
+  <ul class="collapse">
+  <li><a href="#a-practical-healthcare-example-2" id="toc-a-practical-healthcare-example-2" class="nav-link" data-scroll-target="#a-practical-healthcare-example-2">A Practical Healthcare Example</a></li>
+  <li><a href="#why-regression-to-the-mean-matters" id="toc-why-regression-to-the-mean-matters" class="nav-link" data-scroll-target="#why-regression-to-the-mean-matters">Why Regression to the Mean Matters</a></li>
+  <li><a href="#why-this-matters-for-healthcare-decision-making-1" id="toc-why-this-matters-for-healthcare-decision-making-1" class="nav-link" data-scroll-target="#why-this-matters-for-healthcare-decision-making-1">Why This Matters for Healthcare Decision-Making</a></li>
+  <li><a href="#key-message-1" id="toc-key-message-1" class="nav-link" data-scroll-target="#key-message-1">Key Message</a></li>
+  </ul></li>
+  <li><a href="#interrupted-time-series-its" id="toc-interrupted-time-series-its" class="nav-link" data-scroll-target="#interrupted-time-series-its">Interrupted Time Series (ITS)</a>
+  <ul class="collapse">
+  <li><a href="#what-is-interrupted-time-series" id="toc-what-is-interrupted-time-series" class="nav-link" data-scroll-target="#what-is-interrupted-time-series">What Is Interrupted Time Series?</a></li>
+  <li><a href="#a-practical-healthcare-example-3" id="toc-a-practical-healthcare-example-3" class="nav-link" data-scroll-target="#a-practical-healthcare-example-3">A Practical Healthcare Example</a>
+  <ul class="collapse">
+  <li><a href="#scenario-1-no-meaningful-change" id="toc-scenario-1-no-meaningful-change" class="nav-link" data-scroll-target="#scenario-1-no-meaningful-change">Scenario 1 — No Meaningful Change</a></li>
+  <li><a href="#scenario-2-sudden-change" id="toc-scenario-2-sudden-change" class="nav-link" data-scroll-target="#scenario-2-sudden-change">Scenario 2 — Sudden Change</a></li>
+  <li><a href="#scenario-3-sustained-improvement" id="toc-scenario-3-sustained-improvement" class="nav-link" data-scroll-target="#scenario-3-sustained-improvement">Scenario 3 — Sustained Improvement</a></li>
+  </ul></li>
+  <li><a href="#why-its-matters-for-healthcare-decision-making" id="toc-why-its-matters-for-healthcare-decision-making" class="nav-link" data-scroll-target="#why-its-matters-for-healthcare-decision-making">Why ITS Matters for Healthcare Decision-Making</a></li>
+  </ul></li>
+  <li><a href="#difference-in-differences-did" id="toc-difference-in-differences-did" class="nav-link" data-scroll-target="#difference-in-differences-did">Difference-in-Differences (DiD)</a>
+  <ul class="collapse">
+  <li><a href="#what-is-difference-in-differences" id="toc-what-is-difference-in-differences" class="nav-link" data-scroll-target="#what-is-difference-in-differences">What Is Difference-in-Differences?</a></li>
+  <li><a href="#a-practical-healthcare-example-4" id="toc-a-practical-healthcare-example-4" class="nav-link" data-scroll-target="#a-practical-healthcare-example-4">A Practical Healthcare Example</a>
+  <ul class="collapse">
+  <li><a href="#pcn-a" id="toc-pcn-a" class="nav-link" data-scroll-target="#pcn-a">PCN A</a></li>
+  <li><a href="#pcn-b" id="toc-pcn-b" class="nav-link" data-scroll-target="#pcn-b">PCN B</a></li>
+  <li><a href="#pcn-a-1" id="toc-pcn-a-1" class="nav-link" data-scroll-target="#pcn-a-1">PCN A</a></li>
+  <li><a href="#pcn-b-1" id="toc-pcn-b-1" class="nav-link" data-scroll-target="#pcn-b-1">PCN B</a></li>
+  </ul></li>
+  <li><a href="#why-did-matters-for-healthcare-decision-making" id="toc-why-did-matters-for-healthcare-decision-making" class="nav-link" data-scroll-target="#why-did-matters-for-healthcare-decision-making">Why DiD Matters for Healthcare Decision-Making</a></li>
+  <li><a href="#key-message-2" id="toc-key-message-2" class="nav-link" data-scroll-target="#key-message-2">Key Message</a></li>
+  <li><a href="#part-3-reflection" id="toc-part-3-reflection" class="nav-link" data-scroll-target="#part-3-reflection">Part 3 Reflection</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="how-healthcare-systems-improve-confidence-in-evaluation-findings" class="level3">
+<h3 class="anchored" data-anchor-id="how-healthcare-systems-improve-confidence-in-evaluation-findings"><em>How healthcare systems improve confidence in evaluation findings</em></h3>
+</section>
+<section id="module-learning-objective" class="level2">
+<h2 class="anchored" data-anchor-id="module-learning-objective">Module Learning Objective</h2>
+<p>This module helps explain:</p>
+<blockquote class="blockquote">
+<p>how healthcare systems move beyond simple before-and-after comparisons by using more robust approaches to improve confidence that an intervention genuinely contributed to observed change.</p>
+</blockquote>
+<p>By the end of this module, readers should feel more confident asking:</p>
+<blockquote class="blockquote">
+<p><em>How strong is the evidence that this intervention worked?</em></p>
+</blockquote>
+<p>The module focuses on practical healthcare examples, particularly interventions intended to reduce:</p>
+<ul>
+<li>Emergency Department (ED) attendances</li>
+<li>emergency admissions</li>
+<li>avoidable hospital utilisation</li>
+<li>delayed discharge</li>
+<li>operational pressure</li>
+</ul>
+<p>Rather than assuming healthcare systems can ever prove impact with complete certainty, the module focuses on:</p>
+<blockquote class="blockquote">
+<p><strong>improving confidence in evaluation findings</strong></p>
+</blockquote>
+<p>through more thoughtful and structured approaches.</p>
+</section>
+<section id="from-module-7-to-module-8" class="level1">
+<h1>From Module 7 to Module 8</h1>
+<p>In Module 7 we introduced an important idea:</p>
+<blockquote class="blockquote">
+<p><strong>improvement alone does not prove impact</strong></p>
+</blockquote>
+<p>Healthcare systems frequently observe change after an intervention.</p>
+<p>For example:</p>
+<pre><code>ED attendances ↓
+Emergency admissions ↓</code></pre>
+<p>But an important question remains:</p>
+<blockquote class="blockquote">
+<p><em>Would this improvement have happened anyway?</em></p>
+</blockquote>
+<p>This idea introduced:</p>
+<ul>
+<li>counterfactual thinking</li>
+<li>confidence in evidence</li>
+<li>contribution versus attribution</li>
+<li>the limitations of simple before-and-after comparisons</li>
+</ul>
+<p>The question now becomes:</p>
+<blockquote class="blockquote">
+<p><strong>How do healthcare systems improve confidence that an intervention genuinely contributed to observed change?</strong></p>
+</blockquote>
+<p>This module introduces practical approaches that are commonly used in healthcare evaluation.</p>
+<p>These approaches do not eliminate uncertainty.</p>
+<p>Instead, they help decision-makers ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident should we be?</em></p>
+</blockquote>
+</section>
+<section id="why-practical-evaluation-methods-matter" class="level1">
+<h1>Why Practical Evaluation Methods Matter</h1>
+<p>Healthcare systems often need to make decisions quickly.</p>
+<p>Programmes are launched:</p>
+<ul>
+<li>under operational pressure</li>
+<li>during winter demand</li>
+<li>amidst workforce shortages</li>
+<li>alongside other service changes</li>
+</ul>
+<p>Decision-makers may need to decide:</p>
+<ul>
+<li>whether to continue funding a scheme</li>
+<li>whether to scale it across the system</li>
+<li>whether to redesign or stop it</li>
+</ul>
+<p>Yet waiting for perfect evidence is rarely realistic.</p>
+<p>This creates an important challenge:</p>
+<blockquote class="blockquote">
+<p><strong>How do we improve confidence in evaluation findings without waiting years for certainty?</strong></p>
+</blockquote>
+<p>Practical evaluation methods help by:</p>
+<ul>
+<li>improving comparisons</li>
+<li>strengthening counterfactual thinking</li>
+<li>reducing misleading conclusions</li>
+<li>increasing confidence in observed impact</li>
+</ul>
+<p>Importantly:</p>
+<blockquote class="blockquote">
+<p>stronger methods do not guarantee truth.</p>
+</blockquote>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p>they help reduce the risk of reaching the wrong conclusion.</p>
+</blockquote>
+</section>
+<section id="randomised-controlled-trials-rcts" class="level1">
+<h1>Randomised Controlled Trials (RCTs)</h1>
+<p>One of the strongest ways to evaluate whether an intervention caused change is through a:</p>
+<blockquote class="blockquote">
+<p><strong>Randomised Controlled Trial (RCT)</strong></p>
+</blockquote>
+<p>RCTs are often described as the:</p>
+<blockquote class="blockquote">
+<p><strong>gold standard of evaluation</strong></p>
+</blockquote>
+<p>because they help create a stronger counterfactual.</p>
+<section id="what-is-an-rct" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-an-rct">What Is an RCT?</h2>
+<p>In simple terms:</p>
+<p>an RCT compares two groups.</p>
+<p>One group receives:</p>
+<blockquote class="blockquote">
+<p><strong>the intervention</strong></p>
+</blockquote>
+<p>The other receives:</p>
+<blockquote class="blockquote">
+<p><strong>usual care (or no intervention)</strong></p>
+</blockquote>
+<p>Participants are assigned randomly.</p>
+<p>This is important because randomisation helps reduce bias.</p>
+<p>In theory:</p>
+<blockquote class="blockquote">
+<p>the two groups should be broadly similar at the start.</p>
+</blockquote>
+<p>If outcomes later differ:</p>
+<p>we can have greater confidence that:</p>
+<blockquote class="blockquote">
+<p><strong>the intervention contributed to the change</strong></p>
+</blockquote>
+<p>rather than:</p>
+<ul>
+<li>chance</li>
+<li>selection bias</li>
+<li>population differences</li>
+<li>other confounding factors</li>
+</ul>
+</section>
+<section id="a-practical-healthcare-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example">A Practical Healthcare Example</h2>
+<p>Imagine an Integrated Care Board introduces a frailty intervention designed to reduce emergency admissions.</p>
+<p>Rather than implementing the service everywhere immediately:</p>
+<p>several Primary Care Networks (PCNs) are selected to participate.</p>
+<p>Patients are randomly allocated.</p>
+<section id="group-a" class="level3">
+<h3 class="anchored" data-anchor-id="group-a">Group A</h3>
+<p>Receives:</p>
+<ul>
+<li>proactive frailty review</li>
+<li>medication optimisation</li>
+<li>MDT support</li>
+<li>community monitoring</li>
+</ul>
+</section>
+<section id="group-b" class="level3">
+<h3 class="anchored" data-anchor-id="group-b">Group B</h3>
+<p>Receives:</p>
+<blockquote class="blockquote">
+<p>usual care</p>
+</blockquote>
+<p>After twelve months:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th style="text-align: right;">Intervention Group</th>
+<th style="text-align: right;">Usual Care</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ED attendances</td>
+<td style="text-align: right;">900</td>
+<td style="text-align: right;">1,100</td>
+</tr>
+<tr class="even">
+<td>Emergency admissions</td>
+<td style="text-align: right;">320</td>
+<td style="text-align: right;">420</td>
+</tr>
+</tbody>
+</table>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Did the intervention contribute to improvement?</em></p>
+</blockquote>
+<p>Because patients were randomly allocated, we can generally have:</p>
+<blockquote class="blockquote">
+<p><strong>greater confidence that observed differences are more likely to reflect the intervention rather than underlying differences between patients.</strong></p>
+</blockquote>
+</section>
+</section>
+<section id="why-randomisation-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-randomisation-matters">Why Randomisation Matters</h2>
+<p>Without randomisation:</p>
+<p>services may unintentionally select patients who are:</p>
+<ul>
+<li>easier to help</li>
+<li>more engaged</li>
+<li>less clinically complex</li>
+<li>more motivated</li>
+</ul>
+<p>This creates a problem known as:</p>
+<blockquote class="blockquote">
+<p><strong>selection bias</strong></p>
+</blockquote>
+<p>For example:</p>
+<p>a frailty service might prioritise patients who are already likely to improve.</p>
+<p>The intervention may then appear more successful than it truly is.</p>
+<p>Randomisation helps reduce this risk.</p>
+<p><img src="images/RCT_3.png" class="img-fluid"></p>
+<p>The key idea is simple:</p>
+<p>RCTs attempt to improve fairness in comparison by reducing differences between groups before outcomes are compared.</p>
+<blockquote class="blockquote">
+<p><strong>random allocation improves confidence that differences in outcomes are more likely to reflect the intervention rather than underlying differences between patients.</strong></p>
+</blockquote>
+</section>
+<section id="why-rcts-are-difficult-in-real-healthcare-systems" class="level2">
+<h2 class="anchored" data-anchor-id="why-rcts-are-difficult-in-real-healthcare-systems">Why RCTs Are Difficult in Real Healthcare Systems</h2>
+<p>Despite their strengths:</p>
+<p>RCTs are often difficult to implement in real healthcare systems.</p>
+<p>RCTs can provide strong evidence.</p>
+<p>However:</p>
+<blockquote class="blockquote">
+<p><strong>strong evidence is not always operationally practical</strong></p>
+</blockquote>
+<p>Healthcare environments are messy.</p>
+<p>Operational realities include:</p>
+<ul>
+<li>workforce shortages</li>
+<li>service redesign during implementation</li>
+<li>changing pathways</li>
+<li>political and operational pressure to scale interventions quickly</li>
+<li>ethical concerns about withholding care</li>
+</ul>
+<p>For example:</p>
+<p>if early evidence suggests a service is beneficial:</p>
+<p>leaders may feel uncomfortable withholding support from some patients.</p>
+<p>Similarly:</p>
+<p>healthcare systems often need to move quickly.</p>
+<p>Waiting several years for a perfect evaluation may not feel realistic when:</p>
+<ul>
+<li>Emergency Departments are under pressure</li>
+<li>emergency admissions are rising</li>
+<li>operational performance is deteriorating</li>
+</ul>
+<p>As a result:</p>
+<p>many healthcare evaluations rely on:</p>
+<blockquote class="blockquote">
+<p><strong>pragmatic approaches</strong></p>
+</blockquote>
+<p>that improve confidence without requiring a full RCT.</p>
+</section>
+<section id="key-message" class="level2">
+<h2 class="anchored" data-anchor-id="key-message">Key Message</h2>
+<p>RCTs are powerful because they help create stronger comparisons between intervention and non-intervention groups.</p>
+<p>However:</p>
+<blockquote class="blockquote">
+<p><strong>strong evidence is not always operationally practical evidence</strong></p>
+</blockquote>
+<p>Healthcare systems often need approaches that balance:</p>
+<blockquote class="blockquote">
+<p><strong>rigour</strong></p>
+</blockquote>
+<p>with</p>
+<blockquote class="blockquote">
+<p><strong>operational reality</strong></p>
+</blockquote>
+</section>
+<section id="part-1-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-reflection">Part 1 Reflection</h2>
+<p>Before moving on, ask:</p>
+<blockquote class="blockquote">
+<p><em>If a scheme appears successful, how confident are we that the groups being compared were genuinely comparable?</em></p>
+</blockquote>
+<p>In the next section, we explore another important question:</p>
+<blockquote class="blockquote">
+<p><em>How much evidence is enough to trust the findings?</em></p>
+</blockquote>
+<p>This introduces:</p>
+<blockquote class="blockquote">
+<p><strong>sample size and statistical power</strong></p>
+</blockquote>
+</section>
+</section>
+<section id="sample-size-statistical-power-and-confidence-in-findings" class="level1">
+<h1>Sample Size, Statistical Power and Confidence in Findings</h1>
+<p>In Module 6, we introduced an important question:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that an intervention genuinely contributed to observed change?</em></p>
+</blockquote>
+<p>Even when groups are fairly compared, another important challenge remains:</p>
+<blockquote class="blockquote">
+<p><strong>Do we have enough evidence to trust what we are seeing?</strong></p>
+</blockquote>
+<p>This is where:</p>
+<blockquote class="blockquote">
+<p><strong>sample size</strong> and <strong>statistical power</strong></p>
+</blockquote>
+<p>become important.</p>
+<p>Fortunately, the core idea is much simpler than the terminology suggests.</p>
+<section id="why-small-numbers-can-mislead" class="level2">
+<h2 class="anchored" data-anchor-id="why-small-numbers-can-mislead">Why Small Numbers Can Mislead</h2>
+<p>Healthcare systems often evaluate schemes using:</p>
+<ul>
+<li>small pilots</li>
+<li>short implementation periods</li>
+<li>highly selected patient groups</li>
+<li>limited operational data</li>
+</ul>
+<p>For example:</p>
+<p>A frailty intervention is piloted for:</p>
+<pre><code>20 patients</code></pre>
+<p>After three months:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th style="text-align: right;">Before</th>
+<th style="text-align: right;">After</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ED attendances</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">28</td>
+</tr>
+<tr class="even">
+<td>Emergency admissions</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">10</td>
+</tr>
+</tbody>
+</table>
+<p>At first glance:</p>
+<blockquote class="blockquote">
+<p>the scheme appears successful.</p>
+</blockquote>
+<p>But an important question remains:</p>
+<blockquote class="blockquote">
+<p><strong>How confident should we be that this change reflects genuine impact rather than normal fluctuation?</strong></p>
+</blockquote>
+<p>Small numbers naturally fluctuate.</p>
+<p>A handful of patients can disproportionately influence results.</p>
+<p>For example:</p>
+<p>if two highly complex patients experience:</p>
+<ul>
+<li>hospitalisation</li>
+<li>bereavement</li>
+<li>worsening frailty</li>
+<li>medication changes</li>
+</ul>
+<p>outcomes may change substantially.</p>
+<p>Similarly:</p>
+<p>if several patients improve naturally:</p>
+<p>results may look highly positive.</p>
+<p>This means:</p>
+<blockquote class="blockquote">
+<p><strong>Small pilots may produce convincing-looking results that are less reliable than they first appear.</strong></p>
+</blockquote>
+</section>
+<section id="what-do-we-mean-by-sample-size" class="level2">
+<h2 class="anchored" data-anchor-id="what-do-we-mean-by-sample-size">What Do We Mean by Sample Size?</h2>
+<p>Sample size simply refers to:</p>
+<blockquote class="blockquote">
+<p><strong>how many people, events or observations are included in an evaluation</strong></p>
+</blockquote>
+<p>Examples include:</p>
+<ul>
+<li>number of patients enrolled in a scheme</li>
+<li>number of Emergency Department attendances analysed</li>
+<li>number of GP practices or PCNs involved</li>
+<li>number of months of activity included</li>
+</ul>
+<p>In general:</p>
+<blockquote class="blockquote">
+<p><strong>larger samples tend to produce more stable and reliable findings</strong></p>
+</blockquote>
+<p>because random fluctuation becomes less influential.</p>
+<p>This does not mean:</p>
+<blockquote class="blockquote">
+<p><strong>larger samples automatically guarantee better evidence</strong></p>
+</blockquote>
+<p>Poor evaluation design can still produce misleading conclusions.</p>
+<p>However:</p>
+<blockquote class="blockquote">
+<p><strong>small numbers deserve greater caution</strong></p>
+</blockquote>
+</section>
+<section id="statistical-power-in-plain-english" class="level2">
+<h2 class="anchored" data-anchor-id="statistical-power-in-plain-english">Statistical Power (In Plain English)</h2>
+<p>Statistical power sounds technical.</p>
+<p>But the underlying question is straightforward:</p>
+<blockquote class="blockquote">
+<p><strong>If a real improvement exists, how likely are we to detect it?</strong></p>
+</blockquote>
+<p>Low-powered evaluations may fail to detect genuine effects.</p>
+<p>For example:</p>
+<p>a frailty scheme may genuinely reduce emergency admissions by:</p>
+<pre><code>5%</code></pre>
+<p>But if:</p>
+<ul>
+<li>only a small number of patients are included</li>
+<li>follow-up time is short</li>
+<li>variation is high</li>
+</ul>
+<p>the evaluation may struggle to detect the change.</p>
+<p>Decision-makers may incorrectly conclude:</p>
+<blockquote class="blockquote">
+<p><em>The intervention didn’t work</em></p>
+</blockquote>
+<p>when the evaluation simply lacked enough information.</p>
+<p>In practice:</p>
+<blockquote class="blockquote">
+<p><strong>small evaluations are more likely to miss real effects — or overreact to random fluctuation.</strong></p>
+</blockquote>
+</section>
+<section id="a-practical-healthcare-example-1" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example-1">A Practical Healthcare Example</h2>
+<p>Imagine two evaluations of the same frailty pathway.</p>
+<section id="evaluation-a" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation-a">Evaluation A</h3>
+<pre><code>20 patients
+2 months follow-up</code></pre>
+<p>Observed result:</p>
+<pre><code>Emergency admissions ↓</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Was this meaningful improvement — or random fluctuation?</em></p>
+</blockquote>
+<p>Confidence remains limited.</p>
+</section>
+<section id="evaluation-b" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation-b">Evaluation B</h3>
+<pre><code>2,000 patients
+12 months follow-up
+Comparator group included</code></pre>
+<p>Observed result:</p>
+<pre><code>Emergency admissions ↓</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we now?</em></p>
+</blockquote>
+<p>Confidence is greater because:</p>
+<ul>
+<li>more patients were observed</li>
+<li>longer time period analysed</li>
+<li>natural fluctuation matters less</li>
+<li>comparison is stronger</li>
+</ul>
+<p>This does not guarantee truth.</p>
+<p>But it increases confidence.</p>
+<p>The image below illustrates why small evaluations often produce more unstable and uncertain findings — even when results initially look promising.</p>
+<p><img src="images/SmallSamplesvsStrongerEvidence_4.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="why-this-matters-for-healthcare-decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters-for-healthcare-decision-making">Why This Matters for Healthcare Decision-Making</h2>
+<p>Healthcare systems often pilot schemes quickly.</p>
+<p>Leaders may face pressure to decide:</p>
+<ul>
+<li>continue funding</li>
+<li>scale across the system</li>
+<li>redesign</li>
+<li>stop</li>
+</ul>
+<p>before strong evidence exists.</p>
+<p>This creates an important tension:</p>
+<blockquote class="blockquote">
+<p><strong>speed of learning</strong></p>
+</blockquote>
+<p>versus</p>
+<blockquote class="blockquote">
+<p><strong>confidence in conclusions</strong></p>
+</blockquote>
+<p>The question is rarely:</p>
+<blockquote class="blockquote">
+<p><em>Can we be completely certain?</em></p>
+</blockquote>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p><em>How confident should we be before acting?</em></p>
+</blockquote>
+</section>
+</section>
+<section id="regression-to-the-mean" class="level1">
+<h1>Regression to the Mean</h1>
+<p>Even when evaluations include enough observations, another important challenge remains:</p>
+<blockquote class="blockquote">
+<p><strong>could improvement have happened naturally anyway?</strong></p>
+</blockquote>
+<p>This brings us to:</p>
+<blockquote class="blockquote">
+<p><strong>Regression to the Mean</strong></p>
+</blockquote>
+<p>The name sounds complicated.</p>
+<p>The idea is not.</p>
+<p>It describes a simple tendency:</p>
+<blockquote class="blockquote">
+<p><strong>extreme outcomes often become less extreme over time</strong></p>
+</blockquote>
+<p>even without intervention.</p>
+<p>This matters enormously in healthcare.</p>
+<p>Because interventions are often targeted at:</p>
+<ul>
+<li>high-risk patients</li>
+<li>high-intensity users</li>
+<li>people with repeated admissions</li>
+<li>people with severe frailty</li>
+</ul>
+<p>In other words:</p>
+<blockquote class="blockquote">
+<p><strong>the very people already experiencing unusually extreme outcomes</strong></p>
+</blockquote>
+<section id="a-practical-healthcare-example-2" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example-2">A Practical Healthcare Example</h2>
+<p>Imagine a healthcare system identifies:</p>
+<pre><code>20 patients</code></pre>
+<p>with very high Emergency Department attendance.</p>
+<p>Each attended:</p>
+<pre><code>10–15 times</code></pre>
+<p>during the previous year.</p>
+<p>A targeted intervention is introduced.</p>
+<p>For example:</p>
+<ul>
+<li>care coordination</li>
+<li>frailty MDT support</li>
+<li>proactive monitoring</li>
+<li>social prescribing</li>
+<li>medication review</li>
+</ul>
+<p>One year later:</p>
+<p>ED attendance falls.</p>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Did the intervention work?</em></p>
+</blockquote>
+<p>Maybe.</p>
+<p>But another possibility exists.</p>
+<p>Patients selected because they experienced unusually extreme healthcare utilisation may naturally move closer to average levels over time.</p>
+<p>Some people improve naturally because:</p>
+<ul>
+<li>acute illness resolves</li>
+<li>social circumstances stabilise</li>
+<li>medication changes occur</li>
+<li>temporary crises pass</li>
+</ul>
+<p>This means:</p>
+<blockquote class="blockquote">
+<p><strong>some improvement may occur even if the intervention had little or no effect</strong></p>
+</blockquote>
+</section>
+<section id="why-regression-to-the-mean-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-regression-to-the-mean-matters">Why Regression to the Mean Matters</h2>
+<p>Without recognising regression to the mean:</p>
+<p>healthcare systems may mistakenly conclude:</p>
+<blockquote class="blockquote">
+<p><em>The scheme worked</em></p>
+</blockquote>
+<p>when some improvement might have happened anyway.</p>
+<p>This is particularly important when evaluating:</p>
+<ul>
+<li>high-intensity ED attenders</li>
+<li>frequent emergency admissions</li>
+<li>severe frailty cohorts</li>
+<li>complex multimorbidity pathways</li>
+</ul>
+<p>The higher the starting level of risk:</p>
+<blockquote class="blockquote">
+<p><strong>the greater the risk of mistaking natural fluctuation for intervention impact</strong></p>
+</blockquote>
+<p>The image below illustrates an important evaluation risk:</p>
+<blockquote class="blockquote">
+<p>improvement does not always mean intervention impact.</p>
+</blockquote>
+<p><img src="images/RegressionToMean_5.png" class="img-fluid"></p>
+</section>
+<section id="why-this-matters-for-healthcare-decision-making-1" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters-for-healthcare-decision-making-1">Why This Matters for Healthcare Decision-Making</h2>
+<p>Healthcare systems frequently target interventions at patients with the highest levels of need.</p>
+<p>This makes regression to the mean particularly important.</p>
+<p>Without recognising it, decision-makers may:</p>
+<ul>
+<li>overestimate intervention impact</li>
+<li>scale ineffective schemes</li>
+<li>misallocate scarce resources</li>
+</ul>
+<p>A useful question becomes:</p>
+<blockquote class="blockquote">
+<p><em>Would some improvement have happened anyway?</em></p>
+</blockquote>
+</section>
+<section id="key-message-1" class="level2">
+<h2 class="anchored" data-anchor-id="key-message-1">Key Message</h2>
+<p>Small pilots and extreme patient groups can easily mislead evaluation.</p>
+<p>Healthcare systems should therefore ask:</p>
+<blockquote class="blockquote">
+<p><strong>Are we observing genuine intervention impact — or natural fluctuation?</strong></p>
+</blockquote>
+<p>Good evaluation becomes stronger when we ask:</p>
+<blockquote class="blockquote">
+<p><em>Do we have enough evidence?</em></p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p><em>Could improvement have happened anyway?</em></p>
+</blockquote>
+<p>Before moving on, ask:</p>
+<blockquote class="blockquote">
+<p><em>If outcomes improved, how confident are we that this reflects intervention impact rather than small numbers or natural fluctuation?</em></p>
+</blockquote>
+<p>In the next section, we explore practical ways healthcare systems strengthen confidence in evaluation findings.</p>
+<p>In Part 1 and Part 2 of this module, we explored:</p>
+<ul>
+<li>fair comparison through Randomised Controlled Trials (RCTs)</li>
+<li>why small numbers can mislead</li>
+<li>statistical power</li>
+<li>Regression to the Mean</li>
+</ul>
+<p>Yet another challenge remains.</p>
+<p>Healthcare systems rarely operate in perfect conditions.</p>
+<p>Leaders often need to evaluate schemes:</p>
+<ul>
+<li>quickly</li>
+<li>under operational pressure</li>
+<li>without randomisation</li>
+<li>while multiple changes happen simultaneously</li>
+</ul>
+<p>In reality:</p>
+<blockquote class="blockquote">
+<p><strong>RCTs are often difficult, expensive or impractical</strong></p>
+</blockquote>
+<p>This creates an important question:</p>
+<blockquote class="blockquote">
+<p><strong>How can healthcare systems strengthen evaluation when RCTs are unrealistic?</strong></p>
+</blockquote>
+<p>Two practical approaches commonly used in healthcare evaluation are:</p>
+<blockquote class="blockquote">
+<p><strong>Interrupted Time Series (ITS)</strong></p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p><strong>Difference-in-Differences (DiD)</strong></p>
+</blockquote>
+<p>These approaches do not eliminate uncertainty.</p>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p><strong>they improve confidence in findings by creating stronger comparisons.</strong></p>
+</blockquote>
+</section>
+</section>
+<section id="interrupted-time-series-its" class="level1">
+<h1>Interrupted Time Series (ITS)</h1>
+<p>One challenge with simple before-and-after evaluation is this:</p>
+<blockquote class="blockquote">
+<p>healthcare systems naturally fluctuate over time.</p>
+</blockquote>
+<p>Emergency admissions rise and fall.</p>
+<p>Waiting lists change.</p>
+<p>Operational pressure changes.</p>
+<p>Winter pressures come and go.</p>
+<p>This creates an important risk:</p>
+<blockquote class="blockquote">
+<p><strong>improvement may already have been happening before an intervention started</strong></p>
+</blockquote>
+<p>Interrupted Time Series (ITS) helps address this problem.</p>
+<section id="what-is-interrupted-time-series" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-interrupted-time-series">What Is Interrupted Time Series?</h2>
+<p>Rather than asking:</p>
+<blockquote class="blockquote">
+<p><em>Did outcomes improve?</em></p>
+</blockquote>
+<p>ITS asks:</p>
+<blockquote class="blockquote">
+<p><strong>Did the pattern of change meaningfully alter after the intervention?</strong></p>
+</blockquote>
+<p>This distinction matters.</p>
+<p>Instead of simply comparing:</p>
+<pre><code>before
+vs
+after</code></pre>
+<p>ITS asks:</p>
+<pre><code>Was the trajectory interrupted?</code></pre>
+<p>In simple terms:</p>
+<p>ITS looks at:</p>
+<ul>
+<li>trends before intervention</li>
+<li>trends after intervention</li>
+<li>whether the pattern changed meaningfully</li>
+</ul>
+<p>For example:</p>
+<p>Did emergency admissions:</p>
+<ul>
+<li>suddenly reduce?</li>
+<li>begin falling faster?</li>
+<li>stop increasing?</li>
+<li>improve in a sustained way?</li>
+</ul>
+</section>
+<section id="a-practical-healthcare-example-3" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example-3">A Practical Healthcare Example</h2>
+<p>Imagine an Integrated Care Board introduces a frailty pathway to reduce emergency admissions.</p>
+<p>Instead of comparing:</p>
+<pre><code>before vs after</code></pre>
+<p>we examine:</p>
+<pre><code>monthly emergency admissions over time</code></pre>
+<p>Suppose the intervention begins in:</p>
+<pre><code>Month 8</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Did emergency admissions meaningfully change after implementation?</em></p>
+</blockquote>
+<p>Three possibilities might emerge:</p>
+<section id="scenario-1-no-meaningful-change" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-1-no-meaningful-change">Scenario 1 — No Meaningful Change</h3>
+<p>Admissions were already falling.</p>
+<p>The trend simply continues.</p>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Did the intervention add anything?</em></p>
+</blockquote>
+<p>Confidence in intervention impact remains limited.</p>
+</section>
+<section id="scenario-2-sudden-change" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-2-sudden-change">Scenario 2 — Sudden Change</h3>
+<p>Admissions drop sharply immediately after implementation.</p>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Could this represent intervention impact?</em></p>
+</blockquote>
+<p>Confidence increases.</p>
+</section>
+<section id="scenario-3-sustained-improvement" class="level3">
+<h3 class="anchored" data-anchor-id="scenario-3-sustained-improvement">Scenario 3 — Sustained Improvement</h3>
+<p>Admissions begin falling faster after implementation and remain lower over time.</p>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Does this suggest a meaningful shift in trajectory?</em></p>
+</blockquote>
+<p>Confidence increases further.</p>
+<p>The image below illustrates the key question ITS asks:</p>
+<blockquote class="blockquote">
+<p><strong>Did the trajectory meaningfully change after intervention?</strong></p>
+</blockquote>
+<p>Interrupted Time Series helps distinguish:</p>
+<blockquote class="blockquote">
+<p><strong>normal change over time</strong></p>
+</blockquote>
+<p>from</p>
+<blockquote class="blockquote">
+<p><strong>potential intervention impact</strong></p>
+</blockquote>
+<p><img src="images/InterruptedTimeSeries_6.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="why-its-matters-for-healthcare-decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="why-its-matters-for-healthcare-decision-making">Why ITS Matters for Healthcare Decision-Making</h2>
+<p>Healthcare systems often mistake:</p>
+<blockquote class="blockquote">
+<p><strong>normal trends</strong></p>
+</blockquote>
+<p>for</p>
+<blockquote class="blockquote">
+<p><strong>intervention impact</strong></p>
+</blockquote>
+<p>For example:</p>
+<p>Emergency admissions may naturally improve after winter.</p>
+<p>Operational performance may recover after temporary disruption.</p>
+<p>Waiting lists may already have been stabilising.</p>
+<p>Without considering trends:</p>
+<p>decision-makers risk concluding:</p>
+<blockquote class="blockquote">
+<p><em>The scheme worked</em></p>
+</blockquote>
+<p>when outcomes may have improved anyway.</p>
+<p>A useful question becomes:</p>
+<blockquote class="blockquote">
+<p><em>Did outcomes improve — or did the trajectory change?</em></p>
+</blockquote>
+</section>
+</section>
+<section id="difference-in-differences-did" class="level1">
+<h1>Difference-in-Differences (DiD)</h1>
+<p>Another practical challenge in healthcare evaluation is this:</p>
+<blockquote class="blockquote">
+<p><strong>Compared with what?</strong></p>
+</blockquote>
+<p>Even when outcomes improve:</p>
+<p>another question remains:</p>
+<blockquote class="blockquote">
+<p><em>Would similar improvement have happened elsewhere anyway?</em></p>
+</blockquote>
+<p>Difference-in-Differences (DiD) helps strengthen confidence by introducing:</p>
+<blockquote class="blockquote">
+<p><strong>a comparator group</strong></p>
+</blockquote>
+<section id="what-is-difference-in-differences" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-difference-in-differences">What Is Difference-in-Differences?</h2>
+<p>Rather than asking:</p>
+<blockquote class="blockquote">
+<p><em>Did outcomes improve?</em></p>
+</blockquote>
+<p>DiD asks:</p>
+<blockquote class="blockquote">
+<p><strong>Did outcomes improve more where the intervention happened?</strong></p>
+</blockquote>
+<p>In simple terms:</p>
+<p>we compare:</p>
+<pre><code>change
+vs
+change</code></pre>
+<p>rather than:</p>
+<pre><code>before
+vs
+after</code></pre>
+<p>The idea is simple:</p>
+<p>If two similar groups experience similar pressures —</p>
+<p>but only one receives the intervention —</p>
+<p>then differences in improvement may provide stronger evidence of impact.</p>
+</section>
+<section id="a-practical-healthcare-example-4" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example-4">A Practical Healthcare Example</h2>
+<p>Imagine:</p>
+<section id="pcn-a" class="level3">
+<h3 class="anchored" data-anchor-id="pcn-a">PCN A</h3>
+<p>Introduces a frailty pathway.</p>
+</section>
+<section id="pcn-b" class="level3">
+<h3 class="anchored" data-anchor-id="pcn-b">PCN B</h3>
+<p>Does not.</p>
+<p>Both experience:</p>
+<ul>
+<li>winter pressure</li>
+<li>workforce shortages</li>
+<li>rising demand</li>
+</ul>
+<p>After twelve months:</p>
+</section>
+<section id="pcn-a-1" class="level3">
+<h3 class="anchored" data-anchor-id="pcn-a-1">PCN A</h3>
+<pre><code>Emergency admissions ↓ 15%</code></pre>
+</section>
+<section id="pcn-b-1" class="level3">
+<h3 class="anchored" data-anchor-id="pcn-b-1">PCN B</h3>
+<pre><code>Emergency admissions ↓ 5%</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Did the intervention contribute to additional improvement?</em></p>
+</blockquote>
+<p>The key question becomes:</p>
+<blockquote class="blockquote">
+<p><strong>Was improvement greater where the intervention occurred?</strong></p>
+</blockquote>
+<p>This provides stronger evidence than:</p>
+<blockquote class="blockquote">
+<p><strong>before-and-after comparison alone</strong></p>
+</blockquote>
+<p>The image below illustrates the core idea behind Difference-in-Differences:</p>
+<blockquote class="blockquote">
+<p><strong>good evaluation compares change — not just outcomes</strong></p>
+</blockquote>
+<p><img src="images/DifferenceInDifferences_7.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="why-did-matters-for-healthcare-decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="why-did-matters-for-healthcare-decision-making">Why DiD Matters for Healthcare Decision-Making</h2>
+<p>Healthcare systems frequently implement interventions:</p>
+<ul>
+<li>gradually</li>
+<li>in some places before others</li>
+<li>under different operational conditions</li>
+</ul>
+<p>This makes DiD especially useful when:</p>
+<ul>
+<li>RCTs are unrealistic</li>
+<li>phased roll-out exists</li>
+<li>comparator organisations or places are available</li>
+</ul>
+<p>Without comparators:</p>
+<p>decision-makers risk attributing:</p>
+<blockquote class="blockquote">
+<p><strong>system-wide improvement</strong></p>
+</blockquote>
+<p>to</p>
+<blockquote class="blockquote">
+<p><strong>local intervention impact</strong></p>
+</blockquote>
+<p>A useful question becomes:</p>
+<blockquote class="blockquote">
+<p><em>Would similar improvement have happened elsewhere anyway?</em></p>
+</blockquote>
+</section>
+<section id="key-message-2" class="level2">
+<h2 class="anchored" data-anchor-id="key-message-2">Key Message</h2>
+<p>Good evaluation becomes stronger when healthcare systems ask:</p>
+<blockquote class="blockquote">
+<p><em>Did trajectories change?</em></p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p><em>Compared with what?</em></p>
+</blockquote>
+<p>rather than simply asking:</p>
+<blockquote class="blockquote">
+<p><em>Did outcomes improve?</em></p>
+</blockquote>
+<p>Pragmatic evaluation methods such as:</p>
+<blockquote class="blockquote">
+<p><strong>Interrupted Time Series (ITS)</strong></p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p><strong>Difference-in-Differences (DiD)</strong></p>
+</blockquote>
+<p>help strengthen confidence when Randomised Controlled Trials are not practical.</p>
+</section>
+<section id="part-3-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-reflection">Part 3 Reflection</h2>
+<p>Before acting on evaluation findings, ask:</p>
+<blockquote class="blockquote">
+<p><em>Could this improvement reflect an existing trend — or would similar change have happened elsewhere anyway?</em></p>
+</blockquote>
+<p>Good evaluation moves beyond:</p>
+<blockquote class="blockquote">
+<p><em>Did outcomes improve?</em></p>
+</blockquote>
+<p>to ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention genuinely contributed to change?</em></p>
+</blockquote>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>improvement alone does not prove impact</li>
+<li>fair comparison matters</li>
+<li>small numbers can mislead</li>
+<li>some improvement may happen naturally</li>
+<li>trajectories matter</li>
+<li>comparison groups strengthen confidence</li>
+</ul>
+<p>Good evaluation asks:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention genuinely contributed to change?</em></p>
+</blockquote>
+</section>
+<section id="questions-decision-makers-should-ask" class="level2">
+<h2 class="anchored" data-anchor-id="questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</h2>
+<ul>
+<li>Compared with what?</li>
+<li>Did the trajectory change?</li>
+<li>Could improvement have happened naturally?</li>
+<li>Was the evaluation large enough to be informative?</li>
+<li>How strong is our confidence in attribution?</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./07-Thinking-About-Evidence-&amp;-Evaluation.html" class="pagination-link" aria-label="Module 7 — Thinking About Evidence &amp; Evaluation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Project.html" class="pagination-link" aria-label="Project - Healthcare Data Literacy Series">
+        <span class="nav-page-text"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

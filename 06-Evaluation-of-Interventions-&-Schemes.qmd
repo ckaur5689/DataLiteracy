@@ -252,30 +252,19 @@ The closer we can get to a believable counterfactual:
 
 > the more confidence we have in our conclusions.
 
-## Suggested Image 1 Placement
-
-**Place after:**
-
 > *Why Counterfactual Thinking Matters*
-
-### Image Concept:
 
 # Did the Intervention Work — or Would Things Have Changed Anyway?
 
-Simple split-panel infographic:
-
-### Left Panel — Naïve interpretation
+![](images/DidInterventionWork_1.png)
 
 ```text
 ED attendances ↓
 after intervention
 ```
-
 Conclusion:
 
 > “The scheme worked”
-
-### Right Panel — Better evaluation thinking
 
 ```text
 ED attendances ↓

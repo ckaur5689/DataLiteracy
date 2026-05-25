@@ -345,16 +345,24 @@ Evaluation therefore becomes less about certainty and more about:
 
 ## Part 1 Key Reflection
 
-Before moving to more formal evaluation approaches, ask:
+Before moving on, ask:
 
 > *If outcomes changed after an intervention, what evidence would genuinely convince us that the intervention caused the change?*
 
-In the next section, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS methods through to Randomised Controlled Trials.
+This module has focused on:
 
-Rather than asking:
+> **thinking critically about evidence**
 
-> *Did outcomes change?*
+because healthcare systems frequently observe change without always knowing:
 
-we begin asking:
+> whether the intervention caused it.
 
-> *How confident are we that the intervention caused the change?*
+Good evaluation therefore moves beyond:
+
+> *Did outcomes improve?*
+
+to ask:
+
+> *How confident are we that the intervention contributed to improvement?*
+
+In the next module, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS evaluation methods through to Randomised Controlled Trials, Interrupted Time Series and Difference-in-Differences.

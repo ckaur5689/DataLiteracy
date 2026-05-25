@@ -818,7 +818,5 @@ Before acting on dashboard information, ask:
 
 ---
 
-### Suggested closing line for Module 6
-
 > **Dashboards are most valuable not when they provide answers — but when they help decision-makers ask better questions.**
 

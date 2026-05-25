@@ -51,6 +51,14 @@ After implementation, a common question quickly emerges:
 
 > **Did it work?**
 
+Yet healthcare systems often struggle to distinguish:
+
+> genuine impact
+
+from
+
+> change that may have happened anyway.
+
 At first glance, this may seem straightforward.
 
 However, evaluating healthcare interventions is often far more complicated than it first appears.
@@ -69,7 +77,7 @@ At the same time as an intervention is introduced:
 
 This means:
 
-> **improvement does not automatically imply impact.**
+> Improvement does not automatically imply impact — and impact does not automatically imply causation.
 
 A reduction in Emergency Department attendance does not necessarily mean:
 
@@ -252,23 +260,17 @@ The closer we can get to a believable counterfactual:
 
 > the more confidence we have in our conclusions.
 
-> *Why Counterfactual Thinking Matters*
+## Why Counterfactual Thinking Matters
 
-# Did the Intervention Work — or Would Things Have Changed Anyway?
+The image below illustrates a common evaluation mistake:
+
+assuming improvement after an intervention automatically implies impact.
+
+Good evaluation instead asks:
+
+> *Compared with what?*
 
 ![](images/DidInterventionWork_1.png)
-
-```text
-ED attendances ↓
-after intervention
-```
-Conclusion:
-
-> “The scheme worked”
-
-```text
-ED attendances ↓
-```
 
 Questions:
 
@@ -357,3 +359,5 @@ Instead:
 Before moving to more formal evaluation approaches, ask:
 
 > *If outcomes changed after an intervention, what evidence would genuinely convince us that the intervention caused the change?*
+
+In the next section, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS methods through to Randomised Controlled Trials.

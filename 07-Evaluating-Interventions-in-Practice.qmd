@@ -681,4 +681,388 @@ In the next section, we explore practical approaches that healthcare systems use
 > and
 > **Difference-in-Differences (DiD)**
 
+In Part 1 and Part 2 of this module, we explored:
+
+* fair comparison through Randomised Controlled Trials (RCTs)
+* why small numbers can mislead
+* statistical power
+* Regression to the Mean
+
+Yet another challenge remains.
+
+Healthcare systems rarely operate in perfect conditions.
+
+Leaders often need to evaluate schemes:
+
+* quickly
+* under operational pressure
+* without randomisation
+* while multiple changes happen simultaneously
+
+In reality:
+
+> **RCTs are often difficult, expensive or impractical**
+
+This creates an important question:
+
+> **How can healthcare systems strengthen evaluation when RCTs are unrealistic?**
+
+Two practical approaches commonly used in healthcare evaluation are:
+
+> **Interrupted Time Series (ITS)**
+
+and
+
+> **Difference-in-Differences (DiD)**
+
+These approaches do not eliminate uncertainty.
+
+Instead:
+
+> **they improve confidence in findings by creating stronger comparisons.**
+
+---
+
+# Interrupted Time Series (ITS)
+
+One challenge with simple before-and-after evaluation is this:
+
+> healthcare systems naturally fluctuate over time.
+
+Emergency admissions rise and fall.
+
+Waiting lists change.
+
+Operational pressure changes.
+
+Winter pressures come and go.
+
+This creates an important risk:
+
+> **improvement may already have been happening before an intervention started**
+
+Interrupted Time Series (ITS) helps address this problem.
+
+---
+
+## What Is Interrupted Time Series?
+
+Rather than asking:
+
+> *Did outcomes improve?*
+
+ITS asks:
+
+> **Did the pattern of change meaningfully alter after the intervention?**
+
+This distinction matters.
+
+Instead of simply comparing:
+
+```text id="0kqt79"
+before
+vs
+after
+```
+
+ITS asks:
+
+```text id="lu5e1q"
+Was the trajectory interrupted?
+```
+
+In simple terms:
+
+ITS looks at:
+
+* trends before intervention
+* trends after intervention
+* whether the pattern changed meaningfully
+
+For example:
+
+Did emergency admissions:
+
+* suddenly reduce?
+* begin falling faster?
+* stop increasing?
+* improve in a sustained way?
+
+---
+
+## A Practical Healthcare Example
+
+Imagine an Integrated Care Board introduces a frailty pathway to reduce emergency admissions.
+
+Instead of comparing:
+
+```text id="hdtg1r"
+before vs after
+```
+
+we examine:
+
+```text id="1f0rjg"
+monthly emergency admissions over time
+```
+
+Suppose the intervention begins in:
+
+```text id="m7s5qq"
+Month 8
+```
+
+Question:
+
+> *Did emergency admissions meaningfully change after implementation?*
+
+Three possibilities might emerge:
+
+### Scenario 1 — No Meaningful Change
+
+Admissions were already falling.
+
+The trend simply continues.
+
+Question:
+
+> *Did the intervention add anything?*
+
+Confidence in intervention impact remains limited.
+
+---
+
+### Scenario 2 — Sudden Change
+
+Admissions drop sharply immediately after implementation.
+
+Question:
+
+> *Could this represent intervention impact?*
+
+Confidence increases.
+
+---
+
+### Scenario 3 — Sustained Improvement
+
+Admissions begin falling faster after implementation and remain lower over time.
+
+Question:
+
+> *Does this suggest a meaningful shift in trajectory?*
+
+Confidence increases further.
+
+The image below illustrates how Interrupted Time Series helps distinguish:
+
+> **normal change over time**
+
+from
+
+> **potential intervention impact**
+
+![](images/InterruptedTimeSeries_6.png)
+
+---
+
+## Why ITS Matters for Healthcare Decision-Making
+
+Healthcare systems often mistake:
+
+> **normal trends**
+
+for
+
+> **intervention impact**
+
+For example:
+
+Emergency admissions may naturally improve after winter.
+
+Operational performance may recover after temporary disruption.
+
+Waiting lists may already have been stabilising.
+
+Without considering trends:
+
+decision-makers risk concluding:
+
+> *The scheme worked*
+
+when outcomes may have improved anyway.
+
+A useful question becomes:
+
+> *Did outcomes improve — or did the trajectory change?*
+
+# Difference-in-Differences (DiD)
+
+Another practical challenge in healthcare evaluation is this:
+
+> **Compared with what?**
+
+Even when outcomes improve:
+
+another question remains:
+
+> *Would similar improvement have happened elsewhere anyway?*
+
+Difference-in-Differences (DiD) helps strengthen confidence by introducing:
+
+> **a comparator group**
+
+## What Is Difference-in-Differences?
+
+Rather than asking:
+
+> *Did outcomes improve?*
+
+DiD asks:
+
+> **Did outcomes improve more where the intervention happened?**
+
+In simple terms:
+
+we compare:
+
+```text id="a3ajqi"
+change
+vs
+change
+```
+
+rather than:
+
+```text id="vccwkt"
+before
+vs
+after
+```
+
+The idea is simple:
+
+If two similar groups experience similar pressures —
+
+but only one receives the intervention —
+
+then differences in improvement may provide stronger evidence of impact.
+
+## A Practical Healthcare Example
+
+Imagine:
+
+### PCN A
+
+Introduces a frailty pathway.
+
+### PCN B
+
+Does not.
+
+Both experience:
+
+* winter pressure
+* workforce shortages
+* rising demand
+
+After twelve months:
+
+### PCN A
+
+```text id="p7dcb1"
+Emergency admissions ↓ 15%
+```
+
+### PCN B
+
+```text id="g11kcm"
+Emergency admissions ↓ 5%
+```
+
+Question:
+
+> *Did the intervention contribute to additional improvement?*
+
+The key question becomes:
+
+> **Was improvement greater where the intervention occurred?**
+
+This provides stronger evidence than:
+
+> **before-and-after comparison alone**
+
+The image below illustrates the core idea behind Difference-in-Differences:
+
+> **good evaluation compares change — not just outcomes**
+
+![](images/DifferenceInDifferences_7.png)
+
+## Why DiD Matters for Healthcare Decision-Making
+
+Healthcare systems frequently implement interventions:
+
+* gradually
+* in some places before others
+* under different operational conditions
+
+This makes DiD especially useful when:
+
+* RCTs are unrealistic
+* phased roll-out exists
+* comparator organisations or places are available
+
+Without comparators:
+
+decision-makers risk attributing:
+
+> **system-wide improvement**
+
+to
+
+> **local intervention impact**
+
+A useful question becomes:
+
+> *Would similar improvement have happened elsewhere anyway?*
+
+## Key Message
+
+Good evaluation becomes stronger when healthcare systems ask:
+
+> *Did trajectories change?*
+
+and
+
+> *Compared with what?*
+
+rather than simply asking:
+
+> *Did outcomes improve?*
+
+Pragmatic evaluation methods such as:
+
+> **Interrupted Time Series (ITS)**
+
+and
+
+> **Difference-in-Differences (DiD)**
+
+help strengthen confidence when Randomised Controlled Trials are not practical.
+
+## Part 3 Reflection
+
+Before acting on evaluation findings, ask:
+
+> *Could this improvement reflect an existing trend — or would similar change have happened elsewhere anyway?*
+
+Good evaluation moves beyond:
+
+> *Did outcomes improve?*
+
+to ask:
+
+> *How confident are we that the intervention genuinely contributed to change?*
+
+
 

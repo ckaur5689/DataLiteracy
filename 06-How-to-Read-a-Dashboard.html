@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>how-to-read-a-dashboard – Health Data Literacy</title>
+<title>Module 6 — How to Read a Dashboard – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./06-How-to-Read-a-Dashboard.html"><span class="chapter-title">06-How-to-Read-a-Dashboard.html</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./06-How-to-Read-a-Dashboard.html"><span class="chapter-title">Module 6 — How to Read a Dashboard</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06-How-to-Read-a-Dashboard.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">06-How-to-Read-a-Dashboard.html</span></a>
+  <a href="./06-How-to-Read-a-Dashboard.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 6 — How to Read a Dashboard</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -179,17 +179,776 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-the-dashboard-really-telling-us-and-what-might-we-misunderstand" id="toc-what-is-the-dashboard-really-telling-us-and-what-might-we-misunderstand" class="nav-link active" data-scroll-target="#what-is-the-dashboard-really-telling-us-and-what-might-we-misunderstand"><em>What is the dashboard really telling us — and what might we misunderstand?</em></a></li>
+  <li><a href="#module-learning-objective" id="toc-module-learning-objective" class="nav-link" data-scroll-target="#module-learning-objective">Module Learning Objective</a></li>
+  <li><a href="#why-dashboards-matter" id="toc-why-dashboards-matter" class="nav-link" data-scroll-target="#why-dashboards-matter">Why Dashboards Matter</a>
+  <ul class="collapse">
+  <li><a href="#a-practical-healthcare-example" id="toc-a-practical-healthcare-example" class="nav-link" data-scroll-target="#a-practical-healthcare-example">A Practical Healthcare Example</a></li>
+  </ul></li>
+  <li><a href="#common-dashboard-interpretation-mistakes" id="toc-common-dashboard-interpretation-mistakes" class="nav-link" data-scroll-target="#common-dashboard-interpretation-mistakes">Common Dashboard Interpretation Mistakes</a>
+  <ul class="collapse">
+  <li><a href="#mistake-1-focusing-only-on-red-amber-and-green-status" id="toc-mistake-1-focusing-only-on-red-amber-and-green-status" class="nav-link" data-scroll-target="#mistake-1-focusing-only-on-red-amber-and-green-status">Mistake 1 — Focusing Only on Red, Amber and Green Status</a></li>
+  <li><a href="#mistake-2-confusing-counts-with-rates" id="toc-mistake-2-confusing-counts-with-rates" class="nav-link" data-scroll-target="#mistake-2-confusing-counts-with-rates">Mistake 2 — Confusing Counts with Rates</a></li>
+  <li><a href="#mistake-3-overreacting-to-single-month-changes" id="toc-mistake-3-overreacting-to-single-month-changes" class="nav-link" data-scroll-target="#mistake-3-overreacting-to-single-month-changes">Mistake 3 — Overreacting to Single-Month Changes</a></li>
+  <li><a href="#mistake-4-ignoring-denominators" id="toc-mistake-4-ignoring-denominators" class="nav-link" data-scroll-target="#mistake-4-ignoring-denominators">Mistake 4 — Ignoring Denominators</a></li>
+  <li><a href="#mistake-5-assuming-correlation-means-causation" id="toc-mistake-5-assuming-correlation-means-causation" class="nav-link" data-scroll-target="#mistake-5-assuming-correlation-means-causation">Mistake 5 — Assuming Correlation Means Causation</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  <li><a href="#what-am-i-actually-looking-at" id="toc-what-am-i-actually-looking-at" class="nav-link" data-scroll-target="#what-am-i-actually-looking-at">1. What Am I Actually Looking At?</a></li>
+  <li><a href="#compared-with-what" id="toc-compared-with-what" class="nav-link" data-scroll-target="#compared-with-what">2. Compared With What?</a></li>
+  <li><a href="#is-this-meaningful-change-or-normal-variation" id="toc-is-this-meaningful-change-or-normal-variation" class="nav-link" data-scroll-target="#is-this-meaningful-change-or-normal-variation">3. Is This Meaningful Change — or Normal Variation?</a></li>
+  <li><a href="#what-context-might-explain-this" id="toc-what-context-might-explain-this" class="nav-link" data-scroll-target="#what-context-might-explain-this">4. What Context Might Explain This?</a></li>
+  <li><a href="#what-decision-does-this-information-support" id="toc-what-decision-does-this-information-support" class="nav-link" data-scroll-target="#what-decision-does-this-information-support">5. What Decision Does This Information Support?</a></li>
+  <li><a href="#reflection-1" id="toc-reflection-1" class="nav-link" data-scroll-target="#reflection-1">Reflection</a></li>
+  <li><a href="#a-simple-dashboard-interpretation-checklist" id="toc-a-simple-dashboard-interpretation-checklist" class="nav-link" data-scroll-target="#a-simple-dashboard-interpretation-checklist">A Simple Dashboard Interpretation Checklist</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Module 6 — How to Read a Dashboard</span></h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="what-is-the-dashboard-really-telling-us-and-what-might-we-misunderstand" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-the-dashboard-really-telling-us-and-what-might-we-misunderstand"><em>What is the dashboard really telling us — and what might we misunderstand?</em></h3>
+</section>
+<section id="module-learning-objective" class="level2">
+<h2 class="anchored" data-anchor-id="module-learning-objective">Module Learning Objective</h2>
+<p>This module helps explain:</p>
+<blockquote class="blockquote">
+<p>how healthcare dashboards should be interpreted critically — and why dashboards are often starting points for questions rather than endpoints for conclusions.</p>
+</blockquote>
+<p>By the end of this module, readers should feel more confident asking:</p>
+<blockquote class="blockquote">
+<p><em>What is this dashboard really telling us — and what might I be misunderstanding?</em></p>
+</blockquote>
+<p>The module focuses on practical healthcare dashboards commonly used to monitor:</p>
+<ul>
+<li>Emergency Department (ED) activity</li>
+<li>emergency admissions</li>
+<li>elective recovery</li>
+<li>ambulance handover delays</li>
+<li>delayed discharge</li>
+<li>pathway performance</li>
+<li>population health and inequalities</li>
+<li>operational flow</li>
+</ul>
+<p>Rather than teaching how dashboards are built, this module focuses on:</p>
+<blockquote class="blockquote">
+<p><strong>how dashboards should be interpreted</strong></p>
+</blockquote>
+<p>to support better questions and better decision-making.</p>
+<hr>
+</section>
+<section id="why-dashboards-matter" class="level1">
+<h1>Why Dashboards Matter</h1>
+<p>Healthcare systems increasingly rely on dashboards.</p>
+<p>Every day, leaders across healthcare review information intended to support decisions about:</p>
+<ul>
+<li>demand</li>
+<li>operational performance</li>
+<li>quality</li>
+<li>access</li>
+<li>inequalities</li>
+<li>workforce pressure</li>
+<li>system improvement</li>
+</ul>
+<p>Examples may include:</p>
+<ul>
+<li>Emergency Department performance dashboards</li>
+<li>elective waiting list dashboards</li>
+<li>ambulance handover dashboards</li>
+<li>discharge and flow dashboards</li>
+<li>population health dashboards</li>
+<li>inequalities dashboards</li>
+<li>pathway monitoring dashboards</li>
+</ul>
+<p>Dashboards are powerful because they help simplify large volumes of information.</p>
+<p>Instead of reading lengthy reports:</p>
+<p>decision-makers can quickly see:</p>
+<pre class="text"><code>performance trends
+variation
+comparison
+risk
+areas requiring attention</code></pre>
+<p>However:</p>
+<blockquote class="blockquote">
+<p><strong>dashboards do not speak for themselves</strong></p>
+</blockquote>
+<p>A dashboard presents information.</p>
+<p>It does not automatically explain:</p>
+<blockquote class="blockquote">
+<p>why something happened</p>
+</blockquote>
+<p>or</p>
+<blockquote class="blockquote">
+<p>what should happen next</p>
+</blockquote>
+<p>This distinction matters.</p>
+<p>Because poor dashboard interpretation can lead to:</p>
+<ul>
+<li>overreaction to normal variation</li>
+<li>misleading conclusions</li>
+<li>poor investment decisions</li>
+<li>misplaced operational attention</li>
+<li>false reassurance</li>
+</ul>
+<p>Good dashboard interpretation therefore asks:</p>
+<blockquote class="blockquote">
+<p><em>What am I really looking at?</em></p>
+</blockquote>
+<p>before asking:</p>
+<blockquote class="blockquote">
+<p><em>What should we do?</em></p>
+</blockquote>
+<hr>
+<section id="a-practical-healthcare-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example">A Practical Healthcare Example</h2>
+<p>Imagine an executive team reviewing a monthly urgent and emergency care dashboard.</p>
+<p>The dashboard shows:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th style="text-align: right;">Last Month</th>
+<th style="text-align: right;">This Month</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ED attendances</td>
+<td style="text-align: right;">18,400</td>
+<td style="text-align: right;">20,100</td>
+</tr>
+<tr class="even">
+<td>4-hour performance</td>
+<td style="text-align: right;">76%</td>
+<td style="text-align: right;">69%</td>
+</tr>
+<tr class="odd">
+<td>Ambulance handover delays</td>
+<td style="text-align: right;">420</td>
+<td style="text-align: right;">590</td>
+</tr>
+<tr class="even">
+<td>Emergency admissions</td>
+<td style="text-align: right;">5,230</td>
+<td style="text-align: right;">5,260</td>
+</tr>
+</tbody>
+</table>
+<p>At first glance:</p>
+<p>this looks concerning.</p>
+<p>A quick conclusion might be:</p>
+<blockquote class="blockquote">
+<p><em>Urgent care performance is deteriorating.</em></p>
+</blockquote>
+<p>But an important question remains:</p>
+<blockquote class="blockquote">
+<p><strong>What is actually driving this change?</strong></p>
+</blockquote>
+<p>Before acting, a decision-maker might reasonably ask:</p>
+<ul>
+<li>Is this seasonal?</li>
+<li>Is this normal variation?</li>
+<li>Are attendances increasing because of respiratory illness?</li>
+<li>Is performance deteriorating everywhere nationally?</li>
+<li>Is there a meaningful trend — or a single-month fluctuation?</li>
+<li>Are the metrics connected?</li>
+</ul>
+<p>This illustrates an important idea:</p>
+<blockquote class="blockquote">
+<p><strong>dashboards rarely provide answers on their own</strong></p>
+</blockquote>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p><strong>they help us ask better questions</strong></p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="common-dashboard-interpretation-mistakes" class="level1">
+<h1>Common Dashboard Interpretation Mistakes</h1>
+<p>One of the biggest risks in healthcare analytics is assuming dashboards are self-explanatory.</p>
+<p>In practice:</p>
+<p>well-intentioned decision-makers often draw conclusions too quickly.</p>
+<p>The goal is not to criticise dashboards.</p>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p><strong>to avoid drawing the wrong conclusion too quickly</strong></p>
+</blockquote>
+<hr>
+<section id="mistake-1-focusing-only-on-red-amber-and-green-status" class="level2">
+<h2 class="anchored" data-anchor-id="mistake-1-focusing-only-on-red-amber-and-green-status">Mistake 1 — Focusing Only on Red, Amber and Green Status</h2>
+<p>Many dashboards use:</p>
+<pre class="text"><code>🔴 Red
+🟠 Amber
+🟢 Green</code></pre>
+<p>to summarise performance.</p>
+<p>This can be useful.</p>
+<p>But it can also oversimplify reality.</p>
+<p>For example:</p>
+<p>A metric may appear:</p>
+<pre class="text"><code>🔴 RED</code></pre>
+<p>because a target was narrowly missed.</p>
+<p>Meanwhile:</p>
+<p>performance may actually be improving.</p>
+<p>Similarly:</p>
+<p>something shown as:</p>
+<pre class="text"><code>🟢 GREEN</code></pre>
+<p>may still hide important problems.</p>
+<p>For example:</p>
+<p>performance may technically exceed threshold —</p>
+<p>but still be deteriorating over time.</p>
+<p>A useful question becomes:</p>
+<blockquote class="blockquote">
+<p><em>Compared with what?</em></p>
+</blockquote>
+<p>For example:</p>
+<ul>
+<li>previous performance?</li>
+<li>peer organisations?</li>
+<li>national trend?</li>
+<li>expected seasonal variation?</li>
+</ul>
+<p>Good dashboard interpretation asks:</p>
+<blockquote class="blockquote">
+<p><strong>What sits behind the colour?</strong></p>
+</blockquote>
+<p>rather than simply:</p>
+<blockquote class="blockquote">
+<p><em>Is it red or green?</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="mistake-2-confusing-counts-with-rates" class="level2">
+<h2 class="anchored" data-anchor-id="mistake-2-confusing-counts-with-rates">Mistake 2 — Confusing Counts with Rates</h2>
+<p>This links directly back to:</p>
+<blockquote class="blockquote">
+<p><strong>Module 1 — Counts vs Rates</strong></p>
+</blockquote>
+<p>A dashboard may show:</p>
+<pre class="text"><code>Higher emergency admissions</code></pre>
+<p>But this does not automatically mean:</p>
+<blockquote class="blockquote">
+<p>worse performance.</p>
+</blockquote>
+<p>Why?</p>
+<p>Because larger populations naturally generate larger numbers.</p>
+<p>For example:</p>
+<p>an Integrated Care Board serving:</p>
+<pre class="text"><code>1 million people</code></pre>
+<p>would reasonably be expected to have:</p>
+<blockquote class="blockquote">
+<p>more admissions</p>
+</blockquote>
+<p>than one serving:</p>
+<pre class="text"><code>350,000 people</code></pre>
+<p>Similarly:</p>
+<p>areas with older populations may naturally experience:</p>
+<blockquote class="blockquote">
+<p>higher healthcare utilisation.</p>
+</blockquote>
+<p>This means dashboard interpretation should ask:</p>
+<blockquote class="blockquote">
+<p><em>Am I looking at counts or rates?</em></p>
+</blockquote>
+<p>and:</p>
+<blockquote class="blockquote">
+<p><em>Is this comparison fair?</em></p>
+</blockquote>
+<p>For example:</p>
+<ul>
+<li>crude counts?</li>
+<li>rates per population?</li>
+<li>age-standardised comparison?</li>
+<li>deprivation-adjusted comparison?</li>
+</ul>
+<p>Without context:</p>
+<p>dashboards can unintentionally mislead.</p>
+<hr>
+</section>
+<section id="mistake-3-overreacting-to-single-month-changes" class="level2">
+<h2 class="anchored" data-anchor-id="mistake-3-overreacting-to-single-month-changes">Mistake 3 — Overreacting to Single-Month Changes</h2>
+<p>Healthcare systems naturally fluctuate.</p>
+<p>This links directly back to:</p>
+<blockquote class="blockquote">
+<p><strong>Module 4 — Variation &amp; Distributions</strong></p>
+</blockquote>
+<p>For example:</p>
+<p>imagine:</p>
+<pre class="text"><code>ED attendances ↑ 8%</code></pre>
+<p>in one month.</p>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Does this represent a meaningful change?</em></p>
+</blockquote>
+<p>Maybe.</p>
+<p>But maybe not.</p>
+<p>Healthcare systems are noisy.</p>
+<p>Variation happens because of:</p>
+<ul>
+<li>seasonal illness</li>
+<li>bank holidays</li>
+<li>staff shortages</li>
+<li>coding differences</li>
+<li>operational disruption</li>
+<li>random fluctuation</li>
+</ul>
+<p>A single month of deterioration does not necessarily mean:</p>
+<blockquote class="blockquote">
+<p>performance is collapsing.</p>
+</blockquote>
+<p>Similarly:</p>
+<p>a single month of improvement does not necessarily mean:</p>
+<blockquote class="blockquote">
+<p>a scheme worked.</p>
+</blockquote>
+<p>This is why dashboards often benefit from:</p>
+<blockquote class="blockquote">
+<p><strong>trends</strong></p>
+</blockquote>
+<p>rather than isolated points.</p>
+<p>Or:</p>
+<blockquote class="blockquote">
+<p><strong>Statistical Process Control (SPC)</strong></p>
+</blockquote>
+<p>which helps distinguish:</p>
+<pre class="text"><code>normal variation</code></pre>
+<p>from</p>
+<pre class="text"><code>meaningful change</code></pre>
+<p>A useful question becomes:</p>
+<blockquote class="blockquote">
+<p><em>Are we observing signal — or noise?</em></p>
+</blockquote>
+<p>The image below illustrates an important distinction between:</p>
+<blockquote class="blockquote">
+<p><strong>reacting to dashboards</strong></p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p><strong>interpreting dashboards critically</strong></p>
+</blockquote>
+<p>Fast dashboard interpretation can sometimes encourage conclusions based on colours, isolated metrics or single-month changes.</p>
+<p>More thoughtful interpretation instead asks:</p>
+<blockquote class="blockquote">
+<p><strong>What context, comparison or explanation might sit behind the numbers?</strong></p>
+</blockquote>
+<p><img src="images/ReadingDashboard_1.png" class="img-fluid"></p>
+<p>Good dashboard interpretation focuses less on immediate conclusions and more on:</p>
+<blockquote class="blockquote">
+<p><strong>context, comparison, variation and critical questioning</strong></p>
+</blockquote>
+<p>Dashboards help surface patterns and areas requiring attention.</p>
+<p>However:</p>
+<blockquote class="blockquote">
+<p>interpretation still requires context, judgement and questioning</p>
+</blockquote>
+<p>Before moving on, consider:</p>
+<blockquote class="blockquote">
+<p><em>Am I reacting to the dashboard — or interpreting it?</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="mistake-4-ignoring-denominators" class="level2">
+<h2 class="anchored" data-anchor-id="mistake-4-ignoring-denominators">Mistake 4 — Ignoring Denominators</h2>
+<p>Another common mistake is focusing only on raw numbers.</p>
+<p>A dashboard may show:</p>
+<blockquote class="blockquote">
+<p><strong>50 emergency admissions from care homes</strong></p>
+</blockquote>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Is this high or low?</em></p>
+</blockquote>
+<p>The answer depends on:</p>
+<ul>
+<li>how many care home residents exist</li>
+<li>the size of the older population</li>
+<li>expected baseline utilisation</li>
+<li>comparison with peers</li>
+</ul>
+<p>Without this context:</p>
+<blockquote class="blockquote">
+<p>raw numbers become difficult to interpret.</p>
+</blockquote>
+<p>Similarly:</p>
+<blockquote class="blockquote">
+<p><strong>40 inpatient falls</strong></p>
+</blockquote>
+<p>might initially feel alarming.</p>
+<p>But interpretation changes dramatically if this occurred across:</p>
+<blockquote class="blockquote">
+<p><strong>500 admissions</strong></p>
+</blockquote>
+<p>versus:</p>
+<blockquote class="blockquote">
+<p><strong>25,000 occupied bed days</strong></p>
+</blockquote>
+<p>This matters for:</p>
+<ul>
+<li>admissions</li>
+<li>complaints</li>
+<li>mortality</li>
+<li>harm incidents</li>
+<li>screening uptake</li>
+<li>readmissions</li>
+<li>pathway conversion</li>
+</ul>
+<p>Raw numbers alone rarely tell the full story.</p>
+<p>Good dashboard interpretation therefore asks:</p>
+<blockquote class="blockquote">
+<p><em>Relative to what?</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="mistake-5-assuming-correlation-means-causation" class="level2">
+<h2 class="anchored" data-anchor-id="mistake-5-assuming-correlation-means-causation">Mistake 5 — Assuming Correlation Means Causation</h2>
+<p>This links back to:</p>
+<blockquote class="blockquote">
+<p><strong>Module 3 — Correlation vs Causation</strong></p>
+</blockquote>
+<p>Dashboards frequently show things moving together.</p>
+<p>For example:</p>
+<pre class="text"><code>ED attendance ↑
+4-hour performance ↓</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Did one cause the other?</em></p>
+</blockquote>
+<p>Maybe.</p>
+<p>But dashboards alone rarely prove causation.</p>
+<p>Other factors may contribute:</p>
+<ul>
+<li>staffing</li>
+<li>flow delays</li>
+<li>bed occupancy</li>
+<li>discharge delays</li>
+<li>seasonal illness</li>
+</ul>
+<p>A dashboard may show:</p>
+<blockquote class="blockquote">
+<p><strong>association</strong></p>
+</blockquote>
+<p>without proving:</p>
+<blockquote class="blockquote">
+<p><strong>cause</strong></p>
+</blockquote>
+<p>Good interpretation asks:</p>
+<blockquote class="blockquote">
+<p><em>What else might explain this pattern?</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>Before moving on, ask:</p>
+<blockquote class="blockquote">
+<p><em>If a dashboard suddenly looked concerning, what questions would I want answered before acting?</em></p>
+</blockquote>
+<p>Good dashboard interpretation begins with curiosity rather than immediate conclusions.</p>
+<p>Dashboards become most useful when they encourage:</p>
+<blockquote class="blockquote">
+<p>better questions rather than faster conclusions</p>
+</blockquote>
+<p>rather than immediate conclusions.</p>
+<p>Good dashboard interpretation is not about memorising metrics.</p>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p><strong>it is about learning how to think critically about what the dashboard might — and might not — be telling us</strong></p>
+</blockquote>
+<p>The following questions can provide a practical framework for interpreting dashboards more effectively.</p>
+<hr>
+</section>
+<section id="what-am-i-actually-looking-at" class="level2">
+<h2 class="anchored" data-anchor-id="what-am-i-actually-looking-at">1. What Am I Actually Looking At?</h2>
+<p>Before interpreting a metric, it helps to understand:</p>
+<blockquote class="blockquote">
+<p><strong>what the measure actually represents</strong></p>
+</blockquote>
+<p>For example:</p>
+<p>is it:</p>
+<ul>
+<li>a count?</li>
+<li>a rate?</li>
+<li>a percentage?</li>
+<li>an average?</li>
+<li>a median?</li>
+<li>a target?</li>
+<li>a trend?</li>
+</ul>
+<p>This matters.</p>
+<p>A dashboard may show:</p>
+<pre class="text"><code>Emergency admissions ↑</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Compared with what definition?</em></p>
+</blockquote>
+<p>Does this include:</p>
+<ul>
+<li>same-day emergency care?</li>
+<li>observation activity?</li>
+<li>short stay admissions?</li>
+<li>only non-elective inpatient spells?</li>
+</ul>
+<p>Similarly:</p>
+<p>a dashboard may show:</p>
+<pre class="text"><code>Average waiting time</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Average according to whom?</em></p>
+</blockquote>
+<p>Mean?</p>
+<p>Median?</p>
+<p>90th percentile?</p>
+<p>The same label can sometimes describe very different things.</p>
+<p>A useful first question therefore becomes:</p>
+<blockquote class="blockquote">
+<p><em>What exactly am I looking at?</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="compared-with-what" class="level2">
+<h2 class="anchored" data-anchor-id="compared-with-what">2. Compared With What?</h2>
+<p>Numbers rarely mean much in isolation.</p>
+<p>A dashboard showing:</p>
+<pre class="text"><code>72%</code></pre>
+<p>immediately prompts another question:</p>
+<blockquote class="blockquote">
+<p><em>Compared with what?</em></p>
+</blockquote>
+<p>Possible comparisons include:</p>
+<ul>
+<li>previous month</li>
+<li>previous year</li>
+<li>peer organisations</li>
+<li>national average</li>
+<li>target or threshold</li>
+<li>expected seasonal pattern</li>
+<li>statistical control limits</li>
+</ul>
+<p>For example:</p>
+<p>ED performance may appear poor.</p>
+<p>However:</p>
+<p>if all peer systems experienced winter deterioration during the same period:</p>
+<blockquote class="blockquote">
+<p>the interpretation changes.</p>
+</blockquote>
+<p>Similarly:</p>
+<p>an increase in emergency admissions may feel alarming.</p>
+<p>But interpretation changes if:</p>
+<blockquote class="blockquote">
+<p>demand increased nationally</p>
+</blockquote>
+<p>or:</p>
+<blockquote class="blockquote">
+<p>population need increased substantially.</p>
+</blockquote>
+<p>Good dashboard interpretation asks:</p>
+<blockquote class="blockquote">
+<p><em>Is this number unusual — or expected?</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="is-this-meaningful-change-or-normal-variation" class="level2">
+<h2 class="anchored" data-anchor-id="is-this-meaningful-change-or-normal-variation">3. Is This Meaningful Change — or Normal Variation?</h2>
+<p>Healthcare systems fluctuate.</p>
+<p>Not every change matters.</p>
+<p>A common mistake is assuming:</p>
+<pre class="text"><code>performance changed</code></pre>
+<p>therefore:</p>
+<pre class="text"><code>something important happened</code></pre>
+<p>Sometimes this is true.</p>
+<p>Sometimes it is simply:</p>
+<blockquote class="blockquote">
+<p><strong>normal variation</strong></p>
+</blockquote>
+<p>For example:</p>
+<p>a dashboard may show:</p>
+<pre class="text"><code>ED attendances ↑ 4%</code></pre>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p><em>Is this meaningful?</em></p>
+</blockquote>
+<p>Good interpretation asks:</p>
+<ul>
+<li>Is this one month or a sustained trend?</li>
+<li>Does the change exceed normal fluctuation?</li>
+<li>What does the SPC chart suggest?</li>
+<li>Has seasonality been considered?</li>
+</ul>
+<p>The key question becomes:</p>
+<blockquote class="blockquote">
+<p><em>Are we observing signal — or noise?</em></p>
+</blockquote>
+<p>The framework below summarises a practical way to interpret dashboards before jumping to conclusions.</p>
+<p>Rather than reacting immediately to a metric or colour:</p>
+<blockquote class="blockquote">
+<p>pause, question and interpret.</p>
+</blockquote>
+<p><img src="images/DashboardInterpretation_2.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="what-context-might-explain-this" class="level2">
+<h2 class="anchored" data-anchor-id="what-context-might-explain-this">4. What Context Might Explain This?</h2>
+<p>Dashboards rarely explain:</p>
+<blockquote class="blockquote">
+<p><strong>why</strong></p>
+</blockquote>
+<p>something happened.</p>
+<p>Context matters.</p>
+<p>For example:</p>
+<p>a deterioration in urgent care performance may reflect:</p>
+<ul>
+<li>winter respiratory illness</li>
+<li>workforce shortages</li>
+<li>discharge delays</li>
+<li>bed occupancy</li>
+<li>industrial action</li>
+<li>increased acuity</li>
+<li>coding or operational changes</li>
+</ul>
+<p>Similarly:</p>
+<p>an apparent improvement may not always mean:</p>
+<blockquote class="blockquote">
+<p>improvement caused by intervention.</p>
+</blockquote>
+<p>Good interpretation therefore asks:</p>
+<blockquote class="blockquote">
+<p><em>What else changed at the same time?</em></p>
+</blockquote>
+<p>This links closely with:</p>
+<blockquote class="blockquote">
+<p><strong>Module 7 — Thinking About Evidence &amp; Evaluation</strong></p>
+</blockquote>
+<p>because dashboard interpretation should avoid:</p>
+<blockquote class="blockquote">
+<p>jumping from association to causation.</p>
+</blockquote>
+<hr>
+</section>
+<section id="what-decision-does-this-information-support" class="level2">
+<h2 class="anchored" data-anchor-id="what-decision-does-this-information-support">5. What Decision Does This Information Support?</h2>
+<p>Perhaps the most important question is:</p>
+<blockquote class="blockquote">
+<p><em>What decision are we trying to make?</em></p>
+</blockquote>
+<p>Not every metric needs action.</p>
+<p>Not every deterioration requires escalation.</p>
+<p>And not every improvement should trigger celebration.</p>
+<p>A dashboard should help support:</p>
+<ul>
+<li>prioritisation</li>
+<li>investigation</li>
+<li>monitoring</li>
+<li>resource allocation</li>
+<li>quality improvement</li>
+<li>escalation where appropriate</li>
+</ul>
+<p>Good interpretation therefore asks:</p>
+<blockquote class="blockquote">
+<p><em>What decision does this information meaningfully support?</em></p>
+</blockquote>
+<p>Sometimes the right answer is:</p>
+<blockquote class="blockquote">
+<p><em>monitor more closely</em></p>
+</blockquote>
+<p>rather than:</p>
+<blockquote class="blockquote">
+<p><em>act immediately</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="reflection-1" class="level2">
+<h2 class="anchored" data-anchor-id="reflection-1">Reflection</h2>
+<p>Before acting on dashboard information, pause and ask:</p>
+<blockquote class="blockquote">
+<p><em>What am I actually looking at, compared with what, and what context might explain it?</em></p>
+</blockquote>
+<p>Good dashboard interpretation moves from:</p>
+<blockquote class="blockquote">
+<p><strong>seeing numbers</strong></p>
+</blockquote>
+<p>to</p>
+<blockquote class="blockquote">
+<p><strong>thinking critically about meaning</strong></p>
+</blockquote>
+<hr>
+</section>
+<section id="a-simple-dashboard-interpretation-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="a-simple-dashboard-interpretation-checklist">A Simple Dashboard Interpretation Checklist</h2>
+<p>Before acting, ask:</p>
+<ol type="1">
+<li>What am I looking at?</li>
+<li>Compared with what?</li>
+<li>Signal or noise?</li>
+<li>What context matters?</li>
+<li>What decision does this support?</li>
+</ol>
+<hr>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>dashboards present information — they do not automatically explain it</li>
+<li>numbers rarely make sense without context or comparison</li>
+<li>variation matters — not every change is meaningful</li>
+<li>dashboards show patterns but rarely prove causation</li>
+<li>good interpretation focuses on questioning before action</li>
+</ul>
+<p>Effective dashboard interpretation moves beyond:</p>
+<blockquote class="blockquote">
+<p><em>What happened?</em></p>
+</blockquote>
+<p>to ask:</p>
+<blockquote class="blockquote">
+<p><em>What might explain this — and what should we do next?</em></p>
+</blockquote>
+<hr>
+</section>
+<section id="questions-decision-makers-should-ask" class="level2">
+<h2 class="anchored" data-anchor-id="questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</h2>
+<p>Before acting on dashboard information, ask:</p>
+<ul>
+<li>What am I actually looking at?</li>
+<li>Compared with what?</li>
+<li>Is this signal or normal variation?</li>
+<li>What context might explain this?</li>
+<li>What decision does this information support?</li>
+<li>What additional information would improve confidence?</li>
+</ul>
+<hr>
+<blockquote class="blockquote">
+<p><strong>Dashboards are most valuable not when they provide answers — but when they help decision-makers ask better questions.</strong></p>
+</blockquote>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

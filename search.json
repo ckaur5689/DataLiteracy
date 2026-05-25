@@ -330,6 +330,186 @@
     ]
   },
   {
+    "objectID": "06-How-to-Read-a-Dashboard.html",
+    "href": "06-How-to-Read-a-Dashboard.html",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "",
+    "text": "What is the dashboard really telling us — and what might we misunderstand?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#module-learning-objective",
+    "href": "06-How-to-Read-a-Dashboard.html#module-learning-objective",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Module Learning Objective",
+    "text": "Module Learning Objective\nThis module helps explain:\n\nhow healthcare dashboards should be interpreted critically — and why dashboards are often starting points for questions rather than endpoints for conclusions.\n\nBy the end of this module, readers should feel more confident asking:\n\nWhat is this dashboard really telling us — and what might I be misunderstanding?\n\nThe module focuses on practical healthcare dashboards commonly used to monitor:\n\nEmergency Department (ED) activity\nemergency admissions\nelective recovery\nambulance handover delays\ndelayed discharge\npathway performance\npopulation health and inequalities\noperational flow\n\nRather than teaching how dashboards are built, this module focuses on:\n\nhow dashboards should be interpreted\n\nto support better questions and better decision-making.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#a-practical-healthcare-example",
+    "href": "06-How-to-Read-a-Dashboard.html#a-practical-healthcare-example",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "A Practical Healthcare Example",
+    "text": "A Practical Healthcare Example\nImagine an executive team reviewing a monthly urgent and emergency care dashboard.\nThe dashboard shows:\n\n\n\nMeasure\nLast Month\nThis Month\n\n\n\n\nED attendances\n18,400\n20,100\n\n\n4-hour performance\n76%\n69%\n\n\nAmbulance handover delays\n420\n590\n\n\nEmergency admissions\n5,230\n5,260\n\n\n\nAt first glance:\nthis looks concerning.\nA quick conclusion might be:\n\nUrgent care performance is deteriorating.\n\nBut an important question remains:\n\nWhat is actually driving this change?\n\nBefore acting, a decision-maker might reasonably ask:\n\nIs this seasonal?\nIs this normal variation?\nAre attendances increasing because of respiratory illness?\nIs performance deteriorating everywhere nationally?\nIs there a meaningful trend — or a single-month fluctuation?\nAre the metrics connected?\n\nThis illustrates an important idea:\n\ndashboards rarely provide answers on their own\n\nInstead:\n\nthey help us ask better questions",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#mistake-1-focusing-only-on-red-amber-and-green-status",
+    "href": "06-How-to-Read-a-Dashboard.html#mistake-1-focusing-only-on-red-amber-and-green-status",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Mistake 1 — Focusing Only on Red, Amber and Green Status",
+    "text": "Mistake 1 — Focusing Only on Red, Amber and Green Status\nMany dashboards use:\n🔴 Red\n🟠 Amber\n🟢 Green\nto summarise performance.\nThis can be useful.\nBut it can also oversimplify reality.\nFor example:\nA metric may appear:\n🔴 RED\nbecause a target was narrowly missed.\nMeanwhile:\nperformance may actually be improving.\nSimilarly:\nsomething shown as:\n🟢 GREEN\nmay still hide important problems.\nFor example:\nperformance may technically exceed threshold —\nbut still be deteriorating over time.\nA useful question becomes:\n\nCompared with what?\n\nFor example:\n\nprevious performance?\npeer organisations?\nnational trend?\nexpected seasonal variation?\n\nGood dashboard interpretation asks:\n\nWhat sits behind the colour?\n\nrather than simply:\n\nIs it red or green?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#mistake-2-confusing-counts-with-rates",
+    "href": "06-How-to-Read-a-Dashboard.html#mistake-2-confusing-counts-with-rates",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Mistake 2 — Confusing Counts with Rates",
+    "text": "Mistake 2 — Confusing Counts with Rates\nThis links directly back to:\n\nModule 1 — Counts vs Rates\n\nA dashboard may show:\nHigher emergency admissions\nBut this does not automatically mean:\n\nworse performance.\n\nWhy?\nBecause larger populations naturally generate larger numbers.\nFor example:\nan Integrated Care Board serving:\n1 million people\nwould reasonably be expected to have:\n\nmore admissions\n\nthan one serving:\n350,000 people\nSimilarly:\nareas with older populations may naturally experience:\n\nhigher healthcare utilisation.\n\nThis means dashboard interpretation should ask:\n\nAm I looking at counts or rates?\n\nand:\n\nIs this comparison fair?\n\nFor example:\n\ncrude counts?\nrates per population?\nage-standardised comparison?\ndeprivation-adjusted comparison?\n\nWithout context:\ndashboards can unintentionally mislead.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#mistake-3-overreacting-to-single-month-changes",
+    "href": "06-How-to-Read-a-Dashboard.html#mistake-3-overreacting-to-single-month-changes",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Mistake 3 — Overreacting to Single-Month Changes",
+    "text": "Mistake 3 — Overreacting to Single-Month Changes\nHealthcare systems naturally fluctuate.\nThis links directly back to:\n\nModule 4 — Variation & Distributions\n\nFor example:\nimagine:\nED attendances ↑ 8%\nin one month.\nQuestion:\n\nDoes this represent a meaningful change?\n\nMaybe.\nBut maybe not.\nHealthcare systems are noisy.\nVariation happens because of:\n\nseasonal illness\nbank holidays\nstaff shortages\ncoding differences\noperational disruption\nrandom fluctuation\n\nA single month of deterioration does not necessarily mean:\n\nperformance is collapsing.\n\nSimilarly:\na single month of improvement does not necessarily mean:\n\na scheme worked.\n\nThis is why dashboards often benefit from:\n\ntrends\n\nrather than isolated points.\nOr:\n\nStatistical Process Control (SPC)\n\nwhich helps distinguish:\nnormal variation\nfrom\nmeaningful change\nA useful question becomes:\n\nAre we observing signal — or noise?\n\nThe image below illustrates an important distinction between:\n\nreacting to dashboards\n\nand\n\ninterpreting dashboards critically\n\nFast dashboard interpretation can sometimes encourage conclusions based on colours, isolated metrics or single-month changes.\nMore thoughtful interpretation instead asks:\n\nWhat context, comparison or explanation might sit behind the numbers?\n\n\nGood dashboard interpretation focuses less on immediate conclusions and more on:\n\ncontext, comparison, variation and critical questioning\n\nDashboards help surface patterns and areas requiring attention.\nHowever:\n\ninterpretation still requires context, judgement and questioning\n\nBefore moving on, consider:\n\nAm I reacting to the dashboard — or interpreting it?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#mistake-4-ignoring-denominators",
+    "href": "06-How-to-Read-a-Dashboard.html#mistake-4-ignoring-denominators",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Mistake 4 — Ignoring Denominators",
+    "text": "Mistake 4 — Ignoring Denominators\nAnother common mistake is focusing only on raw numbers.\nA dashboard may show:\n\n50 emergency admissions from care homes\n\nQuestion:\n\nIs this high or low?\n\nThe answer depends on:\n\nhow many care home residents exist\nthe size of the older population\nexpected baseline utilisation\ncomparison with peers\n\nWithout this context:\n\nraw numbers become difficult to interpret.\n\nSimilarly:\n\n40 inpatient falls\n\nmight initially feel alarming.\nBut interpretation changes dramatically if this occurred across:\n\n500 admissions\n\nversus:\n\n25,000 occupied bed days\n\nThis matters for:\n\nadmissions\ncomplaints\nmortality\nharm incidents\nscreening uptake\nreadmissions\npathway conversion\n\nRaw numbers alone rarely tell the full story.\nGood dashboard interpretation therefore asks:\n\nRelative to what?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#mistake-5-assuming-correlation-means-causation",
+    "href": "06-How-to-Read-a-Dashboard.html#mistake-5-assuming-correlation-means-causation",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Mistake 5 — Assuming Correlation Means Causation",
+    "text": "Mistake 5 — Assuming Correlation Means Causation\nThis links back to:\n\nModule 3 — Correlation vs Causation\n\nDashboards frequently show things moving together.\nFor example:\nED attendance ↑\n4-hour performance ↓\nQuestion:\n\nDid one cause the other?\n\nMaybe.\nBut dashboards alone rarely prove causation.\nOther factors may contribute:\n\nstaffing\nflow delays\nbed occupancy\ndischarge delays\nseasonal illness\n\nA dashboard may show:\n\nassociation\n\nwithout proving:\n\ncause\n\nGood interpretation asks:\n\nWhat else might explain this pattern?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#reflection",
+    "href": "06-How-to-Read-a-Dashboard.html#reflection",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Reflection",
+    "text": "Reflection\nBefore moving on, ask:\n\nIf a dashboard suddenly looked concerning, what questions would I want answered before acting?\n\nGood dashboard interpretation begins with curiosity rather than immediate conclusions.\nDashboards become most useful when they encourage:\n\nbetter questions rather than faster conclusions\n\nrather than immediate conclusions.\nGood dashboard interpretation is not about memorising metrics.\nInstead:\n\nit is about learning how to think critically about what the dashboard might — and might not — be telling us\n\nThe following questions can provide a practical framework for interpreting dashboards more effectively.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#what-am-i-actually-looking-at",
+    "href": "06-How-to-Read-a-Dashboard.html#what-am-i-actually-looking-at",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "1. What Am I Actually Looking At?",
+    "text": "1. What Am I Actually Looking At?\nBefore interpreting a metric, it helps to understand:\n\nwhat the measure actually represents\n\nFor example:\nis it:\n\na count?\na rate?\na percentage?\nan average?\na median?\na target?\na trend?\n\nThis matters.\nA dashboard may show:\nEmergency admissions ↑\nQuestion:\n\nCompared with what definition?\n\nDoes this include:\n\nsame-day emergency care?\nobservation activity?\nshort stay admissions?\nonly non-elective inpatient spells?\n\nSimilarly:\na dashboard may show:\nAverage waiting time\nQuestion:\n\nAverage according to whom?\n\nMean?\nMedian?\n90th percentile?\nThe same label can sometimes describe very different things.\nA useful first question therefore becomes:\n\nWhat exactly am I looking at?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#compared-with-what",
+    "href": "06-How-to-Read-a-Dashboard.html#compared-with-what",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "2. Compared With What?",
+    "text": "2. Compared With What?\nNumbers rarely mean much in isolation.\nA dashboard showing:\n72%\nimmediately prompts another question:\n\nCompared with what?\n\nPossible comparisons include:\n\nprevious month\nprevious year\npeer organisations\nnational average\ntarget or threshold\nexpected seasonal pattern\nstatistical control limits\n\nFor example:\nED performance may appear poor.\nHowever:\nif all peer systems experienced winter deterioration during the same period:\n\nthe interpretation changes.\n\nSimilarly:\nan increase in emergency admissions may feel alarming.\nBut interpretation changes if:\n\ndemand increased nationally\n\nor:\n\npopulation need increased substantially.\n\nGood dashboard interpretation asks:\n\nIs this number unusual — or expected?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#is-this-meaningful-change-or-normal-variation",
+    "href": "06-How-to-Read-a-Dashboard.html#is-this-meaningful-change-or-normal-variation",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "3. Is This Meaningful Change — or Normal Variation?",
+    "text": "3. Is This Meaningful Change — or Normal Variation?\nHealthcare systems fluctuate.\nNot every change matters.\nA common mistake is assuming:\nperformance changed\ntherefore:\nsomething important happened\nSometimes this is true.\nSometimes it is simply:\n\nnormal variation\n\nFor example:\na dashboard may show:\nED attendances ↑ 4%\nQuestion:\n\nIs this meaningful?\n\nGood interpretation asks:\n\nIs this one month or a sustained trend?\nDoes the change exceed normal fluctuation?\nWhat does the SPC chart suggest?\nHas seasonality been considered?\n\nThe key question becomes:\n\nAre we observing signal — or noise?\n\nThe framework below summarises a practical way to interpret dashboards before jumping to conclusions.\nRather than reacting immediately to a metric or colour:\n\npause, question and interpret.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#what-context-might-explain-this",
+    "href": "06-How-to-Read-a-Dashboard.html#what-context-might-explain-this",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "4. What Context Might Explain This?",
+    "text": "4. What Context Might Explain This?\nDashboards rarely explain:\n\nwhy\n\nsomething happened.\nContext matters.\nFor example:\na deterioration in urgent care performance may reflect:\n\nwinter respiratory illness\nworkforce shortages\ndischarge delays\nbed occupancy\nindustrial action\nincreased acuity\ncoding or operational changes\n\nSimilarly:\nan apparent improvement may not always mean:\n\nimprovement caused by intervention.\n\nGood interpretation therefore asks:\n\nWhat else changed at the same time?\n\nThis links closely with:\n\nModule 7 — Thinking About Evidence & Evaluation\n\nbecause dashboard interpretation should avoid:\n\njumping from association to causation.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#what-decision-does-this-information-support",
+    "href": "06-How-to-Read-a-Dashboard.html#what-decision-does-this-information-support",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "5. What Decision Does This Information Support?",
+    "text": "5. What Decision Does This Information Support?\nPerhaps the most important question is:\n\nWhat decision are we trying to make?\n\nNot every metric needs action.\nNot every deterioration requires escalation.\nAnd not every improvement should trigger celebration.\nA dashboard should help support:\n\nprioritisation\ninvestigation\nmonitoring\nresource allocation\nquality improvement\nescalation where appropriate\n\nGood interpretation therefore asks:\n\nWhat decision does this information meaningfully support?\n\nSometimes the right answer is:\n\nmonitor more closely\n\nrather than:\n\nact immediately",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#reflection-1",
+    "href": "06-How-to-Read-a-Dashboard.html#reflection-1",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Reflection",
+    "text": "Reflection\nBefore acting on dashboard information, pause and ask:\n\nWhat am I actually looking at, compared with what, and what context might explain it?\n\nGood dashboard interpretation moves from:\n\nseeing numbers\n\nto\n\nthinking critically about meaning",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#a-simple-dashboard-interpretation-checklist",
+    "href": "06-How-to-Read-a-Dashboard.html#a-simple-dashboard-interpretation-checklist",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "A Simple Dashboard Interpretation Checklist",
+    "text": "A Simple Dashboard Interpretation Checklist\nBefore acting, ask:\n\nWhat am I looking at?\nCompared with what?\nSignal or noise?\nWhat context matters?\nWhat decision does this support?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#key-takeaways",
+    "href": "06-How-to-Read-a-Dashboard.html#key-takeaways",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\ndashboards present information — they do not automatically explain it\nnumbers rarely make sense without context or comparison\nvariation matters — not every change is meaningful\ndashboards show patterns but rarely prove causation\ngood interpretation focuses on questioning before action\n\nEffective dashboard interpretation moves beyond:\n\nWhat happened?\n\nto ask:\n\nWhat might explain this — and what should we do next?",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
+    "objectID": "06-How-to-Read-a-Dashboard.html#questions-decision-makers-should-ask",
+    "href": "06-How-to-Read-a-Dashboard.html#questions-decision-makers-should-ask",
+    "title": "Module 6 — How to Read a Dashboard",
+    "section": "Questions Decision-Makers Should Ask",
+    "text": "Questions Decision-Makers Should Ask\nBefore acting on dashboard information, ask:\n\nWhat am I actually looking at?\nCompared with what?\nIs this signal or normal variation?\nWhat context might explain this?\nWhat decision does this information support?\nWhat additional information would improve confidence?\n\n\n\nDashboards are most valuable not when they provide answers — but when they help decision-makers ask better questions.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+    ]
+  },
+  {
     "objectID": "07-Thinking-About-Evidence-&-Evaluation.html",
     "href": "07-Thinking-About-Evidence-&-Evaluation.html",
     "title": "Module 7 — Thinking About Evidence & Evaluation",

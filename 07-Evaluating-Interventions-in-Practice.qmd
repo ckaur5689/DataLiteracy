@@ -523,8 +523,6 @@ Instead:
 
 > *How confident should we be before acting?*
 
----
-
 # Regression to the Mean
 
 Even when evaluations include enough observations, another important challenge remains:
@@ -557,8 +555,6 @@ Because interventions are often targeted at:
 In other words:
 
 > **the very people already experiencing unusually extreme outcomes**
-
----
 
 ## A Practical Healthcare Example
 

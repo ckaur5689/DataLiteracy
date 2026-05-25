@@ -91,7 +91,9 @@ Proposed Initial Modules:
 - Correlation vs Causation
 - Variation & Distributions
 - Standardisation & Fair Comparison
-- Evaluating Interventions & Schemes
+- Evaluating Interventions & Schemes (Thinking About Evidence)
+- Evaluating Interventions in Practice (Methods)
+- Evaluating Complex Change in Healthcare Systems
 - Risk, Probability & Uncertainty
 - How to Read a Dashboard
 

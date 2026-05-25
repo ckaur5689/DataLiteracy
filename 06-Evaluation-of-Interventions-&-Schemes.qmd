@@ -107,7 +107,7 @@ At first glance:
 
 ED attendance has fallen.
 
-Emergency admissions have fallen.
+Emergency admissions have also fallen.
 
 But an important question remains:
 
@@ -321,7 +321,7 @@ In practice:
 
 This is particularly important in healthcare, where decisions often need to be made despite incomplete evidence and competing operational pressures.
 
-This means healthcare evaluation often involves balancing:
+Healthcare evaluation therefore often involves balancing:
 
 > **pragmatism**
 

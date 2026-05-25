@@ -22,8 +22,6 @@ The module focuses on practical healthcare examples, particularly interventions 
 
 It introduces practical approaches to evaluation without assuming prior statistical knowledge.
 
----
-
 # Why Evaluating Healthcare Interventions Matters
 
 Healthcare systems frequently introduce schemes designed to improve outcomes or reduce demand.
@@ -77,8 +75,6 @@ A reduction in Emergency Department attendance does not necessarily mean:
 
 > *the intervention caused the reduction.*
 
----
-
 ## A Practical Healthcare Example
 
 Imagine an Integrated Care Board introduces a new frailty service intended to reduce Emergency Department attendance among older adults.
@@ -113,7 +109,6 @@ But an important question remains:
 
 This question sits at the heart of intervention evaluation.
 
----
 
 # The Biggest Evaluation Mistake: Before-and-After Comparisons
 
@@ -166,8 +161,6 @@ A change occurring after an intervention does not automatically mean:
 
 > the intervention caused the change.
 
----
-
 ## Why Before-and-After Comparisons Feel Convincing
 
 Simple comparisons are attractive because they are:
@@ -201,8 +194,6 @@ Instead, decision-makers should ask:
 
 > *How confident are we that the intervention caused the improvement?*
 
----
-
 # Counterfactual Thinking: What Would Have Happened Anyway?
 
 One of the most important ideas in evaluation is surprisingly simple.
@@ -220,8 +211,6 @@ In plain English:
 > *What would probably have happened anyway?*
 
 This is often the missing question in healthcare evaluation.
-
----
 
 ## A Simple Example
 
@@ -247,8 +236,6 @@ Without considering the counterfactual:
 
 > we risk mistaking coincidence for impact.
 
----
-
 ## Why Counterfactual Thinking Matters
 
 Evaluation becomes stronger when we compare reality with a plausible alternative.
@@ -264,8 +251,6 @@ What might reasonably have happened anyway
 The closer we can get to a believable counterfactual:
 
 > the more confidence we have in our conclusions.
-
----
 
 ## Suggested Image 1 Placement
 
@@ -290,8 +275,6 @@ Conclusion:
 
 > “The scheme worked”
 
----
-
 ### Right Panel — Better evaluation thinking
 
 ```text
@@ -309,8 +292,6 @@ Questions:
 Footer:
 
 > Good evaluation asks: *Compared with what?*
-
----
 
 # Levels of Evaluation Confidence
 
@@ -353,8 +334,6 @@ However:
 
 > decision-makers should recognise its limitations.
 
----
-
 ## A Practical NHS Reality
 
 Healthcare systems rarely operate under ideal evaluation conditions.
@@ -383,8 +362,6 @@ The question is rarely:
 Instead:
 
 > *How confident should we be?*
-
----
 
 ## Part 1 Key Reflection
 

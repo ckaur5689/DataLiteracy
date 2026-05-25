@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Project - Healthcare Data Literacy Series – Health Data Literacy</title>
+<title>Module 6 — Evaluating Interventions &amp; Schemes: Thinking About Evidence – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,7 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./07-Evaluating-Interventions-in-Practice.html" rel="prev">
+<link href="./07-Evaluating-Interventions-in-Practice.html" rel="next">
+<link href="./05-Standardisation-&amp;-Fair-Comparison.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -98,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Project.html"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./06-Evaluation-of-Interventions-&amp;-Schemes.html"><span class="chapter-title">Module 6 — Evaluating Interventions &amp; Schemes: Thinking About Evidence</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -155,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06-Evaluation-of-Interventions-&amp;-Schemes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 6 — Evaluating Interventions &amp; Schemes: Thinking About Evidence</span></a>
+  <a href="./06-Evaluation-of-Interventions-&amp;-Schemes.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 6 — Evaluating Interventions &amp; Schemes: Thinking About Evidence</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -165,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Project.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></a>
+  <a href="./Project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></a>
   </div>
 </li>
     </ul>
@@ -178,45 +179,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#project-healthcare-data-literacy-series-supporting-better-questions-fairer-interpretation-and-smarter-decision-making-in-healthcare-analytics" id="toc-project-healthcare-data-literacy-series-supporting-better-questions-fairer-interpretation-and-smarter-decision-making-in-healthcare-analytics" class="nav-link active" data-scroll-target="#project-healthcare-data-literacy-series-supporting-better-questions-fairer-interpretation-and-smarter-decision-making-in-healthcare-analytics">Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics</a></li>
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a>
+  <li><a href="#did-it-work-or-would-things-have-changed-anyway" id="toc-did-it-work-or-would-things-have-changed-anyway" class="nav-link active" data-scroll-target="#did-it-work-or-would-things-have-changed-anyway"><em>Did it work — or would things have changed anyway?</em></a></li>
+  <li><a href="#module-learning-objective" id="toc-module-learning-objective" class="nav-link" data-scroll-target="#module-learning-objective">Module Learning Objective</a></li>
+  <li><a href="#why-evaluating-healthcare-interventions-matters" id="toc-why-evaluating-healthcare-interventions-matters" class="nav-link" data-scroll-target="#why-evaluating-healthcare-interventions-matters">Why Evaluating Healthcare Interventions Matters</a>
   <ul class="collapse">
-  <li><a href="#the-series-aims-to-bridge-the-gap-between" id="toc-the-series-aims-to-bridge-the-gap-between" class="nav-link" data-scroll-target="#the-series-aims-to-bridge-the-gap-between">The series aims to bridge the gap between:</a></li>
+  <li><a href="#a-practical-healthcare-example" id="toc-a-practical-healthcare-example" class="nav-link" data-scroll-target="#a-practical-healthcare-example">A Practical Healthcare Example</a></li>
   </ul></li>
-  <li><a href="#why-this-project-matters" id="toc-why-this-project-matters" class="nav-link" data-scroll-target="#why-this-project-matters">Why This Project Matters</a></li>
-  <li><a href="#project-objectives" id="toc-project-objectives" class="nav-link" data-scroll-target="#project-objectives">Project Objectives</a></li>
-  <li><a href="#core-principles" id="toc-core-principles" class="nav-link" data-scroll-target="#core-principles">Core Principles</a></li>
-  <li><a href="#part-1-foundations-of-healthcare-analytics-interpretation" id="toc-part-1-foundations-of-healthcare-analytics-interpretation" class="nav-link" data-scroll-target="#part-1-foundations-of-healthcare-analytics-interpretation">Part 1 — Foundations of Healthcare Analytics Interpretation</a></li>
-  <li><a href="#part-2-understanding-improving-healthcare-systems" id="toc-part-2-understanding-improving-healthcare-systems" class="nav-link" data-scroll-target="#part-2-understanding-improving-healthcare-systems">Part 2 — Understanding &amp; Improving Healthcare Systems</a></li>
-  <li><a href="#part-3-modern-healthcare-analytics" id="toc-part-3-modern-healthcare-analytics" class="nav-link" data-scroll-target="#part-3-modern-healthcare-analytics">Part 3 — Modern Healthcare Analytics</a></li>
-  <li><a href="#the-project-will-include" id="toc-the-project-will-include" class="nav-link" data-scroll-target="#the-project-will-include">The project will include:</a></li>
-  <li><a href="#what-is-out-of-scope" id="toc-what-is-out-of-scope" class="nav-link" data-scroll-target="#what-is-out-of-scope">What Is Out Of Scope</a></li>
-  <li><a href="#target-audience" id="toc-target-audience" class="nav-link" data-scroll-target="#target-audience">Target Audience</a>
+  <li><a href="#the-biggest-evaluation-mistake-before-and-after-comparisons" id="toc-the-biggest-evaluation-mistake-before-and-after-comparisons" class="nav-link" data-scroll-target="#the-biggest-evaluation-mistake-before-and-after-comparisons">The Biggest Evaluation Mistake: Before-and-After Comparisons</a>
   <ul class="collapse">
-  <li><a href="#primary-audiences-include" id="toc-primary-audiences-include" class="nav-link" data-scroll-target="#primary-audiences-include">Primary audiences include:</a></li>
-  <li><a href="#secondary-audiences-may-include" id="toc-secondary-audiences-may-include" class="nav-link" data-scroll-target="#secondary-audiences-may-include">Secondary audiences may include:</a></li>
+  <li><a href="#why-before-and-after-comparisons-feel-convincing" id="toc-why-before-and-after-comparisons-feel-convincing" class="nav-link" data-scroll-target="#why-before-and-after-comparisons-feel-convincing">Why Before-and-After Comparisons Feel Convincing</a></li>
   </ul></li>
-  <li><a href="#delivery-approach" id="toc-delivery-approach" class="nav-link" data-scroll-target="#delivery-approach">Delivery Approach</a>
+  <li><a href="#counterfactual-thinking-what-would-have-happened-anyway" id="toc-counterfactual-thinking-what-would-have-happened-anyway" class="nav-link" data-scroll-target="#counterfactual-thinking-what-would-have-happened-anyway">Counterfactual Thinking: What Would Have Happened Anyway?</a>
   <ul class="collapse">
-  <li><a href="#platform" id="toc-platform" class="nav-link" data-scroll-target="#platform">Platform</a></li>
-  <li><a href="#style" id="toc-style" class="nav-link" data-scroll-target="#style">Style</a></li>
+  <li><a href="#a-simple-example" id="toc-a-simple-example" class="nav-link" data-scroll-target="#a-simple-example">A Simple Example</a></li>
+  <li><a href="#counterfactual-thinking-in-practice" id="toc-counterfactual-thinking-in-practice" class="nav-link" data-scroll-target="#counterfactual-thinking-in-practice">Counterfactual Thinking in Practice</a></li>
+  <li><a href="#why-counterfactual-thinking-matters" id="toc-why-counterfactual-thinking-matters" class="nav-link" data-scroll-target="#why-counterfactual-thinking-matters">Why Counterfactual Thinking Matters</a></li>
   </ul></li>
-  <li><a href="#project-phases" id="toc-project-phases" class="nav-link" data-scroll-target="#project-phases">Project Phases</a>
+  <li><a href="#levels-of-evaluation-confidence" id="toc-levels-of-evaluation-confidence" class="nav-link" data-scroll-target="#levels-of-evaluation-confidence">Levels of Evaluation Confidence</a>
   <ul class="collapse">
-  <li><a href="#phase-1-foundation-development" id="toc-phase-1-foundation-development" class="nav-link" data-scroll-target="#phase-1-foundation-development">Phase 1 — Foundation Development</a></li>
-  <li><a href="#months-12" id="toc-months-12" class="nav-link" data-scroll-target="#months-12">Months 1–2</a></li>
-  <li><a href="#phase-2-core-content-development" id="toc-phase-2-core-content-development" class="nav-link" data-scroll-target="#phase-2-core-content-development">Phase 2 — Core Content Development</a></li>
-  <li><a href="#months-35" id="toc-months-35" class="nav-link" data-scroll-target="#months-35">Months 3–5</a></li>
-  <li><a href="#phase-3-external-review-refinement" id="toc-phase-3-external-review-refinement" class="nav-link" data-scroll-target="#phase-3-external-review-refinement">Phase 3 — External Review &amp; Refinement</a></li>
-  <li><a href="#months-56" id="toc-months-56" class="nav-link" data-scroll-target="#months-56">Months 5–6</a></li>
-  <li><a href="#phase-4-publication-dissemination" id="toc-phase-4-publication-dissemination" class="nav-link" data-scroll-target="#phase-4-publication-dissemination">Phase 4 — Publication &amp; Dissemination</a></li>
-  <li><a href="#month-6-onwards" id="toc-month-6-onwards" class="nav-link" data-scroll-target="#month-6-onwards">Month 6 onwards</a></li>
-  </ul></li>
-  <li><a href="#key-assumptions" id="toc-key-assumptions" class="nav-link" data-scroll-target="#key-assumptions">Key Assumptions</a></li>
-  <li><a href="#long-term-vision" id="toc-long-term-vision" class="nav-link" data-scroll-target="#long-term-vision">Long-Term Vision</a></li>
-  <li><a href="#guiding-philosophy" id="toc-guiding-philosophy" class="nav-link" data-scroll-target="#guiding-philosophy">Guiding Philosophy</a>
-  <ul class="collapse">
-  <li><a href="#sign-off" id="toc-sign-off" class="nav-link" data-scroll-target="#sign-off">Sign-Off:</a></li>
+  <li><a href="#a-practical-nhs-reality" id="toc-a-practical-nhs-reality" class="nav-link" data-scroll-target="#a-practical-nhs-reality">A Practical NHS Reality</a></li>
+  <li><a href="#part-1-key-reflection" id="toc-part-1-key-reflection" class="nav-link" data-scroll-target="#part-1-key-reflection">Part 1 Key Reflection</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -226,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></h1>
+<h1 class="title"><span class="chapter-title">Module 6 — Evaluating Interventions &amp; Schemes: Thinking About Evidence</span></h1>
 </div>
 
 
@@ -243,272 +225,353 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-healthcare-data-literacy-series-supporting-better-questions-fairer-interpretation-and-smarter-decision-making-in-healthcare-analytics" class="level2">
-<h2 class="anchored" data-anchor-id="project-healthcare-data-literacy-series-supporting-better-questions-fairer-interpretation-and-smarter-decision-making-in-healthcare-analytics">Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics</h2>
-<p>Timeline: 6 months from May 2026</p>
-<p>Author: Chandan Kaur</p>
-<p>Audience: Analysts and Decision Makers</p>
+<section id="did-it-work-or-would-things-have-changed-anyway" class="level3">
+<h3 class="anchored" data-anchor-id="did-it-work-or-would-things-have-changed-anyway"><em>Did it work — or would things have changed anyway?</em></h3>
 </section>
-<section id="project-overview" class="level1">
-<h1>Project Overview</h1>
-<p>The Healthcare Data Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.</p>
-<section id="the-series-aims-to-bridge-the-gap-between" class="level2">
-<h2 class="anchored" data-anchor-id="the-series-aims-to-bridge-the-gap-between">The series aims to bridge the gap between:</h2>
-<p>healthcare analysts and decision-makers, operational leaders, clinicians and service managers.</p>
-<p>Rather than focusing purely on statistical methods or software training, the series focuses on:</p>
+<section id="module-learning-objective" class="level2">
+<h2 class="anchored" data-anchor-id="module-learning-objective">Module Learning Objective</h2>
+<p>This module helps explain:</p>
+<blockquote class="blockquote">
+<p>why evaluating healthcare interventions is often more difficult than it first appears — and how decision-makers can think more critically about whether changes in outcomes are genuinely attributable to a scheme or intervention.</p>
+</blockquote>
+<p>By the end of this module, readers should feel more confident asking:</p>
+<blockquote class="blockquote">
+<p><em>Did this intervention actually work — or would things have changed anyway?</em></p>
+</blockquote>
+<p>The module focuses on practical healthcare examples, particularly interventions intended to reduce:</p>
 <ul>
-<li>analytical reasoning</li>
-<li>interpretation</li>
-<li>operational context</li>
-<li>fair comparison</li>
-<li>healthcare systems thinking</li>
-<li>communicating uncertainty and complexity appropriately.</li>
+<li>Emergency Department (ED) attendances</li>
+<li>emergency admissions</li>
+<li>avoidable hospital utilisation</li>
+<li>delayed discharge</li>
+<li>operational pressure</li>
 </ul>
-<p>The resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.</p>
+<p>It introduces practical approaches to evaluation without assuming prior statistical knowledge.</p>
 </section>
-</section>
-<section id="why-this-project-matters" class="level1">
-<h1>Why This Project Matters</h1>
-<p>Healthcare organisations increasingly rely on data to:</p>
+<section id="why-evaluating-healthcare-interventions-matters" class="level1">
+<h1>Why Evaluating Healthcare Interventions Matters</h1>
+<p>Healthcare systems frequently introduce schemes designed to improve outcomes or reduce demand.</p>
+<p>Examples may include:</p>
 <ul>
-<li>prioritise resources</li>
-<li>benchmark services</li>
-<li>monitor inequalities</li>
-<li>redesign pathways</li>
-<li>support operational and strategic decisions.</li>
+<li>frailty pathways</li>
+<li>virtual wards</li>
+<li>Same Day Emergency Care (SDEC) services</li>
+<li>care navigation models</li>
+<li>community multidisciplinary teams (MDTs)</li>
+<li>anticipatory care programmes</li>
+<li>admission avoidance services</li>
+<li>discharge coordination schemes</li>
 </ul>
+<p>These interventions are often introduced with positive intentions:</p>
+<blockquote class="blockquote">
+<p>reduce Emergency Department attendance</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>avoid unnecessary admissions</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>improve patient outcomes</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>reduce pressure on services</p>
+</blockquote>
+<p>After implementation, a common question quickly emerges:</p>
+<blockquote class="blockquote">
+<p><strong>Did it work?</strong></p>
+</blockquote>
+<p>Yet healthcare systems often struggle to distinguish:</p>
+<blockquote class="blockquote">
+<p>genuine impact</p>
+</blockquote>
+<p>from</p>
+<blockquote class="blockquote">
+<p>change that may have happened anyway.</p>
+</blockquote>
+<p>At first glance, this may seem straightforward.</p>
+<p>However, evaluating healthcare interventions is often far more complicated than it first appears.</p>
+<p>Healthcare systems rarely remain static.</p>
+<p>At the same time as an intervention is introduced:</p>
+<ul>
+<li>winter pressures may occur</li>
+<li>staffing may change</li>
+<li>patient need may shift</li>
+<li>flu or respiratory illness may rise or fall</li>
+<li>other schemes may begin</li>
+<li>pathways may change</li>
+<li>coding practices may evolve</li>
+</ul>
+<p>This means:</p>
+<blockquote class="blockquote">
+<p>Improvement does not automatically imply impact — and observed change does not automatically mean the intervention caused it.</p>
+</blockquote>
+<p>A reduction in Emergency Department attendance does not necessarily mean:</p>
+<blockquote class="blockquote">
+<p><em>the intervention caused the reduction.</em></p>
+</blockquote>
+<section id="a-practical-healthcare-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-healthcare-example">A Practical Healthcare Example</h2>
+<p>Imagine an Integrated Care Board introduces a new frailty service intended to reduce Emergency Department attendance among older adults.</p>
+<p>The service provides:</p>
+<ul>
+<li>proactive frailty assessment</li>
+<li>community MDT support</li>
+<li>medication review</li>
+<li>rapid response care coordination</li>
+</ul>
+<p>After six months:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th style="text-align: right;">Before Scheme</th>
+<th style="text-align: right;">After Scheme</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ED attendances</td>
+<td style="text-align: right;">1,200</td>
+<td style="text-align: right;">980</td>
+</tr>
+<tr class="even">
+<td>Emergency admissions</td>
+<td style="text-align: right;">450</td>
+<td style="text-align: right;">390</td>
+</tr>
+</tbody>
+</table>
+<p>At first glance:</p>
+<blockquote class="blockquote">
+<p>The scheme appears successful.</p>
+</blockquote>
+<p>ED attendance has fallen.</p>
+<p>Emergency admissions have also fallen.</p>
+<p>But an important question remains:</p>
+<blockquote class="blockquote">
+<p><strong>Would this reduction have happened anyway?</strong></p>
+</blockquote>
+<p>This question sits at the heart of intervention evaluation.</p>
+</section>
+</section>
+<section id="the-biggest-evaluation-mistake-before-and-after-comparisons" class="level1">
+<h1>The Biggest Evaluation Mistake: Before-and-After Comparisons</h1>
+<p>One of the most common mistakes in healthcare evaluation is relying solely on simple before-and-after comparisons.</p>
+<p>For example:</p>
+<pre class="text"><code>Before intervention:
+1,200 ED attendances
+
+After intervention:
+980 ED attendances</code></pre>
+<p>Conclusion:</p>
+<blockquote class="blockquote">
+<p>“The scheme worked.”</p>
+</blockquote>
+<p>Sometimes that conclusion may be correct.</p>
+<p>But sometimes it may not.</p>
+<p>Why?</p>
+<p>Because healthcare systems are full of variation and competing influences.</p>
+<p>For example:</p>
+<ul>
+<li>winter demand may have been milder</li>
+<li>influenza rates may have fallen</li>
+<li>ambulance conveyance patterns may have changed</li>
+<li>another community service may have launched</li>
+<li>hospital admission thresholds may have changed</li>
+<li>random fluctuation may have occurred</li>
+</ul>
+<p>A simple before-and-after comparison cannot easily distinguish:</p>
+<blockquote class="blockquote">
+<p><strong>correlation</strong></p>
+</blockquote>
+<p>from</p>
+<blockquote class="blockquote">
+<p><strong>causation</strong></p>
+</blockquote>
+<p>This links directly back to Module 3:</p>
+<blockquote class="blockquote">
+<p><em>Correlation vs Causation</em></p>
+</blockquote>
+<p>A change occurring after an intervention does not automatically mean:</p>
+<blockquote class="blockquote">
+<p>the intervention caused the change.</p>
+</blockquote>
+<section id="why-before-and-after-comparisons-feel-convincing" class="level2">
+<h2 class="anchored" data-anchor-id="why-before-and-after-comparisons-feel-convincing">Why Before-and-After Comparisons Feel Convincing</h2>
+<p>Simple comparisons are attractive because they are:</p>
+<ul>
+<li>easy to understand</li>
+<li>quick to produce</li>
+<li>intuitive to explain</li>
+</ul>
+<p>For example:</p>
+<pre class="text"><code>Admissions reduced by 15%</code></pre>
+<p>sounds persuasive.</p>
+<p>But healthcare systems are noisy and complex.</p>
+<p>Without additional context, before-and-after comparisons can create:</p>
+<ul>
+<li>false confidence</li>
+<li>overclaiming of impact</li>
+<li>poor investment decisions</li>
+<li>misleading conclusions</li>
+</ul>
+<p>The question should not simply be:</p>
+<blockquote class="blockquote">
+<p><em>Did things improve?</em></p>
+</blockquote>
+<p>Instead, decision-makers should ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention caused the improvement?</em></p>
+</blockquote>
+</section>
+</section>
+<section id="counterfactual-thinking-what-would-have-happened-anyway" class="level1">
+<h1>Counterfactual Thinking: What Would Have Happened Anyway?</h1>
+<p>One of the most important ideas in evaluation is surprisingly simple.</p>
+<p>To understand whether an intervention worked, we need to ask:</p>
+<blockquote class="blockquote">
+<p><strong>What would likely have happened if we had done nothing?</strong></p>
+</blockquote>
+<p>This idea is known as:</p>
+<blockquote class="blockquote">
+<p><strong>the counterfactual</strong></p>
+</blockquote>
+<p>In plain English:</p>
+<blockquote class="blockquote">
+<p><em>What would probably have happened anyway?</em></p>
+</blockquote>
+<p>This is often the missing question in healthcare evaluation.</p>
+<section id="a-simple-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-simple-example">A Simple Example</h2>
+<p>Imagine ED attendance falls following introduction of a community frailty service.</p>
+<p>Question:</p>
+<blockquote class="blockquote">
+<p>Did the intervention reduce attendance?</p>
+</blockquote>
+<p>Maybe.</p>
+<p>But another possibility exists:</p>
+<p>ED attendance might have reduced anyway because:</p>
+<ul>
+<li>winter demand was lower</li>
+<li>viral illness reduced</li>
+<li>population behaviour changed</li>
+<li>ambulance conveyance thresholds shifted</li>
+<li>other services improved</li>
+</ul>
+<p>Without considering the counterfactual:</p>
+<blockquote class="blockquote">
+<p>we risk mistaking coincidence for impact.</p>
+</blockquote>
+</section>
+<section id="counterfactual-thinking-in-practice" class="level2">
+<h2 class="anchored" data-anchor-id="counterfactual-thinking-in-practice">Counterfactual Thinking in Practice</h2>
+<p>Evaluation becomes stronger when we compare reality with a plausible alternative.</p>
+<p>In simple terms:</p>
+<pre class="text"><code>Observed outcome
+        vs
+What might reasonably have happened anyway</code></pre>
+<p>The closer we can get to a believable counterfactual:</p>
+<blockquote class="blockquote">
+<p>the greater our confidence that the intervention genuinely contributed to the observed change.</p>
+</blockquote>
+</section>
+<section id="why-counterfactual-thinking-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-counterfactual-thinking-matters">Why Counterfactual Thinking Matters</h2>
+<p>The image below illustrates a common evaluation mistake:</p>
+<p>assuming that improvement after an intervention automatically implies impact.</p>
+<p>Good evaluation instead asks:</p>
+<blockquote class="blockquote">
+<p><em>Compared with what?</em></p>
+</blockquote>
+<p><img src="images/DidInterventionWork_1.png" class="img-fluid"></p>
+<p>The purpose of counterfactual thinking is not to dismiss improvement.</p>
+<p>Instead, it encourages us to ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention caused the change?</em></p>
+</blockquote>
+</section>
+</section>
+<section id="levels-of-evaluation-confidence" class="level1">
+<h1>Levels of Evaluation Confidence</h1>
+<p>Not all evaluation approaches provide the same level of confidence.</p>
+<p>Some approaches provide weak evidence.</p>
+<p>Others provide stronger evidence.</p>
+<p>A useful question for decision-makers is:</p>
+<blockquote class="blockquote">
+<p><strong>How confident should we be that the intervention caused the observed change?</strong></p>
+</blockquote>
+<p>The diagram below illustrates a simplified hierarchy of evaluation approaches and the confidence they provide that an intervention caused observed change.</p>
+<p><img src="images/LevelsofEvaluationConfidence_2.png" class="img-fluid"></p>
+<p>This hierarchy is not about:</p>
+<blockquote class="blockquote">
+<p><em>good versus bad methods</em></p>
+</blockquote>
+<p>Instead, it helps us think about:</p>
+<blockquote class="blockquote">
+<p><strong>how confident we should be in causal conclusions.</strong></p>
+</blockquote>
+<p>Sometimes a simple before-and-after comparison may be all that is practical.</p>
 <p>However:</p>
+<blockquote class="blockquote">
+<p>decision-makers should recognise its limitations.</p>
+</blockquote>
+<section id="a-practical-nhs-reality" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-nhs-reality">A Practical NHS Reality</h2>
+<p>Healthcare systems rarely operate under ideal evaluation conditions.</p>
+<p>In practice:</p>
 <ul>
-<li>healthcare metrics are often misunderstood or oversimplified</li>
-<li>comparisons between organisations are not always fair</li>
-<li>dashboards can unintentionally hide operational reality</li>
-<li>analytical outputs may lack sufficient context or interpretation.</li>
+<li>interventions evolve over time</li>
+<li>implementation varies between sites</li>
+<li>operational pressures disrupt delivery</li>
+<li>schemes overlap</li>
+<li>data quality may vary</li>
+<li>funding cycles are short</li>
 </ul>
-<p>This project aims to improve:</p>
-<ul>
-<li>healthcare data literacy</li>
-<li>analytical questioning</li>
-<li>interpretation of metrics</li>
-<li>understanding of variation and fairness</li>
-<li>communication between analysts and decision-makers.</li>
-</ul>
-<p>The long-term goal is to support:</p>
-<p>better questions, better interpretation and better decision-making across healthcare systems.</p>
+<p>This is particularly important in healthcare, where decisions often need to be made despite incomplete evidence and competing operational pressures.</p>
+<p>Healthcare evaluation therefore often involves balancing:</p>
+<blockquote class="blockquote">
+<p><strong>pragmatism</strong></p>
+</blockquote>
+<p>with</p>
+<blockquote class="blockquote">
+<p><strong>confidence in findings</strong></p>
+</blockquote>
+<p>The question is rarely:</p>
+<blockquote class="blockquote">
+<p><em>Can we be completely certain?</em></p>
+</blockquote>
+<p>Instead:</p>
+<blockquote class="blockquote">
+<p><em>How confident should we be?</em></p>
+</blockquote>
+<p>This means decision-makers often need to act before perfect evidence exists.</p>
+<p>Evaluation therefore becomes less about certainty and more about:</p>
+<blockquote class="blockquote">
+<p>making proportionate, evidence-informed judgements.</p>
+</blockquote>
 </section>
-<section id="project-objectives" class="level1">
-<h1>Project Objectives</h1>
-<p>The project aims to:</p>
-<ul>
-<li>Develop a structured NHS-focused healthcare data literacy series</li>
-<li>Improve understanding of common healthcare analytics concepts and pitfalls</li>
-<li>Support fairer interpretation of healthcare metrics and benchmarking</li>
-<li>Help decision-makers understand operational context behind the numbers</li>
-<li>Improve communication between analysts and healthcare leaders</li>
-<li>Create practical examples using realistic NHS operational scenarios</li>
-<li>Provide openly accessible educational resources for healthcare systems</li>
-<li>Support analytical maturity across NHS organisations</li>
-</ul>
-</section>
-<section id="core-principles" class="level1">
-<h1>Core Principles</h1>
-<p>The series will aim to be:</p>
-<ul>
-<li>Operationally grounded</li>
-<li>Accessible to non-statisticians</li>
-<li>NHS-relevant</li>
-<li>Visually engaging</li>
-<li>Conceptually rigorous</li>
-<li>Openly accessible</li>
-<li>Practical rather than academic</li>
-<li>Focused on interpretation and reasoning rather than software training</li>
-</ul>
-<p>Proposed Initial Modules:</p>
-</section>
-<section id="part-1-foundations-of-healthcare-analytics-interpretation" class="level1">
-<h1>Part 1 — Foundations of Healthcare Analytics Interpretation</h1>
-<ul>
-<li>Counts vs Rates</li>
-<li>Mean vs Median</li>
-<li>Correlation vs Causation</li>
-<li>Variation &amp; Distributions</li>
-<li>Standardisation &amp; Fair Comparison</li>
-<li>Evaluating Interventions &amp; Schemes</li>
-<li>Risk, Probability &amp; Uncertainty</li>
-<li>How to Read a Dashboard</li>
-</ul>
-</section>
-<section id="part-2-understanding-improving-healthcare-systems" class="level1">
-<h1>Part 2 — Understanding &amp; Improving Healthcare Systems</h1>
-<ul>
-<li>Demand, Capacity &amp; Operational Flow</li>
-<li>Population Health Management &amp; Segmentation</li>
-<li>Pathway Analytics &amp; Intervention Design</li>
-<li>Health Economics &amp; Value in Healthcare Decision-Making</li>
-<li>Simulation &amp; Scenario Modelling</li>
-</ul>
-</section>
-<section id="part-3-modern-healthcare-analytics" class="level1">
-<h1>Part 3 — Modern Healthcare Analytics</h1>
-<ul>
-<li>Predictive Modelling &amp; Risk Stratification</li>
-<li>Explainable AI in Healthcare</li>
-<li>BI to Augmented Analytics</li>
-<li>AI, Sustainability &amp; Healthcare Systems</li>
-</ul>
-</section>
-<section id="the-project-will-include" class="level1">
-<h1>The project will include:</h1>
-<ul>
-<li>Publicly accessible Quarto/GitHub Pages digital book</li>
-<li>Educational modules with practical NHS examples</li>
-<li>Visual infographics and diagrams</li>
-<li>Operational interpretation examples</li>
-<li>Decision-maker reflection questions</li>
-<li>Worked healthcare scenarios</li>
-<li>Supporting presentation materials</li>
-<li>Executive summaries and quick-reference guides</li>
-<li>Optional downloadable PDF/Word versions</li>
-</ul>
-</section>
-<section id="what-is-out-of-scope" class="level1">
-<h1>What Is Out Of Scope</h1>
-<p>The project will not focus on:</p>
-<ul>
-<li>Software-specific technical training</li>
-<li>Coding tutorials</li>
-<li>Advanced statistical derivations</li>
-<li>NHS data governance policy documentation</li>
-<li>Building analytical platforms or infrastructure</li>
-<li>Formal accreditation or certification</li>
-<li>Organisation-specific implementation programmes</li>
-</ul>
-</section>
-<section id="target-audience" class="level1">
-<h1>Target Audience</h1>
-<section id="primary-audiences-include" class="level2">
-<h2 class="anchored" data-anchor-id="primary-audiences-include">Primary audiences include:</h2>
-<ul>
-<li>Healthcare operational leaders</li>
-<li>Service managers</li>
-<li>Clinicians</li>
-<li>Public health teams</li>
-<li>BI and analytics teams</li>
-<li>Integrated Care Board colleagues</li>
-<li>NHS transformation teams</li>
-<li>Informatics trainees and early-career analysts</li>
-</ul>
-</section>
-<section id="secondary-audiences-may-include" class="level2">
-<h2 class="anchored" data-anchor-id="secondary-audiences-may-include">Secondary audiences may include:</h2>
-<ul>
-<li>Local authorities</li>
-<li>Healthcare consultancies</li>
-<li>Academic/public health programmes</li>
-<li>Wider public sector analytical communities</li>
-</ul>
-</section>
-</section>
-<section id="delivery-approach" class="level1">
-<h1>Delivery Approach</h1>
-<section id="platform" class="level2">
-<h2 class="anchored" data-anchor-id="platform">Platform</h2>
-<p>GitHub Pages Quarto Book framework PDF and Word export options</p>
-</section>
-<section id="style" class="level2">
-<h2 class="anchored" data-anchor-id="style">Style</h2>
-<p>Visual and example-led Operationally realistic Plain English where possible Progressive conceptual layering</p>
-</section>
-</section>
-<section id="project-phases" class="level1">
-<h1>Project Phases</h1>
-<section id="phase-1-foundation-development" class="level2">
-<h2 class="anchored" data-anchor-id="phase-1-foundation-development">Phase 1 — Foundation Development</h2>
-</section>
-<section id="months-12" class="level2">
-<h2 class="anchored" data-anchor-id="months-12">Months 1–2</h2>
-<ul>
-<li>Establish project structure</li>
-<li>Develop initial visual identity and formatting</li>
-<li>Create foundational modules</li>
-<li>Build GitHub/Quarto publishing workflow</li>
-</ul>
-</section>
-<section id="phase-2-core-content-development" class="level2">
-<h2 class="anchored" data-anchor-id="phase-2-core-content-development">Phase 2 — Core Content Development</h2>
-</section>
-<section id="months-35" class="level2">
-<h2 class="anchored" data-anchor-id="months-35">Months 3–5</h2>
-<ul>
-<li>Develop additional modules</li>
-<li>Expand operational examples and visual content</li>
-<li>Gather peer feedback from NHS analytical community</li>
-<li>Refine educational structure and readability</li>
-</ul>
-</section>
-<section id="phase-3-external-review-refinement" class="level2">
-<h2 class="anchored" data-anchor-id="phase-3-external-review-refinement">Phase 3 — External Review &amp; Refinement</h2>
-</section>
-<section id="months-56" class="level2">
-<h2 class="anchored" data-anchor-id="months-56">Months 5–6</h2>
-<p>Seek structured feedback from: - NHS CDAO network - AphA members - healthcare analysts - operational leaders and strategic commissioners - Improve content based on feedback - Refine visuals and accessibility</p>
-</section>
-<section id="phase-4-publication-dissemination" class="level2">
-<h2 class="anchored" data-anchor-id="phase-4-publication-dissemination">Phase 4 — Publication &amp; Dissemination</h2>
-</section>
-<section id="month-6-onwards" class="level2">
-<h2 class="anchored" data-anchor-id="month-6-onwards">Month 6 onwards</h2>
-<ul>
-<li>Public launch of the series</li>
-<li>Social and professional dissemination</li>
-<li>Presentation sessions/webinars</li>
-<li>Ongoing iterative development</li>
-<li>Success Measures</li>
-</ul>
-<p>Success indicators may include:</p>
-<ul>
-<li>Positive feedback from NHS analysts and operational leaders</li>
-<li>Adoption within NHS analytical communities</li>
-<li>Use in analyst onboarding or data literacy initiatives</li>
-<li>Engagement through GitHub Pages analytics</li>
-<li>Requests for reuse/adaptation across organisations</li>
-<li>AphA and/or NHS analytical community endorsement</li>
-<li>Evidence of improved analytical questioning and interpretation</li>
-</ul>
-</section>
-</section>
-<section id="key-assumptions" class="level1">
-<h1>Key Assumptions</h1>
-<ul>
-<li>Contributors can support development alongside operational roles</li>
-<li>NHS analytical communities will engage constructively with feedback</li>
-<li>Open-access publication is supported</li>
-<li>The series will evolve iteratively over time</li>
-</ul>
-</section>
-<section id="long-term-vision" class="level1">
-<h1>Long-Term Vision</h1>
-<p>The long-term ambition is to create:</p>
-<ul>
-<li>a widely used NHS healthcare data literacy resource</li>
-<li>a practical guide to analytical interpretation in healthcare</li>
-<li>an openly accessible educational reference for healthcare analytics and operational decision-making.</li>
-</ul>
-<p>The series may later evolve into:</p>
-<ul>
-<li>a formally published digital book</li>
-<li>workshop/training materials</li>
-<li>conference presentations</li>
-<li>broader healthcare analytical capability resources</li>
-</ul>
-</section>
-<section id="guiding-philosophy" class="level1">
-<h1>Guiding Philosophy</h1>
-<p>“Good healthcare analytics is not just about producing numbers. It is about helping people interpret, question and use those numbers responsibly within complex healthcare systems.”</p>
-<hr>
-<section id="sign-off" class="level2">
-<h2 class="anchored" data-anchor-id="sign-off">Sign-Off:</h2>
-<p>Name: Chandan Kaur<br>
-Role: Senior Strategic BI Lead</p>
+<section id="part-1-key-reflection" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-key-reflection">Part 1 Key Reflection</h2>
+<p>Before moving on, ask:</p>
+<blockquote class="blockquote">
+<p><em>If outcomes changed after an intervention, what evidence would genuinely convince us that the intervention caused the change?</em></p>
+</blockquote>
+<p>This module has focused on:</p>
+<blockquote class="blockquote">
+<p><strong>thinking critically about evidence</strong></p>
+</blockquote>
+<p>because healthcare systems frequently observe change without always knowing:</p>
+<blockquote class="blockquote">
+<p>whether the intervention caused it.</p>
+</blockquote>
+<p>Good evaluation therefore moves beyond:</p>
+<blockquote class="blockquote">
+<p><em>Did outcomes improve?</em></p>
+</blockquote>
+<p>to ask:</p>
+<blockquote class="blockquote">
+<p><em>How confident are we that the intervention contributed to improvement?</em></p>
+</blockquote>
+<p>In the next module, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS evaluation methods through to Randomised Controlled Trials, Interrupted Time Series and Difference-in-Differences.</p>
 
 
 </section>
@@ -917,11 +980,14 @@ Role: Senior Strategic BI Lead</p>
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./07-Evaluating-Interventions-in-Practice.html" class="pagination-link" aria-label="Module 7 — Evaluating Interventions in Practice">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 7 — Evaluating Interventions in Practice</span></span>
+      <a href="./05-Standardisation-&amp;-Fair-Comparison.html" class="pagination-link" aria-label="Module 5- Standardisation &amp; Fair Comparison">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 5- Standardisation &amp; Fair Comparison</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./07-Evaluating-Interventions-in-Practice.html" class="pagination-link" aria-label="Module 7 — Evaluating Interventions in Practice">
+        <span class="nav-page-text"><span class="chapter-title">Module 7 — Evaluating Interventions in Practice</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

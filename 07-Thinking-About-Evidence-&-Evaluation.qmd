@@ -365,4 +365,34 @@ to ask:
 
 > *How confident are we that the intervention contributed to improvement?*
 
+## Key Takeaways
+
+- improvement alone does not prove intervention impact
+- fair comparison improves confidence in findings
+- small numbers and short pilots can mislead
+- some improvement may occur naturally over time
+- stronger evaluation asks whether trajectories changed
+- comparison groups improve confidence when randomisation is not practical
+
+Good evaluation moves beyond:
+
+> *Did outcomes improve?*
+
+to ask:
+
+> *How confident are we that the intervention genuinely contributed to change?*
+
+## Questions Decision-Makers Should Ask
+
+Before acting on evaluation findings, ask:
+
+- Compared with what?
+- Were the groups genuinely comparable?
+- Could small numbers or short follow-up be misleading?
+- Could improvement have happened naturally anyway?
+- Did the trajectory meaningfully change?
+- How confident are we that the intervention genuinely contributed to change?
+
 In the next module, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS evaluation methods through to Randomised Controlled Trials, Interrupted Time Series and Difference-in-Differences.
+
+

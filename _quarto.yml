@@ -11,8 +11,9 @@ book:
     - 03-Correlation-vs-Causation.qmd
     - 04-Variation-&-Distributions.qmd
     - 05-Standardisation-&-Fair-Comparison.qmd
-    - 06-Evaluation-of-Interventions-&-Schemes.qmd
-    - 07-Evaluating-Interventions-in-Practice.qmd
+    - 06-How-to-Read-a-Dashboard.qmd
+    - 07-Thinking-About-Evaluation-&-Intervention.qmd
+    - 08-Evaluating-Methods-in-Practice.qmd
     - Project.qmd
 
 format:

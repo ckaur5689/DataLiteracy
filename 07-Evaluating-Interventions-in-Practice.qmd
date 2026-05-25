@@ -230,7 +230,7 @@ RCTs can provide strong evidence.
 
 However:
 
-> **> **strong evidence is not always operationally practical****
+> **strong evidence is not always operationally practical**
 
 Healthcare environments are messy.
 
@@ -316,7 +316,7 @@ become important.
 
 Fortunately, the core idea is much simpler than the terminology suggests.
 
-# Why Small Numbers Can Mislead
+## Why Small Numbers Can Mislead
 
 Healthcare systems often evaluate schemes using:
 
@@ -668,8 +668,9 @@ and
 
 > *Could improvement have happened anyway?*
 
-
-## Part 2 Reflection
+---
+## Part 2 — Confidence, Small Numbers & Natural Fluctuation
+---
 
 Before moving on, ask:
 
@@ -677,7 +678,9 @@ Before moving on, ask:
 
 In the next section, we explore practical ways healthcare systems strengthen confidence in evaluation findings.
 
+---
 ## Part 3 — Strengthening Evaluation in Real-World Healthcare
+---
 
 In Part 1 and Part 2 of this module, we explored:
 
@@ -704,6 +707,14 @@ In reality:
 This creates an important question:
 
 > **How can healthcare systems strengthen evaluation when RCTs are unrealistic?**
+
+Two practical approaches commonly used in healthcare evaluation are:
+
+> **Interrupted Time Series (ITS)**
+
+and
+
+> **Difference-in-Differences (DiD)**
 
 These approaches do not eliminate uncertainty.
 
@@ -837,6 +848,8 @@ Confidence increases further.
 The image below illustrates the key question ITS asks:
 
 > **Did the trajectory meaningfully change after intervention?**
+
+Interrupted Time Series helps distinguish:
 
 > **normal change over time**
 

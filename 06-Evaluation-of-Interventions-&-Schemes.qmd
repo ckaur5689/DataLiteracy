@@ -1,0 +1,393 @@
+## Module 6 — Evaluating Interventions & Schemes
+
+### *Did it work — or would things have changed anyway?*
+
+## Module Learning Objective
+
+This module helps explain:
+
+> why evaluating healthcare interventions is often more difficult than it first appears — and how decision-makers can think more critically about whether changes in outcomes are genuinely attributable to a scheme or intervention.
+
+By the end of this module, readers should feel more confident asking:
+
+> *Did this intervention actually work — or would things have changed anyway?*
+
+The module focuses on practical healthcare examples, particularly interventions intended to reduce:
+
+* Emergency Department (ED) attendances
+* emergency admissions
+* avoidable hospital utilisation
+* delayed discharge
+* operational pressure
+
+It introduces practical approaches to evaluation without assuming prior statistical knowledge.
+
+---
+
+# Why Evaluating Healthcare Interventions Matters
+
+Healthcare systems frequently introduce schemes designed to improve outcomes or reduce demand.
+
+Examples may include:
+
+* frailty pathways
+* virtual wards
+* Same Day Emergency Care (SDEC) services
+* care navigation models
+* community multidisciplinary teams (MDTs)
+* anticipatory care programmes
+* admission avoidance services
+* discharge coordination schemes
+
+These interventions are often introduced with positive intentions:
+
+> reduce Emergency Department attendance
+
+> avoid unnecessary admissions
+
+> improve patient outcomes
+
+> reduce pressure on services
+
+After implementation, a common question quickly emerges:
+
+> **Did it work?**
+
+At first glance, this may seem straightforward.
+
+However, evaluating healthcare interventions is often far more complicated than it first appears.
+
+Healthcare systems rarely remain static.
+
+At the same time as an intervention is introduced:
+
+* winter pressures may occur
+* staffing may change
+* patient need may shift
+* flu or respiratory illness may rise or fall
+* other schemes may begin
+* pathways may change
+* coding practices may evolve
+
+This means:
+
+> **improvement does not automatically imply impact.**
+
+A reduction in Emergency Department attendance does not necessarily mean:
+
+> *the intervention caused the reduction.*
+
+---
+
+## A Practical Healthcare Example
+
+Imagine an Integrated Care Board introduces a new frailty service intended to reduce Emergency Department attendance among older adults.
+
+The service provides:
+
+* proactive frailty assessment
+* community MDT support
+* medication review
+* rapid response care coordination
+
+After six months:
+
+| Measure              | Before Scheme | After Scheme |
+| -------------------- | ------------: | -----------: |
+| ED attendances       |         1,200 |          980 |
+| Emergency admissions |           450 |          390 |
+
+At first glance:
+
+> success appears obvious.
+
+ED attendance has fallen.
+
+Emergency admissions have fallen.
+
+The scheme appears to have worked.
+
+But an important question remains:
+
+> **Would this reduction have happened anyway?**
+
+This question sits at the heart of intervention evaluation.
+
+---
+
+# The Biggest Evaluation Mistake: Before-and-After Comparisons
+
+One of the most common mistakes in healthcare evaluation is relying solely on simple before-and-after comparisons.
+
+For example:
+
+```text
+Before intervention:
+1,200 ED attendances
+
+After intervention:
+980 ED attendances
+```
+
+Conclusion:
+
+> “The scheme worked.”
+
+Sometimes that conclusion may be correct.
+
+But sometimes it may not.
+
+Why?
+
+Because healthcare systems are full of variation and competing influences.
+
+For example:
+
+* winter demand may have been milder
+* influenza rates may have fallen
+* ambulance conveyance patterns may have changed
+* another community service may have launched
+* hospital admission thresholds may have changed
+* random fluctuation may have occurred
+
+A simple before-and-after comparison cannot easily distinguish:
+
+> **correlation**
+
+from
+
+> **causation**
+
+This links directly back to Module 3:
+
+> *Correlation vs Causation*
+
+A change occurring after an intervention does not automatically mean:
+
+> the intervention caused the change.
+
+---
+
+## Why Before-and-After Comparisons Feel Convincing
+
+Simple comparisons are attractive because they are:
+
+* easy to understand
+* quick to produce
+* intuitive to explain
+
+For example:
+
+```text
+Admissions reduced by 15%
+```
+
+sounds persuasive.
+
+But healthcare systems are noisy and complex.
+
+Without additional context, before-and-after comparisons can create:
+
+* false confidence
+* overclaiming of impact
+* poor investment decisions
+* misleading conclusions
+
+The question should not simply be:
+
+> *Did things improve?*
+
+Instead, decision-makers should ask:
+
+> *How confident are we that the intervention caused the improvement?*
+
+---
+
+# Counterfactual Thinking: What Would Have Happened Anyway?
+
+One of the most important ideas in evaluation is surprisingly simple.
+
+To understand whether an intervention worked, we need to ask:
+
+> **What would likely have happened if we had done nothing?**
+
+This idea is known as:
+
+> **the counterfactual**
+
+In plain English:
+
+> *What would probably have happened anyway?*
+
+This is often the missing question in healthcare evaluation.
+
+---
+
+## A Simple Example
+
+Imagine ED attendance falls following introduction of a community frailty service.
+
+Question:
+
+> Did the intervention reduce attendance?
+
+Maybe.
+
+But another possibility exists:
+
+ED attendance might have reduced anyway because:
+
+* winter demand was lower
+* viral illness reduced
+* population behaviour changed
+* ambulance conveyance thresholds shifted
+* other services improved
+
+Without considering the counterfactual:
+
+> we risk mistaking coincidence for impact.
+
+---
+
+## Why Counterfactual Thinking Matters
+
+Evaluation becomes stronger when we compare reality with a plausible alternative.
+
+In simple terms:
+
+```text
+Observed outcome
+        vs
+What might reasonably have happened anyway
+```
+
+The closer we can get to a believable counterfactual:
+
+> the more confidence we have in our conclusions.
+
+---
+
+## Suggested Image 1 Placement
+
+**Place after:**
+
+> *Why Counterfactual Thinking Matters*
+
+### Image Concept:
+
+# Did the Intervention Work — or Would Things Have Changed Anyway?
+
+Simple split-panel infographic:
+
+### Left Panel — Naïve interpretation
+
+```text
+ED attendances ↓
+after intervention
+```
+
+Conclusion:
+
+> “The scheme worked”
+
+---
+
+### Right Panel — Better evaluation thinking
+
+```text
+ED attendances ↓
+```
+
+Questions:
+
+* What else changed?
+* What would have happened anyway?
+* Was winter milder?
+* Were other schemes running?
+* Is this normal variation?
+
+Footer:
+
+> Good evaluation asks: *Compared with what?*
+
+---
+
+# Levels of Evaluation Confidence
+
+Not all evaluation approaches provide the same level of confidence.
+
+Some approaches provide weak evidence.
+
+Others provide stronger evidence.
+
+A useful question for decision-makers is:
+
+> **How confident should we be that the intervention caused the observed change?**
+
+The diagram below illustrates a simplified hierarchy.
+
+```text
+Higher confidence in attribution
+↑
+Randomised Controlled Trial (RCT)
+Difference-in-Differences
+Interrupted Time Series
+Matched Comparator
+Trend Comparison
+Simple Before–After
+↓
+Lower confidence in attribution
+```
+
+This hierarchy is not about:
+
+> *good versus bad methods*
+
+Instead, it helps us think about:
+
+> **how confident we should be in causal conclusions.**
+
+Sometimes a simple before-and-after comparison may be all that is practical.
+
+However:
+
+> decision-makers should recognise its limitations.
+
+---
+
+## A Practical NHS Reality
+
+Healthcare systems rarely operate under ideal evaluation conditions.
+
+In practice:
+
+* interventions evolve over time
+* implementation varies between sites
+* operational pressures disrupt delivery
+* schemes overlap
+* data quality may vary
+* funding cycles are short
+
+This means healthcare evaluation often involves balancing:
+
+> **pragmatism**
+
+with
+
+> **confidence in findings**
+
+The question is rarely:
+
+> *Can we be completely certain?*
+
+Instead:
+
+> *How confident should we be?*
+
+---
+
+## Part 1 Key Reflection
+
+Before moving to more formal evaluation approaches, ask:
+
+> *If outcomes changed after an intervention, what evidence would genuinely convince us that the intervention caused the change?*

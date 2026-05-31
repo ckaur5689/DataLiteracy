@@ -84,19 +84,19 @@ The series will aim to be:
 
 Proposed Initial Modules:
 
-# Part 1 — Foundations of Healthcare Analytics Interpretation
+Part 1 — Foundations of Healthcare Analytics Interpretation
 
-- Counts vs Rates
-- Mean vs Median
-- Correlation vs Causation
-- Variation & Distributions
-- Standardisation & Fair Comparison
-- How to Read a Dashboard
-- Thinking About Evidence & Evaluation
-- Evaluation Methods in Practice
-- Risk, Probability & Uncertainty
+1. Counts vs Rates
+2. Mean vs Median
+3. Correlation vs Causation
+4. Variation & Distributions
+5. Standardisation & Fair Comparison
+6. How to Read a Dashboard
+7. Evaluating Interventions & Schemes (Thinking About Evidence)
+8. Evaluating Interventions in Practice (Methods)
+9. Risk, Probability & Uncertainty
 
-# Part 2 — Understanding & Improving Healthcare Systems
+# Part 2 — Understanding & Improving Healthcare Systems (to be decided)
 
 - Demand, Capacity & Operational Flow
 - Population Health Management & Segmentation

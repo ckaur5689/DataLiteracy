@@ -96,7 +96,7 @@ Part 1 — Foundations of Healthcare Analytics Interpretation
 8. Evaluating Interventions in Practice (Methods)
 9. Risk, Probability & Uncertainty
 
-# Part 2 — Understanding & Improving Healthcare Systems (to be decided)
+# Part 2 — Understanding & Improving Healthcare Systems (to be confirmed)
 
 - Demand, Capacity & Operational Flow
 - Population Health Management & Segmentation

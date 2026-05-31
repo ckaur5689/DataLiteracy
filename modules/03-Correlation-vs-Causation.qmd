@@ -1,8 +1,8 @@
 # Module 3 — Correlation vs Causation
 
-# Why relationships in healthcare data are rarely straightforward
+## Why relationships in healthcare data are rarely straightforward
 
-# When two things move together, does one cause the other?
+#### When two things move together, does one cause the other?
 
 Healthcare analytics frequently identifies relationships between variables.
 
@@ -22,7 +22,29 @@ This distinction matters enormously in healthcare analytics because healthcare s
 
 ---
 
-# What Is Correlation?
+## What Is Correlation?
+
+Imagine we observe:
+
+| Area   | Fast-food density | Obesity |
+| ------ | ----------------: | ------: |
+| Area A |               Low |     Low |
+| Area B |              High |    High |
+
+We might conclude:
+
+> *fast-food outlets directly cause obesity*
+
+But what else may matter?
+
+* income
+* access to healthy food
+* physical activity
+* deprivation
+* housing
+* education
+
+The relationship may be real — but the pathway behind it is often more complex than it first appears.
 
 Correlation describes a relationship between two variables.
 
@@ -48,7 +70,7 @@ But correlation alone cannot tell us:
 
 ---
 
-# Correlation Does Not Automatically Mean Causation
+## Correlation Does Not Automatically Mean Causation
 
 Suppose we observe:
 
@@ -79,7 +101,7 @@ In reality, deprivation often acts as a marker for a wider set of underlying ris
 
 ---
 
-# Example — Stroke Outcomes and Inequalities
+## Example — Stroke Outcomes and Inequalities
 
 Stroke outcomes often vary significantly between populations.
 
@@ -110,19 +132,39 @@ The example below illustrates how healthcare inequalities often emerge through m
 
 ![](images/CorrelationvsCausation.png)
 
+
+### Poor Interpretation vs Better Interpretation
+
+Observed:
+
+> higher deprivation → higher stroke mortality
+
+Poor interpretation:
+
+> “Deprivation causes stroke.”
+
+Better interpretation:
+
+> “Deprivation is associated with a set of behavioural, environmental, biological and access-related risks that may contribute to stroke outcomes.”
+
+
 ---
 
-# Confounding Variables
+## Confounding Variables
 
 A confounding variable is a factor that influences both variables being studied.
 
 For example:
 
+For example:
+
+```text
 Deprivation
       ↓
 Smoking prevalence
       ↓
 Stroke risk
+```
 
 If smoking prevalence is not considered, we may overestimate the direct effect of deprivation alone.
 
@@ -132,7 +174,7 @@ This is one reason why interpreting healthcare analytics requires caution.
 
 ---
 
-# Why Adjustment Matters
+## Why Adjustment Matters
 
 Healthcare analytics often uses adjustment methods to improve fairness and interpretation.
 
@@ -143,7 +185,7 @@ Examples include:
 * regression modelling
 * risk adjustment
 
-Adjustment attempts to answer:
+Adjustment helps us ask:
 
 > “What would outcomes look like if populations were more comparable?”
 
@@ -165,15 +207,17 @@ It means:
 
 Adjustment improves understanding — it does not remove complexity.
 
-# Looking deeper
+### Looking Deeper
 
-See:
+If interested, see:
 
-> Appendix — How Adjustment Works
+> **Appendix — How Adjustment Works**
+
+for a more detailed explanation of adjustment approaches used in healthcare analytics.
 
 ---
 
-# Correlation Can Still Be Extremely Useful
+## Correlation Can Still Be Extremely Useful
 
 Importantly:
 
@@ -197,7 +241,7 @@ The key is understanding that:
 
 ---
 
-# Operational Implications
+## Operational Implications
 
 Misinterpreting correlation as causation can lead to:
 
@@ -234,58 +278,45 @@ This moves analytics from:
 
 ---
 
-# From Correlation to Operational Action
+## From Correlation to Operational Action
 
 Effective healthcare analytics often follows this progression:
 
-Correlation
-    ↓
-Identify underlying drivers
-    ↓
-Adjustment and contextual analysis
-    ↓
-Cohort segmentation
-    ↓
-Operational targeting
-    ↓
-Pathway redesign
+| Step | Purpose |
+|---|---|
+| Correlation | Detect a signal |
+| Identify drivers | Explore explanations |
+| Adjustment | Improve interpretation |
+| Cohort segmentation | Identify who is affected |
+| Operational targeting | Focus intervention |
+| Pathway redesign | Improve outcomes |
 
 
-This is where analytics becomes most valuable.
+This is where healthcare analytics becomes most valuable — moving from observation to better intervention design.
 
 ---
 
-# Why Healthcare Data Is Particularly Complex
+## Why Healthcare Data Is Particularly Complex
 
-Healthcare systems involve:
+Healthcare outcomes rarely arise from a single cause.
 
-* biological factors
-* behavioural factors
-* social determinants
-* operational constraints
-* service variation
-* workforce pressures
-* policy decisions
+Instead:
 
-As a result:
-
-* relationships are rarely linear
-* multiple factors interact simultaneously
-* causation is often difficult to isolate fully
+* multiple factors interact
+* pathways overlap
+* operational context matters
 
 This is why healthcare analytics requires:
 
-* interpretation
-* context
-* operational understanding
-  —not just statistical outputs.
+> **interpretation, context and operational understanding — not statistical outputs alone**
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 * Correlation describes relationships between variables
 * Correlation alone does not prove causation
+* Correlation should start questions, not end them
 * Healthcare inequalities are usually driven by multiple interacting factors
 * Confounding variables can distort interpretation
 * Adjustment helps improve fairness and understanding
@@ -294,7 +325,7 @@ This is why healthcare analytics requires:
 
 ---
 
-# Questions Decision-Makers Should Ask
+## Questions Decision-Makers Should Ask
 
 When reviewing correlated healthcare metrics:
 

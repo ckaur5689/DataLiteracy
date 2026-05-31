@@ -2,9 +2,7 @@
 
 ## Module Learning Objective
 
-## This module helps explain
-
-why healthcare systems naturally exhibit variation and rarely behave in perfectly predictable ways — and why understanding variation is often more important than understanding averages.
+This module explains why healthcare systems naturally exhibit variation and rarely behave in perfectly predictable ways — and why understanding variation is often more important than understanding averages.
 
 ## Why Looking at the Data Matters
 
@@ -78,16 +76,13 @@ Healthcare data often behaves this way.
 
 Length of Stay provides one of the clearest examples.
 
-Imagine two hospitals:
+Healthcare data often behaves this way.
 
-| Trust | Mean Length of Stay |
-|---|---:|
-| Trust A | 6 days |
-| Trust B | 6 days |
+Length of Stay provides one of the clearest examples.
 
-The averages look identical.
+Two hospitals may report the same average Length of Stay while experiencing very different operational realities.
 
-However, plotting the data reveals a different story.
+We return to this example shortly.
 
 ### Trust A
 Most patients stay: 4–8 days
@@ -158,40 +153,14 @@ Healthcare examples:
 
 A small number of patients often drive disproportionate operational demand.
 
-### Poisson Distribution (Counts)
+### Counts & Proportions
 
-Common for:
+Healthcare systems often monitor:
 
-* falls
-* infections
-* incidents
-* admissions
-* complaints
+* counts (falls, incidents, infections)
+* proportions (% compliance, mortality, readmissions)
 
-Example:
-
-* number of falls per ward per month
-
-### Interpretation
-
-Useful for monitoring rare events over time.
-
-### Binomial / Proportion Distribution
-
-Common for:
-
-* mortality rates
-* readmission proportions
-* infection percentages
-* compliance rates
-
-Example:
-
-* % stroke patients receiving thrombolysis
-
-### Interpretation
-
-Used when monitoring proportions.
+These are useful because healthcare activity is often uneven and noisy.
 
 ### Bimodal Distributions
 
@@ -426,11 +395,11 @@ A relatively small cohort may consume a disproportionate share of bed days — a
 
 ## Statistical Process Control (SPC) Charts
 
+So far we have explored variation across patients.
+
 ### What Are SPC Charts?
 
 SPC charts help distinguish:
-
-So far we have explored variation across patients.
 
 But healthcare systems also vary over time.
 
@@ -557,11 +526,10 @@ Simulation will be explored in more detail in a later module in the series.
 * Are we looking only at an average — or the full distribution of activity?
 * Could a relatively small cohort be driving disproportionate operational pressure or demand?
 * Are we seeing expected variation — or evidence of something meaningfully different?
-* Is this signal likely to reflect real change or random fluctuation?
+* Is this signal likely to reflect real change or random fluctuation? Would SPC help us distinguish?
 * Does this metric hide operational complexity (for example, frailty, delayed discharge or multimorbidity)?
 * Are there different patient groups or pathways hidden within the data?
 * What operational actions would realistically follow from this analysis?
-* Would SPC help us distinguish real change from normal fluctuation?
 * Has the system become too complex for averages and trend lines alone?
 * Would scenario modelling or simulation help us test future options?
 

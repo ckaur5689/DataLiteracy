@@ -1,8 +1,7 @@
 # Module 2 — Mean vs Median
 
-# Why averages can hide operational reality
-
-# What can an average mean?
+## Why Averages Can Hide Operational Reality
+### What Can an Average Mean?
 
 In healthcare analytics, averages are everywhere.
 
@@ -25,11 +24,11 @@ Behind a single average often sits:
 * long-tail demand
 * very different patient experiences
 
-This means averages can sometimes hide more than they reveal.
+Averages simplify reality — but they can also obscure it.
 
 ---
 
-# Why This Matters in Healthcare
+## Why This Matters in Healthcare
 
 Suppose two Trusts report the following:
 
@@ -59,7 +58,7 @@ This is one of the most important principles in healthcare analytics:
 
 ---
 
-# Mean vs Median
+## Mean vs Median
 
 Two commonly used “averages” are:
 
@@ -72,11 +71,35 @@ The mean is sensitive to extreme values (outliers).
 
 The median is often more stable and better reflects the “typical” patient experience.
 
+### Why Mean and Median Diverge
+Imagine ten patients stay in hospital for:
+
+```text
+2, 2, 2, 3, 3, 3, 4, 5, 6, 35
+```
+
+Most patients stay only a few days.
+
+But one very long-stay patient changes the average dramatically.
+
+| Measure |   Result |
+| ------- | -------: |
+| Mean    | 6.5 days |
+| Median  |   3 days |
+
+> **The median helps understand the typical patient.
+> The mean helps understand overall system burden and resource use.**
+
+In healthcare:
+
+> **both matter — but for different reasons**
+
 ---
 
-# Example — Length of Stay (LoS)
+## Example — Length of Stay (LoS)
 
 Length of Stay data is usually heavily right-skewed.
+The example below shows how mean and median can diverge across different patient groups.
 
 This means:
 
@@ -99,11 +122,19 @@ However, a relatively small number of long-stay patients can account for a dispr
 
 Operationally, this matters enormously.
 
+The figure below illustrates why mean and median may tell very different stories in healthcare operational data.
+
+Notice something important:
+
+> median LoS changes relatively little, while mean LoS increases substantially as complexity and frailty rise.
+
+This suggests a relatively small number of patients may be driving disproportionate bed occupancy.
+
 ![](images/MeanvsMedian_LoS.png)
 
 ---
 
-# Why The Distribution Matters
+## Why The Distribution Matters
 
 If we only report the mean:
 
@@ -125,34 +156,24 @@ Sometimes:
 
 ---
 
-# Is It Fair To Compare Trusts or ICBs Using Averages?
+## Is It Fair To Compare Trusts or ICBs Using Averages?
 
-Partly — but with caution.
+Averages support benchmarking — but only with context.
 
-Healthcare organisations serve different populations under different operational conditions.
+Simple comparison may overlook:
 
-Simple averages may not fully account for:
-
-* age structure
-* deprivation
+* population need
 * frailty burden
-* case complexity
-* rurality
-* social care capacity
-* community service availability
+* pathway complexity
+* social care pressures
 
-This is why fair comparison often requires:
+This is why benchmarking should support questions and learning rather than simplistic league tables.
 
-* peer-group benchmarking
-* case-mix adjustment
-* pathway segmentation
-* contextual interpretation
-
-Benchmarking should support questions and learning — not simplistic league tables.
+(We explore fair comparison in more depth in Module 5.)
 
 ---
 
-# What Does Model Hospital Use?
+## Benchmarking in Practice — Model Hospital
 
 NHS England’s Model Hospital (Model Health System) uses many averages and benchmark metrics including:
 
@@ -176,46 +197,56 @@ No single metric tells the whole story.
 
 ---
 
-# Operational Implications
+## Operational Implications
 
-Averages remain useful because they:
+Averages remain useful.
 
-* summarise activity quickly
-* support benchmarking
+They help organisations:
+
+* summarise performance quickly
+* benchmark over time
 * identify broad variation
-* help monitor trends over time
 
 But averages alone should rarely drive operational decisions.
 
-Particularly in healthcare, we must understand:
+### Waiting Time Example
 
-* variation
-* outliers
-* long-tail demand
-* patient complexity
-* operational context
+An average waiting time of:
 
-Otherwise we risk:
+> 4 weeks
 
-* drawing incorrect conclusions
-* setting unrealistic targets
-* overlooking hidden operational pressures
+may sound acceptable.
+
+But if:
+
+* most patients wait 1–2 weeks
+* a smaller group waits 30+ weeks
+
+the average hides an important operational problem.
+
+The average waiting time may look acceptable.
+
+But the patient experience — and operational risk — may not be.
+
+Again:
+
+> the shape of the distribution matters.
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 * The mean and median measure different aspects of a population
 * Healthcare data is often skewed rather than normally distributed
 * A small number of patients can drive disproportionate operational pressure
-* The median often better reflects the “typical” patient experience
+* The median often reflects the “typical” patient experience, while the mean better reflects system burden
 * The distribution may matter more than the average itself
 * Fair comparison requires context, not just metrics
 * Benchmarking should start conversations, not end them
 
 ---
 
-# Questions Decision-Makers Should Ask
+## Questions Decision-Makers Should Ask
 
 When reviewing averages:
 

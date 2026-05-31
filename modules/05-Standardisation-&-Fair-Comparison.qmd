@@ -17,15 +17,15 @@ This creates an important challenge:
 
 How can we compare healthcare outcomes fairly without losing sight of operational reality?
 
-# Why do we adjust healthcare data?
+## Why do we adjust healthcare data?
 
 Adjustment attempts to account for these differences so comparisons become fairer and more meaningful.
 
 ---
 
-# Age Adjustment
+## Age Adjustment
 
-## Age-specific rate
+### Age-specific rate
 
 An age-specific rate is calculated separately for each age group:
 
@@ -48,7 +48,7 @@ This allows comparison within similar age groups.
 
 ---
 
-## Direct age-standardised rate
+### Direct age-standardised rate
 
 Age-standardisation applies a standard population structure to both populations:
 
@@ -66,13 +66,13 @@ This answers:
 
 > “What would the outcome rate look like if both populations had the same age structure?”
 
-# Which Standard Population Should We Use?
+## Which Standard Population Should We Use?
 
 Age-standardisation requires the use of a standard population structure.
 
 In England, the most commonly used standard population is the:
 
-## European Standard Population (ESP2013)
+### European Standard Population (ESP2013)
 
 This provides a consistent age distribution that allows fairer comparison between populations with different age structures.
 
@@ -126,7 +126,7 @@ This highlights an important distinction:
 
 > Statistical comparability does not always equal operational comparability.
 
-# When National Population Structures May Be Useful
+### When National Population Structures May Be Useful
 
 In some operational analyses, using:
 
@@ -153,7 +153,7 @@ In these situations:
 
  - age-specific operational demand may matter more than fully standardised comparison.
 
-# Operational Interpretation Matters
+## Operational Interpretation Matters
 
 Neither approach is universally “correct”.
 
@@ -163,7 +163,7 @@ The appropriate approach depends on the question being asked. For example:
 
 ![](images/StatisticalFairnessvsOperationalReality.png)
 
-# Adjustment Using Regression Models
+## Adjustment Using Regression Models
 
 Standardisation is one approach to improving fairness in comparison.
 
@@ -181,7 +181,7 @@ may all influence stroke outcomes simultaneously.
 
 ---
 
-# Frailty Adjustment
+### Frailty Adjustment
 
 Frailty can be represented in several ways:
 
@@ -282,7 +282,7 @@ So:
 > a 10% reduction target may be much more achievable in one system than another.
 
 
-## Example:
+### Example:
 
 | | ICB A | ICB B |
 |---|---|---|
@@ -378,7 +378,7 @@ Even where rates appear comparable, factors such as frailty, deprivation, pathwa
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 Adjustment improves fairness and interpretation.
 

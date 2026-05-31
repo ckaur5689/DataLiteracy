@@ -124,15 +124,11 @@ ICB A may still experience significantly greater operational pressure due to:
 
 This highlights an important distinction:
 
-> Statistical comparability does not always equal operational comparability.
+> Comparable performance does not imply equal opportunity for improvement.
 
 ### When National Population Structures May Be Useful
 
-In some operational analyses, using:
-
-national population distributions
-OR
-age-specific rates
+In some operational analyses, national population distributions or age-specific rates may provide a more realistic reflection of healthcare demand.
 
 may provide a more realistic reflection of expected healthcare demand.
 
@@ -291,7 +287,7 @@ So:
 | Likely drivers | Pathway gaps | Frailty / care homes |
 | Opportunity for reduction | Higher | Lower |
 
-Similar rates. Different operational reality.
+Similar rates. Very different operational reality.
 
 A blanket:
 

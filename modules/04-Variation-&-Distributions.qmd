@@ -74,9 +74,9 @@ Numbers summarise data — but plots help us understand it.
 
 ## A Healthcare Example: Length of Stay
 
-This matters enormously in healthcare.
+Healthcare data often behaves this way.
 
-Imagine two hospitals:
+Length of Stay provides one of the clearest examples.
 
 Imagine two hospitals:
 
@@ -84,8 +84,6 @@ Imagine two hospitals:
 |---|---:|
 | Trust A | 6 days |
 | Trust B | 6 days |
-
-The averages look identical.
 
 The averages look identical.
 
@@ -259,7 +257,7 @@ A relatively small number of patients can consume a disproportionate number of b
 
 This matters enormously operationally.
 
-## Moderate to Severe Frailty and Multimorbidity
+## Why Longer stays may occur
 
 Longer stays are often not random.
 
@@ -349,6 +347,20 @@ This highlights an important lesson:
 
 > identical averages do not imply identical operational systems.
 
+### Poor Interpretation vs Better Interpretation
+
+Observed:
+
+> Mean LoS = 6 days in both trusts
+
+Poor interpretation:
+
+> “The hospitals perform similarly.”
+
+Better interpretation:
+
+> “The averages are similar, but the underlying distribution and operational pressures may differ substantially.”
+
 ## Why This Matters for Population Health Management (PHM)
 
 Understanding who sits in the long tail matters.
@@ -417,6 +429,16 @@ A relatively small cohort may consume a disproportionate share of bed days — a
 ## What Are SPC Charts?
 
 SPC charts help distinguish:
+
+So far we have explored variation across patients.
+
+But healthcare systems also vary over time.
+
+This raises another important question:
+
+> is change meaningful — or simply normal fluctuation?
+
+This is where SPC charts help.
 
 ### common cause variation
 

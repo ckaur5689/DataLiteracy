@@ -1,6 +1,6 @@
 # Module 4 - Variation & Distributions
 
-# Module Learning Objective
+## Module Learning Objective
 
 ## This module helps explain
 
@@ -32,7 +32,7 @@ This creates an important lesson:
 
 > Always look at the shape of the data — not just the summary numbers.
 
-# A Statistical Cautionary Tale
+## A Statistical Cautionary Tale
 
 In statistics, there are famous examples showing how datasets can appear almost identical numerically while looking completely different when plotted.
 
@@ -115,12 +115,12 @@ Operationally:
 
 identical summary statistics do not imply identical operational systems.
 
-# Common Patterns of Variation in Healthcare
+## Common Patterns of Variation in Healthcare
 
 Before returning to Length of Stay in more detail, it is useful to understand some common ways healthcare activity behaves statistically.
 These patterns help explain why healthcare systems rarely behave in smooth or predictable ways.
 
-## Normal Distribution
+### Normal Distribution
 
 Characteristics:
 
@@ -138,7 +138,7 @@ Healthcare examples:
 
 Variation is relatively predictable.
 
-## Right-Skewed Distribution (Most Common in Healthcare)
+### Right-Skewed Distribution (Most Common in Healthcare)
 
 Characteristics:
 
@@ -158,7 +158,7 @@ Healthcare examples:
 
 A small number of patients often drive disproportionate operational demand.
 
-## Poisson Distribution (Counts)
+### Poisson Distribution (Counts)
 
 Common for:
 
@@ -176,7 +176,7 @@ Example:
 
 Useful for monitoring rare events over time.
 
-## Binomial / Proportion Distribution
+### Binomial / Proportion Distribution
 
 Common for:
 
@@ -193,7 +193,7 @@ Example:
 
 Used when monitoring proportions.
 
-## Bimodal Distributions
+### Bimodal Distributions
 
 Characteristics:
 
@@ -213,7 +213,7 @@ May suggest:
 * hidden segmentation
 * pathway effects
 
-# Length of Stay (LoS): Looking Beyond the Average
+## Length of Stay (LoS): Looking Beyond the Average
 
 Length of Stay (LoS) is one of the most common healthcare measures used to monitor hospital performance, patient flow and operational pressure.
 
@@ -237,7 +237,7 @@ For example:
 
 This means the “average” Length of Stay can sometimes hide what services are actually experiencing operationally.
 
-## Understanding Skew and Tails
+### Understanding Skew and Tails
 
 In a symmetrical distribution, most values cluster evenly around the middle.
 
@@ -257,7 +257,7 @@ A relatively small number of patients can consume a disproportionate number of b
 
 This matters enormously operationally.
 
-## Why Longer stays may occur
+### Why Longer stays may occur
 
 Longer stays are often not random.
 
@@ -294,7 +294,7 @@ Even if medically fit, discharge may remain delayed due to wider system complexi
 
 This means Length of Stay is often influenced by much more than clinical recovery alone.
 
-## Delayed Discharge and Operational Pressure
+### Delayed Discharge and Operational Pressure
 
 Delayed discharge provides an important example of how distributions matter.
 
@@ -394,7 +394,7 @@ These cohorts may benefit from:
 * enhanced discharge planning
 * community-based intervention
 
-# Why This Matters for Pathway Redesign and Demand Management
+## Why This Matters for Pathway Redesign and Demand Management
 
 Variation in Length of Stay can reveal where systems are struggling.
 
@@ -424,9 +424,9 @@ Which patients are driving demand, why, and what can realistically be done diffe
 
 A relatively small cohort may consume a disproportionate share of bed days — and understanding this cohort may unlock some of the greatest opportunities for pathway redesign, prevention and demand management.
 
-# Statistical Process Control (SPC) Charts
+## Statistical Process Control (SPC) Charts
 
-## What Are SPC Charts?
+### What Are SPC Charts?
 
 SPC charts help distinguish:
 
@@ -452,7 +452,7 @@ vs
 
 This is extremely NHS relevant.
 
-## When SPC Charts Work Well
+### When SPC Charts Work Well
 
 When monitoring:
 
@@ -491,7 +491,7 @@ The examples below illustrate how SPC can help distinguish expected fluctuation 
 
 ![](images/SPCExamples_5.png)
 
-# When NOT To Use SPC
+### When NOT To Use SPC
 
 Important section.
 
@@ -514,7 +514,7 @@ It only flags:
 
 That distinction matters.
 
-# Looking Ahead: When Understanding Variation Is Not Enough
+## Looking Ahead: When Understanding Variation Is Not Enough
 
 Understanding variation helps us interpret healthcare systems.
 
@@ -542,7 +542,7 @@ Rather than relying only on averages or historical trends, simulation allows hea
 
 Simulation will be explored in more detail in a later module in the series.
 
-# Key Takeaways
+## Key Takeaways
 
 * Healthcare systems naturally exhibit variation — averages rarely tell the whole story
 * Summary statistics can look similar while masking very different operational realities
@@ -552,7 +552,7 @@ Simulation will be explored in more detail in a later module in the series.
 * SPC highlights signals — but does not explain causes
 * When systems become highly variable or operationally complex, simulation models may help explore future scenarios
 
-# Questions Decision-Makers Should Ask
+## Questions Decision-Makers Should Ask
 
 * Are we looking only at an average — or the full distribution of activity?
 * Could a relatively small cohort be driving disproportionate operational pressure or demand?

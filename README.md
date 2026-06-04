@@ -6,24 +6,10 @@ This repository explores common healthcare analytics concepts using realistic NH
 
 The aim is to improve data literacy across healthcare by combining:
 
-      - statistical explanation
+      - explanation of key analytical concepts
       - healthcare operational context
-      - reproducible Python examples
-      - visual analytics
+      - visual examples
       - strategic interpretation
-
-## Topics include (to be confirmed):
-
-        1. Counts vs Rates
-        2. Mean vs Median
-        3. Correlation vs Causation
-        4. Data Quality
-        5. Forecasting Demand
-        6. Risk Adjustment
-        7. PCA Transparency
-        8. Regression Assumptions
-        9. Explainable AI
-       10. BI → Augmented Analytics
 
 ## Audience:
 

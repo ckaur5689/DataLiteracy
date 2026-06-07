@@ -212,7 +212,7 @@ The intervention may then appear more successful than it truly is.
 
 Randomisation helps reduce this risk.
 
-![](images/RCT_3.png)
+![](../images/RCT_3.png)
 
 The key idea is simple:
 
@@ -492,7 +492,7 @@ But it increases confidence.
 
 The image below illustrates why small evaluations often produce more unstable and uncertain findings — even when results initially look promising.
 
-![](images/SmallSamplesvsStrongerEvidence_4.png)
+![](../images/SmallSamplesvsStrongerEvidence_4.png)
 
 ## Why This Matters for Healthcare Decision-Making
 
@@ -634,7 +634,7 @@ The image below illustrates an important evaluation risk:
 
 > improvement does not always mean intervention impact.
 
-![](images/RegressionToMean_5.png)
+![](../images/RegressionToMean_5.png)
 
 ## Why This Matters for Healthcare Decision-Making
 
@@ -857,7 +857,7 @@ from
 
 > **potential intervention impact**
 
-![](images/InterruptedTimeSeries_6.png)
+![](../images/InterruptedTimeSeries_6.png)
 
 
 ## Why ITS Matters for Healthcare Decision-Making
@@ -990,7 +990,7 @@ The image below illustrates the core idea behind Difference-in-Differences:
 
 > **good evaluation compares change — not just outcomes**
 
-![](images/DifferenceInDifferences_7.png)
+![](../images/DifferenceInDifferences_7.png)
 
 ## Why DiD Matters for Healthcare Decision-Making
 

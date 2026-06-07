@@ -130,7 +130,7 @@ This means:
 
 The example below illustrates how healthcare inequalities often emerge through multiple interconnected risk factors rather than a single direct cause-and-effect relationship.
 
-![](images/CorrelationvsCausation.png)
+![](../images/CorrelationvsCausation.png)
 
 
 ### Poor Interpretation vs Better Interpretation

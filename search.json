@@ -1320,6 +1320,36 @@
     ]
   },
   {
+    "objectID": "modules/09-Risk-Probability-Uncertainty.html#poor-interpretation-vs-better-interpretation",
+    "href": "modules/09-Risk-Probability-Uncertainty.html#poor-interpretation-vs-better-interpretation",
+    "title": "Module 9: Risk, Probability & Uncertainty",
+    "section": "Poor Interpretation vs Better Interpretation",
+    "text": "Poor Interpretation vs Better Interpretation\n\nPoor Interpretation\n\n“We don’t know for certain that this will work, so we should wait.”\n\n\n\nBetter Interpretation\n\n“We have uncertainty, but do we have enough evidence to justify testing the intervention safely?”\n\n\n\n\nPoor Interpretation\n\n“The forecast says demand will increase by 15%.”\n\n\n\nBetter Interpretation\n\n“The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate.”\n\n\n\n\nPoor Interpretation\n\n“The intervention might fail, so we shouldn’t proceed.”\n\n\n\nBetter Interpretation\n\n“What are the risks of proceeding, and what are the risks of doing nothing?”\n\n\n\n\nPoor Interpretation\n\n“We need more data.”\n\n\n\nBetter Interpretation\n\n“Would additional data materially change our decision?”",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+    ]
+  },
+  {
+    "objectID": "modules/09-Risk-Probability-Uncertainty.html#questions-decision-makers-should-ask",
+    "href": "modules/09-Risk-Probability-Uncertainty.html#questions-decision-makers-should-ask",
+    "title": "Module 9: Risk, Probability & Uncertainty",
+    "section": "Questions Decision-Makers Should Ask",
+    "text": "Questions Decision-Makers Should Ask\n\nWhat level of uncertainty exists in this analysis?\nWhat assumptions underpin these findings?\nWhat information is missing or unknown?\nHow sensitive are the conclusions to those assumptions?\nWhat are the risks of acting?\nWhat are the risks of not acting?\nIs there a lower-risk way to test this first?\nWhat evidence would increase our confidence?\nAre we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?\nCan we pilot, evaluate and adapt rather than committing to a full-scale implementation?",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+    ]
+  },
+  {
+    "objectID": "modules/09-Risk-Probability-Uncertainty.html#key-takeaways",
+    "href": "modules/09-Risk-Probability-Uncertainty.html#key-takeaways",
+    "title": "Module 9: Risk, Probability & Uncertainty",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\nRisk is not certainty.\nProbability describes the likelihood of an event, not whether it will definitely occur.\nAll analyses contain some degree of uncertainty.\nForecasts and predictions should be interpreted as estimates rather than promises.\nDecisions should consider both the risks of action and the risks of inaction.\nDifferent decisions require different levels of evidence.\nWaiting for perfect information is itself a decision and may carry risks.\nEffective organisations acknowledge uncertainty, learn quickly and make proportionate decisions using the best evidence available at the time.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+    ]
+  },
+  {
     "objectID": "Project.html",
     "href": "Project.html",
     "title": "Project - Healthcare Data Literacy Series",

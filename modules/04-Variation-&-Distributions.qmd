@@ -68,7 +68,7 @@ while another may contain:
 
 Numbers summarise data — but plots help us understand it.
 
-![](images/SameSummaryStatistics_DifferentReality_1.png)
+![](../images/SameSummaryStatistics_DifferentReality_1.png)
 
 ## A Healthcare Example: Length of Stay
 
@@ -239,7 +239,7 @@ They may be disproportionately associated with patients who experience:
 * housing instability
 * complex discharge requirements
 
-![](images/WhyLongerStaysHappen_2.png)
+![](../images/WhyLongerStaysHappen_2.png)
 
 For example:
 
@@ -300,7 +300,7 @@ But a smaller group experience:
 
 Operationally, these hospitals may feel very different.
 
-![](images/OperationalConsequencesLongTail_3.png)
+![](../images/OperationalConsequencesLongTail_3.png)
 
 Trust B may experience:
 
@@ -343,7 +343,7 @@ If a relatively small cohort consumes a large proportion of bed days, important 
 
 This moves analytics beyond description and into action.
 
-![](images/TargetingInterventionsforBetterOutcomes_4.png)
+![](../images/TargetingInterventionsforBetterOutcomes_4.png)
 
 For example:
 
@@ -458,7 +458,7 @@ Question:
 
 The examples below illustrate how SPC can help distinguish expected fluctuation from meaningful change in healthcare systems.
 
-![](images/SPCExamples_5.png)
+![](../images/SPCExamples_5.png)
 
 ### When NOT To Use SPC
 

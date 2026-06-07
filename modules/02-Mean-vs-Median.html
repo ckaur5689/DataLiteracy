@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Chandan Kaur">
 
-<title>Health Data Literacy</title>
+<title>Module 2 — Mean vs Median – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,24 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./modules/01-Counts-vs-Rates.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../modules/03-Correlation-vs-Causation.html" rel="next">
+<link href="../modules/01-Counts-vs-Rates.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">Welcome</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/02-Mean-vs-Median.html"><span class="chapter-title">Module 2 — Mean vs Median</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Health Data Literacy</a> 
+      <a href="../">Health Data Literacy</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -126,57 +126,57 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Welcome</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/01-Counts-vs-Rates.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 1 - Counts vs Rates</span></a>
+  <a href="../modules/01-Counts-vs-Rates.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 1 - Counts vs Rates</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/02-Mean-vs-Median.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 2 — Mean vs Median</span></a>
+  <a href="../modules/02-Mean-vs-Median.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 2 — Mean vs Median</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
+  <a href="../modules/03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/04-Variation-&amp;-Distributions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 4 - Variation &amp; Distributions</span></a>
+  <a href="../modules/04-Variation-&amp;-Distributions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 4 - Variation &amp; Distributions</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/05-Standardisation-&amp;-Fair-Comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 5 — Standardisation &amp; Fair Comparison</span></a>
+  <a href="../modules/05-Standardisation-&amp;-Fair-Comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 5 — Standardisation &amp; Fair Comparison</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/06-How-to-Read-a-Dashboard.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 6 — How to Read a Dashboard</span></a>
+  <a href="../modules/06-How-to-Read-a-Dashboard.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 6 — How to Read a Dashboard</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/07-Thinking-About-Evidence-&amp;-Evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a>
+  <a href="../modules/07-Thinking-About-Evidence-&amp;-Evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/08-Evaluating-Methods-in-Practice.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></a>
+  <a href="../modules/08-Evaluating-Methods-in-Practice.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a>
+  <a href="../modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></a>
+  <a href="../Project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></a>
   </div>
 </li>
     </ul>
@@ -189,14 +189,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
+  <li><a href="#why-averages-can-hide-operational-reality" id="toc-why-averages-can-hide-operational-reality" class="nav-link active" data-scroll-target="#why-averages-can-hide-operational-reality">Why Averages Can Hide Operational Reality</a>
   <ul class="collapse">
-  <li><a href="#the-series-is-designed-to-support" id="toc-the-series-is-designed-to-support" class="nav-link" data-scroll-target="#the-series-is-designed-to-support">The series is designed to support:</a></li>
-  <li><a href="#in-developing-a-stronger-understanding-of" id="toc-in-developing-a-stronger-understanding-of" class="nav-link" data-scroll-target="#in-developing-a-stronger-understanding-of">in developing a stronger understanding of:</a></li>
-  <li><a href="#rather-than-focusing-purely-on-statistical-methods-the-series-emphasises" id="toc-rather-than-focusing-purely-on-statistical-methods-the-series-emphasises" class="nav-link" data-scroll-target="#rather-than-focusing-purely-on-statistical-methods-the-series-emphasises">Rather than focusing purely on statistical methods, the series emphasises:</a></li>
-  <li><a href="#each-module-includes" id="toc-each-module-includes" class="nav-link" data-scroll-target="#each-module-includes">Each module includes:</a></li>
-  <li><a href="#guiding-philosophy" id="toc-guiding-philosophy" class="nav-link" data-scroll-target="#guiding-philosophy">Guiding Philosophy</a></li>
+  <li><a href="#what-can-an-average-mean" id="toc-what-can-an-average-mean" class="nav-link" data-scroll-target="#what-can-an-average-mean">What Can an Average Mean?</a></li>
   </ul></li>
+  <li><a href="#why-this-matters-in-healthcare" id="toc-why-this-matters-in-healthcare" class="nav-link" data-scroll-target="#why-this-matters-in-healthcare">Why This Matters in Healthcare</a></li>
+  <li><a href="#mean-vs-median" id="toc-mean-vs-median" class="nav-link" data-scroll-target="#mean-vs-median">Mean vs Median</a>
+  <ul class="collapse">
+  <li><a href="#why-mean-and-median-diverge" id="toc-why-mean-and-median-diverge" class="nav-link" data-scroll-target="#why-mean-and-median-diverge">Why Mean and Median Diverge</a></li>
+  </ul></li>
+  <li><a href="#example-length-of-stay-los" id="toc-example-length-of-stay-los" class="nav-link" data-scroll-target="#example-length-of-stay-los">Example — Length of Stay (LoS)</a></li>
+  <li><a href="#why-the-distribution-matters" id="toc-why-the-distribution-matters" class="nav-link" data-scroll-target="#why-the-distribution-matters">Why The Distribution Matters</a></li>
+  <li><a href="#is-it-fair-to-compare-trusts-or-icbs-using-averages" id="toc-is-it-fair-to-compare-trusts-or-icbs-using-averages" class="nav-link" data-scroll-target="#is-it-fair-to-compare-trusts-or-icbs-using-averages">Is It Fair To Compare Trusts or ICBs Using Averages?</a></li>
+  <li><a href="#benchmarking-in-practice-model-hospital" id="toc-benchmarking-in-practice-model-hospital" class="nav-link" data-scroll-target="#benchmarking-in-practice-model-hospital">Benchmarking in Practice — Model Hospital</a></li>
+  <li><a href="#operational-implications" id="toc-operational-implications" class="nav-link" data-scroll-target="#operational-implications">Operational Implications</a>
+  <ul class="collapse">
+  <li><a href="#waiting-time-example" id="toc-waiting-time-example" class="nav-link" data-scroll-target="#waiting-time-example">Waiting Time Example</a></li>
+  </ul></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
   </ul>
 </nav>
     </div>
@@ -205,19 +216,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Health Data Literacy</h1>
+<h1 class="title"><span class="chapter-title">Module 2 — Mean vs Median</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Chandan Kaur </p>
-          </div>
-  </div>
     
   
     
@@ -228,60 +233,299 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome" class="level1">
-<h1>Welcome</h1>
-<p>The Healthcare Data Literacy series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.</p>
-<section id="the-series-is-designed-to-support" class="level2">
-<h2 class="anchored" data-anchor-id="the-series-is-designed-to-support">The series is designed to support:</h2>
+<section id="why-averages-can-hide-operational-reality" class="level2">
+<h2 class="anchored" data-anchor-id="why-averages-can-hide-operational-reality">Why Averages Can Hide Operational Reality</h2>
+<section id="what-can-an-average-mean" class="level3">
+<h3 class="anchored" data-anchor-id="what-can-an-average-mean">What Can an Average Mean?</h3>
+<p>In healthcare analytics, averages are everywhere.</p>
+<p>We regularly see:</p>
 <ul>
-<li>analysts</li>
-<li>operational leaders</li>
-<li>clinicians</li>
-<li>managers</li>
-<li>decision-makers</li>
+<li>average Length of Stay (LoS)</li>
+<li>average waiting times</li>
+<li>average cost per patient</li>
+<li>average ED attendances</li>
+<li>average theatre utilisation</li>
 </ul>
-</section>
-<section id="in-developing-a-stronger-understanding-of" class="level2">
-<h2 class="anchored" data-anchor-id="in-developing-a-stronger-understanding-of">in developing a stronger understanding of:</h2>
+<p>Averages are useful because they simplify complex information into a single number that is easy to communicate and compare.</p>
+<p>But healthcare systems are rarely “average”.</p>
+<p>Behind a single average often sits:</p>
 <ul>
-<li>healthcare metrics</li>
-<li>variation</li>
-<li>benchmarking</li>
-<li>inequalities</li>
-<li>operational performance</li>
-<li>population health</li>
-<li>analytical fairness and interpretation</li>
+<li>significant variation</li>
+<li>operational complexity</li>
+<li>long-tail demand</li>
+<li>very different patient experiences</li>
 </ul>
+<p>Averages simplify reality — but they can also obscure it.</p>
+<hr>
 </section>
-<section id="rather-than-focusing-purely-on-statistical-methods-the-series-emphasises" class="level2">
-<h2 class="anchored" data-anchor-id="rather-than-focusing-purely-on-statistical-methods-the-series-emphasises">Rather than focusing purely on statistical methods, the series emphasises:</h2>
+</section>
+<section id="why-this-matters-in-healthcare" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters-in-healthcare">Why This Matters in Healthcare</h2>
+<p>Suppose two Trusts report the following:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Trust</th>
+<th>Average Length of Stay</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Trust A</td>
+<td>5.1 days</td>
+</tr>
+<tr class="even">
+<td>Trust B</td>
+<td>7.2 days</td>
+</tr>
+</tbody>
+</table>
+<p>At first glance, Trust B may appear less efficient.</p>
+<p>But is that comparison fair?</p>
+<p>What if Trust B:</p>
 <ul>
-<li>analytical reasoning</li>
-<li>operational context</li>
-<li>fair comparison</li>
-<li>interpretation of healthcare metrics</li>
-<li>asking better questions of data</li>
+<li>serves an older population</li>
+<li>has higher frailty prevalence</li>
+<li>has more patients with multiple long-term conditions</li>
+<li>experiences delayed discharges due to social care pressures</li>
+<li>operates a tertiary specialist service</li>
+<li>has limited community capacity</li>
 </ul>
-<p>The examples throughout the series are intentionally grounded in realistic NHS operational and population health scenarios.</p>
-</section>
-<section id="each-module-includes" class="level2">
-<h2 class="anchored" data-anchor-id="each-module-includes">Each module includes:</h2>
-<ul>
-<li>practical examples</li>
-<li>visual explanations</li>
-<li>operational interpretation</li>
-<li>“Questions Decision-Makers Should Ask” sections to encourage critical thinking and discussion.</li>
-</ul>
-</section>
-<section id="guiding-philosophy" class="level2">
-<h2 class="anchored" data-anchor-id="guiding-philosophy">Guiding Philosophy</h2>
+<p>The average alone does not tell us this.</p>
+<p>This is one of the most important principles in healthcare analytics:</p>
 <blockquote class="blockquote">
-<p>Good healthcare analytics is not just about producing numbers.<br>
-It is about helping people interpret, question and use those numbers responsibly within complex healthcare systems.</p>
+<p>Averages summarise data — but they do not explain it.</p>
 </blockquote>
-
-
+<hr>
 </section>
+<section id="mean-vs-median" class="level2">
+<h2 class="anchored" data-anchor-id="mean-vs-median">Mean vs Median</h2>
+<p>Two commonly used “averages” are:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th>What it represents</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mean</td>
+<td>The arithmetic average across all patients</td>
+</tr>
+<tr class="even">
+<td>Median</td>
+<td>The middle patient when values are ordered</td>
+</tr>
+</tbody>
+</table>
+<p>The mean is sensitive to extreme values (outliers).</p>
+<p>The median is often more stable and better reflects the “typical” patient experience.</p>
+<section id="why-mean-and-median-diverge" class="level3">
+<h3 class="anchored" data-anchor-id="why-mean-and-median-diverge">Why Mean and Median Diverge</h3>
+<p>Imagine ten patients stay in hospital for:</p>
+<pre class="text"><code>2, 2, 2, 3, 3, 3, 4, 5, 6, 35</code></pre>
+<p>Most patients stay only a few days.</p>
+<p>But one very long-stay patient changes the average dramatically.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Measure</th>
+<th style="text-align: right;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mean</td>
+<td style="text-align: right;">6.5 days</td>
+</tr>
+<tr class="even">
+<td>Median</td>
+<td style="text-align: right;">3 days</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>The median helps understand the typical patient. The mean helps understand overall system burden and resource use.</strong></p>
+</blockquote>
+<p>In healthcare:</p>
+<blockquote class="blockquote">
+<p><strong>both matter — but for different reasons</strong></p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="example-length-of-stay-los" class="level2">
+<h2 class="anchored" data-anchor-id="example-length-of-stay-los">Example — Length of Stay (LoS)</h2>
+<p>Length of Stay data is usually heavily right-skewed. The example below shows how mean and median can diverge across different patient groups.</p>
+<p>This means:</p>
+<ul>
+<li>most patients stay a relatively short time</li>
+<li>a small number stay much longer</li>
+<li>those long stays pull the mean upward</li>
+</ul>
+<p>For example:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Patient Group</th>
+<th>Mean LoS</th>
+<th>Median LoS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>All Patients</td>
+<td>6.6 days</td>
+<td>3 days</td>
+</tr>
+<tr class="even">
+<td>Patients aged 65+</td>
+<td>7.9 days</td>
+<td>3 days</td>
+</tr>
+<tr class="odd">
+<td>Moderate/severe frailty</td>
+<td>10.8 days</td>
+<td>4 days</td>
+</tr>
+<tr class="even">
+<td>Multiple long-term conditions</td>
+<td>12.2 days</td>
+<td>4 days</td>
+</tr>
+</tbody>
+</table>
+<p>The median patient may stay only a few days.</p>
+<p>However, a relatively small number of long-stay patients can account for a disproportionate number of occupied bed days.</p>
+<p>Operationally, this matters enormously.</p>
+<p>The figure below illustrates why mean and median may tell very different stories in healthcare operational data.</p>
+<p>Notice something important:</p>
+<blockquote class="blockquote">
+<p>median LoS changes relatively little, while mean LoS increases substantially as complexity and frailty rise.</p>
+</blockquote>
+<p>This suggests a relatively small number of patients may be driving disproportionate bed occupancy.</p>
+<p><img src="images/MeanvsMedian_LoS.png" class="img-fluid"></p>
+<hr>
+</section>
+<section id="why-the-distribution-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-the-distribution-matters">Why The Distribution Matters</h2>
+<p>If we only report the mean:</p>
+<ul>
+<li>we lose visibility of variation</li>
+<li>we may miss operational bottlenecks</li>
+<li>we may misunderstand where pressure originates</li>
+</ul>
+<p>Understanding the full distribution helps answer more meaningful operational questions:</p>
+<ul>
+<li>Who are our longest-stay patients?</li>
+<li>Why are stays prolonged?</li>
+<li>Which patients drive bed occupancy?</li>
+<li>Are delays clinical, social or pathway-related?</li>
+<li>Where would interventions have the greatest operational impact?</li>
+</ul>
+<p>Sometimes:</p>
+<blockquote class="blockquote">
+<p>the story is in the shape of the data, not just the average.</p>
+</blockquote>
+<hr>
+</section>
+<section id="is-it-fair-to-compare-trusts-or-icbs-using-averages" class="level2">
+<h2 class="anchored" data-anchor-id="is-it-fair-to-compare-trusts-or-icbs-using-averages">Is It Fair To Compare Trusts or ICBs Using Averages?</h2>
+<p>Averages support benchmarking — but only with context.</p>
+<p>Simple comparison may overlook:</p>
+<ul>
+<li>population need</li>
+<li>frailty burden</li>
+<li>pathway complexity</li>
+<li>social care pressures</li>
+</ul>
+<p>This is why benchmarking should support questions and learning rather than simplistic league tables.</p>
+<p>(We explore fair comparison in more depth in Module 5.)</p>
+<hr>
+</section>
+<section id="benchmarking-in-practice-model-hospital" class="level2">
+<h2 class="anchored" data-anchor-id="benchmarking-in-practice-model-hospital">Benchmarking in Practice — Model Hospital</h2>
+<p>NHS England’s Model Hospital (Model Health System) uses many averages and benchmark metrics including:</p>
+<ul>
+<li>average LoS</li>
+<li>theatre utilisation</li>
+<li>productivity metrics</li>
+<li>operational performance indicators</li>
+</ul>
+<p>However, Model Hospital also attempts to improve fairness by using:</p>
+<ul>
+<li>peer-group comparisons</li>
+<li>specialty-level analysis</li>
+<li>segmentation</li>
+<li>contextual benchmarking</li>
+</ul>
+<p>This reflects an important reality:</p>
+<blockquote class="blockquote">
+<p>Healthcare operational benchmarking is inherently complex.</p>
+</blockquote>
+<p>No single metric tells the whole story.</p>
+<hr>
+</section>
+<section id="operational-implications" class="level2">
+<h2 class="anchored" data-anchor-id="operational-implications">Operational Implications</h2>
+<p>Averages remain useful.</p>
+<p>They help organisations:</p>
+<ul>
+<li>summarise performance quickly</li>
+<li>benchmark over time</li>
+<li>identify broad variation</li>
+</ul>
+<p>But averages alone should rarely drive operational decisions.</p>
+<section id="waiting-time-example" class="level3">
+<h3 class="anchored" data-anchor-id="waiting-time-example">Waiting Time Example</h3>
+<p>An average waiting time of:</p>
+<blockquote class="blockquote">
+<p>4 weeks</p>
+</blockquote>
+<p>may sound acceptable.</p>
+<p>But if:</p>
+<ul>
+<li>most patients wait 1–2 weeks</li>
+<li>a smaller group waits 30+ weeks</li>
+</ul>
+<p>the average hides an important operational problem.</p>
+<p>The average waiting time may look acceptable.</p>
+<p>But the patient experience — and operational risk — may not be.</p>
+<p>Again:</p>
+<blockquote class="blockquote">
+<p>the shape of the distribution matters.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<ul>
+<li>The mean and median measure different aspects of a population</li>
+<li>Healthcare data is often skewed rather than normally distributed</li>
+<li>A small number of patients can drive disproportionate operational pressure</li>
+<li>The median often reflects the “typical” patient experience, while the mean better reflects system burden</li>
+<li>The distribution may matter more than the average itself</li>
+<li>Fair comparison requires context, not just metrics</li>
+<li>Benchmarking should start conversations, not end them</li>
+</ul>
+<hr>
+</section>
+<section id="questions-decision-makers-should-ask" class="level2">
+<h2 class="anchored" data-anchor-id="questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</h2>
+<p>When reviewing averages:</p>
+<ul>
+<li>What does this average actually represent?</li>
+<li>How variable is the underlying data?</li>
+<li>Are there important outliers?</li>
+<li>Are populations comparable?</li>
+<li>What operational factors sit behind the numbers?</li>
+<li>Does the distribution reveal something the average hides?</li>
+<li>What action is realistically possible?</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -687,10 +931,13 @@ It is about helping people interpret, question and use those numbers responsibly
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../modules/01-Counts-vs-Rates.html" class="pagination-link" aria-label="Module 1 - Counts vs Rates">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 1 - Counts vs Rates</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./modules/01-Counts-vs-Rates.html" class="pagination-link" aria-label="Module 1 - Counts vs Rates">
-        <span class="nav-page-text"><span class="chapter-title">Module 1 - Counts vs Rates</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../modules/03-Correlation-vs-Causation.html" class="pagination-link" aria-label="Module 3 — Correlation vs Causation">
+        <span class="nav-page-text"><span class="chapter-title">Module 3 — Correlation vs Causation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

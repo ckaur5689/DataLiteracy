@@ -155,9 +155,9 @@ Neither approach is universally “correct”.
 
 The appropriate approach depends on the question being asked. For example:
 
-![](images/AnalyticalQuestion_MostUsefulApproach.png)
+![](../images/AnalyticalQuestion_MostUsefulApproach.png)
 
-![](images/StatisticalFairnessvsOperationalReality.png)
+![](../images/StatisticalFairnessvsOperationalReality.png)
 
 ## Adjustment Using Regression Models
 
@@ -211,7 +211,7 @@ This estimates whether deprivation still appears associated with stroke mortalit
 
 The diagram below illustrates how regression adjustment attempts to account for multiple interacting factors simultaneously when analysing healthcare outcomes.
 
-![](images/HowRegressionAdjustmentAidsHealthcareAnalysis.png)
+![](../images/HowRegressionAdjustmentAidsHealthcareAnalysis.png)
 
 ## Fair Comparison Does Not Always Mean Fair Operational Expectations
 
@@ -370,7 +370,7 @@ The diagram below illustrates a key principle:
 
 Even where rates appear comparable, factors such as frailty, deprivation, pathway maturity and community capacity may influence achievable improvement.
 
-![](images/CountvsRates_UnfairReductionTargets.png)
+![](../images/CountvsRates_UnfairReductionTargets.png)
 
 ---
 

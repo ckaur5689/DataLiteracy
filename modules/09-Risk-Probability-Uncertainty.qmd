@@ -166,3 +166,73 @@ The answer is often:
 
 ![](images/MakingDecisionsUnderUncertainty.png)
 
+---
+
+## Poor Interpretation vs Better Interpretation
+
+### Poor Interpretation
+
+> "We don't know for certain that this will work, so we should wait."
+
+### Better Interpretation
+
+> "We have uncertainty, but do we have enough evidence to justify testing the intervention safely?"
+
+---
+
+### Poor Interpretation
+
+> "The forecast says demand will increase by 15%."
+
+### Better Interpretation
+
+> "The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate."
+
+---
+
+### Poor Interpretation
+
+> "The intervention might fail, so we shouldn't proceed."
+
+### Better Interpretation
+
+> "What are the risks of proceeding, and what are the risks of doing nothing?"
+
+---
+
+### Poor Interpretation
+
+> "We need more data."
+
+### Better Interpretation
+
+> "Would additional data materially change our decision?"
+
+---
+
+## Questions Decision-Makers Should Ask
+
+* What level of uncertainty exists in this analysis?
+* What assumptions underpin these findings?
+* What information is missing or unknown?
+* How sensitive are the conclusions to those assumptions?
+* What are the risks of acting?
+* What are the risks of not acting?
+* Is there a lower-risk way to test this first?
+* What evidence would increase our confidence?
+* Are we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?
+* Can we pilot, evaluate and adapt rather than committing to a full-scale implementation?
+
+---
+
+## Key Takeaways
+
+* Risk is not certainty.
+* Probability describes the likelihood of an event, not whether it will definitely occur.
+* All analyses contain some degree of uncertainty.
+* Forecasts and predictions should be interpreted as estimates rather than promises.
+* Decisions should consider both the risks of action and the risks of inaction.
+* Different decisions require different levels of evidence.
+* Waiting for perfect information is itself a decision and may carry risks.
+* Effective organisations acknowledge uncertainty, learn quickly and make proportionate decisions using the best evidence available at the time.
+

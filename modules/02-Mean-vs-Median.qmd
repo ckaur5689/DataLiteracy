@@ -130,7 +130,7 @@ Notice something important:
 
 This suggests a relatively small number of patients may be driving disproportionate bed occupancy.
 
-![](images/MeanvsMedian_LoS.png)
+![](../images/MeanvsMedian_LoS.png)
 
 ---
 

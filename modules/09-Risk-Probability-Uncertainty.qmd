@@ -164,7 +164,7 @@ The answer is often:
 
 ## Decision-Making Under Uncertainty
 
-![](.../images/MakingDecisionsUnderUncertainty.png)
+![](../images/MakingDecisionsUnderUncertainty.png)
 
 ---
 

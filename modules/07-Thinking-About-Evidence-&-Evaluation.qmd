@@ -268,7 +268,7 @@ Good evaluation instead asks:
 
 > *Compared with what?*
 
-![](images/DidInterventionWork_1.png)
+![](../images/DidInterventionWork_1.png)
 
 The purpose of counterfactual thinking is not to dismiss improvement.
 
@@ -290,7 +290,7 @@ A useful question for decision-makers is:
 
 The diagram below illustrates a simplified hierarchy of evaluation approaches and the confidence they provide that an intervention caused observed change.
 
-![](images/LevelsofEvaluationConfidence_2.png)
+![](../images/LevelsofEvaluationConfidence_2.png)
 
 This hierarchy is not about:
 

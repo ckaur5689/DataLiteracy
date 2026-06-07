@@ -25,7 +25,7 @@ To compare populations fairly, we often use:
 > **rates**
 
 
-![](.../images/CountsvsRates.png)
+![](../images/CountsvsRates.png)
 
 
 ## When Crude Rates Are Still Not Enough
@@ -41,7 +41,7 @@ For example:
 
 > crude rates alone may still produce unfair comparisons
      
-![](.../images/CountsvsRates_AgeProfiles.png)
+![](../images/CountsvsRates_AgeProfiles.png)
 
 ## When Should We Use Age-Standardised Rates?
 
@@ -63,7 +63,7 @@ For many NHS operational decisions:
 
 > **crude and age-specific rates remain highly useful**
 
-![](.../images/CountsvsRates_Age_FullPicture.png)
+![](../images/CountsvsRates_Age_FullPicture.png)
 
 
 ## Example 1

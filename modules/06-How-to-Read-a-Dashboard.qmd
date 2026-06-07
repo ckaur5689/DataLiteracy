@@ -382,7 +382,7 @@ More thoughtful interpretation instead asks:
 
 > **What context, comparison or explanation might sit behind the numbers?**
 
-![](images/ReadingDashboard_1.png)
+![](../images/ReadingDashboard_1.png)
 
 Good dashboard interpretation focuses less on immediate conclusions and more on:
 
@@ -696,7 +696,7 @@ Rather than reacting immediately to a metric or colour:
 
 > pause, question and interpret.
 
-![](images/DashboardInterpretation_2.png)
+![](../images/DashboardInterpretation_2.png)
 
 ---
 

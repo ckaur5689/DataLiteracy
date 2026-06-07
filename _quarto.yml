@@ -6,15 +6,15 @@ book:
   author: "Chandan Kaur"
   chapters:
     - index.qmd
-    - 01-Counts-vs-Rates.qmd
-    - 02-Mean-vs-Median.qmd
-    - 03-Correlation-vs-Causation.qmd
-    - 04-Variation-&-Distributions.qmd
-    - 05-Standardisation-&-Fair-Comparison.qmd
-    - 06-How-to-Read-a-Dashboard.qmd
-    - 07-Thinking-About-Evidence-&-Evaluation.qmd
-    - 08-Evaluating-Methods-in-Practice.qmd
-    - 09-Risk-Probability-Uncertainty.qmd
+    - modules/01-Counts-vs-Rates.qmd
+    - modules/02-Mean-vs-Median.qmd
+    - modules/03-Correlation-vs-Causation.qmd
+    - modules/04-Variation-&-Distributions.qmd
+    - modules/05-Standardisation-&-Fair-Comparison.qmd
+    - modules/06-How-to-Read-a-Dashboard.qmd
+    - modules/07-Thinking-About-Evidence-&-Evaluation.qmd
+    - modules/08-Evaluating-Methods-in-Practice.qmd
+    - modules/09-Risk-Probability-Uncertainty.qmd
     - Project.qmd
 
 format:

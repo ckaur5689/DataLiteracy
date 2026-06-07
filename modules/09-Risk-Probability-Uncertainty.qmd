@@ -164,21 +164,4 @@ The answer is often:
 
 ## Decision-Making Under Uncertainty
 
-```{mermaid}
-flowchart TD
-
-A[Problem worth solving?]
-
-A -->|No| B[Continue monitoring]
-A -->|Yes| C[Plausible evidence intervention may help?]
-
-C -->|No| D[Gather more evidence]
-C -->|Yes| E[Assess risk and cost]
-
-E --> F{Potential harm low and reversible?}
-
-F -->|Yes| G[Pilot and evaluate]
-F -->|No| H[Strengthen evidence first]
-
-G --> I[Learn and adapt]
-I --> J[Scale if beneficial]
+![]/(images/MakingDecisionsUnderUncertainty.png)

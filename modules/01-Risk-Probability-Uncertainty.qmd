@@ -1,0 +1,184 @@
+# Module 9: Risk, Probability & Uncertainty
+
+## Learning Objectives
+
+By the end of this module you should be able to:
+
+* Understand the difference between risk, probability and certainty.
+* Recognise common sources of uncertainty in healthcare data and analysis.
+* Interpret risk estimates appropriately.
+* Understand why decision-making often occurs despite uncertainty.
+* Apply a pragmatic approach to making decisions when evidence is incomplete.
+
+---
+
+## Why This Matters
+
+Healthcare leaders are rarely asked to make decisions with complete certainty.
+
+Whether considering a new service model, investing in prevention, redesigning a pathway or implementing a digital solution, there will almost always be uncertainty about future outcomes.
+
+The role of analytics is not to eliminate uncertainty.
+
+The role of analytics is to help decision-makers understand uncertainty well enough to make better decisions.
+
+Good decision-makers do not wait for certainty.
+
+They make informed choices whilst understanding the risks.
+
+---
+
+## Risk Is Not Certainty
+
+A common misunderstanding is to interpret risk estimates as predictions.
+
+Risk describes the likelihood that something may happen.
+
+It does not tell us what will happen for a specific patient, service or population.
+
+For example:
+
+| Risk Estimate | Interpretation |
+|--------------|----------------|
+| 80% risk of admission | More likely to occur than not |
+| 50% risk of admission | Outcome remains highly uncertain |
+| 20% risk of admission | Less likely, but still possible |
+
+An 80% risk does not guarantee admission.
+
+A 20% risk does not guarantee safety.
+
+Risk describes probability, not destiny.
+
+::: {.callout-note}
+A useful question is:
+
+*"How often would we expect this outcome to occur in a large group of similar people?"*
+
+rather than
+
+*"Will this individual definitely experience the outcome?"*
+:::
+
+---
+
+## Sources of Uncertainty
+
+Uncertainty exists in all healthcare analyses.
+
+Common sources include:
+
+* Random variation.
+* Incomplete or missing data.
+* Small sample sizes.
+* Changes in clinical practice.
+* Policy changes.
+* Workforce changes.
+* Behavioural responses to interventions.
+* Unexpected external events.
+
+The future rarely behaves exactly like the past.
+
+This means forecasts should always be viewed as estimates rather than promises.
+
+---
+
+## The Wrong Question
+
+Decision-makers often ask:
+
+> "Are we certain this will work?"
+
+In complex systems the answer is usually no.
+
+A better question is:
+
+> "Do we have enough evidence to justify action?"
+
+The goal is not certainty.
+
+The goal is reducing uncertainty sufficiently to support a decision.
+
+---
+
+## Risk of Action vs Risk of Inaction
+
+When considering change, organisations often focus heavily on the risks of doing something.
+
+However, every decision involves two sets of risks.
+
+### Risks of Action
+
+* Financial cost.
+* Opportunity cost.
+* Implementation challenges.
+* Unintended consequences.
+
+### Risks of Inaction
+
+* Continuing poor outcomes.
+* Increasing demand pressures.
+* Worsening inequalities.
+* Missed opportunities for improvement.
+
+Sometimes the greatest risk is doing nothing.
+
+---
+
+## Pragmatic Decision-Making Under Uncertainty
+
+Not every decision requires the same level of evidence.
+
+The level of evidence should be proportionate to the scale of risk.
+
+| Decision Type | Typical Evidence Requirement |
+|---------------|------------------------------|
+| Minor operational change | Local data and professional judgement |
+| Small pilot | Local evaluation and benchmarking |
+| Significant investment | Formal evaluation and business case |
+| System-wide transformation | Strong evidence and ongoing evaluation |
+
+Waiting for perfect evidence can sometimes delay beneficial change unnecessarily.
+
+---
+
+## A Practical Decision Framework
+
+When faced with uncertainty, consider the following questions:
+
+1. What do we know?
+2. What do we not know?
+3. What assumptions are being made?
+4. What are the potential benefits?
+5. What are the potential harms?
+6. What happens if we delay?
+7. Can we test the idea before scaling?
+
+In many situations the answer is not "implement" or "do not implement".
+
+The answer is often:
+
+> "Pilot, evaluate, learn and adapt."
+
+---
+
+## Decision-Making Under Uncertainty
+
+```{mermaid}
+flowchart TD
+
+A[Problem worth solving?]
+
+A -->|No| B[Continue monitoring]
+A -->|Yes| C[Plausible evidence intervention may help?]
+
+C -->|No| D[Gather more evidence]
+C -->|Yes| E[Assess risk and cost]
+
+E --> F{Potential harm low and reversible?}
+
+F -->|Yes| G[Pilot and evaluate]
+F -->|No| H[Strengthen evidence first]
+
+G --> I[Learn and adapt]
+I --> J[Scale if beneficial]

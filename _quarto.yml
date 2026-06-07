@@ -14,6 +14,7 @@ book:
     - 06-How-to-Read-a-Dashboard.qmd
     - 07-Thinking-About-Evidence-&-Evaluation.qmd
     - 08-Evaluating-Methods-in-Practice.qmd
+    - 09-Risk-Probability-Uncertainty.qmd
     - Project.qmd
 
 format:

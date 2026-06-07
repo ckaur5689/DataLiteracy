@@ -1314,7 +1314,7 @@
     "href": "modules/09-Risk-Probability-Uncertainty.html#decision-making-under-uncertainty",
     "title": "Module 9: Risk, Probability & Uncertainty",
     "section": "Decision-Making Under Uncertainty",
-    "text": "Decision-Making Under Uncertainty\nflowchart TD\nA[Problem worth solving?]\nA –&gt;|No| B[Continue monitoring] A –&gt;|Yes| C[Plausible evidence intervention may help?]\nC –&gt;|No| D[Gather more evidence] C –&gt;|Yes| E[Assess risk and cost]\nE –&gt; F{Potential harm low and reversible?}\nF –&gt;|Yes| G[Pilot and evaluate] F –&gt;|No| H[Strengthen evidence first]\nG –&gt; I[Learn and adapt] I –&gt; J[Scale if beneficial]",
+    "text": "Decision-Making Under Uncertainty",
     "crumbs": [
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]

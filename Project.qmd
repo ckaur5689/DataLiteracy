@@ -84,7 +84,7 @@ The series will aim to be:
 
 Proposed Initial Modules:
 
-Part 1 — Foundations of Healthcare Analytics Interpretation
+# Part 1 — Foundations of Healthcare Analytics Interpretation
 
 1. Counts vs Rates
 2. Mean vs Median

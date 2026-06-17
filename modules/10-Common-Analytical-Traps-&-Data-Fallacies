@@ -1,0 +1,434 @@
+# Module 10: Common Analytical Traps & Data Fallacies
+
+## Learning Objectives
+
+By the end of this module you should be able to:
+
+* Recognise common analytical traps that can lead to misleading conclusions.
+* Understand why observed improvement does not always imply intervention success.
+* Identify common sources of bias in healthcare analysis and evaluation.
+* Recognise the influence of incentives, observation and selection effects.
+* Apply a more critical approach to interpreting healthcare data and evidence.
+
+---
+
+# Why This Matters
+
+Healthcare organisations are increasingly data-driven.
+
+Yet many analytical mistakes occur not because the data is wrong, but because the interpretation is incomplete.
+
+Decision-makers are often required to make judgements under uncertainty using information that is influenced by:
+
+* natural variation
+* human behaviour
+* selection effects
+* incentives
+* measurement limitations
+
+Understanding common analytical traps helps organisations avoid drawing overly confident conclusions from incomplete evidence.
+
+Many of these concepts build directly on ideas introduced in previous modules, particularly:
+
+* Correlation vs Causation
+* Variation & Distributions
+* Standardisation & Fair Comparison
+* Evaluating Interventions & Schemes
+* Evaluating Methods in Practice
+
+---
+
+# Correlation Does Not Equal Causation
+
+### Observed
+
+Higher deprivation is associated with higher ED attendance.
+
+### Tempting Conclusion
+
+> Deprivation causes ED attendance.
+
+### What Else Might Be Happening?
+
+The relationship may be real.
+
+However, multiple interacting factors may contribute to the observed pattern, including:
+
+* underlying health need
+* frailty
+* multimorbidity
+* access to primary care
+* housing
+* transport
+* social circumstances
+
+### Why This Matters
+
+An observed relationship does not automatically explain why it exists.
+
+Correlation should start questions, not end them.
+
+---
+
+# Regression to the Mean
+
+### Observed
+
+A practice with unusually high admission rates receives support.
+
+Six months later:
+
+> Admission rates improve.
+
+### Tempting Conclusion
+
+> The intervention caused the improvement.
+
+### What Else Might Be Happening?
+
+Extremely high or low observations often move closer to average over time even when no intervention occurs.
+
+This phenomenon is known as:
+
+> **Regression to the Mean**
+
+### Why This Matters
+
+Without an appropriate comparison group, natural variation can easily be mistaken for intervention impact.
+
+---
+
+# The Hawthorne Effect
+
+### Observed
+
+Hand hygiene compliance improves substantially during a pilot.
+
+### Tempting Conclusion
+
+> The intervention was successful.
+
+### What Else Might Be Happening?
+
+People may change their behaviour simply because they know they are being observed.
+
+Examples include:
+
+* monitored improvement programmes
+* audit periods
+* pilot projects
+* temporary performance initiatives
+
+### Why This Matters
+
+Some improvement may be attributable to increased attention and observation rather than the intervention itself.
+
+A key question is:
+
+> Would the improvement still occur if nobody knew they were being measured?
+
+---
+
+# Selection Bias
+
+### Observed
+
+Patients enrolled in a programme experience better outcomes.
+
+### Tempting Conclusion
+
+> The programme caused the improvement.
+
+### What Else Might Be Happening?
+
+Participants may differ systematically from non-participants.
+
+For example:
+
+* more motivated patients may enrol
+* lower-risk patients may participate
+* clinicians may selectively refer patients
+
+### Why This Matters
+
+The observed outcomes may reflect differences between groups rather than the intervention itself.
+
+---
+
+# Survivorship Bias
+
+### Observed
+
+Several successful pilots have been presented nationally.
+
+### Tempting Conclusion
+
+> Most pilots are successful.
+
+### What Else Might Be Happening?
+
+Successful projects are often more visible than unsuccessful ones.
+
+Failed pilots may:
+
+* never be published
+* receive less attention
+* be quietly discontinued
+
+### Why This Matters
+
+Looking only at successful examples can create an unrealistic view of effectiveness.
+
+---
+
+# Financial Incentive Effects
+
+### Observed
+
+Admissions reduce after a financial incentive scheme is introduced.
+
+### Tempting Conclusion
+
+> The pathway redesign caused the reduction.
+
+### What Else Might Be Happening?
+
+Behaviour may have changed because incentives changed.
+
+Examples include:
+
+* payment mechanisms
+* commissioning incentives
+* performance targets
+* contractual arrangements
+
+### Why This Matters
+
+A key question is:
+
+> Are we observing the effect of the intervention, the effect of the incentive, or both?
+
+---
+
+# The League Table Fallacy
+
+### Observed
+
+Trust A ranks 10th and Trust B ranks 30th.
+
+### Tempting Conclusion
+
+> Trust A is performing better.
+
+### What Else Might Be Happening?
+
+Rankings may be influenced by:
+
+* population characteristics
+* deprivation
+* case-mix
+* random variation
+* measurement choices
+
+### Why This Matters
+
+League tables often simplify complex realities and should rarely be interpreted in isolation.
+
+---
+
+# The Precision Fallacy
+
+### Observed
+
+Predicted savings are estimated at:
+
+> £2,483,726
+
+### Tempting Conclusion
+
+> A precise number must be highly accurate.
+
+### What Else Might Be Happening?
+
+Forecasts remain estimates.
+
+Precision and certainty are not the same thing.
+
+### Why This Matters
+
+Decision-makers should focus on:
+
+* assumptions
+* uncertainty
+* confidence intervals
+* plausible ranges
+
+rather than precision alone.
+
+---
+
+# Confirmation Bias
+
+### Observed
+
+A dashboard appears to support an existing belief.
+
+### Tempting Conclusion
+
+> The evidence confirms the belief.
+
+### What Else Might Be Happening?
+
+People naturally seek evidence that supports existing views and may overlook contradictory information.
+
+### Why This Matters
+
+Good analytical practice requires asking:
+
+* What evidence challenges this conclusion?
+* What alternative explanations exist?
+* What information might we be missing?
+
+---
+
+# Key Takeaways
+
+* Correlation does not automatically imply causation.
+* Extreme observations often move closer to average over time.
+* People may change behaviour simply because they know they are being observed.
+* Intervention groups may differ from comparison groups.
+* Successful examples are often more visible than unsuccessful examples.
+* Financial incentives can influence behaviour and outcomes.
+* Rankings can oversimplify complex realities.
+* Precision does not guarantee accuracy.
+* Confirmation bias affects everyone.
+* Better decisions come from questioning interpretations, not simply accepting results.
+
+---
+
+# Questions Decision-Makers Should Ask
+
+* Could there be alternative explanations for this result?
+* Are we confusing association with causation?
+* Could regression to the mean be contributing to the observed change?
+* Are people behaving differently because they know they are being measured?
+* Are the intervention and comparison groups genuinely comparable?
+* Could selection bias be influencing outcomes?
+* Are financial incentives affecting behaviour?
+* Does the apparent ranking tell the whole story?
+* Are we mistaking precision for certainty?
+* What evidence might challenge our current interpretation?
+
+---
+
+# Part 1 Knowledge Check
+
+## Question 1
+
+A practice with unusually high admission rates receives support. Admissions subsequently fall.
+
+What is a possible alternative explanation?
+
+* [ ] Simpson's paradox
+* [x] Regression to the mean
+* [ ] Selection bias
+* [ ] Standardisation
+
+---
+
+## Question 2
+
+Staff compliance improves during a monitored pilot.
+
+What effect may be present?
+
+* [ ] Selection bias
+* [x] Hawthorne Effect
+* [ ] Collider bias
+* [ ] Precision bias
+
+---
+
+## Question 3
+
+A programme appears successful because highly motivated patients chose to participate.
+
+What bias may exist?
+
+* [x] Selection bias
+* [ ] Recall bias
+* [ ] Regression to the mean
+* [ ] Standardisation bias
+
+---
+
+## Question 4
+
+Two ICBs have similar age-standardised rates but very different frailty burdens.
+
+Which statement is most accurate?
+
+* [ ] They face identical operational pressures
+* [ ] Standardisation removes all meaningful differences
+* [x] Statistical comparability does not guarantee operational comparability
+* [ ] One rate must be incorrect
+
+---
+
+## Question 5
+
+A dashboard shows a forecast to one decimal place.
+
+What should you remember?
+
+* [ ] Precise numbers are always more accurate
+* [ ] Precision and certainty are the same thing
+* [x] Precision does not guarantee accuracy
+* [ ] Forecasts are objective facts
+
+---
+
+## Question 6
+
+A hospital introduces a pilot to improve discharge documentation.
+
+During the pilot, compliance increases substantially.
+
+Which explanation should also be considered?
+
+* [ ] Regression to the mean
+* [x] Hawthorne Effect
+* [ ] Standardisation
+* [ ] Simpson's paradox
+
+---
+
+# Final Reflection
+
+Across the first ten modules, a common theme emerges:
+
+> Data rarely provides definitive answers on its own.
+
+Good decision-making requires understanding:
+
+* context
+* uncertainty
+* variation
+* evidence
+* bias
+* incentives
+* interpretation
+
+The role of analytics is not to eliminate uncertainty.
+
+The role of analytics is to help organisations make better decisions despite uncertainty.
+
+A good analyst asks:
+
+> What does the data show?
+
+A great analyst also asks:
+
+> What else might explain what we are seeing?
+
+That question sits at the heart of health data literacy.

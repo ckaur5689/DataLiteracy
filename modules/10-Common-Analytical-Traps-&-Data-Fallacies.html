@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Module 10: Common Analytical Traps &amp; Data Fallacies – Health Data Literacy</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../Project.html" rel="next">
+<link href="../modules/09-Risk-Probability-Uncertainty.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- Privacy-friendly analytics by Plausible -->
+
+<script async="" src="https://plausible.io/js/pa-coCTmyI_rulN60WT7evG5.js"></script>
+
+<script>
+
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+
+  plausible.init()
+
+</script>
+
+
+
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/10-Common-Analytical-Traps-&amp;-Data-Fallacies.html"><span class="chapter-title">Module 10: Common Analytical Traps &amp; Data Fallacies</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Health Data Literacy</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/01-Counts-vs-Rates.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 1 - Counts vs Rates</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/02-Mean-vs-Median.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 2 — Mean vs Median</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/04-Variation-&amp;-Distributions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 4 - Variation &amp; Distributions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/05-Standardisation-&amp;-Fair-Comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 5 — Standardisation &amp; Fair Comparison</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/06-How-to-Read-a-Dashboard.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 6 — How to Read a Dashboard</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/07-Thinking-About-Evidence-&amp;-Evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/08-Evaluating-Methods-in-Practice.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/10-Common-Analytical-Traps-&amp;-Data-Fallacies.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 10: Common Analytical Traps &amp; Data Fallacies</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
+  <li><a href="#correlation-does-not-equal-causation" id="toc-correlation-does-not-equal-causation" class="nav-link" data-scroll-target="#correlation-does-not-equal-causation">Correlation Does Not Equal Causation</a>
+  <ul class="collapse">
+  <li><a href="#observed" id="toc-observed" class="nav-link" data-scroll-target="#observed">Observed</a></li>
+  <li><a href="#tempting-conclusion" id="toc-tempting-conclusion" class="nav-link" data-scroll-target="#tempting-conclusion">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening" id="toc-what-else-might-be-happening" class="nav-link" data-scroll-target="#what-else-might-be-happening">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-1" id="toc-why-this-matters-1" class="nav-link" data-scroll-target="#why-this-matters-1">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#regression-to-the-mean" id="toc-regression-to-the-mean" class="nav-link" data-scroll-target="#regression-to-the-mean">Regression to the Mean</a>
+  <ul class="collapse">
+  <li><a href="#observed-1" id="toc-observed-1" class="nav-link" data-scroll-target="#observed-1">Observed</a></li>
+  <li><a href="#tempting-conclusion-1" id="toc-tempting-conclusion-1" class="nav-link" data-scroll-target="#tempting-conclusion-1">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-1" id="toc-what-else-might-be-happening-1" class="nav-link" data-scroll-target="#what-else-might-be-happening-1">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-2" id="toc-why-this-matters-2" class="nav-link" data-scroll-target="#why-this-matters-2">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#the-hawthorne-effect" id="toc-the-hawthorne-effect" class="nav-link" data-scroll-target="#the-hawthorne-effect">The Hawthorne Effect</a>
+  <ul class="collapse">
+  <li><a href="#observed-2" id="toc-observed-2" class="nav-link" data-scroll-target="#observed-2">Observed</a></li>
+  <li><a href="#tempting-conclusion-2" id="toc-tempting-conclusion-2" class="nav-link" data-scroll-target="#tempting-conclusion-2">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-2" id="toc-what-else-might-be-happening-2" class="nav-link" data-scroll-target="#what-else-might-be-happening-2">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-3" id="toc-why-this-matters-3" class="nav-link" data-scroll-target="#why-this-matters-3">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#selection-bias" id="toc-selection-bias" class="nav-link" data-scroll-target="#selection-bias">Selection Bias</a>
+  <ul class="collapse">
+  <li><a href="#observed-3" id="toc-observed-3" class="nav-link" data-scroll-target="#observed-3">Observed</a></li>
+  <li><a href="#tempting-conclusion-3" id="toc-tempting-conclusion-3" class="nav-link" data-scroll-target="#tempting-conclusion-3">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-3" id="toc-what-else-might-be-happening-3" class="nav-link" data-scroll-target="#what-else-might-be-happening-3">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-4" id="toc-why-this-matters-4" class="nav-link" data-scroll-target="#why-this-matters-4">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#survivorship-bias" id="toc-survivorship-bias" class="nav-link" data-scroll-target="#survivorship-bias">Survivorship Bias</a>
+  <ul class="collapse">
+  <li><a href="#observed-4" id="toc-observed-4" class="nav-link" data-scroll-target="#observed-4">Observed</a></li>
+  <li><a href="#tempting-conclusion-4" id="toc-tempting-conclusion-4" class="nav-link" data-scroll-target="#tempting-conclusion-4">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-4" id="toc-what-else-might-be-happening-4" class="nav-link" data-scroll-target="#what-else-might-be-happening-4">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-5" id="toc-why-this-matters-5" class="nav-link" data-scroll-target="#why-this-matters-5">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#financial-incentive-effects" id="toc-financial-incentive-effects" class="nav-link" data-scroll-target="#financial-incentive-effects">Financial Incentive Effects</a>
+  <ul class="collapse">
+  <li><a href="#observed-5" id="toc-observed-5" class="nav-link" data-scroll-target="#observed-5">Observed</a></li>
+  <li><a href="#tempting-conclusion-5" id="toc-tempting-conclusion-5" class="nav-link" data-scroll-target="#tempting-conclusion-5">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-5" id="toc-what-else-might-be-happening-5" class="nav-link" data-scroll-target="#what-else-might-be-happening-5">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-6" id="toc-why-this-matters-6" class="nav-link" data-scroll-target="#why-this-matters-6">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#the-league-table-fallacy" id="toc-the-league-table-fallacy" class="nav-link" data-scroll-target="#the-league-table-fallacy">The League Table Fallacy</a>
+  <ul class="collapse">
+  <li><a href="#observed-6" id="toc-observed-6" class="nav-link" data-scroll-target="#observed-6">Observed</a></li>
+  <li><a href="#tempting-conclusion-6" id="toc-tempting-conclusion-6" class="nav-link" data-scroll-target="#tempting-conclusion-6">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-6" id="toc-what-else-might-be-happening-6" class="nav-link" data-scroll-target="#what-else-might-be-happening-6">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-7" id="toc-why-this-matters-7" class="nav-link" data-scroll-target="#why-this-matters-7">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#the-precision-fallacy" id="toc-the-precision-fallacy" class="nav-link" data-scroll-target="#the-precision-fallacy">The Precision Fallacy</a>
+  <ul class="collapse">
+  <li><a href="#observed-7" id="toc-observed-7" class="nav-link" data-scroll-target="#observed-7">Observed</a></li>
+  <li><a href="#tempting-conclusion-7" id="toc-tempting-conclusion-7" class="nav-link" data-scroll-target="#tempting-conclusion-7">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-7" id="toc-what-else-might-be-happening-7" class="nav-link" data-scroll-target="#what-else-might-be-happening-7">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-8" id="toc-why-this-matters-8" class="nav-link" data-scroll-target="#why-this-matters-8">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#confirmation-bias" id="toc-confirmation-bias" class="nav-link" data-scroll-target="#confirmation-bias">Confirmation Bias</a>
+  <ul class="collapse">
+  <li><a href="#observed-8" id="toc-observed-8" class="nav-link" data-scroll-target="#observed-8">Observed</a></li>
+  <li><a href="#tempting-conclusion-8" id="toc-tempting-conclusion-8" class="nav-link" data-scroll-target="#tempting-conclusion-8">Tempting Conclusion</a></li>
+  <li><a href="#what-else-might-be-happening-8" id="toc-what-else-might-be-happening-8" class="nav-link" data-scroll-target="#what-else-might-be-happening-8">What Else Might Be Happening?</a></li>
+  <li><a href="#why-this-matters-9" id="toc-why-this-matters-9" class="nav-link" data-scroll-target="#why-this-matters-9">Why This Matters</a></li>
+  </ul></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
+  <li><a href="#part-1-knowledge-check" id="toc-part-1-knowledge-check" class="nav-link" data-scroll-target="#part-1-knowledge-check">Part 1 Knowledge Check</a>
+  <ul class="collapse">
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
+  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
+  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5</a></li>
+  <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a></li>
+  </ul></li>
+  <li><a href="#final-reflection" id="toc-final-reflection" class="nav-link" data-scroll-target="#final-reflection">Final Reflection</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Module 10: Common Analytical Traps &amp; Data Fallacies</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>By the end of this module you should be able to:</p>
+<ul>
+<li>Recognise common analytical traps that can lead to misleading conclusions.</li>
+<li>Understand why observed improvement does not always imply intervention success.</li>
+<li>Identify common sources of bias in healthcare analysis and evaluation.</li>
+<li>Recognise the influence of incentives, observation and selection effects.</li>
+<li>Apply a more critical approach to interpreting healthcare data and evidence.</li>
+</ul>
+<hr>
+</section>
+<section id="why-this-matters" class="level1">
+<h1>Why This Matters</h1>
+<p>Healthcare organisations are increasingly data-driven.</p>
+<p>Yet many analytical mistakes occur not because the data is wrong, but because the interpretation is incomplete.</p>
+<p>Decision-makers are often required to make judgements under uncertainty using information that is influenced by:</p>
+<ul>
+<li>natural variation</li>
+<li>human behaviour</li>
+<li>selection effects</li>
+<li>incentives</li>
+<li>measurement limitations</li>
+</ul>
+<p>Understanding common analytical traps helps organisations avoid drawing overly confident conclusions from incomplete evidence.</p>
+<p>Many of these concepts build directly on ideas introduced in previous modules, particularly:</p>
+<ul>
+<li>Correlation vs Causation</li>
+<li>Variation &amp; Distributions</li>
+<li>Standardisation &amp; Fair Comparison</li>
+<li>Evaluating Interventions &amp; Schemes</li>
+<li>Evaluating Methods in Practice</li>
+</ul>
+<hr>
+</section>
+<section id="correlation-does-not-equal-causation" class="level1">
+<h1>Correlation Does Not Equal Causation</h1>
+<section id="observed" class="level3">
+<h3 class="anchored" data-anchor-id="observed">Observed</h3>
+<p>Higher deprivation is associated with higher ED attendance.</p>
+</section>
+<section id="tempting-conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>Deprivation causes ED attendance.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening">What Else Might Be Happening?</h3>
+<p>The relationship may be real.</p>
+<p>However, multiple interacting factors may contribute to the observed pattern, including:</p>
+<ul>
+<li>underlying health need</li>
+<li>frailty</li>
+<li>multimorbidity</li>
+<li>access to primary care</li>
+<li>housing</li>
+<li>transport</li>
+<li>social circumstances</li>
+</ul>
+</section>
+<section id="why-this-matters-1" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-1">Why This Matters</h3>
+<p>An observed relationship does not automatically explain why it exists.</p>
+<p>Correlation should start questions, not end them.</p>
+<hr>
+</section>
+</section>
+<section id="regression-to-the-mean" class="level1">
+<h1>Regression to the Mean</h1>
+<section id="observed-1" class="level3">
+<h3 class="anchored" data-anchor-id="observed-1">Observed</h3>
+<p>A practice with unusually high admission rates receives support.</p>
+<p>Six months later:</p>
+<blockquote class="blockquote">
+<p>Admission rates improve.</p>
+</blockquote>
+</section>
+<section id="tempting-conclusion-1" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-1">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>The intervention caused the improvement.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-1">What Else Might Be Happening?</h3>
+<p>Extremely high or low observations often move closer to average over time even when no intervention occurs.</p>
+<p>This phenomenon is known as:</p>
+<blockquote class="blockquote">
+<p><strong>Regression to the Mean</strong></p>
+</blockquote>
+</section>
+<section id="why-this-matters-2" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-2">Why This Matters</h3>
+<p>Without an appropriate comparison group, natural variation can easily be mistaken for intervention impact.</p>
+<hr>
+</section>
+</section>
+<section id="the-hawthorne-effect" class="level1">
+<h1>The Hawthorne Effect</h1>
+<section id="observed-2" class="level3">
+<h3 class="anchored" data-anchor-id="observed-2">Observed</h3>
+<p>Hand hygiene compliance improves substantially during a pilot.</p>
+</section>
+<section id="tempting-conclusion-2" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-2">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>The intervention was successful.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-2">What Else Might Be Happening?</h3>
+<p>People may change their behaviour simply because they know they are being observed.</p>
+<p>Examples include:</p>
+<ul>
+<li>monitored improvement programmes</li>
+<li>audit periods</li>
+<li>pilot projects</li>
+<li>temporary performance initiatives</li>
+</ul>
+</section>
+<section id="why-this-matters-3" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-3">Why This Matters</h3>
+<p>Some improvement may be attributable to increased attention and observation rather than the intervention itself.</p>
+<p>A key question is:</p>
+<blockquote class="blockquote">
+<p>Would the improvement still occur if nobody knew they were being measured?</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="selection-bias" class="level1">
+<h1>Selection Bias</h1>
+<section id="observed-3" class="level3">
+<h3 class="anchored" data-anchor-id="observed-3">Observed</h3>
+<p>Patients enrolled in a programme experience better outcomes.</p>
+</section>
+<section id="tempting-conclusion-3" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-3">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>The programme caused the improvement.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-3" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-3">What Else Might Be Happening?</h3>
+<p>Participants may differ systematically from non-participants.</p>
+<p>For example:</p>
+<ul>
+<li>more motivated patients may enrol</li>
+<li>lower-risk patients may participate</li>
+<li>clinicians may selectively refer patients</li>
+</ul>
+</section>
+<section id="why-this-matters-4" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-4">Why This Matters</h3>
+<p>The observed outcomes may reflect differences between groups rather than the intervention itself.</p>
+<hr>
+</section>
+</section>
+<section id="survivorship-bias" class="level1">
+<h1>Survivorship Bias</h1>
+<section id="observed-4" class="level3">
+<h3 class="anchored" data-anchor-id="observed-4">Observed</h3>
+<p>Several successful pilots have been presented nationally.</p>
+</section>
+<section id="tempting-conclusion-4" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-4">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>Most pilots are successful.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-4" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-4">What Else Might Be Happening?</h3>
+<p>Successful projects are often more visible than unsuccessful ones.</p>
+<p>Failed pilots may:</p>
+<ul>
+<li>never be published</li>
+<li>receive less attention</li>
+<li>be quietly discontinued</li>
+</ul>
+</section>
+<section id="why-this-matters-5" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-5">Why This Matters</h3>
+<p>Looking only at successful examples can create an unrealistic view of effectiveness.</p>
+<hr>
+</section>
+</section>
+<section id="financial-incentive-effects" class="level1">
+<h1>Financial Incentive Effects</h1>
+<section id="observed-5" class="level3">
+<h3 class="anchored" data-anchor-id="observed-5">Observed</h3>
+<p>Admissions reduce after a financial incentive scheme is introduced.</p>
+</section>
+<section id="tempting-conclusion-5" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-5">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>The pathway redesign caused the reduction.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-5" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-5">What Else Might Be Happening?</h3>
+<p>Behaviour may have changed because incentives changed.</p>
+<p>Examples include:</p>
+<ul>
+<li>payment mechanisms</li>
+<li>commissioning incentives</li>
+<li>performance targets</li>
+<li>contractual arrangements</li>
+</ul>
+</section>
+<section id="why-this-matters-6" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-6">Why This Matters</h3>
+<p>A key question is:</p>
+<blockquote class="blockquote">
+<p>Are we observing the effect of the intervention, the effect of the incentive, or both?</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="the-league-table-fallacy" class="level1">
+<h1>The League Table Fallacy</h1>
+<section id="observed-6" class="level3">
+<h3 class="anchored" data-anchor-id="observed-6">Observed</h3>
+<p>Trust A ranks 10th and Trust B ranks 30th.</p>
+</section>
+<section id="tempting-conclusion-6" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-6">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>Trust A is performing better.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-6" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-6">What Else Might Be Happening?</h3>
+<p>Rankings may be influenced by:</p>
+<ul>
+<li>population characteristics</li>
+<li>deprivation</li>
+<li>case-mix</li>
+<li>random variation</li>
+<li>measurement choices</li>
+</ul>
+</section>
+<section id="why-this-matters-7" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-7">Why This Matters</h3>
+<p>League tables often simplify complex realities and should rarely be interpreted in isolation.</p>
+<hr>
+</section>
+</section>
+<section id="the-precision-fallacy" class="level1">
+<h1>The Precision Fallacy</h1>
+<section id="observed-7" class="level3">
+<h3 class="anchored" data-anchor-id="observed-7">Observed</h3>
+<p>Predicted savings are estimated at:</p>
+<blockquote class="blockquote">
+<p>£2,483,726</p>
+</blockquote>
+</section>
+<section id="tempting-conclusion-7" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-7">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>A precise number must be highly accurate.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-7" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-7">What Else Might Be Happening?</h3>
+<p>Forecasts remain estimates.</p>
+<p>Precision and certainty are not the same thing.</p>
+</section>
+<section id="why-this-matters-8" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-8">Why This Matters</h3>
+<p>Decision-makers should focus on:</p>
+<ul>
+<li>assumptions</li>
+<li>uncertainty</li>
+<li>confidence intervals</li>
+<li>plausible ranges</li>
+</ul>
+<p>rather than precision alone.</p>
+<hr>
+</section>
+</section>
+<section id="confirmation-bias" class="level1">
+<h1>Confirmation Bias</h1>
+<section id="observed-8" class="level3">
+<h3 class="anchored" data-anchor-id="observed-8">Observed</h3>
+<p>A dashboard appears to support an existing belief.</p>
+</section>
+<section id="tempting-conclusion-8" class="level3">
+<h3 class="anchored" data-anchor-id="tempting-conclusion-8">Tempting Conclusion</h3>
+<blockquote class="blockquote">
+<p>The evidence confirms the belief.</p>
+</blockquote>
+</section>
+<section id="what-else-might-be-happening-8" class="level3">
+<h3 class="anchored" data-anchor-id="what-else-might-be-happening-8">What Else Might Be Happening?</h3>
+<p>People naturally seek evidence that supports existing views and may overlook contradictory information.</p>
+</section>
+<section id="why-this-matters-9" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters-9">Why This Matters</h3>
+<p>Good analytical practice requires asking:</p>
+<ul>
+<li>What evidence challenges this conclusion?</li>
+<li>What alternative explanations exist?</li>
+<li>What information might we be missing?</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="key-takeaways" class="level1">
+<h1>Key Takeaways</h1>
+<ul>
+<li>Correlation does not automatically imply causation.</li>
+<li>Extreme observations often move closer to average over time.</li>
+<li>People may change behaviour simply because they know they are being observed.</li>
+<li>Intervention groups may differ from comparison groups.</li>
+<li>Successful examples are often more visible than unsuccessful examples.</li>
+<li>Financial incentives can influence behaviour and outcomes.</li>
+<li>Rankings can oversimplify complex realities.</li>
+<li>Precision does not guarantee accuracy.</li>
+<li>Confirmation bias affects everyone.</li>
+<li>Better decisions come from questioning interpretations, not simply accepting results.</li>
+</ul>
+<hr>
+</section>
+<section id="questions-decision-makers-should-ask" class="level1">
+<h1>Questions Decision-Makers Should Ask</h1>
+<ul>
+<li>Could there be alternative explanations for this result?</li>
+<li>Are we confusing association with causation?</li>
+<li>Could regression to the mean be contributing to the observed change?</li>
+<li>Are people behaving differently because they know they are being measured?</li>
+<li>Are the intervention and comparison groups genuinely comparable?</li>
+<li>Could selection bias be influencing outcomes?</li>
+<li>Are financial incentives affecting behaviour?</li>
+<li>Does the apparent ranking tell the whole story?</li>
+<li>Are we mistaking precision for certainty?</li>
+<li>What evidence might challenge our current interpretation?</li>
+</ul>
+<hr>
+</section>
+<section id="part-1-knowledge-check" class="level1">
+<h1>Part 1 Knowledge Check</h1>
+<section id="question-1" class="level2">
+<h2 class="anchored" data-anchor-id="question-1">Question 1</h2>
+<p>A practice with unusually high admission rates receives support. Admissions subsequently fall.</p>
+<p>What is a possible alternative explanation?</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Simpson’s paradox</label></li>
+<li><label><input type="checkbox" checked="">Regression to the mean</label></li>
+<li><label><input type="checkbox">Selection bias</label></li>
+<li><label><input type="checkbox">Standardisation</label></li>
+</ul>
+<hr>
+</section>
+<section id="question-2" class="level2">
+<h2 class="anchored" data-anchor-id="question-2">Question 2</h2>
+<p>Staff compliance improves during a monitored pilot.</p>
+<p>What effect may be present?</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Selection bias</label></li>
+<li><label><input type="checkbox" checked="">Hawthorne Effect</label></li>
+<li><label><input type="checkbox">Collider bias</label></li>
+<li><label><input type="checkbox">Precision bias</label></li>
+</ul>
+<hr>
+</section>
+<section id="question-3" class="level2">
+<h2 class="anchored" data-anchor-id="question-3">Question 3</h2>
+<p>A programme appears successful because highly motivated patients chose to participate.</p>
+<p>What bias may exist?</p>
+<ul class="task-list">
+<li><label><input type="checkbox" checked="">Selection bias</label></li>
+<li><label><input type="checkbox">Recall bias</label></li>
+<li><label><input type="checkbox">Regression to the mean</label></li>
+<li><label><input type="checkbox">Standardisation bias</label></li>
+</ul>
+<hr>
+</section>
+<section id="question-4" class="level2">
+<h2 class="anchored" data-anchor-id="question-4">Question 4</h2>
+<p>Two ICBs have similar age-standardised rates but very different frailty burdens.</p>
+<p>Which statement is most accurate?</p>
+<ul class="task-list">
+<li><label><input type="checkbox">They face identical operational pressures</label></li>
+<li><label><input type="checkbox">Standardisation removes all meaningful differences</label></li>
+<li><label><input type="checkbox" checked="">Statistical comparability does not guarantee operational comparability</label></li>
+<li><label><input type="checkbox">One rate must be incorrect</label></li>
+</ul>
+<hr>
+</section>
+<section id="question-5" class="level2">
+<h2 class="anchored" data-anchor-id="question-5">Question 5</h2>
+<p>A dashboard shows a forecast to one decimal place.</p>
+<p>What should you remember?</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Precise numbers are always more accurate</label></li>
+<li><label><input type="checkbox">Precision and certainty are the same thing</label></li>
+<li><label><input type="checkbox" checked="">Precision does not guarantee accuracy</label></li>
+<li><label><input type="checkbox">Forecasts are objective facts</label></li>
+</ul>
+<hr>
+</section>
+<section id="question-6" class="level2">
+<h2 class="anchored" data-anchor-id="question-6">Question 6</h2>
+<p>A hospital introduces a pilot to improve discharge documentation.</p>
+<p>During the pilot, compliance increases substantially.</p>
+<p>Which explanation should also be considered?</p>
+<ul class="task-list">
+<li><label><input type="checkbox">Regression to the mean</label></li>
+<li><label><input type="checkbox" checked="">Hawthorne Effect</label></li>
+<li><label><input type="checkbox">Standardisation</label></li>
+<li><label><input type="checkbox">Simpson’s paradox</label></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="final-reflection" class="level1">
+<h1>Final Reflection</h1>
+<p>Across the first ten modules, a common theme emerges:</p>
+<blockquote class="blockquote">
+<p>Data rarely provides definitive answers on its own.</p>
+</blockquote>
+<p>Good decision-making requires understanding:</p>
+<ul>
+<li>context</li>
+<li>uncertainty</li>
+<li>variation</li>
+<li>evidence</li>
+<li>bias</li>
+<li>incentives</li>
+<li>interpretation</li>
+</ul>
+<p>The role of analytics is not to eliminate uncertainty.</p>
+<p>The role of analytics is to help organisations make better decisions despite uncertainty.</p>
+<p>A good analyst asks:</p>
+<blockquote class="blockquote">
+<p>What does the data show?</p>
+</blockquote>
+<p>A great analyst also asks:</p>
+<blockquote class="blockquote">
+<p>What else might explain what we are seeing?</p>
+</blockquote>
+<p>That question sits at the heart of health data literacy.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../modules/09-Risk-Probability-Uncertainty.html" class="pagination-link" aria-label="Module 9: Risk, Probability &amp; Uncertainty">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../Project.html" class="pagination-link" aria-label="Project - Healthcare Data Literacy Series">
+        <span class="nav-page-text"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

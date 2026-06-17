@@ -95,6 +95,7 @@ Part 1 — Foundations of Healthcare Analytics Interpretation
 7. Evaluating Interventions & Schemes (Thinking About Evidence)
 8. Evaluating Interventions in Practice (Methods)
 9. Risk, Probability & Uncertainty
+10.Common Analytical Traps & Data Fallacies
 
 # Part 2 — Understanding & Improving Healthcare Systems (to be confirmed)
 

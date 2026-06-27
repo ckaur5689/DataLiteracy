@@ -6,6 +6,7 @@ book:
   author: "Chandan Kaur"
   chapters:
     - index.qmd
+    - Part_1.qmd
     - modules/01-Counts-vs-Rates.qmd
     - modules/02-Mean-vs-Median.qmd
     - modules/03-Correlation-vs-Causation.qmd
@@ -16,6 +17,7 @@ book:
     - modules/08-Evaluating-Methods-in-Practice.qmd
     - modules/09-Risk-Probability-Uncertainty.qmd
     - modules/10-Common-Analytical-Traps-&-Data-Fallacies.qmd
+    - Part_2.qmd
     - Project.qmd
 
 format:

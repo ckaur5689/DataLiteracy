@@ -100,10 +100,13 @@ Proposed Initial Modules:
 # Part 2 — Understanding & Improving Healthcare Systems (to be confirmed)
 
 - Demand, Capacity & Operational Flow
-- Population Health Management & Segmentation
 - Pathway Analytics & Intervention Design
+- Population Health Management & Segmentation
+- Combining Quantitative & Qualitative Evidence
 - Why Healthcare Improvement Is Hard to Evaluate
 - Health Economics & Value in Healthcare Decision-Making
+- Decision-Making Under Uncertainty
+- Why Healthcare Improvement Is Hard to Evaluate
 - Simulation & Scenario Modelling
 
 # Part 3 — Modern Healthcare Analytics (to be decided - optional)

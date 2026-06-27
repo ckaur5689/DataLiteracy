@@ -1,0 +1,263 @@
+# Module 11: Demand, Capacity & Operational Flow
+
+## Learning Objectives
+
+By the end of this module you should be able to:
+
+* Understand the relationship between demand, capacity and flow.
+* Recognise why increasing demand does not always require increasing capacity.
+* Appreciate how bottlenecks affect the entire healthcare system.
+* Understand why averages often fail to describe operational performance.
+* Recognise how variation creates queues and delays.
+* Ask better questions when interpreting operational data.
+
+---
+
+# Why This Matters
+
+Every healthcare organisation experiences pressure.
+
+Emergency Departments become crowded.
+
+Ambulances queue outside hospitals.
+
+Elective waiting lists grow.
+
+Patients experience delayed discharges.
+
+It is tempting to assume that these problems simply reflect insufficient capacity.
+
+Sometimes they do.
+
+But often they reflect something different:
+
+> **How patients move through the system.**
+
+Healthcare behaves as a connected system.
+
+Improving one part of the pathway does not necessarily improve the whole pathway.
+
+Understanding demand, capacity and operational flow helps explain why.
+
+---
+
+# Demand Is Not The Same As Activity
+
+Demand represents the need for healthcare.
+
+Activity represents the care that is actually delivered.
+
+These are not always the same.
+
+For example:
+
+* patients waiting for appointments still contribute to demand
+* delayed patients continue to consume capacity
+* unmet need may never appear in operational data
+
+Understanding this distinction is essential.
+
+---
+
+# Capacity Is More Than Beds and Staff
+
+Capacity is often described simply as:
+
+* staff
+* beds
+* clinics
+* theatres
+
+But true capacity also depends on:
+
+* workforce availability
+* discharge processes
+* diagnostics
+* community services
+* social care
+* digital infrastructure
+
+A hospital with available beds but no discharge capacity is still constrained.
+
+---
+
+# Flow Is Where Systems Succeed or Fail
+
+Patients move through healthcare pathways.
+
+Every handover introduces the potential for delay.
+
+For example:
+
+```text
+GP
+ ↓
+Emergency Department
+ ↓
+Assessment Unit
+ ↓
+Ward
+ ↓
+Discharge
+ ↓
+Community Services
+```
+
+A delay anywhere affects everything behind it.
+
+Healthcare therefore behaves like a connected network rather than a collection of independent departments.
+
+---
+
+# Bottlenecks
+
+A bottleneck limits the performance of the whole system.
+
+Imagine a motorway with four lanes narrowing to one.
+
+Traffic builds long before the narrowing point.
+
+Healthcare behaves similarly.
+
+Examples include:
+
+* delayed diagnostics
+* discharge delays
+* theatre availability
+* social care shortages
+
+Adding capacity elsewhere often has little effect if the bottleneck remains.
+
+---
+
+# Why Averages Can Mislead Operational Decisions
+
+Suppose two Emergency Departments each receive:
+
+> 300 attendances per day
+
+The averages appear identical.
+
+However:
+
+Hospital A receives patients steadily throughout the day.
+
+Hospital B receives large surges during late afternoon and evening.
+
+Operationally these systems behave very differently.
+
+Queues form because of variation, not simply because of average demand.
+
+---
+
+# Variation Creates Queues
+
+Healthcare demand is rarely constant.
+
+Patients do not arrive evenly.
+
+Some days are quiet.
+
+Others experience sudden surges.
+
+Similarly:
+
+* staff sickness varies
+* discharge timing varies
+* theatre utilisation varies
+* ambulance arrivals vary
+
+Small variations accumulate throughout the system.
+
+Queues are therefore a natural consequence of variation.
+
+---
+
+# High Utilisation Can Reduce Performance
+
+Intuitively, high utilisation appears efficient.
+
+However, extremely high utilisation often reduces resilience.
+
+For example:
+
+* fully occupied wards cannot absorb sudden admissions
+* fully booked clinics have little flexibility
+* operating theatres with no spare capacity struggle to recover from delays
+
+Systems operating continuously at maximum utilisation often become less responsive.
+
+---
+
+# Demand, Capacity and Flow Are Interdependent
+
+Changing one part of the system often affects another.
+
+Examples include:
+
+* increasing diagnostics may increase outpatient demand
+* reducing Length of Stay may increase community workload
+* expanding community services may reduce hospital admissions
+* improving discharge may reduce Emergency Department crowding
+
+Healthcare improvement requires understanding these interactions.
+
+---
+
+# A Whole-System Perspective
+
+Good operational analytics asks:
+
+* Where is demand entering the system?
+* Where are patients waiting?
+* What creates delay?
+* Where is capacity constrained?
+* Which bottlenecks influence the whole pathway?
+
+Rather than asking:
+
+> "Where should we add more capacity?"
+
+it often asks:
+
+> "What is preventing patients flowing through the system?"
+
+---
+
+# Why This Matters for Decision-Makers
+
+Many operational problems cannot be solved simply by increasing resources.
+
+Sometimes:
+
+* processes require redesign
+* bottlenecks require removal
+* variation requires better management
+* pathways require simplification
+
+Understanding system behaviour allows organisations to target interventions where they will have the greatest impact.
+
+---
+
+# Key Takeaways
+
+* Demand and activity are not the same.
+* Capacity extends beyond beds and staffing.
+* Flow determines how effectively healthcare systems operate.
+* Bottlenecks affect the entire pathway.
+* Variation creates queues.
+* High utilisation is not always efficient.
+* Whole-system thinking is often more valuable than focusing on individual departments.
+
+---
+
+# Questions Decision-Makers Should Ask
+
+* Are we measuring demand or activity?
+* Where are patients actually waiting?
+* What is constraining flow?
+* Which bottleneck is limiting overall system performance?
+* Are we focusing on averages instead of variation?
+* Could improving flow release capacity more effectively than adding capacity?
+* How might changes in one part of the pathway affect another?
+* Are we optimising individual services or the whole system?

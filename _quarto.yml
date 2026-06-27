@@ -18,6 +18,7 @@ book:
     - modules/09-Risk-Probability-Uncertainty.qmd
     - modules/10-Common-Analytical-Traps-&-Data-Fallacies.qmd
     - Part_2.qmd
+    - modules/11-Demand_Capacity_Operational_Flow.qmd
     - Project.qmd
 
 format:

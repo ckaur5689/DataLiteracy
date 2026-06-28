@@ -1454,7 +1454,7 @@
     "href": "modules/11-Demand_Capacity_Operational_Flow.html",
     "title": "Module 11: Demand, Capacity & Operational Flow",
     "section": "",
-    "text": "Module 11: Demand, Capacity & Operational Flow",
+    "text": "Learning Objectives\nBy the end of this module you should be able to:",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Module 11: Demand, Capacity & Operational Flow</span>"
     ]
@@ -1463,8 +1463,18 @@
     "objectID": "modules/11-Demand_Capacity_Operational_Flow.html#learning-objectives",
     "href": "modules/11-Demand_Capacity_Operational_Flow.html#learning-objectives",
     "title": "Module 11: Demand, Capacity & Operational Flow",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nBy the end of this module you should be able to:\n\nUnderstand the relationship between demand, capacity and flow.\nRecognise why increasing demand does not always require increasing capacity.\nAppreciate how bottlenecks affect the performance of the entire healthcare system.\nUnderstand why averages often fail to describe operational performance.\nRecognise how variation creates queues and delays.\nAsk better questions when interpreting operational data.",
+    "section": "",
+    "text": "Understand the relationship between demand, capacity and flow.\nRecognise why increasing demand does not always require increasing capacity.\nAppreciate how bottlenecks affect the performance of the entire healthcare system.\nUnderstand why averages often fail to describe operational performance.\nRecognise how variation creates queues and delays.\nAsk better questions when interpreting operational data.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Module 11: Demand, Capacity & Operational Flow</span>"
+    ]
+  },
+  {
+    "objectID": "modules/11-Demand_Capacity_Operational_Flow.html#nhs-case-study-delayed-discharge-a-whole-system-problem",
+    "href": "modules/11-Demand_Capacity_Operational_Flow.html#nhs-case-study-delayed-discharge-a-whole-system-problem",
+    "title": "Module 11: Demand, Capacity & Operational Flow",
+    "section": "NHS Case Study: Delayed Discharge – A Whole-System Problem",
+    "text": "NHS Case Study: Delayed Discharge – A Whole-System Problem\n\n\n\n\n\n\nNoteNHS Case Study\n\n\n\n\nBackground\nAn acute hospital reports:\n\nEmergency Department waiting times are increasing.\nAmbulances are queuing outside the hospital.\nBed occupancy is consistently above 98%.\nElective operations are frequently cancelled.\n\nThe immediate assumption is:\n\nThe hospital needs more beds.\n\n\n\n\nInitial Response\nThe organisation considers:\n\nopening additional inpatient beds\nincreasing Emergency Department staffing\nrecruiting more ward nurses\n\nEach of these actions may provide short-term relief.\nHowever, several months later, performance remains largely unchanged.\n\n\n\nLooking Deeper\nFurther investigation reveals that many patients are medically fit for discharge, but cannot leave hospital because:\n\ncommunity rehabilitation capacity is limited\nsocial care packages are unavailable\ncommunity nursing services are under pressure\n\nAs a result:\n\nbeds remain occupied unnecessarily\nnew admissions cannot move from the Emergency Department onto wards\nEmergency Department cubicles remain full\nambulances cannot offload patients promptly\n\nThe apparent hospital capacity problem is actually a patient flow problem.\n\n\n\nUnderstanding the System\nThe visible pressure occurs in the Emergency Department.\nThe underlying constraint lies much further downstream.\nImproving discharge capacity may release considerably more effective hospital capacity than simply opening additional inpatient beds.\nThis illustrates an important systems principle:\n\nThe constraint is not always where the pressure is most visible.\n\n\n\n\nApplying Systems Thinking\nRather than asking:\n\n“How do we create more beds?”\n\ndecision-makers might instead ask:\n\nWhat is preventing timely discharge?\nWhich patients experience the longest delays?\nWhich organisations influence discharge?\nWould investment in community services have a greater system-wide impact?\nAre we solving the bottleneck—or simply moving it elsewhere?\n\n\n\n\nLessons Learned\nThis example demonstrates that:\n\noperational pressure is often caused by poor patient flow rather than insufficient capacity\nbottlenecks create queues throughout the healthcare system\nincreasing resources where pressure is most visible may not address the underlying constraint\neffective improvement requires understanding the entire patient pathway rather than individual services in isolation\n\n```\n\n\n\n\n\n\nTipLeadership Reflection\n\n\n\nThe greatest pressure within a healthcare system is not always where the underlying problem originates.\nAs a leader, ask yourself:\nIf I remove pressure here, am I solving the system constraint—or simply moving it somewhere else?",
     "crumbs": [
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Module 11: Demand, Capacity & Operational Flow</span>"
     ]

@@ -1,7 +1,3 @@
----
-title: "Module 11: Demand, Capacity & Operational Flow"
----
-
 # Module 11: Demand, Capacity & Operational Flow
 
 ## Learning Objectives

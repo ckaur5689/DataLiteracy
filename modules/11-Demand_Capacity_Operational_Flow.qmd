@@ -301,3 +301,108 @@ Sustainable improvement comes from understanding how **demand**, **capacity** an
 * How might changes in one part of the pathway affect another?
 * Are we optimising individual services or improving the whole system?
 * What unintended consequences might this change create elsewhere in the system?
+
+## NHS Case Study: Delayed Discharge – A Whole-System Problem
+
+::: {.callout-note}
+## NHS Case Study
+
+### Background
+
+An acute hospital reports:
+
+* Emergency Department waiting times are increasing.
+* Ambulances are queuing outside the hospital.
+* Bed occupancy is consistently above 98%.
+* Elective operations are frequently cancelled.
+
+The immediate assumption is:
+
+> **The hospital needs more beds.**
+
+---
+
+### Initial Response
+
+The organisation considers:
+
+* opening additional inpatient beds
+* increasing Emergency Department staffing
+* recruiting more ward nurses
+
+Each of these actions may provide short-term relief.
+
+However, several months later, performance remains largely unchanged.
+
+---
+
+### Looking Deeper
+
+Further investigation reveals that many patients are **medically fit for discharge**, but cannot leave hospital because:
+
+* community rehabilitation capacity is limited
+* social care packages are unavailable
+* community nursing services are under pressure
+
+As a result:
+
+* beds remain occupied unnecessarily
+* new admissions cannot move from the Emergency Department onto wards
+* Emergency Department cubicles remain full
+* ambulances cannot offload patients promptly
+
+The apparent **hospital capacity problem** is actually a **patient flow problem**.
+
+---
+
+### Understanding the System
+
+The visible pressure occurs in the Emergency Department.
+
+The underlying constraint lies much further downstream.
+
+Improving discharge capacity may release considerably more effective hospital capacity than simply opening additional inpatient beds.
+
+This illustrates an important systems principle:
+
+> **The constraint is not always where the pressure is most visible.**
+
+---
+
+### Applying Systems Thinking
+
+Rather than asking:
+
+> **"How do we create more beds?"**
+
+decision-makers might instead ask:
+
+* What is preventing timely discharge?
+* Which patients experience the longest delays?
+* Which organisations influence discharge?
+* Would investment in community services have a greater system-wide impact?
+* Are we solving the bottleneck—or simply moving it elsewhere?
+
+---
+
+### Lessons Learned
+
+This example demonstrates that:
+
+* operational pressure is often caused by poor patient flow rather than insufficient capacity
+* bottlenecks create queues throughout the healthcare system
+* increasing resources where pressure is most visible may not address the underlying constraint
+* effective improvement requires understanding the entire patient pathway rather than individual services in isolation
+
+```
+
+::: {.callout-tip}
+
+## Leadership Reflection
+
+The greatest pressure within a healthcare system is not always where the underlying problem originates.
+
+As a leader, ask yourself:
+
+If I remove pressure here, am I solving the system constraint—or simply moving it somewhere else?
+:::

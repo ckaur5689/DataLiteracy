@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Module 9: Risk, Probability &amp; Uncertainty – Health Data Literacy</title>
+<title>Module 11: Demand, Capacity &amp; Operational Flow – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../modules/10-Common-Analytical-Traps-&amp;-Data-Fallacies.html" rel="next">
-<link href="../modules/08-Evaluating-Methods-in-Practice.html" rel="prev">
+<link href="../Project.html" rel="next">
+<link href="../Part_2.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/09-Risk-Probability-Uncertainty.html"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/11-Demand_Capacity_Operational_Flow.html"><span class="chapter-title">Module 11: Demand, Capacity &amp; Operational Flow</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -176,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a>
+  <a href="../modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -191,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/11-Demand_Capacity_Operational_Flow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 11: Demand, Capacity &amp; Operational Flow</span></a>
+  <a href="../modules/11-Demand_Capacity_Operational_Flow.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 11: Demand, Capacity &amp; Operational Flow</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -209,32 +209,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#module-11-demand-capacity-operational-flow" id="toc-module-11-demand-capacity-operational-flow" class="nav-link active" data-scroll-target="#module-11-demand-capacity-operational-flow">Module 11: Demand, Capacity &amp; Operational Flow</a>
+  <ul class="collapse">
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  </ul></li>
   <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
-  <li><a href="#risk-is-not-certainty" id="toc-risk-is-not-certainty" class="nav-link" data-scroll-target="#risk-is-not-certainty">Risk Is Not Certainty</a></li>
-  <li><a href="#sources-of-uncertainty" id="toc-sources-of-uncertainty" class="nav-link" data-scroll-target="#sources-of-uncertainty">Sources of Uncertainty</a></li>
-  <li><a href="#the-wrong-question" id="toc-the-wrong-question" class="nav-link" data-scroll-target="#the-wrong-question">The Wrong Question</a></li>
-  <li><a href="#risk-of-action-vs-risk-of-inaction" id="toc-risk-of-action-vs-risk-of-inaction" class="nav-link" data-scroll-target="#risk-of-action-vs-risk-of-inaction">Risk of Action vs Risk of Inaction</a>
-  <ul class="collapse">
-  <li><a href="#risks-of-action" id="toc-risks-of-action" class="nav-link" data-scroll-target="#risks-of-action">Risks of Action</a></li>
-  <li><a href="#risks-of-inaction" id="toc-risks-of-inaction" class="nav-link" data-scroll-target="#risks-of-inaction">Risks of Inaction</a></li>
-  </ul></li>
-  <li><a href="#pragmatic-decision-making-under-uncertainty" id="toc-pragmatic-decision-making-under-uncertainty" class="nav-link" data-scroll-target="#pragmatic-decision-making-under-uncertainty">Pragmatic Decision-Making Under Uncertainty</a></li>
-  <li><a href="#a-practical-decision-framework" id="toc-a-practical-decision-framework" class="nav-link" data-scroll-target="#a-practical-decision-framework">A Practical Decision Framework</a></li>
-  <li><a href="#decision-making-under-uncertainty" id="toc-decision-making-under-uncertainty" class="nav-link" data-scroll-target="#decision-making-under-uncertainty">Decision-Making Under Uncertainty</a></li>
-  <li><a href="#poor-interpretation-vs-better-interpretation" id="toc-poor-interpretation-vs-better-interpretation" class="nav-link" data-scroll-target="#poor-interpretation-vs-better-interpretation">Poor Interpretation vs Better Interpretation</a>
-  <ul class="collapse">
-  <li><a href="#poor-interpretation" id="toc-poor-interpretation" class="nav-link" data-scroll-target="#poor-interpretation">Poor Interpretation</a></li>
-  <li><a href="#better-interpretation" id="toc-better-interpretation" class="nav-link" data-scroll-target="#better-interpretation">Better Interpretation</a></li>
-  <li><a href="#poor-interpretation-1" id="toc-poor-interpretation-1" class="nav-link" data-scroll-target="#poor-interpretation-1">Poor Interpretation</a></li>
-  <li><a href="#better-interpretation-1" id="toc-better-interpretation-1" class="nav-link" data-scroll-target="#better-interpretation-1">Better Interpretation</a></li>
-  <li><a href="#poor-interpretation-2" id="toc-poor-interpretation-2" class="nav-link" data-scroll-target="#poor-interpretation-2">Poor Interpretation</a></li>
-  <li><a href="#better-interpretation-2" id="toc-better-interpretation-2" class="nav-link" data-scroll-target="#better-interpretation-2">Better Interpretation</a></li>
-  <li><a href="#poor-interpretation-3" id="toc-poor-interpretation-3" class="nav-link" data-scroll-target="#poor-interpretation-3">Poor Interpretation</a></li>
-  <li><a href="#better-interpretation-3" id="toc-better-interpretation-3" class="nav-link" data-scroll-target="#better-interpretation-3">Better Interpretation</a></li>
-  </ul></li>
-  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
+  <li><a href="#demand-capacity-and-flow-are-interdependent" id="toc-demand-capacity-and-flow-are-interdependent" class="nav-link" data-scroll-target="#demand-capacity-and-flow-are-interdependent">Demand, Capacity and Flow Are Interdependent</a></li>
+  <li><a href="#demand-is-not-the-same-as-activity" id="toc-demand-is-not-the-same-as-activity" class="nav-link" data-scroll-target="#demand-is-not-the-same-as-activity">Demand Is Not The Same As Activity</a></li>
+  <li><a href="#capacity-is-more-than-beds-and-staff" id="toc-capacity-is-more-than-beds-and-staff" class="nav-link" data-scroll-target="#capacity-is-more-than-beds-and-staff">Capacity Is More Than Beds and Staff</a></li>
+  <li><a href="#flow-is-where-systems-succeed-or-fail" id="toc-flow-is-where-systems-succeed-or-fail" class="nav-link" data-scroll-target="#flow-is-where-systems-succeed-or-fail">Flow Is Where Systems Succeed or Fail</a></li>
+  <li><a href="#bottlenecks" id="toc-bottlenecks" class="nav-link" data-scroll-target="#bottlenecks">Bottlenecks</a></li>
+  <li><a href="#why-averages-can-mislead-operational-decisions" id="toc-why-averages-can-mislead-operational-decisions" class="nav-link" data-scroll-target="#why-averages-can-mislead-operational-decisions">Why Averages Can Mislead Operational Decisions</a></li>
+  <li><a href="#variation-creates-queues" id="toc-variation-creates-queues" class="nav-link" data-scroll-target="#variation-creates-queues">Variation Creates Queues</a></li>
+  <li><a href="#high-utilisation-can-reduce-performance" id="toc-high-utilisation-can-reduce-performance" class="nav-link" data-scroll-target="#high-utilisation-can-reduce-performance">High Utilisation Can Reduce Performance</a></li>
+  <li><a href="#a-whole-system-perspective" id="toc-a-whole-system-perspective" class="nav-link" data-scroll-target="#a-whole-system-perspective">A Whole-System Perspective</a></li>
+  <li><a href="#why-this-matters-for-decision-makers" id="toc-why-this-matters-for-decision-makers" class="nav-link" data-scroll-target="#why-this-matters-for-decision-makers">Why This Matters for Decision-Makers</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
   </ul>
 </nav>
     </div>
@@ -243,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></h1>
+<h1 class="title"><span class="chapter-title">Module 11: Demand, Capacity &amp; Operational Flow</span></h1>
 </div>
 
 
@@ -260,274 +251,298 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="module-11-demand-capacity-operational-flow" class="level1">
+<h1>Module 11: Demand, Capacity &amp; Operational Flow</h1>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this module you should be able to:</p>
 <ul>
-<li>Understand the difference between risk, probability and certainty.</li>
-<li>Recognise common sources of uncertainty in healthcare data and analysis.</li>
-<li>Interpret risk estimates appropriately.</li>
-<li>Understand why decision-making often occurs despite uncertainty.</li>
-<li>Apply a pragmatic approach to making decisions when evidence is incomplete.</li>
+<li>Understand the relationship between demand, capacity and flow.</li>
+<li>Recognise why increasing demand does not always require increasing capacity.</li>
+<li>Appreciate how bottlenecks affect the performance of the entire healthcare system.</li>
+<li>Understand why averages often fail to describe operational performance.</li>
+<li>Recognise how variation creates queues and delays.</li>
+<li>Ask better questions when interpreting operational data.</li>
 </ul>
 <hr>
 </section>
-<section id="why-this-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
-<p>Healthcare leaders are rarely asked to make decisions with complete certainty.</p>
-<p>Whether considering a new service model, investing in prevention, redesigning a pathway or implementing a digital solution, there will almost always be uncertainty about future outcomes.</p>
-<p>The role of analytics is not to eliminate uncertainty.</p>
-<p>The role of analytics is to help decision-makers understand uncertainty well enough to make better decisions.</p>
-<p>Good decision-makers do not wait for certainty.</p>
-<p>They make informed choices whilst understanding the risks.</p>
-<hr>
 </section>
-<section id="risk-is-not-certainty" class="level2">
-<h2 class="anchored" data-anchor-id="risk-is-not-certainty">Risk Is Not Certainty</h2>
-<p>A common misunderstanding is to interpret risk estimates as predictions.</p>
-<p>Risk describes the likelihood that something may happen.</p>
-<p>It does not tell us what will happen for a specific patient, service or population.</p>
-<p>For example:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Risk Estimate</th>
-<th>Interpretation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>80% risk of admission</td>
-<td>More likely to occur than not</td>
-</tr>
-<tr class="even">
-<td>50% risk of admission</td>
-<td>Outcome remains highly uncertain</td>
-</tr>
-<tr class="odd">
-<td>20% risk of admission</td>
-<td>Less likely, but still possible</td>
-</tr>
-</tbody>
-</table>
-<p>An 80% risk does not guarantee admission.</p>
-<p>A 20% risk does not guarantee safety.</p>
-<p>Risk describes probability, not destiny.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<section id="why-this-matters" class="level1">
+<h1>Why This Matters</h1>
+<p>Every healthcare organisation experiences pressure.</p>
+<p>Emergency Departments become crowded.</p>
+<p>Ambulances queue outside hospitals.</p>
+<p>Elective waiting lists grow.</p>
+<p>Patients experience delayed discharges.</p>
+<p>It is tempting to assume these problems simply reflect insufficient capacity.</p>
+<p>Sometimes they do.</p>
+<p>But often they reflect something different:</p>
+<blockquote class="blockquote">
+<p><strong>How patients move through the healthcare system.</strong></p>
+</blockquote>
+<p>Healthcare behaves as a connected system.</p>
+<p>Improving one part of the pathway does not necessarily improve the whole pathway.</p>
+<p>Understanding <strong>demand</strong>, <strong>capacity</strong> and <strong>flow</strong> explains why.</p>
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+<span class="screen-reader-only">Important</span>The Central Message of This Module
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>A useful question is:</p>
-<p><em>“How often would we expect this outcome to occur in a large group of similar people?”</em></p>
-<p>rather than</p>
-<p><em>“Will this individual definitely experience the outcome?”</em></p>
+<p>Healthcare performance is rarely determined by <strong>demand</strong>, <strong>capacity</strong> or <strong>flow</strong> alone.</p>
+<p>It emerges from the interaction between all three.</p>
+<p>Understanding this interaction is fundamental to improving healthcare systems.</p>
 </div>
 </div>
 <hr>
 </section>
-<section id="sources-of-uncertainty" class="level2">
-<h2 class="anchored" data-anchor-id="sources-of-uncertainty">Sources of Uncertainty</h2>
-<p>Uncertainty exists in all healthcare analyses.</p>
-<p>Common sources include:</p>
+<section id="demand-capacity-and-flow-are-interdependent" class="level1">
+<h1>Demand, Capacity and Flow Are Interdependent</h1>
+<p>Healthcare systems perform well only when demand, capacity and flow are considered together.</p>
+<p>Focusing on one element in isolation often moves pressure elsewhere rather than solving the underlying problem.</p>
+<p>As shown in <a href="#fig-demand-capacity-flow" class="quarto-xref">Figure&nbsp;<span>17.1</span></a>, each element continuously influences the others.</p>
+<div id="fig-demand-capacity-flow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-demand-capacity-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Demand_Capacity_Flow_Triangle.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-demand-capacity-flow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;17.1: Demand, Capacity and Flow are interdependent. Sustainable improvement requires balancing all three components.
+</figcaption>
+</figure>
+</div>
+<p>For example:</p>
 <ul>
-<li>Random variation.</li>
-<li>Incomplete or missing data.</li>
-<li>Small sample sizes.</li>
-<li>Changes in clinical practice.</li>
-<li>Policy changes.</li>
-<li>Workforce changes.</li>
-<li>Behavioural responses to interventions.</li>
-<li>Unexpected external events.</li>
+<li>increasing demand places greater pressure on available capacity</li>
+<li>poor flow reduces the effective use of existing capacity</li>
+<li>insufficient capacity creates delays that further reduce flow</li>
 </ul>
-<p>The future rarely behaves exactly like the past.</p>
-<p>This means forecasts should always be viewed as estimates rather than promises.</p>
+<p>Improving one component alone rarely produces sustainable improvement.</p>
 <hr>
 </section>
-<section id="the-wrong-question" class="level2">
-<h2 class="anchored" data-anchor-id="the-wrong-question">The Wrong Question</h2>
-<p>Decision-makers often ask:</p>
-<blockquote class="blockquote">
-<p>“Are we certain this will work?”</p>
-</blockquote>
-<p>In complex systems the answer is usually no.</p>
-<p>A better question is:</p>
-<blockquote class="blockquote">
-<p>“Do we have enough evidence to justify action?”</p>
-</blockquote>
-<p>The goal is not certainty.</p>
-<p>The goal is reducing uncertainty sufficiently to support a decision.</p>
-<hr>
-</section>
-<section id="risk-of-action-vs-risk-of-inaction" class="level2">
-<h2 class="anchored" data-anchor-id="risk-of-action-vs-risk-of-inaction">Risk of Action vs Risk of Inaction</h2>
-<p>When considering change, organisations often focus heavily on the risks of doing something.</p>
-<p>However, every decision involves two sets of risks.</p>
-<section id="risks-of-action" class="level3">
-<h3 class="anchored" data-anchor-id="risks-of-action">Risks of Action</h3>
+<section id="demand-is-not-the-same-as-activity" class="level1">
+<h1>Demand Is Not The Same As Activity</h1>
+<p>Demand represents the <strong>need</strong> for healthcare.</p>
+<p>Activity represents the <strong>care that is actually delivered.</strong></p>
+<p>These are not always the same.</p>
+<p>For example:</p>
 <ul>
-<li>Financial cost.</li>
-<li>Opportunity cost.</li>
-<li>Implementation challenges.</li>
-<li>Unintended consequences.</li>
+<li>patients waiting for appointments still contribute to demand</li>
+<li>delayed patients continue to consume capacity</li>
+<li>unmet need may never appear in operational data</li>
+<li>cancelled appointments reduce activity but not demand</li>
 </ul>
+<p>Understanding this distinction is essential.</p>
+<hr>
 </section>
-<section id="risks-of-inaction" class="level3">
-<h3 class="anchored" data-anchor-id="risks-of-inaction">Risks of Inaction</h3>
+<section id="capacity-is-more-than-beds-and-staff" class="level1">
+<h1>Capacity Is More Than Beds and Staff</h1>
+<p>Capacity is often described simply as:</p>
 <ul>
-<li>Continuing poor outcomes.</li>
-<li>Increasing demand pressures.</li>
-<li>Worsening inequalities.</li>
-<li>Missed opportunities for improvement.</li>
+<li>staff</li>
+<li>beds</li>
+<li>clinics</li>
+<li>theatres</li>
 </ul>
-<p>Sometimes the greatest risk is doing nothing.</p>
-<hr>
-</section>
-</section>
-<section id="pragmatic-decision-making-under-uncertainty" class="level2">
-<h2 class="anchored" data-anchor-id="pragmatic-decision-making-under-uncertainty">Pragmatic Decision-Making Under Uncertainty</h2>
-<p>Not every decision requires the same level of evidence.</p>
-<p>The level of evidence should be proportionate to the scale of risk.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Decision Type</th>
-<th>Typical Evidence Requirement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Minor operational change</td>
-<td>Local data and professional judgement</td>
-</tr>
-<tr class="even">
-<td>Small pilot</td>
-<td>Local evaluation and benchmarking</td>
-</tr>
-<tr class="odd">
-<td>Significant investment</td>
-<td>Formal evaluation and business case</td>
-</tr>
-<tr class="even">
-<td>System-wide transformation</td>
-<td>Strong evidence and ongoing evaluation</td>
-</tr>
-</tbody>
-</table>
-<p>Waiting for perfect evidence can sometimes delay beneficial change unnecessarily.</p>
-<hr>
-</section>
-<section id="a-practical-decision-framework" class="level2">
-<h2 class="anchored" data-anchor-id="a-practical-decision-framework">A Practical Decision Framework</h2>
-<p>When faced with uncertainty, consider the following questions:</p>
-<ol type="1">
-<li>What do we know?</li>
-<li>What do we not know?</li>
-<li>What assumptions are being made?</li>
-<li>What are the potential benefits?</li>
-<li>What are the potential harms?</li>
-<li>What happens if we delay?</li>
-<li>Can we test the idea before scaling?</li>
-</ol>
-<p>In many situations the answer is not “implement” or “do not implement”.</p>
-<p>The answer is often:</p>
-<blockquote class="blockquote">
-<p>“Pilot, evaluate, learn and adapt.”</p>
-</blockquote>
-<hr>
-</section>
-<section id="decision-making-under-uncertainty" class="level2">
-<h2 class="anchored" data-anchor-id="decision-making-under-uncertainty">Decision-Making Under Uncertainty</h2>
-<p><img src="../images/MakingDecisionsUnderUncertainty.png" class="img-fluid"></p>
-<hr>
-</section>
-<section id="poor-interpretation-vs-better-interpretation" class="level2">
-<h2 class="anchored" data-anchor-id="poor-interpretation-vs-better-interpretation">Poor Interpretation vs Better Interpretation</h2>
-<section id="poor-interpretation" class="level3">
-<h3 class="anchored" data-anchor-id="poor-interpretation">Poor Interpretation</h3>
-<blockquote class="blockquote">
-<p>“We don’t know for certain that this will work, so we should wait.”</p>
-</blockquote>
-</section>
-<section id="better-interpretation" class="level3">
-<h3 class="anchored" data-anchor-id="better-interpretation">Better Interpretation</h3>
-<blockquote class="blockquote">
-<p>“We have uncertainty, but do we have enough evidence to justify testing the intervention safely?”</p>
-</blockquote>
-<hr>
-</section>
-<section id="poor-interpretation-1" class="level3">
-<h3 class="anchored" data-anchor-id="poor-interpretation-1">Poor Interpretation</h3>
-<blockquote class="blockquote">
-<p>“The forecast says demand will increase by 15%.”</p>
-</blockquote>
-</section>
-<section id="better-interpretation-1" class="level3">
-<h3 class="anchored" data-anchor-id="better-interpretation-1">Better Interpretation</h3>
-<blockquote class="blockquote">
-<p>“The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate.”</p>
-</blockquote>
-<hr>
-</section>
-<section id="poor-interpretation-2" class="level3">
-<h3 class="anchored" data-anchor-id="poor-interpretation-2">Poor Interpretation</h3>
-<blockquote class="blockquote">
-<p>“The intervention might fail, so we shouldn’t proceed.”</p>
-</blockquote>
-</section>
-<section id="better-interpretation-2" class="level3">
-<h3 class="anchored" data-anchor-id="better-interpretation-2">Better Interpretation</h3>
-<blockquote class="blockquote">
-<p>“What are the risks of proceeding, and what are the risks of doing nothing?”</p>
-</blockquote>
-<hr>
-</section>
-<section id="poor-interpretation-3" class="level3">
-<h3 class="anchored" data-anchor-id="poor-interpretation-3">Poor Interpretation</h3>
-<blockquote class="blockquote">
-<p>“We need more data.”</p>
-</blockquote>
-</section>
-<section id="better-interpretation-3" class="level3">
-<h3 class="anchored" data-anchor-id="better-interpretation-3">Better Interpretation</h3>
-<blockquote class="blockquote">
-<p>“Would additional data materially change our decision?”</p>
-</blockquote>
-<hr>
-</section>
-</section>
-<section id="questions-decision-makers-should-ask" class="level2">
-<h2 class="anchored" data-anchor-id="questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</h2>
+<p>In reality, capacity also depends on:</p>
 <ul>
-<li>What level of uncertainty exists in this analysis?</li>
-<li>What assumptions underpin these findings?</li>
-<li>What information is missing or unknown?</li>
-<li>How sensitive are the conclusions to those assumptions?</li>
-<li>What are the risks of acting?</li>
-<li>What are the risks of not acting?</li>
-<li>Is there a lower-risk way to test this first?</li>
-<li>What evidence would increase our confidence?</li>
-<li>Are we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?</li>
-<li>Can we pilot, evaluate and adapt rather than committing to a full-scale implementation?</li>
+<li>workforce availability</li>
+<li>diagnostics</li>
+<li>discharge processes</li>
+<li>community services</li>
+<li>social care</li>
+<li>digital infrastructure</li>
+</ul>
+<p>A hospital with available beds but no discharge capacity is still constrained.</p>
+<p>Similarly, additional staff cannot improve performance if another part of the system limits patient flow.</p>
+<hr>
+</section>
+<section id="flow-is-where-systems-succeed-or-fail" class="level1">
+<h1>Flow Is Where Systems Succeed or Fail</h1>
+<p>Patients move through a sequence of healthcare services rather than a single department.</p>
+<p>Delays in one part of the pathway rarely remain isolated.</p>
+<p>As illustrated in <a href="#fig-bottleneck" class="quarto-xref">Figure&nbsp;<span>20.1</span></a>, delays at a bottleneck propagate backwards through the system, creating queues upstream.</p>
+<div id="fig-bottleneck" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bottleneck-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Bottleneck_Upstream_Queues.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bottleneck-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;20.1: A bottleneck creates queues upstream. Removing the bottleneck improves performance across the whole pathway.
+</figcaption>
+</figure>
+</div>
+<p>Every handover introduces the potential for delay.</p>
+<p>Healthcare therefore behaves as a connected network rather than a collection of independent departments.</p>
+<hr>
+</section>
+<section id="bottlenecks" class="level1">
+<h1>Bottlenecks</h1>
+<p>A bottleneck limits the performance of the entire system.</p>
+<p>Imagine a motorway with four lanes narrowing to one.</p>
+<p>Traffic builds long before the narrowing point.</p>
+<p>Healthcare behaves similarly.</p>
+<p>Common bottlenecks include:</p>
+<ul>
+<li>delayed diagnostics</li>
+<li>inpatient bed availability</li>
+<li>delayed discharge</li>
+<li>theatre capacity</li>
+<li>social care availability</li>
+</ul>
+<p>Improving a non-bottleneck often has surprisingly little effect on overall performance.</p>
+<p>Removing or reducing the bottleneck usually produces the greatest system-wide benefit.</p>
+<hr>
+</section>
+<section id="why-averages-can-mislead-operational-decisions" class="level1">
+<h1>Why Averages Can Mislead Operational Decisions</h1>
+<p>Suppose two Emergency Departments each receive:</p>
+<blockquote class="blockquote">
+<p><strong>300 attendances per day</strong></p>
+</blockquote>
+<p>The averages appear identical.</p>
+<p>However:</p>
+<ul>
+<li>Hospital A receives patients steadily throughout the day.</li>
+<li>Hospital B receives large surges during the afternoon and evening.</li>
+</ul>
+<p>As demonstrated in <a href="#fig-arrival-patterns" class="quarto-xref">Figure&nbsp;<span>22.1</span></a>, both hospitals experience the same total demand, yet their operational experience is very different.</p>
+<div id="fig-arrival-patterns" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-arrival-patterns-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Same_Demand_Different_Arrival_Patterns.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-arrival-patterns-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;22.1: Two hospitals can experience identical daily demand but very different operational pressure because of different arrival patterns.
+</figcaption>
+</figure>
+</div>
+<p>Queues form because of <strong>variation</strong>, not simply because of average demand.</p>
+<p>Operational pressure is often created by <strong>patterns of demand</strong>, rather than demand itself.</p>
+<hr>
+</section>
+<section id="variation-creates-queues" class="level1">
+<h1>Variation Creates Queues</h1>
+<p>Healthcare demand is rarely constant.</p>
+<p>Patients do not arrive evenly.</p>
+<p>Similarly:</p>
+<ul>
+<li>staff sickness varies</li>
+<li>discharge timing varies</li>
+<li>theatre utilisation varies</li>
+<li>ambulance arrivals vary</li>
+<li>diagnostic turnaround times vary</li>
+</ul>
+<p>Small variations accumulate throughout the system.</p>
+<p>Queues are therefore a natural consequence of variation.</p>
+<p>Reducing unnecessary variation often improves patient flow without increasing capacity.</p>
+<hr>
+</section>
+<section id="high-utilisation-can-reduce-performance" class="level1">
+<h1>High Utilisation Can Reduce Performance</h1>
+<p>Intuitively, high utilisation appears efficient.</p>
+<p>However, systems operating continuously at maximum utilisation often become less resilient.</p>
+<p>For example:</p>
+<ul>
+<li>fully occupied wards cannot absorb sudden admissions</li>
+<li>fully booked clinics have little flexibility</li>
+<li>operating theatres with no spare capacity struggle to recover from delays</li>
+</ul>
+<p>Healthcare systems require spare capacity to cope with inevitable variation.</p>
+<p>Maximising utilisation is therefore not always the same as maximising performance.</p>
+<hr>
+</section>
+<section id="a-whole-system-perspective" class="level1">
+<h1>A Whole-System Perspective</h1>
+<p>Healthcare behaves as a connected system.</p>
+<p>Changes in one part of the pathway frequently have consequences elsewhere.</p>
+<p>As illustrated in <a href="#fig-ripple-effect" class="quarto-xref">Figure&nbsp;<span>25.1</span></a>, improving one service may simply move pressure elsewhere unless the wider system is considered.</p>
+<div id="fig-ripple-effect" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ripple-effect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Whole_System_Ripple_Effect.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ripple-effect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;25.1: Healthcare behaves as a connected system. Changes in one part of the pathway create ripple effects across the wider healthcare system.
+</figcaption>
+</figure>
+</div>
+<p>Problems originating outside hospital—such as reduced community capacity or delayed social care—can rapidly affect:</p>
+<ul>
+<li>Emergency Departments</li>
+<li>inpatient wards</li>
+<li>ambulance services</li>
+<li>elective care</li>
+</ul>
+<p>Understanding these ripple effects is essential when designing improvement programmes.</p>
+<hr>
+</section>
+<section id="why-this-matters-for-decision-makers" class="level1">
+<h1>Why This Matters for Decision-Makers</h1>
+<p>Many operational problems cannot be solved simply by increasing resources.</p>
+<p>Sometimes organisations achieve greater improvement by:</p>
+<ul>
+<li>redesigning pathways</li>
+<li>removing bottlenecks</li>
+<li>reducing unnecessary variation</li>
+<li>improving discharge processes</li>
+<li>strengthening community services</li>
+<li>improving patient flow</li>
+</ul>
+<p>The key question is often not:</p>
+<blockquote class="blockquote">
+<p><strong>“Where should we add more capacity?”</strong></p>
+</blockquote>
+<p>Instead it is:</p>
+<blockquote class="blockquote">
+<p><strong>“What is preventing patients flowing through the system?”</strong></p>
+</blockquote>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Remember
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Improving one part of the system rarely improves the whole system.</p>
+<p>Sustainable improvement comes from understanding how <strong>demand</strong>, <strong>capacity</strong> and <strong>flow</strong> interact across the entire healthcare pathway.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="key-takeaways" class="level1">
+<h1>Key Takeaways</h1>
+<ul>
+<li>Demand and activity are not the same.</li>
+<li>Capacity extends beyond beds and staffing.</li>
+<li>Flow determines how effectively healthcare systems operate.</li>
+<li>Bottlenecks affect the entire pathway.</li>
+<li>Variation creates queues.</li>
+<li>High utilisation is not always efficient.</li>
+<li>Improving non-bottlenecks often has limited impact.</li>
+<li>Whole-system thinking is usually more valuable than optimising individual departments.</li>
 </ul>
 <hr>
 </section>
-<section id="key-takeaways" class="level2">
-<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<section id="questions-decision-makers-should-ask" class="level1">
+<h1>Questions Decision-Makers Should Ask</h1>
 <ul>
-<li>Risk is not certainty.</li>
-<li>Probability describes the likelihood of an event, not whether it will definitely occur.</li>
-<li>All analyses contain some degree of uncertainty.</li>
-<li>Forecasts and predictions should be interpreted as estimates rather than promises.</li>
-<li>Decisions should consider both the risks of action and the risks of inaction.</li>
-<li>Different decisions require different levels of evidence.</li>
-<li>Waiting for perfect information is itself a decision and may carry risks.</li>
-<li>Effective organisations acknowledge uncertainty, learn quickly and make proportionate decisions using the best evidence available at the time.</li>
+<li>Are we measuring demand or activity?</li>
+<li>Is our constraint really capacity, or is it poor flow?</li>
+<li>Where are patients actually waiting?</li>
+<li>Which bottleneck is limiting overall system performance?</li>
+<li>Are averages hiding important patterns of demand?</li>
+<li>Could improving flow release more capacity than adding additional resources?</li>
+<li>How might changes in one part of the pathway affect another?</li>
+<li>Are we optimising individual services or improving the whole system?</li>
+<li>What unintended consequences might this change create elsewhere in the system?</li>
 </ul>
 
 
@@ -936,13 +951,13 @@ Note
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../modules/08-Evaluating-Methods-in-Practice.html" class="pagination-link" aria-label="Module 8 — Evaluation Methods in Practice">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></span>
+      <a href="../Part_2.html" class="pagination-link" aria-label="Part 2">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Part 2</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../modules/10-Common-Analytical-Traps-&amp;-Data-Fallacies.html" class="pagination-link" aria-label="Module 10: Common Analytical Traps &amp; Data Fallacies">
-        <span class="nav-page-text"><span class="chapter-title">Module 10: Common Analytical Traps &amp; Data Fallacies</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../Project.html" class="pagination-link" aria-label="Project - Healthcare Data Literacy Series">
+        <span class="nav-page-text"><span class="chapter-title">Project - Healthcare Data Literacy Series</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

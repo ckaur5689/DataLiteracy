@@ -60,13 +60,23 @@
     ]
   },
   {
+    "objectID": "Part_1.html",
+    "href": "Part_1.html",
+    "title": "Part 1",
+    "section": "",
+    "text": "How should I interpret healthcare data?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Part 1</span>"
+    ]
+  },
+  {
     "objectID": "modules/01-Counts-vs-Rates.html",
     "href": "modules/01-Counts-vs-Rates.html",
     "title": "Module 1 - Counts vs Rates",
     "section": "",
     "text": "When Crude Rates Are Still Not Enough\nImagine two Integrated Care Boards.\nICB A records:\nICB B records:\nAt first glance:\nBut what if ICB B serves a population twice as large?\nSuddenly the interpretation changes.\nThis is why healthcare analytics rarely relies on counts alone.\nTo compare populations fairly, we often use:\nEven crude rates can mislead because populations may have very different age structures.\nFor example:\nSince healthcare use often increases with age:",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -76,7 +86,7 @@
     "section": "",
     "text": "one system may have a younger working-age population\nanother may have substantially more older adults\n\n\n\ncrude rates alone may still produce unfair comparisons",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -86,7 +96,7 @@
     "section": "When Should We Use Age-Standardised Rates?",
     "text": "When Should We Use Age-Standardised Rates?\nThe choice depends on the question you are trying to answer.\nFor healthcare analytics, the distinction is important because age-standardisation is fundamentally about removing differences in population structure so comparisons are fair.\n\n\n\nIf your question is…\nUse…\n\n\n\n\nFair comparison between systems\nAge-standardised rates\n\n\nUnderstanding real operational demand\nAge-specific rates\n\n\nBenchmarking inequalities\nAge-standardised rates\n\n\nCapacity planning\nActual population cohorts\n\n\nFrailty planning\nAge-specific demand\n\n\n\nFor many NHS operational decisions:\n\ncrude and age-specific rates remain highly useful",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -96,7 +106,7 @@
     "section": "Example 1",
     "text": "Example 1\nImagine:\n\nICB A — younger urban population\nICB B — older rural/coastal population\n\nEmergency department (ED) crude rates may naturally be higher in ICB B because healthcare utilisation often increases with age and frailty.\nAge-standardisation removes this structural population difference.\nThis is useful if asking:\n\n“Is the underlying utilisation risk genuinely higher?”\n\nHowever, it may be less useful if asking:\n\n“Which system actually needs more ED capacity?”\n\nWhy?\nBecause the older population — and its associated demand — still exists operationally.\n\nA Note on Specific Age Cohorts\nIf analysis is already restricted to a defined cohort such as:\n\n65+\n0–19\nworking-age adults\nfrailty populations\n\nthen age-standardisation may add less value because age has already been partially controlled through cohort selection.\nIn these situations:\n\nage-specific rates are often more meaningful and operationally interpretable",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -106,7 +116,7 @@
     "section": "Example 2:",
     "text": "Example 2:\n\n\n\nCohort\nED Attendances per 100k\n\n\n\n\n0–19\n5,800\n\n\n20–64\n1,200\n\n\n65+\n8,700\n\n\n\nAge-specific rates are often:\n\neasier to interpret\noperationally meaningful\nclinically intuitive",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -116,7 +126,7 @@
     "section": "Practical NHS Guidance",
     "text": "Practical NHS Guidance\n\n\n\nIf the goal is…\nUse…\n\n\n\n\nPublic health comparison\nAge-standardised rates\n\n\nBenchmarking organisations\nAge-standardised rates\n\n\nResearch/publication\nAge-standardised rates\n\n\nCapacity planning\nActual population cohorts\n\n\nFrailty planning\nAge-specific rates\n\n\nUnderstanding service pressure\nActual demand profiles",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -126,7 +136,7 @@
     "section": "When Should We Use Actual Population Cohorts?",
     "text": "When Should We Use Actual Population Cohorts?\nWhen the goal is to understand:\n\nreal operational demand rather than fair comparison\n\nactual population cohorts or age-specific rates are often more useful than age-standardised rates.\nExamples include:\n\n\n\n\n\n\n\nPurpose\nExample questions\n\n\n\n\nOperational analytics\nHow much ED capacity is needed? Which age groups drive demand? What workforce or service capacity is required?\n\n\nPopulation health management\nWhich populations carry the greatest burden? Where should interventions be targeted?\n\n\nService utilisation analysis\nWho is using services most? Which patient groups are driving pressure or unmet need?\n\n\n\nCommon operational use cases include:\n\ncapacity planning\ndemand modelling\nworkforce planning\nfrailty services\ncommunity services\ntargeted prevention and intervention design",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -136,7 +146,7 @@
     "section": "A Practical Caveat",
     "text": "A Practical Caveat\nAge-standardised rates can sometimes obscure operational burden.\nA system with an older, frailer population may appear statistically “average” after standardisation while still facing substantially greater service pressure.\nThis is why leaders should usually review:\n\ncounts\ncrude rates\nage-standardised rates\nage-specific breakdowns\n\ntogether.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -146,7 +156,7 @@
     "section": "A Simple Rule of Thumb",
     "text": "A Simple Rule of Thumb\nFor:\n\nfair comparison\n\nuse:\n\nage-standardised rates\n\nFor:\n\noperational decision-making\n\nuse:\n\nage-specific demand profiles",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -156,7 +166,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\nWhen reviewing healthcare activity counts or rates:\n\nAre we comparing populations of similar size?\nWould a rate provide a fairer comparison?\nDo age profiles differ?\nWould age-standardisation change interpretation?\nWhat does this metric represent operationally?\nWhich patient groups are driving demand?\nWhat additional context is needed before acting?\n\n\nA Final Caution\nRates improve fairness.\nBut they do not remove every structural difference between systems.\nTwo areas may have similar rates while facing very different levels of:\n\nfrailty\ndeprivation\nservice availability\npathway maturity\ncommunity capacity\n\nThis means:\n\nfair comparison does not automatically imply fair operational expectations\n\nFor example:\n\ntwo systems with similar ED attendance rates may have very different opportunities for reduction depending on population need and local service configuration.\n\nWe explore this idea further in:\n\nModule 5 — Standardisation & Fair Comparison",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 1 - Counts vs Rates</span>"
     ]
   },
   {
@@ -166,7 +176,7 @@
     "section": "",
     "text": "Why Averages Can Hide Operational Reality",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -176,7 +186,7 @@
     "section": "",
     "text": "What Can an Average Mean?\nIn healthcare analytics, averages are everywhere.\nWe regularly see:\n\naverage Length of Stay (LoS)\naverage waiting times\naverage cost per patient\naverage ED attendances\naverage theatre utilisation\n\nAverages are useful because they simplify complex information into a single number that is easy to communicate and compare.\nBut healthcare systems are rarely “average”.\nBehind a single average often sits:\n\nsignificant variation\noperational complexity\nlong-tail demand\nvery different patient experiences\n\nAverages simplify reality — but they can also obscure it.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -186,7 +196,7 @@
     "section": "Why This Matters in Healthcare",
     "text": "Why This Matters in Healthcare\nSuppose two Trusts report the following:\n\n\n\nTrust\nAverage Length of Stay\n\n\n\n\nTrust A\n5.1 days\n\n\nTrust B\n7.2 days\n\n\n\nAt first glance, Trust B may appear less efficient.\nBut is that comparison fair?\nWhat if Trust B:\n\nserves an older population\nhas higher frailty prevalence\nhas more patients with multiple long-term conditions\nexperiences delayed discharges due to social care pressures\noperates a tertiary specialist service\nhas limited community capacity\n\nThe average alone does not tell us this.\nThis is one of the most important principles in healthcare analytics:\n\nAverages summarise data — but they do not explain it.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -196,7 +206,7 @@
     "section": "Mean vs Median",
     "text": "Mean vs Median\nTwo commonly used “averages” are:\n\n\n\nMeasure\nWhat it represents\n\n\n\n\nMean\nThe arithmetic average across all patients\n\n\nMedian\nThe middle patient when values are ordered\n\n\n\nThe mean is sensitive to extreme values (outliers).\nThe median is often more stable and better reflects the “typical” patient experience.\n\nWhy Mean and Median Diverge\nImagine ten patients stay in hospital for:\n2, 2, 2, 3, 3, 3, 4, 5, 6, 35\nMost patients stay only a few days.\nBut one very long-stay patient changes the average dramatically.\n\n\n\nMeasure\nResult\n\n\n\n\nMean\n6.5 days\n\n\nMedian\n3 days\n\n\n\n\nThe median helps understand the typical patient. The mean helps understand overall system burden and resource use.\n\nIn healthcare:\n\nboth matter — but for different reasons",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -206,7 +216,7 @@
     "section": "Example — Length of Stay (LoS)",
     "text": "Example — Length of Stay (LoS)\nLength of Stay data is usually heavily right-skewed. The example below shows how mean and median can diverge across different patient groups.\nThis means:\n\nmost patients stay a relatively short time\na small number stay much longer\nthose long stays pull the mean upward\n\nFor example:\n\n\n\nPatient Group\nMean LoS\nMedian LoS\n\n\n\n\nAll Patients\n6.6 days\n3 days\n\n\nPatients aged 65+\n7.9 days\n3 days\n\n\nModerate/severe frailty\n10.8 days\n4 days\n\n\nMultiple long-term conditions\n12.2 days\n4 days\n\n\n\nThe median patient may stay only a few days.\nHowever, a relatively small number of long-stay patients can account for a disproportionate number of occupied bed days.\nOperationally, this matters enormously.\nThe figure below illustrates why mean and median may tell very different stories in healthcare operational data.\nNotice something important:\n\nmedian LoS changes relatively little, while mean LoS increases substantially as complexity and frailty rise.\n\nThis suggests a relatively small number of patients may be driving disproportionate bed occupancy.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -216,7 +226,7 @@
     "section": "Why The Distribution Matters",
     "text": "Why The Distribution Matters\nIf we only report the mean:\n\nwe lose visibility of variation\nwe may miss operational bottlenecks\nwe may misunderstand where pressure originates\n\nUnderstanding the full distribution helps answer more meaningful operational questions:\n\nWho are our longest-stay patients?\nWhy are stays prolonged?\nWhich patients drive bed occupancy?\nAre delays clinical, social or pathway-related?\nWhere would interventions have the greatest operational impact?\n\nSometimes:\n\nthe story is in the shape of the data, not just the average.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -226,7 +236,7 @@
     "section": "Is It Fair To Compare Trusts or ICBs Using Averages?",
     "text": "Is It Fair To Compare Trusts or ICBs Using Averages?\nAverages support benchmarking — but only with context.\nSimple comparison may overlook:\n\npopulation need\nfrailty burden\npathway complexity\nsocial care pressures\n\nThis is why benchmarking should support questions and learning rather than simplistic league tables.\n(We explore fair comparison in more depth in Module 5.)",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -236,7 +246,7 @@
     "section": "Benchmarking in Practice — Model Hospital",
     "text": "Benchmarking in Practice — Model Hospital\nNHS England’s Model Hospital (Model Health System) uses many averages and benchmark metrics including:\n\naverage LoS\ntheatre utilisation\nproductivity metrics\noperational performance indicators\n\nHowever, Model Hospital also attempts to improve fairness by using:\n\npeer-group comparisons\nspecialty-level analysis\nsegmentation\ncontextual benchmarking\n\nThis reflects an important reality:\n\nHealthcare operational benchmarking is inherently complex.\n\nNo single metric tells the whole story.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -246,7 +256,7 @@
     "section": "Operational Implications",
     "text": "Operational Implications\nAverages remain useful.\nThey help organisations:\n\nsummarise performance quickly\nbenchmark over time\nidentify broad variation\n\nBut averages alone should rarely drive operational decisions.\n\nWaiting Time Example\nAn average waiting time of:\n\n4 weeks\n\nmay sound acceptable.\nBut if:\n\nmost patients wait 1–2 weeks\na smaller group waits 30+ weeks\n\nthe average hides an important operational problem.\nThe average waiting time may look acceptable.\nBut the patient experience — and operational risk — may not be.\nAgain:\n\nthe shape of the distribution matters.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -256,7 +266,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\n\nThe mean and median measure different aspects of a population\nHealthcare data is often skewed rather than normally distributed\nA small number of patients can drive disproportionate operational pressure\nThe median often reflects the “typical” patient experience, while the mean better reflects system burden\nThe distribution may matter more than the average itself\nFair comparison requires context, not just metrics\nBenchmarking should start conversations, not end them",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -266,7 +276,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\nWhen reviewing averages:\n\nWhat does this average actually represent?\nHow variable is the underlying data?\nAre there important outliers?\nAre populations comparable?\nWhat operational factors sit behind the numbers?\nDoes the distribution reveal something the average hides?\nWhat action is realistically possible?",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 2 — Mean vs Median</span>"
     ]
   },
   {
@@ -276,7 +286,7 @@
     "section": "",
     "text": "Why relationships in healthcare data are rarely straightforward",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -286,7 +296,7 @@
     "section": "",
     "text": "When two things move together, does one cause the other?\nHealthcare analytics frequently identifies relationships between variables.\nFor example:\n\nhigher deprivation and worse health outcomes\nfrailty and increased admissions\nobesity and diabetes\ndelayed discharge and longer Length of Stay\nsmoking and stroke incidence\n\nWhen two variables appear related, this is known as a correlation.\nHowever, correlation alone does not prove that one variable directly causes the other.\nThis distinction matters enormously in healthcare analytics because healthcare systems are complex, interconnected and influenced by many overlapping factors.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -296,7 +306,7 @@
     "section": "What Is Correlation?",
     "text": "What Is Correlation?\nImagine we observe:\n\n\n\nArea\nFast-food density\nObesity\n\n\n\n\nArea A\nLow\nLow\n\n\nArea B\nHigh\nHigh\n\n\n\nWe might conclude:\n\nfast-food outlets directly cause obesity\n\nBut what else may matter?\n\nincome\naccess to healthy food\nphysical activity\ndeprivation\nhousing\neducation\n\nThe relationship may be real — but the pathway behind it is often more complex than it first appears.\nCorrelation describes a relationship between two variables.\nFor example:\n\n\n\n\n\n\n\nObservation\nRelationship\n\n\n\n\nAreas with higher deprivation often have higher stroke mortality\nPositive correlation\n\n\nIncreased physical activity is associated with lower cardiovascular risk\nNegative correlation\n\n\n\nCorrelation helps us:\n\nidentify patterns\ndetect variation\ngenerate hypotheses\nprioritise investigation\n\nBut correlation alone cannot tell us:\n\nwhy the relationship exists\nwhether the relationship is direct\nwhether other factors are involved",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -306,7 +316,7 @@
     "section": "Correlation Does Not Automatically Mean Causation",
     "text": "Correlation Does Not Automatically Mean Causation\nSuppose we observe:\n\n\n\nArea\nStroke Mortality\n\n\n\n\nMost deprived areas\nHigher\n\n\nLeast deprived areas\nLower\n\n\n\nIt may be tempting to conclude:\n\n“Deprivation directly causes higher stroke mortality.”\n\nHowever, healthcare outcomes are rarely driven by a single factor.\nDeprivation may instead be linked to:\n\nhigher smoking prevalence\nhypertension\nobesity\ndiabetes\ndelayed healthcare access\npoorer housing\nreduced access to prevention\nincreased multimorbidity\nenvironmental factors\n\nIn reality, deprivation often acts as a marker for a wider set of underlying risks and system pressures.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -316,7 +326,7 @@
     "section": "Example — Stroke Outcomes and Inequalities",
     "text": "Example — Stroke Outcomes and Inequalities\nStroke outcomes often vary significantly between populations.\nFor example, more deprived populations may experience:\n\nhigher stroke incidence\nearlier onset of stroke\nincreased mortality\nlonger rehabilitation needs\npoorer long-term outcomes\n\nHowever, these differences are usually influenced by multiple interconnected factors including:\n\nprevalence of hypertension\nsmoking rates\naccess to primary care\nanticoagulation gaps in atrial fibrillation\nhousing and social conditions\ndelayed presentation to services\nrehabilitation access\ntransport and geography\n\nThis means:\n\nthe observed inequality is real, but the pathway causing it is complex.\n\nThe example below illustrates how healthcare inequalities often emerge through multiple interconnected risk factors rather than a single direct cause-and-effect relationship.\n\n\nPoor Interpretation vs Better Interpretation\nObserved:\n\nhigher deprivation → higher stroke mortality\n\nPoor interpretation:\n\n“Deprivation causes stroke.”\n\nBetter interpretation:\n\n“Deprivation is associated with a set of behavioural, environmental, biological and access-related risks that may contribute to stroke outcomes.”",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -326,7 +336,7 @@
     "section": "Confounding Variables",
     "text": "Confounding Variables\nA confounding variable is a factor that influences both variables being studied.\nFor example:\nFor example:\nDeprivation\n      ↓\nSmoking prevalence\n      ↓\nStroke risk\nIf smoking prevalence is not considered, we may overestimate the direct effect of deprivation alone.\nHealthcare datasets often contain many confounding variables simultaneously.\nThis is one reason why interpreting healthcare analytics requires caution.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -336,7 +346,7 @@
     "section": "Why Adjustment Matters",
     "text": "Why Adjustment Matters\nHealthcare analytics often uses adjustment methods to improve fairness and interpretation.\nExamples include:\n\nage standardisation\ncase-mix adjustment\nregression modelling\nrisk adjustment\n\nAdjustment helps us ask:\n\n“What would outcomes look like if populations were more comparable?”\n\nFor example, after adjusting for:\n\nage\nsmoking\nhypertension\ndiabetes\nfrailty\n\n…the gap in stroke mortality between populations may reduce substantially.\nThis does not mean inequalities disappear.\nIt means:\n\npart of the observed relationship was explained by other linked factors.\n\nAdjustment improves understanding — it does not remove complexity.\n\nLooking Deeper\nIf interested, see:\n\nAppendix — How Adjustment Works\n\nfor a more detailed explanation of adjustment approaches used in healthcare analytics.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -346,7 +356,7 @@
     "section": "Correlation Can Still Be Extremely Useful",
     "text": "Correlation Can Still Be Extremely Useful\nImportantly:\n\ncorrelation is not “bad”.\n\nCorrelation is often the starting point for:\n\nidentifying inequalities\ndetecting unwarranted variation\nprioritising interventions\noperational investigation\npathway redesign\n\nWithout correlation analysis:\n\nmany healthcare inequalities would remain hidden.\n\nThe key is understanding that:\n\ncorrelation should start questions, not end them.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -356,7 +366,7 @@
     "section": "Operational Implications",
     "text": "Operational Implications\nMisinterpreting correlation as causation can lead to:\n\nsimplistic conclusions\nineffective interventions\nunrealistic targets\ninappropriate benchmarking\n\nFor example:\nIf analysis shows:\n\nhigher ED attendance in deprived areas\n\n…the operational response should not simply be:\n\n“reduce ED demand.”\n\nInstead, systems may need to examine:\n\nprimary care access\nprevention services\nfrailty support\ntransport barriers\ncommunity capacity\nhousing instability\nproactive care pathways\n\nThis moves analytics from:\n\ndescriptive reporting towards:\noperational understanding and intervention.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -366,7 +376,7 @@
     "section": "From Correlation to Operational Action",
     "text": "From Correlation to Operational Action\nEffective healthcare analytics often follows this progression:\n\n\n\nStep\nPurpose\n\n\n\n\nCorrelation\nDetect a signal\n\n\nIdentify drivers\nExplore explanations\n\n\nAdjustment\nImprove interpretation\n\n\nCohort segmentation\nIdentify who is affected\n\n\nOperational targeting\nFocus intervention\n\n\nPathway redesign\nImprove outcomes\n\n\n\nThis is where healthcare analytics becomes most valuable — moving from observation to better intervention design.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -376,7 +386,7 @@
     "section": "Why Healthcare Data Is Particularly Complex",
     "text": "Why Healthcare Data Is Particularly Complex\nHealthcare outcomes rarely arise from a single cause.\nInstead:\n\nmultiple factors interact\npathways overlap\noperational context matters\n\nThis is why healthcare analytics requires:\n\ninterpretation, context and operational understanding — not statistical outputs alone",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -386,7 +396,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\n\nCorrelation describes relationships between variables\nCorrelation alone does not prove causation\nCorrelation should start questions, not end them\nHealthcare inequalities are usually driven by multiple interacting factors\nConfounding variables can distort interpretation\nAdjustment helps improve fairness and understanding\nCorrelation remains extremely valuable for identifying patterns and prioritising investigation\nHealthcare analytics should support better questions, not simplistic conclusions",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -396,7 +406,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\nWhen reviewing correlated healthcare metrics:\n\nWhat factors may sit behind this relationship?\nAre important confounding variables being missed?\nDoes this represent causation, association, or both?\nAre populations truly comparable?\nWhat operational factors influence these outcomes?\nWhich drivers are actually modifiable?\nWhat intervention opportunities exist?\nWhat additional analysis is needed before acting?",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 3 — Correlation vs Causation</span>"
     ]
   },
   {
@@ -406,7 +416,7 @@
     "section": "",
     "text": "Module Learning Objective\nThis module explains why healthcare systems naturally exhibit variation and rarely behave in perfectly predictable ways — and why understanding variation is often more important than understanding averages.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -416,7 +426,7 @@
     "section": "Why Looking at the Data Matters",
     "text": "Why Looking at the Data Matters\nHealthcare analytics often relies on summary statistics such as:\n\naverages (means)\nmedians\npercentages\nrates\nstandard deviations\n\nThese measures are useful because they simplify complex data.\nHowever, summary statistics can sometimes be misleading.\nVery different underlying patterns may produce:\n\nthe same mean\nsimilar variation\nsimilar summary statistics\n\nwhile representing very different operational realities.\nThis creates an important lesson:\n\nAlways look at the shape of the data — not just the summary numbers.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -426,7 +436,7 @@
     "section": "A Statistical Cautionary Tale",
     "text": "A Statistical Cautionary Tale\nIn statistics, there are famous examples showing how datasets can appear almost identical numerically while looking completely different when plotted.\nExamples include:\n\nAnscombe’s quartet https://en.wikipedia.org/wiki/Anscombe%27s_quartet\nDatasaurus Dozen https://en.wikipedia.org/wiki/Datasaurus_dozen\n\nThese examples demonstrate a simple but powerful message:\nDatasets with similar summary statistics may behave in completely different ways when visualised.\nFor example:\nTwo datasets may have:\n\nthe same average\nthe same variance\nthe same correlation\n\nyet reveal very different patterns when visualised.\nOne may show:\n\na clear trend\n\nwhile another may contain:\n\nclusters\noutliers\nhidden non-linearity\nvery different distributions",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -436,7 +446,7 @@
     "section": "Key Lesson",
     "text": "Key Lesson\nNumbers summarise data — but plots help us understand it.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -446,7 +456,7 @@
     "section": "A Healthcare Example: Length of Stay",
     "text": "A Healthcare Example: Length of Stay\nHealthcare data often behaves this way.\nLength of Stay provides one of the clearest examples.\nHealthcare data often behaves this way.\nLength of Stay provides one of the clearest examples.\nTwo hospitals may report the same average Length of Stay while experiencing very different operational realities.\nWe return to this example shortly.\n\nTrust A\nMost patients stay: 4–8 days\nVariation is relatively predictable.\n\n\nTrust B\nMost patients stay: 1–3 days\nBut a relatively small cohort stays much longer: - 30–60+ days\ndue to:\n\nfrailty\nmultimorbidity\ndelayed discharge\nsocial care complexity\n\nOperationally:\n\nthe systems may feel completely different despite identical averages.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -456,7 +466,7 @@
     "section": "This highlights an important lesson:",
     "text": "This highlights an important lesson:\nidentical summary statistics do not imply identical operational systems.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -466,7 +476,7 @@
     "section": "Common Patterns of Variation in Healthcare",
     "text": "Common Patterns of Variation in Healthcare\nBefore returning to Length of Stay in more detail, it is useful to understand some common ways healthcare activity behaves statistically. These patterns help explain why healthcare systems rarely behave in smooth or predictable ways.\n\nNormal Distribution\nCharacteristics:\n\nsymmetrical\nclustered around a central value\npredictable variation\n\nHealthcare examples:\n\nadult height\nblood pressure (in selected populations)\nlaboratory measurements\n\n\n\nInterpretation\nVariation is relatively predictable.\n\n\nRight-Skewed Distribution (Most Common in Healthcare)\nCharacteristics:\n\nmany small values\nfewer large values\nlong tail\n\nHealthcare examples:\n\nLength of Stay\nED attendances per patient\noutpatient waiting times\nfrequent attenders\ndelayed discharge\n\n\n\nInterpretation\nA small number of patients often drive disproportionate operational demand.\n\n\nCounts & Proportions\nHealthcare systems often monitor:\n\ncounts (falls, incidents, infections)\nproportions (% compliance, mortality, readmissions)\n\nThese are useful because healthcare activity is often uneven and noisy.\n\n\nBimodal Distributions\nCharacteristics:\n\ntwo peaks\n\nHealthcare examples:\n\nED waiting times split between minors and majors\nmental health LoS groups\nelective vs emergency pathways\n\n\n\nInterpretation\nMay suggest:\n\ndifferent patient groups\nhidden segmentation\npathway effects",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -476,7 +486,7 @@
     "section": "Length of Stay (LoS): Looking Beyond the Average",
     "text": "Length of Stay (LoS): Looking Beyond the Average\nLength of Stay (LoS) is one of the most common healthcare measures used to monitor hospital performance, patient flow and operational pressure.\nAt first glance, LoS may appear simple:\n\nHow long do patients stay in hospital on average?\n\nHowever, Length of Stay data rarely behaves in a simple or predictable way.\nIn reality, LoS is often highly skewed.\nMost patients may stay for only a short period of time, while a much smaller group experience considerably longer stays.\nThis creates what is known as a long tail distribution.\nFor example:\n\nmany patients may stay 1–3 days\nfewer patients stay 7–14 days\na relatively small number may remain in hospital for 30, 60 or even 90+ days\n\nThis means the “average” Length of Stay can sometimes hide what services are actually experiencing operationally.\n\nUnderstanding Skew and Tails\nIn a symmetrical distribution, most values cluster evenly around the middle.\nHealthcare data often behaves differently.\nLength of Stay commonly demonstrates a right-skewed distribution, where:\n\nmany short stays occur\nprogressively fewer longer stays occur\na small number of patients create a long operational tail\n\nThe important insight is:\nnot all patients contribute equally to hospital bed occupancy.\nA relatively small number of patients can consume a disproportionate number of bed days.\nThis matters enormously operationally.\n\n\nWhy Longer stays may occur\nLonger stays are often not random.\nThey may be disproportionately associated with patients who experience:\n\nmoderate or severe frailty\nmultiple long-term conditions (multimorbidity)\ncognitive impairment\nsocial care needs\nhousing instability\ncomplex discharge requirements\n\n\nFor example:\nA relatively fit patient admitted with pneumonia may recover and return home quickly.\nIn contrast, an older frail patient with:\n\nheart failure\ndiabetes\ndementia\nreduced mobility\n\nmay require:\n\ntherapy input\nsocial care assessment\ndischarge planning\ncommunity support coordination\n\nEven if medically fit, discharge may remain delayed due to wider system complexity.\nThis means Length of Stay is often influenced by much more than clinical recovery alone.\n\n\nDelayed Discharge and Operational Pressure\nDelayed discharge provides an important example of how distributions matter.\nImagine two hospitals with a similar average Length of Stay.\nOn paper:\nImagine two hospitals:\n\n\n\nTrust\nMean Length of Stay\n\n\n\n\nTrust A\n6 days\n\n\nTrust B\n6 days\n\n\n\nThe averages look identical.\nThe averages appear identical.\nHowever:\n\n\nTrust A\nMost patients stay: 4–8 days\n\n\nTrust B\nMost patients stay:\n\n1–3 days\n\nBut a smaller group experience:\n\n30–60+ day stays due to delayed discharge and frailty-related complexity\n\nOperationally, these hospitals may feel very different.\n\nTrust B may experience:\n\nbed occupancy pressure\ndelayed patient flow\ndischarge bottlenecks\ncorridor care risk\nescalation pressures\n\neven though the average Length of Stay is the same.\nThis highlights an important lesson:\n\nidentical averages do not imply identical operational systems.\n\n\n\nPoor Interpretation vs Better Interpretation\nObserved:\n\nMean LoS = 6 days in both trusts\n\nPoor interpretation:\n\n“The hospitals perform similarly.”\n\nBetter interpretation:\n\n“The averages are similar, but the underlying distribution and operational pressures may differ substantially.”",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -486,7 +496,7 @@
     "section": "Why This Matters for Population Health Management (PHM)",
     "text": "Why This Matters for Population Health Management (PHM)\nUnderstanding who sits in the long tail matters.\nIf a relatively small cohort consumes a large proportion of bed days, important questions emerge:\n\nWho are these patients?\nWhat risks or characteristics do they share?\nAre there opportunities for earlier intervention?\nCould support be delivered upstream?\n\nThis moves analytics beyond description and into action.\n\nFor example:\nHealthcare systems may identify cohorts with:\n\nmoderate/severe frailty\nrepeated non-elective admissions\nmultimorbidity\nsocial care dependency\ndischarge delays\n\nThese cohorts may benefit from:\n\nanticipatory care\nfrailty pathways\nintegrated neighbourhood working\nenhanced discharge planning\ncommunity-based intervention",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -496,7 +506,7 @@
     "section": "Why This Matters for Pathway Redesign and Demand Management",
     "text": "Why This Matters for Pathway Redesign and Demand Management\nVariation in Length of Stay can reveal where systems are struggling.\nThe goal is often not simply:\n“reduce average Length of Stay”\nInstead, the more useful question may be:\n“What is driving long stays, and which parts of the pathway can realistically be redesigned?”\nExamples might include:\n\nearlier frailty identification\nimproved discharge coordination\nhospital-at-home models\nbetter rehabilitation pathways\nintegrated community support\n\nThis is where analytics becomes operationally useful.\nRather than reporting averages alone, healthcare analytics can help answer:\nWhich patients are driving demand, why, and what can realistically be done differently?",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -506,7 +516,7 @@
     "section": "Statistical Process Control (SPC) Charts",
     "text": "Statistical Process Control (SPC) Charts\nSo far we have explored variation across patients.\n\nWhat Are SPC Charts?\nSPC charts help distinguish:\nBut healthcare systems also vary over time.\nThis raises another important question:\n\nis change meaningful — or simply normal fluctuation?\n\nThis is where SPC charts help.\n\n\ncommon cause variation\n(normal system variation)\nvs\n\n\nspecial cause variation\n(unusual change requiring investigation)\nThis is extremely NHS relevant.\n\n\nWhen SPC Charts Work Well\nWhen monitoring:\n\n\nCounts (c-chart/u-chart)\nExample:\n\nfalls per ward\ncomplaints\ninfections\n\n\n\nProportions (p-chart)\nExample:\n\n% stroke patients thrombolysed\n% patients seen within target",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -516,7 +526,7 @@
     "section": "Example: Counts",
     "text": "Example: Counts\nMonthly falls on Ward A.\nQuestion:\n\nIs variation normal — or has something changed?",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -526,7 +536,7 @@
     "section": "Example: Proportion",
     "text": "Example: Proportion\n% stroke patients receiving assessment within target timeframe.\nQuestion:\n\nAre we seeing sustained improvement or random fluctuation?\n\nThe examples below illustrate how SPC can help distinguish expected fluctuation from meaningful change in healthcare systems.\n\n\nWhen NOT To Use SPC\nImportant section.\nAvoid when:\n\ntiny numbers\nunstable denominators\nchanging definitions\npoor data quality\nmajor pathway redesign underway\ninappropriate comparisons\n\nAnd importantly:\n\nSPC does not explain why variation occurred.\n\nIt only flags:\n\nsomething unusual may have happened.\n\nThat distinction matters.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -536,7 +546,7 @@
     "section": "Looking Ahead: When Understanding Variation Is Not Enough",
     "text": "Looking Ahead: When Understanding Variation Is Not Enough\nUnderstanding variation helps us interpret healthcare systems.\nBut sometimes decision-makers need to move beyond:\n\n“What happened?”\n\nand ask:\n\n“What might happen if the system changes?”\n\nExamples include:\n\nadding ED capacity\nreducing discharge delays\nworkforce shortages\nwinter demand pressures\nelective backlog recovery",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -546,7 +556,7 @@
     "section": "This is where simulation models can help.",
     "text": "This is where simulation models can help.\nRather than relying only on averages or historical trends, simulation allows healthcare systems to explore:\n\nWhat might happen under different scenarios?\n\nSimulation will be explored in more detail in a later module in the series.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -556,7 +566,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\n\nHealthcare systems naturally exhibit variation — averages rarely tell the whole story\nSummary statistics can look similar while masking very different operational realities\nUnderstanding distributions helps explain demand, flow and system pressure\nA relatively small cohort of patients may consume a disproportionate share of bed days\nStatistical Process Control (SPC) helps distinguish expected variation from meaningful change\nSPC highlights signals — but does not explain causes\nWhen systems become highly variable or operationally complex, simulation models may help explore future scenarios",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -566,7 +576,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\n\nAre we looking only at an average — or the full distribution of activity?\nCould a relatively small cohort be driving disproportionate operational pressure or demand?\nAre we seeing expected variation — or evidence of something meaningfully different?\nIs this signal likely to reflect real change or random fluctuation? Would SPC help us distinguish?\nDoes this metric hide operational complexity (for example, frailty, delayed discharge or multimorbidity)?\nAre there different patient groups or pathways hidden within the data?\nWhat operational actions would realistically follow from this analysis?\nHas the system become too complex for averages and trend lines alone?\nWould scenario modelling or simulation help us test future options?",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 4 - Variation & Distributions</span>"
     ]
   },
   {
@@ -576,7 +586,7 @@
     "section": "",
     "text": "Why do we adjust healthcare data?\nHealthcare organisations often compare: - admission rates - mortality - ED attendance - stroke outcomes - Length of Stay\nBut populations are rarely directly comparable.\nThis creates an important challenge:\nHow can we compare healthcare outcomes fairly without losing sight of operational reality?\nAdjustment attempts to account for these differences so comparisons become fairer and more meaningful.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -586,7 +596,7 @@
     "section": "Age Adjustment",
     "text": "Age Adjustment\n\nAge-specific rate\nAn age-specific rate is calculated separately for each age group:\n\\[\n\\text{Age-specific rate} =\n\\frac{\\text{Stroke deaths in age group}}\n{\\text{Population in age group}}\n\\times 100,000\n\\]\nExample calculation:\n\\[\n\\frac{120}{50,000} \\times 100,000\n=\n240 \\text{ per 100,000}\n\\]\nThis allows comparison within similar age groups.\n\n\n\nDirect age-standardised rate\nAge-standardisation applies a standard population structure to both populations:\n\\[\n\\text{Age-standardised rate}\n=\n\\frac{\n\\sum(\\text{age-specific rate} \\times \\text{standard population})\n}{\n\\sum(\\text{standard population})\n}\n\\]\nThis answers:\n\n“What would the outcome rate look like if both populations had the same age structure?”",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -596,7 +606,7 @@
     "section": "Which Standard Population Should We Use?",
     "text": "Which Standard Population Should We Use?\nAge-standardisation requires the use of a standard population structure.\nIn England, the most commonly used standard population is the:\n\nEuropean Standard Population (ESP2013)\nThis provides a consistent age distribution that allows fairer comparison between populations with different age structures.\nHowever, the choice of standard population matters.\nThe ESP2013 is widely used because it:\n\nsupports consistency across analyses\nenables comparison between regions and countries\nremoves some of the influence of differing age structures\n\nThis is particularly useful for:\n\nmortality comparisons\npublic health analysis\ndisease incidence rates\nlong-term trend analysis\n\n\nImportant Limitation\n\nThe ESP2013 is an artificial reference population.\nIt does not necessarily reflect:\n\nthe actual age structure of England\nlocal ICB populations\noperational healthcare demand\n\n\nStatistical comparability does not always equal operational comparability.\n\nExample — Older Populations\nSuppose:\n\nICB A has a substantially older population\nICB B has a younger working-age population\n\nAfter age-standardisation:\ntheir rates may appear more similar\nHowever:\nICB A may still experience significantly greater operational pressure due to: * frailty * multimorbidity * discharge complexity * higher service utilisation\nThis highlights an important distinction:\n\nComparable performance does not imply equal opportunity for improvement.\n\n\n\nWhen National Population Structures May Be Useful\nIn some operational analyses, national population distributions or age-specific rates may provide a more realistic reflection of healthcare demand.\nmay provide a more realistic reflection of expected healthcare demand.\nThis can be particularly relevant when analysing:\n\nspecific age cohorts\nservice planning\noperational capacity\ndemand forecasting\n\nFor example:\n\nED attendance rates for people aged 75+\nfrailty prevalence\ncommunity service utilisation\n\nIn these situations:\n\nage-specific operational demand may matter more than fully standardised comparison.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -606,7 +616,7 @@
     "section": "Operational Interpretation Matters",
     "text": "Operational Interpretation Matters\nNeither approach is universally “correct”.\nThe appropriate approach depends on the question being asked. For example:",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -616,7 +626,7 @@
     "section": "Adjustment Using Regression Models",
     "text": "Adjustment Using Regression Models\nStandardisation is one approach to improving fairness in comparison.\nHealthcare analytics may also use statistical models to adjust simultaneously for multiple interacting factors.\nFor example:\n\nage\nsmoking\nhypertension\ndiabetes\nfrailty\n\nmay all influence stroke outcomes simultaneously.\n\n\nFrailty Adjustment\nFrailty can be represented in several ways:\n\nfrailty score\nmild/moderate/severe frailty categories\nelectronic frailty index (EFI)\n\nExample model:\n\\[\n\\begin{aligned}\n\\log\\left(\\frac{p}{1-p}\\right)\n&=\n\\beta_0 \\\\\n&+\n\\beta_1(\\text{deprivation}) \\\\\n&+\n\\beta_2(\\text{age}) \\\\\n&+\n\\beta_3(\\text{smoking}) \\\\\n&+\n\\beta_4(\\text{hypertension}) \\\\\n&+\n\\beta_5(\\text{diabetes}) \\\\\n&+\n\\beta_6(\\text{frailty})\n\\end{aligned}\n\\]\nThis estimates whether deprivation still appears associated with stroke mortality after accounting for these additional risk factors.\nThe diagram below illustrates how regression adjustment attempts to account for multiple interacting factors simultaneously when analysing healthcare outcomes.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -626,7 +636,7 @@
     "section": "Fair Comparison Does Not Always Mean Fair Operational Expectations",
     "text": "Fair Comparison Does Not Always Mean Fair Operational Expectations\nAdjustment does not “remove” inequalities.\nInstead, it helps us understand:\n\nwhich factors may explain part of the observed difference\nwhich inequalities remain after accounting for measurable risk factors\n\nFor example:\nBefore adjustment:\n\nStroke mortality may appear substantially higher in deprived populations.\n\nAfter adjustment:\n\nSome of the gap may reduce because smoking, hypertension, diabetes and frailty explain part of the difference.\n\nHowever:\n\na remaining gap may still exist due to wider social, behavioural and healthcare inequalities.\n\nEven after adjustment, statistically fair comparison does not necessarily imply equal operational opportunity.\nFor example:\n\nshould two ICBs with similar ED attendance rates be expected to achieve the same reduction target?\n\nOften:\n\nno\n\nIdentical percentage reductions assume the same underlying opportunity, risk profile and pathway flexibility.\nThat is rarely true.\nThis is where healthcare systems move from simple benchmarking towards population-adjusted operational planning.\n\nWhy This Matters\nImagine:\n\n\n\nICB\nPopulation Profile\n\n\n\n\nICB A\nYounger, urban, lower frailty\n\n\nICB B\nOlder, rural, higher frailty\n\n\n\nEven after using age-specific ED attendance rates, the systems may still differ because of:\n\ndeprivation\nmultimorbidity\naccess to primary care\ntransport\ncare home prevalence\ncommunity service availability\nrurality\nambulance conveyance patterns\nsocial care capacity\n\nSo:\n\na 10% reduction target may be much more achievable in one system than another.\n\n\n\nExample:\n\n\n\n\nICB A\nICB B\n\n\n\n\nPopulation\nYounger / urban\nOlder / rural\n\n\n65+ ED rate\n8,000\n8,200\n\n\nLikely drivers\nPathway gaps\nFrailty / care homes\n\n\nOpportunity for reduction\nHigher\nLower\n\n\n\nSimilar rates. Very different operational reality.\nA blanket:\n\n“reduce by 10%”\n\nimplicitly assumes equal reducibility.\nThat’s often false.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -636,7 +646,7 @@
     "section": "More Realistic Approaches to Improvement",
     "text": "More Realistic Approaches to Improvement\n\nUnderstand Reducible vs Non-Reducible Demand\nSome ED activity is:\n\nclinically appropriate\nstructurally unavoidable\ndemographically driven\n\nSome is potentially avoidable.\nOperationally, the focus should be:\n\navoidable admissions\nambulatory-sensitive conditions\npathway gaps\ndelayed community response\nrepeat attendance cohorts\n\nrather than crude overall reductions alone.\n\n\n\nSegment by Cohort\nBetter targets are often cohort-specific:\n\n\n\nCohort\nBetter Target\n\n\n\n\nFrailty\nreduce avoidable conveyances\n\n\nLTCs\nimprove proactive management\n\n\nFrequent attenders\nreduce repeat attendances\n\n\nCare homes\nimprove in-place care\n\n\nChildren\nimprove same-day access\n\n\n\n\n\n\nImprovement Opportunity Matters\nTwo ICBs may have:\n\nsimilar rates\ndifferent pathway maturity\n\n\nSimilar performance does not imply equal opportunity for improvement.\n\n\n\n\nBetter Questions Than “Can Both Reduce by 10%?”\nAsk:\n\nWhat proportion is avoidable?\nWhich cohorts drive growth?\nWhich attendances are pathway-sensitive?\nWhat operational levers exist?\nWhat capacity exists outside ED?\nWhat does good look like for similar systems?\nWhat inequities are driving demand?\n\n\n\n\nFair Comparison ≠ Fair Operational Expectations\nThe diagram below illustrates a key principle:\n\nfair comparison does not automatically imply equal operational opportunity\n\nEven where rates appear comparable, factors such as frailty, deprivation, pathway maturity and community capacity may influence achievable improvement.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -646,7 +656,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\nAdjustment improves fairness and interpretation.\nBut healthcare systems remain complex.\nEven sophisticated adjustment models cannot fully capture:\n\nsocial context\nbehavioural factors\nhousing\nservice access\noperational pressures\ncommunity support capacity\n\nThis is why:\n\nhealthcare analytics should support thoughtful interpretation, not simplistic conclusions.\n\n\nA Key Question\n\nHave we made a genuinely fair comparison — or simply made the numbers look more comparable?\n\nFor example:\ntwo systems may show similar age-standardised rates while still experiencing very different levels of frailty, discharge complexity and service pressure.\nThat is the central tension in healthcare analytics: fair comparison does not automatically imply comparable operational reality.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -656,7 +666,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\n\nCould standardisation be masking genuine operational pressure?\nAre we interpreting statistical fairness as operational fairness?\nDoes the adjustment method fit the question being asked?\nAre we trying to understand epidemiological risk, operational demand, or both?\nWould peer comparison be fairer than national comparison?\nWhat important context remains unmeasured?\nCould inequalities still be hidden within subgroups?\nAre equal targets operationally realistic across different systems?",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 5 — Standardisation & Fair Comparison</span>"
     ]
   },
   {
@@ -666,7 +676,7 @@
     "section": "",
     "text": "What is the dashboard really telling us — and what might we misunderstand?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -676,7 +686,7 @@
     "section": "Module Learning Objective",
     "text": "Module Learning Objective\nThis module helps explain:\n\nhow healthcare dashboards should be interpreted critically — and why dashboards are often starting points for questions rather than endpoints for conclusions.\n\nBy the end of this module, readers should feel more confident asking:\n\nWhat is this dashboard really telling us — and what might I be misunderstanding?\n\nThe module focuses on practical healthcare dashboards commonly used to monitor:\n\nEmergency Department (ED) activity\nemergency admissions\nelective recovery\nambulance handover delays\ndelayed discharge\npathway performance\npopulation health and inequalities\noperational flow\n\nRather than teaching how dashboards are built, this module focuses on:\n\nhow dashboards should be interpreted\n\nto support better questions and better decision-making.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -686,7 +696,7 @@
     "section": "A Practical Healthcare Example",
     "text": "A Practical Healthcare Example\nImagine an executive team reviewing a monthly urgent and emergency care dashboard.\nThe dashboard shows:\n\n\n\nMeasure\nLast Month\nThis Month\n\n\n\n\nED attendances\n18,400\n20,100\n\n\n4-hour performance\n76%\n69%\n\n\nAmbulance handover delays\n420\n590\n\n\nEmergency admissions\n5,230\n5,260\n\n\n\nAt first glance:\nthis looks concerning.\nA quick conclusion might be:\n\nUrgent care performance is deteriorating.\n\nBut an important question remains:\n\nWhat is actually driving this change?\n\nBefore acting, a decision-maker might reasonably ask:\n\nIs this seasonal?\nIs this normal variation?\nAre attendances increasing because of respiratory illness?\nIs performance deteriorating everywhere nationally?\nIs there a meaningful trend — or a single-month fluctuation?\nAre the metrics connected?\n\nThis illustrates an important idea:\n\ndashboards rarely provide answers on their own\n\nInstead:\n\nthey help us ask better questions",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -696,7 +706,7 @@
     "section": "Mistake 1 — Focusing Only on Red, Amber and Green Status",
     "text": "Mistake 1 — Focusing Only on Red, Amber and Green Status\nMany dashboards use:\n🔴 Red\n🟠 Amber\n🟢 Green\nto summarise performance.\nThis can be useful.\nBut it can also oversimplify reality.\nFor example:\nA metric may appear:\n🔴 RED\nbecause a target was narrowly missed.\nMeanwhile:\nperformance may actually be improving.\nSimilarly:\nsomething shown as:\n🟢 GREEN\nmay still hide important problems.\nFor example:\nperformance may technically exceed threshold —\nbut still be deteriorating over time.\nA useful question becomes:\n\nCompared with what?\n\nFor example:\n\nprevious performance?\npeer organisations?\nnational trend?\nexpected seasonal variation?\n\nGood dashboard interpretation asks:\n\nWhat sits behind the colour?\n\nrather than simply:\n\nIs it red or green?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -706,7 +716,7 @@
     "section": "Mistake 2 — Confusing Counts with Rates",
     "text": "Mistake 2 — Confusing Counts with Rates\nThis links directly back to:\n\nModule 1 — Counts vs Rates\n\nA dashboard may show:\nHigher emergency admissions\nBut this does not automatically mean:\n\nworse performance.\n\nWhy?\nBecause larger populations naturally generate larger numbers.\nFor example:\nan Integrated Care Board serving:\n1 million people\nwould reasonably be expected to have:\n\nmore admissions\n\nthan one serving:\n350,000 people\nSimilarly:\nareas with older populations may naturally experience:\n\nhigher healthcare utilisation.\n\nThis means dashboard interpretation should ask:\n\nAm I looking at counts or rates?\n\nand:\n\nIs this comparison fair?\n\nFor example:\n\ncrude counts?\nrates per population?\nage-standardised comparison?\ndeprivation-adjusted comparison?\n\nWithout context:\ndashboards can unintentionally mislead.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -716,7 +726,7 @@
     "section": "Mistake 3 — Overreacting to Single-Month Changes",
     "text": "Mistake 3 — Overreacting to Single-Month Changes\nHealthcare systems naturally fluctuate.\nThis links directly back to:\n\nModule 4 — Variation & Distributions\n\nFor example:\nimagine:\nED attendances ↑ 8%\nin one month.\nQuestion:\n\nDoes this represent a meaningful change?\n\nMaybe.\nBut maybe not.\nHealthcare systems are noisy.\nVariation happens because of:\n\nseasonal illness\nbank holidays\nstaff shortages\ncoding differences\noperational disruption\nrandom fluctuation\n\nA single month of deterioration does not necessarily mean:\n\nperformance is collapsing.\n\nSimilarly:\na single month of improvement does not necessarily mean:\n\na scheme worked.\n\nThis is why dashboards often benefit from:\n\ntrends\n\nrather than isolated points.\nOr:\n\nStatistical Process Control (SPC)\n\nwhich helps distinguish:\nnormal variation\nfrom\nmeaningful change\nA useful question becomes:\n\nAre we observing signal — or noise?\n\nThe image below illustrates an important distinction between:\n\nreacting to dashboards\n\nand\n\ninterpreting dashboards critically\n\nFast dashboard interpretation can sometimes encourage conclusions based on colours, isolated metrics or single-month changes.\nMore thoughtful interpretation instead asks:\n\nWhat context, comparison or explanation might sit behind the numbers?\n\n\nGood dashboard interpretation focuses less on immediate conclusions and more on:\n\ncontext, comparison, variation and critical questioning\n\nDashboards help surface patterns and areas requiring attention.\nHowever:\n\ninterpretation still requires context, judgement and questioning\n\nBefore moving on, consider:\n\nAm I reacting to the dashboard — or interpreting it?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -726,7 +736,7 @@
     "section": "Mistake 4 — Ignoring Denominators",
     "text": "Mistake 4 — Ignoring Denominators\nAnother common mistake is focusing only on raw numbers.\nA dashboard may show:\n\n50 emergency admissions from care homes\n\nQuestion:\n\nIs this high or low?\n\nThe answer depends on:\n\nhow many care home residents exist\nthe size of the older population\nexpected baseline utilisation\ncomparison with peers\n\nWithout this context:\n\nraw numbers become difficult to interpret.\n\nSimilarly:\n\n40 inpatient falls\n\nmight initially feel alarming.\nBut interpretation changes dramatically if this occurred across:\n\n500 admissions\n\nversus:\n\n25,000 occupied bed days\n\nThis matters for:\n\nadmissions\ncomplaints\nmortality\nharm incidents\nscreening uptake\nreadmissions\npathway conversion\n\nRaw numbers alone rarely tell the full story.\nGood dashboard interpretation therefore asks:\n\nRelative to what?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -736,7 +746,7 @@
     "section": "Mistake 5 — Assuming Correlation Means Causation",
     "text": "Mistake 5 — Assuming Correlation Means Causation\nThis links back to:\n\nModule 3 — Correlation vs Causation\n\nDashboards frequently show things moving together.\nFor example:\nED attendance ↑\n4-hour performance ↓\nQuestion:\n\nDid one cause the other?\n\nMaybe.\nBut dashboards alone rarely prove causation.\nOther factors may contribute:\n\nstaffing\nflow delays\nbed occupancy\ndischarge delays\nseasonal illness\n\nA dashboard may show:\n\nassociation\n\nwithout proving:\n\ncause\n\nGood interpretation asks:\n\nWhat else might explain this pattern?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -746,7 +756,7 @@
     "section": "Reflection",
     "text": "Reflection\nBefore moving on, ask:\n\nIf a dashboard suddenly looked concerning, what questions would I want answered before acting?\n\nGood dashboard interpretation begins with curiosity rather than immediate conclusions.\nDashboards become most useful when they encourage:\n\nbetter questions rather than faster conclusions\n\nrather than immediate conclusions.\nGood dashboard interpretation is not about memorising metrics.\nInstead:\n\nit is about learning how to think critically about what the dashboard might — and might not — be telling us\n\nThe following questions can provide a practical framework for interpreting dashboards more effectively.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -756,7 +766,7 @@
     "section": "1. What Am I Actually Looking At?",
     "text": "1. What Am I Actually Looking At?\nBefore interpreting a metric, it helps to understand:\n\nwhat the measure actually represents\n\nFor example:\nis it:\n\na count?\na rate?\na percentage?\nan average?\na median?\na target?\na trend?\n\nThis matters.\nA dashboard may show:\nEmergency admissions ↑\nQuestion:\n\nCompared with what definition?\n\nDoes this include:\n\nsame-day emergency care?\nobservation activity?\nshort stay admissions?\nonly non-elective inpatient spells?\n\nSimilarly:\na dashboard may show:\nAverage waiting time\nQuestion:\n\nAverage according to whom?\n\nMean?\nMedian?\n90th percentile?\nThe same label can sometimes describe very different things.\nA useful first question therefore becomes:\n\nWhat exactly am I looking at?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -766,7 +776,7 @@
     "section": "2. Compared With What?",
     "text": "2. Compared With What?\nNumbers rarely mean much in isolation.\nA dashboard showing:\n72%\nimmediately prompts another question:\n\nCompared with what?\n\nPossible comparisons include:\n\nprevious month\nprevious year\npeer organisations\nnational average\ntarget or threshold\nexpected seasonal pattern\nstatistical control limits\n\nFor example:\nED performance may appear poor.\nHowever:\nif all peer systems experienced winter deterioration during the same period:\n\nthe interpretation changes.\n\nSimilarly:\nan increase in emergency admissions may feel alarming.\nBut interpretation changes if:\n\ndemand increased nationally\n\nor:\n\npopulation need increased substantially.\n\nGood dashboard interpretation asks:\n\nIs this number unusual — or expected?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -776,7 +786,7 @@
     "section": "3. Is This Meaningful Change — or Normal Variation?",
     "text": "3. Is This Meaningful Change — or Normal Variation?\nHealthcare systems fluctuate.\nNot every change matters.\nA common mistake is assuming:\nperformance changed\ntherefore:\nsomething important happened\nSometimes this is true.\nSometimes it is simply:\n\nnormal variation\n\nFor example:\na dashboard may show:\nED attendances ↑ 4%\nQuestion:\n\nIs this meaningful?\n\nGood interpretation asks:\n\nIs this one month or a sustained trend?\nDoes the change exceed normal fluctuation?\nWhat does the SPC chart suggest?\nHas seasonality been considered?\n\nThe key question becomes:\n\nAre we observing signal — or noise?\n\nThe framework below summarises a practical way to interpret dashboards before jumping to conclusions.\nRather than reacting immediately to a metric or colour:\n\npause, question and interpret.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -786,7 +796,7 @@
     "section": "4. What Context Might Explain This?",
     "text": "4. What Context Might Explain This?\nDashboards rarely explain:\n\nwhy\n\nsomething happened.\nContext matters.\nFor example:\na deterioration in urgent care performance may reflect:\n\nwinter respiratory illness\nworkforce shortages\ndischarge delays\nbed occupancy\nindustrial action\nincreased acuity\ncoding or operational changes\n\nSimilarly:\nan apparent improvement may not always mean:\n\nimprovement caused by intervention.\n\nGood interpretation therefore asks:\n\nWhat else changed at the same time?\n\nThis links closely with:\n\nModule 7 — Thinking About Evidence & Evaluation\n\nbecause dashboard interpretation should avoid:\n\njumping from association to causation.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -796,7 +806,7 @@
     "section": "5. What Decision Does This Information Support?",
     "text": "5. What Decision Does This Information Support?\nPerhaps the most important question is:\n\nWhat decision are we trying to make?\n\nNot every metric needs action.\nNot every deterioration requires escalation.\nAnd not every improvement should trigger celebration.\nA dashboard should help support:\n\nprioritisation\ninvestigation\nmonitoring\nresource allocation\nquality improvement\nescalation where appropriate\n\nGood interpretation therefore asks:\n\nWhat decision does this information meaningfully support?\n\nSometimes the right answer is:\n\nmonitor more closely\n\nrather than:\n\nact immediately",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -806,7 +816,7 @@
     "section": "Reflection",
     "text": "Reflection\nBefore acting on dashboard information, pause and ask:\n\nWhat am I actually looking at, compared with what, and what context might explain it?\n\nGood dashboard interpretation moves from:\n\nseeing numbers\n\nto\n\nthinking critically about meaning",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -816,7 +826,7 @@
     "section": "A Simple Dashboard Interpretation Checklist",
     "text": "A Simple Dashboard Interpretation Checklist\nBefore acting, ask:\n\nWhat am I looking at?\nCompared with what?\nSignal or noise?\nWhat context matters?\nWhat decision does this support?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -826,7 +836,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\n\ndashboards present information — they do not automatically explain it\nnumbers rarely make sense without context or comparison\nvariation matters — not every change is meaningful\ndashboards show patterns but rarely prove causation\ngood interpretation focuses on questioning before action\n\nEffective dashboard interpretation moves beyond:\n\nWhat happened?\n\nto ask:\n\nWhat might explain this — and what should we do next?",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -836,7 +846,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\nBefore acting on dashboard information, ask:\n\nWhat am I actually looking at?\nCompared with what?\nIs this signal or normal variation?\nWhat context might explain this?\nWhat decision does this information support?\nWhat additional information would improve confidence?\n\n\n\nDashboards are most valuable not when they provide answers — but when they help decision-makers ask better questions.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 6 — How to Read a Dashboard</span>"
     ]
   },
   {
@@ -846,7 +856,7 @@
     "section": "",
     "text": "Did it work — or would things have changed anyway?",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -856,7 +866,7 @@
     "section": "Module Learning Objective",
     "text": "Module Learning Objective\nThis module helps explain:\n\nwhy evaluating healthcare interventions is often more difficult than it first appears — and how decision-makers can think more critically about whether changes in outcomes are genuinely attributable to a scheme or intervention.\n\nBy the end of this module, readers should feel more confident asking:\n\nDid this intervention actually work — or would things have changed anyway?\n\nThe module focuses on practical healthcare examples, particularly interventions intended to reduce:\n\nEmergency Department (ED) attendances\nemergency admissions\navoidable hospital utilisation\ndelayed discharge\noperational pressure\n\nIt introduces practical approaches to evaluation without assuming prior statistical knowledge.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -866,7 +876,7 @@
     "section": "A Practical Healthcare Example",
     "text": "A Practical Healthcare Example\nImagine an Integrated Care Board introduces a new frailty service intended to reduce Emergency Department attendance among older adults.\nThe service provides:\n\nproactive frailty assessment\ncommunity MDT support\nmedication review\nrapid response care coordination\n\nAfter six months:\n\n\n\nMeasure\nBefore Scheme\nAfter Scheme\n\n\n\n\nED attendances\n1,200\n980\n\n\nEmergency admissions\n450\n390\n\n\n\nAt first glance:\n\nThe scheme appears successful.\n\nED attendance has fallen.\nEmergency admissions have also fallen.\nBut an important question remains:\n\nWould this reduction have happened anyway?\n\nThis question sits at the heart of intervention evaluation.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -876,7 +886,7 @@
     "section": "Why Before-and-After Comparisons Feel Convincing",
     "text": "Why Before-and-After Comparisons Feel Convincing\nSimple comparisons are attractive because they are:\n\neasy to understand\nquick to produce\nintuitive to explain\n\nFor example:\nAdmissions reduced by 15%\nsounds persuasive.\nBut healthcare systems are noisy and complex.\nWithout additional context, before-and-after comparisons can create:\n\nfalse confidence\noverclaiming of impact\npoor investment decisions\nmisleading conclusions\n\nThe question should not simply be:\n\nDid things improve?\n\nInstead, decision-makers should ask:\n\nHow confident are we that the intervention caused the improvement?",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -886,7 +896,7 @@
     "section": "A Simple Example",
     "text": "A Simple Example\nImagine ED attendance falls following introduction of a community frailty service.\nQuestion:\n\nDid the intervention reduce attendance?\n\nMaybe.\nBut another possibility exists:\nED attendance might have reduced anyway because:\n\nwinter demand was lower\nviral illness reduced\npopulation behaviour changed\nambulance conveyance thresholds shifted\nother services improved\n\nWithout considering the counterfactual:\n\nwe risk mistaking coincidence for impact.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -896,7 +906,7 @@
     "section": "Counterfactual Thinking in Practice",
     "text": "Counterfactual Thinking in Practice\nEvaluation becomes stronger when we compare reality with a plausible alternative.\nIn simple terms:\nObserved outcome\n        vs\nWhat might reasonably have happened anyway\nThe closer we can get to a believable counterfactual:\n\nthe greater our confidence that the intervention genuinely contributed to the observed change.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -906,7 +916,7 @@
     "section": "Why Counterfactual Thinking Matters",
     "text": "Why Counterfactual Thinking Matters\nThe image below illustrates a common evaluation mistake:\nassuming that improvement after an intervention automatically implies impact.\nGood evaluation instead asks:\n\nCompared with what?\n\n\nThe purpose of counterfactual thinking is not to dismiss improvement.\nInstead, it encourages us to ask:\n\nHow confident are we that the intervention caused the change?",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -916,7 +926,7 @@
     "section": "A Practical NHS Reality",
     "text": "A Practical NHS Reality\nHealthcare systems rarely operate under ideal evaluation conditions.\nIn practice:\n\ninterventions evolve over time\nimplementation varies between sites\noperational pressures disrupt delivery\nschemes overlap\ndata quality may vary\nfunding cycles are short\n\nThis is particularly important in healthcare, where decisions often need to be made despite incomplete evidence and competing operational pressures.\nHealthcare evaluation therefore often involves balancing:\n\npragmatism\n\nwith\n\nconfidence in findings\n\nThe question is rarely:\n\nCan we be completely certain?\n\nInstead:\n\nHow confident should we be?\n\nThis means decision-makers often need to act before perfect evidence exists.\nEvaluation therefore becomes less about certainty and more about:\n\nmaking proportionate, evidence-informed judgements.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -926,7 +936,7 @@
     "section": "Reflection",
     "text": "Reflection\nBefore moving on, ask:\n\nIf outcomes changed after an intervention, what evidence would genuinely convince us that the intervention caused the change?\n\nThis module has focused on:\n\nthinking critically about evidence\n\nbecause healthcare systems frequently observe change without always knowing:\n\nwhether the intervention caused it.\n\nGood evaluation therefore moves beyond:\n\nDid outcomes improve?\n\nto ask:\n\nHow confident are we that the intervention contributed to improvement?",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -936,7 +946,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\n\nimprovement alone does not prove intervention impact\nhealthcare systems change for many reasons at the same time\nsimple before-and-after comparisons can be misleading\nstronger evaluation asks what might have happened anyway\nevaluation is about improving confidence, not proving certainty\ngood decision-making balances pragmatism with evidence\n\nGood evaluation moves beyond:\n\nDid outcomes improve?\n\nto ask:\n\nHow confident are we that the intervention genuinely contributed to change?",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -946,7 +956,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\nBefore acting on evaluation findings, ask:\n\nWhat else changed at the same time?\nWould improvement have happened anyway?\nAre we confusing correlation with causation?\nWhat evidence would increase our confidence?\nHow certain do we really need to be before acting?\nWhat level of confidence is proportionate for this decision?\n\nIn the next module, we explore practical approaches that healthcare systems use to improve confidence in evaluation findings — from pragmatic NHS evaluation methods through to Randomised Controlled Trials, Interrupted Time Series and Difference-in-Differences.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 7 — Thinking About Evidence & Evaluation</span>"
     ]
   },
   {
@@ -956,7 +966,7 @@
     "section": "",
     "text": "How healthcare systems improve confidence in evaluation findings",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -966,7 +976,7 @@
     "section": "Module Learning Objective",
     "text": "Module Learning Objective\nThis module helps explain:\n\nhow healthcare systems move beyond simple before-and-after comparisons by using more robust approaches to improve confidence that an intervention genuinely contributed to observed change.\n\nBy the end of this module, readers should feel more confident asking:\n\nHow strong is the evidence that this intervention worked?\n\nThe module focuses on practical healthcare examples, particularly interventions intended to reduce:\n\nEmergency Department (ED) attendances\nemergency admissions\navoidable hospital utilisation\ndelayed discharge\noperational pressure\n\nRather than assuming healthcare systems can ever prove impact with complete certainty, the module focuses on:\n\nimproving confidence in evaluation findings\n\nthrough more thoughtful and structured approaches.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -976,7 +986,7 @@
     "section": "What Is an RCT?",
     "text": "What Is an RCT?\nIn simple terms:\nan RCT compares two groups.\nOne group receives:\n\nthe intervention\n\nThe other receives:\n\nusual care (or no intervention)\n\nParticipants are assigned randomly.\nThis is important because randomisation helps reduce bias.\nIn theory:\n\nthe two groups should be broadly similar at the start.\n\nIf outcomes later differ:\nwe can have greater confidence that:\n\nthe intervention contributed to the change\n\nrather than:\n\nchance\nselection bias\npopulation differences\nother confounding factors",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -986,7 +996,7 @@
     "section": "A Practical Healthcare Example",
     "text": "A Practical Healthcare Example\nImagine an Integrated Care Board introduces a frailty intervention designed to reduce emergency admissions.\nRather than implementing the service everywhere immediately:\nseveral Primary Care Networks (PCNs) are selected to participate.\nPatients are randomly allocated.\n\nGroup A\nReceives:\n\nproactive frailty review\nmedication optimisation\nMDT support\ncommunity monitoring\n\n\n\nGroup B\nReceives:\n\nusual care\n\nAfter twelve months:\n\n\n\nMeasure\nIntervention Group\nUsual Care\n\n\n\n\nED attendances\n900\n1,100\n\n\nEmergency admissions\n320\n420\n\n\n\nQuestion:\n\nDid the intervention contribute to improvement?\n\nBecause patients were randomly allocated, we can generally have:\n\ngreater confidence that observed differences are more likely to reflect the intervention rather than underlying differences between patients.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -996,7 +1006,7 @@
     "section": "Why Randomisation Matters",
     "text": "Why Randomisation Matters\nWithout randomisation:\nservices may unintentionally select patients who are:\n\neasier to help\nmore engaged\nless clinically complex\nmore motivated\n\nThis creates a problem known as:\n\nselection bias\n\nFor example:\na frailty service might prioritise patients who are already likely to improve.\nThe intervention may then appear more successful than it truly is.\nRandomisation helps reduce this risk.\n\nThe key idea is simple:\nRCTs attempt to improve fairness in comparison by reducing differences between groups before outcomes are compared.\n\nrandom allocation improves confidence that differences in outcomes are more likely to reflect the intervention rather than underlying differences between patients.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1006,7 +1016,7 @@
     "section": "Why RCTs Are Difficult in Real Healthcare Systems",
     "text": "Why RCTs Are Difficult in Real Healthcare Systems\nDespite their strengths:\nRCTs are often difficult to implement in real healthcare systems.\nRCTs can provide strong evidence.\nHowever:\n\nstrong evidence is not always operationally practical\n\nHealthcare environments are messy.\nOperational realities include:\n\nworkforce shortages\nservice redesign during implementation\nchanging pathways\npolitical and operational pressure to scale interventions quickly\nethical concerns about withholding care\n\nFor example:\nif early evidence suggests a service is beneficial:\nleaders may feel uncomfortable withholding support from some patients.\nSimilarly:\nhealthcare systems often need to move quickly.\nWaiting several years for a perfect evaluation may not feel realistic when:\n\nEmergency Departments are under pressure\nemergency admissions are rising\noperational performance is deteriorating\n\nAs a result:\nmany healthcare evaluations rely on:\n\npragmatic approaches\n\nthat improve confidence without requiring a full RCT.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1016,7 +1026,7 @@
     "section": "Key Message",
     "text": "Key Message\nRCTs are powerful because they help create stronger comparisons between intervention and non-intervention groups.\nHowever:\n\nstrong evidence is not always operationally practical evidence\n\nHealthcare systems often need approaches that balance:\n\nrigour\n\nwith\n\noperational reality",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1026,7 +1036,7 @@
     "section": "Part 1 Reflection",
     "text": "Part 1 Reflection\nBefore moving on, ask:\n\nIf a scheme appears successful, how confident are we that the groups being compared were genuinely comparable?\n\nIn the next section, we explore another important question:\n\nHow much evidence is enough to trust the findings?\n\nThis introduces:\n\nsample size and statistical power",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1036,7 +1046,7 @@
     "section": "Why Small Numbers Can Mislead",
     "text": "Why Small Numbers Can Mislead\nHealthcare systems often evaluate schemes using:\n\nsmall pilots\nshort implementation periods\nhighly selected patient groups\nlimited operational data\n\nFor example:\nA frailty intervention is piloted for:\n20 patients\nAfter three months:\n\n\n\nMeasure\nBefore\nAfter\n\n\n\n\nED attendances\n42\n28\n\n\nEmergency admissions\n17\n10\n\n\n\nAt first glance:\n\nthe scheme appears successful.\n\nBut an important question remains:\n\nHow confident should we be that this change reflects genuine impact rather than normal fluctuation?\n\nSmall numbers naturally fluctuate.\nA handful of patients can disproportionately influence results.\nFor example:\nif two highly complex patients experience:\n\nhospitalisation\nbereavement\nworsening frailty\nmedication changes\n\noutcomes may change substantially.\nSimilarly:\nif several patients improve naturally:\nresults may look highly positive.\nThis means:\n\nSmall pilots may produce convincing-looking results that are less reliable than they first appear.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1046,7 +1056,7 @@
     "section": "What Do We Mean by Sample Size?",
     "text": "What Do We Mean by Sample Size?\nSample size simply refers to:\n\nhow many people, events or observations are included in an evaluation\n\nExamples include:\n\nnumber of patients enrolled in a scheme\nnumber of Emergency Department attendances analysed\nnumber of GP practices or PCNs involved\nnumber of months of activity included\n\nIn general:\n\nlarger samples tend to produce more stable and reliable findings\n\nbecause random fluctuation becomes less influential.\nThis does not mean:\n\nlarger samples automatically guarantee better evidence\n\nPoor evaluation design can still produce misleading conclusions.\nHowever:\n\nsmall numbers deserve greater caution",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1056,7 +1066,7 @@
     "section": "Statistical Power (In Plain English)",
     "text": "Statistical Power (In Plain English)\nStatistical power sounds technical.\nBut the underlying question is straightforward:\n\nIf a real improvement exists, how likely are we to detect it?\n\nLow-powered evaluations may fail to detect genuine effects.\nFor example:\na frailty scheme may genuinely reduce emergency admissions by:\n5%\nBut if:\n\nonly a small number of patients are included\nfollow-up time is short\nvariation is high\n\nthe evaluation may struggle to detect the change.\nDecision-makers may incorrectly conclude:\n\nThe intervention didn’t work\n\nwhen the evaluation simply lacked enough information.\nIn practice:\n\nsmall evaluations are more likely to miss real effects — or overreact to random fluctuation.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1066,7 +1076,7 @@
     "section": "A Practical Healthcare Example",
     "text": "A Practical Healthcare Example\nImagine two evaluations of the same frailty pathway.\n\nEvaluation A\n20 patients\n2 months follow-up\nObserved result:\nEmergency admissions ↓\nQuestion:\n\nWas this meaningful improvement — or random fluctuation?\n\nConfidence remains limited.\n\n\nEvaluation B\n2,000 patients\n12 months follow-up\nComparator group included\nObserved result:\nEmergency admissions ↓\nQuestion:\n\nHow confident are we now?\n\nConfidence is greater because:\n\nmore patients were observed\nlonger time period analysed\nnatural fluctuation matters less\ncomparison is stronger\n\nThis does not guarantee truth.\nBut it increases confidence.\nThe image below illustrates why small evaluations often produce more unstable and uncertain findings — even when results initially look promising.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1076,7 +1086,7 @@
     "section": "Why This Matters for Healthcare Decision-Making",
     "text": "Why This Matters for Healthcare Decision-Making\nHealthcare systems often pilot schemes quickly.\nLeaders may face pressure to decide:\n\ncontinue funding\nscale across the system\nredesign\nstop\n\nbefore strong evidence exists.\nThis creates an important tension:\n\nspeed of learning\n\nversus\n\nconfidence in conclusions\n\nThe question is rarely:\n\nCan we be completely certain?\n\nInstead:\n\nHow confident should we be before acting?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1086,7 +1096,7 @@
     "section": "A Practical Healthcare Example",
     "text": "A Practical Healthcare Example\nImagine a healthcare system identifies:\n20 patients\nwith very high Emergency Department attendance.\nEach attended:\n10–15 times\nduring the previous year.\nA targeted intervention is introduced.\nFor example:\n\ncare coordination\nfrailty MDT support\nproactive monitoring\nsocial prescribing\nmedication review\n\nOne year later:\nED attendance falls.\nQuestion:\n\nDid the intervention work?\n\nMaybe.\nBut another possibility exists.\nPatients selected because they experienced unusually extreme healthcare utilisation may naturally move closer to average levels over time.\nSome people improve naturally because:\n\nacute illness resolves\nsocial circumstances stabilise\nmedication changes occur\ntemporary crises pass\n\nThis means:\n\nsome improvement may occur even if the intervention had little or no effect",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1096,7 +1106,7 @@
     "section": "Why Regression to the Mean Matters",
     "text": "Why Regression to the Mean Matters\nWithout recognising regression to the mean:\nhealthcare systems may mistakenly conclude:\n\nThe scheme worked\n\nwhen some improvement might have happened anyway.\nThis is particularly important when evaluating:\n\nhigh-intensity ED attenders\nfrequent emergency admissions\nsevere frailty cohorts\ncomplex multimorbidity pathways\n\nThe higher the starting level of risk:\n\nthe greater the risk of mistaking natural fluctuation for intervention impact\n\nThe image below illustrates an important evaluation risk:\n\nimprovement does not always mean intervention impact.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1106,7 +1116,7 @@
     "section": "Why This Matters for Healthcare Decision-Making",
     "text": "Why This Matters for Healthcare Decision-Making\nHealthcare systems frequently target interventions at patients with the highest levels of need.\nThis makes regression to the mean particularly important.\nWithout recognising it, decision-makers may:\n\noverestimate intervention impact\nscale ineffective schemes\nmisallocate scarce resources\n\nA useful question becomes:\n\nWould some improvement have happened anyway?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1116,7 +1126,7 @@
     "section": "Key Message",
     "text": "Key Message\nSmall pilots and extreme patient groups can easily mislead evaluation.\nHealthcare systems should therefore ask:\n\nAre we observing genuine intervention impact — or natural fluctuation?\n\nGood evaluation becomes stronger when we ask:\n\nDo we have enough evidence?\n\nand\n\nCould improvement have happened anyway?\n\nBefore moving on, ask:\n\nIf outcomes improved, how confident are we that this reflects intervention impact rather than small numbers or natural fluctuation?\n\nIn the next section, we explore practical ways healthcare systems strengthen confidence in evaluation findings.\nIn Part 1 and Part 2 of this module, we explored:\n\nfair comparison through Randomised Controlled Trials (RCTs)\nwhy small numbers can mislead\nstatistical power\nRegression to the Mean\n\nYet another challenge remains.\nHealthcare systems rarely operate in perfect conditions.\nLeaders often need to evaluate schemes:\n\nquickly\nunder operational pressure\nwithout randomisation\nwhile multiple changes happen simultaneously\n\nIn reality:\n\nRCTs are often difficult, expensive or impractical\n\nThis creates an important question:\n\nHow can healthcare systems strengthen evaluation when RCTs are unrealistic?\n\nTwo practical approaches commonly used in healthcare evaluation are:\n\nInterrupted Time Series (ITS)\n\nand\n\nDifference-in-Differences (DiD)\n\nThese approaches do not eliminate uncertainty.\nInstead:\n\nthey improve confidence in findings by creating stronger comparisons.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1126,7 +1136,7 @@
     "section": "What Is Interrupted Time Series?",
     "text": "What Is Interrupted Time Series?\nRather than asking:\n\nDid outcomes improve?\n\nITS asks:\n\nDid the pattern of change meaningfully alter after the intervention?\n\nThis distinction matters.\nInstead of simply comparing:\nbefore\nvs\nafter\nITS asks:\nWas the trajectory interrupted?\nIn simple terms:\nITS looks at:\n\ntrends before intervention\ntrends after intervention\nwhether the pattern changed meaningfully\n\nFor example:\nDid emergency admissions:\n\nsuddenly reduce?\nbegin falling faster?\nstop increasing?\nimprove in a sustained way?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1136,7 +1146,7 @@
     "section": "A Practical Healthcare Example",
     "text": "A Practical Healthcare Example\nImagine an Integrated Care Board introduces a frailty pathway to reduce emergency admissions.\nInstead of comparing:\nbefore vs after\nwe examine:\nmonthly emergency admissions over time\nSuppose the intervention begins in:\nMonth 8\nQuestion:\n\nDid emergency admissions meaningfully change after implementation?\n\nThree possibilities might emerge:\n\nScenario 1 — No Meaningful Change\nAdmissions were already falling.\nThe trend simply continues.\nQuestion:\n\nDid the intervention add anything?\n\nConfidence in intervention impact remains limited.\n\n\nScenario 2 — Sudden Change\nAdmissions drop sharply immediately after implementation.\nQuestion:\n\nCould this represent intervention impact?\n\nConfidence increases.\n\n\nScenario 3 — Sustained Improvement\nAdmissions begin falling faster after implementation and remain lower over time.\nQuestion:\n\nDoes this suggest a meaningful shift in trajectory?\n\nConfidence increases further.\nThe image below illustrates the key question ITS asks:\n\nDid the trajectory meaningfully change after intervention?\n\nInterrupted Time Series helps distinguish:\n\nnormal change over time\n\nfrom\n\npotential intervention impact",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1146,7 +1156,7 @@
     "section": "Why ITS Matters for Healthcare Decision-Making",
     "text": "Why ITS Matters for Healthcare Decision-Making\nHealthcare systems often mistake:\n\nnormal trends\n\nfor\n\nintervention impact\n\nFor example:\nEmergency admissions may naturally improve after winter.\nOperational performance may recover after temporary disruption.\nWaiting lists may already have been stabilising.\nWithout considering trends:\ndecision-makers risk concluding:\n\nThe scheme worked\n\nwhen outcomes may have improved anyway.\nA useful question becomes:\n\nDid outcomes improve — or did the trajectory change?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1156,7 +1166,7 @@
     "section": "What Is Difference-in-Differences?",
     "text": "What Is Difference-in-Differences?\nRather than asking:\n\nDid outcomes improve?\n\nDiD asks:\n\nDid outcomes improve more where the intervention happened?\n\nIn simple terms:\nwe compare:\nchange\nvs\nchange\nrather than:\nbefore\nvs\nafter\nThe idea is simple:\nIf two similar groups experience similar pressures —\nbut only one receives the intervention —\nthen differences in improvement may provide stronger evidence of impact.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1166,7 +1176,7 @@
     "section": "A Practical Healthcare Example",
     "text": "A Practical Healthcare Example\nImagine:\n\nPCN A\nIntroduces a frailty pathway.\n\n\nPCN B\nDoes not.\nBoth experience:\n\nwinter pressure\nworkforce shortages\nrising demand\n\nAfter twelve months:\n\n\nPCN A\nEmergency admissions ↓ 15%\n\n\nPCN B\nEmergency admissions ↓ 5%\nQuestion:\n\nDid the intervention contribute to additional improvement?\n\nThe key question becomes:\n\nWas improvement greater where the intervention occurred?\n\nThis provides stronger evidence than:\n\nbefore-and-after comparison alone\n\nThe image below illustrates the core idea behind Difference-in-Differences:\n\ngood evaluation compares change — not just outcomes",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1176,7 +1186,7 @@
     "section": "Why DiD Matters for Healthcare Decision-Making",
     "text": "Why DiD Matters for Healthcare Decision-Making\nHealthcare systems frequently implement interventions:\n\ngradually\nin some places before others\nunder different operational conditions\n\nThis makes DiD especially useful when:\n\nRCTs are unrealistic\nphased roll-out exists\ncomparator organisations or places are available\n\nWithout comparators:\ndecision-makers risk attributing:\n\nsystem-wide improvement\n\nto\n\nlocal intervention impact\n\nA useful question becomes:\n\nWould similar improvement have happened elsewhere anyway?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1186,7 +1196,7 @@
     "section": "Key Message",
     "text": "Key Message\nGood evaluation becomes stronger when healthcare systems ask:\n\nDid trajectories change?\n\nand\n\nCompared with what?\n\nrather than simply asking:\n\nDid outcomes improve?\n\nPragmatic evaluation methods such as:\n\nInterrupted Time Series (ITS)\n\nand\n\nDifference-in-Differences (DiD)\n\nhelp strengthen confidence when Randomised Controlled Trials are not practical.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1196,7 +1206,7 @@
     "section": "Part 3 Reflection",
     "text": "Part 3 Reflection\nBefore acting on evaluation findings, ask:\n\nCould this improvement reflect an existing trend — or would similar change have happened elsewhere anyway?\n\nGood evaluation moves beyond:\n\nDid outcomes improve?\n\nto ask:\n\nHow confident are we that the intervention genuinely contributed to change?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1206,7 +1216,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\n\nimprovement alone does not prove impact\nfair comparison matters\nsmall numbers can mislead\nsome improvement may happen naturally\ntrajectories matter\ncomparison groups strengthen confidence\n\nGood evaluation asks:\n\nHow confident are we that the intervention genuinely contributed to change?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1216,7 +1226,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\n\nCompared with what?\nDid the trajectory change?\nCould improvement have happened naturally?\nWas the evaluation large enough to be informative?\nHow strong is our confidence in attribution?",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
   },
   {
@@ -1226,7 +1236,7 @@
     "section": "",
     "text": "Learning Objectives\nBy the end of this module you should be able to:",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1236,7 +1246,7 @@
     "section": "",
     "text": "Understand the difference between risk, probability and certainty.\nRecognise common sources of uncertainty in healthcare data and analysis.\nInterpret risk estimates appropriately.\nUnderstand why decision-making often occurs despite uncertainty.\nApply a pragmatic approach to making decisions when evidence is incomplete.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1246,7 +1256,7 @@
     "section": "Why This Matters",
     "text": "Why This Matters\nHealthcare leaders are rarely asked to make decisions with complete certainty.\nWhether considering a new service model, investing in prevention, redesigning a pathway or implementing a digital solution, there will almost always be uncertainty about future outcomes.\nThe role of analytics is not to eliminate uncertainty.\nThe role of analytics is to help decision-makers understand uncertainty well enough to make better decisions.\nGood decision-makers do not wait for certainty.\nThey make informed choices whilst understanding the risks.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1256,7 +1266,7 @@
     "section": "Risk Is Not Certainty",
     "text": "Risk Is Not Certainty\nA common misunderstanding is to interpret risk estimates as predictions.\nRisk describes the likelihood that something may happen.\nIt does not tell us what will happen for a specific patient, service or population.\nFor example:\n\n\n\nRisk Estimate\nInterpretation\n\n\n\n\n80% risk of admission\nMore likely to occur than not\n\n\n50% risk of admission\nOutcome remains highly uncertain\n\n\n20% risk of admission\nLess likely, but still possible\n\n\n\nAn 80% risk does not guarantee admission.\nA 20% risk does not guarantee safety.\nRisk describes probability, not destiny.\n\n\n\n\n\n\nNote\n\n\n\nA useful question is:\n“How often would we expect this outcome to occur in a large group of similar people?”\nrather than\n“Will this individual definitely experience the outcome?”",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1266,7 +1276,7 @@
     "section": "Sources of Uncertainty",
     "text": "Sources of Uncertainty\nUncertainty exists in all healthcare analyses.\nCommon sources include:\n\nRandom variation.\nIncomplete or missing data.\nSmall sample sizes.\nChanges in clinical practice.\nPolicy changes.\nWorkforce changes.\nBehavioural responses to interventions.\nUnexpected external events.\n\nThe future rarely behaves exactly like the past.\nThis means forecasts should always be viewed as estimates rather than promises.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1276,7 +1286,7 @@
     "section": "The Wrong Question",
     "text": "The Wrong Question\nDecision-makers often ask:\n\n“Are we certain this will work?”\n\nIn complex systems the answer is usually no.\nA better question is:\n\n“Do we have enough evidence to justify action?”\n\nThe goal is not certainty.\nThe goal is reducing uncertainty sufficiently to support a decision.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1286,7 +1296,7 @@
     "section": "Risk of Action vs Risk of Inaction",
     "text": "Risk of Action vs Risk of Inaction\nWhen considering change, organisations often focus heavily on the risks of doing something.\nHowever, every decision involves two sets of risks.\n\nRisks of Action\n\nFinancial cost.\nOpportunity cost.\nImplementation challenges.\nUnintended consequences.\n\n\n\nRisks of Inaction\n\nContinuing poor outcomes.\nIncreasing demand pressures.\nWorsening inequalities.\nMissed opportunities for improvement.\n\nSometimes the greatest risk is doing nothing.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1296,7 +1306,7 @@
     "section": "Pragmatic Decision-Making Under Uncertainty",
     "text": "Pragmatic Decision-Making Under Uncertainty\nNot every decision requires the same level of evidence.\nThe level of evidence should be proportionate to the scale of risk.\n\n\n\nDecision Type\nTypical Evidence Requirement\n\n\n\n\nMinor operational change\nLocal data and professional judgement\n\n\nSmall pilot\nLocal evaluation and benchmarking\n\n\nSignificant investment\nFormal evaluation and business case\n\n\nSystem-wide transformation\nStrong evidence and ongoing evaluation\n\n\n\nWaiting for perfect evidence can sometimes delay beneficial change unnecessarily.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1306,7 +1316,7 @@
     "section": "A Practical Decision Framework",
     "text": "A Practical Decision Framework\nWhen faced with uncertainty, consider the following questions:\n\nWhat do we know?\nWhat do we not know?\nWhat assumptions are being made?\nWhat are the potential benefits?\nWhat are the potential harms?\nWhat happens if we delay?\nCan we test the idea before scaling?\n\nIn many situations the answer is not “implement” or “do not implement”.\nThe answer is often:\n\n“Pilot, evaluate, learn and adapt.”",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1316,7 +1326,7 @@
     "section": "Decision-Making Under Uncertainty",
     "text": "Decision-Making Under Uncertainty",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1326,7 +1336,7 @@
     "section": "Poor Interpretation vs Better Interpretation",
     "text": "Poor Interpretation vs Better Interpretation\n\nPoor Interpretation\n\n“We don’t know for certain that this will work, so we should wait.”\n\n\n\nBetter Interpretation\n\n“We have uncertainty, but do we have enough evidence to justify testing the intervention safely?”\n\n\n\n\nPoor Interpretation\n\n“The forecast says demand will increase by 15%.”\n\n\n\nBetter Interpretation\n\n“The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate.”\n\n\n\n\nPoor Interpretation\n\n“The intervention might fail, so we shouldn’t proceed.”\n\n\n\nBetter Interpretation\n\n“What are the risks of proceeding, and what are the risks of doing nothing?”\n\n\n\n\nPoor Interpretation\n\n“We need more data.”\n\n\n\nBetter Interpretation\n\n“Would additional data materially change our decision?”",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1336,7 +1346,7 @@
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\n\nWhat level of uncertainty exists in this analysis?\nWhat assumptions underpin these findings?\nWhat information is missing or unknown?\nHow sensitive are the conclusions to those assumptions?\nWhat are the risks of acting?\nWhat are the risks of not acting?\nIs there a lower-risk way to test this first?\nWhat evidence would increase our confidence?\nAre we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?\nCan we pilot, evaluate and adapt rather than committing to a full-scale implementation?",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1346,7 +1356,7 @@
     "section": "Key Takeaways",
     "text": "Key Takeaways\n\nRisk is not certainty.\nProbability describes the likelihood of an event, not whether it will definitely occur.\nAll analyses contain some degree of uncertainty.\nForecasts and predictions should be interpreted as estimates rather than promises.\nDecisions should consider both the risks of action and the risks of inaction.\nDifferent decisions require different levels of evidence.\nWaiting for perfect information is itself a decision and may carry risks.\nEffective organisations acknowledge uncertainty, learn quickly and make proportionate decisions using the best evidence available at the time.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
@@ -1356,7 +1366,7 @@
     "section": "",
     "text": "Learning Objectives\nBy the end of this module you should be able to:",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
     ]
   },
   {
@@ -1366,7 +1376,7 @@
     "section": "",
     "text": "Recognise common analytical traps that can lead to misleading conclusions.\nUnderstand why observed improvement does not always imply intervention success.\nIdentify common sources of bias in healthcare analysis and evaluation.\nRecognise the influence of incentives, observation and selection effects.\nApply a more critical approach to interpreting healthcare data and evidence.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
     ]
   },
   {
@@ -1376,7 +1386,7 @@
     "section": "Question 1",
     "text": "Question 1\nA practice with unusually high admission rates receives support. Admissions subsequently fall.\nWhat is a possible alternative explanation?\n\nSimpson’s paradox\nRegression to the mean\nSelection bias\nStandardisation",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
     ]
   },
   {
@@ -1386,7 +1396,7 @@
     "section": "Question 2",
     "text": "Question 2\nStaff compliance improves during a monitored pilot.\nWhat effect may be present?\n\nSelection bias\nHawthorne Effect\nCollider bias\nPrecision bias",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
     ]
   },
   {
@@ -1396,7 +1406,7 @@
     "section": "Question 3",
     "text": "Question 3\nA programme appears successful because highly motivated patients chose to participate.\nWhat bias may exist?\n\nSelection bias\nRecall bias\nRegression to the mean\nStandardisation bias",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
     ]
   },
   {
@@ -1406,7 +1416,7 @@
     "section": "Question 4",
     "text": "Question 4\nTwo ICBs have similar age-standardised rates but very different frailty burdens.\nWhich statement is most accurate?\n\nThey face identical operational pressures\nStandardisation removes all meaningful differences\nStatistical comparability does not guarantee operational comparability\nOne rate must be incorrect",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
     ]
   },
   {
@@ -1416,7 +1426,7 @@
     "section": "Question 5",
     "text": "Question 5\nA dashboard shows a forecast to one decimal place.\nWhat should you remember?\n\nPrecise numbers are always more accurate\nPrecision and certainty are the same thing\nPrecision does not guarantee accuracy\nForecasts are objective facts",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
     ]
   },
   {
@@ -1426,7 +1436,37 @@
     "section": "Question 6",
     "text": "Question 6\nA hospital introduces a pilot to improve discharge documentation.\nDuring the pilot, compliance increases substantially.\nWhich explanation should also be considered?\n\nRegression to the mean\nHawthorne Effect\nStandardisation\nSimpson’s paradox",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+    ]
+  },
+  {
+    "objectID": "Part_2.html",
+    "href": "Part_2.html",
+    "title": "Part 2",
+    "section": "",
+    "text": "How do I understand, improve and redesign healthcare systems?",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Part 2</span>"
+    ]
+  },
+  {
+    "objectID": "modules/11-Demand_Capacity_Operational_Flow.html",
+    "href": "modules/11-Demand_Capacity_Operational_Flow.html",
+    "title": "Module 11: Demand, Capacity & Operational Flow",
+    "section": "",
+    "text": "Module 11: Demand, Capacity & Operational Flow",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Module 11: Demand, Capacity & Operational Flow</span>"
+    ]
+  },
+  {
+    "objectID": "modules/11-Demand_Capacity_Operational_Flow.html#learning-objectives",
+    "href": "modules/11-Demand_Capacity_Operational_Flow.html#learning-objectives",
+    "title": "Module 11: Demand, Capacity & Operational Flow",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this module you should be able to:\n\nUnderstand the relationship between demand, capacity and flow.\nRecognise why increasing demand does not always require increasing capacity.\nAppreciate how bottlenecks affect the performance of the entire healthcare system.\nUnderstand why averages often fail to describe operational performance.\nRecognise how variation creates queues and delays.\nAsk better questions when interpreting operational data.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Module 11: Demand, Capacity & Operational Flow</span>"
     ]
   },
   {
@@ -1436,7 +1476,7 @@
     "section": "",
     "text": "Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics\nTimeline: 6 months from May 2026\nAuthor: Chandan Kaur\nAudience: Analysts and Decision Makers",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1446,7 +1486,7 @@
     "section": "The series aims to bridge the gap between:",
     "text": "The series aims to bridge the gap between:\nhealthcare analysts and decision-makers, operational leaders, clinicians and service managers.\nRather than focusing purely on statistical methods or software training, the series focuses on:\n\nanalytical reasoning\ninterpretation\noperational context\nfair comparison\nhealthcare systems thinking\ncommunicating uncertainty and complexity appropriately.\n\nThe resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1456,7 +1496,7 @@
     "section": "Primary audiences include:",
     "text": "Primary audiences include:\n\nHealthcare operational leaders\nService managers\nClinicians\nPublic health teams\nBI and analytics teams\nIntegrated Care Board colleagues\nNHS transformation teams\nInformatics trainees and early-career analysts",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1466,7 +1506,7 @@
     "section": "Secondary audiences may include:",
     "text": "Secondary audiences may include:\n\nLocal authorities\nHealthcare consultancies\nAcademic/public health programmes\nWider public sector analytical communities",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1476,7 +1516,7 @@
     "section": "Platform",
     "text": "Platform\nGitHub Pages Quarto Book framework PDF and Word export options",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1486,7 +1526,7 @@
     "section": "Style",
     "text": "Style\nVisual and example-led Operationally realistic Plain English where possible Progressive conceptual layering",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1496,7 +1536,7 @@
     "section": "Phase 1 — Foundation Development",
     "text": "Phase 1 — Foundation Development",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1506,7 +1546,7 @@
     "section": "Months 1–2",
     "text": "Months 1–2\n\nEstablish project structure\nDevelop initial visual identity and formatting\nCreate foundational modules\nBuild GitHub/Quarto publishing workflow",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1516,7 +1556,7 @@
     "section": "Phase 2 — Core Content Development",
     "text": "Phase 2 — Core Content Development",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1526,7 +1566,7 @@
     "section": "Months 3–5",
     "text": "Months 3–5\n\nDevelop additional modules\nExpand operational examples and visual content\nGather peer feedback from NHS analytical community\nRefine educational structure and readability",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1536,7 +1576,7 @@
     "section": "Phase 3 — External Review & Refinement",
     "text": "Phase 3 — External Review & Refinement",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1546,7 +1586,7 @@
     "section": "Months 5–6",
     "text": "Months 5–6\nSeek structured feedback from: - NHS CDAO network - AphA members - healthcare analysts - operational leaders and strategic commissioners - Improve content based on feedback - Refine visuals and accessibility",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1556,7 +1596,7 @@
     "section": "Phase 4 — Publication & Dissemination",
     "text": "Phase 4 — Publication & Dissemination",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1566,7 +1606,7 @@
     "section": "Month 6 onwards",
     "text": "Month 6 onwards\n\nPublic launch of the series\nSocial and professional dissemination\nPresentation sessions/webinars\nOngoing iterative development\nSuccess Measures\n\nSuccess indicators may include:\n\nPositive feedback from NHS analysts and operational leaders\nAdoption within NHS analytical communities\nUse in analyst onboarding or data literacy initiatives\nEngagement through GitHub Pages analytics\nRequests for reuse/adaptation across organisations\nAphA and/or NHS analytical community endorsement\nEvidence of improved analytical questioning and interpretation",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   },
   {
@@ -1576,7 +1616,7 @@
     "section": "Sign-Off:",
     "text": "Sign-Off:\nName: Chandan Kaur\nRole: Senior Strategic BI Lead",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Project - Healthcare Data Literacy Series</span>"
     ]
   }
 ]

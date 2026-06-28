@@ -61,9 +61,11 @@ Healthcare systems perform well only when demand, capacity and flow are consider
 
 Focusing on one element in isolation often moves pressure elsewhere rather than solving the underlying problem.
 
-As shown in @fig-demand-capacity-flow, each element continuously influences the others.
+As shown in the figure below, each element continuously influences the others.
 
-![Demand, Capacity and Flow are interdependent. Sustainable improvement requires balancing all three components.](images/Demand_Capacity_Flow_Triangle.png){#fig-demand-capacity-flow}
+![]images/Demand_Capacity_Flow_Triangle.png
+
+Demand, Capacity and Flow are interdependent. Sustainable improvement requires balancing all three components.
 
 For example:
 
@@ -124,9 +126,11 @@ Patients move through a sequence of healthcare services rather than a single dep
 
 Delays in one part of the pathway rarely remain isolated.
 
-As illustrated in @fig-bottleneck, delays at a bottleneck propagate backwards through the system, creating queues upstream.
+As illustrated in the figure below, delays at a bottleneck propagate backwards through the system, creating queues upstream.
 
-![A bottleneck creates queues upstream. Removing the bottleneck improves performance across the whole pathway.](images/Bottleneck_Upstream_Queues.png){#fig-bottleneck}
+i[]images/Bottleneck_Upstream_Queues.png
+
+Removing the bottleneck improves performance across the whole pathway.
 
 Every handover introduces the potential for delay.
 
@@ -171,9 +175,11 @@ However:
 * Hospital A receives patients steadily throughout the day.
 * Hospital B receives large surges during the afternoon and evening.
 
-As demonstrated in @fig-arrival-patterns, both hospitals experience the same total demand, yet their operational experience is very different.
+As demonstrated in the figure below, both hospitals experience the same total demand, yet their operational experience is very different.
 
-![Two hospitals can experience identical daily demand but very different operational pressure because of different arrival patterns.](images/Same_Demand_Different_Arrival_Patterns.png){#fig-arrival-patterns}
+![]images/Same_Demand_Different_Arrival_Patterns.png)
+
+Two hospitals can experience very different operational pressures because of different arrival patterns.
 
 Queues form because of **variation**, not simply because of average demand.
 
@@ -227,9 +233,11 @@ Healthcare behaves as a connected system.
 
 Changes in one part of the pathway frequently have consequences elsewhere.
 
-As illustrated in @fig-ripple-effect, improving one service may simply move pressure elsewhere unless the wider system is considered.
+As illustrated in the figure below, improving one service may simply move pressure elsewhere unless the wider system is considered.
 
-![Healthcare behaves as a connected system. Changes in one part of the pathway create ripple effects across the wider healthcare system.](images/Whole_System_Ripple_Effect.png){#fig-ripple-effect}
+![]images/Whole_System_Ripple_Effect.png
+
+Healthcare behaves as a connected system. Changes in one part of the pathway create ripple effects across the wider healthcare system.
 
 Problems originating outside hospital—such as reduced community capacity or delayed social care—can rapidly affect:
 

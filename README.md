@@ -1,28 +1,105 @@
 # 👥 Healthcare Data Literacy Series
 
-# 🎯 Purpose
+# 🎯 Health Data Literacy
 
-This repository explores common healthcare analytics concepts using realistic NHS-style operational and population health examples.
+An open educational resource designed to help healthcare professionals make better use of data, analytics and evidence in decision-making.
 
-The aim is to improve data literacy across healthcare by combining:
+This series bridges the gap between technical analytics and real-world healthcare leadership by explaining not only how analytical methods work, but also when, why and how they should be interpreted in practice.
 
-      - explanation of key analytical concepts
-      - healthcare operational context
-      - visual examples
-      - strategic interpretation
+Using realistic NHS examples, visual explanations and operational case studies, the series aims to build a common language between analysts, clinicians, managers and decision-makers.
 
-## Audience:
+Who is this for?
 
-         Healthcare analysts
-         BI professionals
-         Data scientists
-         Operational managers
-         Clinicians
-         NHS leaders
-         Students entering healthcare analytics
-   
-## Why This Repository Exists
+This resource has been written for anyone who uses healthcare data to inform decisions, including:
 
-Healthcare data is often presented through dashboards and metrics without sufficient explanation of statistical assumptions, limitations, or operational context.
+* Healthcare analysts
+* Business Intelligence professionals
+* Data scientists
+* Operational managers
+* Clinicians
+* Commissioners
+* NHS leaders
+* Improvement professionals
+* Health economists
+* Students entering healthcare analytics
 
-This repository aims to bridge that gap.
+Although some modules introduce statistical concepts, the emphasis throughout is on interpretation rather than mathematics.
+
+What does the series cover?
+
+The series progresses from fundamental analytical concepts through to understanding healthcare systems and, ultimately, modern analytics and AI.
+
+Topics include:
+
+Part 1 — Foundations of Health Data Literacy
+
+* Counts vs Rates
+* Mean vs Median
+* Correlation vs Causation
+* Variation & Distributions
+* Standardisation & Fair Comparison
+* How to Read a Dashboard
+* Evaluating Interventions & Schemes
+* Evaluation Methods in Practice
+* Risk, Probability & Uncertainty
+* Common Analytical Traps & Data Fallacies
+
+Part 2 — Understanding & Improving Healthcare Systems (in development)
+
+* Demand, Capacity & Operational Flow
+* Pathway Analytics & Intervention Design
+* Population Health Management & Segmentation
+* Combining Quantitative & Qualitative Evidence
+* Health Economics & Value in Healthcare Decision-Making
+* Decision-Making Under Uncertainty
+* Why Healthcare Improvement Is Hard to Evaluate
+* Simulation & Scenario Modelling
+
+Part 3 — Modern Healthcare Analytics (planned)
+
+* Predictive Modelling & Risk Stratification
+* Explainable AI
+* From Business Intelligence to Augmented Analytics
+* AI Assistants & Decision Support
+* Responsible AI, Governance & Evaluation
+* AI, Sustainability & Healthcare Systems
+
+Why this project exists
+
+Healthcare organisations generate vast quantities of data.
+
+However, dashboards, reports and performance metrics often provide answers without explaining:
+
+* what the numbers really mean
+* the assumptions behind the analysis
+* the limitations of the evidence
+* how results should be interpreted
+* what questions decision-makers should ask next
+
+As a result, conversations can become focused on individual metrics rather than the wider healthcare system.
+
+This project aims to bridge that gap.
+
+Rather than teaching statistics in isolation, it focuses on developing health data literacy—the ability to interpret data critically, understand uncertainty, evaluate evidence and use analytics to support better healthcare decisions.
+
+Guiding Principles
+
+Throughout the series, several themes are revisited:
+
+* Correlation should start questions, not end them.
+* Statistical comparability does not always imply operational comparability.
+* Data rarely speaks for itself.
+* Good analytics explains what happened.
+* Great analytics helps explain why it happened and what should happen next.
+* Better questions lead to better analysis.
+* Better analysis supports better decisions.
+
+Philosophy
+
+The aim is not to create statisticians.
+
+The aim is to help analysts and decision-makers develop a shared understanding of healthcare data, evidence and improvement.
+
+Ultimately, the ambition is simple:
+
+To improve the quality of questions healthcare organisations ask of their data—so that data can better support decision-making in its truest sense.

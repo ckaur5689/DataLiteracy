@@ -95,6 +95,9 @@ For example:
 |----------------------------|-------------------------|
 | 8.0% | 6.9% – 9.1% |
 
+6.9% ─────●───── 9.1%
+          8%
+
 The confidence interval provides a range of plausible values for the true underlying estimate.
 
 Narrow confidence intervals indicate greater precision.
@@ -131,8 +134,17 @@ Two organisations may appear to perform differently, but if their error bars ove
 
 Error bars therefore encourage caution when comparing organisations or services.
 
-They remind us that every estimate contains uncertainty.
+Hospital A
 
+    ●
+  ─────
+
+Hospital B
+
+    ●
+──────────
+
+They remind us that every estimate contains uncertainty.
 
 ---
 

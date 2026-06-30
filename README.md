@@ -35,38 +35,38 @@ The series progresses from fundamental analytical concepts through to understand
 
 Topics include:
 
-Part 1 — Foundations of Health Data Literacy
+# Part 1 — How do I interpret healthcare data correctly?
 
-* Counts vs Rates
-* Mean vs Median
-* Correlation vs Causation
-* Variation & Distributions
-* Standardisation & Fair Comparison
-* How to Read a Dashboard
-* Evaluating Interventions & Schemes
-* Evaluation Methods in Practice
-* Risk, Probability & Uncertainty
-* Common Analytical Traps & Data Fallacies
+1.  Counts vs Rates
+2.  Mean vs Median
+3.  Correlation vs Causation
+4.  Variation & Distributions
+5.  Standardisation & Fair Comparison
+6.  How to Read a Dashboard
+7.  Evaluating Interventions & Schemes (Thinking About Evidence)
+8.  Evaluating Interventions in Practice (Methods)
+9.  Risk, Probability & Uncertainty
+10. Common Analytical Traps & Data Fallacies
 
-Part 2 — Understanding & Improving Healthcare Systems (in development)
+# Part 2 — How do I understand, improve and evaluate healthcare systems?
 
-* Demand, Capacity & Operational Flow
-* Pathway Analytics & Intervention Design
-* Population Health Management & Segmentation
-* Combining Quantitative & Qualitative Evidence
-* Health Economics & Value in Healthcare Decision-Making
-* Decision-Making Under Uncertainty
-* Why Healthcare Improvement Is Hard to Evaluate
-* Simulation & Scenario Modelling
+11. Demand, Capacity & Operational Flow
+12. Data Quality & Trustworthy Data
+13. Pathway Analytics & Intervention Design
+14. Population Health Management & Segmentation
+15. Combining Quantitative & Qualitative Evidence
+16. Health Economics & Value in Healthcare Decision-Making
+17. Decision-Making Under Uncertainty
+18. Why Healthcare Improvement Is Hard to Evaluate
+19. Simulation & Scenario Modelling
 
-Part 3 — Modern Healthcare Analytics (planned)
+Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)
 
 * Predictive Modelling & Risk Stratification
-* Explainable AI
+* Explainable AI in Healthcare
 * From Business Intelligence to Augmented Analytics
-* AI Assistants & Decision Support
-* Responsible AI, Governance & Evaluation
-* AI, Sustainability & Healthcare Systems
+* Responsible AI & AI Governance
+* Additional topics under consideration
 
 Why this project exists
 

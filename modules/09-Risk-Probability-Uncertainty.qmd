@@ -147,13 +147,16 @@ Hospital B
 They remind us that every estimate contains uncertainty.
 
 ---
-
 ## What Does a P-value Mean?
+
+A p-value answers one question only: Could this observed difference simply be due to chance?
+
+Analysts sometimes report a **p-value** when comparing two groups or evaluating an intervention.
+
+A p-value helps us judge whether an **observed difference is likely to be explained by chance alone**.
 
 ::: {.callout-note}
 ## Interpreting a P-value
-
-A **p-value** helps us judge whether an observed difference is likely to be explained by **chance alone**.
 
 | If... | Interpretation |
 |-------|----------------|
@@ -177,6 +180,8 @@ A p-value does **not** tell us:
 * Whether we should **change practice**.
 
 A very small difference can still have a low p-value if enough data are available.
+
+Similarly, a result that is **not** statistically significant may still be operationally important, particularly when evidence is limited or sample sizes are small.
 :::
 
 ::: {.callout-tip}
@@ -202,48 +207,23 @@ The analysis reports:
 
 What does this mean?
 
-✅ The 0.2% difference is **unlikely to be explained by chance alone**.
+✅ The analysis suggests the **0.2% reduction** is unlikely to be explained by chance alone.
 
 It **does not** tell us:
 
-* whether a 0.2% reduction is clinically meaningful
+* whether a **0.2% reduction** is clinically meaningful
 * whether the intervention is cost-effective
 * whether it should be implemented across the NHS
 
-Those decisions require consideration of **effect size, confidence intervals, costs, risks and the wider context.**
+Those decisions require consideration of:
 
-Analysts sometimes report a **p-value** when comparing two groups or evaluating an intervention.
+* the **size of the difference**
+* the **confidence interval**
+* the potential benefits and risks
+* costs and resource implications
+* the wider clinical and operational context
 
-A p-value helps assess whether an observed difference is likely to have occurred by chance alone.
-
-A commonly used threshold is:
-
-> **p < 0.05**.
-
-This suggests the observed difference is unlikely to be explained by chance alone.
-
-Importantly, a p-value does **not** tell us:
-
-* whether the intervention is important
-* whether the effect is large
-* whether the decision is worthwhile
-
-A result can be statistically significant but have very little practical importance.
-
-Small sample sizes often produce greater uncertainty, making it harder to distinguish genuine differences from random variation.
-
-Similarly, a result that is not statistically significant may still be operationally important, particularly when evidence is limited or sample sizes are small.
-
-Decision-making should therefore consider:
-
-* effect size
-* confidence intervals
-* practical importance
-* cost
-* risk
-* wider context
-
-—not simply whether **p < 0.05**.
+---
 
 ### Poor Interpretation
 
@@ -251,7 +231,7 @@ Decision-making should therefore consider:
 
 ### Better Interpretation
 
-> "The evidence is uncertain. We should also consider the size of the effect, the confidence interval, the sample size and the wider context."
+> "The evidence is uncertain. We should also consider the size of the difference, the confidence interval, the sample size and the wider context."
 
 ---
 
@@ -261,7 +241,9 @@ Decision-making should therefore consider:
 
 ### Better Interpretation
 
-> "The result may be statistically significant, but is the improvement meaningful enough to change practice?"
+> "The difference is unlikely to be due to chance, but is it large enough to justify changing practice?"
+
+---
 
 ### Poor Interpretation
 
@@ -269,23 +251,7 @@ Decision-making should therefore consider:
 
 ### Better Interpretation
 
-> "Confidence intervals help us understand uncertainty, but they should be interpreted alongside effect size, study design and the wider evidence."
-
-## The Wrong Question
-
-Decision-makers often ask:
-
-> "Are we certain this will work?"
-
-In complex systems the answer is usually no.
-
-A better question is:
-
-> "Do we have enough evidence to justify action?"
-
-The goal is not certainty.
-
-The goal is reducing uncertainty sufficiently to support a decision.
+> "Confidence intervals help us understand uncertainty, but they should be interpreted alongside the size of the difference, study design and the wider body of evidence."
 
 ---
 

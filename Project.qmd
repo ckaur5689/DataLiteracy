@@ -100,7 +100,7 @@ Proposed Initial Modules:
 # Part 2 — Understanding & Improving Healthcare Systems (to be confirmed)
 
 11. Demand, Capacity & Operational Flow
-12. Data Quality, Trust & Information Governance
+12. Data Quality & Trustworthy Data
 13. Pathway Analytics & Intervention Design
 14. Population Health Management & Segmentation
 15. Combining Quantitative & Qualitative Evidence

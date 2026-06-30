@@ -347,6 +347,8 @@ The answer is often:
 * Risk is not certainty.
 * Probability describes the likelihood of an event, not whether it will definitely occur.
 * All analyses contain some degree of uncertainty.
+* Confidence intervals communicate uncertainty around an estimate.
+* Statistical significance does not necessarily imply practical importance.
 * Forecasts and predictions should be interpreted as estimates rather than promises.
 * Decisions should consider both the risks of action and the risks of inaction.
 * Different decisions require different levels of evidence.

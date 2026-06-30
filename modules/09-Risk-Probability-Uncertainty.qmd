@@ -82,6 +82,113 @@ The future rarely behaves exactly like the past.
 This means forecasts should always be viewed as estimates rather than promises.
 
 ---
+---
+
+## Confidence Intervals
+
+Analysts often report estimates together with a **95% confidence interval**.
+
+Rather than providing a single value, confidence intervals recognise that every estimate contains some uncertainty.
+
+For example:
+
+| Estimated Readmission Rate | 95% Confidence Interval |
+|----------------------------|-------------------------|
+| 8.0% | 6.9% – 9.1% |
+
+The confidence interval provides a range of values that are consistent with the observed data.
+
+Narrow confidence intervals indicate greater precision.
+
+Wider confidence intervals indicate greater uncertainty.
+
+For decision-makers, the important message is often not the exact estimate, but **how certain we are about that estimate.**
+
+::: {.callout-note}
+A useful question is:
+
+*"How much uncertainty surrounds this estimate?"*
+
+rather than
+
+*"What is the exact number?"*
+:::
+
+---
+
+## Error Bars
+
+Many dashboards and reports include charts with small lines extending above and below a point or bar.
+
+These are known as **error bars**.
+
+Error bars provide a visual indication of uncertainty around an estimate.
+
+Larger error bars suggest greater uncertainty.
+
+Smaller error bars suggest greater precision.
+
+Two organisations may appear to perform differently, but if their error bars overlap substantially, the apparent difference may simply reflect normal variation rather than a meaningful difference.
+
+Error bars therefore encourage caution when comparing organisations or services.
+
+They remind us that every estimate contains uncertainty.
+
+
+---
+
+## What Does a P-value Mean?
+
+Analysts sometimes report a **p-value** when comparing two groups or evaluating an intervention.
+
+A p-value helps assess whether an observed difference is likely to have occurred by chance alone.
+
+A commonly used threshold is:
+
+> **p < 0.05**
+
+This means the observed result would be considered unlikely if there were actually no real difference.
+
+Importantly, a p-value does **not** tell us:
+
+* whether the intervention is important
+* whether the effect is large
+* whether the decision is worthwhile
+
+A result can be statistically significant but have very little practical importance.
+
+Similarly, a result that is not statistically significant may still be operationally important, particularly when evidence is limited or sample sizes are small.
+
+Decision-making should therefore consider:
+
+* effect size
+* confidence intervals
+* practical importance
+* cost
+* risk
+* wider context
+
+—not simply whether **p < 0.05**.
+
+### Poor Interpretation
+
+> "The p-value is greater than 0.05, so the intervention failed."
+
+### Better Interpretation
+
+> "The evidence is uncertain. We should also consider the size of the effect, the confidence interval, the sample size and the wider context."
+
+---
+
+### Poor Interpretation
+
+> "The difference is statistically significant, therefore it is important."
+
+### Better Interpretation
+
+> "The result may be statistically significant, but is the improvement meaningful enough to change practice?"
+
+
 
 ## The Wrong Question
 
@@ -222,6 +329,9 @@ The answer is often:
 * What evidence would increase our confidence?
 * Are we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?
 * Can we pilot, evaluate and adapt rather than committing to a full-scale implementation?
+* How much uncertainty surrounds this estimate?
+* Are the confidence intervals sufficiently narrow to support decision-making?
+* Is the result statistically significant, and more importantly, is it practically meaningful?
 
 ---
 

@@ -150,6 +150,68 @@ They remind us that every estimate contains uncertainty.
 
 ## What Does a P-value Mean?
 
+::: {.callout-note}
+## Interpreting a P-value
+
+A **p-value** helps us judge whether an observed difference is likely to be explained by **chance alone**.
+
+| If... | Interpretation |
+|-------|----------------|
+| **p < 0.05** | The observed difference is **unlikely to be explained by chance alone.** |
+| **p ≥ 0.05** | The observed difference **could reasonably be explained by chance.** |
+
+Remember:
+
+A p-value **does not prove** that a difference is real.
+
+It simply tells us how compatible the observed data are with there being **no real difference**.
+:::
+
+::: {.callout-important}
+## A P-value Does **Not** Tell Us
+
+A p-value does **not** tell us:
+
+* How **large** the difference is.
+* Whether the difference is **clinically or operationally important**.
+* Whether we should **change practice**.
+
+A very small difference can still have a low p-value if enough data are available.
+:::
+
+::: {.callout-tip}
+## Always Consider
+
+When interpreting a p-value, also ask:
+
+* How large is the difference?
+* How certain are we? (Look at the confidence interval.)
+* Does the difference matter in practice?
+* What are the costs, benefits and risks?
+
+> **Statistical significance does not necessarily imply practical importance.**
+:::
+
+### Example
+
+A new intervention reduces hospital readmissions from **8.0% to 7.8%**.
+
+The analysis reports:
+
+> **p = 0.01**
+
+What does this mean?
+
+✅ The 0.2% difference is **unlikely to be explained by chance alone**.
+
+It **does not** tell us:
+
+* whether a 0.2% reduction is clinically meaningful
+* whether the intervention is cost-effective
+* whether it should be implemented across the NHS
+
+Those decisions require consideration of **effect size, confidence intervals, costs, risks and the wider context.**
+
 Analysts sometimes report a **p-value** when comparing two groups or evaluating an intervention.
 
 A p-value helps assess whether an observed difference is likely to have occurred by chance alone.

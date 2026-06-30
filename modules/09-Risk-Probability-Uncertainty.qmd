@@ -82,7 +82,6 @@ The future rarely behaves exactly like the past.
 This means forecasts should always be viewed as estimates rather than promises.
 
 ---
----
 
 ## Confidence Intervals
 
@@ -96,7 +95,7 @@ For example:
 |----------------------------|-------------------------|
 | 8.0% | 6.9% – 9.1% |
 
-The confidence interval provides a range of values that are consistent with the observed data.
+The confidence interval provides a range of plausible values for the true underlying estimate.
 
 Narrow confidence intervals indicate greater precision.
 
@@ -145,9 +144,9 @@ A p-value helps assess whether an observed difference is likely to have occurred
 
 A commonly used threshold is:
 
-> **p < 0.05**
+> **p < 0.05**.
 
-This means the observed result would be considered unlikely if there were actually no real difference.
+This suggests the observed difference is unlikely to be explained by chance alone.
 
 Importantly, a p-value does **not** tell us:
 
@@ -156,6 +155,8 @@ Importantly, a p-value does **not** tell us:
 * whether the decision is worthwhile
 
 A result can be statistically significant but have very little practical importance.
+
+Small sample sizes often produce greater uncertainty, making it harder to distinguish genuine differences from random variation.
 
 Similarly, a result that is not statistically significant may still be operationally important, particularly when evidence is limited or sample sizes are small.
 
@@ -188,7 +189,13 @@ Decision-making should therefore consider:
 
 > "The result may be statistically significant, but is the improvement meaningful enough to change practice?"
 
+### Poor Interpretation
 
+> "The confidence intervals overlap, so there is definitely no difference."
+
+### Better Interpretation
+
+> "Confidence intervals help us understand uncertainty, but they should be interpreted alongside effect size, study design and the wider evidence."
 
 ## The Wrong Question
 
@@ -320,6 +327,9 @@ The answer is often:
 ## Questions Decision-Makers Should Ask
 
 * What level of uncertainty exists in this analysis?
+* How much uncertainty surrounds this estimate?
+* Are the confidence intervals sufficiently narrow to support decision-making?
+* Is the result statistically significant, and more importantly, is it practically meaningful?
 * What assumptions underpin these findings?
 * What information is missing or unknown?
 * How sensitive are the conclusions to those assumptions?
@@ -329,9 +339,6 @@ The answer is often:
 * What evidence would increase our confidence?
 * Are we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?
 * Can we pilot, evaluate and adapt rather than committing to a full-scale implementation?
-* How much uncertainty surrounds this estimate?
-* Are the confidence intervals sufficiently narrow to support decision-making?
-* Is the result statistically significant, and more importantly, is it practically meaningful?
 
 ---
 

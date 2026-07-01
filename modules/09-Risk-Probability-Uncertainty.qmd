@@ -153,41 +153,60 @@ Hospital B
 They remind us that every estimate contains uncertainty.
 
 ---
-## What Does a P-value Mean?
+## Interpreting a P-value
 
-A p-value answers one question only: Could this observed difference simply be due to chance?
+A p-value answers one question: Could this observed difference simply be due to chance?
 
-Analysts sometimes report a **p-value** when comparing two groups or evaluating an intervention.
+```text
+                    What does a p-value tell us?
+
+            Observed difference between two groups
+                           │
+                           ▼
+        Could this difference simply be due to chance?
+                           │
+          ┌────────────────┴────────────────┐
+          │                                 │
+     p < 0.05                         p ≥ 0.05
+          │                                 │
+          ▼                                 ▼
+Unlikely to be                    Could reasonably be
+explained by chance               explained by chance
+          │                                 │
+          └────────────────┬────────────────┘
+                           ▼
+          Now ask:
+          • How large is the difference?
+          • How certain are we? (Confidence interval)
+          • Does the difference matter in practice?
+```
+Analysts often report a **p-value** when comparing two groups or evaluating an intervention.
 
 A p-value helps us judge whether an **observed difference is likely to be explained by chance alone**.
 
-::: {.callout-note}
-## Interpreting a P-value
+A commonly used threshold is:
 
-| If... | Interpretation |
-|-------|----------------|
-| **p < 0.05** | The observed difference is **unlikely to be explained by chance alone.** |
-| **p ≥ 0.05** | The observed difference **could reasonably be explained by chance.** |
-
-Remember:
+| p-value | Interpretation |
+|---------|----------------|
+| **p < 0.05** | The observed difference is unlikely to be explained by chance alone. |
+| **p ≥ 0.05** | The observed difference could reasonably be explained by chance. |
 
 A p-value **does not prove** that a difference is real.
 
-It simply tells us how compatible the observed data are with there being **no real difference**.
-:::
+**It simply helps us judge whether the observed difference is likely to be more than random variation.**
 
 ::: {.callout-important}
-## A P-value Does **Not** Tell Us
+## What a P-value Doesn't Tell Us
 
 A p-value does **not** tell us:
 
-* How **large** the difference is.
-* Whether the difference is **clinically or operationally important**.
-* Whether we should **change practice**.
+* how large the difference is
+* whether the difference is clinically or operationally important
+* whether we should change practice
 
 A very small difference can still have a low p-value if enough data are available.
 
-Similarly, a result that is **not** statistically significant may still be operationally important, particularly when evidence is limited or sample sizes are small.
+Likewise, a result that is **not** statistically significant may still be important, particularly when studies are small or evidence is limited.
 :::
 
 ::: {.callout-tip}
@@ -211,23 +230,15 @@ The analysis reports:
 
 > **p = 0.01**
 
-What does this mean?
+**The analysis suggests the observed 0.2% reduction is unlikely to be explained by chance alone.**
 
-✅ The analysis suggests the **0.2% reduction** is unlikely to be explained by chance alone.
+However, it does **not** tell us whether a **0.2% reduction** is:
 
-It **does not** tell us:
+* clinically meaningful
+* cost-effective
+* sufficient to justify changing practice
 
-* whether a **0.2% reduction** is clinically meaningful
-* whether the intervention is cost-effective
-* whether it should be implemented across the NHS
-
-Those decisions require consideration of:
-
-* the **size of the difference**
-* the **confidence interval**
-* the potential benefits and risks
-* costs and resource implications
-* the wider clinical and operational context
+Those decisions require consideration of the **size of the difference**, **confidence intervals**, **costs**, **risks** and the wider clinical context.
 
 ---
 
@@ -247,7 +258,7 @@ Those decisions require consideration of:
 
 ### Better Interpretation
 
-> "The difference is unlikely to be due to chance, but is it large enough to justify changing practice?"
+> **"The difference is unlikely to be due to chance, but is it large enough to justify changing practice or investing further resources?"**
 
 ---
 

@@ -1,4 +1,6 @@
-# Module 9: Risk, Probability & Uncertainty
+---
+title: "Module 9: Risk, Probability & Uncertainty"
+---
 
 ## Learning Objectives
 
@@ -95,8 +97,10 @@ For example:
 |----------------------------|-------------------------|
 | 8.0% | 6.9% – 9.1% |
 
+```text
 6.9% ─────●───── 9.1%
           8%
+```
 
 The confidence interval provides a range of plausible values for the true underlying estimate.
 
@@ -134,6 +138,7 @@ Two organisations may appear to perform differently, but if their error bars ove
 
 Error bars therefore encourage caution when comparing organisations or services.
 
+```text
 Hospital A
 
     ●
@@ -143,6 +148,7 @@ Hospital B
 
     ●
 ──────────
+```
 
 They remind us that every estimate contains uncertainty.
 

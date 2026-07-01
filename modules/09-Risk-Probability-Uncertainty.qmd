@@ -1,6 +1,4 @@
----
-title: "Module 9: Risk, Probability & Uncertainty"
----
+# Module 09: Risk, Probability & Uncertainty
 
 ## Learning Objectives
 

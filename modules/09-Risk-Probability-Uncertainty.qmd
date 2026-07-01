@@ -178,7 +178,7 @@ explained by chance               explained by chance
           - How certain are we? (Confidence interval)
           - Does the difference matter in practice?
 
-```text
+```
 
 Analysts often report a **p-value** when comparing two groups or evaluating an intervention.
 

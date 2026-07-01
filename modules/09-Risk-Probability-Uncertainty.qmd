@@ -159,30 +159,27 @@ A p-value answers one question: Could this observed difference simply be due to 
                     What does a p-value tell us?
 
             Observed difference between two groups
-                           │
-                           ▼
+                           |
+                           v
         Could this difference simply be due to chance?
-                           │
-          ┌────────────────┴────────────────┐
-          │                                 │
-     p < 0.05                         p ≥ 0.05
-          │                                 │
-          ▼                                 ▼
+                           |
+          +----------------+----------------+
+          |                                 |
+     p < 0.05                         p >= 0.05
+          |                                 |
+          v                                 v
 Unlikely to be                    Could reasonably be
 explained by chance               explained by chance
-          │                                 │
-          └────────────────┬────────────────┘
-                           ▼
-Now ask:
-* How large is the difference?
-* How certain are we? (Confidence interval)
-* Does the difference matter in practice?
-
-```
+          |                                 |
+          +----------------+----------------+
+                           v
+          Now ask:
+          - How large is the difference?
+          - How certain are we? (Confidence interval)
+          - Does the difference matter in practice?
 
 ```text
-...
-```
+
 Analysts often report a **p-value** when comparing two groups or evaluating an intervention.
 
 A p-value helps us judge whether an **observed difference is likely to be explained by chance alone**.

@@ -48,7 +48,7 @@ Topics include:
 9.  Risk, Probability & Uncertainty
 10. Common Analytical Traps & Data Fallacies
 
-# Part 2 — How do we understand, improve and evaluate healthcare systems?
+# Part 2 — How do we understand, improve and evaluate complex healthcare systems?
 
 11. Demand, Capacity & Operational Flow
 12. Pathway Analytics & Intervention Design

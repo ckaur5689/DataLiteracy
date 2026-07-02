@@ -10,7 +10,7 @@ By the end of this module you should be able to:
 * Understand why decision-making often occurs despite uncertainty.
 * Apply a pragmatic approach to making decisions when evidence is incomplete.
 
----
+ 
 
 ## Why This Matters
 
@@ -26,7 +26,7 @@ Good decision-makers do not wait for certainty.
 
 They make informed choices whilst understanding the risks.
 
----
+ 
 
 ## Risk Is Not Certainty
 
@@ -39,7 +39,7 @@ It does not tell us what will happen for a specific patient, service or populati
 For example:
 
 | Risk Estimate | Interpretation |
-|--------------|----------------|
+|    --|     -|
 | 80% risk of admission | More likely to occur than not |
 | 50% risk of admission | Outcome remains highly uncertain |
 | 20% risk of admission | Less likely, but still possible |
@@ -60,7 +60,7 @@ rather than
 *"Will this individual definitely experience the outcome?"*
 :::
 
----
+ 
 
 ## Sources of Uncertainty
 
@@ -81,7 +81,7 @@ The future rarely behaves exactly like the past.
 
 This means forecasts should always be viewed as estimates rather than promises.
 
----
+ 
 
 ## Confidence Intervals
 
@@ -92,7 +92,7 @@ Rather than providing a single value, confidence intervals recognise that every 
 For example:
 
 | Estimated Readmission Rate | 95% Confidence Interval |
-|----------------------------|-------------------------|
+|         -|        -|
 | 8.0% | 6.9% – 9.1% |
 
 ```text
@@ -118,7 +118,7 @@ rather than
 *"What is the exact number?"*
 :::
 
----
+ 
 
 ## Error Bars
 
@@ -150,7 +150,7 @@ Hospital B
 
 They remind us that every estimate contains uncertainty.
 
----
+ 
 ## Interpreting a P-value
 
 A p-value answers one question: Could this observed difference simply be due to chance?
@@ -163,7 +163,7 @@ A p-value answers one question: Could this observed difference simply be due to 
                            v
         Could this difference simply be due to chance?
                            |
-          +----------------+----------------+
+          +     -+     -+
           |                                 |
      p < 0.05                         p >= 0.05
           |                                 |
@@ -171,7 +171,7 @@ A p-value answers one question: Could this observed difference simply be due to 
 Unlikely to be                    Could reasonably be
 explained by chance               explained by chance
           |                                 |
-          +----------------+----------------+
+          +     -+     -+
                            v
           Now ask:
           - How large is the difference?
@@ -187,7 +187,7 @@ A p-value helps us judge whether an **observed difference is likely to be explai
 A commonly used threshold is:
 
 | p-value | Interpretation |
-|---------|----------------|
+|   |     -|
 | **p < 0.05** | The observed difference is unlikely to be explained by chance alone. |
 | **p ≥ 0.05** | The observed difference could reasonably be explained by chance. |
 
@@ -240,7 +240,7 @@ However, it does **not** tell us whether a **0.2% reduction** is:
 
 Those decisions require consideration of the **size of the difference**, **confidence intervals**, **costs**, **risks** and the wider clinical context.
 
----
+ 
 
 ### Poor Interpretation
 
@@ -250,7 +250,7 @@ Those decisions require consideration of the **size of the difference**, **confi
 
 > "The evidence is uncertain. We should also consider the size of the difference, the confidence interval, the sample size and the wider context."
 
----
+ 
 
 ### Poor Interpretation
 
@@ -260,7 +260,7 @@ Those decisions require consideration of the **size of the difference**, **confi
 
 > **"The difference is unlikely to be due to chance, but is it large enough to justify changing practice or investing further resources?"**
 
----
+ 
 
 ### Poor Interpretation
 
@@ -270,7 +270,7 @@ Those decisions require consideration of the **size of the difference**, **confi
 
 > "Confidence intervals help us understand uncertainty, but they should be interpreted alongside the size of the difference, study design and the wider body of evidence."
 
----
+ 
 
 ## Risk of Action vs Risk of Inaction
 
@@ -294,7 +294,7 @@ However, every decision involves two sets of risks.
 
 Sometimes the greatest risk is doing nothing.
 
----
+ 
 
 ## Pragmatic Decision-Making Under Uncertainty
 
@@ -303,7 +303,7 @@ Not every decision requires the same level of evidence.
 The level of evidence should be proportionate to the scale of risk.
 
 | Decision Type | Typical Evidence Requirement |
-|---------------|------------------------------|
+|     |          |
 | Minor operational change | Local data and professional judgement |
 | Small pilot | Local evaluation and benchmarking |
 | Significant investment | Formal evaluation and business case |
@@ -311,7 +311,7 @@ The level of evidence should be proportionate to the scale of risk.
 
 Waiting for perfect evidence can sometimes delay beneficial change unnecessarily.
 
----
+ 
 
 ## A Practical Decision Framework
 
@@ -331,13 +331,13 @@ The answer is often:
 
 > "Pilot, evaluate, learn and adapt."
 
----
+ 
 
 ## Decision-Making Under Uncertainty
 
 ![](../images/MakingDecisionsUnderUncertainty.png)
 
----
+ 
 
 ## Poor Interpretation vs Better Interpretation
 
@@ -349,7 +349,7 @@ The answer is often:
 
 > "We have uncertainty, but do we have enough evidence to justify testing the intervention safely?"
 
----
+ 
 
 ### Poor Interpretation
 
@@ -359,7 +359,7 @@ The answer is often:
 
 > "The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate."
 
----
+ 
 
 ### Poor Interpretation
 
@@ -369,7 +369,7 @@ The answer is often:
 
 > "What are the risks of proceeding, and what are the risks of doing nothing?"
 
----
+ 
 
 ### Poor Interpretation
 
@@ -379,7 +379,7 @@ The answer is often:
 
 > "Would additional data materially change our decision?"
 
----
+ 
 
 ## Questions Decision-Makers Should Ask
 
@@ -397,7 +397,7 @@ The answer is often:
 * Are we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?
 * Can we pilot, evaluate and adapt rather than committing to a full-scale implementation?
 
----
+ 
 
 ## Key Takeaways
 

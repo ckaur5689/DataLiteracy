@@ -1120,3 +1120,9 @@ Good evaluation asks:
 - Could improvement have happened naturally?
 - Was the evaluation large enough to be informative?
 - How strong is our confidence in attribution?
+
+## Resources
+
+Magenta Book Annex A: analytical methods for use within an evaluation
+https://www.gov.uk/government/publications/the-magenta-book/magenta-book-annex-a-analytical-methods-for-use-within-an-evaluation-html
+

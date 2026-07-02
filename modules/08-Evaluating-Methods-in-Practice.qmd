@@ -1060,34 +1060,44 @@ to ask:
 
 ## Matching the Evaluation Method to the Question
 
-Throughout this module, we have explored several approaches to strengthening confidence in evaluation findings.
+One of the most important principles in evaluation is that **the evaluation question should determine the evaluation method**.
 
-One important principle is that **no single evaluation method answers every question**.
+There is rarely a single "best" evaluation method.
 
-The most appropriate method depends on what you are trying to understand.
+Instead, different methods answer different questions.
 
-| Evaluation Question | Typical Approaches |
-|---------------------|-----------------------|
-| **Did it work?** | RCTs, Interrupted Time Series, Difference-in-Differences |
-| **How was it implemented?** | Process evaluation, implementation evaluation |
-| **Why did it work (or not)?** | Qualitative research, Realist Evaluation |
-| **Was it good value?** | Health economics, cost-effectiveness analysis |
-| **Should we scale it?** | Mixed-method evaluation combining effectiveness, implementation and economic evidence |
+Underlying them all is one fundamental idea:
+
+> **What would probably have happened if the intervention had not taken place?**
+
+This is known as the **counterfactual**.
+
+Different evaluation methods estimate the counterfactual in different ways.
+
+| Evaluation Question | How is the Counterfactual Considered? | Methods Commonly Used |
+|---------------------|----------------------------------------|-----------------------|
+| **Did it work?** | Compare outcomes with what would probably have happened without the intervention. | Randomised Controlled Trials (RCTs), Difference-in-Differences (DiD), Interrupted Time Series (ITS) |
+| **How was it implemented?** | Understand how the intervention was delivered and whether implementation influenced outcomes. | Process evaluation, implementation evaluation, qualitative interviews |
+| **Why did it work (or not)?** | Explore the mechanisms that contributed to success or failure. | Qualitative research, Realist Evaluation, mixed-method evaluation |
+| **Was it worth it?** | Compare the benefits achieved against the resources invested. | Health economics, cost-effectiveness analysis, cost-benefit analysis |
+| **Should we scale it?** | Combine evidence on effectiveness, implementation, value and context to judge wider adoption. | Mixed-method evaluation, evidence synthesis, implementation evaluation |
 
 ::: {.callout-tip}
 ## Key Principle
 
-Good evaluation starts with the **question**, not the method.
+Good evaluation starts with a **clear evaluation question**, not a preferred method.
 
 Strong evaluations often combine quantitative and qualitative approaches to understand:
 
 * whether an intervention worked
-* how it worked
-* why it worked
-* for whom it worked
+* how it was implemented
+* why it worked (or did not work)
 * whether it represented good value for money
+* whether it should be adopted more widely
 
-There is rarely a single "best" evaluation method—only methods that are more or less appropriate for the question being asked.
+Although different methods estimate the counterfactual in different ways, they all aim to increase confidence that observed changes genuinely resulted from the intervention rather than from chance, natural variation or external influences.
+
+The stronger the evaluation design, the greater our confidence in the conclusions—but no evaluation can eliminate uncertainty completely.
 :::
 
 ## Key Takeaways

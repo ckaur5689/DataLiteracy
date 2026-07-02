@@ -1058,6 +1058,38 @@ to ask:
 
 > *How confident are we that the intervention genuinely contributed to change?*
 
+## Matching the Evaluation Method to the Question
+
+Throughout this module, we have explored several approaches to strengthening confidence in evaluation findings.
+
+One important principle is that **no single evaluation method answers every question**.
+
+The most appropriate method depends on what you are trying to understand.
+
+| Evaluation Question | Methods Commonly Used |
+|---------------------|-----------------------|
+| **Did it work?** | Randomised Controlled Trials (RCTs), Difference-in-Differences (DiD), Interrupted Time Series (ITS) |
+| **How did it work?** | Process evaluation, implementation evaluation, qualitative interviews |
+| **Why did it work (or not)?** | Qualitative research, Realist Evaluation, mixed-method evaluation |
+| **Was it worth it?** | Health economics, cost-effectiveness analysis, cost-benefit analysis |
+| **Should we scale it?** | Mixed-method evaluation, evidence synthesis, implementation evaluation |
+
+::: {.callout-tip}
+## Key Principle
+
+Good evaluation starts with the **question**, not the method.
+
+Strong evaluations often combine quantitative and qualitative approaches to understand:
+
+* whether an intervention worked
+* how it worked
+* why it worked
+* for whom it worked
+* whether it represented good value for money
+
+There is rarely a single "best" evaluation method—only methods that are more or less appropriate for the question being asked.
+:::
+
 ## Key Takeaways
 
 - improvement alone does not prove impact

@@ -115,7 +115,6 @@ But an important question remains:
 
 This question sits at the heart of intervention evaluation.
 
-
 # The Biggest Evaluation Mistake: Before-and-After Comparisons
 
 One of the most common mistakes in healthcare evaluation is relying solely on simple before-and-after comparisons.
@@ -275,6 +274,68 @@ The purpose of counterfactual thinking is not to dismiss improvement.
 Instead, it encourages us to ask:
 
 > *How confident are we that the intervention caused the change?*
+
+## Multiple Interventions Often Happen at the Same Time
+
+One of the greatest challenges in evaluating healthcare improvement is that organisations rarely introduce a single intervention in isolation.
+
+For example, an Integrated Care Board may simultaneously introduce:
+
+* Same Day Emergency Care (SDEC)
+* Virtual Wards
+* a frailty pathway
+* enhanced community services
+* discharge improvement programmes
+* Pharmacy First
+* care navigation
+
+Suppose emergency admissions reduce by **8%**.
+
+An obvious question follows:
+
+> **Which intervention made the biggest difference?**
+
+The honest answer is often:
+
+> **We cannot know with certainty.**
+
+In many NHS systems, several interventions are introduced over the same period with the shared aim of reducing Emergency Department attendances or emergency admissions.
+
+Understanding the contribution of each individual intervention becomes increasingly difficult as healthcare systems become more integrated.
+
+Later in this series, **Module 18: Why Evaluating Healthcare Improvement Is Difficult** explores this challenge in more detail, including how complex healthcare systems make attribution increasingly difficult.
+
+These interventions may:
+
+* work independently
+* reinforce one another
+* depend on one another to be effective
+* influence different patient groups
+* produce benefits at different times
+
+Rather than asking:
+
+> *Which intervention caused the improvement?*
+
+Decision-makers may instead need to ask:
+
+> *How did each intervention contribute, and how might the interventions have reinforced one another?*
+
+This illustrates why evaluation often focuses on **contribution rather than simple attribution**, particularly in complex healthcare systems.
+
+::: {.callout-note}
+### Looking Ahead
+
+As healthcare systems become more integrated, understanding the contribution of individual interventions becomes increasingly difficult.
+
+**Module 18: Why Evaluating Healthcare Improvement Is Difficult** explores this challenge in more depth, including:
+
+* multiple simultaneous interventions
+* complex healthcare systems
+* interaction between interventions
+* why attribution becomes increasingly difficult
+* how mixed-method evaluation can strengthen confidence in findings.
+:::
 
 # Levels of Evaluation Confidence
 

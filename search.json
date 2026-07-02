@@ -1232,131 +1232,151 @@
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html",
     "href": "modules/09-Risk-Probability-Uncertainty.html",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "",
     "text": "Learning Objectives\nBy the end of this module you should be able to:",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#learning-objectives",
     "href": "modules/09-Risk-Probability-Uncertainty.html#learning-objectives",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "",
     "text": "Understand the difference between risk, probability and certainty.\nRecognise common sources of uncertainty in healthcare data and analysis.\nInterpret risk estimates appropriately.\nUnderstand why decision-making often occurs despite uncertainty.\nApply a pragmatic approach to making decisions when evidence is incomplete.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#why-this-matters",
     "href": "modules/09-Risk-Probability-Uncertainty.html#why-this-matters",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Why This Matters",
     "text": "Why This Matters\nHealthcare leaders are rarely asked to make decisions with complete certainty.\nWhether considering a new service model, investing in prevention, redesigning a pathway or implementing a digital solution, there will almost always be uncertainty about future outcomes.\nThe role of analytics is not to eliminate uncertainty.\nThe role of analytics is to help decision-makers understand uncertainty well enough to make better decisions.\nGood decision-makers do not wait for certainty.\nThey make informed choices whilst understanding the risks.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#risk-is-not-certainty",
     "href": "modules/09-Risk-Probability-Uncertainty.html#risk-is-not-certainty",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Risk Is Not Certainty",
     "text": "Risk Is Not Certainty\nA common misunderstanding is to interpret risk estimates as predictions.\nRisk describes the likelihood that something may happen.\nIt does not tell us what will happen for a specific patient, service or population.\nFor example:\n\n\n\nRisk Estimate\nInterpretation\n\n\n\n\n80% risk of admission\nMore likely to occur than not\n\n\n50% risk of admission\nOutcome remains highly uncertain\n\n\n20% risk of admission\nLess likely, but still possible\n\n\n\nAn 80% risk does not guarantee admission.\nA 20% risk does not guarantee safety.\nRisk describes probability, not destiny.\n\n\n\n\n\n\nNote\n\n\n\nA useful question is:\n“How often would we expect this outcome to occur in a large group of similar people?”\nrather than\n“Will this individual definitely experience the outcome?”",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#sources-of-uncertainty",
     "href": "modules/09-Risk-Probability-Uncertainty.html#sources-of-uncertainty",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Sources of Uncertainty",
     "text": "Sources of Uncertainty\nUncertainty exists in all healthcare analyses.\nCommon sources include:\n\nRandom variation.\nIncomplete or missing data.\nSmall sample sizes.\nChanges in clinical practice.\nPolicy changes.\nWorkforce changes.\nBehavioural responses to interventions.\nUnexpected external events.\n\nThe future rarely behaves exactly like the past.\nThis means forecasts should always be viewed as estimates rather than promises.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
-    "objectID": "modules/09-Risk-Probability-Uncertainty.html#the-wrong-question",
-    "href": "modules/09-Risk-Probability-Uncertainty.html#the-wrong-question",
-    "title": "Module 9: Risk, Probability & Uncertainty",
-    "section": "The Wrong Question",
-    "text": "The Wrong Question\nDecision-makers often ask:\n\n“Are we certain this will work?”\n\nIn complex systems the answer is usually no.\nA better question is:\n\n“Do we have enough evidence to justify action?”\n\nThe goal is not certainty.\nThe goal is reducing uncertainty sufficiently to support a decision.",
+    "objectID": "modules/09-Risk-Probability-Uncertainty.html#confidence-intervals",
+    "href": "modules/09-Risk-Probability-Uncertainty.html#confidence-intervals",
+    "title": "Module 09: Risk, Probability & Uncertainty",
+    "section": "Confidence Intervals",
+    "text": "Confidence Intervals\nAnalysts often report estimates together with a 95% confidence interval.\nRather than providing a single value, confidence intervals recognise that every estimate contains some uncertainty.\nFor example:\n\n\n\nEstimated Readmission Rate\n95% Confidence Interval\n\n\n\n\n8.0%\n6.9% – 9.1%\n\n\n\n6.9% ─────●───── 9.1%\n          8%\nThe confidence interval provides a range of plausible values for the true underlying estimate.\nNarrow confidence intervals indicate greater precision.\nWider confidence intervals indicate greater uncertainty.\nFor decision-makers, the important message is often not the exact estimate, but how certain we are about that estimate.\n\n\n\n\n\n\nNote\n\n\n\nA useful question is:\n“How much uncertainty surrounds this estimate?”\nrather than\n“What is the exact number?”",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
+    ]
+  },
+  {
+    "objectID": "modules/09-Risk-Probability-Uncertainty.html#error-bars",
+    "href": "modules/09-Risk-Probability-Uncertainty.html#error-bars",
+    "title": "Module 09: Risk, Probability & Uncertainty",
+    "section": "Error Bars",
+    "text": "Error Bars\nMany dashboards and reports include charts with small lines extending above and below a point or bar.\nThese are known as error bars.\nError bars provide a visual indication of uncertainty around an estimate.\nLarger error bars suggest greater uncertainty.\nSmaller error bars suggest greater precision.\nTwo organisations may appear to perform differently, but if their error bars overlap substantially, the apparent difference may simply reflect normal variation rather than a meaningful difference.\nError bars therefore encourage caution when comparing organisations or services.\nHospital A\n\n    ●\n  ─────\n\nHospital B\n\n    ●\n──────────\nThey remind us that every estimate contains uncertainty.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
+    ]
+  },
+  {
+    "objectID": "modules/09-Risk-Probability-Uncertainty.html#interpreting-a-p-value",
+    "href": "modules/09-Risk-Probability-Uncertainty.html#interpreting-a-p-value",
+    "title": "Module 09: Risk, Probability & Uncertainty",
+    "section": "Interpreting a P-value",
+    "text": "Interpreting a P-value\nA p-value answers one question: Could this observed difference simply be due to chance?\n                    What does a p-value tell us?\n\n            Observed difference between two groups\n                           |\n                           v\n        Could this difference simply be due to chance?\n                           |\n          +     -+     -+\n          |                                 |\n     p &lt; 0.05                         p &gt;= 0.05\n          |                                 |\n          v                                 v\nUnlikely to be                    Could reasonably be\nexplained by chance               explained by chance\n          |                                 |\n          +     -+     -+\n                           v\n          Now ask:\n          - How large is the difference?\n          - How certain are we? (Confidence interval)\n          - Does the difference matter in practice?\n\nAnalysts often report a p-value when comparing two groups or evaluating an intervention.\nA p-value helps us judge whether an observed difference is likely to be explained by chance alone.\nA commonly used threshold is:\np-value | Interpretation |\n  | -|\np &lt; 0.05 | The observed difference is unlikely to be explained by chance alone. |\np ≥ 0.05 | The observed difference could reasonably be explained by chance. |\nA p-value does not prove that a difference is real.\nIt simply helps us judge whether the observed difference is likely to be more than random variation.\n\n\n\n\n\n\nImportantWhat a P-value Doesn’t Tell Us\n\n\n\nA p-value does not tell us:\n\nhow large the difference is\nwhether the difference is clinically or operationally important\nwhether we should change practice\n\nA very small difference can still have a low p-value if enough data are available.\nLikewise, a result that is not statistically significant may still be important, particularly when studies are small or evidence is limited.\n\n\n\n\n\n\n\n\nTipAlways Consider\n\n\n\nWhen interpreting a p-value, also ask:\n\nHow large is the difference?\nHow certain are we? (Look at the confidence interval.)\nDoes the difference matter in practice?\nWhat are the costs, benefits and risks?\n\n\nStatistical significance does not necessarily imply practical importance.\n\n\n\n\nExample\nA new intervention reduces hospital readmissions from 8.0% to 7.8%.\nThe analysis reports:\n\np = 0.01\n\nThe analysis suggests the observed 0.2% reduction is unlikely to be explained by chance alone.\nHowever, it does not tell us whether a 0.2% reduction is:\n\nclinically meaningful\ncost-effective\nsufficient to justify changing practice\n\nThose decisions require consideration of the size of the difference, confidence intervals, costs, risks and the wider clinical context.\n\n\nPoor Interpretation\n\n“The p-value is greater than 0.05, so the intervention failed.”\n\n\n\nBetter Interpretation\n\n“The evidence is uncertain. We should also consider the size of the difference, the confidence interval, the sample size and the wider context.”\n\n\n\nPoor Interpretation\n\n“The difference is statistically significant, therefore it is important.”\n\n\n\nBetter Interpretation\n\n“The difference is unlikely to be due to chance, but is it large enough to justify changing practice or investing further resources?”\n\n\n\nPoor Interpretation\n\n“The confidence intervals overlap, so there is definitely no difference.”\n\n\n\nBetter Interpretation\n\n“Confidence intervals help us understand uncertainty, but they should be interpreted alongside the size of the difference, study design and the wider body of evidence.”",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#risk-of-action-vs-risk-of-inaction",
     "href": "modules/09-Risk-Probability-Uncertainty.html#risk-of-action-vs-risk-of-inaction",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Risk of Action vs Risk of Inaction",
     "text": "Risk of Action vs Risk of Inaction\nWhen considering change, organisations often focus heavily on the risks of doing something.\nHowever, every decision involves two sets of risks.\n\nRisks of Action\n\nFinancial cost.\nOpportunity cost.\nImplementation challenges.\nUnintended consequences.\n\n\n\nRisks of Inaction\n\nContinuing poor outcomes.\nIncreasing demand pressures.\nWorsening inequalities.\nMissed opportunities for improvement.\n\nSometimes the greatest risk is doing nothing.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#pragmatic-decision-making-under-uncertainty",
     "href": "modules/09-Risk-Probability-Uncertainty.html#pragmatic-decision-making-under-uncertainty",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Pragmatic Decision-Making Under Uncertainty",
-    "text": "Pragmatic Decision-Making Under Uncertainty\nNot every decision requires the same level of evidence.\nThe level of evidence should be proportionate to the scale of risk.\n\n\n\nDecision Type\nTypical Evidence Requirement\n\n\n\n\nMinor operational change\nLocal data and professional judgement\n\n\nSmall pilot\nLocal evaluation and benchmarking\n\n\nSignificant investment\nFormal evaluation and business case\n\n\nSystem-wide transformation\nStrong evidence and ongoing evaluation\n\n\n\nWaiting for perfect evidence can sometimes delay beneficial change unnecessarily.",
+    "text": "Pragmatic Decision-Making Under Uncertainty\nNot every decision requires the same level of evidence.\nThe level of evidence should be proportionate to the scale of risk.\nDecision Type | Typical Evidence Requirement |\n    | |\nMinor operational change | Local data and professional judgement |\nSmall pilot | Local evaluation and benchmarking |\nSignificant investment | Formal evaluation and business case |\nSystem-wide transformation | Strong evidence and ongoing evaluation |\nWaiting for perfect evidence can sometimes delay beneficial change unnecessarily.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#a-practical-decision-framework",
     "href": "modules/09-Risk-Probability-Uncertainty.html#a-practical-decision-framework",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "A Practical Decision Framework",
     "text": "A Practical Decision Framework\nWhen faced with uncertainty, consider the following questions:\n\nWhat do we know?\nWhat do we not know?\nWhat assumptions are being made?\nWhat are the potential benefits?\nWhat are the potential harms?\nWhat happens if we delay?\nCan we test the idea before scaling?\n\nIn many situations the answer is not “implement” or “do not implement”.\nThe answer is often:\n\n“Pilot, evaluate, learn and adapt.”",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#decision-making-under-uncertainty",
     "href": "modules/09-Risk-Probability-Uncertainty.html#decision-making-under-uncertainty",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Decision-Making Under Uncertainty",
     "text": "Decision-Making Under Uncertainty",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#poor-interpretation-vs-better-interpretation",
     "href": "modules/09-Risk-Probability-Uncertainty.html#poor-interpretation-vs-better-interpretation",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Poor Interpretation vs Better Interpretation",
-    "text": "Poor Interpretation vs Better Interpretation\n\nPoor Interpretation\n\n“We don’t know for certain that this will work, so we should wait.”\n\n\n\nBetter Interpretation\n\n“We have uncertainty, but do we have enough evidence to justify testing the intervention safely?”\n\n\n\n\nPoor Interpretation\n\n“The forecast says demand will increase by 15%.”\n\n\n\nBetter Interpretation\n\n“The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate.”\n\n\n\n\nPoor Interpretation\n\n“The intervention might fail, so we shouldn’t proceed.”\n\n\n\nBetter Interpretation\n\n“What are the risks of proceeding, and what are the risks of doing nothing?”\n\n\n\n\nPoor Interpretation\n\n“We need more data.”\n\n\n\nBetter Interpretation\n\n“Would additional data materially change our decision?”",
+    "text": "Poor Interpretation vs Better Interpretation\n\nPoor Interpretation\n\n“We don’t know for certain that this will work, so we should wait.”\n\n\n\nBetter Interpretation\n\n“We have uncertainty, but do we have enough evidence to justify testing the intervention safely?”\n\n\n\nPoor Interpretation\n\n“The forecast says demand will increase by 15%.”\n\n\n\nBetter Interpretation\n\n“The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate.”\n\n\n\nPoor Interpretation\n\n“The intervention might fail, so we shouldn’t proceed.”\n\n\n\nBetter Interpretation\n\n“What are the risks of proceeding, and what are the risks of doing nothing?”\n\n\n\nPoor Interpretation\n\n“We need more data.”\n\n\n\nBetter Interpretation\n\n“Would additional data materially change our decision?”",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#questions-decision-makers-should-ask",
     "href": "modules/09-Risk-Probability-Uncertainty.html#questions-decision-makers-should-ask",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Questions Decision-Makers Should Ask",
-    "text": "Questions Decision-Makers Should Ask\n\nWhat level of uncertainty exists in this analysis?\nWhat assumptions underpin these findings?\nWhat information is missing or unknown?\nHow sensitive are the conclusions to those assumptions?\nWhat are the risks of acting?\nWhat are the risks of not acting?\nIs there a lower-risk way to test this first?\nWhat evidence would increase our confidence?\nAre we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?\nCan we pilot, evaluate and adapt rather than committing to a full-scale implementation?",
+    "text": "Questions Decision-Makers Should Ask\n\nWhat level of uncertainty exists in this analysis?\nHow much uncertainty surrounds this estimate?\nAre the confidence intervals sufficiently narrow to support decision-making?\nIs the result statistically significant, and more importantly, is it practically meaningful?\nWhat assumptions underpin these findings?\nWhat information is missing or unknown?\nHow sensitive are the conclusions to those assumptions?\nWhat are the risks of acting?\nWhat are the risks of not acting?\nIs there a lower-risk way to test this first?\nWhat evidence would increase our confidence?\nAre we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?\nCan we pilot, evaluate and adapt rather than committing to a full-scale implementation?",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {
     "objectID": "modules/09-Risk-Probability-Uncertainty.html#key-takeaways",
     "href": "modules/09-Risk-Probability-Uncertainty.html#key-takeaways",
-    "title": "Module 9: Risk, Probability & Uncertainty",
+    "title": "Module 09: Risk, Probability & Uncertainty",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nRisk is not certainty.\nProbability describes the likelihood of an event, not whether it will definitely occur.\nAll analyses contain some degree of uncertainty.\nForecasts and predictions should be interpreted as estimates rather than promises.\nDecisions should consider both the risks of action and the risks of inaction.\nDifferent decisions require different levels of evidence.\nWaiting for perfect information is itself a decision and may carry risks.\nEffective organisations acknowledge uncertainty, learn quickly and make proportionate decisions using the best evidence available at the time.",
+    "text": "Key Takeaways\n\nRisk is not certainty.\nProbability describes the likelihood of an event, not whether it will definitely occur.\nAll analyses contain some degree of uncertainty.\nConfidence intervals communicate uncertainty around an estimate.\nStatistical significance does not necessarily imply practical importance.\nForecasts and predictions should be interpreted as estimates rather than promises.\nDecisions should consider both the risks of action and the risks of inaction.\nDifferent decisions require different levels of evidence.\nWaiting for perfect information is itself a decision and may carry risks.\nEffective organisations acknowledge uncertainty, learn quickly and make proportionate decisions using the best evidence available at the time.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 9: Risk, Probability & Uncertainty</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 09: Risk, Probability & Uncertainty</span>"
     ]
   },
   {

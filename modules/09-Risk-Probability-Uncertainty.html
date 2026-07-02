@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Module 9: Risk, Probability &amp; Uncertainty – Health Data Literacy</title>
+<title>Module 09: Risk, Probability &amp; Uncertainty – Health Data Literacy</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/09-Risk-Probability-Uncertainty.html"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/09-Risk-Probability-Uncertainty.html"><span class="chapter-title">Module 09: Risk, Probability &amp; Uncertainty</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -176,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></a>
+  <a href="../modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 09: Risk, Probability &amp; Uncertainty</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -213,7 +213,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
   <li><a href="#risk-is-not-certainty" id="toc-risk-is-not-certainty" class="nav-link" data-scroll-target="#risk-is-not-certainty">Risk Is Not Certainty</a></li>
   <li><a href="#sources-of-uncertainty" id="toc-sources-of-uncertainty" class="nav-link" data-scroll-target="#sources-of-uncertainty">Sources of Uncertainty</a></li>
-  <li><a href="#the-wrong-question" id="toc-the-wrong-question" class="nav-link" data-scroll-target="#the-wrong-question">The Wrong Question</a></li>
+  <li><a href="#confidence-intervals" id="toc-confidence-intervals" class="nav-link" data-scroll-target="#confidence-intervals">Confidence Intervals</a></li>
+  <li><a href="#error-bars" id="toc-error-bars" class="nav-link" data-scroll-target="#error-bars">Error Bars</a></li>
+  <li><a href="#interpreting-a-p-value" id="toc-interpreting-a-p-value" class="nav-link" data-scroll-target="#interpreting-a-p-value">Interpreting a P-value</a>
+  <ul class="collapse">
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
+  <li><a href="#poor-interpretation" id="toc-poor-interpretation" class="nav-link" data-scroll-target="#poor-interpretation">Poor Interpretation</a></li>
+  <li><a href="#better-interpretation" id="toc-better-interpretation" class="nav-link" data-scroll-target="#better-interpretation">Better Interpretation</a></li>
+  <li><a href="#poor-interpretation-1" id="toc-poor-interpretation-1" class="nav-link" data-scroll-target="#poor-interpretation-1">Poor Interpretation</a></li>
+  <li><a href="#better-interpretation-1" id="toc-better-interpretation-1" class="nav-link" data-scroll-target="#better-interpretation-1">Better Interpretation</a></li>
+  <li><a href="#poor-interpretation-2" id="toc-poor-interpretation-2" class="nav-link" data-scroll-target="#poor-interpretation-2">Poor Interpretation</a></li>
+  <li><a href="#better-interpretation-2" id="toc-better-interpretation-2" class="nav-link" data-scroll-target="#better-interpretation-2">Better Interpretation</a></li>
+  </ul></li>
   <li><a href="#risk-of-action-vs-risk-of-inaction" id="toc-risk-of-action-vs-risk-of-inaction" class="nav-link" data-scroll-target="#risk-of-action-vs-risk-of-inaction">Risk of Action vs Risk of Inaction</a>
   <ul class="collapse">
   <li><a href="#risks-of-action" id="toc-risks-of-action" class="nav-link" data-scroll-target="#risks-of-action">Risks of Action</a></li>
@@ -224,14 +235,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#decision-making-under-uncertainty" id="toc-decision-making-under-uncertainty" class="nav-link" data-scroll-target="#decision-making-under-uncertainty">Decision-Making Under Uncertainty</a></li>
   <li><a href="#poor-interpretation-vs-better-interpretation" id="toc-poor-interpretation-vs-better-interpretation" class="nav-link" data-scroll-target="#poor-interpretation-vs-better-interpretation">Poor Interpretation vs Better Interpretation</a>
   <ul class="collapse">
-  <li><a href="#poor-interpretation" id="toc-poor-interpretation" class="nav-link" data-scroll-target="#poor-interpretation">Poor Interpretation</a></li>
-  <li><a href="#better-interpretation" id="toc-better-interpretation" class="nav-link" data-scroll-target="#better-interpretation">Better Interpretation</a></li>
-  <li><a href="#poor-interpretation-1" id="toc-poor-interpretation-1" class="nav-link" data-scroll-target="#poor-interpretation-1">Poor Interpretation</a></li>
-  <li><a href="#better-interpretation-1" id="toc-better-interpretation-1" class="nav-link" data-scroll-target="#better-interpretation-1">Better Interpretation</a></li>
-  <li><a href="#poor-interpretation-2" id="toc-poor-interpretation-2" class="nav-link" data-scroll-target="#poor-interpretation-2">Poor Interpretation</a></li>
-  <li><a href="#better-interpretation-2" id="toc-better-interpretation-2" class="nav-link" data-scroll-target="#better-interpretation-2">Better Interpretation</a></li>
   <li><a href="#poor-interpretation-3" id="toc-poor-interpretation-3" class="nav-link" data-scroll-target="#poor-interpretation-3">Poor Interpretation</a></li>
   <li><a href="#better-interpretation-3" id="toc-better-interpretation-3" class="nav-link" data-scroll-target="#better-interpretation-3">Better Interpretation</a></li>
+  <li><a href="#poor-interpretation-4" id="toc-poor-interpretation-4" class="nav-link" data-scroll-target="#poor-interpretation-4">Poor Interpretation</a></li>
+  <li><a href="#better-interpretation-4" id="toc-better-interpretation-4" class="nav-link" data-scroll-target="#better-interpretation-4">Better Interpretation</a></li>
+  <li><a href="#poor-interpretation-5" id="toc-poor-interpretation-5" class="nav-link" data-scroll-target="#poor-interpretation-5">Poor Interpretation</a></li>
+  <li><a href="#better-interpretation-5" id="toc-better-interpretation-5" class="nav-link" data-scroll-target="#better-interpretation-5">Better Interpretation</a></li>
+  <li><a href="#poor-interpretation-6" id="toc-poor-interpretation-6" class="nav-link" data-scroll-target="#poor-interpretation-6">Poor Interpretation</a></li>
+  <li><a href="#better-interpretation-6" id="toc-better-interpretation-6" class="nav-link" data-scroll-target="#better-interpretation-6">Better Interpretation</a></li>
   </ul></li>
   <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
@@ -243,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Module 9: Risk, Probability &amp; Uncertainty</span></h1>
+<h1 class="title"><span class="chapter-title">Module 09: Risk, Probability &amp; Uncertainty</span></h1>
 </div>
 
 
@@ -270,7 +281,6 @@ ul.task-list li input[type="checkbox"] {
 <li>Understand why decision-making often occurs despite uncertainty.</li>
 <li>Apply a pragmatic approach to making decisions when evidence is incomplete.</li>
 </ul>
-<hr>
 </section>
 <section id="why-this-matters" class="level2">
 <h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
@@ -280,7 +290,6 @@ ul.task-list li input[type="checkbox"] {
 <p>The role of analytics is to help decision-makers understand uncertainty well enough to make better decisions.</p>
 <p>Good decision-makers do not wait for certainty.</p>
 <p>They make informed choices whilst understanding the risks.</p>
-<hr>
 </section>
 <section id="risk-is-not-certainty" class="level2">
 <h2 class="anchored" data-anchor-id="risk-is-not-certainty">Risk Is Not Certainty</h2>
@@ -329,7 +338,6 @@ Note
 <p><em>“Will this individual definitely experience the outcome?”</em></p>
 </div>
 </div>
-<hr>
 </section>
 <section id="sources-of-uncertainty" class="level2">
 <h2 class="anchored" data-anchor-id="sources-of-uncertainty">Sources of Uncertainty</h2>
@@ -347,22 +355,197 @@ Note
 </ul>
 <p>The future rarely behaves exactly like the past.</p>
 <p>This means forecasts should always be viewed as estimates rather than promises.</p>
-<hr>
 </section>
-<section id="the-wrong-question" class="level2">
-<h2 class="anchored" data-anchor-id="the-wrong-question">The Wrong Question</h2>
-<p>Decision-makers often ask:</p>
+<section id="confidence-intervals" class="level2">
+<h2 class="anchored" data-anchor-id="confidence-intervals">Confidence Intervals</h2>
+<p>Analysts often report estimates together with a <strong>95% confidence interval</strong>.</p>
+<p>Rather than providing a single value, confidence intervals recognise that every estimate contains some uncertainty.</p>
+<p>For example:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Estimated Readmission Rate</th>
+<th>95% Confidence Interval</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>8.0%</td>
+<td>6.9% – 9.1%</td>
+</tr>
+</tbody>
+</table>
+<pre><code>6.9% ─────●───── 9.1%
+          8%</code></pre>
+<p>The confidence interval provides a range of plausible values for the true underlying estimate.</p>
+<p>Narrow confidence intervals indicate greater precision.</p>
+<p>Wider confidence intervals indicate greater uncertainty.</p>
+<p>For decision-makers, the important message is often not the exact estimate, but <strong>how certain we are about that estimate.</strong></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A useful question is:</p>
+<p><em>“How much uncertainty surrounds this estimate?”</em></p>
+<p>rather than</p>
+<p><em>“What is the exact number?”</em></p>
+</div>
+</div>
+</section>
+<section id="error-bars" class="level2">
+<h2 class="anchored" data-anchor-id="error-bars">Error Bars</h2>
+<p>Many dashboards and reports include charts with small lines extending above and below a point or bar.</p>
+<p>These are known as <strong>error bars</strong>.</p>
+<p>Error bars provide a visual indication of uncertainty around an estimate.</p>
+<p>Larger error bars suggest greater uncertainty.</p>
+<p>Smaller error bars suggest greater precision.</p>
+<p>Two organisations may appear to perform differently, but if their error bars overlap substantially, the apparent difference may simply reflect normal variation rather than a meaningful difference.</p>
+<p>Error bars therefore encourage caution when comparing organisations or services.</p>
+<pre><code>Hospital A
+
+    ●
+  ─────
+
+Hospital B
+
+    ●
+──────────</code></pre>
+<p>They remind us that every estimate contains uncertainty.</p>
+</section>
+<section id="interpreting-a-p-value" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-a-p-value">Interpreting a P-value</h2>
+<p>A p-value answers one question: Could this observed difference simply be due to chance?</p>
+<pre><code>                    What does a p-value tell us?
+
+            Observed difference between two groups
+                           |
+                           v
+        Could this difference simply be due to chance?
+                           |
+          +     -+     -+
+          |                                 |
+     p &lt; 0.05                         p &gt;= 0.05
+          |                                 |
+          v                                 v
+Unlikely to be                    Could reasonably be
+explained by chance               explained by chance
+          |                                 |
+          +     -+     -+
+                           v
+          Now ask:
+          - How large is the difference?
+          - How certain are we? (Confidence interval)
+          - Does the difference matter in practice?
+</code></pre>
+<p>Analysts often report a <strong>p-value</strong> when comparing two groups or evaluating an intervention.</p>
+<p>A p-value helps us judge whether an <strong>observed difference is likely to be explained by chance alone</strong>.</p>
+<p>A commonly used threshold is:</p>
+<div class="line-block">p-value | Interpretation |<br>
+&nbsp;&nbsp;| -|<br>
+<strong>p &lt; 0.05</strong> | The observed difference is unlikely to be explained by chance alone. |<br>
+<strong>p ≥ 0.05</strong> | The observed difference could reasonably be explained by chance. |</div>
+<p>A p-value <strong>does not prove</strong> that a difference is real.</p>
+<p><strong>It simply helps us judge whether the observed difference is likely to be more than random variation.</strong></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>What a P-value Doesn’t Tell Us
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A p-value does <strong>not</strong> tell us:</p>
+<ul>
+<li>how large the difference is</li>
+<li>whether the difference is clinically or operationally important</li>
+<li>whether we should change practice</li>
+</ul>
+<p>A very small difference can still have a low p-value if enough data are available.</p>
+<p>Likewise, a result that is <strong>not</strong> statistically significant may still be important, particularly when studies are small or evidence is limited.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Always Consider
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When interpreting a p-value, also ask:</p>
+<ul>
+<li>How large is the difference?</li>
+<li>How certain are we? (Look at the confidence interval.)</li>
+<li>Does the difference matter in practice?</li>
+<li>What are the costs, benefits and risks?</li>
+</ul>
 <blockquote class="blockquote">
-<p>“Are we certain this will work?”</p>
+<p><strong>Statistical significance does not necessarily imply practical importance.</strong></p>
 </blockquote>
-<p>In complex systems the answer is usually no.</p>
-<p>A better question is:</p>
+</div>
+</div>
+<section id="example" class="level3">
+<h3 class="anchored" data-anchor-id="example">Example</h3>
+<p>A new intervention reduces hospital readmissions from <strong>8.0% to 7.8%</strong>.</p>
+<p>The analysis reports:</p>
 <blockquote class="blockquote">
-<p>“Do we have enough evidence to justify action?”</p>
+<p><strong>p = 0.01</strong></p>
 </blockquote>
-<p>The goal is not certainty.</p>
-<p>The goal is reducing uncertainty sufficiently to support a decision.</p>
-<hr>
+<p><strong>The analysis suggests the observed 0.2% reduction is unlikely to be explained by chance alone.</strong></p>
+<p>However, it does <strong>not</strong> tell us whether a <strong>0.2% reduction</strong> is:</p>
+<ul>
+<li>clinically meaningful</li>
+<li>cost-effective</li>
+<li>sufficient to justify changing practice</li>
+</ul>
+<p>Those decisions require consideration of the <strong>size of the difference</strong>, <strong>confidence intervals</strong>, <strong>costs</strong>, <strong>risks</strong> and the wider clinical context.</p>
+</section>
+<section id="poor-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="poor-interpretation">Poor Interpretation</h3>
+<blockquote class="blockquote">
+<p>“The p-value is greater than 0.05, so the intervention failed.”</p>
+</blockquote>
+</section>
+<section id="better-interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="better-interpretation">Better Interpretation</h3>
+<blockquote class="blockquote">
+<p>“The evidence is uncertain. We should also consider the size of the difference, the confidence interval, the sample size and the wider context.”</p>
+</blockquote>
+</section>
+<section id="poor-interpretation-1" class="level3">
+<h3 class="anchored" data-anchor-id="poor-interpretation-1">Poor Interpretation</h3>
+<blockquote class="blockquote">
+<p>“The difference is statistically significant, therefore it is important.”</p>
+</blockquote>
+</section>
+<section id="better-interpretation-1" class="level3">
+<h3 class="anchored" data-anchor-id="better-interpretation-1">Better Interpretation</h3>
+<blockquote class="blockquote">
+<p><strong>“The difference is unlikely to be due to chance, but is it large enough to justify changing practice or investing further resources?”</strong></p>
+</blockquote>
+</section>
+<section id="poor-interpretation-2" class="level3">
+<h3 class="anchored" data-anchor-id="poor-interpretation-2">Poor Interpretation</h3>
+<blockquote class="blockquote">
+<p>“The confidence intervals overlap, so there is definitely no difference.”</p>
+</blockquote>
+</section>
+<section id="better-interpretation-2" class="level3">
+<h3 class="anchored" data-anchor-id="better-interpretation-2">Better Interpretation</h3>
+<blockquote class="blockquote">
+<p>“Confidence intervals help us understand uncertainty, but they should be interpreted alongside the size of the difference, study design and the wider body of evidence.”</p>
+</blockquote>
+</section>
 </section>
 <section id="risk-of-action-vs-risk-of-inaction" class="level2">
 <h2 class="anchored" data-anchor-id="risk-of-action-vs-risk-of-inaction">Risk of Action vs Risk of Inaction</h2>
@@ -386,41 +569,19 @@ Note
 <li>Missed opportunities for improvement.</li>
 </ul>
 <p>Sometimes the greatest risk is doing nothing.</p>
-<hr>
 </section>
 </section>
 <section id="pragmatic-decision-making-under-uncertainty" class="level2">
 <h2 class="anchored" data-anchor-id="pragmatic-decision-making-under-uncertainty">Pragmatic Decision-Making Under Uncertainty</h2>
 <p>Not every decision requires the same level of evidence.</p>
 <p>The level of evidence should be proportionate to the scale of risk.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Decision Type</th>
-<th>Typical Evidence Requirement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Minor operational change</td>
-<td>Local data and professional judgement</td>
-</tr>
-<tr class="even">
-<td>Small pilot</td>
-<td>Local evaluation and benchmarking</td>
-</tr>
-<tr class="odd">
-<td>Significant investment</td>
-<td>Formal evaluation and business case</td>
-</tr>
-<tr class="even">
-<td>System-wide transformation</td>
-<td>Strong evidence and ongoing evaluation</td>
-</tr>
-</tbody>
-</table>
+<div class="line-block">Decision Type | Typical Evidence Requirement |<br>
+&nbsp;&nbsp;&nbsp;&nbsp;| |<br>
+Minor operational change | Local data and professional judgement |<br>
+Small pilot | Local evaluation and benchmarking |<br>
+Significant investment | Formal evaluation and business case |<br>
+System-wide transformation | Strong evidence and ongoing evaluation |</div>
 <p>Waiting for perfect evidence can sometimes delay beneficial change unnecessarily.</p>
-<hr>
 </section>
 <section id="a-practical-decision-framework" class="level2">
 <h2 class="anchored" data-anchor-id="a-practical-decision-framework">A Practical Decision Framework</h2>
@@ -439,72 +600,69 @@ Note
 <blockquote class="blockquote">
 <p>“Pilot, evaluate, learn and adapt.”</p>
 </blockquote>
-<hr>
 </section>
 <section id="decision-making-under-uncertainty" class="level2">
 <h2 class="anchored" data-anchor-id="decision-making-under-uncertainty">Decision-Making Under Uncertainty</h2>
 <p><img src="../images/MakingDecisionsUnderUncertainty.png" class="img-fluid"></p>
-<hr>
 </section>
 <section id="poor-interpretation-vs-better-interpretation" class="level2">
 <h2 class="anchored" data-anchor-id="poor-interpretation-vs-better-interpretation">Poor Interpretation vs Better Interpretation</h2>
-<section id="poor-interpretation" class="level3">
-<h3 class="anchored" data-anchor-id="poor-interpretation">Poor Interpretation</h3>
-<blockquote class="blockquote">
-<p>“We don’t know for certain that this will work, so we should wait.”</p>
-</blockquote>
-</section>
-<section id="better-interpretation" class="level3">
-<h3 class="anchored" data-anchor-id="better-interpretation">Better Interpretation</h3>
-<blockquote class="blockquote">
-<p>“We have uncertainty, but do we have enough evidence to justify testing the intervention safely?”</p>
-</blockquote>
-<hr>
-</section>
-<section id="poor-interpretation-1" class="level3">
-<h3 class="anchored" data-anchor-id="poor-interpretation-1">Poor Interpretation</h3>
-<blockquote class="blockquote">
-<p>“The forecast says demand will increase by 15%.”</p>
-</blockquote>
-</section>
-<section id="better-interpretation-1" class="level3">
-<h3 class="anchored" data-anchor-id="better-interpretation-1">Better Interpretation</h3>
-<blockquote class="blockquote">
-<p>“The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate.”</p>
-</blockquote>
-<hr>
-</section>
-<section id="poor-interpretation-2" class="level3">
-<h3 class="anchored" data-anchor-id="poor-interpretation-2">Poor Interpretation</h3>
-<blockquote class="blockquote">
-<p>“The intervention might fail, so we shouldn’t proceed.”</p>
-</blockquote>
-</section>
-<section id="better-interpretation-2" class="level3">
-<h3 class="anchored" data-anchor-id="better-interpretation-2">Better Interpretation</h3>
-<blockquote class="blockquote">
-<p>“What are the risks of proceeding, and what are the risks of doing nothing?”</p>
-</blockquote>
-<hr>
-</section>
 <section id="poor-interpretation-3" class="level3">
 <h3 class="anchored" data-anchor-id="poor-interpretation-3">Poor Interpretation</h3>
 <blockquote class="blockquote">
-<p>“We need more data.”</p>
+<p>“We don’t know for certain that this will work, so we should wait.”</p>
 </blockquote>
 </section>
 <section id="better-interpretation-3" class="level3">
 <h3 class="anchored" data-anchor-id="better-interpretation-3">Better Interpretation</h3>
 <blockquote class="blockquote">
+<p>“We have uncertainty, but do we have enough evidence to justify testing the intervention safely?”</p>
+</blockquote>
+</section>
+<section id="poor-interpretation-4" class="level3">
+<h3 class="anchored" data-anchor-id="poor-interpretation-4">Poor Interpretation</h3>
+<blockquote class="blockquote">
+<p>“The forecast says demand will increase by 15%.”</p>
+</blockquote>
+</section>
+<section id="better-interpretation-4" class="level3">
+<h3 class="anchored" data-anchor-id="better-interpretation-4">Better Interpretation</h3>
+<blockquote class="blockquote">
+<p>“The forecast suggests demand may increase by around 15%, but there is uncertainty around that estimate.”</p>
+</blockquote>
+</section>
+<section id="poor-interpretation-5" class="level3">
+<h3 class="anchored" data-anchor-id="poor-interpretation-5">Poor Interpretation</h3>
+<blockquote class="blockquote">
+<p>“The intervention might fail, so we shouldn’t proceed.”</p>
+</blockquote>
+</section>
+<section id="better-interpretation-5" class="level3">
+<h3 class="anchored" data-anchor-id="better-interpretation-5">Better Interpretation</h3>
+<blockquote class="blockquote">
+<p>“What are the risks of proceeding, and what are the risks of doing nothing?”</p>
+</blockquote>
+</section>
+<section id="poor-interpretation-6" class="level3">
+<h3 class="anchored" data-anchor-id="poor-interpretation-6">Poor Interpretation</h3>
+<blockquote class="blockquote">
+<p>“We need more data.”</p>
+</blockquote>
+</section>
+<section id="better-interpretation-6" class="level3">
+<h3 class="anchored" data-anchor-id="better-interpretation-6">Better Interpretation</h3>
+<blockquote class="blockquote">
 <p>“Would additional data materially change our decision?”</p>
 </blockquote>
-<hr>
 </section>
 </section>
 <section id="questions-decision-makers-should-ask" class="level2">
 <h2 class="anchored" data-anchor-id="questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</h2>
 <ul>
 <li>What level of uncertainty exists in this analysis?</li>
+<li>How much uncertainty surrounds this estimate?</li>
+<li>Are the confidence intervals sufficiently narrow to support decision-making?</li>
+<li>Is the result statistically significant, and more importantly, is it practically meaningful?</li>
 <li>What assumptions underpin these findings?</li>
 <li>What information is missing or unknown?</li>
 <li>How sensitive are the conclusions to those assumptions?</li>
@@ -515,7 +673,6 @@ Note
 <li>Are we delaying action because of genuine uncertainty or because we are seeking certainty that may never exist?</li>
 <li>Can we pilot, evaluate and adapt rather than committing to a full-scale implementation?</li>
 </ul>
-<hr>
 </section>
 <section id="key-takeaways" class="level2">
 <h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
@@ -523,6 +680,8 @@ Note
 <li>Risk is not certainty.</li>
 <li>Probability describes the likelihood of an event, not whether it will definitely occur.</li>
 <li>All analyses contain some degree of uncertainty.</li>
+<li>Confidence intervals communicate uncertainty around an estimate.</li>
+<li>Statistical significance does not necessarily imply practical importance.</li>
 <li>Forecasts and predictions should be interpreted as estimates rather than promises.</li>
 <li>Decisions should consider both the risks of action and the risks of inaction.</li>
 <li>Different decisions require different levels of evidence.</li>

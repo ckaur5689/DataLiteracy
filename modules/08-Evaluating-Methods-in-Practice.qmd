@@ -1121,8 +1121,12 @@ Good evaluation asks:
 - Was the evaluation large enough to be informative?
 - How strong is our confidence in attribution?
 
-## Resources
+---
 
-Magenta Book Annex A: analytical methods for use within an evaluation
-https://www.gov.uk/government/publications/the-magenta-book/magenta-book-annex-a-analytical-methods-for-use-within-an-evaluation-html
+## Further Reading
+
+Readers who would like to explore evaluation methods in greater depth may find the following resources useful:
+
+- **[The Magenta Book: Guidance for Evaluation](https://www.gov.uk/government/publications/the-magenta-book)** – UK Government guidance on designing, conducting and using evaluations.
+- **[Magenta Book – Annex A: Analytical Methods for Use Within an Evaluation](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-annex-a-analytical-methods-for-use-within-an-evaluation-html)** – An overview of the strengths, limitations and applications of common evaluation methods.
 

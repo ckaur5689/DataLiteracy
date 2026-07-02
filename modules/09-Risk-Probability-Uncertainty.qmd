@@ -303,7 +303,7 @@ Not every decision requires the same level of evidence.
 The level of evidence should be proportionate to the scale of risk.
 
 | Decision Type | Typical Evidence Requirement |
-|     |          |
+|    --|     -|
 | Minor operational change | Local data and professional judgement |
 | Small pilot | Local evaluation and benchmarking |
 | Significant investment | Formal evaluation and business case |

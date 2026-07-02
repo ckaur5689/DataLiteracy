@@ -187,7 +187,7 @@ A p-value helps us judge whether an **observed difference is likely to be explai
 A commonly used threshold is:
 
 | p-value | Interpretation |
-|   |     -|
+|    --|     -|
 | **p < 0.05** | The observed difference is unlikely to be explained by chance alone. |
 | **p ≥ 0.05** | The observed difference could reasonably be explained by chance. |
 

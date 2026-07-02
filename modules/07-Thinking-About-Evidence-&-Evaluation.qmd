@@ -51,19 +51,19 @@ After implementation, a common question quickly emerges:
 
 > **Did it work?**
 
-Yet healthcare systems often struggle to distinguish:
+It sounds like a simple question.
 
-> genuine impact
+Yet in healthcare, it is often one of the hardest questions to answer.
 
-from
+::: {.callout-important}
+## A Key Principle
 
-> change that may have happened anyway.
+Healthcare systems frequently struggle to distinguish between **genuine intervention effects** and changes that may have happened anyway.
 
-At first glance, this may seem straightforward.
+Observed improvement does **not** automatically mean that an intervention caused the improvement.
+:::
 
-However, evaluating healthcare interventions is often far more complicated than it first appears.
-
-Healthcare systems rarely remain static.
+This is because healthcare systems rarely remain static.
 
 At the same time as an intervention is introduced:
 
@@ -299,12 +299,6 @@ The honest answer is often:
 
 > **We cannot know with certainty.**
 
-In many NHS systems, several interventions are introduced over the same period with the shared aim of reducing Emergency Department attendances or emergency admissions.
-
-Understanding the contribution of each individual intervention becomes increasingly difficult as healthcare systems become more integrated.
-
-Later in this series, **Module 18: Why Evaluating Healthcare Improvement Is Difficult** explores this challenge in more detail, including how complex healthcare systems make attribution increasingly difficult.
-
 These interventions may:
 
 * work independently
@@ -324,17 +318,15 @@ Decision-makers may instead need to ask:
 This illustrates why evaluation often focuses on **contribution rather than simple attribution**, particularly in complex healthcare systems.
 
 ::: {.callout-note}
-### Looking Ahead
+## Looking Ahead
 
-As healthcare systems become more integrated, understanding the contribution of individual interventions becomes increasingly difficult.
+This module has focused on evaluating a single intervention.
 
-**Module 18: Why Evaluating Healthcare Improvement Is Difficult** explores this challenge in more depth, including:
+In reality, healthcare organisations often introduce **multiple schemes at the same time**, all aiming to improve the same outcome—for example, reducing Emergency Department attendances or emergency admissions.
 
-* multiple simultaneous interventions
-* complex healthcare systems
-* interaction between interventions
-* why attribution becomes increasingly difficult
-* how mixed-method evaluation can strengthen confidence in findings.
+Understanding the contribution of each individual intervention becomes increasingly difficult as healthcare systems become more integrated.
+
+**Module 18: Why Evaluating Healthcare Improvement Is Difficult** explores this challenge in more detail, including why attribution becomes increasingly difficult in complex healthcare systems and how organisations can build greater confidence in their evaluation findings despite that complexity.
 :::
 
 # Levels of Evaluation Confidence

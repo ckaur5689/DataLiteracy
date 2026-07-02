@@ -95,7 +95,7 @@ For example:
 |         -|        -|
 | 8.0% | 6.9% – 9.1% |
 
-```text
+```
 6.9% ─────●───── 9.1%
           8%
 ```
@@ -136,7 +136,7 @@ Two organisations may appear to perform differently, but if their error bars ove
 
 Error bars therefore encourage caution when comparing organisations or services.
 
-```text
+```
 Hospital A
 
     ●
@@ -155,7 +155,7 @@ They remind us that every estimate contains uncertainty.
 
 A p-value answers one question: Could this observed difference simply be due to chance?
 
-```text
+```
                     What does a p-value tell us?
 
             Observed difference between two groups

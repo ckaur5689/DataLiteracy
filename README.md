@@ -57,7 +57,7 @@ Topics include:
 15. Combining Quantitative & Qualitative Evidence
 16. Health Economics & Value in Healthcare Decision-Making
 17. Decision-Making Under Uncertainty
-18. Why Healthcare Improvement Is Hard to Evaluate
+18. Why Evaluating Healthcare Improvement Is Difficult
 19. Simulation & Scenario Modelling
 
 Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)

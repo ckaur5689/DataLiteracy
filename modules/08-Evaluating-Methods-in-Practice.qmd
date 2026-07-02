@@ -1066,13 +1066,13 @@ One important principle is that **no single evaluation method answers every ques
 
 The most appropriate method depends on what you are trying to understand.
 
-| Evaluation Question | Methods Commonly Used |
+| Evaluation Question | Typical Approaches |
 |---------------------|-----------------------|
-| **Did it work?** | Randomised Controlled Trials (RCTs), Difference-in-Differences (DiD), Interrupted Time Series (ITS) |
-| **How did it work?** | Process evaluation, implementation evaluation, qualitative interviews |
-| **Why did it work (or not)?** | Qualitative research, Realist Evaluation, mixed-method evaluation |
-| **Was it worth it?** | Health economics, cost-effectiveness analysis, cost-benefit analysis |
-| **Should we scale it?** | Mixed-method evaluation, evidence synthesis, implementation evaluation |
+| **Did it work?** | RCTs, Interrupted Time Series, Difference-in-Differences |
+| **How was it implemented?** | Process evaluation, implementation evaluation |
+| **Why did it work (or not)?** | Qualitative research, Realist Evaluation |
+| **Was it good value?** | Health economics, cost-effectiveness analysis |
+| **Should we scale it?** | Mixed-method evaluation combining effectiveness, implementation and economic evidence |
 
 ::: {.callout-tip}
 ## Key Principle

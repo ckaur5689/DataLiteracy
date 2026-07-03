@@ -1,3 +1,1 @@
-# Part 2
-
-## How do we understand, improve and evaluate complex healthcare systems?
+![](../images/Part1.png)

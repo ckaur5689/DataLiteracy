@@ -60,26 +60,6 @@
     ]
   },
   {
-    "objectID": "Book_Cover.html",
-    "href": "Book_Cover.html",
-    "title": "Health Data Literacy",
-    "section": "",
-    "text": "#Book Cover",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Book_Cover.html</span>"
-    ]
-  },
-  {
-    "objectID": "Part_1.html",
-    "href": "Part_1.html",
-    "title": "Health Data Literacy",
-    "section": "",
-    "text": "#Part 1",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Part_1.html</span>"
-    ]
-  },
-  {
     "objectID": "modules/01-Counts-vs-Rates.html",
     "href": "modules/01-Counts-vs-Rates.html",
     "title": "Module 1 - Counts vs Rates",
@@ -1497,16 +1477,6 @@
     "text": "Question 6\nA hospital introduces a pilot to improve discharge documentation.\nDuring the pilot, compliance increases substantially.\nWhich explanation should also be considered?\n\nRegression to the mean\nHawthorne Effect\nStandardisation\nSimpson’s paradox",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
-    ]
-  },
-  {
-    "objectID": "Part_2.html",
-    "href": "Part_2.html",
-    "title": "Health Data Literacy",
-    "section": "",
-    "text": "#Part 2",
-    "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Part_2.html</span>"
     ]
   },
   {

@@ -1,8 +1,8 @@
-# Project - Healthcare Data Literacy Series
+# Project - Health Data Literacy Series
 
-## Project: Healthcare Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics
+## Project: Health Data Literacy Series: Supporting Better Questions, Fairer Interpretation and Smarter Decision-Making in Healthcare Analytics
 
-Timeline: 6 months from May 2026
+Timeline: May 2026 to September 2026
 
 Author: Chandan Kaur  
 
@@ -109,7 +109,7 @@ Modules:
 18. Why Evaluating Healthcare Improvement Is Difficult
 19. Simulation & Scenario Modelling
 
-Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)
+# Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)
 
 * Predictive Modelling & Risk Stratification
 * Explainable AI in Healthcare
@@ -253,7 +253,7 @@ It is about helping people interpret, question and use those numbers responsibly
 ________________________________________
 ## Sign-Off:
 Name: Chandan Kaur		      
-Role: Senior Strategic BI Lead
+A passionate advocate of health data literacy
 
 			
 			

@@ -5,6 +5,7 @@ book:
   title: "Health Data Literacy"
   author: "Chandan Kaur"
   chapters:
+    - Book_Cover.qmd
     - index.qmd
     - Part_1.qmd
     - modules/01-Counts-vs-Rates.qmd

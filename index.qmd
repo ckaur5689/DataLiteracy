@@ -1,15 +1,17 @@
 # Welcome
 
-The Healthcare Data Literacy series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.
+The **Health Data Literacy** series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.
 
 ## The series is designed to support:
+
 - analysts
 - operational leaders
 - clinicians
 - managers
 - decision-makers
 
-## in developing a stronger understanding of:
+in developing a stronger understanding of:
+
 - healthcare metrics
 - variation
 - benchmarking
@@ -19,6 +21,7 @@ The Healthcare Data Literacy series uses practical NHS and healthcare examples t
 - analytical fairness and interpretation
 
 ## Rather than focusing purely on statistical methods, the series emphasises:
+
 - analytical reasoning
 - operational context
 - fair comparison
@@ -28,12 +31,31 @@ The Healthcare Data Literacy series uses practical NHS and healthcare examples t
 The examples throughout the series are intentionally grounded in realistic NHS operational and population health scenarios.
 
 ## Each module includes:
+
 - practical examples
 - visual explanations
 - operational interpretation
-- “Questions Decision-Makers Should Ask” sections to encourage critical thinking and discussion.
+- **Questions Decision-Makers Should Ask** sections to encourage critical thinking and discussion
 
 ## Guiding Philosophy
 
-> Good healthcare analytics is not just about producing numbers.  
+> Good healthcare analytics is not just about producing numbers.
+>
 > It is about helping people interpret, question and use those numbers responsibly within complex healthcare systems.
+
+## About this Series
+
+This series has been developed and written by **Chandan Kaur** as an independent educational resource to improve health data literacy and support better evidence-informed decision-making across healthcare.
+
+The content draws upon more than 20 years of experience in analytics, statistics, business intelligence and healthcare, together with current national guidance and recognised evaluation methodologies where appropriate.
+
+The series is intended to evolve over time as new modules are added and existing content is refined.
+
+
+## Use of Artificial Intelligence
+
+To improve the accessibility and visual presentation of the series, some diagrams, illustrations and cover artwork were created with the assistance of **OpenAI's ChatGPT** using iterative prompts and design direction provided by the author.
+
+All educational content, examples, interpretation, learning objectives and editorial decisions are the work of the author.
+
+Artificial intelligence has been used as a creative design and editing assistant, not as a substitute for subject matter expertise or professional judgement.

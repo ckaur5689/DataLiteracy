@@ -1,3 +1,3 @@
 #Part 2
 
-![](/images/Part2.png)
+![](images/Part2.png)

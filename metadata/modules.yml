@@ -1,1 +1,122 @@
+modules:
 
+  - id: module1
+    title: Counts vs Rates
+    pathway: Foundations
+    module: modules/01-Counts-vs-Rates.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [count, counts, rate, rates, denominator, population, activity]
+    questions:
+      - Are we comparing counts or rates?
+      - Has the denominator been considered?
+      - Are populations comparable?
+
+  - id: module2
+    title: Mean vs Median
+    pathway: Foundations
+    module: modules/02-Mean-vs-Median.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [mean, median, average, outlier, skew, distribution, length of stay]
+    questions:
+      - Is the data skewed?
+      - Would the median be more appropriate than the mean?
+      - Are outliers affecting the interpretation?
+
+  - id: module3
+    title: Correlation vs Causation
+    pathway: Foundations
+    module: modules/03-Correlation-vs-Causation.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [correlation, causation, cause, relationship, association, impact, effect]
+    questions:
+      - Does this show causation or only association?
+      - What else could explain the relationship?
+      - Do we need a stronger evaluation design?
+
+  - id: module4
+    title: Variation and Distributions
+    pathway: Foundations
+    module: modules/04-Variation-&-Distributions.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [variation, distribution, spread, range, normal, skew, common cause, special cause]
+    questions:
+      - Is this normal variation or a meaningful change?
+      - What does the distribution look like?
+      - Are we reacting to noise?
+
+  - id: module5
+    title: Standardisation and Fair Comparison
+    pathway: Foundations
+    module: modules/05-Standardisation-&-Fair-Comparison.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [standardisation, fair comparison, case mix, age, deprivation, adjustment, benchmark]
+    questions:
+      - Are we comparing like with like?
+      - Has case mix been adjusted for?
+      - Could differences reflect population structure rather than performance?
+
+  - id: module6
+    title: How to Read a Dashboard
+    pathway: Foundations
+    module: modules/06-How-to-Read-a-Dashboard.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [dashboard, kpi, metric, rag, trend, performance, indicator]
+    questions:
+      - What decision is this dashboard supporting?
+      - Are the metrics clearly defined?
+      - Are we seeing signal or noise?
+
+  - id: module7
+    title: Thinking About Evidence and Evaluation
+    pathway: Evaluation
+    module: modules/07-Thinking-About-Evidence-&-Evaluation.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [evidence, evaluation, intervention, scheme, pilot, impact, attribution]
+    questions:
+      - What evidence do we currently have?
+      - What outcome are we trying to change?
+      - What would have happened without the intervention?
+
+  - id: module8
+    title: Evaluating Methods in Practice
+    pathway: Evaluation
+    module: modules/08-Evaluating-Methods-in-Practice.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
+    questions:
+      - Is there a suitable comparison group?
+      - Have trends before the intervention been considered?
+      - Could regression to the mean explain the change?
+
+  - id: module9
+    title: Risk, Probability and Uncertainty
+    pathway: Foundations
+    module: modules/09-Risk-Probability-Uncertainty.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [risk, probability, uncertainty, confidence, prediction, likelihood]
+    questions:
+      - How uncertain is this estimate?
+      - What assumptions are being made?
+      - What decision can still be made despite uncertainty?
+
+  - id: module10
+    title: Common Analytical Traps and Data Fallacies
+    pathway: Foundations
+    module: modules/10-Common-Analytical-Traps-&-Data-Fallacies.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [fallacy, bias, trap, misleading, cherry picking, regression to mean, data quality]
+    questions:
+      - Could this conclusion be misleading?
+      - Are we cherry-picking the evidence?
+      - What assumptions are hidden in the analysis?
+
+  - id: module11
+    title: Demand, Capacity and Operational Flow
+    pathway: Systems
+    module: modules/11-Demand_Capacity_Operational_Flow.qmd
+    website: https://ckaur5689.github.io/DataLiteracy/
+    keywords: [demand, capacity, flow, queue, waiting list, backlog, bottleneck]
+    questions:
+      - Is the issue demand, capacity or flow?
+      - Where is the bottleneck?
+      - Are averages hiding peaks and variation?

@@ -1,4 +1,5 @@
 import streamlit as st
+from pathlib import Path
 from modules import load_modules, recommend_modules
 
 # ------------------------------------------------------
@@ -12,18 +13,27 @@ st.set_page_config(
 )
 
 # ------------------------------------------------------
-# Title
+# Paths
 # ------------------------------------------------------
 
-st.title("📊 Health Data Literacy Coach")
+repo_root = Path(__file__).parent.parent
+book_cover = repo_root / "images" / "BookCover.png"
+
+# ------------------------------------------------------
+# Landing page header
+# ------------------------------------------------------
+
+if book_cover.exists():
+    st.image(str(book_cover), width=750)
+
+st.title("Health Data Literacy Coach")
 
 st.markdown("""
-Helping NHS decision-makers find the right part of the **Health Data Literacy** programme.
-
-This prototype recommends learning modules based on the problem you're trying to solve.
-
-**No AI. No patient data. Just better questions and better decisions.**
+Helping NHS decision-makers ask better questions, interpret data confidently,
+and navigate the Health Data Literacy programme.
 """)
+
+st.divider()
 
 # ------------------------------------------------------
 # User input

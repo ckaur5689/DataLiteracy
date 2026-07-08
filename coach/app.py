@@ -23,15 +23,75 @@ book_cover = repo_root / "images" / "BookCover.png"
 # Landing page header
 # ------------------------------------------------------
 
-if book_cover.exists():
-    st.image(str(book_cover), width=750)
-
-st.title("Health Data Literacy Coach")
-
 st.markdown("""
-Helping NHS decision-makers ask better questions, interpret data confidently,
-and navigate the Health Data Literacy programme.
-""")
+<style>
+.hero {
+    padding: 2rem 2rem 2.2rem 2rem;
+    border-radius: 1.2rem;
+    background: linear-gradient(135deg, #f7fbff 0%, #eef6f9 100%);
+    border: 1px solid #d9e6ea;
+    margin-bottom: 2rem;
+}
+.hero-title {
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+}
+.hero-subtitle {
+    font-size: 1.35rem;
+    color: #374151;
+    margin-bottom: 1.2rem;
+}
+.hero-text {
+    font-size: 1.05rem;
+    color: #374151;
+    line-height: 1.6;
+}
+.badge {
+    display: inline-block;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    margin-right: 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
+left, right = st.columns([1.1, 2.2], vertical_alignment="center")
+
+with left:
+    if book_cover.exists():
+        st.image(str(book_cover), use_container_width=True)
+    else:
+        st.markdown("## 📊")
+
+with right:
+    st.markdown("""
+    <div class="hero">
+        <div class="hero-title">Health Data Literacy Coach</div>
+        <div class="hero-subtitle">
+            Helping NHS decision-makers find the right concepts at the right time.
+        </div>
+        <div class="hero-text">
+            Describe the dashboard, pathway, scheme, population question or analytical challenge
+            you are working on. The coach will recommend relevant modules from the
+            <strong>Health Data Literacy</strong> programme and suggest better questions to ask.
+            <br><br>
+            <strong>No AI. No patient data. No external data connection.</strong>
+        </div>
+        <br>
+        <span class="badge">📚 Module recommender</span>
+        <span class="badge">❓ Suggested questions</span>
+        <span class="badge">🧭 Learning pathways</span>
+        <span class="badge">🔒 Public-safe prototype</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("### What are you trying to understand today?")
 
 st.divider()
 

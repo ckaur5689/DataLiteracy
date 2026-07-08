@@ -70,7 +70,7 @@ user_input = st.text_area(
 # Recommendations
 # ------------------------------------------------------
 
-if st.button("Recommend Modules"):
+if st.button("Recommend Modules", type="primary"):
 
     if not user_input.strip():
         st.warning("Please describe your question first.")

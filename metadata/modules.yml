@@ -58,7 +58,7 @@ modules:
   - id: module6
     title: How to Read a Dashboard
     pathway: Foundations
-   module_url: https://ckaur5689.github.io/DataLiteracy/modules/06-How-to-Read-a-Dashboard.html
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/06-How-to-Read-a-Dashboard.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [dashboard, kpi, metric, rag, trend, performance, indicator]
     questions:

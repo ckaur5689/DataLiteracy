@@ -3,7 +3,7 @@ modules:
   - id: module1
     title: Counts vs Rates
     pathway: Foundations
-    module: modules/01-Counts-vs-Rates.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/01-Counts-vs-Rates.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [count, counts, rate, rates, denominator, population, activity]
     questions:
@@ -14,7 +14,7 @@ modules:
   - id: module2
     title: Mean vs Median
     pathway: Foundations
-    module: modules/02-Mean-vs-Median.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/02-Mean-vs-Median.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [mean, median, average, outlier, skew, distribution, length of stay]
     questions:
@@ -25,7 +25,7 @@ modules:
   - id: module3
     title: Correlation vs Causation
     pathway: Foundations
-    module: modules/03-Correlation-vs-Causation.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/03-Correlation-vs-Causation.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [correlation, causation, cause, relationship, association, impact, effect]
     questions:
@@ -36,7 +36,7 @@ modules:
   - id: module4
     title: Variation and Distributions
     pathway: Foundations
-    module: modules/04-Variation-&-Distributions.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/04-Variation-&-Distributions.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [variation, distribution, spread, range, normal, skew, common cause, special cause]
     questions:
@@ -47,7 +47,7 @@ modules:
   - id: module5
     title: Standardisation and Fair Comparison
     pathway: Foundations
-    module: modules/05-Standardisation-&-Fair-Comparison.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/05-Standardisation-&-Fair-Comparison.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [standardisation, fair comparison, case mix, age, deprivation, adjustment, benchmark]
     questions:
@@ -58,7 +58,7 @@ modules:
   - id: module6
     title: How to Read a Dashboard
     pathway: Foundations
-    module: modules/06-How-to-Read-a-Dashboard.qmd
+   module_url: https://ckaur5689.github.io/DataLiteracy/modules/06-How-to-Read-a-Dashboard.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [dashboard, kpi, metric, rag, trend, performance, indicator]
     questions:
@@ -69,7 +69,7 @@ modules:
   - id: module7
     title: Thinking About Evidence and Evaluation
     pathway: Evaluation
-    module: modules/07-Thinking-About-Evidence-&-Evaluation.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/07-Thinking-About-Evidence-&-Evaluation.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [evidence, evaluation, intervention, scheme, pilot, impact, attribution]
     questions:
@@ -80,7 +80,7 @@ modules:
   - id: module8
     title: Evaluating Methods in Practice
     pathway: Evaluation
-    module: modules/08-Evaluating-Methods-in-Practice.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/08-Evaluating-Methods-in-Practice.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
     questions:
@@ -91,7 +91,7 @@ modules:
   - id: module9
     title: Risk, Probability and Uncertainty
     pathway: Foundations
-    module: modules/09-Risk-Probability-Uncertainty.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/09-Risk-Probability-Uncertainty.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [risk, probability, uncertainty, confidence, prediction, likelihood]
     questions:
@@ -102,7 +102,7 @@ modules:
   - id: module10
     title: Common Analytical Traps and Data Fallacies
     pathway: Foundations
-    module: modules/10-Common-Analytical-Traps-&-Data-Fallacies.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/10-Common-Analytical-Traps-&-Data-Fallacies.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [fallacy, bias, trap, misleading, cherry picking, regression to mean, data quality]
     questions:
@@ -113,7 +113,7 @@ modules:
   - id: module11
     title: Demand, Capacity and Operational Flow
     pathway: Systems
-    module: modules/11-Demand_Capacity_Operational_Flow.qmd
+    module_url: https://ckaur5689.github.io/DataLiteracy/modules/11-Demand_Capacity_Operational_Flow.html
     website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [demand, capacity, flow, queue, waiting list, backlog, bottleneck]
     questions:

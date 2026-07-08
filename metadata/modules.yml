@@ -4,7 +4,6 @@ modules:
     title: Counts vs Rates
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/01-Counts-vs-Rates.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [count, counts, rate, rates, denominator, population, activity]
     questions:
       - Are we comparing counts or rates?
@@ -15,7 +14,6 @@ modules:
     title: Mean vs Median
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/02-Mean-vs-Median.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [mean, median, average, outlier, skew, distribution, length of stay]
     questions:
       - Is the data skewed?
@@ -26,7 +24,6 @@ modules:
     title: Correlation vs Causation
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/03-Correlation-vs-Causation.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [correlation, causation, cause, relationship, association, impact, effect]
     questions:
       - Does this show causation or only association?
@@ -37,7 +34,6 @@ modules:
     title: Variation and Distributions
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/04-Variation-&-Distributions.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [variation, distribution, spread, range, normal, skew, common cause, special cause]
     questions:
       - Is this normal variation or a meaningful change?
@@ -48,7 +44,6 @@ modules:
     title: Standardisation and Fair Comparison
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/05-Standardisation-&-Fair-Comparison.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [standardisation, fair comparison, case mix, age, deprivation, adjustment, benchmark]
     questions:
       - Are we comparing like with like?
@@ -59,7 +54,6 @@ modules:
     title: How to Read a Dashboard
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/06-How-to-Read-a-Dashboard.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [dashboard, kpi, metric, rag, trend, performance, indicator]
     questions:
       - What decision is this dashboard supporting?
@@ -70,7 +64,6 @@ modules:
     title: Thinking About Evidence and Evaluation
     pathway: Evaluation
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/07-Thinking-About-Evidence-&-Evaluation.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [evidence, evaluation, intervention, scheme, pilot, impact, attribution]
     questions:
       - What evidence do we currently have?
@@ -81,7 +74,6 @@ modules:
     title: Evaluating Methods in Practice
     pathway: Evaluation
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/08-Evaluating-Methods-in-Practice.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
     questions:
       - Is there a suitable comparison group?
@@ -92,7 +84,6 @@ modules:
     title: Risk, Probability and Uncertainty
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/09-Risk-Probability-Uncertainty.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [risk, probability, uncertainty, confidence, prediction, likelihood]
     questions:
       - How uncertain is this estimate?
@@ -103,7 +94,6 @@ modules:
     title: Common Analytical Traps and Data Fallacies
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/10-Common-Analytical-Traps-&-Data-Fallacies.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [fallacy, bias, trap, misleading, cherry picking, regression to mean, data quality]
     questions:
       - Could this conclusion be misleading?
@@ -114,7 +104,6 @@ modules:
     title: Demand, Capacity and Operational Flow
     pathway: Systems
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/11-Demand_Capacity_Operational_Flow.html
-    website: https://ckaur5689.github.io/DataLiteracy/
     keywords: [demand, capacity, flow, queue, waiting list, backlog, bottleneck]
     questions:
       - Is the issue demand, capacity or flow?

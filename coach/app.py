@@ -72,7 +72,7 @@ if st.button("Recommend Modules"):
 
             st.subheader("Recommended Modules")
 
-           for module in recommendations:
+        for module in recommendations:
 
                     module_card(module)
 

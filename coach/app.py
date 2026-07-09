@@ -116,7 +116,7 @@ st.markdown(
     "</p>",
     unsafe_allow_html=True
 )
-    col1, col2, col3 = st.columns([1,2,1])
+col1, col2, col3 = st.columns([1,2,1])
 
 with col2:
     recommend = st.button(

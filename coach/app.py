@@ -27,24 +27,23 @@ book_cover = repo_root / "images" / "BookCover.png"
 # Landing page
 # ------------------------------------------------------
 
-st.markdown('<div class="top-panel">', unsafe_allow_html=True)
+st.markdown("""
+<div class="top-panel">
 
-st.markdown(
-    "<h1 style='text-align:center; color:white;'>Health Data Literacy Companion</h1>",
-    unsafe_allow_html=True
-)
+<h1 class="hero-title">
+Health Data Literacy Companion
+</h1>
 
-st.markdown(
-    "<p style='text-align:center; color:#EAF4FF; font-size:1.4rem;'>Helping healthcare leaders ask better questions.</p>",
-    unsafe_allow_html=True
-)
+<p class="hero-subtitle">
+Helping healthcare leaders ask better questions.
+</p>
 
-st.markdown(
-    "<p style='text-align:center; color:white; font-size:1rem;'>📘 Companion to the Health Data Literacy Programme</p>",
-    unsafe_allow_html=True
-)
+<div class="hero-badge">
+📘 Companion to the Health Data Literacy Programme
+</div>
 
-st.markdown('</div>', unsafe_allow_html=True)
+</div>
+""", unsafe_allow_html=True)
 
 # ------------------------------------------------------
 # Challenge cards

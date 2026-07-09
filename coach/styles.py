@@ -18,16 +18,26 @@ def load_css():
         box-shadow: 0 8px 25px rgba(0,0,0,.12);
     }
 
-    .hero-title {
-        color: white;
-        font-size: 3.2rem;
-        font-weight: 700;
+    .hero-title{
+    
+        color:white;
+    
+        font-size:3.3rem;
+    
+        font-weight:700;
+    
+        margin-bottom:10px;
+    
     }
 
-    .hero-subtitle {
-        font-size: 1.3rem;
-        color: #EAF4FF;
-        margin-bottom: 1rem;
+    .hero-subtitle{
+    
+        color:#EAF4FF;
+    
+        font-size:1.4rem;
+    
+        margin-bottom:25px;
+    
     }
 
     .hero-text {
@@ -36,15 +46,22 @@ def load_css():
         line-height: 1.6;
     }
 
-    .badge {
-        display: inline-block;
-        background: rgba(255,255,255,0.18);
-        color: white;
-        padding: 6px 12px;
-        margin: 4px;
-        border-radius: 20px;
-        font-size: 0.85rem;
-        border: 1px solid rgba(255,255,255,0.35);
+    .hero-badge{
+    
+        display:inline-block;
+    
+        background:rgba(255,255,255,.18);
+    
+        color:white;
+    
+        border-radius:999px;
+    
+        padding:12px 22px;
+    
+        border:1px solid rgba(255,255,255,.35);
+    
+        font-size:1rem;
+    
     }
 
     .module-card {
@@ -77,13 +94,20 @@ def load_css():
     }
 
     .top-panel {
-        background: linear-gradient(135deg, #005EB8, #1E88E5);
-        padding: 45px 35px;
-        border-radius: 22px;
-        margin-bottom: 35px;
-        box-shadow: 0 8px 25px rgba(0,0,0,.12);
+    
+        background: linear-gradient(135deg,#005EB8,#2F80D1);
+    
+        border-radius:24px;
+    
+        padding:50px;
+    
+        margin-bottom:40px;
+    
+        text-align:center;
+    
+        box-shadow:0 10px 25px rgba(0,0,0,.12);
+    
     }
-     
     .stButton > button {
         border-radius: 16px;
         height: 145px;

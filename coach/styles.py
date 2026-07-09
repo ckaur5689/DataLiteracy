@@ -121,6 +121,16 @@ def load_css():
         box-shadow:0 10px 25px rgba(0,0,0,.12);
     
     }
+
+  .stTextArea textarea {
+
+    background-color: #F7FBFF !important;
+
+    border: 2px solid #BFD7EA !important;
+
+    border-radius: 12px !important;
+
+    }
     
     .stButton > button {
     

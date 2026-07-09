@@ -101,9 +101,10 @@ with col3:
 st.markdown("### Or describe your own challenge")
 
 user_input = st.text_area(
-    "Type or edit your question:",
+    "Describe your challenge in your own words",
     key="selected_question",
-    height=120
+    height=140,
+    placeholder="For example: We introduced a frailty pathway and admissions have fallen. Has it actually made a difference?"
 )
 
 # ------------------------------------------------------

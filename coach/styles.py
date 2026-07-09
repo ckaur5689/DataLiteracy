@@ -1,5 +1,18 @@
 import streamlit as st
 
+NHS_BLUE = "#005EB8"
+NHS_BLUE_LIGHT = "#2F80D1"
+
+ACTION_GREEN = "#198754"
+ACTION_GREEN_DARK = "#157347"
+
+BACKGROUND = "#FFFFFF"
+
+LIGHT_GREY = "#F8F9FA"
+
+TEXT = "#1F2937"
+
+BORDER = "#D9E2EC"
 
 def load_css():
     st.markdown("""
@@ -131,6 +144,37 @@ def load_css():
     
         transition: all 0.2s ease;
     
+    }
+ /* -------------------------------------------------- */
+ /* Primary button (Recommend My Learning Path)        */
+ /* -------------------------------------------------- */
+
+    button[kind="primary"] {
+    
+        background: #198754 !important;
+    
+        color: white !important;
+    
+        border: none !important;
+    
+        border-radius: 12px !important;
+    
+        height: 60px !important;
+    
+        font-size: 20px !important;
+    
+        font-weight: 700 !important;
+    
+        box-shadow: 0 4px 12px rgba(25,135,84,.30);
+    
+    }
+
+    button[kind="primary"]:hover {
+    
+        background: #157347 !important;
+    
+        color: white !important;
+
     }
     
     .stButton > button:hover {

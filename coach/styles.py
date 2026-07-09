@@ -31,11 +31,14 @@ def load_css():
         box-shadow: 0 8px 25px rgba(0,0,0,.12);
     }
     
-    .hero-title {
-        color: #F8FAFC;
-        font-size: 2.8rem;
-        font-weight: 700;
-        text-shadow: 0 2px 4px rgba(0,0,0,.15);
+    .hero-subtitle {
+    
+        color: rgba(255,255,255,.92);
+    
+        font-size: 1.25rem;
+    
+        font-weight: 400;
+    
     }
 
     .hero-subtitle{
@@ -58,7 +61,7 @@ def load_css():
     
         display:inline-block;
     
-        background:rgba(255,255,255,.18);
+        background: rgba(255,255,255,.12);
     
         color:#F8FAFC;
     
@@ -66,7 +69,7 @@ def load_css():
     
         padding:12px 22px;
     
-        border:1px solid rgba(255,255,255,.35);
+        border: 1px solid rgba(255,255,255,.30);
     
         font-size:1rem;
     

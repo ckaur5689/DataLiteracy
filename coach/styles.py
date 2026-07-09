@@ -6,12 +6,12 @@ def load_css():
     <style>
 
     .stApp {
-        background-color: #F5F9FC;
+        background-color: #FFFFFF;
     }
 
     .hero {
-        background: linear-gradient(135deg, #005EB8, #1E88E5);
-        color: white;
+        background: linear-gradient(135deg, #0B5CAB, #3A8DDE);
+        color: #F8FAFC;
         border-radius: 25px;
         padding: 35px;
         margin-bottom: 30px;
@@ -20,9 +20,9 @@ def load_css():
 
     .hero-title{
     
-        color:white;
+        color:#F8FAFC;
     
-        font-size:3.3rem;
+        font-size:2.6rem;
     
         font-weight:700;
     
@@ -41,7 +41,7 @@ def load_css():
     }
 
     .hero-text {
-        color: white;
+        color: #F8FAFC;
         font-size: 1.05rem;
         line-height: 1.6;
     }
@@ -52,7 +52,7 @@ def load_css():
     
         background:rgba(255,255,255,.18);
     
-        color:white;
+        color:#F8FAFC;
     
         border-radius:999px;
     
@@ -97,9 +97,9 @@ def load_css():
     
         background: linear-gradient(135deg,#005EB8,#2F80D1);
     
-        border-radius:24px;
+        border-radius:18px;
     
-        padding:50px;
+        padding:30px;
     
         margin-bottom:40px;
     
@@ -113,7 +113,7 @@ def load_css():
     
         background: linear-gradient(135deg, #005EB8, #1976D2);
     
-        color: white;
+        color: #F8FAFC;
     
         border: none;
     
@@ -137,7 +137,7 @@ def load_css():
     
         background: linear-gradient(135deg, #004B93, #1565C0);
     
-        color: white;
+        color: #F8FAFC;
     
         transform: translateY(-3px);
     

@@ -27,32 +27,24 @@ book_cover = repo_root / "images" / "BookCover.png"
 # Landing page
 # ------------------------------------------------------
 
-st.markdown("""
-<div class="top-panel">
-
-    <div class="companion-title">
-        Health Data Literacy Companion
-    </div>
-
-    <div class="companion-subtitle">
-        Helping healthcare leaders ask better questions.
-    </div>
-
-    <div class="companion-tagline">
-        📘 Companion to the Health Data Literacy Programme
-    </div>
-
-</div>
-""", unsafe_allow_html=True)
-
-st.header("What would you like help with today?")
+st.markdown('<div class="top-panel">', unsafe_allow_html=True)
 
 st.markdown(
-    "Choose a common healthcare analytics challenge below, or describe your own."
+    "<h1 style='text-align:center; color:white;'>Health Data Literacy Companion</h1>",
+    unsafe_allow_html=True
 )
 
-if "selected_question" not in st.session_state:
-    st.session_state.selected_question = ""
+st.markdown(
+    "<p style='text-align:center; color:#EAF4FF; font-size:1.4rem;'>Helping healthcare leaders ask better questions.</p>",
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    "<p style='text-align:center; color:white; font-size:1rem;'>📘 Companion to the Health Data Literacy Programme</p>",
+    unsafe_allow_html=True
+)
+
+st.markdown('</div>', unsafe_allow_html=True)
 
 # ------------------------------------------------------
 # Challenge cards

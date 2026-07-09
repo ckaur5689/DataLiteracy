@@ -12,7 +12,7 @@ def load_css():
     .hero {
         background: linear-gradient(135deg, #005EB8, #1E88E5);
         color: white;
-        border-radius: 18px;
+        border-radius: 25px;
         padding: 35px;
         margin-bottom: 30px;
         box-shadow: 0 8px 25px rgba(0,0,0,.12);

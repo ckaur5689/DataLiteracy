@@ -51,6 +51,9 @@ st.markdown(
     "Choose a common healthcare analytics challenge below, or describe your own."
 )
 
+if "selected_question" not in st.session_state:
+    st.session_state.selected_question = ""
+
 # ------------------------------------------------------
 # Challenge cards
 # ------------------------------------------------------
@@ -107,14 +110,13 @@ user_input = st.text_area(
 # Recommend button
 # ------------------------------------------------------
 
-col1, col2, col3 = st.columns([1,2,1])
-
 st.markdown(
     "<p style='text-align:center; color:#6B7280;'>"
     "Ready to see which learning modules can help?"
     "</p>",
     unsafe_allow_html=True
 )
+    col1, col2, col3 = st.columns([1,2,1])
 
 with col2:
     recommend = st.button(

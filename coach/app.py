@@ -1,7 +1,6 @@
 import streamlit as st
 from pathlib import Path
 from styles import load_css
-from components import hero
 from components import module_card
 from modules import load_modules, recommend_modules
 
@@ -117,50 +116,19 @@ if st.button("Recommend Modules", type="primary"):
         st.warning("Please describe your question first.")
 
     else:
-
         recommendations = recommend_modules(user_input)
 
         if len(recommendations) == 0:
-
             st.warning(
                 "No matching modules were found.\n\n"
-                "Try including words such as:\n"
-                "- evaluation\n"
-                "- dashboard\n"
-                "- rates\n"
-                "- variation\n"
-                "- AI\n"
-                "- inequalities\n"
-                "- population"
+                "Try including words such as evaluation, dashboard, rates, variation, AI, inequalities or population."
             )
 
         else:
-
             st.subheader("Recommended Modules")
 
-        for module in recommendations:
-
-                    module_card(module)
-
-                    st.write(f"**Learning pathway:** {module['pathway']}")
-
-                    st.write("### Why this module?")
-
-                    st.write(
-                        "Matched keywords: "
-                        + ", ".join(module["matched_keywords"])
-                    )
-
-                    st.write("### Questions to ask")
-
-                    for question in module["questions"]:
-                        st.markdown(f"- {question}")
-
-                    if "module_url" in module:
-                        st.link_button(
-                            "Open Health Data Literacy Module",
-                            module["module_url"]
-                        )
+            for module in recommendations:
+                module_card(module)
 
 # ------------------------------------------------------
 # Module library

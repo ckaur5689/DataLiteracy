@@ -2,87 +2,95 @@ import streamlit as st
 
 
 def load_css():
-
     st.markdown("""
     <style>
 
+    .stApp {
+        background-color: #F5F9FC;
+    }
+
     .hero {
-        padding:2rem;
-        border-radius:18px;
-        background:linear-gradient(135deg,#f7fbff,#eef6f9);
-        border:1px solid #d8e3ea;
-        margin-bottom:2rem;
+        background: linear-gradient(135deg, #005EB8, #1E88E5);
+        color: white;
+        border-radius: 18px;
+        padding: 35px;
+        margin-bottom: 30px;
+        box-shadow: 0 8px 25px rgba(0,0,0,.12);
     }
 
-    .hero-title{
-        font-size:3rem;
-        font-weight:700;
-        margin-bottom:0.2rem;
+    .hero-title {
+        color: white;
+        font-size: 3.2rem;
+        font-weight: 700;
     }
 
-    .hero-subtitle{
-        font-size:1.3rem;
-        color:#4b5563;
-        margin-bottom:1rem;
+    .hero-subtitle {
+        font-size: 1.3rem;
+        color: #EAF4FF;
+        margin-bottom: 1rem;
     }
 
-    .hero-text{
-        font-size:1.05rem;
-        line-height:1.6;
-        color:#374151;
+    .hero-text {
+        color: white;
+        font-size: 1.05rem;
+        line-height: 1.6;
     }
 
-    .badge{
-        display:inline-block;
-        background:#0f766e;
-        color:white;
-        padding:6px 12px;
-        margin:4px;
-        border-radius:20px;
-        font-size:0.85rem;
+    .badge {
+        display: inline-block;
+        background: rgba(255,255,255,0.18);
+        color: white;
+        padding: 6px 12px;
+        margin: 4px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        border: 1px solid rgba(255,255,255,0.35);
     }
 
-    .module-card{
-
-        background:white;
-        border-radius:15px;
-        padding:20px;
-        margin-bottom:20px;
-        border:1px solid #e5e7eb;
-        box-shadow:0 2px 8px rgba(0,0,0,.08);
-
+    .module-card {
+        background: white;
+        border-left: 6px solid #005EB8;
+        border-radius: 15px;
+        padding: 25px;
+        margin-bottom: 20px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.08);
     }
 
-    .pathway{
-
-        display:inline-block;
-        background:#2563eb;
-        color:white;
-        padding:5px 10px;
-        border-radius:15px;
-        font-size:0.8rem;
-        margin-bottom:12px;
-
+    .pathway {
+        display: inline-block;
+        background: #005EB8;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        margin-bottom: 12px;
     }
 
-    .keyword{
-
-        display:inline-block;
-        background:#eef6ff;
-        color:#003366;
-        border-radius:15px;
-        padding:4px 10px;
-        margin:3px;
-        font-size:0.8rem;
-
+    .keyword {
+        display: inline-block;
+        background: #EAF4FF;
+        color: #003087;
+        border-radius: 15px;
+        padding: 4px 10px;
+        margin: 3px;
+        font-size: 0.8rem;
     }
 
     .stButton > button {
-    height: 130px;
-    border-radius: 15px;
-    font-size: 18px;
-    font-weight: 600;
-   }
+        border-radius: 12px;
+        height: 130px;
+        font-size: 18px;
+        font-weight: 600;
+        border: 1px solid #C7D7EA;
+        background: white;
+        transition: .2s;
+    }
+
+    .stButton > button:hover {
+        border-color: #005EB8;
+        color: #005EB8;
+        box-shadow: 0 5px 15px rgba(0,94,184,.25);
+    }
 
     </style>
     """, unsafe_allow_html=True)

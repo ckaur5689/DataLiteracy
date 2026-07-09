@@ -10,7 +10,7 @@ from modules import load_modules, recommend_modules
 # ------------------------------------------------------
 
 st.set_page_config(
-    page_title="Health Data Literacy Coach",
+    page_title="Health Data Literacy Companion",
     page_icon="📊",
     layout="wide"
 )
@@ -25,51 +25,56 @@ repo_root = Path(__file__).parent.parent
 book_cover = repo_root / "images" / "BookCover.png"
 
 # ------------------------------------------------------
-# Landing page header
+# Landing page
 # ------------------------------------------------------
 
-hero(book_cover)
+st.markdown("""
+<div class="top-panel">
 
-st.divider()
+    <div class="companion-title">
+        Health Data Literacy Companion
+    </div>
 
-# ------------------------------------------------------
-# User input
-# ------------------------------------------------------
+    <div class="companion-subtitle">
+        Helping healthcare leaders ask better questions.
+    </div>
 
-st.header("What are you trying to do today?")
+    <div class="companion-tagline">
+        📘 Companion to the Health Data Literacy Programme
+    </div>
+
+</div>
+""", unsafe_allow_html=True)
+
+st.header("What would you like help with today?")
 
 st.markdown(
-    "Choose a common challenge below, or type your own question further down."
+    "Choose a common healthcare analytics challenge below, or describe your own."
 )
 
 if "selected_question" not in st.session_state:
     st.session_state.selected_question = ""
 
+# ------------------------------------------------------
+# Challenge cards
+# ------------------------------------------------------
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button(
-        "📊\n\nUnderstand a Dashboard",
-        use_container_width=True
-    ):
+    if st.button("📊\n\nDashboard Interpretation", use_container_width=True):
         st.session_state.selected_question = (
             "I am reviewing a dashboard and I am not sure whether the trend is meaningful."
         )
 
 with col2:
-    if st.button(
-        "🧪\n\nEvaluate an Intervention",
-        use_container_width=True
-    ):
+    if st.button("🧪\n\nEvaluation & Evidence", use_container_width=True):
         st.session_state.selected_question = (
             "We introduced a frailty pathway and admissions appear lower. Has it worked?"
         )
 
 with col3:
-    if st.button(
-        "👥\n\nPopulation Health",
-        use_container_width=True
-    ):
+    if st.button("👥\n\nPopulation Health", use_container_width=True):
         st.session_state.selected_question = (
             "We want to compare performance between places with different populations."
         )
@@ -77,43 +82,30 @@ with col3:
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button(
-        "🏥\n\nDemand & Capacity",
-        use_container_width=True
-    ):
-        st.session_state.selected_question = (
-            "We are trying to understand demand, capacity and flow across a pathway."
-        )
-
-with col2:
-    if st.button(
-        "🤖\n\nAI & Predictive Models",
-        use_container_width=True
-    ):
+    if st.button("🤖\n\nAI & Analytics", use_container_width=True):
         st.session_state.selected_question = (
             "I am considering whether a predictive model or risk stratification tool is safe to use."
         )
 
+with col2:
+    if st.button("🏥\n\nDemand & Capacity", use_container_width=True):
+        st.session_state.selected_question = (
+            "We are trying to understand demand, capacity and flow across a pathway."
+        )
+
 with col3:
-    if st.button(
-        "💷\n\nHealth Economics",
-        use_container_width=True
-    ):
+    if st.button("💷\n\nHealth Economics", use_container_width=True):
         st.session_state.selected_question = (
             "I want to know whether a pilot scheme delivered value for money."
         )
 
-selected_example = st.selectbox(
-    "Or choose one of these common questions",
-    [""] + example_questions
+st.markdown("### Or describe your own challenge")
 
-selected_example = st.selectbox(
-    "Or choose one of these common questions",
-    [""] + example_questions
+user_input = st.text_area(
+    "Type or edit your question:",
+    key="selected_question",
+    height=120
 )
-
-if selected_example:
-    st.session_state.selected_question = selected_example
 
 # ------------------------------------------------------
 # Recommendations

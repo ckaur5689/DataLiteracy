@@ -30,17 +30,12 @@ def load_css():
         margin-bottom: 30px;
         box-shadow: 0 8px 25px rgba(0,0,0,.12);
     }
-
-    .hero-title{
     
-        color:#F8FAFC;
-    
-        font-size:2.6rem;
-    
-        font-weight:700;
-    
-        margin-bottom:10px;
-    
+    .hero-title {
+        color: #F8FAFC;
+        font-size: 2.8rem;
+        font-weight: 700;
+        text-shadow: 0 2px 4px rgba(0,0,0,.15);
     }
 
     .hero-subtitle{

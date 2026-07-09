@@ -45,6 +45,12 @@ Helping healthcare leaders ask better questions.
 </div>
 """, unsafe_allow_html=True)
 
+st.markdown("## What challenge are you facing today?")
+
+st.markdown(
+    "Choose a common healthcare analytics challenge below, or describe your own."
+)
+
 # ------------------------------------------------------
 # Challenge cards
 # ------------------------------------------------------

@@ -104,29 +104,52 @@ user_input = st.text_area(
 )
 
 # ------------------------------------------------------
+# Recommend button
+# ------------------------------------------------------
+
+col1, col2, col3 = st.columns([1,2,1])
+
+st.markdown(
+    "<p style='text-align:center; color:#6B7280;'>"
+    "Ready to see which learning modules can help?"
+    "</p>",
+    unsafe_allow_html=True
+)
+
+with col2:
+    recommend = st.button(
+        "🔍 Recommend My Learning Path",
+        type="primary",
+        use_container_width=True
+    )
+
+# ------------------------------------------------------
 # Recommendations
 # ------------------------------------------------------
 
-if st.button("Recommend Modules", type="primary"):
+if recommend:
 
     if not user_input.strip():
         st.warning("Please describe your question first.")
 
     else:
+
         recommendations = recommend_modules(user_input)
 
         if len(recommendations) == 0:
+
             st.warning(
                 "No matching modules were found.\n\n"
-                "Try including words such as evaluation, dashboard, rates, variation, AI, inequalities or population."
+                "Try including words such as evaluation, dashboard, variation, AI, inequalities or population."
             )
 
         else:
-            st.subheader("Recommended Modules")
+
+            st.subheader("📚 Recommended Modules")
 
             for module in recommendations:
                 module_card(module)
-
+                
 # ------------------------------------------------------
 # Module library
 # ------------------------------------------------------

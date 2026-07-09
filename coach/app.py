@@ -27,23 +27,32 @@ book_cover = repo_root / "images" / "BookCover.png"
 # Landing page
 # ------------------------------------------------------
 
-st.markdown("""
-<div class="top-panel">
+col1, col2 = st.columns([2, 1])
 
-<h1 class="hero-title">
-Health Data Literacy Companion
-</h1>
+with col1:
+    st.markdown("""
+    <div class="top-panel">
 
-<p class="hero-subtitle">
-Helping healthcare leaders ask better questions.
-</p>
+    <h1 class="hero-title">
+    Health Data Literacy Companion
+    </h1>
 
-<div class="hero-badge">
-📘 Companion to the Health Data Literacy Programme
-</div>
+    <p class="hero-subtitle">
+    Helping healthcare leaders ask better questions.
+    </p>
 
-</div>
-""", unsafe_allow_html=True)
+    <div class="hero-badge">
+    📘 Companion to the Health Data Literacy Programme
+    </div>
+
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    if book_cover.exists():
+        st.image(str(book_cover), use_container_width=True)
+    else:
+        st.warning("Book cover image not found.")
 
 st.markdown("## What challenge are you facing today?")
 

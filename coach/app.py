@@ -36,35 +36,84 @@ st.divider()
 # User input
 # ------------------------------------------------------
 
-st.header("Start coaching")
+st.header("What are you trying to do today?")
 
-st.markdown("""
-Choose a common question below, or describe your own data question in the box.
-""")
+st.markdown(
+    "Choose a common challenge below, or type your own question further down."
+)
 
-example_questions = [
-    "We introduced a frailty pathway and admissions appear lower. Has it worked?",
-    "I am reviewing a dashboard and I am not sure whether the trend is meaningful.",
-    "We want to compare performance between places with different populations.",
-    "I need to understand whether average length of stay is misleading.",
-    "I am considering whether a predictive model or risk stratification tool is safe to use.",
-    "We are trying to understand demand, capacity and flow across a pathway.",
-    "I want to know whether a pilot scheme delivered value for money.",
-    "I need to understand inequalities across a population group."
-]
+if "selected_question" not in st.session_state:
+    st.session_state.selected_question = ""
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    if st.button(
+        "📊\n\nUnderstand a Dashboard",
+        use_container_width=True
+    ):
+        st.session_state.selected_question = (
+            "I am reviewing a dashboard and I am not sure whether the trend is meaningful."
+        )
+
+with col2:
+    if st.button(
+        "🧪\n\nEvaluate an Intervention",
+        use_container_width=True
+    ):
+        st.session_state.selected_question = (
+            "We introduced a frailty pathway and admissions appear lower. Has it worked?"
+        )
+
+with col3:
+    if st.button(
+        "👥\n\nPopulation Health",
+        use_container_width=True
+    ):
+        st.session_state.selected_question = (
+            "We want to compare performance between places with different populations."
+        )
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    if st.button(
+        "🏥\n\nDemand & Capacity",
+        use_container_width=True
+    ):
+        st.session_state.selected_question = (
+            "We are trying to understand demand, capacity and flow across a pathway."
+        )
+
+with col2:
+    if st.button(
+        "🤖\n\nAI & Predictive Models",
+        use_container_width=True
+    ):
+        st.session_state.selected_question = (
+            "I am considering whether a predictive model or risk stratification tool is safe to use."
+        )
+
+with col3:
+    if st.button(
+        "💷\n\nHealth Economics",
+        use_container_width=True
+    ):
+        st.session_state.selected_question = (
+            "I want to know whether a pilot scheme delivered value for money."
+        )
 
 selected_example = st.selectbox(
-    "Useful starting questions",
-    [""] + example_questions,
-    index=0
+    "Or choose one of these common questions",
+    [""] + example_questions
+
+selected_example = st.selectbox(
+    "Or choose one of these common questions",
+    [""] + example_questions
 )
 
-user_input = st.text_area(
-    "Or describe your own data question, dashboard, pathway or decision:",
-    value=selected_example,
-    placeholder="Example: We introduced a frailty pathway and admissions appear lower. Has it worked?",
-    height=120
-)
+if selected_example:
+    st.session_state.selected_question = selected_example
 
 # ------------------------------------------------------
 # Recommendations

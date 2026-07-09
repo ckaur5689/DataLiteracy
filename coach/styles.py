@@ -108,23 +108,61 @@ def load_css():
         box-shadow:0 10px 25px rgba(0,0,0,.12);
     
     }
+    
     .stButton > button {
-        border-radius: 16px;
+    
+        background: linear-gradient(135deg, #005EB8, #1976D2);
+    
+        color: white;
+    
+        border: none;
+    
+        border-radius: 18px;
+    
         height: 145px;
+    
         font-size: 18px;
+    
         font-weight: 700;
-        border: 1px solid #C7D7EA;
-        background: white;
-        color: #1F2937;
-        transition: .2s;
+    
+        padding: 20px;
+    
+        box-shadow: 0 6px 16px rgba(0,94,184,.25);
+    
+        transition: all 0.2s ease;
+    
     }
     
     .stButton > button:hover {
-        border-color: #005EB8;
-        color: #005EB8;
-        box-shadow: 0 6px 18px rgba(0,94,184,.25);
-        transform: translateY(-2px);
+    
+        background: linear-gradient(135deg, #004B93, #1565C0);
+    
+        color: white;
+    
+        transform: translateY(-3px);
+    
+        box-shadow: 0 10px 22px rgba(0,94,184,.35);
+    
     }
 
+    .stButton > button:active {
+
+    transform: translateY(1px);
+
+    }
+
+    .stButton > button {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    }
     </style>
     """, unsafe_allow_html=True)

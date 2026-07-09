@@ -76,20 +76,54 @@ def load_css():
         font-size: 0.8rem;
     }
 
+    .top-panel {
+        background: linear-gradient(135deg, #005EB8, #1E88E5);
+        color: white;
+        padding: 45px 35px;
+        border-radius: 22px;
+        text-align: center;
+        margin-bottom: 35px;
+        box-shadow: 0 8px 25px rgba(0,0,0,.12);
+    }
+    
+    .companion-title {
+        font-size: 3.4rem;
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 12px;
+    }
+    
+    .companion-subtitle {
+        font-size: 1.45rem;
+        margin-bottom: 18px;
+        color: #EAF4FF;
+    }
+    
+    .companion-tagline {
+        display: inline-block;
+        background: rgba(255,255,255,0.18);
+        border: 1px solid rgba(255,255,255,0.35);
+        border-radius: 999px;
+        padding: 10px 18px;
+        font-size: 1rem;
+    }
+    
     .stButton > button {
-        border-radius: 12px;
-        height: 130px;
+        border-radius: 16px;
+        height: 145px;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 700;
         border: 1px solid #C7D7EA;
         background: white;
+        color: #1F2937;
         transition: .2s;
     }
-
+    
     .stButton > button:hover {
         border-color: #005EB8;
         color: #005EB8;
-        box-shadow: 0 5px 15px rgba(0,94,184,.25);
+        box-shadow: 0 6px 18px rgba(0,94,184,.25);
+        transform: translateY(-2px);
     }
 
     </style>

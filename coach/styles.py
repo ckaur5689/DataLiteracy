@@ -77,5 +77,12 @@ def load_css():
 
     }
 
+    .stButton > button {
+    height: 130px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+   }
+
     </style>
     """, unsafe_allow_html=True)

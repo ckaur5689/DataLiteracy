@@ -90,7 +90,7 @@ with col3:
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button("🤖\n\nAI & Analytics", use_container_width=True):
+    if st.button("🤖\n\nRisk Stratification Tools or Predictive Models", use_container_width=True):
         st.session_state.selected_question = (
             "I am considering whether a predictive model or risk stratification tool is safe to use."
         )

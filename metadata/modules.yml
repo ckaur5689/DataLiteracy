@@ -74,7 +74,7 @@ modules:
     title: Evaluating Methods in Practice
     pathway: Evaluation
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/08-Evaluating-Methods-in-Practice.html
-    keywords: [difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
+    keywords: [evaluate, evidence, difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
     questions:
       - Is there a suitable comparison group?
       - Have trends before the intervention been considered?
@@ -94,7 +94,7 @@ modules:
     title: Common Analytical Traps and Data Fallacies
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/10-Common-Analytical-Traps-&-Data-Fallacies.html
-    keywords: [fallacy, bias, trap, misleading, cherry picking, regression to mean, data quality]
+    keywords: [pathway, intervention, new, fallacy, bias, trap, misleading, cherry picking, regression to mean, data quality]
     questions:
       - Could this conclusion be misleading?
       - Are we cherry-picking the evidence?

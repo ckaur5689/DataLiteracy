@@ -182,7 +182,19 @@ if recommend:
 
 st.divider()
 
-st.header("Browse Module Library")
+st.markdown(
+    """
+    <h2 style="
+        color:#1F2937;
+        font-weight:700;
+        margin-top:20px;
+        margin-bottom:15px;
+    ">
+        📚 Browse Module Library
+    </h2>
+    """,
+    unsafe_allow_html=True
+)
 
 modules = load_modules()
 

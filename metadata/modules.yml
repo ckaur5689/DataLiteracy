@@ -44,7 +44,7 @@ modules:
     title: Standardisation and Fair Comparison
     pathway: Foundations
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/05-Standardisation-&-Fair-Comparison.html
-    keywords: [standardisation, fair comparison, case mix, age, deprivation, adjustment, benchmark]
+    keywords: [trend, metric, performance, standardisation, fair comparison, case mix, age, deprivation, adjustment, benchmark]
     questions:
       - Are we comparing like with like?
       - Has case mix been adjusted for?

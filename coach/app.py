@@ -117,7 +117,7 @@ with col3:
         )
 
 st.markdown(
-    "<p style='text-align:center; color:#6B7280;'>"
+    "<p style='text-align:center; color:#6B7280; font-weight:700;'>"
     "Or describe your own challenge"
     "</p>",
     unsafe_allow_html=True

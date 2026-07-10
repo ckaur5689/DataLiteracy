@@ -56,7 +56,7 @@ with col2:
 
 st.markdown(
     "<p style='text-align:center; color:#6B7280;'>"
-    "## What challenge are you facing today?"
+    "What challenge are you facing today?"
     "</p>",
     unsafe_allow_html=True
 )
@@ -118,7 +118,7 @@ with col3:
 
 st.markdown(
     "<p style='text-align:center; color:#6B7280;'>"
-    "### Or describe your own challenge"
+    "Or describe your own challenge"
     "</p>",
     unsafe_allow_html=True
 )

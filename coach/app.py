@@ -55,7 +55,7 @@ with col2:
         st.warning("Book cover image not found.")
 
 st.markdown(
-    "<p style='text-align:center; color:#6B7280;'>"
+    "<p style='text-align:center; color:#6B7280; font-weight:700;'>"
     "What challenge are you facing today?"
     "</p>",
     unsafe_allow_html=True

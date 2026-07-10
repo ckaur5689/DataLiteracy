@@ -54,11 +54,20 @@ with col2:
     else:
         st.warning("Book cover image not found.")
 
-st.markdown("## What challenge are you facing today?")
+st.markdown(
+    "<p style='text-align:center; color:#6B7280;'>"
+    "## What challenge are you facing today?"
+    "</p>",
+    unsafe_allow_html=True
+)
 
 st.markdown(
+    "<p style='text-align:center; color:#6B7280;'>"
     "Choose a common healthcare analytics challenge below, or describe your own."
+    "</p>",
+    unsafe_allow_html=True
 )
+
 
 if "selected_question" not in st.session_state:
     st.session_state.selected_question = ""
@@ -107,7 +116,12 @@ with col3:
             "I want to know whether a pilot scheme delivered value for money."
         )
 
-st.markdown("### Or describe your own challenge")
+st.markdown(
+    "<p style='text-align:center; color:#6B7280;'>"
+    "### Or describe your own challenge"
+    "</p>",
+    unsafe_allow_html=True
+)
 
 user_input = st.text_area(
     "Describe your challenge in your own words",

@@ -82,7 +82,7 @@ with col2:
         )
 
 with col3:
-    if st.button("👥\n\nPopulation Health", use_container_width=True):
+    if st.button("👥\n\nComparing Populations", use_container_width=True):
         st.session_state.selected_question = (
             "We want to compare performance between places with different populations."
         )

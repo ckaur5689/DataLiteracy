@@ -74,7 +74,7 @@ modules:
     title: Evaluating Methods in Practice
     pathway: Evaluation
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/08-Evaluating-Methods-in-Practice.html
-    keywords: [evaluate, evidence, difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
+    keywords: [evaluate, evidence, intervention, scheme, pilot, difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
     questions:
       - Is there a suitable comparison group?
       - Have trends before the intervention been considered?

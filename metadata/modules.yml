@@ -64,7 +64,7 @@ modules:
     title: Thinking About Evidence and Evaluation
     pathway: Evaluation
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/07-Thinking-About-Evidence-&-Evaluation.html
-    keywords: [evidence, evaluation, intervention, scheme, pilot, impact, attribution]
+    keywords: [evidence, evaluation, intervention, scheme, pilot, impact, attribution, pathway]
     questions:
       - What evidence do we currently have?
       - What outcome are we trying to change?

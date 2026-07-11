@@ -3,3 +3,6 @@ _book/
 __pycache__/
 *.pyc
 .venv/
+
+/.quarto/
+**/*.quarto_ipynb

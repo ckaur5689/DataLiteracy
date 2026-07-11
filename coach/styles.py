@@ -131,24 +131,24 @@ def load_css():
     }
     
     .stButton > button {
-    
-        background: linear-gradient(135deg, #005EB8, #1976D2);
-    
-        color: #F8FAFC;
-    
-        border: none;
+
+        background: #EAF4FF;
+
+        color: #005EB8;
+        
+        border: 1px solid #BFD7EA;
     
         border-radius: 18px;
     
-        height: 145px;
+        min-height: 95px;
+
+        padding: 16px;
     
         font-size: 18px;
     
         font-weight: 700;
     
-        padding: 20px;
-    
-        box-shadow: 0 6px 16px rgba(0,94,184,.25);
+        box-shadow: 0 2px 8px rgba(0,0,0,.08);
     
         transition: all 0.2s ease;
     

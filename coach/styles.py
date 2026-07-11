@@ -216,5 +216,48 @@ def load_css():
     text-align: center;
 
     }
+
+    /* Module library expanders */
+
+    div[data-testid="stExpander"] {
+        background-color: #FFFFFF !important;
+        border: 1px solid #C9D4E0 !important;
+        border-radius: 12px !important;
+        margin-bottom: 14px !important;
+        overflow: hidden !important;
+    }
+    
+    /* Collapsed module title */
+    
+    div[data-testid="stExpander"] summary {
+        background-color: #FFFFFF !important;
+        color: #1F2937 !important;
+        min-height: 58px !important;
+        padding: 14px 16px !important;
+    }
+    
+    div[data-testid="stExpander"] summary p {
+        color: #1F2937 !important;
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        line-height: 1.4 !important;
+    }
+    
+    /* Arrow icon */
+    
+    div[data-testid="stExpander"] summary svg {
+        fill: #005EB8 !important;
+        color: #005EB8 !important;
+    }
+    
+    /* Expanded content */
+    
+    div[data-testid="stExpander"] div[data-testid="stMarkdownContainer"],
+    div[data-testid="stExpander"] div[data-testid="stMarkdownContainer"] p,
+    div[data-testid="stExpander"] div[data-testid="stMarkdownContainer"] li,
+    div[data-testid="stExpander"] div[data-testid="stMarkdownContainer"] strong {
+        color: #1F2937 !important;
+    }
+    
     </style>
     """, unsafe_allow_html=True)

@@ -37,6 +37,27 @@ The examples throughout the series are intentionally grounded in realistic NHS o
 - operational interpretation
 - **Questions Decision-Makers Should Ask** sections to encourage critical thinking and discussion
 
+::: {.callout-tip appearance="simple"}
+
+## 📱 Health Data Literacy Companion
+
+Need help finding the right module or deciding what to read next?
+
+Scan the QR code below to open the **Health Data Literacy Coach**, an interactive companion that can:
+
+- Recommend the most relevant module
+- Suggest questions decision-makers should ask
+- Guide your learning pathway
+- Help you navigate the Health Data Literacy series
+
+![](images/HealthDataLiteracyCoachQR.png){width=180px}
+
+Or visit:
+
+<https://health-data-literacy-coach.streamlit.app>
+
+:::
+
 ## Guiding Philosophy
 
 > Good healthcare analytics is not just about producing numbers.

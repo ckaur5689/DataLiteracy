@@ -130,29 +130,27 @@ def load_css():
 
     }
     
-    .stButton > button {
-
-        background: #EAF4FF;
-
-        color: #005EB8;
-        
-        border: 1px solid #BFD7EA;
-    
-        border-radius: 18px;
-    
-        min-height: 95px;
-
-        padding: 16px;
-    
-        font-size: 18px;
-    
-        font-weight: 700;
-    
-        box-shadow: 0 2px 8px rgba(0,0,0,.08);
-    
-        transition: all 0.2s ease;
-    
+    .stButton > button:not([kind="primary"]) {
+        background: #EAF4FF !important;
+        color: #003087 !important;
+        border: 1px solid #9FC4E8 !important;
+        border-radius: 14px !important;
+        min-height: 96px !important;
+        height: auto !important;
+        padding: 16px 12px !important;
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
     }
+    
+    .stButton > button:not([kind="primary"]):hover {
+        background: #D6EBFF !important;
+        color: #003087 !important;
+        border-color: #005EB8 !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 5px 12px rgba(0, 94, 184, 0.16) !important;
+    }
+    
  /* -------------------------------------------------- */
  /* Primary button (Recommend My Learning Path)        */
  /* -------------------------------------------------- */

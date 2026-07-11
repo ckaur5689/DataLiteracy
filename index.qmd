@@ -39,7 +39,7 @@ The examples throughout the series are intentionally grounded in realistic NHS o
 
 ::: {.callout-tip appearance="simple"}
 
-## 📱 Health Data Literacy Companion
+## 📱 New Health Data Literacy Companion
 
 Need help finding the right module or deciding what to read next?
 
@@ -50,7 +50,7 @@ Scan the QR code below to open the **Health Data Literacy Coach**, an interactiv
 - Guide your learning pathway
 - Help you navigate the Health Data Literacy series
 
-![](images/HealthDataLiteracyCoachQR.png){width=180px}
+![](images/HealthDataLiteracyCompanionQR.png){width=180px}
 
 Or visit:
 

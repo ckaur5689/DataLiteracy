@@ -56,6 +56,8 @@ Or visit:
 
 <https://health-data-literacy-coach.streamlit.app>
 
+Recommend opening up in Google Chrome for a better user experience.
+
 :::
 
 ## Guiding Philosophy

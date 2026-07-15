@@ -17,7 +17,7 @@ def load_css():
 
         .block-container {
             max-width: 1400px;
-            padding-top: 2rem;
+            padding-top: 6rem;
             padding-bottom: 3rem;
         }
 
@@ -42,6 +42,7 @@ def load_css():
             background: linear-gradient(135deg, #005EB8, #2F80D1);
             border-radius: 18px;
             padding: 30px 40px;
+            margin-top: 35px;
             margin-bottom: 36px;
             text-align: center;
             box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);

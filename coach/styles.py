@@ -106,12 +106,20 @@ def load_css():
             transition: all 0.2s ease;
         }
 
-        .stButton > button:hover {
-            background: #256FB8;
-            color: #FFFFFF;
-            border: none;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 12px rgba(0, 94, 184, 0.20);
+         .stButton > button:hover {
+        
+            background:#4F94DA;
+        
+            color:white;
+        
+            border:3px solid white;
+        
+            outline:3px solid #005EB8;
+        
+            transform:translateY(-3px) scale(1.02);
+        
+            box-shadow:0 10px 20px rgba(0,94,184,.25);
+        
         }
 
         .stButton > button:active {

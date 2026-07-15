@@ -51,13 +51,13 @@ Topics include:
 # Part 2 — How do we understand, improve and evaluate complex healthcare systems?
 
 11. Demand, Capacity & Operational Flow
-12. Pathway Analytics & Intervention Design
-13. Population Health Management & Segmentation
-14. Data Quality & Trustworthy Data
-15. Combining Quantitative & Qualitative Evidence
-16. Health Economics & Value in Healthcare Decision-Making
-17. Decision-Making Under Uncertainty
-18. Why Evaluating Healthcare Improvement Is Difficult
+12. Data Quality & Trustworthy Data
+13. Pathway Analytics & Intervention Design
+14. Evaluating Complex Healthcare Systems
+15. Population Health Management & Segmentation
+16. Combining Quantitative & Qualitative Evidence
+17. Health Economics & Value in Healthcare Decision-Making
+18. Decision-Making Under Uncertainty
 19. Simulation & Scenario Modelling
 
 Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)

@@ -668,9 +668,9 @@ and
 
 > *Could improvement have happened anyway?*
 
----
+
 ## Part 2 — Confidence, Small Numbers & Natural Fluctuation
----
+
 
 Before moving on, ask:
 
@@ -678,9 +678,9 @@ Before moving on, ask:
 
 In the next section, we explore practical ways healthcare systems strengthen confidence in evaluation findings.
 
----
+
 ## Part 3 — Strengthening Evaluation in Real-World Healthcare
----
+
 
 In Part 1 and Part 2 of this module, we explored:
 

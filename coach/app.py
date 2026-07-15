@@ -50,7 +50,9 @@ with col1:
 
 with col2:
     if book_cover.exists():
-        st.image(str(book_cover), use_container_width=True)
+        st.markdown('<div style="margin-top: 40px;">', unsafe_allow_html=True)
+        st.image(book_cover, use_container_width=True)
+        st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.warning("Book cover image not found.")
 

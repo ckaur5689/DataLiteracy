@@ -260,6 +260,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#scenario-3-sustained-improvement" id="toc-scenario-3-sustained-improvement" class="nav-link" data-scroll-target="#scenario-3-sustained-improvement">Scenario 3 — Sustained Improvement</a></li>
   </ul></li>
   <li><a href="#why-its-matters-for-healthcare-decision-making" id="toc-why-its-matters-for-healthcare-decision-making" class="nav-link" data-scroll-target="#why-its-matters-for-healthcare-decision-making">Why ITS Matters for Healthcare Decision-Making</a></li>
+  <li><a href="#using-interrupted-time-series-in-practice" id="toc-using-interrupted-time-series-in-practice" class="nav-link" data-scroll-target="#using-interrupted-time-series-in-practice">Using Interrupted Time Series in Practice</a>
+  <ul class="collapse">
+  <li><a href="#evaluating-multiple-organisations" id="toc-evaluating-multiple-organisations" class="nav-link" data-scroll-target="#evaluating-multiple-organisations">Evaluating Multiple Organisations</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#difference-in-differences-did" id="toc-difference-in-differences-did" class="nav-link" data-scroll-target="#difference-in-differences-did">Difference-in-Differences (DiD)</a>
   <ul class="collapse">
@@ -277,6 +281,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#matching-the-evaluation-method-to-the-question" id="toc-matching-the-evaluation-method-to-the-question" class="nav-link" data-scroll-target="#matching-the-evaluation-method-to-the-question">Matching the Evaluation Method to the Question</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
   <li><a href="#questions-decision-makers-should-ask" id="toc-questions-decision-makers-should-ask" class="nav-link" data-scroll-target="#questions-decision-makers-should-ask">Questions Decision-Makers Should Ask</a></li>
+  <li><a href="#choosing-an-evaluation-method" id="toc-choosing-an-evaluation-method" class="nav-link" data-scroll-target="#choosing-an-evaluation-method">Choosing an Evaluation Method</a></li>
   <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
   </ul></li>
   </ul>
@@ -1085,6 +1090,80 @@ after</code></pre>
 <p><em>Did outcomes improve — or did the trajectory change?</em></p>
 </blockquote>
 </section>
+<section id="using-interrupted-time-series-in-practice" class="level2">
+<h2 class="anchored" data-anchor-id="using-interrupted-time-series-in-practice">Using Interrupted Time Series in Practice</h2>
+<p>Interrupted Time Series is one of the strongest quasi-experimental designs available when randomisation is not possible.</p>
+<p>However, choosing an appropriate ITS approach requires careful consideration of both the data and the evaluation question.</p>
+<p>Before fitting an ITS model, analysts should ask:</p>
+<ul>
+<li>Do we have enough observations before and after the intervention?</li>
+<li>Is there a clearly defined intervention date?</li>
+<li>Were other important changes introduced at the same time?</li>
+<li>Is there evidence of seasonality (for example, winter pressures)?</li>
+<li>Are outcomes measured consistently over time?</li>
+<li>Has the underlying trend been stable before the intervention?</li>
+<li>Could changes simply reflect natural variation rather than intervention impact?</li>
+</ul>
+<p>These questions help determine whether Interrupted Time Series is likely to provide a meaningful estimate of intervention impact.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Choosing the Right Evaluation Design
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Good evaluation begins with the <strong>evaluation question</strong>, not the statistical model.</p>
+<p>The aim is not simply to fit an Interrupted Time Series model.</p>
+<p>The aim is to select a design that provides the most credible estimate of <strong>what would probably have happened had the intervention not occurred.</strong></p>
+</div>
+</div>
+<section id="evaluating-multiple-organisations" class="level3">
+<h3 class="anchored" data-anchor-id="evaluating-multiple-organisations">Evaluating Multiple Organisations</h3>
+<p>Healthcare evaluations often involve several hospitals, Primary Care Networks or localities.</p>
+<p>This introduces additional complexity.</p>
+<p>For example:</p>
+<ul>
+<li>Different organisations may begin with different baseline performance.</li>
+<li>Improvement may already be occurring at different rates.</li>
+<li>Interventions may be implemented slightly differently.</li>
+<li>Local operational pressures may vary considerably.</li>
+</ul>
+<p>There is rarely a single correct analytical approach.</p>
+<p>Depending on the evaluation question and available data, analysts may choose to:</p>
+<ul>
+<li>analyse each organisation separately</li>
+<li>fit a single model that accounts for organisational differences</li>
+<li>combine findings across organisations using evidence synthesis techniques</li>
+</ul>
+<p>The choice depends on the evaluation question, study design and available data.</p>
+<p>The important principle is not selecting the most complex model, but choosing the approach that provides the most credible answer to the evaluation question.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Looking Ahead
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Real-world healthcare improvement rarely involves a single intervention delivered in a single organisation.</p>
+<p>Later in this series, <strong>Module 14: Evaluating Complex Healthcare Systems</strong> explores more advanced evaluation challenges, including:</p>
+<ul>
+<li>multiple interventions introduced at the same time</li>
+<li>phased implementation across organisations</li>
+<li>multi-site evaluations</li>
+<li>mixed-method evaluation</li>
+<li>attribution versus contribution</li>
+</ul>
+<p>These situations require careful evaluation design as well as appropriate statistical methods.</p>
+</div>
+</div>
+</section>
+</section>
 </section>
 <section id="difference-in-differences-did" class="level1">
 <h1>Difference-in-Differences (DiD)</h1>
@@ -1264,7 +1343,7 @@ after</code></pre>
 <tr class="odd">
 <td><strong>Did it work?</strong></td>
 <td>Compare outcomes with what would probably have happened without the intervention.</td>
-<td>Randomised Controlled Trials (RCTs), Difference-in-Differences (DiD), Interrupted Time Series (ITS)</td>
+<td>Randomised Controlled Trial (RCT), Interrupted Time Series (ITS), Difference-in-Differences (DiD), Controlled ITS</td>
 </tr>
 <tr class="even">
 <td><strong>How was it implemented?</strong></td>
@@ -1274,14 +1353,19 @@ after</code></pre>
 <tr class="odd">
 <td><strong>Why did it work (or not)?</strong></td>
 <td>Explore the mechanisms that contributed to success or failure.</td>
-<td>Qualitative research, Realist Evaluation, mixed-method evaluation</td>
+<td>Qualitative research, Realist Evaluation</td>
 </tr>
 <tr class="even">
-<td><strong>Was it worth it?</strong></td>
-<td>Compare the benefits achieved against the resources invested.</td>
-<td>Health economics, cost-effectiveness analysis, cost-benefit analysis</td>
+<td><strong>Did it work consistently across organisations?</strong></td>
+<td>Compare patterns of change across multiple organisations while accounting for differences in starting position, trends and implementation.</td>
+<td>Multi-site evaluation, mixed-effects models, meta-analysis</td>
 </tr>
 <tr class="odd">
+<td><strong>Was it worth it?</strong></td>
+<td>Compare the benefits achieved against the resources invested.</td>
+<td>Health economics, Cost-effectiveness analysis, cost-benefit analysis, cost-utility analysis</td>
+</tr>
+<tr class="even">
 <td><strong>Should we scale it?</strong></td>
 <td>Combine evidence on effectiveness, implementation, value and context to judge wider adoption.</td>
 <td>Mixed-method evaluation, evidence synthesis, implementation evaluation</td>
@@ -1321,6 +1405,7 @@ after</code></pre>
 <li>some improvement may happen naturally</li>
 <li>trajectories matter</li>
 <li>comparison groups strengthen confidence</li>
+<li>the evaluation question should determine the evaluation method</li>
 </ul>
 <p>Good evaluation asks:</p>
 <blockquote class="blockquote">
@@ -1337,6 +1422,33 @@ after</code></pre>
 <li>How strong is our confidence in attribution?</li>
 </ul>
 <hr>
+</section>
+<section id="choosing-an-evaluation-method" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-an-evaluation-method">Choosing an Evaluation Method</h2>
+<p>What are you trying to evaluate?</p>
+<pre><code>    │
+    ▼</code></pre>
+<p>Can you randomise?</p>
+<p>Yes → RCT</p>
+<p>No</p>
+<p>↓</p>
+<p>Do you have observations over time?</p>
+<p>↓</p>
+<p>Yes</p>
+<p>↓</p>
+<p>Interrupted Time Series</p>
+<p>↓</p>
+<p>Do you have a comparison group?</p>
+<p>↓</p>
+<p>Yes</p>
+<p>↓</p>
+<p>Difference-in-Differences</p>
+<p>↓</p>
+<p>No</p>
+<p>↓</p>
+<p>Can qualitative evidence strengthen interpretation?</p>
+<p>↓</p>
+<p>Mixed-method evaluation</p>
 </section>
 <section id="further-reading" class="level2">
 <h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>

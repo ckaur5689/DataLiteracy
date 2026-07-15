@@ -1170,6 +1170,16 @@
     ]
   },
   {
+    "objectID": "modules/08-Evaluating-Methods-in-Practice.html#using-interrupted-time-series-in-practice",
+    "href": "modules/08-Evaluating-Methods-in-Practice.html#using-interrupted-time-series-in-practice",
+    "title": "Module 8 — Evaluation Methods in Practice",
+    "section": "Using Interrupted Time Series in Practice",
+    "text": "Using Interrupted Time Series in Practice\nInterrupted Time Series is one of the strongest quasi-experimental designs available when randomisation is not possible.\nHowever, choosing an appropriate ITS approach requires careful consideration of both the data and the evaluation question.\nBefore fitting an ITS model, analysts should ask:\n\nDo we have enough observations before and after the intervention?\nIs there a clearly defined intervention date?\nWere other important changes introduced at the same time?\nIs there evidence of seasonality (for example, winter pressures)?\nAre outcomes measured consistently over time?\nHas the underlying trend been stable before the intervention?\nCould changes simply reflect natural variation rather than intervention impact?\n\nThese questions help determine whether Interrupted Time Series is likely to provide a meaningful estimate of intervention impact.\n\n\n\n\n\n\nTipChoosing the Right Evaluation Design\n\n\n\nGood evaluation begins with the evaluation question, not the statistical model.\nThe aim is not simply to fit an Interrupted Time Series model.\nThe aim is to select a design that provides the most credible estimate of what would probably have happened had the intervention not occurred.\n\n\n\nEvaluating Multiple Organisations\nHealthcare evaluations often involve several hospitals, Primary Care Networks or localities.\nThis introduces additional complexity.\nFor example:\n\nDifferent organisations may begin with different baseline performance.\nImprovement may already be occurring at different rates.\nInterventions may be implemented slightly differently.\nLocal operational pressures may vary considerably.\n\nThere is rarely a single correct analytical approach.\nDepending on the evaluation question and available data, analysts may choose to:\n\nanalyse each organisation separately\nfit a single model that accounts for organisational differences\ncombine findings across organisations using evidence synthesis techniques\n\nThe choice depends on the evaluation question, study design and available data.\nThe important principle is not selecting the most complex model, but choosing the approach that provides the most credible answer to the evaluation question.\n\n\n\n\n\n\nNoteLooking Ahead\n\n\n\nReal-world healthcare improvement rarely involves a single intervention delivered in a single organisation.\nLater in this series, Module 14: Evaluating Complex Healthcare Systems explores more advanced evaluation challenges, including:\n\nmultiple interventions introduced at the same time\nphased implementation across organisations\nmulti-site evaluations\nmixed-method evaluation\nattribution versus contribution\n\nThese situations require careful evaluation design as well as appropriate statistical methods.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+    ]
+  },
+  {
     "objectID": "modules/08-Evaluating-Methods-in-Practice.html#what-is-difference-in-differences",
     "href": "modules/08-Evaluating-Methods-in-Practice.html#what-is-difference-in-differences",
     "title": "Module 8 — Evaluation Methods in Practice",
@@ -1224,7 +1234,7 @@
     "href": "modules/08-Evaluating-Methods-in-Practice.html#matching-the-evaluation-method-to-the-question",
     "title": "Module 8 — Evaluation Methods in Practice",
     "section": "Matching the Evaluation Method to the Question",
-    "text": "Matching the Evaluation Method to the Question\nOne of the most important principles in evaluation is that the evaluation question should determine the evaluation method.\nThere is rarely a single “best” evaluation method.\nInstead, different methods answer different questions.\nUnderlying them all is one fundamental idea:\n\nWhat would probably have happened if the intervention had not taken place?\n\nThis is known as the counterfactual.\nDifferent evaluation methods estimate the counterfactual in different ways.\n\n\n\n\n\n\n\n\nEvaluation Question\nHow is the Counterfactual Considered?\nMethods Commonly Used\n\n\n\n\nDid it work?\nCompare outcomes with what would probably have happened without the intervention.\nRandomised Controlled Trials (RCTs), Difference-in-Differences (DiD), Interrupted Time Series (ITS)\n\n\nHow was it implemented?\nUnderstand how the intervention was delivered and whether implementation influenced outcomes.\nProcess evaluation, implementation evaluation, qualitative interviews\n\n\nWhy did it work (or not)?\nExplore the mechanisms that contributed to success or failure.\nQualitative research, Realist Evaluation, mixed-method evaluation\n\n\nWas it worth it?\nCompare the benefits achieved against the resources invested.\nHealth economics, cost-effectiveness analysis, cost-benefit analysis\n\n\nShould we scale it?\nCombine evidence on effectiveness, implementation, value and context to judge wider adoption.\nMixed-method evaluation, evidence synthesis, implementation evaluation\n\n\n\n\n\n\n\n\n\nTipKey Principle\n\n\n\nGood evaluation starts with a clear evaluation question, not a preferred method.\nStrong evaluations often combine quantitative and qualitative approaches to understand:\n\nwhether an intervention worked\nhow it was implemented\nwhy it worked (or did not work)\nwhether it represented good value for money\nwhether it should be adopted more widely\n\nAlthough different methods estimate the counterfactual in different ways, they all aim to increase confidence that observed changes genuinely resulted from the intervention rather than from chance, natural variation or external influences.\nThe stronger the evaluation design, the greater our confidence in the conclusions—but no evaluation can eliminate uncertainty completely.",
+    "text": "Matching the Evaluation Method to the Question\nOne of the most important principles in evaluation is that the evaluation question should determine the evaluation method.\nThere is rarely a single “best” evaluation method.\nInstead, different methods answer different questions.\nUnderlying them all is one fundamental idea:\n\nWhat would probably have happened if the intervention had not taken place?\n\nThis is known as the counterfactual.\nDifferent evaluation methods estimate the counterfactual in different ways.\n\n\n\n\n\n\n\n\nEvaluation Question\nHow is the Counterfactual Considered?\nMethods Commonly Used\n\n\n\n\nDid it work?\nCompare outcomes with what would probably have happened without the intervention.\nRandomised Controlled Trial (RCT), Interrupted Time Series (ITS), Difference-in-Differences (DiD), Controlled ITS\n\n\nHow was it implemented?\nUnderstand how the intervention was delivered and whether implementation influenced outcomes.\nProcess evaluation, implementation evaluation, qualitative interviews\n\n\nWhy did it work (or not)?\nExplore the mechanisms that contributed to success or failure.\nQualitative research, Realist Evaluation\n\n\nDid it work consistently across organisations?\nCompare patterns of change across multiple organisations while accounting for differences in starting position, trends and implementation.\nMulti-site evaluation, mixed-effects models, meta-analysis\n\n\nWas it worth it?\nCompare the benefits achieved against the resources invested.\nHealth economics, Cost-effectiveness analysis, cost-benefit analysis, cost-utility analysis\n\n\nShould we scale it?\nCombine evidence on effectiveness, implementation, value and context to judge wider adoption.\nMixed-method evaluation, evidence synthesis, implementation evaluation\n\n\n\n\n\n\n\n\n\nTipKey Principle\n\n\n\nGood evaluation starts with a clear evaluation question, not a preferred method.\nStrong evaluations often combine quantitative and qualitative approaches to understand:\n\nwhether an intervention worked\nhow it was implemented\nwhy it worked (or did not work)\nwhether it represented good value for money\nwhether it should be adopted more widely\n\nAlthough different methods estimate the counterfactual in different ways, they all aim to increase confidence that observed changes genuinely resulted from the intervention rather than from chance, natural variation or external influences.\nThe stronger the evaluation design, the greater our confidence in the conclusions—but no evaluation can eliminate uncertainty completely.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
@@ -1234,7 +1244,7 @@
     "href": "modules/08-Evaluating-Methods-in-Practice.html#key-takeaways",
     "title": "Module 8 — Evaluation Methods in Practice",
     "section": "Key Takeaways",
-    "text": "Key Takeaways\n\nimprovement alone does not prove impact\nfair comparison matters\nsmall numbers can mislead\nsome improvement may happen naturally\ntrajectories matter\ncomparison groups strengthen confidence\n\nGood evaluation asks:\n\nHow confident are we that the intervention genuinely contributed to change?",
+    "text": "Key Takeaways\n\nimprovement alone does not prove impact\nfair comparison matters\nsmall numbers can mislead\nsome improvement may happen naturally\ntrajectories matter\ncomparison groups strengthen confidence\nthe evaluation question should determine the evaluation method\n\nGood evaluation asks:\n\nHow confident are we that the intervention genuinely contributed to change?",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
@@ -1245,6 +1255,16 @@
     "title": "Module 8 — Evaluation Methods in Practice",
     "section": "Questions Decision-Makers Should Ask",
     "text": "Questions Decision-Makers Should Ask\n\nCompared with what?\nDid the trajectory change?\nCould improvement have happened naturally?\nWas the evaluation large enough to be informative?\nHow strong is our confidence in attribution?",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "modules/08-Evaluating-Methods-in-Practice.html#choosing-an-evaluation-method",
+    "href": "modules/08-Evaluating-Methods-in-Practice.html#choosing-an-evaluation-method",
+    "title": "Module 8 — Evaluation Methods in Practice",
+    "section": "Choosing an Evaluation Method",
+    "text": "Choosing an Evaluation Method\nWhat are you trying to evaluate?\n    │\n    ▼\nCan you randomise?\nYes → RCT\nNo\n↓\nDo you have observations over time?\n↓\nYes\n↓\nInterrupted Time Series\n↓\nDo you have a comparison group?\n↓\nYes\n↓\nDifference-in-Differences\n↓\nNo\n↓\nCan qualitative evidence strengthen interpretation?\n↓\nMixed-method evaluation",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
@@ -1524,7 +1544,7 @@
     "href": "Project.html",
     "title": "Project - Health Data Literacy Series",
     "section": "",
-    "text": "Supporting Better Questions, Better Analysis & Better Decisions in Health\nTimeline: May 2026 to September 2026\nAuthor: Chandan Kaur\nAudience: Analysts and Decision Makers",
+    "text": "Supporting Better Questions, Better Analysis & Better Decisions in Health\nTimeline: May 2026 to November 2026\nAuthor: Chandan Kaur\nAudience: Analysts and Decision Makers",
     "crumbs": [
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]

@@ -890,6 +890,75 @@ A useful question becomes:
 
 > *Did outcomes improve — or did the trajectory change?*
 
+## Using Interrupted Time Series in Practice
+
+Interrupted Time Series is one of the strongest quasi-experimental designs available when randomisation is not possible.
+
+However, choosing an appropriate ITS approach requires careful consideration of both the data and the evaluation question.
+
+Before fitting an ITS model, analysts should ask:
+
+* Do we have enough observations before and after the intervention?
+* Is there a clearly defined intervention date?
+* Were other important changes introduced at the same time?
+* Is there evidence of seasonality (for example, winter pressures)?
+* Are outcomes measured consistently over time?
+* Has the underlying trend been stable before the intervention?
+* Could changes simply reflect natural variation rather than intervention impact?
+
+These questions help determine whether Interrupted Time Series is likely to provide a meaningful estimate of intervention impact.
+
+::: {.callout-tip}
+## Choosing the Right Evaluation Design
+
+Good evaluation begins with the **evaluation question**, not the statistical model.
+
+The aim is not simply to fit an Interrupted Time Series model.
+
+The aim is to select a design that provides the most credible estimate of **what would probably have happened had the intervention not occurred.**
+:::
+
+### Evaluating Multiple Organisations
+
+Healthcare evaluations often involve several hospitals, Primary Care Networks or localities.
+
+This introduces additional complexity.
+
+For example:
+
+* Different organisations may begin with different baseline performance.
+* Improvement may already be occurring at different rates.
+* Interventions may be implemented slightly differently.
+* Local operational pressures may vary considerably.
+
+There is rarely a single correct analytical approach.
+
+Depending on the evaluation question and available data, analysts may choose to:
+
+* analyse each organisation separately
+* fit a single model that accounts for organisational differences
+* combine findings across organisations using evidence synthesis techniques
+
+The choice depends on the evaluation question, study design and available data.
+
+The important principle is not selecting the most complex model, but choosing the approach that provides the most credible answer to the evaluation question.
+
+::: {.callout-note}
+## Looking Ahead
+
+Real-world healthcare improvement rarely involves a single intervention delivered in a single organisation.
+
+Later in this series, **Module 14: Evaluating Complex Healthcare Systems** explores more advanced evaluation challenges, including:
+
+* multiple interventions introduced at the same time
+* phased implementation across organisations
+* multi-site evaluations
+* mixed-method evaluation
+* attribution versus contribution
+
+These situations require careful evaluation design as well as appropriate statistical methods.
+:::
+
 # Difference-in-Differences (DiD)
 
 Another practical challenge in healthcare evaluation is this:
@@ -1076,10 +1145,11 @@ Different evaluation methods estimate the counterfactual in different ways.
 
 | Evaluation Question | How is the Counterfactual Considered? | Methods Commonly Used |
 |---------------------|----------------------------------------|-----------------------|
-| **Did it work?** | Compare outcomes with what would probably have happened without the intervention. | Randomised Controlled Trials (RCTs), Difference-in-Differences (DiD), Interrupted Time Series (ITS) |
+| **Did it work?** | Compare outcomes with what would probably have happened without the intervention. | Randomised Controlled Trial (RCT), Interrupted Time Series (ITS), Difference-in-Differences (DiD), Controlled ITS |
 | **How was it implemented?** | Understand how the intervention was delivered and whether implementation influenced outcomes. | Process evaluation, implementation evaluation, qualitative interviews |
-| **Why did it work (or not)?** | Explore the mechanisms that contributed to success or failure. | Qualitative research, Realist Evaluation, mixed-method evaluation |
-| **Was it worth it?** | Compare the benefits achieved against the resources invested. | Health economics, cost-effectiveness analysis, cost-benefit analysis |
+| **Why did it work (or not)?** | Explore the mechanisms that contributed to success or failure. | Qualitative research, Realist Evaluation |
+| **Did it work consistenntly across organisations?** | Multi-site evaluation, mixed-effects models, meta-analysis | 
+| **Was it worth it?** | Compare the benefits achieved against the resources invested. | Health economics |
 | **Should we scale it?** | Combine evidence on effectiveness, implementation, value and context to judge wider adoption. | Mixed-method evaluation, evidence synthesis, implementation evaluation |
 
 ::: {.callout-tip}

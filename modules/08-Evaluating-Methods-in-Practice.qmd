@@ -1170,10 +1170,6 @@ Although different methods estimate the counterfactual in different ways, they a
 The stronger the evaluation design, the greater our confidence in the conclusions—but no evaluation can eliminate uncertainty completely.
 :::
 
-## Choosing the Right Evaluation Method
-
-![](../images/ChoosingRightEvaluationMethod.png)
-
 ## Key Takeaways
 
 - improvement alone does not prove impact
@@ -1196,11 +1192,10 @@ Good evaluation asks:
 - Was the evaluation large enough to be informative?
 - How strong is our confidence in attribution?
 
----
 
-## Choosing an Evaluation Method
+## Choosing the Right Evaluation Method
 
-
+![](../images/ChoosingRightEvaluationMethod.png)
 
 
 ## Further Reading

@@ -108,7 +108,7 @@ def load_css():
 
          .stButton > button:hover {
         
-            background:#4F94DA;
+            background:#5A9FE3;
         
             color:white;
         

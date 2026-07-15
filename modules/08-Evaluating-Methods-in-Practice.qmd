@@ -1148,8 +1148,8 @@ Different evaluation methods estimate the counterfactual in different ways.
 | **Did it work?** | Compare outcomes with what would probably have happened without the intervention. | Randomised Controlled Trial (RCT), Interrupted Time Series (ITS), Difference-in-Differences (DiD), Controlled ITS |
 | **How was it implemented?** | Understand how the intervention was delivered and whether implementation influenced outcomes. | Process evaluation, implementation evaluation, qualitative interviews |
 | **Why did it work (or not)?** | Explore the mechanisms that contributed to success or failure. | Qualitative research, Realist Evaluation |
-| **Did it work consistenntly across organisations?** | Multi-site evaluation, mixed-effects models, meta-analysis | 
-| **Was it worth it?** | Compare the benefits achieved against the resources invested. | Health economics |
+| **Did it work consistently across organisations?** | Compare patterns of change across multiple organisations while accounting for differences in starting position, trends and implementation. | Multi-site evaluation, mixed-effects models, meta-analysis | 
+| **Was it worth it?** | Compare the benefits achieved against the resources invested. | Health economics, Cost-effectiveness analysis, cost-benefit analysis, cost-utility analysis |
 | **Should we scale it?** | Combine evidence on effectiveness, implementation, value and context to judge wider adoption. | Mixed-method evaluation, evidence synthesis, implementation evaluation |
 
 ::: {.callout-tip}
@@ -1178,6 +1178,7 @@ The stronger the evaluation design, the greater our confidence in the conclusion
 - some improvement may happen naturally
 - trajectories matter
 - comparison groups strengthen confidence
+ - the evaluation question should determine the evaluation method
 
 Good evaluation asks:
 
@@ -1192,6 +1193,55 @@ Good evaluation asks:
 - How strong is our confidence in attribution?
 
 ---
+
+## Choosing an Evaluation Method
+
+What are you trying to evaluate?
+
+        │
+        ▼
+
+Can you randomise?
+
+Yes → RCT
+
+No
+
+↓
+
+Do you have observations over time?
+
+↓
+
+Yes
+
+↓
+
+Interrupted Time Series
+
+↓
+
+Do you have a comparison group?
+
+↓
+
+Yes
+
+↓
+
+Difference-in-Differences
+
+↓
+
+No
+
+↓
+
+Can qualitative evidence strengthen interpretation?
+
+↓
+
+Mixed-method evaluation
 
 ## Further Reading
 

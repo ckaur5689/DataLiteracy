@@ -1134,7 +1134,27 @@
     "href": "modules/08-Evaluating-Methods-in-Practice.html#key-message-1",
     "title": "Module 8 — Evaluation Methods in Practice",
     "section": "Key Message",
-    "text": "Key Message\nSmall pilots and extreme patient groups can easily mislead evaluation.\nHealthcare systems should therefore ask:\n\nAre we observing genuine intervention impact — or natural fluctuation?\n\nGood evaluation becomes stronger when we ask:\n\nDo we have enough evidence?\n\nand\n\nCould improvement have happened anyway?\n\nBefore moving on, ask:\n\nIf outcomes improved, how confident are we that this reflects intervention impact rather than small numbers or natural fluctuation?\n\nIn the next section, we explore practical ways healthcare systems strengthen confidence in evaluation findings.\nIn Part 1 and Part 2 of this module, we explored:\n\nfair comparison through Randomised Controlled Trials (RCTs)\nwhy small numbers can mislead\nstatistical power\nRegression to the Mean\n\nYet another challenge remains.\nHealthcare systems rarely operate in perfect conditions.\nLeaders often need to evaluate schemes:\n\nquickly\nunder operational pressure\nwithout randomisation\nwhile multiple changes happen simultaneously\n\nIn reality:\n\nRCTs are often difficult, expensive or impractical\n\nThis creates an important question:\n\nHow can healthcare systems strengthen evaluation when RCTs are unrealistic?\n\nTwo practical approaches commonly used in healthcare evaluation are:\n\nInterrupted Time Series (ITS)\n\nand\n\nDifference-in-Differences (DiD)\n\nThese approaches do not eliminate uncertainty.\nInstead:\n\nthey improve confidence in findings by creating stronger comparisons.",
+    "text": "Key Message\nSmall pilots and extreme patient groups can easily mislead evaluation.\nHealthcare systems should therefore ask:\n\nAre we observing genuine intervention impact — or natural fluctuation?\n\nGood evaluation becomes stronger when we ask:\n\nDo we have enough evidence?\n\nand\n\nCould improvement have happened anyway?",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "modules/08-Evaluating-Methods-in-Practice.html#part-2-confidence-small-numbers-natural-fluctuation",
+    "href": "modules/08-Evaluating-Methods-in-Practice.html#part-2-confidence-small-numbers-natural-fluctuation",
+    "title": "Module 8 — Evaluation Methods in Practice",
+    "section": "Part 2 — Confidence, Small Numbers & Natural Fluctuation",
+    "text": "Part 2 — Confidence, Small Numbers & Natural Fluctuation\nBefore moving on, ask:\n\nIf outcomes improved, how confident are we that this reflects intervention impact rather than small numbers or natural fluctuation?\n\nIn the next section, we explore practical ways healthcare systems strengthen confidence in evaluation findings.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "modules/08-Evaluating-Methods-in-Practice.html#part-3-strengthening-evaluation-in-real-world-healthcare",
+    "href": "modules/08-Evaluating-Methods-in-Practice.html#part-3-strengthening-evaluation-in-real-world-healthcare",
+    "title": "Module 8 — Evaluation Methods in Practice",
+    "section": "Part 3 — Strengthening Evaluation in Real-World Healthcare",
+    "text": "Part 3 — Strengthening Evaluation in Real-World Healthcare\nIn Part 1 and Part 2 of this module, we explored:\n\nfair comparison through Randomised Controlled Trials (RCTs)\nwhy small numbers can mislead\nstatistical power\nRegression to the Mean\n\nYet another challenge remains.\nHealthcare systems rarely operate in perfect conditions.\nLeaders often need to evaluate schemes:\n\nquickly\nunder operational pressure\nwithout randomisation\nwhile multiple changes happen simultaneously\n\nIn reality:\n\nRCTs are often difficult, expensive or impractical\n\nThis creates an important question:\n\nHow can healthcare systems strengthen evaluation when RCTs are unrealistic?\n\nTwo practical approaches commonly used in healthcare evaluation are:\n\nInterrupted Time Series (ITS)\n\nand\n\nDifference-in-Differences (DiD)\n\nThese approaches do not eliminate uncertainty.\nInstead:\n\nthey improve confidence in findings by creating stronger comparisons.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]
@@ -1240,6 +1260,16 @@
     ]
   },
   {
+    "objectID": "modules/08-Evaluating-Methods-in-Practice.html#choosing-the-right-evaluation-method",
+    "href": "modules/08-Evaluating-Methods-in-Practice.html#choosing-the-right-evaluation-method",
+    "title": "Module 8 — Evaluation Methods in Practice",
+    "section": "Choosing the Right Evaluation Method",
+    "text": "Choosing the Right Evaluation Method",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
+    ]
+  },
+  {
     "objectID": "modules/08-Evaluating-Methods-in-Practice.html#key-takeaways",
     "href": "modules/08-Evaluating-Methods-in-Practice.html#key-takeaways",
     "title": "Module 8 — Evaluation Methods in Practice",
@@ -1264,7 +1294,7 @@
     "href": "modules/08-Evaluating-Methods-in-Practice.html#choosing-an-evaluation-method",
     "title": "Module 8 — Evaluation Methods in Practice",
     "section": "Choosing an Evaluation Method",
-    "text": "Choosing an Evaluation Method\nWhat are you trying to evaluate?\n    │\n    ▼\nCan you randomise?\nYes → RCT\nNo\n↓\nDo you have observations over time?\n↓\nYes\n↓\nInterrupted Time Series\n↓\nDo you have a comparison group?\n↓\nYes\n↓\nDifference-in-Differences\n↓\nNo\n↓\nCan qualitative evidence strengthen interpretation?\n↓\nMixed-method evaluation",
+    "text": "Choosing an Evaluation Method",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Module 8 — Evaluation Methods in Practice</span>"
     ]

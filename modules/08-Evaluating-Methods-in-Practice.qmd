@@ -1170,6 +1170,10 @@ Although different methods estimate the counterfactual in different ways, they a
 The stronger the evaluation design, the greater our confidence in the conclusions—but no evaluation can eliminate uncertainty completely.
 :::
 
+## Choosing the Right Evaluation Method
+
+![](../images/ChoosingRightEvaluationMethod.png)
+
 ## Key Takeaways
 
 - improvement alone does not prove impact
@@ -1196,52 +1200,8 @@ Good evaluation asks:
 
 ## Choosing an Evaluation Method
 
-What are you trying to evaluate?
 
-        │
-        ▼
 
-Can you randomise?
-
-Yes → RCT
-
-No
-
-↓
-
-Do you have observations over time?
-
-↓
-
-Yes
-
-↓
-
-Interrupted Time Series
-
-↓
-
-Do you have a comparison group?
-
-↓
-
-Yes
-
-↓
-
-Difference-in-Differences
-
-↓
-
-No
-
-↓
-
-Can qualitative evidence strengthen interpretation?
-
-↓
-
-Mixed-method evaluation
 
 ## Further Reading
 

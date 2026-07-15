@@ -17,7 +17,7 @@ def load_css():
 
         .block-container {
             max-width: 1400px;
-            padding-top: 6rem;
+            padding-top: 5rem;
             padding-bottom: 3rem;
         }
 

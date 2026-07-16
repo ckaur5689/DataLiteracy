@@ -47,8 +47,6 @@ It emerges from the interaction between all three.
 Understanding this interaction is fundamental to improving healthcare systems.
 :::
 
----
-
 # Demand, Capacity and Flow Are Interdependent
 
 Healthcare systems perform well only when demand, capacity and flow are considered together.
@@ -69,8 +67,6 @@ For example:
 
 Improving one component alone rarely produces sustainable improvement.
 
----
-
 # Demand Is Not The Same As Activity
 
 Demand represents the **need** for healthcare.
@@ -87,8 +83,6 @@ For example:
 * cancelled appointments reduce activity but not demand
 
 Understanding this distinction is essential.
-
----
 
 # Capacity Is More Than Beds and Staff
 
@@ -112,8 +106,6 @@ A hospital with available beds but no discharge capacity is still constrained.
 
 Similarly, additional staff cannot improve performance if another part of the system limits patient flow.
 
----
-
 # Flow Is Where Systems Succeed or Fail
 
 Patients move through a sequence of healthcare services rather than a single department.
@@ -129,8 +121,6 @@ Removing the bottleneck improves performance across the whole pathway.
 Every handover introduces the potential for delay.
 
 Healthcare therefore behaves as a connected network rather than a collection of independent departments.
-
----
 
 # Bottlenecks
 
@@ -153,8 +143,6 @@ Common bottlenecks include:
 Improving a non-bottleneck often has surprisingly little effect on overall performance.
 
 Removing or reducing the bottleneck usually produces the greatest system-wide benefit.
-
----
 
 # Why Averages Can Mislead Operational Decisions
 
@@ -288,7 +276,7 @@ This creates an important system dynamic:
 
 The size of the waiting list therefore depends on the balance between these two flows.
 
-![](images/UnderstandingRTTandWaitingListDynamics.png)
+![](../images/UnderstandingRTTandWaitingListDynamics.png)
 
 The waiting list behaves like a queue. 
 

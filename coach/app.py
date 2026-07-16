@@ -42,7 +42,7 @@ with col1:
     </p>
 
     <div class="hero-badge">
-    📘 Companion to the Health Data Literacy Programme
+    📘 Based on the Health Data Literacy Programme
     </div>
 
     </div>

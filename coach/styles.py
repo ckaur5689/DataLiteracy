@@ -69,7 +69,7 @@ def load_css():
 
         .hero-tagline {
             font-size: 1.2rem;
-            color: rgba(255,255,255,0.85);
+            color: rgba(255, 255, 255, 0.94);
             text-align: center;
             margin-bottom: 2rem;
         }

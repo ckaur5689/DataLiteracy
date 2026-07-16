@@ -11,8 +11,6 @@ By the end of this module you should be able to:
 * Recognise how variation creates queues and delays.
 * Ask better questions when interpreting operational data.
 
----
-
 # Why This Matters
 
 Every healthcare organisation experiences pressure.

@@ -43,14 +43,14 @@ def load_css():
             border-radius: 18px;
             padding: 15px 30px;
             margin-top: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             text-align: center;
             box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
         }
 
         .hero-title {
             color: #F8FAFC !important;
-            font-size: 2rem;
+            font-size: 1.9rem;
             font-weight: 700;
             line-height: 1.1;
             margin-top: 0;

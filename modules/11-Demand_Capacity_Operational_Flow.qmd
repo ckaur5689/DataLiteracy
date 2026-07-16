@@ -225,7 +225,7 @@ Healthcare behaves as a connected system.
 
 Changes in one part of the pathway frequently have consequences elsewhere.
 
-As illustrated in the figure below, Improving one part of the pathway does not necessarily improve the whole pathway.
+**As illustrated in the figure below, improving one part of the healthcare system does not necessarily improve the performance of the whole system.**
 
 ![](../images/Whole_System_Ripple_Effect.png)
 
@@ -266,7 +266,7 @@ Instead it is:
 
 Improving one part of the system rarely improves the whole system.
 
-Sustainable improvement comes from understanding how **demand**, **capacity** and **flow** interact across the entire healthcare pathway.
+Sustainable improvement comes from understanding how demand, capacity and patient flow interact across the entire healthcare system.
 :::
 
 ## ⭐ Worked Example: Why Can the Waiting List Grow While RTT Performance Improves?
@@ -294,7 +294,7 @@ The size of the waiting list therefore depends on the balance between these two 
 
 The waiting list behaves like a queue. 
 
-The waiting list is a stock, while RTT clock starts and RTT clock finishes are flows into and out of that stock.
+**The waiting list is the stock, while RTT clock starts and RTT clock finishes are the flows into and out of that stock.**
 
 If **RTT clock starts exceed RTT clock finishes**, the waiting list grows.
 
@@ -458,8 +458,14 @@ The greatest pressure within a healthcare system is not always where the underly
 
 As a leader, ask yourself:
 
-If I remove pressure here, am I solving the system constraint—or simply moving it somewhere else?
+**If I remove pressure here, have I solved the underlying constraint—or simply moved the pressure elsewhere?**
 
 :::
 
-> **Looking at one performance measure in isolation may obscure important pressures elsewhere in the healthcare system.**
+::: {.callout-important}
+## The Big Picture
+
+Looking at one performance measure in isolation may obscure important pressures elsewhere in the healthcare system.
+
+Understanding how **demand**, **capacity** and **patient flow** interact is fundamental to improving healthcare systems.
+:::

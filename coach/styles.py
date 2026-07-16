@@ -126,6 +126,15 @@ def load_css():
             transform: translateY(1px);
         }
 
+        .challenge-card {
+        transition: all 0.25s ease;
+        }
+
+        .challenge-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+
 
         /* ==================================================
            PRIMARY BUTTON — RECOMMEND MY LEARNING PATH

@@ -54,7 +54,7 @@ with col1:
 
 with col2:
     if book_cover.exists():
-        st.markdown('<div style="margin-top: 10px;">', unsafe_allow_html=True)
+        st.markdown('<div style="margin-top:40px;">', unsafe_allow_html=True)
         st.image(book_cover, width=300)
         st.markdown("</div>", unsafe_allow_html=True)
     else:

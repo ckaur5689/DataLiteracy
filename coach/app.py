@@ -54,35 +54,14 @@ with col1:
 
 with col2:
     if book_cover.exists():
-        st.markdown(
-            '<div style="margin-top:40px; text-align:center;">',
-            unsafe_allow_html=True
-        )
-
         st.image(book_cover, width=300)
 
-        st.markdown(
-            """
-            <div style="text-align:center; margin-top:10px;">
-                ckaur5689.github.io/DataLiteracy/Book_Cover.html"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   style="
-                       display:inline-block;
-                       padding:10px 20px;
-                       background:#16a34a;
-                       color:white;
-                       text-decoration:none;
-                       border-radius:10px;
-                       font-weight:600;">
-                    View Book Details
-                </a>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-        st.markdown("</div>", unsafe_allow_html=True)
+        c1, c2, c3 = st.columns([1, 2, 1])
+        with c2:
+            st.link_button(
+                "View Book Details",
+                "https://ckaur5689.github.io/DataLiteracy/Book_Cover.html"
+            )
 
     else:
         st.warning("Book cover image not found.")

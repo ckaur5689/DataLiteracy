@@ -154,9 +154,29 @@ def load_css():
         div[data-testid="stBaseButton-primary"] > button:hover {
             background: #157347 !important;
             color: #FFFFFF !important;
-            transform: translateY(-2px) !important;
-            box-shadow: 0 6px 15px rgba(25, 135, 84, 0.32) !important;
+        
+            border: 2px solid #FFFFFF !important;
+        
+            transform: translateY(-2px) scale(1.01) !important;
+        
+            box-shadow:
+                0 0 0 2px #198754,
+                0 8px 18px rgba(25,135,84,.35) !important;
+        
+            transition: all 0.2s ease;
         }
+
+       button[kind="primary"]:active,
+       div[data-testid="stBaseButton-primary"] > button:active {
+        
+            border: 2px solid #FFFFFF !important;
+        
+            background: #146C43 !important;
+        
+            transform: translateY(1px) !important;
+        
+        }
+    
 
 
         /* ==================================================

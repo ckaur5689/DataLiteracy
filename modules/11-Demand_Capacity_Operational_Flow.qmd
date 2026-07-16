@@ -288,7 +288,7 @@ This creates an important system dynamic:
 
 The size of the waiting list therefore depends on the balance between these two flows.
 
-![](images/UnderstandingRTTandWaitingListDynamics.png){fig-align="center"}
+![](images/UnderstandingRTTandWaitingListDynamics.png)
 
 The waiting list behaves like a queue. 
 

@@ -109,3 +109,4 @@ modules:
       - Is the issue demand, capacity or flow?
       - Where is the bottleneck?
       - Are averages hiding peaks and variation?
+      - Why are waiting lists growing despite more outpatient appointments, clock starts and RTT performance?

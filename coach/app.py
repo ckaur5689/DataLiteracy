@@ -60,7 +60,7 @@ with col2:
         with c2:
             st.link_button(
                 "View Book Details",
-                "https://ckaur5689.github.io/DataLiteracy/Book_Cover.html"
+                "https://ckaur5689.github.io/DataLiteracy/"
             )
 
     else:

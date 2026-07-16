@@ -41,29 +41,29 @@ def load_css():
         .top-panel {
             background: linear-gradient(135deg, #005EB8, #2F80D1);
             border-radius: 18px;
-            padding: 15px 40px;
-            margin-top: 35px;
-            margin-bottom: 36px;
+            padding: 15px 30px;
+            margin-top: 15px;
+            margin-bottom: 20px;
             text-align: center;
             box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
         }
 
         .hero-title {
             color: #F8FAFC !important;
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 700;
             line-height: 1.1;
             margin-top: 0;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
         }
 
         .hero-subtitle {
             color: rgba(255, 255, 255, 0.94) !important;
-            font-size: 1.25rem;
+            font-size: 1.05rem;
             font-weight: 400;
             line-height: 1.5;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         .hero-badge {
@@ -72,8 +72,8 @@ def load_css():
             color: #FFFFFF;
             border: 1px solid rgba(255, 255, 255, 0.30);
             border-radius: 999px;
-            padding: 10px 18px;
-            font-size: 1rem;
+            padding: 8px 16px;
+            font-size: 0.9rem;
         }
 
 

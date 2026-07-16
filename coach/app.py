@@ -39,6 +39,8 @@ with col1:
 
     <p class="hero-subtitle">
     Helping healthcare leaders ask better questions.
+
+    Interpret dashboards, challenge assumptions and make better decisions.
     </p>
 
     <div class="hero-badge">

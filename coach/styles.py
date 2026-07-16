@@ -50,11 +50,11 @@ def load_css():
 
         .hero-title {
             color: #F8FAFC !important;
-            font-size: 2.8rem;
+            font-size: 2.5rem;
             font-weight: 700;
-            line-height: 1.15;
+            line-height: 1.1;
             margin-top: 0;
-            margin-bottom: 12px;
+            margin-bottom: 0.5rem;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
         }
 

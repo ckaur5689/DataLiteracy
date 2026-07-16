@@ -244,8 +244,6 @@ Problems originating outside hospital—such as reduced community capacity or de
 
 Understanding these ripple effects is essential when designing improvement programmes.
 
----
-
 # Why This Matters for Decision-Makers
 
 Many operational problems cannot be solved simply by increasing resources.
@@ -275,7 +273,80 @@ Improving one part of the system rarely improves the whole system.
 Sustainable improvement comes from understanding how **demand**, **capacity** and **flow** interact across the entire healthcare pathway.
 :::
 
----
+## ⭐ Worked Example: Why Can the Waiting List Grow While RTT Performance Improves?
+
+Imagine an NHS organisation successfully increases the number of **first outpatient appointments** available in an effort to improve access to elective care.
+
+More patients are seen sooner following referral, resulting in:
+
+- more **RTT clock starts**
+- more patients entering the elective treatment pathway
+- improved access to specialist assessment
+
+At first glance, this appears to be an unequivocal improvement.
+
+However, if treatment capacity (for example, diagnostics, operating theatres or clinical workforce) does **not** increase at the same rate, more patients may enter the waiting list than leave it.
+
+This creates an important system dynamic:
+
+- **RTT clock starts** represent patients entering the waiting list.
+- **RTT clock finishes** represent patients leaving the waiting list.
+
+The size of the waiting list therefore depends on the balance between these two flows.
+
+![](images/UnderstandingRTTandWaitingListDynamics.png){fig-align="center"}
+
+The waiting list behaves like a queue.
+
+If **RTT clock starts exceed RTT clock finishes**, the waiting list grows.
+
+If **RTT clock finishes exceed RTT clock starts**, the waiting list reduces.
+
+The balance between these two flows determines whether the waiting list expands, contracts or remains stable.
+
+One additional complexity is that organisations may improve their reported **18-week RTT performance** by prioritising patients who are approaching the constitutional 18-week standard.
+
+While this improves performance against the target, it does **not necessarily reduce the overall waiting list** if RTT clock starts continue to exceed RTT clock finishes.
+
+::: {.callout-important}
+## Key Learning
+
+Healthcare systems should be understood as **stocks and flows**, not simply as individual performance measures.
+
+Improving one performance metric does not necessarily mean the overall healthcare system has improved.
+
+Healthcare systems should be understood as **interconnected stocks and flows**, where changes in one part of the pathway often influence another.
+
+Understanding how patients **enter**, **move through** and **leave** the pathway is often more informative than looking at one performance indicator in isolation.
+:::
+
+## Questions Decision-Makers Should Ask
+
+Before concluding that elective performance has improved, ask:
+
+- Has referral demand increased?
+- Have first outpatient appointments increased?
+- Has treatment capacity increased by the same amount?
+- Are RTT clock finishes keeping pace with RTT clock starts?
+- Is the waiting list growing, shrinking or remaining stable?
+- Are we improving patient flow through the whole pathway, or simply optimising one part of it?
+- Which metric best reflects the performance of the **whole pathway**, rather than just one part of it?
+
+Understanding the interaction between **demand**, **capacity** and **patient flow** provides a much richer picture of system performance than any single metric alone.
+
+Looking at one performance measure in isolation may obscure important pressures elsewhere in the healthcare system.
+
+::: {.callout-tip}
+## Looking Beyond Elective Care
+
+The same principles apply across many areas of healthcare.
+
+Whether considering **Emergency Departments, diagnostics, community services, mental health, cancer pathways or elective care**, healthcare systems are fundamentally influenced by the interaction between **demand**, **capacity** and **patient flow**.
+
+Understanding how patients **enter**, **move through** and **leave** a pathway often provides far greater insight than focusing on individual performance measures in isolation.
+
+This systems perspective is one of the foundations of effective healthcare improvement.
+:::
 
 # Key Takeaways
 
@@ -287,8 +358,6 @@ Sustainable improvement comes from understanding how **demand**, **capacity** an
 * High utilisation is not always efficient.
 * Improving non-bottlenecks often has limited impact.
 * Whole-system thinking is usually more valuable than optimising individual departments.
-
----
 
 # Questions Decision-Makers Should Ask
 
@@ -320,8 +389,6 @@ The immediate assumption is:
 
 > **The hospital needs more beds.**
 
----
-
 ### Initial Response
 
 The organisation considers:
@@ -334,7 +401,6 @@ Each of these actions may provide short-term relief.
 
 However, several months later, performance remains largely unchanged.
 
----
 
 ### Looking Deeper
 
@@ -353,8 +419,6 @@ As a result:
 
 The apparent **hospital capacity problem** is actually a **patient flow problem**.
 
----
-
 ### Understanding the System
 
 The visible pressure occurs in the Emergency Department.
@@ -366,8 +430,6 @@ Improving discharge capacity may release considerably more effective hospital ca
 This illustrates an important systems principle:
 
 > **The constraint is not always where the pressure is most visible.**
-
----
 
 ### Applying Systems Thinking
 
@@ -382,8 +444,6 @@ decision-makers might instead ask:
 * Which organisations influence discharge?
 * Would investment in community services have a greater system-wide impact?
 * Are we solving the bottleneck—or simply moving it elsewhere?
-
----
 
 ### Lessons Learned
 

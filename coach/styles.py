@@ -60,12 +60,20 @@ def load_css():
 
         .hero-subtitle {
             color: rgba(255, 255, 255, 0.94) !important;
-            font-size: 1.05rem;
+            font-size: 1.6rem;
             font-weight: 400;
             line-height: 1.5;
-            margin-bottom: 10px;
+            text-align: center;
+            margin-bottom: 0.5rem;
         }
 
+        .hero-tagline {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.85);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+ 
         .hero-badge {
             display: inline-block;
             background: rgba(255, 255, 255, 0.12);

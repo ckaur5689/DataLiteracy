@@ -3,110 +3,184 @@ modules:
   - id: module1
     title: Counts vs Rates
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/01-Counts-vs-Rates.html
-    keywords: [count, counts, rate, rates, denominator, population, activity]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/01-Counts-vs-Rates.html"
+    keywords: [count, counts, number, numbers, rate, rates, percentage, percentages, proportion, proportions, denominator, numerator, population, population size, activity, volume, prevalence, incidence, per capita, per head, comparison, comparing areas, small numbers]
     questions:
-      - Are we comparing counts or rates?
-      - Has the denominator been considered?
-      - Are populations comparable?
+      - Are we looking at counts, rates, percentages or proportions?
+      - What is included in the numerator?
+      - What population or activity is included in the denominator?
+      - Has population size been taken into account?
+      - Are the denominators defined consistently across the groups being compared?
+      - Could a change in the denominator explain the apparent change?
+      - Are small numbers making the rate unstable?
+      - Would showing both the count and the rate change the interpretation?
 
   - id: module2
     title: Mean vs Median
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/02-Mean-vs-Median.html
-    keywords: [mean, median, average, outlier, skew, distribution, length of stay]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/02-Mean-vs-Median.html"
+    keywords: [mean, median, average, averages, typical, typical patient, outlier, outliers, extreme value, extreme values, skew, skewed, distribution, spread, range, length of stay, waiting time, waiting times, cost, costs, high users, long stay, unusual cases]
     questions:
-      - Is the data skewed?
-      - Would the median be more appropriate than the mean?
-      - Are outliers affecting the interpretation?
+      - Is the distribution symmetrical or skewed?
+      - Would the median describe the typical experience better than the mean?
+      - Are a small number of extreme values influencing the average?
+      - Is the range or interquartile range also shown?
+      - Does the average hide important differences between patients or groups?
+      - Are we using the same definition of average throughout the analysis?
+      - Would showing the full distribution change the interpretation?
+      - Which measure is most relevant to the decision being made?
 
   - id: module3
     title: Correlation vs Causation
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/03-Correlation-vs-Causation.html
-    keywords: [correlation, causation, cause, relationship, association, impact, effect]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/03-Correlation-vs-Causation.html"
+    keywords: [correlation, causation, causal, cause, caused, relationship, association, linked, connection, driver, impact, effect, influence, confounding, confounder, underlying factor, reverse causation, made a difference, because of, leads to, linked to, related to]
     questions:
-      - Does this show causation or only association?
-      - What else could explain the relationship?
-      - Do we need a stronger evaluation design?
+      - Does the analysis show causation or only an association?
+      - Could another factor explain both the supposed cause and the outcome?
+      - Which potential confounders have been considered?
+      - Did the supposed cause occur before the outcome?
+      - Is there a plausible mechanism linking the two?
+      - Could reverse causation explain the relationship?
+      - Is the relationship consistent across populations and time periods?
+      - What additional evidence would increase confidence in a causal conclusion?
 
   - id: module4
     title: Variation and Distributions
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/04-Variation-&-Distributions.html
-    keywords: [variation, distribution, spread, range, normal, skew, common cause, special cause]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/04-Variation-&-Distributions.html"
+    keywords: [variation, variability, distribution, spread, range, standard deviation, skew, skewed, outlier, outliers, common cause, special cause, signal, noise, random variation, normal variation, unusual change, meaningful change, fluctuation, control chart, statistical process control, spc, seasonality, performance change]
     questions:
-      - Is this normal variation or a meaningful change?
-      - What does the distribution look like?
-      - Are we reacting to noise?
+      - Is this normal variation or evidence of a meaningful change?
+      - What does the full distribution look like?
+      - Are we reacting to a single data point rather than a sustained pattern?
+      - Is the apparent outlier genuinely unusual?
+      - Has the measure moved beyond its expected limits?
+      - Could seasonality explain the pattern?
+      - Are averages hiding variation between patients, places or time periods?
+      - What action is justified by the pattern we can see?
 
   - id: module5
     title: Standardisation and Fair Comparison
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/05-Standardisation-&-Fair-Comparison.html
-    keywords: [trend, metric, performance, standardisation, fair comparison, case mix, age, deprivation, adjustment, benchmark]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/05-Standardisation-&-Fair-Comparison.html"
+    keywords: [standardisation, standardization, standardised, standardized, fair comparison, compare fairly, like for like, comparing areas, comparing organisations, case mix, risk adjustment, adjusted rate, age adjustment, age profile, deprivation, population structure, population differences, morbidity, complexity, benchmark, benchmarking, observed, expected, smr, indirectly standardised, directly standardised]
     questions:
       - Are we comparing like with like?
-      - Has case mix been adjusted for?
+      - Do the populations differ in age, deprivation, morbidity or case mix?
+      - Has an appropriate adjustment method been used?
+      - Which characteristics were included in the adjustment?
+      - Could the adjustment hide genuine operational differences?
+      - Is the benchmark appropriate for this population and service?
+      - Are observed and expected values clearly explained?
       - Could differences reflect population structure rather than performance?
+      - Does the comparison remain meaningful after adjustment?
 
   - id: module6
     title: How to Read a Dashboard
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/06-How-to-Read-a-Dashboard.html
-    keywords: [dashboard, kpi, metric, rag, trend, performance, indicator]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/06-How-to-Read-a-Dashboard.html"
+    keywords: [dashboard, dashboards, kpi, kpis, metric, metrics, measure, measures, indicator, indicators, performance, trend, trends, rag, red amber green, red rating, target, targets, trajectory, benchmark, chart, charts, visualisation, visualization, reporting, performance report, data quality, drill down, monthly performance]
     questions:
-      - What decision is this dashboard supporting?
-      - Are the metrics clearly defined?
-      - Are we seeing signal or noise?
+      - What decision is this dashboard intended to support?
+      - Are the measures clearly and consistently defined?
+      - What period does the data cover?
+      - Are we seeing a trend, a signal or normal variation?
+      - Is the RAG rating based on a meaningful threshold?
+      - Are counts, rates and denominators clearly shown?
+      - What important context is missing from the dashboard?
+      - Are data quality, completeness and timeliness visible?
+      - Which measures are outcomes and which are process measures?
+      - What action should follow from what the dashboard shows?
 
   - id: module7
     title: Thinking About Evidence and Evaluation
     pathway: Evaluation
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/07-Thinking-About-Evidence-&-Evaluation.html
-    keywords: [evidence, evaluation, intervention, scheme, pilot, impact, attribution, pathway]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/07-Thinking-About-Evidence-&-Evaluation.html"
+    keywords: [evidence, evaluation, evaluate, intervention, scheme, pilot, pathway, service change, transformation, initiative, programme, impact, outcome, improvement, effectiveness, has it worked, did it work, made a difference, success, benefits, theory of change, logic model, counterfactual, attribution, unintended consequence, evaluation planning]
     questions:
-      - What evidence do we currently have?
+      - What decision will the evaluation inform?
+      - What problem is the intervention intended to address?
       - What outcome are we trying to change?
+      - How is the intervention expected to produce that outcome?
       - What would have happened without the intervention?
+      - What evidence do we currently have?
+      - What evidence would increase confidence?
+      - Are the intended beneficiaries clearly defined?
+      - Could there be unintended consequences elsewhere in the system?
+      - When and how should success be assessed?
 
   - id: module8
     title: Evaluating Methods in Practice
     pathway: Evaluation
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/08-Evaluating-Methods-in-Practice.html
-    keywords: [evaluate, evidence, intervention, pathway, new, scheme, pilot, difference in differences, interrupted time series, control group, comparator, before after, regression to mean]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/08-Evaluating-Methods-in-Practice.html"
+    keywords: [evaluate, evaluation, evaluation method, has it worked, did it work, made a difference, intervention, pathway, pilot, scheme, service change, impact, effectiveness, attribution, comparator, comparison, comparison group, control group, counterfactual, before after, before and after, pre post, difference in differences, did, interrupted time series, its, randomised controlled trial, rct, matching, regression to mean, parallel trends]
     questions:
-      - Is there a suitable comparison group?
-      - Have trends before the intervention been considered?
-      - Could regression to the mean explain the change?
+      - Which evaluation design is feasible and proportionate?
+      - Is there a suitable comparison or control group?
+      - Are the intervention and comparison groups sufficiently similar?
+      - Have trends before the intervention been examined?
+      - Is the timing of implementation clearly defined?
+      - Could regression to the mean explain the apparent improvement?
+      - Were other initiatives introduced at the same time?
+      - Has seasonality been taken into account?
+      - Is there enough data before and after implementation?
+      - Are the assumptions of the chosen method plausible?
+      - How will uncertainty around the estimated impact be communicated?
+      - Could qualitative evidence help explain why the intervention worked or did not work?
 
   - id: module9
     title: Risk, Probability and Uncertainty
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/09-Risk-Probability-Uncertainty.html
-    keywords: [risk, probability, uncertainty, confidence, prediction, likelihood]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/09-Risk-Probability-Uncertainty.html"
+    keywords: [risk, risks, probability, chance, likelihood, uncertainty, uncertain, confidence, prediction, forecast, estimate, estimated, range, confidence interval, sensitivity, scenario, assumptions, absolute risk, relative risk, false positive, false negative, prediction accuracy, how certain, how confident, likely outcome]
     questions:
-      - How uncertain is this estimate?
-      - What assumptions are being made?
+      - What exactly does the probability or risk estimate represent?
+      - Is the risk absolute or relative?
+      - How uncertain is the estimate?
+      - Is a confidence interval or plausible range provided?
+      - What assumptions underpin the estimate?
+      - How sensitive is the conclusion to those assumptions?
+      - Does the estimate apply to this population?
+      - What are the consequences of a false positive or false negative?
+      - How should uncertainty influence the decision?
       - What decision can still be made despite uncertainty?
 
   - id: module10
     title: Common Analytical Traps and Data Fallacies
     pathway: Foundations
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/10-Common-Analytical-Traps-&-Data-Fallacies.html
-    keywords: [pathway, intervention, new, fallacy, bias, trap, misleading, cherry picking, regression to mean, data quality]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/10-Common-Analytical-Traps-&-Data-Fallacies.html"
+    keywords: [fallacy, fallacies, bias, biased, trap, analytical trap, misleading, misleading conclusion, wrong conclusion, false conclusion, cherry picking, selective evidence, regression to mean, data quality, missing data, selection bias, confirmation bias, survivorship bias, ecological fallacy, denominator problem, small numbers, confounding, spurious relationship, p hacking, assumption, assumptions, unreliable analysis]
     questions:
-      - Could this conclusion be misleading?
-      - Are we cherry-picking the evidence?
-      - What assumptions are hidden in the analysis?
+      - Could the conclusion be misleading?
+      - Has evidence been selectively presented?
+      - Were the measures or time periods chosen after seeing the results?
+      - Could selection bias affect the findings?
+      - Could regression to the mean explain the apparent improvement?
+      - Are small numbers creating unstable results?
+      - Are averages hiding important differences?
+      - Could missing or poor-quality data change the conclusion?
+      - Are assumptions being presented as facts?
+      - What alternative explanation has not been considered?
+      - Would the conclusion still hold with a different measure or comparison period?
 
   - id: module11
     title: Demand, Capacity and Operational Flow
     pathway: Systems
-    module_url: https://ckaur5689.github.io/DataLiteracy/modules/11-Demand_Capacity_Operational_Flow.html
-    keywords: [demand, capacity, flow, queue, waiting list, backlog, bottleneck, RTT, clock starts, clock stops, outpatients, electives]
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/11-Demand_Capacity_Operational_Flow.html"
+    keywords: [demand, capacity, flow, operational flow, patient flow, queue, queues, waiting, waiting time, waiting times, waiting list, waiting lists, backlog, bottleneck, constraint, utilisation, throughput, arrivals, departures, referrals, appointments, outpatient, outpatients, elective, electives, diagnostics, theatre, theatres, admissions, discharge, length of stay, bed occupancy, rtt, referral to treatment, clock starts, clock stops, more appointments, growing waiting list]
     questions:
-      - Is the issue demand, capacity or flow?
-      - Where is the bottleneck?
-      - Are averages hiding peaks and variation?
-      - Why are waiting lists growing despite more outpatient appointments, clock starts and RTT performance?
+      - Is the primary issue demand, capacity, flow or a combination of all three?
+      - How many patients are entering and leaving the pathway?
+      - Are arrivals consistently exceeding completions?
+      - Where is the main bottleneck or constraint?
+      - Is capacity available at the point where it is needed?
+      - Are averages hiding peaks, troughs or day-to-day variation?
+      - Is high utilisation reducing the system's ability to absorb variation?
+      - Is work accumulating between stages of the pathway?
+      - Are constraints in diagnostics, theatres, workforce or discharge affecting flow?
+      - Why might the waiting list grow even while RTT performance improves?
+      - Are additional outpatient appointments increasing RTT clock starts faster than treatments are completed?
+      - What could happen elsewhere in the pathway if capacity is increased at only one stage?
+      - Are activity, throughput, waiting time and outcomes being considered together?
+      - Which constraint should be addressed first?

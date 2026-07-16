@@ -39,9 +39,11 @@ with col1:
 
     <p class="hero-subtitle">
     Helping healthcare leaders ask better questions.
-
-    Interpret dashboards, challenge assumptions and make better decisions.
     </p>
+
+    <p class="hero-tagline">
+     Interpret dashboards, challenge assumptions and make better decisions.
+     </p>
 
     <div class="hero-badge">
     📘 Based on the Health Data Literacy Programme

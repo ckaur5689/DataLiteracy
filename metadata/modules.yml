@@ -104,7 +104,7 @@ modules:
     title: Demand, Capacity and Operational Flow
     pathway: Systems
     module_url: https://ckaur5689.github.io/DataLiteracy/modules/11-Demand_Capacity_Operational_Flow.html
-    keywords: [demand, capacity, flow, queue, waiting list, backlog, bottleneck]
+    keywords: [demand, capacity, flow, queue, waiting list, backlog, bottleneck, RTT, clock starts, clock stops, outpatients, electives]
     questions:
       - Is the issue demand, capacity or flow?
       - Where is the bottleneck?

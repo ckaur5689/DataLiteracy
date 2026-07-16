@@ -41,7 +41,7 @@ def load_css():
         .top-panel {
             background: linear-gradient(135deg, #005EB8, #2F80D1);
             border-radius: 18px;
-            padding: 30px 40px;
+            padding: 15px 40px;
             margin-top: 35px;
             margin-bottom: 36px;
             text-align: center;

@@ -56,6 +56,10 @@ with col2:
     if book_cover.exists():
         st.markdown('<div style="margin-top:40px;">', unsafe_allow_html=True)
         st.image(book_cover, width=300)
+        st.markdown(
+            '<div style="text-align:center; margin-top:10px;">'
+            '<a href="https://ckaur5689.github.io/DataLiteracy/Book_Cover.html" target="_blank">https:// unsafe_allow_html=True
+            )
         st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.warning("Book cover image not found.")

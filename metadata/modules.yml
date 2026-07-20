@@ -186,7 +186,7 @@ modules:
       - Which constraint should be addressed first?
 
   - id: module12
-    title: Data Quality, Assurance and Trustworthy-Data
+    title: Data Quality, Assurance and Trustworthy Data
     pathway: Systems
     module_url: "https://ckaur5689.github.io/DataLiteracy/modules/12-Data-Quality-Assurance-Trustworthy-Data.html"
     keywords: [healthcare data, data quality, data assurance, data maturity, master data, master data management, data governance, data structure, patient record, patient journey, spell, spells, episode, episodes, ward stay, ward stays, attribution, specialty attribution, pathway data, raw data, information, evidence, decision, validation, coding, data definitions, data lineage, data source, data flow, poor quality data]

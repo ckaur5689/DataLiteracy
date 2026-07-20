@@ -79,8 +79,6 @@ Similarly, a beautifully designed dashboard may create false confidence if the u
 
 ![](../images/PoorDataLeadsToPoorDecisions.png)
 
--->
-
 ::: {.callout-tip}
 ## A Useful Question
 
@@ -183,8 +181,6 @@ Similarly, interpreting delayed discharge data requires an understanding of how 
 
 ![](../images/UnderstandingHealthcareDataPathways.png)
 
--->
-
 ::: {.callout-important}
 ## Data Quality Requires Context
 
@@ -246,6 +242,24 @@ Before using a dataset, dashboard or analysis to support an important decision, 
 - What decision are we trying to make?
 - What level of confidence does that decision require?
 - Could known data limitations materially change the decision?
+
+::: {.callout-important}
+## Missing Data Can Introduce Bias
+
+Missing data is not always distributed randomly.
+
+If particular populations, services or geographical areas are systematically less well represented, the resulting analysis may provide an incomplete picture of need or outcomes.
+
+A dataset can therefore appear broadly complete while still being less reliable for particular groups.
+
+When assessing completeness, ask not only:
+
+> **"How much data is missing?"**
+
+but also:
+
+> **"Whose data is missing — and could that change our conclusions?"**
+:::
 
 # ⭐ Worked Example: When Falling Activity Does Not Mean Falling Demand
 
@@ -328,13 +342,6 @@ During that admission, the patient:
 4. is discharged home
 
 This represents **one patient journey**, but the underlying data may contain several different units of activity.
-
-| Unit | What It Represents |
-|---|---|
-| **Patient** | The individual receiving care. The same patient may have multiple admissions over time. |
-| **Hospital Provider Spell** | The continuous period from admission to discharge under the care of a hospital provider. |
-| **Consultant Episode** | A period during which a patient is under the care of a particular consultant or clinical specialty within the wider hospital spell. |
-| **Ward Stay** | A period during which the patient occupies or is associated with a particular ward or location. |
 
 | Unit | What It Represents |
 |---|---|
@@ -550,6 +557,50 @@ When reviewing performance attributed to a service, specialty or organisation, a
 Always understand **who gets the number — and why** before drawing conclusions from it.
 :::
 
+# Understanding Data Lineage
+
+Healthcare data often passes through several systems and transformations before it reaches a dashboard, report or analytical model.
+
+For example:
+
+**Clinical System → Data Warehouse → Data Transformation → Derived Metric → Dashboard**
+
+During this journey, data may be:
+
+- cleaned
+- recoded
+- aggregated
+- linked to other datasets
+- filtered
+- transformed into new measures
+
+Understanding **data lineage** means understanding where data originated and how it has changed as it moved through these processes.
+
+This becomes particularly important when an unexpected number appears in a report.
+
+Is the problem:
+
+- in the original source data?
+- in how data was extracted?
+- in a transformation rule?
+- in how datasets were linked?
+- in the calculation of the metric?
+- in how the final result was presented?
+
+::: {.callout-tip}
+## Follow the Data Back
+
+When a number looks unexpected, do not only ask:
+
+> **"Is this number correct?"**
+
+Also ask:
+
+> **"Where did this number come from, and what happened to the data before it reached me?"**
+
+Understanding data lineage makes it easier to identify where errors have been introduced and who is best placed to investigate them.
+:::
+
 # Metadata: Data About Data
 
 Metadata describes what data means.
@@ -748,10 +799,6 @@ It also requires:
 - organisational culture
 - data literacy
 - continuous improvement
-
-![](images/DataMaturityJourney.png)
-
--->
 
 ::: {.callout-tip}
 ## A Data Maturity Question for Leaders

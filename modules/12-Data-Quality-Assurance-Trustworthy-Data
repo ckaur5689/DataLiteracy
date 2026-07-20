@@ -11,7 +11,7 @@ By the end of this module you should be able to:
 - understand how definitions, coding and data collection processes can affect interpretation
 - distinguish between patients, hospital spells, consultant episodes and ward stays
 - understand how attribution decisions can change analytical conclusions
-- understand the role of data assurance, metadata and master data management
+- understand the role of data lineage, metadata, master data management and data assurance in supporting trustworthy information
 - recognise different levels of organisational data maturity
 - ask better questions before using data to support healthcare decisions
 
@@ -78,8 +78,6 @@ A sophisticated statistical model cannot compensate for fundamentally unreliable
 Similarly, a beautifully designed dashboard may create false confidence if the underlying data are incomplete, poorly defined or misunderstood.
 
 ![](../images/PoorDataLeadsToPoorDecisions.png)
-
--->
 
 ::: {.callout-tip}
 ## A Useful Question
@@ -183,8 +181,6 @@ Similarly, interpreting delayed discharge data requires an understanding of how 
 
 ![](../images/UnderstandingHealthcareDataPathways.png)
 
--->
-
 ::: {.callout-important}
 ## Data Quality Requires Context
 
@@ -246,6 +242,24 @@ Before using a dataset, dashboard or analysis to support an important decision, 
 - What decision are we trying to make?
 - What level of confidence does that decision require?
 - Could known data limitations materially change the decision?
+
+::: {.callout-important}
+## Missing Data Can Introduce Bias
+
+Missing data is not always distributed randomly.
+
+If particular populations, services or geographical areas are systematically less well represented, the resulting analysis may provide an incomplete picture of need or outcomes.
+
+A dataset can therefore appear broadly complete while still being less reliable for particular groups.
+
+When assessing completeness, ask not only:
+
+> **"How much data is missing?"**
+
+but also:
+
+> **"Whose data is missing — and could that change our conclusions?"**
+:::
 
 # ⭐ Worked Example: When Falling Activity Does Not Mean Falling Demand
 
@@ -336,12 +350,9 @@ This represents **one patient journey**, but the underlying data may contain sev
 | **Consultant Episode** | A period during which a patient is under the care of a particular consultant or clinical specialty within the wider hospital spell. |
 | **Ward Stay** | A period during which the patient occupies or is associated with a particular ward or location. |
 
-| Unit | What It Represents |
-|---|---|
-| **Patient** | The individual receiving care. The same patient may have multiple admissions over time. |
-| **Hospital Provider Spell** | The continuous period from admission to discharge under the care of a hospital provider. |
-| **Consultant Episode** | A period during which a patient is under the care of a particular consultant or clinical specialty within the wider hospital spell. |
-| **Ward Stay** | A period during which the patient occupies or is associated with a particular ward or location. |
+
+Note: The above is a simplified explanation of a Hospital Providee Spell.
+NHS data definitions include more detailed distinctions between episodes, hospital provider spells and continuous inpatient spells.
 
 The diagram below illustrates how a single patient journey can generate several different units of healthcare activity.
 
@@ -350,7 +361,7 @@ The diagram below illustrates how a single patient journey can generate several 
 A single hospital spell may therefore contain:
 
 - one patient
-- one hospital provider spell
+- one hospital provider spell 
 - multiple consultant episodes
 - multiple ward stays
 
@@ -550,6 +561,50 @@ When reviewing performance attributed to a service, specialty or organisation, a
 Always understand **who gets the number — and why** before drawing conclusions from it.
 :::
 
+# Understanding Data Lineage
+
+Healthcare data often passes through several systems and transformations before it reaches a dashboard, report or analytical model.
+
+For example:
+
+**Clinical System → Data Warehouse → Data Transformation → Derived Metric → Dashboard**
+
+During this journey, data may be:
+
+- cleaned
+- recoded
+- aggregated
+- linked to other datasets
+- filtered
+- transformed into new measures
+
+Understanding **data lineage** means understanding where data originated and how it has changed as it moved through these processes.
+
+This becomes particularly important when an unexpected number appears in a report.
+
+Is the problem:
+
+- in the original source data?
+- in how data was extracted?
+- in a transformation rule?
+- in how datasets were linked?
+- in the calculation of the metric?
+- in how the final result was presented?
+
+::: {.callout-tip}
+## Follow the Data Back
+
+When a number looks unexpected, do not only ask:
+
+> **"Is this number correct?"**
+
+Also ask:
+
+> **"Where did this number come from, and what happened to the data before it reached me?"**
+
+Understanding data lineage makes it easier to identify where errors have been introduced and who is best placed to investigate them.
+:::
+
 # Metadata: Data About Data
 
 Metadata describes what data means.
@@ -640,7 +695,7 @@ Equally, different labels may sometimes represent the same underlying entity.
 
 # Data Assurance
 
-Data quality asks whether data is sufficiently accurate, complete, consistent and appropriate for its intended use.
+**In simple terms, data quality concerns the characteristics of the data; data assurance concerns the processes that give us confidence in the data, analysis and resulting information.**
 
 **Data assurance** asks a broader question:
 
@@ -726,7 +781,7 @@ Some organisations rely heavily on individual analysts to identify and correct d
 
 Others have established organisation-wide standards, clear ownership and processes for continuously monitoring and improving data quality.
 
-A simplified data maturity model can help organisations consider their current position and identify where further development may be needed.
+The following is a simplified illustrative maturity model rather than a formal DAMA or NHS England maturity assessment framework.
 
 | Maturity Level | Characteristics |
 |---|---|
@@ -748,10 +803,6 @@ It also requires:
 - organisational culture
 - data literacy
 - continuous improvement
-
-![](images/DataMaturityJourney.png)
-
--->
 
 ::: {.callout-tip}
 ## A Data Maturity Question for Leaders
@@ -785,6 +836,9 @@ towards:
 
 The quality and representativeness of data becomes even more important when data is used to develop artificial intelligence and machine learning models.
 
+Data used to train AI models may also reflect historical patterns of healthcare access, recording and decision-making.
+A model can therefore learn patterns that are accurately represented in the data but do not necessarily represent equitable or desirable healthcare practice.
+
 Poor-quality or unrepresentative data can result in:
 
 - biased predictions
@@ -809,6 +863,8 @@ The more powerful the analytical method, the more important it becomes to unders
 Before relying on data or analysis, ask:
 
 - Where did this data come from?
+- What transformations has the data undergone before reaching this analysis?
+- Can we trace this metric back to its source?
 - What healthcare process or pathway generated it?
 - What exactly is being counted?
 - Is the data complete?
@@ -834,6 +890,7 @@ Before relying on data or analysis, ask:
 - Clinical coding and attribution rules can materially affect results.
 - The same patient journey can produce different analytical answers depending on definitions and attribution.
 - Metadata and master data management support consistent interpretation.
+- Understanding data lineage helps identify how information has changed between its source and the final analytical output.
 - Data assurance provides confidence in how information has been produced.
 - Persistent data quality problems often reflect organisational maturity rather than isolated analytical issues.
 - Trustworthy evidence begins with understanding the data beneath it.

@@ -2,8 +2,6 @@
 
 # Part 2 — How do we understand, improve and evaluate complex healthcare systems?
 
-![](images/Part2_MindMap.png)
-
 Part 2 moves beyond interpreting individual statistics and focuses on how healthcare systems behave, how interventions are designed and evaluated, and how evidence is brought together to support better decisions.
 
 The modules in this section explore:
@@ -17,8 +15,6 @@ The modules in this section explore:
 - health economics and value
 - evidence-informed decision-making
 - simulation and scenario modelling
-
----
 
 # Bringing Part 2 Together
 

@@ -183,6 +183,7 @@ modules:
       - Are additional outpatient appointments increasing RTT clock starts faster than treatments are completed?
       - What could happen elsewhere in the pathway if capacity is increased at only one stage?
       - Are activity, throughput, waiting time and outcomes being considered together?
+      - Which constraint should be addressed first?
 
   - id: module12
     title: Data Quality, Assurance and Trustworthy-Data
@@ -216,5 +217,4 @@ modules:
       - Is there a clear source of truth for key reference data?
       - Could poor-quality data propagate through the analysis and lead to a poor decision?
       - Do we understand the pathway behind the data well enough to interpret it safely?
-      
-      - Which constraint should be addressed first?
+

@@ -192,7 +192,7 @@ with col1:
         key="dashboard_card",
         use_container_width=True,
         on_click=select_challenge,
-        args=("Dashboard Interpretation",)
+        args=("Understanding Data & Dashboards",)
     )
 
 with col2:
@@ -210,7 +210,7 @@ with col3:
         key="population_card",
         use_container_width=True,
         on_click=select_challenge,
-        args=("Comparing Populations",)
+        args=("Populations & Fair Comparisons",)
     )
 
 col1, col2, col3 = st.columns(3)
@@ -221,7 +221,7 @@ with col1:
         key="risk_card",
         use_container_width=True,
         on_click=select_challenge,
-        args=("Risk, Probability & Uncertainty",)
+        args=("Risk, Modelling & Uncertainty",)
     )
 
 with col2:
@@ -230,7 +230,7 @@ with col2:
         key="capacity_card",
         use_container_width=True,
         on_click=select_challenge,
-        args=("Demand & Capacity",)
+        args=("athways, Demand & Flow",)
     )
 
 with col3:
@@ -239,7 +239,7 @@ with col3:
         key="economics_card",
         use_container_width=True,
         on_click=select_challenge,
-        args=("Health Economics",)
+        args=("Value & Health Economics",)
     )
 
 

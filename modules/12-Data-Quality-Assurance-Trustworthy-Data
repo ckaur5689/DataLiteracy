@@ -77,7 +77,7 @@ A sophisticated statistical model cannot compensate for fundamentally unreliable
 
 Similarly, a beautifully designed dashboard may create false confidence if the underlying data are incomplete, poorly defined or misunderstood.
 
-![](images/DataToDecision.png)
+![](../images/PoorDataLeadsToPoorDecisions.png)
 
 -->
 
@@ -181,10 +181,8 @@ For example, understanding elective waiting list data requires knowledge of:
 
 Similarly, interpreting delayed discharge data requires an understanding of how discharge readiness is identified, recorded and updated across the patient pathway.
 
-<!-- IMAGE PLACEHOLDER 2 -->
-<!-- Suggested image: images/UnderstandingThePathwayBehindTheData.png -->
-<!--
-![](images/UnderstandingThePathwayBehindTheData.png){fig-align="center"}
+![](../images/UnderstandingHealthcareDataPathways.png)
+
 -->
 
 ::: {.callout-important}
@@ -347,7 +345,7 @@ This represents **one patient journey**, but the underlying data may contain sev
 
 The diagram below illustrates how a single patient journey can generate several different units of healthcare activity.
 
-![](images/PatientSpellEpisodesWardStays.png)
+![](../images/HospitalDataHierarchy_PatientJourney.png)
 
 A single hospital spell may therefore contain:
 
@@ -512,7 +510,7 @@ If the analysis considers individual episodes or ward stays, the activity may in
 
 All of these approaches use the **same underlying patient journey**, but they can produce very different pictures of performance.
 
-![](images/AttributionCanChangeTheStory.png)
+![](../images/AttributionCanChangeTheStory.png)
 
 ::: {.callout-important}
 ## Key Learning

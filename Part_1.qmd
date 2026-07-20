@@ -2,8 +2,6 @@
 
 # Part 1 — How do we interpret healthcare data correctly?
 
-![](images/Part1_MindMap.png)
-
 Part 1 builds the foundations of health data literacy.
 
 Before we can evaluate complex interventions, understand healthcare systems or use advanced analytical methods, we first need to be confident in how we **interpret the data in front of us**.
@@ -23,6 +21,8 @@ The modules in this section explore:
 Together, these concepts provide the foundations for asking better questions of healthcare data.
 
 # Bringing Part 1 Together
+
+![](images/Part1_MindMap.png)
 
 The modules in Part 1 are not simply a collection of statistical concepts.
 

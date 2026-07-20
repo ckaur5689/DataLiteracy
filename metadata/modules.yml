@@ -183,4 +183,41 @@ modules:
       - Are additional outpatient appointments increasing RTT clock starts faster than treatments are completed?
       - What could happen elsewhere in the pathway if capacity is increased at only one stage?
       - Are activity, throughput, waiting time and outcomes being considered together?
+
+  - id: module12
+    title: Understanding Healthcare Data
+    pathway: Systems
+    module_url: "  - id: module12
+    title: Understanding Healthcare Data
+    pathway: Systems
+    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/12-Data-Quality-Assurance-Trustworthy-Data.html"
+    keywords: [healthcare data, data quality, data assurance, data maturity, master data, master data management, data governance, data structure, patient record, patient journey, spell, spells, episode, episodes, ward stay, ward stays, attribution, specialty attribution, pathway data, raw data, information, evidence, decision, validation, coding, data definitions, data lineage, data source, data flow, poor quality data]
+    questions:
+      - Where has this data come from?
+      - What happened to the data before it reached this dashboard or analysis?
+      - Has the data been validated and quality assured?
+      - Are the definitions consistent across organisations and systems?
+      - Am I looking at patients, spells, episodes or ward stays?
+      - Could the way activity is attributed change the interpretation?
+      - Is the same event being counted differently in different datasets?
+      - Are coding practices affecting the apparent pattern?
+      - How mature are the underlying data processes?
+      - Is there a clear source of truth for key reference data?
+      - Could poor-quality data propagate through the analysis and lead to a poor decision?
+      - Do we understand the pathway behind the data well enough to interpret it safely?"
+    keywords: [healthcare data, data quality, data assurance, data maturity, master data, master data management, data governance, data structure, patient record, patient journey, spell, spells, episode, episodes, ward stay, ward stays, attribution, specialty attribution, pathway data, raw data, information, evidence, decision, validation, coding, data definitions, data lineage, data source, data flow, poor quality data]
+    questions:
+      - Where has this data come from?
+      - What happened to the data before it reached this dashboard or analysis?
+      - Has the data been validated and quality assured?
+      - Are the definitions consistent across organisations and systems?
+      - Am I looking at patients, spells, episodes or ward stays?
+      - Could the way activity is attributed change the interpretation?
+      - Is the same event being counted differently in different datasets?
+      - Are coding practices affecting the apparent pattern?
+      - How mature are the underlying data processes?
+      - Is there a clear source of truth for key reference data?
+      - Could poor-quality data propagate through the analysis and lead to a poor decision?
+      - Do we understand the pathway behind the data well enough to interpret it safely?
+      
       - Which constraint should be addressed first?

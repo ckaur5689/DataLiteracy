@@ -85,12 +85,15 @@ st.markdown(
 # ------------------------------------------------------
 
 challenge_questions = {
-    "Dashboard Interpretation": [
+    "Understanding Data & Dashboards": [
         "I am reviewing a dashboard and I am not sure whether the trend is meaningful.",
         "Performance has deteriorated this month. Should I be concerned?",
         "The dashboard shows a red RAG rating. Does that necessarily mean performance is poor?",
         "Are we looking at normal variation or a genuine change?",
-        "What questions should I ask before acting on this dashboard?"
+        "What questions should I ask before acting on this dashboard?",
+        "How do I know whether the data behind this dashboard is reliable?",
+        "Why are two reports showing different figures for what appears to be the same measure?",
+        "Could differences in data definitions, coding or attribution be affecting the results?"
     ],
 
     "Evaluation & Evidence": [
@@ -98,23 +101,32 @@ challenge_questions = {
         "How can we tell whether a new service has made a difference?",
         "What evidence do we need before expanding a pilot?",
         "Could the apparent improvement have happened anyway?",
-        "Which evaluation method would be most appropriate?"
+        "Which evaluation method would be most appropriate?",
+        "How do we know whether the intervention caused the observed improvement?",
+        "What should we measure before implementing a new intervention?",
+        "We have before-and-after data but no control group. Can we still evaluate the impact?"
     ],
 
-    "Comparing Populations": [
+    "Populations & Fair Comparisons": [
         "We want to compare performance between places with different populations.",
         "Should we adjust for age or deprivation before comparing outcomes?",
         "Are these organisations genuinely comparable?",
         "Could differences in case mix explain the variation in performance?",
-        "Should we use counts, rates or standardised measures?"
+        "Should we use counts, rates or standardised measures?",
+        "Why does one area have more activity even though its population is smaller?",
+        "How can we identify meaningful differences between population groups?",
+        "Could an apparent inequality be explained by differences in the underlying populations?"
     ],
 
-    "Risk, Probability & Uncertainty": [
+    "Risk, Modelling & Uncertainty": [
         "What level of uncertainty exists in this analysis?",
         "How much confidence should we place in this estimate?",
         "Is this an absolute risk or a relative risk?",
         "What are the consequences of a false positive or false negative?",
-        "How should uncertainty influence the decision?"
+        "How should uncertainty influence the decision?",
+        "How reliable is this prediction for an individual patient or population?",
+        "How do we decide whether a risk prediction model is useful enough to act on?",
+        "What assumptions should we understand before relying on a model or forecast?"
     ],
 
     "Demand & Capacity": [
@@ -122,15 +134,21 @@ challenge_questions = {
         "Why is the waiting list growing even though activity has increased?",
         "Where is the main bottleneck in the pathway?",
         "Do we have a demand problem, a capacity problem or a flow problem?",
-        "Why are waiting times increasing despite more outpatient appointments?"
+        "Why are waiting times increasing despite more outpatient appointments?",
+        "If we increase capacity at one stage of the pathway, what happens elsewhere?",
+        "Are we measuring the whole patient pathway or only one part of it?",
+        "Why has increased activity not resulted in improved patient flow?"
     ],
 
-    "Health Economics": [
+    "Value & Health Economics": [
         "I want to know whether a pilot scheme delivered value for money.",
         "Is this intervention cost-effective?",
         "What is the opportunity cost of investing in this service?",
         "Are the financial benefits occurring in a different part of the system?",
-        "Which health economic evaluation method should we use?"
+        "Which health economic evaluation method should we use?",
+        "Does this intervention improve outcomes enough to justify the additional cost?",
+        "Could an intervention save money for one organisation but increase costs elsewhere?",
+        "How should we compare two interventions that have different costs and outcomes?"
     ]
 }
 
@@ -170,7 +188,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.button(
-        "📊\n\nDashboard Interpretation",
+        "📊\n\nUnderstanding Data & Dashboards",
         key="dashboard_card",
         use_container_width=True,
         on_click=select_challenge,
@@ -188,7 +206,7 @@ with col2:
 
 with col3:
     st.button(
-        "👥\n\nComparing Populations",
+        "👥\n\nPopulations & Fair Comparisons",
         key="population_card",
         use_container_width=True,
         on_click=select_challenge,
@@ -199,7 +217,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.button(
-        "🎯\n\nRisk, Probability & Uncertainty",
+        "🎯\n\nRisk, Modelling & Uncertainty",
         key="risk_card",
         use_container_width=True,
         on_click=select_challenge,
@@ -208,7 +226,7 @@ with col1:
 
 with col2:
     st.button(
-        "🏥\n\nDemand & Capacity",
+        "🏥\n\nPathways, Demand & Flow",
         key="capacity_card",
         use_container_width=True,
         on_click=select_challenge,
@@ -217,7 +235,7 @@ with col2:
 
 with col3:
     st.button(
-        "💷\n\nHealth Economics",
+        "💷\n\nValue & Health Economics",
         key="economics_card",
         use_container_width=True,
         on_click=select_challenge,

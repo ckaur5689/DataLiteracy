@@ -70,6 +70,16 @@
     ]
   },
   {
+    "objectID": "Part_1.html",
+    "href": "Part_1.html",
+    "title": "Part 1 — How do we interpret healthcare data correctly?",
+    "section": "",
+    "text": "Part 1 builds the foundations of health data literacy.\nBefore we can evaluate complex interventions, understand healthcare systems or use advanced analytical methods, we first need to be confident in how we interpret the data in front of us.\nThe modules in this section explore:\n\nwhen to use counts and rates\nthe difference between means and medians\nwhy correlation does not necessarily mean causation\nhow to understand variation and distributions\nhow to make fair comparisons between different populations\nhow to think critically about evidence and evaluation\nhow different evaluation methods can help us understand impact\nhow to interpret risk, probability and uncertainty\nhow to read dashboards more critically\n\nTogether, these concepts provide the foundations for asking better questions of healthcare data.\n\nBringing Part 1 Together\n\nThe modules in Part 1 are not simply a collection of statistical concepts.\nTogether, they help build a way of thinking about data.\nThe aim is not for every healthcare decision-maker to become a statistician or analyst.\nIt is to develop enough data literacy to:\n\nask better questions\nrecognise when a number may be misleading\nunderstand what the data can — and cannot — tell us\nchallenge comparisons that may not be fair\nrecognise uncertainty\ndistinguish association from causation\nunderstand the strength of the evidence\nmake more informed decisions\n\n\n\n\n\n\n\n\n\n\n\n\nImportantThe Big Picture\n\n\n\nGood data literacy starts with asking the right questions.\nWhen looking at healthcare data, we need to understand:\nWhat exactly are we measuring?\n↓\nAre we using the right measure?\n↓\nWhat does the distribution and variation tell us?\n↓\nAre we making a fair comparison?\n↓\nCould there be another explanation for what we are seeing?\n↓\nHow strong is the evidence?\n↓\nHow certain are we about the conclusion?\n↓\nWhat should we reasonably conclude and act upon?\nThese questions help us move from simply seeing numbers to interpreting evidence with confidence.\n\n\n\n\nFrom Data Literacy to Understanding Healthcare Systems\nPart 1 provides the foundations, but healthcare decisions rarely depend on interpreting a single number or metric in isolation.\nHealthcare operates as a complex system.\nDemand changes. Patients move through pathways. Capacity is constrained. Populations have different needs. Multiple interventions may be introduced at the same time. Data may be incomplete. Resources are finite.\nThis means that good data literacy must eventually move beyond asking:\n\n“What does this number mean?”\n\ntowards asking:\n\n“What is happening across the wider system — and what should we do about it?”\n\nThat is the focus of Part 2.\nPart 2 builds on these foundations to explore how we can better understand, improve and evaluate complex healthcare systems.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Part 1 — How do we interpret healthcare data correctly?</span>"
+    ]
+  },
+  {
     "objectID": "modules/01-Counts-vs-Rates.html",
     "href": "modules/01-Counts-vs-Rates.html",
     "title": "Module 1 - Counts vs Rates",
@@ -1527,6 +1537,16 @@
     "text": "Question 6\nA hospital introduces a pilot to improve discharge documentation.\nDuring the pilot, compliance increases substantially.\nWhich explanation should also be considered?\n\nRegression to the mean\nHawthorne Effect\nStandardisation\nSimpson’s paradox",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Module 10: Common Analytical Traps & Data Fallacies</span>"
+    ]
+  },
+  {
+    "objectID": "Part_2.html",
+    "href": "Part_2.html",
+    "title": "Part 2 — How do we understand, improve and evaluate complex healthcare systems?",
+    "section": "",
+    "text": "Part 2 moves beyond interpreting individual statistics and focuses on how healthcare systems behave, how interventions are designed and evaluated, and how evidence is brought together to support better decisions.\nThe modules in this section explore:\n\ndemand, capacity and operational flow\ntrustworthy data and assurance\npathway analytics and intervention design\nevaluation of complex healthcare systems\npopulation health management and segmentation\nquantitative and qualitative evidence\nhealth economics and value\nevidence-informed decision-making\nsimulation and scenario modelling\n\n\nBringing Part 2 Together\nThe modules in Part 2 are not standalone topics.\nTogether, they provide a way of moving from understanding a healthcare problem to making a better-informed decision.\n\n\n\n\n\n\n\nImportantThe Big Picture\n\n\n\nGood healthcare decisions rarely come from a single dataset, metric or analytical method.\nThey require us to:\nunderstand the system\n↓\ntrust the data\n↓\nunderstand the pathway and population\n↓\nevaluate what changed\n↓\ncombine different forms of evidence\n↓\nconsider value and trade-offs\n↓\nmake an evidence-informed decision\n↓\nexplore what might happen next\nEach module contributes a different piece of that decision-making journey.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Part 2 — How do we understand, improve and evaluate complex healthcare systems?</span>"
     ]
   },
   {

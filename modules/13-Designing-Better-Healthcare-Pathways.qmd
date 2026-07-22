@@ -791,3 +791,313 @@ Once the underlying causes have been identified and the wider system understood,
 
 The next section explores how evidence, systems thinking and patient-centred design can be combined to create pathways that consistently deliver better outcomes while making the best use of available resources.
 
+## 5. Designing Better Pathways
+
+Understanding why a healthcare pathway performs as it does provides the foundation for improvement.
+
+The next challenge is deciding **how the pathway should be redesigned** to consistently deliver better outcomes for patients while making the best use of available resources.
+
+Pathway redesign is about far more than improving the performance of individual services. It involves rethinking how patients move through the healthcare system, identifying opportunities to remove unnecessary barriers, strengthening coordination across services and organisations, and ensuring that every stage of the pathway contributes to better outcomes and patient experience.
+
+There is rarely a single *perfect* pathway. Every redesign involves balancing competing priorities such as timely access, quality, patient experience, workforce capacity, financial sustainability and equity. Good pathway design therefore requires evidence, collaboration and careful judgement rather than simply applying a standard solution.
+
+Ultimately, the goal is to create pathways that are safer, simpler, more equitable and more responsive to the needs of the populations they serve.
+
+::: {.callout-important collapse="false"}
+## Key Principle
+
+Design pathways around **patients rather than organisations**.
+
+Patients experience one continuous journey through the healthcare system, even when their care spans multiple organisations, professional groups and services.
+:::
+
+### Principles of Good Pathway Design
+
+Although every healthcare pathway is unique, successful redesign tends to share several common principles.
+
+Figure 13.6 provides an overview of these principles. It places the patient journey at the centre of pathway design and distinguishes between the principles that should guide every stage of care and the wider system enablers that allow high-quality pathways to function effectively.
+
+Good pathway design is not achieved by improving one stage of care in isolation. Instead, patient-centred care, prevention, equity, evidence and coordination should influence the entire journey, while reduced variation, efficient flow, data, digital technologies and AI, sustainable use of resources and continuous learning enable the pathway to perform consistently over time.
+
+![](../images/Good-Pathway-Design.png)
+
+*Figure 13.6: Good pathway design places the complete patient journey at the centre. Shared principles guide every stage of care, while system-wide enablers support efficient, equitable, sustainable and continuously improving pathways.*
+
+Taken together, these principles mean that well-designed pathways should:
+
+- improve patient outcomes and experience
+- support prevention and earlier intervention
+- provide equitable access and outcomes
+- use evidence and local insight to inform decisions
+- coordinate care across organisational boundaries
+- reduce unnecessary delays and duplication
+- reduce unwarranted variation while maintaining appropriate flexibility
+- use data, digital technologies and AI where they add genuine value
+- make sustainable use of workforce and financial resources
+- generate evidence for continuous learning and improvement.
+
+These principles are closely interconnected. Improvements in one area often strengthen others, although pathway redesign inevitably involves balancing competing priorities and making informed trade-offs.
+
+Rather than optimising individual parts of the system in isolation, effective pathway redesign seeks to improve the performance of the pathway as a whole.
+
+Although every principle is important, the starting point is always the patient journey itself.
+
+### Start with Patient Needs
+
+Healthcare organisations often design services around professional roles, organisational structures or historical ways of working.
+
+Patients, however, experience healthcare very differently.
+
+From their perspective, there is no distinction between primary care, community services, hospitals or social care. They experience one continuous journey through the health and care system.
+
+Good pathway design therefore begins by understanding what matters most to patients and carers.
+
+Patients rarely judge healthcare by organisational performance indicators or waiting time targets alone. Instead, they ask questions such as:
+
+- Was I able to access help when I needed it?
+- Did professionals communicate with one another?
+- Did I understand what was happening?
+- Did I receive consistent information?
+- Was my care coordinated?
+- Did I know what would happen next?
+- Was I supported after leaving hospital?
+
+Understanding these experiences often reveals opportunities for improvement that are not immediately visible within routine performance data.
+
+When pathways are designed around patient needs rather than organisational convenience, they frequently become both more effective and more efficient.
+
+::: {.callout-example collapse="false"}
+## Example 13.7: Seeing the Pathway Through the Patient's Eyes
+
+A patient with chronic kidney disease may initially visit their GP before undergoing diagnostic blood tests, attending specialist outpatient clinics, experiencing an emergency admission following acute deterioration and later receiving ongoing support from community services.
+
+To each organisation involved, these may appear as separate episodes of care.
+
+To the patient, they represent one continuous healthcare journey.
+
+Viewing the pathway from the patient's perspective often reveals duplicated assessments, inconsistent communication, unnecessary delays and gaps in continuity that would be difficult to identify by examining individual services in isolation.
+:::
+
+### Co-producing Better Pathways
+
+No single group fully understands every aspect of a healthcare pathway.
+
+Patients are experts in experiencing healthcare.
+
+Frontline clinicians understand how care is delivered.
+
+Managers understand operational constraints and service delivery.
+
+Analysts understand the data, patterns of variation and opportunities for improvement.
+
+Each perspective provides valuable insight, but none is sufficient on its own.
+
+Successful pathway redesign therefore depends on bringing these different perspectives together.
+
+Increasingly, healthcare organisations adopt a **co-production** approach, bringing together patients, carers, clinicians, managers and analysts to develop shared solutions.
+
+Co-production helps ensure that redesigned pathways address problems that matter most to those delivering and receiving care, rather than focusing solely on organisational priorities.
+
+For example, routine data may identify increasing outpatient non-attendance rates.
+
+Patient discussions may reveal that appointment letters are difficult to understand, clinic locations are inaccessible by public transport or appointment times conflict with work and caring responsibilities.
+
+Similarly, clinicians may identify unnecessary duplication of assessments between organisations that is not apparent from routinely collected data.
+
+By combining quantitative evidence with operational knowledge and lived experience, organisations are more likely to develop improvements that are practical, sustainable and meaningful for patients.
+
+::: {.callout-important collapse="false"}
+## Key Principle
+
+The best pathway designs combine **evidence with lived experience**.
+
+Patients, carers, clinicians, operational teams and analysts each understand different parts of the pathway. Bringing these perspectives together leads to more effective, practical and sustainable redesign.
+:::
+
+### Design for Prevention, Not Just Treatment
+
+Traditionally, many healthcare pathways have focused on responding once illness has developed or deteriorated.
+
+Increasingly, healthcare systems are seeking to shift activity **upstream**, intervening earlier to prevent avoidable deterioration and reduce future demand.
+
+Examples include:
+
+- earlier diagnosis
+- proactive identification of high-risk patients
+- preventative interventions
+- supporting self-management
+- timely medication optimisation
+- improving continuity of care
+- strengthening community-based support.
+
+Preventative pathways often require investment today, while many of the benefits are realised months or even years later.
+
+However, preventing deterioration frequently improves patient outcomes while simultaneously reducing pressure on emergency departments, inpatient services and urgent care pathways.
+
+As discussed in the previous section, many of the greatest opportunities for improvement lie upstream, long before patients require hospital treatment.
+
+Preventative pathway redesign therefore requires organisations to think beyond immediate activity and consider how earlier intervention can improve outcomes across the whole healthcare system.
+
+### Reduce Unwarranted Variation
+
+Many preventative interventions also reduce unwarranted variation by ensuring patients receive timely, consistent care before their condition deteriorates.
+
+Variation identified during pathway analysis should directly inform redesign.
+
+The objective is **not** to make every patient's journey identical.
+
+Healthcare should remain flexible enough to meet individual clinical needs, patient preferences and clinical judgement.
+
+Instead, pathway redesign seeks to reduce **unwarranted variation**—variation that cannot be explained by legitimate differences in patient need.
+
+Examples include:
+
+- inconsistent referral criteria
+- variation in access to diagnostics
+- different discharge processes between organisations
+- duplication of assessments
+- inconsistent follow-up arrangements
+- variation in clinical protocols where evidence supports standardisation.
+
+Reducing unwarranted variation improves reliability while preserving appropriate flexibility.
+
+Consistency should support personalised care rather than replace it.
+
+### Design for Equity
+
+Good pathway design should improve outcomes for the whole population, not only for those who already access services easily.
+
+Barriers to care are not experienced equally.
+
+Factors such as age, disability, ethnicity, language, deprivation, geography and digital exclusion may all influence whether patients are able to access services, navigate pathways or benefit from interventions.
+
+Designing for equity means identifying these barriers early and considering how pathways can reduce rather than reinforce existing inequalities.
+
+Examples include:
+
+- improving access for underserved communities
+- offering multiple methods of accessing services
+- identifying groups with poorer outcomes
+- adapting communication to different needs
+- ensuring eligibility criteria do not unintentionally disadvantage particular populations.
+
+Equity should therefore be considered throughout pathway design rather than evaluated only after implementation.
+
+### Design for Value
+
+Healthcare resources are finite.
+
+Every investment in one pathway represents resources that cannot be invested elsewhere.
+
+Good pathway design therefore seeks to maximise **value**, achieving the greatest possible improvement in health outcomes, patient experience and equity from the resources available.
+
+Value extends beyond reducing costs.
+
+An intervention that increases expenditure may still represent excellent value if it produces substantially better outcomes, prevents future illness or reduces demand elsewhere in the system.
+
+Conversely, a pathway that is inexpensive but delivers poor outcomes or unnecessary activity may represent poor value.
+
+Thinking about value encourages organisations to consider both the benefits and the opportunity costs of pathway redesign.
+
+Health economics provides structured approaches for assessing these trade-offs and is explored in more detail in the next module.
+
+### Data, Digital and AI as Enablers
+
+Data, digital technologies and artificial intelligence are increasingly supporting pathway redesign.
+
+However, technology should enable better pathways rather than become the primary objective.
+
+Data help organisations understand variation, identify opportunities for improvement and monitor whether redesigned pathways achieve their intended outcomes.
+
+Digital technologies can improve communication, coordination and patient access.
+
+Artificial intelligence may assist with activities such as risk stratification, clinical decision support, demand forecasting and administrative automation.
+
+These technologies can significantly enhance pathway redesign when implemented appropriately.
+
+However, successful pathways continue to depend upon good clinical practice, effective leadership, collaboration and robust evaluation.
+
+Technology is an enabler of improvement, not a substitute for thoughtful pathway design.
+
+### Designing Sustainable Improvements
+
+A pathway is only successful if improvements can be maintained over time.
+
+Changes that rely upon temporary funding, individual enthusiasm or exceptional effort often prove difficult to sustain.
+
+Sustainable pathway redesign considers:
+
+- workforce capacity
+- financial affordability
+- operational feasibility
+- organisational ownership
+- training requirements
+- digital infrastructure
+- ongoing measurement and evaluation.
+
+Designing sustainability into a pathway from the outset increases the likelihood that improvements will continue long after implementation.
+
+### Designing for Continuous Learning
+
+No pathway remains optimal forever.
+
+Clinical evidence evolves.
+
+Population needs change.
+
+New technologies emerge.
+
+Healthcare organisations therefore need pathways that can adapt over time.
+
+Continuous learning involves routinely monitoring outcomes, reviewing patient experience, evaluating interventions and using evidence to refine pathways.
+
+Improvement should be viewed as an ongoing cycle rather than a one-off redesign exercise.
+
+### Shared Ownership
+
+Successful pathways rarely belong to a single organisation.
+
+Most healthcare pathways span primary care, community services, acute providers, mental health services, social care and voluntary sector organisations.
+
+Effective redesign therefore depends upon shared ownership.
+
+Shared objectives, agreed measures of success, transparent data and collaborative governance all help ensure that organisations work together towards improving the patient journey rather than optimising individual services.
+
+### Pathway Design Checklist
+
+Before implementing pathway changes, decision-makers should consider whether the proposed redesign:
+
+- starts with patient needs and experience
+- is supported by evidence
+- addresses unwarranted variation
+- strengthens prevention and earlier intervention
+- improves equity
+- delivers value for the resources invested
+- uses data, digital technology and AI appropriately
+- is operationally and financially sustainable
+- includes plans for monitoring and evaluation
+- has support from patients, clinicians and partner organisations.
+
+::: {.callout-tip collapse="false"}
+## Decision-Maker Questions
+
+Before approving a redesigned pathway, ask yourself:
+
+- Have we designed this pathway around the patient journey?
+- What evidence suggests this redesign will improve outcomes?
+- Which patients are most likely to benefit?
+- Could any groups be disadvantaged?
+- Does this redesign improve value as well as outcomes?
+- How will we know whether it has worked?
+- Is the pathway sustainable over the long term?
+- Who is responsible for monitoring and continuously improving the pathway?
+:::
+
+### Transition to Implementation
+
+Designing a better pathway is only the beginning.
+
+The real challenge lies in successfully implementing change, measuring its impact and continuously refining the pathway as new evidence emerges.
+
+The following chapter explores how healthcare organisations can evaluate whether redesigned pathways have delivered the improvements they were intended to achieve.
+

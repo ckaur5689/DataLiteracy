@@ -1,4 +1,4 @@
-# 👥 Health Data Literacy Series
+# 👥 Health Data Literacy & Decision Literacy Series
 
 📖An open educational resource designed to help healthcare professionals make better use of data, analytics and evidence in decision-making.
 

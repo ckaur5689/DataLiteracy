@@ -1764,7 +1764,7 @@
     "href": "modules/13-Designing-Better-Healthcare-Pathways.html#understanding-healthcare-pathways",
     "title": "Module 13: Designing Better Healthcare Pathways",
     "section": "1. Understanding Healthcare Pathways",
-    "text": "1. Understanding Healthcare Pathways\nWhen most people think about healthcare services, they naturally think in terms of organisations—general practice, community services, hospitals, mental health trusts or social care. Patients, however, rarely experience healthcare in this way.\nFrom the patient’s perspective, healthcare is a continuous journey. A person may visit their GP, undergo diagnostic tests at an acute hospital, receive treatment from a specialist team, require support from community services, access rehabilitation and later receive ongoing care from primary care. Increasingly, that journey may also involve social care, community pharmacy, Integrated Neighbourhood Teams (INTs) and voluntary, community and social enterprise (VCSE) organisations.\nThis connected journey is known as a healthcare pathway.\n\n\n\n\n\n\nNoteDefinition\n\n\n\n\n\nA healthcare pathway is the coordinated sequence of care that a patient experiences as they move through health and care services to prevent, diagnose, treat, manage or recover from a health condition.\nHealthcare pathways often span multiple organisations, professional groups and information systems, making collaboration essential for delivering high-quality, patient-centred care.\n\n\n\n\nFigure 13.1: Patients experience a single healthcare journey that spans multiple organisations and services. Every interaction creates data that can be used to understand and improve the pathway.\nRather than focusing on the performance of individual organisations, pathway thinking focuses on how well the whole system works together to achieve the best possible outcomes for patients.\nUltimately, the purpose of a healthcare pathway is not simply to deliver activity, but to improve patient outcomes, patient experience and value while making the best use of limited healthcare resources.\n\n\n\n\n\n\nImportantThinking in Pathways\n\n\n\n\n\nPatients do not experience organisations—they experience pathways.\nImproving one organisation does not necessarily improve the patient’s overall journey if delays, duplication or poor communication occur elsewhere in the pathway.\n\n\n\n\nWhy Pathways Matter\nMany of today’s healthcare challenges cannot be solved by individual organisations working in isolation.\nFor example:\n\nReducing emergency admissions requires collaboration between primary care, community services, ambulance services and hospitals.\nSupporting frail older people often involves Integrated Neighbourhood Teams, therapists, community nurses, social care and voluntary organisations.\nSuccessful hospital discharge depends upon effective coordination between acute providers, community services, local authorities and carers.\nPreventing progression of chronic kidney disease requires coordinated working between general practice, nephrology services, pathology, community teams and patients themselves.\n\nLooking at only one part of the pathway can lead organisations to optimise their own performance while unintentionally creating problems elsewhere.\nFor example, discharging patients more quickly may improve hospital performance, but if community capacity is insufficient it may simply shift demand into other parts of the health and care system or increase the risk of readmission.\nOrganisations often optimise their own performance measures, such as reducing waiting times, increasing throughput or achieving performance targets. While these improvements are valuable, they do not necessarily improve the performance of the pathway as a whole. In some cases, improvements in one part of the system may unintentionally create delays, increase demand or shift pressures elsewhere.",
+    "text": "1. Understanding Healthcare Pathways\nWhen most people think about healthcare services, they naturally think in terms of organisations—general practice, community services, hospitals, mental health trusts or social care. Patients, however, rarely experience healthcare in this way.\nFrom the patient’s perspective, healthcare is a continuous journey. A person may visit their GP, undergo diagnostic tests at an acute hospital, receive treatment from a specialist team, require support from community services, access rehabilitation and later receive ongoing care from primary care. Increasingly, that journey may also involve social care, community pharmacy, Integrated Neighbourhood Teams (INTs) and voluntary, community and social enterprise (VCSE) organisations.\nThis connected journey is known as a healthcare pathway.\n\n\n\n\n\n\nNoteDefinition\n\n\n\n\n\nA healthcare pathway is the coordinated sequence of care that a patient experiences as they move through health and care services to prevent, diagnose, treat, manage or recover from a health condition.\nHealthcare pathways often span multiple organisations, professional groups and information systems, making collaboration essential for delivering high-quality, patient-centred care.\n\nFigure 13.1: Patients experience a single healthcare journey that spans multiple organisations and services. Every interaction creates data that can be used to understand and improve the pathway.\n\n\n\nRather than focusing on the performance of individual organisations, pathway thinking focuses on how well the whole system works together to achieve the best possible outcomes for patients.\nUltimately, the purpose of a healthcare pathway is not simply to deliver activity, but to improve patient outcomes, patient experience and value while making the best use of limited healthcare resources.\n\n\n\n\n\n\nImportantThinking in Pathways\n\n\n\n\n\nPatients do not experience organisations—they experience pathways.\nImproving one organisation does not necessarily improve the patient’s overall journey if delays, duplication or poor communication occur elsewhere in the pathway.\n\n\n\n\nWhy Pathways Matter\nMany of today’s healthcare challenges cannot be solved by individual organisations working in isolation.\nFor example:\n\nReducing emergency admissions requires collaboration between primary care, community services, ambulance services and hospitals.\nSupporting frail older people often involves Integrated Neighbourhood Teams, therapists, community nurses, social care and voluntary organisations.\nSuccessful hospital discharge depends upon effective coordination between acute providers, community services, local authorities and carers.\nPreventing progression of chronic kidney disease requires coordinated working between general practice, nephrology services, pathology, community teams and patients themselves.\n\nLooking at only one part of the pathway can lead organisations to optimise their own performance while unintentionally creating problems elsewhere.\nFor example, discharging patients more quickly may improve hospital performance, but if community capacity is insufficient it may simply shift demand into other parts of the health and care system or increase the risk of readmission.\nOrganisations often optimise their own performance measures, such as reducing waiting times, increasing throughput or achieving performance targets. While these improvements are valuable, they do not necessarily improve the performance of the pathway as a whole. In some cases, improvements in one part of the system may unintentionally create delays, increase demand or shift pressures elsewhere.",
     "crumbs": [
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Module 13: Designing Better Healthcare Pathways</span>"
     ]
@@ -1920,13 +1920,43 @@
     ]
   },
   {
+    "objectID": "modules/14-Health-Economics-&-Value-in-Healthcare-Decision-Making.html",
+    "href": "modules/14-Health-Economics-&-Value-in-Healthcare-Decision-Making.html",
+    "title": "Module 14: Health Economics & Value in Healthcare Decision-Making",
+    "section": "",
+    "text": "1. Why Health Economics Matters\nThroughout the previous module we explored how healthcare pathways can be understood, redesigned, implemented and evaluated.\nEvaluation helps us answer an important question:\nHowever, demonstrating that an intervention works is only part of the decision.\nHealthcare organisations operate with limited financial resources, finite workforce capacity and competing priorities. Every investment made in one area inevitably means that fewer resources are available elsewhere.\nDecision-makers therefore face a more challenging question:\nHealth economics provides a structured way of answering that question.\nRather than focusing solely on costs, health economics considers the relationship between the resources invested and the outcomes achieved.\nIts purpose is to help healthcare organisations make better decisions by comparing alternative ways of improving health, reducing inequalities and making the best use of limited resources.\nFigure 14.1: Evidence that an intervention works is only the beginning. Decision-makers must also consider costs, benefits, value and whether limited resources could achieve greater impact elsewhere.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Module 14: Health Economics & Value in Healthcare Decision-Making</span>"
+    ]
+  },
+  {
+    "objectID": "modules/14-Health-Economics-&-Value-in-Healthcare-Decision-Making.html#why-health-economics-matters",
+    "href": "modules/14-Health-Economics-&-Value-in-Healthcare-Decision-Making.html#why-health-economics-matters",
+    "title": "Module 14: Health Economics & Value in Healthcare Decision-Making",
+    "section": "",
+    "text": "Did the intervention improve outcomes?\n\n\n\n\n\nWhich option delivers the greatest value for patients and populations within the resources available?\n\n\n\n\n\n\n\n\n\n\n\n\nImportantKey Principle\n\n\n\n\n\nAn intervention that improves outcomes is not automatically the best investment.\nHealthcare organisations must consider both effectiveness and value when deciding how to allocate limited resources.\n\n\n\n\nWhy This Matters\nEvery day, healthcare organisations make investment decisions.\nExamples include:\n\nexpanding diagnostic services\nrecruiting additional staff\ninvesting in digital technology\nredesigning healthcare pathways\nintroducing new medicines\nexpanding community services\nfunding preventative programmes.\n\nMost organisations cannot fund every worthwhile initiative.\nChoices therefore need to be made.\nHealth economics provides a transparent framework for comparing those choices using evidence rather than assumptions.\n\n\nHealth Economics Is Not About Cutting Costs\nOne of the most common misconceptions is that health economics is primarily concerned with reducing expenditure.\nIn reality, health economics is concerned with maximising value.\nSometimes the lowest-cost option represents poor value because it delivers inferior outcomes.\nEqually, a more expensive intervention may provide substantially greater benefits, prevent future illness or reduce demand elsewhere in the healthcare system.\nGood health economics therefore seeks to maximise health gain, patient experience and equity for the resources available rather than simply minimise expenditure.\n\n\nBuilding on Previous Modules\nThis module builds directly on concepts introduced earlier in this series.\nModules 7 and 8 explored how interventions can be evaluated using robust evidence.\nModule 13 demonstrated how healthcare pathways can be redesigned, implemented and evaluated.\nHealth economics adds another perspective by asking:\n\nWhich redesign delivers the greatest value?\nAre the additional benefits worth the additional costs?\nCould limited resources produce greater benefit if invested elsewhere?\n\nThese questions help decision-makers move from understanding whether something works to deciding whether it should be funded, expanded or prioritised.\n\n\n\n\n\n\nTipDecision-Maker Questions\n\n\n\n\n\nBefore approving an investment, ask yourself:\n\nDoes the intervention improve outcomes?\nWhat additional resources are required?\nWhat benefits are expected for patients and populations?\nCould the same resources produce greater benefit elsewhere?\nAre we considering long-term value as well as short-term costs?\nHow will we judge whether this investment represents good value?",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Module 14: Health Economics & Value in Healthcare Decision-Making</span>"
+    ]
+  },
+  {
+    "objectID": "modules/14-Health-Economics-&-Value-in-Healthcare-Decision-Making.html#placeholder-for-additional-content",
+    "href": "modules/14-Health-Economics-&-Value-in-Healthcare-Decision-Making.html#placeholder-for-additional-content",
+    "title": "Module 14: Health Economics & Value in Healthcare Decision-Making",
+    "section": "Placeholder for additional content",
+    "text": "Placeholder for additional content",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Module 14: Health Economics & Value in Healthcare Decision-Making</span>"
+    ]
+  },
+  {
     "objectID": "Project.html",
     "href": "Project.html",
     "title": "Project - Health Data Literacy Series",
     "section": "",
     "text": "Supporting Better Questions, Better Analysis & Better Decisions in Health\nTimeline: May 2026 to November 2026\nAuthor: Chandan Kaur\nCollaborators:\nAudience: Analysts and Decision Makers",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -1936,7 +1966,7 @@
     "section": "The series aims to bridge the gap between:",
     "text": "The series aims to bridge the gap between:\nhealthcare analysts and decision-makers, operational leaders, clinicians and service managers.\nRather than focusing purely on statistical methods or software training, the series focuses on:\n\nanalytical reasoning\ninterpretation\noperational context\nfair comparison\nhealthcare systems thinking\ncommunicating uncertainty and complexity appropriately.\n\nThe resource will be developed as an openly accessible digital book and supporting learning materials using GitHub Pages and Quarto.",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -1946,7 +1976,7 @@
     "section": "Primary audiences include:",
     "text": "Primary audiences include:\n\nHealthcare operational leaders\nService managers\nClinicians\nPublic health teams\nBI and analytics teams\nIntegrated Care Board colleagues\nNHS transformation teams\nInformatics trainees and early-career analysts",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -1956,7 +1986,7 @@
     "section": "Secondary audiences may include:",
     "text": "Secondary audiences may include:\n\nLocal authorities\nHealthcare consultancies\nAcademic/public health programmes\nWider public sector analytical communities",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -1966,7 +1996,7 @@
     "section": "Platform",
     "text": "Platform\nGitHub Pages Quarto Book framework PDF and Word export options",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -1976,7 +2006,7 @@
     "section": "Style",
     "text": "Style\nVisual and example-led Operationally realistic Plain English where possible Progressive conceptual layering",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -1986,7 +2016,7 @@
     "section": "Phase 1 — Foundation Development",
     "text": "Phase 1 — Foundation Development",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -1996,7 +2026,7 @@
     "section": "Months 1–2",
     "text": "Months 1–2\n\nEstablish project structure\nDevelop initial visual identity and formatting\nCreate foundational modules\nBuild GitHub/Quarto publishing workflow",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -2006,7 +2036,7 @@
     "section": "Phase 2 — Core Content Development",
     "text": "Phase 2 — Core Content Development",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -2016,7 +2046,7 @@
     "section": "Months 3–5",
     "text": "Months 3–5\n\nDevelop additional modules\nExpand operational examples and visual content\nGather peer feedback from NHS analytical community\nRefine educational structure and readability",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -2026,7 +2056,7 @@
     "section": "Phase 3 — External Review & Refinement",
     "text": "Phase 3 — External Review & Refinement",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -2036,7 +2066,7 @@
     "section": "Months 5–6",
     "text": "Months 5–6\nSeek structured feedback from: - NHS CDAO network - AphA members - healthcare analysts - operational leaders and strategic commissioners - Improve content based on feedback - Refine visuals and accessibility",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -2046,7 +2076,7 @@
     "section": "Phase 4 — Publication & Dissemination",
     "text": "Phase 4 — Publication & Dissemination",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -2056,7 +2086,7 @@
     "section": "Month 6 onwards",
     "text": "Month 6 onwards\n\nPublic launch of the series\nSocial and professional dissemination\nPresentation sessions/webinars\nOngoing iterative development\nSuccess Measures\n\nSuccess indicators may include:\n\nPositive feedback from NHS analysts and operational leaders\nAdoption within NHS analytical communities\nUse in analyst onboarding or data literacy initiatives\nEngagement through GitHub Pages analytics\nRequests for reuse/adaptation across organisations\nAphA and/or NHS analytical community endorsement\nEvidence of improved analytical questioning and interpretation",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   },
   {
@@ -2066,7 +2096,7 @@
     "section": "Sign-Off:",
     "text": "Sign-Off:\nName: Chandan Kaur\nA passionate advocate of health data literacy",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project - Health Data Literacy Series</span>"
     ]
   }
 ]

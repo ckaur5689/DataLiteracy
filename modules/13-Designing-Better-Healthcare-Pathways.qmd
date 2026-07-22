@@ -129,3 +129,78 @@ When reviewing a healthcare pathway, ask yourself:
 - Which parts of the pathway create the greatest value for patients?
 - Are we measuring organisational performance or the performance of the whole pathway?
 :::
+
+## 2. Understanding the Current Pathway
+
+Before redesigning a healthcare pathway, it is essential to understand how the current pathway operates. Too often, services introduce new initiatives based on assumptions about where problems exist, rather than evidence.
+
+Effective pathway redesign begins by asking:
+
+- How do patients currently move through the pathway?
+- Where do delays occur?
+- Which patients experience poorer outcomes?
+- Where is demand greatest?
+- Which parts of the pathway appear to have the greatest influence on patient outcomes?
+
+Answering these questions requires more than simply looking at organisational performance measures. Instead, we need to understand the pathway as a connected system.
+
+### Every Pathway Leaves a Digital Footprint
+
+Every interaction between a patient and the health and care system generates data.
+
+Referrals, appointments, diagnostic tests, admissions, transfers, procedures, prescriptions, community visits and discharge summaries all leave a digital footprint. Individually, these events provide information about a single episode of care. Together, they tell the story of how patients move through the healthcare system.
+
+When linked appropriately, these routine operational data can reveal:
+
+- common routes through a pathway
+- where patients wait longest
+- where patients drop out of the pathway
+- where demand is concentrated
+- which patient groups experience different outcomes
+- how resource use varies across the pathway.
+
+Healthcare organisations already collect much of the information needed to understand pathways. The challenge is often not collecting more data, but connecting existing data to build a complete picture of the patient journey.
+
+![](../images/Healthcare-Pathway-Digital-Footprint.png)
+
+*Figure 13.2: Every interaction along a healthcare pathway generates data. When linked together, these routine operational data create a digital footprint that can be used to understand how patients move through the health and care system.*
+
+::: {.callout-important collapse="false"}
+## Key Principle
+
+Data do not improve healthcare pathways.
+
+Understanding what the data reveal about the pathway—and acting upon that understanding—is what leads to improvement.
+:::
+
+### Looking Beyond Activity
+
+It is tempting to focus on activity measures such as the number of referrals, appointments, admissions or procedures. While these metrics are important for understanding demand and workload, they rarely explain **why** variation exists or whether patients are receiving the right care at the right time.
+
+A pathway should therefore be viewed through multiple lenses, including:
+
+- patient outcomes
+- patient experience
+- equity
+- operational performance
+- resource use
+- variation
+- clinical quality.
+
+Considering these together provides a much richer understanding than any single performance measure.
+
+::: {.callout-example collapse="false"}
+## Example 13.2: Looking Beyond Activity
+
+Two hospitals admit a similar number of patients with chronic kidney disease each month.
+
+Looking only at admission counts might suggest that both pathways perform similarly.
+
+However, further analysis shows that one hospital has substantially higher readmission rates, longer waiting times for specialist review and poorer outcomes for patients living in deprived communities.
+
+Although activity is similar, the pathway is performing very differently.
+
+This illustrates why pathway analysis should focus on the patient journey rather than isolated activity measures.
+:::
+
+The next section explores how variation within a pathway helps identify where opportunities for improvement may exist.

@@ -66,7 +66,7 @@ Topics include:
     - Can we trust the data before making decisions?
 13. Designing Better Healthcare Pathways ⭐
     - How do we redesign, implement and evaluate better pathways?
-14. Health Economics & Value in Healthcare Decision-Making
+14. Health Economics & Value in Healthcare Decision-Making ⭐
     - Is the improvement worth the investment?
 15. Population Health Management & Population Segmentation
     - Who should we intervene with, and why?

@@ -38,6 +38,8 @@ From the patient's perspective, healthcare is a continuous journey. A person may
 
 This connected journey is known as a **healthcare pathway**.
 
+![](../images/Healthcare-Pathways-Cross-Organisational-Boundaries.png)
+
 Rather than focusing on the performance of individual organisations, pathway thinking focuses on how well the whole system works together to achieve the best possible outcomes for patients.
 
 ::: {.callout-important collapse="false"}

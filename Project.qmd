@@ -102,12 +102,11 @@ Modules:
 11. Demand, Capacity & Operational Flow ⭐
 12. Data Quality, Assurance & Trustworthy Data
 13. Designing Better Healthcare Pathways ⭐
-14. Evaluating Complex Healthcare Systems
-15. Population Health Management & Segmentation
-16. Combining Quantitative & Qualitative Evidence
-17. Health Economics & Value in Healthcare Decision-Making
-18. Evidence-Informed Decision-Making ⭐
-19. Simulation & Scenario Modelling
+14. Health Economics & Value in Healthcare Decision-Making
+15. Population Health Management & Population Segmentation
+16. Simulation & Scenario Modelling
+17. Integrating Quantitative & Qualitative Evidence for Decision-Making
+18. Evidence-Informed Decision-Making in Healthcare ⭐
 
 # Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)
 

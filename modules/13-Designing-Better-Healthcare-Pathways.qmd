@@ -14,8 +14,6 @@ By the end of this module you should be able to:
 - Appreciate why evaluation should be planned before implementation.
 - Ask better questions when reviewing proposals for service redesign.
 
----
-
 ## Why This Matters
 
 Every day, thousands of patients move between general practice, community services, hospitals, mental health services, social care and voluntary organisations. From the patient's perspective this is a single journey, yet it is often delivered by multiple organisations, professional groups and information systems.

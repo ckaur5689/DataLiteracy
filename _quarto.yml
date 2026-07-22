@@ -21,6 +21,7 @@ book:
     - Part_2.qmd
     - modules/11-Demand_Capacity_Operational_Flow.qmd
     - modules/12-Data-Quality-Assurance-Trustworthy-Data.qmd
+    - modules/13-Designing-Better-Healthcare-Pathways.qmd
     - Project.qmd
 
 format:

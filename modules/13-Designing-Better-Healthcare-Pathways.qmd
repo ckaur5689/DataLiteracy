@@ -52,12 +52,12 @@ This connected journey is known as a **healthcare pathway**.
 A **healthcare pathway** is the coordinated sequence of care that a patient experiences as they move through health and care services to prevent, diagnose, treat, manage or recover from a health condition.
 
 Healthcare pathways often span multiple organisations, professional groups and information systems, making collaboration essential for delivering high-quality, patient-centred care.
+:::
 
-![](../images/Figure13_1_Healthcare_Pathways_Cross_Organisational_Boundaries.png)
+![](../images/Figure13_1_Healthcare_Pathways_Cross_Organisational_Boundaries.jpg)
 
 *Figure 13.1: Patients experience a single healthcare journey that spans multiple organisations and services. Every interaction creates data that can be used to understand and improve the pathway.*
 
-:::
 Rather than focusing on the performance of individual organisations, pathway thinking focuses on how well the whole system works together to achieve the best possible outcomes for patients.
 
 Ultimately, the purpose of a healthcare pathway is not simply to deliver activity, but to improve patient outcomes, patient experience and value while making the best use of limited healthcare resources.
@@ -212,7 +212,7 @@ When linked appropriately, these routine operational data can reveal:
 
 Healthcare organisations already collect much of the information needed to understand pathways. The challenge is often not collecting more data, but connecting existing data to build a complete picture of the patient journey.
 
-![](../images/Figure13_2_Healthcare_Pathway_Digital_Footprint.png)
+![](../images/Figure13_2_Healthcare_Pathway_Digital_Footprint.jpg)
 
 *Figure 13.2: Every interaction along a healthcare pathway generates data. When linked together, these routine operational data create a digital footprint that can be used to understand how patients move through the health and care system.*
 
@@ -313,7 +313,7 @@ The purpose of pathway analytics is not to remove all variation, but to understa
 
 :::
 
-![](../images/Figure13_3_Healthcare-Pathway-Variation.png)
+![](../images/Figure13_3_Healthcare-Pathway-Variation.jpg)
 
 *Figure 13.3: Variation occurs throughout every stage of a healthcare pathway. Pathway analytics identifies where meaningful differences exist and helps investigate their underlying causes.*
 
@@ -496,7 +496,7 @@ For example, increasing emergency admissions may initially appear to be the prob
 
 Without understanding these underlying causes, organisations risk implementing solutions that address the visible problem while leaving the real issue unchanged.
 
-![](../images/Figure13_4_Symptoms_Not_Root_Causes.png)
+![](../images/Figure13_4_Symptoms_Not_Root_Causes.jpg)
 
 *Figure 13.4: Visible performance issues are often symptoms of deeper system problems. Effective improvement begins by understanding the underlying causes.*
 
@@ -1236,7 +1236,7 @@ Different organisations contribute different expertise throughout the improvemen
 
 Rather than working sequentially, these groups should work collaboratively throughout implementation, continually learning from one another and adapting as new evidence emerges.
 
-![](../images/Figure13_7_Mature_Collaborative_Approach.png)
+![](../images/Figure13_7_Mature_Collaborative_Approach.jpg)
 
 *Figure 13.7: A mature, collaborative approach to improving healthcare pathways. Strategy, commissioning, providers, analytics and patients each contribute different expertise throughout the pathway improvement cycle.*
 

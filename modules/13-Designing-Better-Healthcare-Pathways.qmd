@@ -1472,3 +1472,206 @@ Evaluation moves beyond asking **"Did we implement the pathway?"** to asking:
 
 The next section explores how healthcare organisations answer these questions using robust evaluation methods and evidence-based decision-making.
 
+## 7. Evaluating Whether the Pathway Worked
+
+Successfully implementing a redesigned pathway does not necessarily mean it has improved care.
+
+A pathway may be delivered exactly as planned, yet fail to improve patient outcomes. Equally, a pathway may produce encouraging early results that later prove to be temporary or influenced by other factors.
+
+Implementation and evaluation are therefore closely related but fundamentally different activities.
+
+Implementation asks:
+
+> **Did we introduce the redesigned pathway successfully?**
+
+Evaluation asks:
+
+> **Did the redesigned pathway actually make a meaningful difference?**
+
+Understanding this distinction is essential for evidence-based decision-making.
+
+### Why Evaluation Matters
+
+Healthcare organisations make investment decisions every day.
+
+New pathways are introduced, services are expanded, staff are recruited and digital technologies are adopted in the hope of improving patient care.
+
+Without evaluation, however, organisations cannot confidently answer questions such as:
+
+- Did patient outcomes improve?
+- Which patients benefited most?
+- Were health inequalities reduced?
+- Did patient experience improve?
+- Were there unintended consequences?
+- Was the pathway delivered consistently?
+- Did the pathway represent good value?
+- Should the redesign be expanded, refined or discontinued?
+
+Evaluation transforms assumptions into evidence and enables organisations to learn from both successes and failures.
+
+Evaluation should therefore be viewed as an essential part of pathway improvement rather than an optional activity undertaken after implementation.
+
+::: {.callout-important collapse="false"}
+## Key Principle
+
+Implementation tells us **what changed**.
+
+Evaluation tells us **whether the change actually improved outcomes.**
+:::
+
+### Evaluation Begins During Pathway Design
+
+One of the most common mistakes in healthcare improvement is treating evaluation as something that happens after implementation.
+
+In reality, effective evaluation begins much earlier.
+
+As pathways are designed, organisations should already be considering:
+
+- what success looks like
+- which outcomes should improve
+- how those outcomes will be measured
+- what data will be required
+- whether suitable comparison groups exist
+- how patient experience will be captured
+- how health inequalities will be assessed.
+
+Thinking about evaluation early ensures that appropriate data are collected and that meaningful conclusions can be drawn once implementation is complete.
+
+This principle has been emphasised throughout this module, from developing a Theory of Change and Logic Model through to pathway redesign and implementation.
+
+### Choosing the Right Outcomes
+
+A successful pathway should improve more than one aspect of healthcare.
+
+Evaluation therefore usually considers several different types of outcomes.
+
+Examples include:
+
+**Clinical outcomes**
+
+- mortality
+- complications
+- disease progression
+- readmissions
+
+**Operational outcomes**
+
+- waiting times
+- length of stay
+- referral-to-treatment times
+- emergency attendances
+
+**Patient outcomes and experience**
+
+- Patient Reported Outcome Measures (PROMs)
+- Patient Reported Experience Measures (PREMs)
+- Friends and Family Test
+- patient surveys
+- interviews and focus groups
+- complaints and compliments
+
+**Equity**
+
+- access across different populations
+- differences in outcomes by age, ethnicity or deprivation
+- geographical variation
+- digital inclusion
+
+**Staff outcomes**
+
+- workload
+- staff experience
+- workforce sustainability
+- adoption of the redesigned pathway
+
+Selecting the right combination of outcomes is often just as important as choosing the evaluation method itself.
+
+### Bringing Different Types of Evidence Together
+
+Good evaluation rarely relies upon a single source of information.
+
+Routine operational data help organisations understand what happened.
+
+Qualitative evidence helps explain why it happened.
+
+Patients, carers and frontline staff frequently identify barriers and successes that cannot be identified from quantitative data alone.
+
+Combining multiple sources of evidence provides a richer understanding of how the redesigned pathway performed and why.
+
+This mixed-methods approach is increasingly recognised as good practice when evaluating complex healthcare interventions.
+
+### Choosing the Appropriate Evaluation Approach
+
+The appropriate evaluation approach depends upon:
+
+- the nature of the pathway
+- the decision being supported
+- available data
+- timescales
+- practical constraints.
+
+Some pathway changes may only require simple monitoring.
+
+Others may require robust observational studies or formal evaluations capable of demonstrating attribution.
+
+Rather than repeating these methods here, they are explored in detail elsewhere in this series.
+
+::: {.callout-note collapse="false"}
+## Where to Learn More
+
+This module explains **where evaluation fits within pathway improvement**.
+
+For a deeper understanding of evaluation, see:
+
+- **Module 7 – Evaluating Interventions & Schemes (Thinking About Evidence)** for the principles of evidence, attribution and evaluation planning.
+
+- **Module 8 – Evaluating Interventions in Practice (Methods)** for practical evaluation approaches including before-and-after studies, Interrupted Time Series, Difference-in-Differences, matched controls and randomised evaluations where appropriate.
+:::
+
+### Looking Beyond Effectiveness
+
+Knowing whether a pathway works is only one part of the decision.
+
+Healthcare organisations must also consider:
+
+- whether benefits justify the resources invested
+- whether improvements are sustainable
+- whether inequalities have narrowed or widened
+- whether the pathway could be improved further
+- whether the redesign should be expanded to other populations.
+
+These questions move beyond evaluation alone.
+
+Economic evaluation and value for money are explored in **Module 14 — Health Economics & Value in Healthcare Decision-Making**.
+
+Predicting the likely impact of alternative pathway designs before implementation is explored in **Module 15 — Simulation & Scenario Modelling**.
+
+### Continuous Learning
+
+Evaluation should not represent the end of the pathway improvement journey.
+
+Instead, every evaluation should generate new learning.
+
+Those lessons should inform future pathway redesign, implementation and evaluation.
+
+Healthcare systems that continuously evaluate, learn and improve become increasingly capable of delivering better outcomes for their populations over time.
+
+![](../images/Figure13_9_Continuous_Learning_Cycle.png)
+
+*Figure 13.9: Evaluation is not the end of pathway improvement. Learning from implementation and evaluation informs the next cycle of pathway redesign, creating a continuous improvement cycle.*
+
+::: {.callout-tip collapse="false"}
+## Decision-Maker Questions
+
+When reviewing a redesigned pathway, ask yourself:
+
+- What question is our evaluation trying to answer?
+- Have we defined success before implementation?
+- Are we measuring outcomes that matter to patients?
+- Have we considered equity as well as average outcomes?
+- What qualitative evidence complements our routine data?
+- Which evaluation approach is most appropriate?
+- Have we considered value for money as well as effectiveness?
+- How will the findings inform future pathway redesign?
+:::
+

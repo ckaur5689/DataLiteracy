@@ -52,11 +52,11 @@ This connected journey is known as a **healthcare pathway**.
 A **healthcare pathway** is the coordinated sequence of care that a patient experiences as they move through health and care services to prevent, diagnose, treat, manage or recover from a health condition.
 
 Healthcare pathways often span multiple organisations, professional groups and information systems, making collaboration essential for delivering high-quality, patient-centred care.
-:::
 
 ![](../images/Figure13_1_Healthcare_Pathways_Cross_Organisational_Boundaries.jpg)
 
 *Figure 13.1: Patients experience a single healthcare journey that spans multiple organisations and services. Every interaction creates data that can be used to understand and improve the pathway.*
+:::
 
 Rather than focusing on the performance of individual organisations, pathway thinking focuses on how well the whole system works together to achieve the best possible outcomes for patients.
 

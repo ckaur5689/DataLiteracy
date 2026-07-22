@@ -1,0 +1,2424 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Module 13: Designing Better Healthcare Pathways – Health Data Literacy</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../Project.html" rel="next">
+<link href="../modules/12-Data-Quality-Assurance-Trustworthy-Data.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-9e3e5b9121e68b3f077afb32f2c64d95.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- Privacy-friendly analytics by Plausible -->
+
+<script async="" src="https://plausible.io/js/pa-coCTmyI_rulN60WT7evG5.js"></script>
+
+<script>
+
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+
+  plausible.init()
+
+</script>
+
+
+
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/13-Designing-Better-Healthcare-Pathways.html"><span class="chapter-title">Module 13: Designing Better Healthcare Pathways</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Health Data Literacy</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Book_Cover.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Book_Cover.html</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Part_1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part 1 — How do we interpret healthcare data correctly?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/01-Counts-vs-Rates.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 1 - Counts vs Rates</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/02-Mean-vs-Median.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 2 — Mean vs Median</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/03-Correlation-vs-Causation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 3 — Correlation vs Causation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/04-Variation-&amp;-Distributions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 4 — Variation &amp; Distributions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/05-Standardisation-&amp;-Fair-Comparison.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 5 — Standardisation &amp; Fair Comparison</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/06-How-to-Read-a-Dashboard.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 6 — How to Read a Dashboard</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/07-Thinking-About-Evidence-&amp;-Evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 7 — Thinking About Evidence &amp; Evaluation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/08-Evaluating-Methods-in-Practice.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 8 — Evaluation Methods in Practice</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/09-Risk-Probability-Uncertainty.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 09: Risk, Probability &amp; Uncertainty</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/10-Common-Analytical-Traps-&amp;-Data-Fallacies.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 10: Common Analytical Traps &amp; Data Fallacies</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Part_2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part 2 — How do we understand, improve and evaluate complex healthcare systems?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/11-Demand_Capacity_Operational_Flow.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 11: Demand, Capacity &amp; Operational Flow</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/12-Data-Quality-Assurance-Trustworthy-Data.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Module 12: Data Quality, Assurance &amp; Trustworthy Data</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/13-Designing-Better-Healthcare-Pathways.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Module 13: Designing Better Healthcare Pathways</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Project.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Project - Health Data Literacy Series</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link" data-scroll-target="#why-this-matters">Why This Matters</a></li>
+  <li><a href="#understanding-healthcare-pathways" id="toc-understanding-healthcare-pathways" class="nav-link" data-scroll-target="#understanding-healthcare-pathways">1. Understanding Healthcare Pathways</a>
+  <ul class="collapse">
+  <li><a href="#why-pathways-matter" id="toc-why-pathways-matter" class="nav-link" data-scroll-target="#why-pathways-matter">Why Pathways Matter</a></li>
+  </ul></li>
+  <li><a href="#example-13.1-improving-hospital-discharge" id="toc-example-13.1-improving-hospital-discharge" class="nav-link" data-scroll-target="#example-13.1-improving-hospital-discharge">Example 13.1: Improving Hospital Discharge</a></li>
+  <li><a href="#pathways-are-increasingly-integrated" id="toc-pathways-are-increasingly-integrated" class="nav-link" data-scroll-target="#pathways-are-increasingly-integrated">Pathways Are Increasingly Integrated</a></li>
+  <li><a href="#the-role-of-data" id="toc-the-role-of-data" class="nav-link" data-scroll-target="#the-role-of-data">The Role of Data</a></li>
+  <li><a href="#understanding-the-current-pathway" id="toc-understanding-the-current-pathway" class="nav-link" data-scroll-target="#understanding-the-current-pathway">2. Understanding the Current Pathway</a>
+  <ul class="collapse">
+  <li><a href="#map-the-pathway-as-it-actually-operates" id="toc-map-the-pathway-as-it-actually-operates" class="nav-link" data-scroll-target="#map-the-pathway-as-it-actually-operates">Map the Pathway as It Actually Operates</a></li>
+  </ul></li>
+  <li><a href="#example-13.2-the-designed-pathway-versus-the-real-pathway" id="toc-example-13.2-the-designed-pathway-versus-the-real-pathway" class="nav-link" data-scroll-target="#example-13.2-the-designed-pathway-versus-the-real-pathway">Example 13.2: The Designed Pathway versus the Real Pathway</a></li>
+  <li><a href="#every-pathway-leaves-a-digital-footprint" id="toc-every-pathway-leaves-a-digital-footprint" class="nav-link" data-scroll-target="#every-pathway-leaves-a-digital-footprint">Every Pathway Leaves a Digital Footprint</a></li>
+  <li><a href="#define-the-population-and-the-pathway-boundaries" id="toc-define-the-population-and-the-pathway-boundaries" class="nav-link" data-scroll-target="#define-the-population-and-the-pathway-boundaries">Define the Population and the Pathway Boundaries</a></li>
+  <li><a href="#looking-beyond-activity" id="toc-looking-beyond-activity" class="nav-link" data-scroll-target="#looking-beyond-activity">Looking Beyond Activity</a></li>
+  <li><a href="#example-13.3-looking-beyond-activity" id="toc-example-13.3-looking-beyond-activity" class="nav-link" data-scroll-target="#example-13.3-looking-beyond-activity">Example 13.3: Looking Beyond Activity</a></li>
+  <li><a href="#understanding-variation-along-the-pathway" id="toc-understanding-variation-along-the-pathway" class="nav-link" data-scroll-target="#understanding-variation-along-the-pathway">3. Understanding Variation Along the Pathway</a>
+  <ul class="collapse">
+  <li><a href="#warranted-and-unwarranted-variation" id="toc-warranted-and-unwarranted-variation" class="nav-link" data-scroll-target="#warranted-and-unwarranted-variation">Warranted and Unwarranted Variation</a></li>
+  <li><a href="#looking-beyond-the-numbers" id="toc-looking-beyond-the-numbers" class="nav-link" data-scroll-target="#looking-beyond-the-numbers">Looking Beyond the Numbers</a></li>
+  <li><a href="#learning-from-positive-variation" id="toc-learning-from-positive-variation" class="nav-link" data-scroll-target="#learning-from-positive-variation">Learning from Positive Variation</a></li>
+  <li><a href="#variation-from-different-perspectives" id="toc-variation-from-different-perspectives" class="nav-link" data-scroll-target="#variation-from-different-perspectives">Variation from Different Perspectives</a></li>
+  <li><a href="#asking-why" id="toc-asking-why" class="nav-link" data-scroll-target="#asking-why">Asking Why</a></li>
+  </ul></li>
+  <li><a href="#example-13.4-longer-is-not-always-worse" id="toc-example-13.4-longer-is-not-always-worse" class="nav-link" data-scroll-target="#example-13.4-longer-is-not-always-worse">Example 13.4: Longer Is Not Always Worse</a></li>
+  <li><a href="#distinguishing-signal-from-noise" id="toc-distinguishing-signal-from-noise" class="nav-link" data-scroll-target="#distinguishing-signal-from-noise">Distinguishing Signal from Noise</a></li>
+  <li><a href="#investigating-why-variation-exists" id="toc-investigating-why-variation-exists" class="nav-link" data-scroll-target="#investigating-why-variation-exists">4. Investigating Why Variation Exists</a>
+  <ul class="collapse">
+  <li><a href="#symptoms-are-not-root-causes" id="toc-symptoms-are-not-root-causes" class="nav-link" data-scroll-target="#symptoms-are-not-root-causes">Symptoms Are Not Root Causes</a></li>
+  <li><a href="#looking-across-the-whole-system" id="toc-looking-across-the-whole-system" class="nav-link" data-scroll-target="#looking-across-the-whole-system">Looking Across the Whole System</a></li>
+  <li><a href="#avoid-jumping-to-conclusions" id="toc-avoid-jumping-to-conclusions" class="nav-link" data-scroll-target="#avoid-jumping-to-conclusions">Avoid Jumping to Conclusions</a></li>
+  <li><a href="#rarely-a-single-cause" id="toc-rarely-a-single-cause" class="nav-link" data-scroll-target="#rarely-a-single-cause">Rarely a Single Cause</a></li>
+  <li><a href="#asking-better-questions" id="toc-asking-better-questions" class="nav-link" data-scroll-target="#asking-better-questions">Asking Better Questions</a></li>
+  <li><a href="#using-multiple-sources-of-evidence" id="toc-using-multiple-sources-of-evidence" class="nav-link" data-scroll-target="#using-multiple-sources-of-evidence">Using Multiple Sources of Evidence</a></li>
+  <li><a href="#root-cause-analysis" id="toc-root-cause-analysis" class="nav-link" data-scroll-target="#root-cause-analysis">Root Cause Analysis</a></li>
+  </ul></li>
+  <li><a href="#example-13.5-reducing-readmissions" id="toc-example-13.5-reducing-readmissions" class="nav-link" data-scroll-target="#example-13.5-reducing-readmissions">Example 13.5: Reducing Readmissions</a></li>
+  <li><a href="#developing-a-theory-of-change" id="toc-developing-a-theory-of-change" class="nav-link" data-scroll-target="#developing-a-theory-of-change">Developing a Theory of Change</a></li>
+  <li><a href="#anticipating-unintended-consequences" id="toc-anticipating-unintended-consequences" class="nav-link" data-scroll-target="#anticipating-unintended-consequences">Anticipating Unintended Consequences</a></li>
+  <li><a href="#example-13.6-reducing-length-of-stay" id="toc-example-13.6-reducing-length-of-stay" class="nav-link" data-scroll-target="#example-13.6-reducing-length-of-stay">Example 13.6: Reducing Length of Stay</a></li>
+  <li><a href="#finding-high-leverage-improvement-opportunities" id="toc-finding-high-leverage-improvement-opportunities" class="nav-link" data-scroll-target="#finding-high-leverage-improvement-opportunities">Finding High-Leverage Improvement Opportunities</a></li>
+  <li><a href="#prioritising-improvement-opportunities" id="toc-prioritising-improvement-opportunities" class="nav-link" data-scroll-target="#prioritising-improvement-opportunities">Prioritising Improvement Opportunities</a></li>
+  <li><a href="#from-investigation-to-improvement" id="toc-from-investigation-to-improvement" class="nav-link" data-scroll-target="#from-investigation-to-improvement">From Investigation to Improvement</a></li>
+  <li><a href="#designing-better-pathways" id="toc-designing-better-pathways" class="nav-link" data-scroll-target="#designing-better-pathways">5. Designing Better Pathways</a>
+  <ul class="collapse">
+  <li><a href="#principles-of-good-pathway-design" id="toc-principles-of-good-pathway-design" class="nav-link" data-scroll-target="#principles-of-good-pathway-design">Principles of Good Pathway Design</a></li>
+  <li><a href="#start-with-patient-needs" id="toc-start-with-patient-needs" class="nav-link" data-scroll-target="#start-with-patient-needs">Start with Patient Needs</a></li>
+  </ul></li>
+  <li><a href="#example-13.7-seeing-the-pathway-through-the-patients-eyes" id="toc-example-13.7-seeing-the-pathway-through-the-patients-eyes" class="nav-link" data-scroll-target="#example-13.7-seeing-the-pathway-through-the-patients-eyes">Example 13.7: Seeing the Pathway Through the Patient’s Eyes</a></li>
+  <li><a href="#co-producing-better-pathways" id="toc-co-producing-better-pathways" class="nav-link" data-scroll-target="#co-producing-better-pathways">Co-producing Better Pathways</a></li>
+  <li><a href="#design-for-prevention-not-just-treatment" id="toc-design-for-prevention-not-just-treatment" class="nav-link" data-scroll-target="#design-for-prevention-not-just-treatment">Design for Prevention, Not Just Treatment</a></li>
+  <li><a href="#reduce-unwarranted-variation" id="toc-reduce-unwarranted-variation" class="nav-link" data-scroll-target="#reduce-unwarranted-variation">Reduce Unwarranted Variation</a></li>
+  <li><a href="#design-for-equity" id="toc-design-for-equity" class="nav-link" data-scroll-target="#design-for-equity">Design for Equity</a></li>
+  <li><a href="#design-for-value" id="toc-design-for-value" class="nav-link" data-scroll-target="#design-for-value">Design for Value</a></li>
+  <li><a href="#data-digital-and-ai-as-enablers" id="toc-data-digital-and-ai-as-enablers" class="nav-link" data-scroll-target="#data-digital-and-ai-as-enablers">Data, Digital and AI as Enablers</a></li>
+  <li><a href="#designing-sustainable-improvements" id="toc-designing-sustainable-improvements" class="nav-link" data-scroll-target="#designing-sustainable-improvements">Designing Sustainable Improvements</a></li>
+  <li><a href="#designing-for-continuous-learning" id="toc-designing-for-continuous-learning" class="nav-link" data-scroll-target="#designing-for-continuous-learning">Designing for Continuous Learning</a></li>
+  <li><a href="#shared-ownership" id="toc-shared-ownership" class="nav-link" data-scroll-target="#shared-ownership">Shared Ownership</a></li>
+  <li><a href="#pathway-design-checklist" id="toc-pathway-design-checklist" class="nav-link" data-scroll-target="#pathway-design-checklist">Pathway Design Checklist</a></li>
+  <li><a href="#transition-to-implementation" id="toc-transition-to-implementation" class="nav-link" data-scroll-target="#transition-to-implementation">Transition to Implementation</a></li>
+  <li><a href="#turning-pathway-design-into-reality" id="toc-turning-pathway-design-into-reality" class="nav-link" data-scroll-target="#turning-pathway-design-into-reality">6. Turning Pathway Design into Reality</a>
+  <ul class="collapse">
+  <li><a href="#why-good-pathway-designs-sometimes-fail" id="toc-why-good-pathway-designs-sometimes-fail" class="nav-link" data-scroll-target="#why-good-pathway-designs-sometimes-fail">Why Good Pathway Designs Sometimes Fail</a></li>
+  <li><a href="#building-shared-ownership" id="toc-building-shared-ownership" class="nav-link" data-scroll-target="#building-shared-ownership">Building Shared Ownership</a></li>
+  <li><a href="#leadership-and-culture" id="toc-leadership-and-culture" class="nav-link" data-scroll-target="#leadership-and-culture">Leadership and Culture</a></li>
+  <li><a href="#communicating-the-change" id="toc-communicating-the-change" class="nav-link" data-scroll-target="#communicating-the-change">Communicating the Change</a></li>
+  <li><a href="#working-together-across-the-system" id="toc-working-together-across-the-system" class="nav-link" data-scroll-target="#working-together-across-the-system">Working Together Across the System</a></li>
+  <li><a href="#preparing-for-implementation" id="toc-preparing-for-implementation" class="nav-link" data-scroll-target="#preparing-for-implementation">Preparing for Implementation</a></li>
+  <li><a href="#turning-pathway-design-into-reality-1" id="toc-turning-pathway-design-into-reality-1" class="nav-link" data-scroll-target="#turning-pathway-design-into-reality-1">Turning Pathway Design into Reality</a></li>
+  <li><a href="#managing-risk-during-implementation" id="toc-managing-risk-during-implementation" class="nav-link" data-scroll-target="#managing-risk-during-implementation">Managing Risk During Implementation</a></li>
+  <li><a href="#pilot-learn-and-scale" id="toc-pilot-learn-and-scale" class="nav-link" data-scroll-target="#pilot-learn-and-scale">Pilot, Learn and Scale</a></li>
+  <li><a href="#monitoring-during-implementation" id="toc-monitoring-during-implementation" class="nav-link" data-scroll-target="#monitoring-during-implementation">Monitoring During Implementation</a></li>
+  <li><a href="#adapting-while-maintaining-direction" id="toc-adapting-while-maintaining-direction" class="nav-link" data-scroll-target="#adapting-while-maintaining-direction">Adapting While Maintaining Direction</a></li>
+  </ul></li>
+  <li><a href="#example-13.8-learning-during-implementation" id="toc-example-13.8-learning-during-implementation" class="nav-link" data-scroll-target="#example-13.8-learning-during-implementation">Example 13.8: Learning During Implementation</a></li>
+  <li><a href="#sustaining-improvement" id="toc-sustaining-improvement" class="nav-link" data-scroll-target="#sustaining-improvement">Sustaining Improvement</a></li>
+  <li><a href="#building-a-learning-healthcare-system" id="toc-building-a-learning-healthcare-system" class="nav-link" data-scroll-target="#building-a-learning-healthcare-system">Building a Learning Healthcare System</a></li>
+  <li><a href="#transition-to-evaluation" id="toc-transition-to-evaluation" class="nav-link" data-scroll-target="#transition-to-evaluation">Transition to Evaluation</a></li>
+  <li><a href="#evaluating-whether-the-pathway-worked" id="toc-evaluating-whether-the-pathway-worked" class="nav-link" data-scroll-target="#evaluating-whether-the-pathway-worked">7. Evaluating Whether the Pathway Worked</a>
+  <ul class="collapse">
+  <li><a href="#why-evaluation-matters" id="toc-why-evaluation-matters" class="nav-link" data-scroll-target="#why-evaluation-matters">Why Evaluation Matters</a></li>
+  <li><a href="#evaluation-begins-during-pathway-design" id="toc-evaluation-begins-during-pathway-design" class="nav-link" data-scroll-target="#evaluation-begins-during-pathway-design">Evaluation Begins During Pathway Design</a></li>
+  <li><a href="#choosing-the-right-outcomes" id="toc-choosing-the-right-outcomes" class="nav-link" data-scroll-target="#choosing-the-right-outcomes">Choosing the Right Outcomes</a></li>
+  <li><a href="#bringing-different-types-of-evidence-together" id="toc-bringing-different-types-of-evidence-together" class="nav-link" data-scroll-target="#bringing-different-types-of-evidence-together">Bringing Different Types of Evidence Together</a></li>
+  <li><a href="#choosing-the-appropriate-evaluation-approach" id="toc-choosing-the-appropriate-evaluation-approach" class="nav-link" data-scroll-target="#choosing-the-appropriate-evaluation-approach">Choosing the Appropriate Evaluation Approach</a></li>
+  <li><a href="#looking-beyond-effectiveness" id="toc-looking-beyond-effectiveness" class="nav-link" data-scroll-target="#looking-beyond-effectiveness">Looking Beyond Effectiveness</a></li>
+  <li><a href="#continuous-learning" id="toc-continuous-learning" class="nav-link" data-scroll-target="#continuous-learning">Continuous Learning</a></li>
+  </ul></li>
+  <li><a href="#bringing-it-all-together" id="toc-bringing-it-all-together" class="nav-link" data-scroll-target="#bringing-it-all-together">Bringing It All Together</a>
+  <ul class="collapse">
+  <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead">Looking Ahead</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Module 13: Designing Better Healthcare Pathways</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>By the end of this module you should be able to:</p>
+<ul>
+<li>Explain why healthcare pathways matter more than organisational boundaries.</li>
+<li>Understand how routine healthcare data can be used to map and analyse patient pathways.</li>
+<li>Identify variation, bottlenecks and opportunities for improvement along a pathway.</li>
+<li>Use evidence to inform the design of new or redesigned healthcare pathways.</li>
+<li>Consider equity, prevention and population need when designing interventions.</li>
+<li>Recognise the importance of integrated working across organisations, including primary care, community services, hospitals, local authorities and the voluntary sector.</li>
+<li>Understand how logic models and theories of change support pathway redesign.</li>
+<li>Appreciate why evaluation should be planned before implementation.</li>
+<li>Ask better questions when reviewing proposals for service redesign.</li>
+</ul>
+<!-- Learning Journey & Module Connections figure to be added after Modules 13–19 are finalised -->
+<p>Builds on: - Module X - Module Y</p>
+<p>Prepares for: - Module Z - Module A</p>
+</section>
+<section id="why-this-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-this-matters">Why This Matters</h2>
+<p>Every day, thousands of patients move between general practice, community services, hospitals, mental health services, social care and voluntary organisations. From the patient’s perspective this is a single journey, yet it is often delivered by multiple organisations, professional groups and information systems.</p>
+<p>Healthcare pathways are therefore much more than clinical flow diagrams. They describe how people access care, how services interact, where delays occur, how resources are used and ultimately whether patients receive timely, effective and equitable care.</p>
+<p>Well-designed pathways can improve patient outcomes, reduce unwarranted variation, prevent avoidable admissions, improve patient experience and make better use of limited healthcare resources. Poorly designed pathways can lead to duplication, fragmented care, unnecessary delays, increased costs and poorer outcomes.</p>
+<p>Data plays a central role throughout this process. Every referral, assessment, admission, transfer, discharge and follow-up appointment leaves a digital footprint. When combined with clinical evidence, patient and staff experience, and an understanding of how healthcare systems operate, these data provide powerful insights into where improvements can be made.</p>
+<p>However, redesigning a pathway is about much more than analysing data. Effective pathway design requires an understanding of the underlying causes of problems, the needs of different populations, the evidence supporting potential interventions, the practical realities of implementation and how success will be evaluated.</p>
+<p>Throughout this module we will follow the journey from understanding the current pathway through to designing an improved future pathway. Along the way, we will explore how data, evidence and systems thinking can support better decision-making and help healthcare organisations design services that improve outcomes, reduce inequalities and deliver greater value for patients and populations.</p>
+</section>
+<section id="understanding-healthcare-pathways" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-healthcare-pathways">1. Understanding Healthcare Pathways</h2>
+<p>When most people think about healthcare services, they naturally think in terms of organisations—general practice, community services, hospitals, mental health trusts or social care. Patients, however, rarely experience healthcare in this way.</p>
+<p>From the patient’s perspective, healthcare is a continuous journey. A person may visit their GP, undergo diagnostic tests at an acute hospital, receive treatment from a specialist team, require support from community services, access rehabilitation and later receive ongoing care from primary care. Increasingly, that journey may also involve social care, community pharmacy, Integrated Neighbourhood Teams (INTs) and voluntary, community and social enterprise (VCSE) organisations.</p>
+<p>This connected journey is known as a <strong>healthcare pathway</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Definition
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>A <strong>healthcare pathway</strong> is the coordinated sequence of care that a patient experiences as they move through health and care services to prevent, diagnose, treat, manage or recover from a health condition.</p>
+<p>Healthcare pathways often span multiple organisations, professional groups and information systems, making collaboration essential for delivering high-quality, patient-centred care.</p>
+</div>
+</div>
+</div>
+<p><img src="../images/Figure13_1_Healthcare_Pathways_Cross_Organisational_Boundaries.png" class="img-fluid"></p>
+<p><em>Figure 13.1: Patients experience a single healthcare journey that spans multiple organisations and services. Every interaction creates data that can be used to understand and improve the pathway.</em></p>
+<p>Rather than focusing on the performance of individual organisations, pathway thinking focuses on how well the whole system works together to achieve the best possible outcomes for patients.</p>
+<p>Ultimately, the purpose of a healthcare pathway is not simply to deliver activity, but to improve patient outcomes, patient experience and value while making the best use of limited healthcare resources.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Thinking in Pathways
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Patients do not experience organisations—they experience pathways.</p>
+<p>Improving one organisation does not necessarily improve the patient’s overall journey if delays, duplication or poor communication occur elsewhere in the pathway.</p>
+</div>
+</div>
+</div>
+<section id="why-pathways-matter" class="level3">
+<h3 class="anchored" data-anchor-id="why-pathways-matter">Why Pathways Matter</h3>
+<p>Many of today’s healthcare challenges cannot be solved by individual organisations working in isolation.</p>
+<p>For example:</p>
+<ul>
+<li>Reducing emergency admissions requires collaboration between primary care, community services, ambulance services and hospitals.</li>
+<li>Supporting frail older people often involves Integrated Neighbourhood Teams, therapists, community nurses, social care and voluntary organisations.</li>
+<li>Successful hospital discharge depends upon effective coordination between acute providers, community services, local authorities and carers.</li>
+<li>Preventing progression of chronic kidney disease requires coordinated working between general practice, nephrology services, pathology, community teams and patients themselves.</li>
+</ul>
+<p>Looking at only one part of the pathway can lead organisations to optimise their own performance while unintentionally creating problems elsewhere.</p>
+<p>For example, discharging patients more quickly may improve hospital performance, but if community capacity is insufficient it may simply shift demand into other parts of the health and care system or increase the risk of readmission.</p>
+<p>Organisations often optimise their own performance measures, such as reducing waiting times, increasing throughput or achieving performance targets. While these improvements are valuable, they do not necessarily improve the performance of the pathway as a whole. In some cases, improvements in one part of the system may unintentionally create delays, increase demand or shift pressures elsewhere.</p>
+</section>
+</section>
+<section id="example-13.1-improving-hospital-discharge" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.1-improving-hospital-discharge">Example 13.1: Improving Hospital Discharge</h2>
+<p>An acute hospital may successfully reduce the average length of stay by discharging patients sooner. However, if community rehabilitation services, social care or voluntary sector support are not available when needed, patients may experience delays in recovery, require readmission or place additional pressure on other parts of the health and care system.</p>
+<p>This illustrates why pathway improvement should focus on the <strong>whole patient journey</strong> rather than the performance of individual organisations.</p>
+</section>
+<section id="pathways-are-increasingly-integrated" class="level3">
+<h3 class="anchored" data-anchor-id="pathways-are-increasingly-integrated">Pathways Are Increasingly Integrated</h3>
+<p>The NHS is increasingly moving away from organisationally focused care towards integrated models that coordinate services around the needs of patients and populations.</p>
+<p>Many pathways now span multiple organisations, including:</p>
+<ul>
+<li>General Practice</li>
+<li>Community Health Services</li>
+<li>Acute Hospitals</li>
+<li>Mental Health Services</li>
+<li>Community Pharmacy</li>
+<li>Ambulance Services</li>
+<li>Adult Social Care</li>
+<li>Public Health</li>
+<li>Integrated Neighbourhood Teams (INTs)</li>
+<li>Voluntary, Community and Social Enterprise (VCSE) organisations</li>
+</ul>
+<p>Designing effective pathways therefore requires organisations to work collaboratively, share information appropriately and focus on outcomes that matter to patients rather than individual organisational targets.</p>
+<p>This is an example of <strong>systems thinking</strong>. Rather than viewing services in isolation, systems thinking considers how different parts of the health and care system interact and influence one another. Throughout this module we will adopt a systems perspective to understand where meaningful improvements can be made and how changes in one part of the pathway may affect others.</p>
+</section>
+<section id="the-role-of-data" class="level3">
+<h3 class="anchored" data-anchor-id="the-role-of-data">The Role of Data</h3>
+<p>Every interaction within a healthcare pathway creates information.</p>
+<p>Appointments, referrals, diagnostic tests, admissions, transfers, procedures, discharge summaries and follow-up appointments all contribute to a patient’s digital record.</p>
+<p>When linked together, these records allow analysts, clinicians and service leaders to understand how patients move through the system, where delays occur, which patients experience poorer outcomes and where opportunities for improvement may exist.</p>
+<p>Understanding a pathway is the first step towards improving it. Before deciding what should change, we first need to understand how patients currently move through the system, where variation exists, where delays occur and which parts of the pathway have the greatest influence on outcomes.</p>
+<p>The next section explores how routine healthcare data can be be used to understand the current pathway, identify opportunities for improvement and support evidence-informed redesign.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>When reviewing a healthcare pathway, ask yourself:</p>
+<ul>
+<li>Are we viewing the pathway from the patient’s perspective or from the perspective of individual organisations?</li>
+<li>Which organisations contribute to this pathway?</li>
+<li>Where are patients most likely to experience delays, duplication or fragmented care?</li>
+<li>Which parts of the pathway create the greatest value for patients?</li>
+<li>Are we measuring organisational performance or the performance of the whole pathway?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>When considering a healthcare pathway, ask yourself:</p>
+<ul>
+<li>Are we thinking about the whole patient journey or only our part of the system?</li>
+<li>Which organisations, teams and professionals contribute to this pathway?</li>
+<li>Where do patients experience transitions between services?</li>
+<li>Could improving one part of the pathway unintentionally create problems elsewhere?</li>
+<li>Are we measuring success from the perspective of the organisation or the patient?</li>
+<li>Who else needs to be involved if we are to improve outcomes across the entire pathway?</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="understanding-the-current-pathway" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-the-current-pathway">2. Understanding the Current Pathway</h2>
+<p>Before redesigning a healthcare pathway, it is essential to understand how the current pathway operates. Too often, services introduce new initiatives based on assumptions about where problems exist rather than evidence.</p>
+<p>Effective pathway redesign begins by asking:</p>
+<ul>
+<li>How do patients currently move through the pathway?</li>
+<li>Where do delays occur?</li>
+<li>Which patients experience poorer outcomes?</li>
+<li>Where is demand greatest?</li>
+<li>Which parts of the pathway appear to have the greatest influence on patient outcomes?</li>
+</ul>
+<p>Answering these questions requires more than reviewing organisational performance measures. It requires understanding the pathway as a connected system.</p>
+<section id="map-the-pathway-as-it-actually-operates" class="level3">
+<h3 class="anchored" data-anchor-id="map-the-pathway-as-it-actually-operates">Map the Pathway as It Actually Operates</h3>
+<p>The first step is to describe how the pathway currently works—not simply how policies, service specifications or process maps say it should work.</p>
+<p>A current-state pathway map should show:</p>
+<ul>
+<li>how patients enter the pathway</li>
+<li>the main stages and decision points</li>
+<li>which organisations and professionals are involved</li>
+<li>where information is transferred</li>
+<li>where patients wait, move between services or leave the pathway</li>
+<li>where responsibility for care changes</li>
+<li>how patients with different needs may follow different routes.</li>
+</ul>
+<p>This should be developed collaboratively with the people who deliver and experience the pathway. Analysts can describe patterns within the data, but clinicians, operational teams, patients and carers often reveal informal workarounds, communication failures and practical barriers that are not visible within routine records.</p>
+</section>
+</section>
+<section id="example-13.2-the-designed-pathway-versus-the-real-pathway" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.2-the-designed-pathway-versus-the-real-pathway">Example 13.2: The Designed Pathway versus the Real Pathway</h2>
+<p>A service specification may state that patients referred with suspected heart failure should receive diagnostic testing within two weeks before being reviewed by a specialist.</p>
+<p>However, discussions with clinicians and administrators reveal that diagnostic capacity is limited, some referrals are redirected, additional investigations are requested before appointments can be booked, and patients may attend emergency departments while waiting.</p>
+<p>The documented pathway appears straightforward. The real pathway experienced by patients is considerably more complex.</p>
+<p>Understanding this difference is often the first step towards meaningful pathway improvement.</p>
+</section>
+<section id="every-pathway-leaves-a-digital-footprint" class="level3">
+<h3 class="anchored" data-anchor-id="every-pathway-leaves-a-digital-footprint">Every Pathway Leaves a Digital Footprint</h3>
+<p>Every interaction between a patient and the health and care system generates data.</p>
+<p>Referrals, appointments, diagnostic tests, admissions, ward transfers, procedures, prescriptions, community visits and discharge summaries all leave a digital footprint. Individually, these events provide information about a single episode of care. Together, they tell the story of how patients move through the healthcare system.</p>
+<p>When linked appropriately, these routine operational data can reveal:</p>
+<ul>
+<li>common routes through a pathway</li>
+<li>where patients wait longest</li>
+<li>where patients drop out of the pathway</li>
+<li>where demand is concentrated</li>
+<li>which patient groups experience different outcomes</li>
+<li>how resource use varies across the pathway.</li>
+</ul>
+<p>Healthcare organisations already collect much of the information needed to understand pathways. The challenge is often not collecting more data, but connecting existing data to build a complete picture of the patient journey.</p>
+<p><img src="../images/Figure13_2_Healthcare_Pathway_Digital_Footprint.png" class="img-fluid"></p>
+<p><em>Figure 13.2: Every interaction along a healthcare pathway generates data. When linked together, these routine operational data create a digital footprint that can be used to understand how patients move through the health and care system.</em></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>The Digital Footprint Is Not the Whole Pathway
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Routine data provide an important view of how patients interact with services, but they rarely tell the complete story.</p>
+<p>They may not capture:</p>
+<ul>
+<li>unmet need among people who never access services</li>
+<li>why patients miss appointments or leave the pathway</li>
+<li>informal care provided by families and carers</li>
+<li>communication failures between organisations</li>
+<li>patient and staff experience</li>
+<li>activity recorded in systems that cannot yet be linked</li>
+<li>differences between the care recorded and the care actually delivered.</li>
+</ul>
+<p>Understanding a pathway therefore requires routine data to be combined with clinical knowledge, operational insight and the experiences of patients, carers and staff.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="define-the-population-and-the-pathway-boundaries" class="level3">
+<h3 class="anchored" data-anchor-id="define-the-population-and-the-pathway-boundaries">Define the Population and the Pathway Boundaries</h3>
+<p>Before analysing a pathway, it is important to define clearly:</p>
+<ul>
+<li>which patients are included</li>
+<li>how entry into the pathway is identified</li>
+<li>where the pathway begins and ends</li>
+<li>the period over which patients will be followed</li>
+<li>which organisations and services are included</li>
+<li>which outcomes will be examined</li>
+<li>whether patients can enter the pathway more than once.</li>
+</ul>
+<p>These decisions determine what the analysis can meaningfully conclude.</p>
+<p>For example, an analysis of chronic kidney disease may begin with diagnosis in general practice, referral to nephrology, an emergency attendance for acute kidney injury or admission to hospital. Each starting point represents a different patient population and answers a different evaluation question.</p>
+</section>
+<section id="looking-beyond-activity" class="level3">
+<h3 class="anchored" data-anchor-id="looking-beyond-activity">Looking Beyond Activity</h3>
+<p>It is tempting to focus on activity measures such as the number of referrals, appointments, admissions or procedures. While these metrics are important for understanding demand and workload, they rarely explain <strong>why</strong> variation exists or whether patients are receiving the right care at the right time.</p>
+<p>A pathway should therefore be examined from multiple perspectives, including:</p>
+<ul>
+<li>patient outcomes</li>
+<li>patient experience</li>
+<li>equity</li>
+<li>operational performance</li>
+<li>resource use</li>
+<li>variation</li>
+<li>clinical quality.</li>
+</ul>
+<p>Considering these together provides a much richer understanding than any single performance measure.</p>
+</section>
+<section id="example-13.3-looking-beyond-activity" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.3-looking-beyond-activity">Example 13.3: Looking Beyond Activity</h2>
+<p>Two hospitals admit a similar number of patients with chronic kidney disease each month.</p>
+<p>Looking only at admission counts might suggest that both pathways perform similarly.</p>
+<p>However, further analysis shows that one hospital has substantially higher readmission rates, longer waiting times for specialist review and poorer outcomes for patients living in more deprived communities.</p>
+<p>Although activity is similar, the pathway is performing very differently.</p>
+<p>This illustrates why pathway analysis should focus on the whole patient journey rather than isolated activity measures.</p>
+</section>
+<p>The next step is to understand how variation occurs within the pathway, distinguish normal variation from meaningful differences, and identify where the greatest opportunities for improvement exist.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Before redesigning a pathway, ask yourself:</p>
+<ul>
+<li>Do we understand how the pathway currently operates in practice?</li>
+<li>Have we spoken to the people delivering and experiencing the pathway?</li>
+<li>Is the patient population clearly defined?</li>
+<li>Can patient activity be linked across organisations?</li>
+<li>What parts of the pathway are invisible within the available data?</li>
+<li>Are we considering outcomes, experience, equity and resource use as well as activity?</li>
+<li>Could apparent differences reflect data quality, coding or access rather than genuine differences in care?</li>
+</ul>
+</div>
+</div>
+</div>
+<section id="understanding-variation-along-the-pathway" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-variation-along-the-pathway">3. Understanding Variation Along the Pathway</h2>
+<p>Once the current pathway has been mapped and the available data assembled, the next step is to understand how performance varies along the patient journey.</p>
+<p>Every healthcare pathway exhibits variation. Patients differ, clinical needs differ, services operate in different environments and healthcare itself is inherently complex. Variation is therefore both inevitable and expected.</p>
+<p>The challenge for decision-makers is not to eliminate variation, but to distinguish between variation that is expected and variation that suggests opportunities for improvement.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Variation is a signal to investigate, not a conclusion.</p>
+<p>The purpose of pathway analytics is not to remove all variation, but to understand why it exists and determine whether it represents an opportunity to improve patient care.</p>
+</div>
+</div>
+</div>
+<p><img src="../images/Figure13_3_Healthcare-Pathway-Variation.png" class="img-fluid"></p>
+<p><em>Figure 13.3: Variation occurs throughout every stage of a healthcare pathway. Pathway analytics identifies where meaningful differences exist and helps investigate their underlying causes.</em></p>
+<p>Variation may occur at many different stages of a pathway, including differences in:</p>
+<ul>
+<li>referral patterns</li>
+<li>waiting times</li>
+<li>diagnostic testing</li>
+<li>treatment decisions</li>
+<li>length of stay</li>
+<li>discharge processes</li>
+<li>readmission rates</li>
+<li>patient outcomes</li>
+<li>patient experience</li>
+<li>resource utilisation.</li>
+</ul>
+<p>Importantly, variation observed at one point in the pathway is often caused by events occurring much earlier. A bottleneck in discharge, for example, may reflect delays in community services, workforce constraints or problems in discharge planning rather than inefficiencies on the ward itself.</p>
+<p>Understanding pathways therefore requires systems thinking. Rather than examining each stage in isolation, we seek to understand how different parts of the pathway interact and influence one another.</p>
+<section id="warranted-and-unwarranted-variation" class="level3">
+<h3 class="anchored" data-anchor-id="warranted-and-unwarranted-variation">Warranted and Unwarranted Variation</h3>
+<p>Not all variation should be eliminated.</p>
+<p>Some variation is entirely appropriate because patients have different clinical needs, preferences and levels of complexity. This is known as <strong>warranted variation</strong>.</p>
+<p>Examples include:</p>
+<ul>
+<li>patients with multiple long-term conditions requiring longer admissions</li>
+<li>specialist centres managing more complex referrals</li>
+<li>treatment decisions based on informed patient choice.</li>
+</ul>
+<p>Other variation cannot be explained by patient need or sound clinical judgement. Instead, it may arise from differences in clinical practice, access to services, operational processes, workforce availability or organisational performance. This is known as <strong>unwarranted variation</strong>.</p>
+<p>One of the principal aims of pathway analytics is to distinguish between these two forms of variation so that improvement efforts focus where they are most likely to benefit patients.</p>
+</section>
+<section id="looking-beyond-the-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="looking-beyond-the-numbers">Looking Beyond the Numbers</h3>
+<p>Variation should rarely be interpreted in isolation.</p>
+<p>For example, one hospital may have longer waiting times than another. At first glance this appears undesirable.</p>
+<p>However, further investigation may show that the hospital treats patients with greater clinical complexity, provides more specialist services or receives referrals from a wider geographical area.</p>
+<p>Conversely, apparently good performance may hide important problems such as patients being diverted elsewhere, inappropriate referrals or inequalities in access.</p>
+<p>Numbers tell us <strong>where</strong> variation exists.</p>
+<p>Understanding the pathway helps explain <strong>why</strong> it exists.</p>
+</section>
+<section id="learning-from-positive-variation" class="level3">
+<h3 class="anchored" data-anchor-id="learning-from-positive-variation">Learning from Positive Variation</h3>
+<p>Variation should not always be viewed as a problem.</p>
+<p>Sometimes variation identifies organisations or teams achieving consistently better outcomes, shorter waiting times or improved patient experience despite working with similar populations.</p>
+<p>Rather than asking <em>“Why are others performing worse?”</em>, an equally valuable question is:</p>
+<blockquote class="blockquote">
+<p><strong>“What can we learn from those achieving the best results?”</strong></p>
+</blockquote>
+<p>Pathway analytics therefore supports both identifying problems and spreading good practice across healthcare systems.</p>
+</section>
+<section id="variation-from-different-perspectives" class="level3">
+<h3 class="anchored" data-anchor-id="variation-from-different-perspectives">Variation from Different Perspectives</h3>
+<p>Variation can be examined from several perspectives, each providing a different understanding of pathway performance.</p>
+<ul>
+<li><strong>Clinical variation</strong> – differences in diagnosis, treatment or outcomes.</li>
+<li><strong>Operational variation</strong> – waiting times, flow, bottlenecks and delays.</li>
+<li><strong>Financial variation</strong> – differences in cost, resource use and value.</li>
+<li><strong>Patient experience variation</strong> – satisfaction, access and continuity of care.</li>
+<li><strong>Equity variation</strong> – differences between demographic or socioeconomic groups.</li>
+<li><strong>Workforce variation</strong> – staffing levels, skills and service capacity.</li>
+</ul>
+<p>Considering multiple perspectives provides a more complete understanding of how a pathway is functioning than relying on a single performance measure.</p>
+</section>
+<section id="asking-why" class="level3">
+<h3 class="anchored" data-anchor-id="asking-why">Asking Why</h3>
+<p>Once variation has been identified, the next question should always be:</p>
+<p><strong>Why?</strong></p>
+<p>Possible explanations include:</p>
+<ul>
+<li>differences in population need</li>
+<li>case mix and clinical complexity</li>
+<li>deprivation</li>
+<li>service configuration</li>
+<li>workforce availability</li>
+<li>operational processes</li>
+<li>coding practices</li>
+<li>data quality</li>
+<li>random variation</li>
+<li>genuine differences in performance.</li>
+</ul>
+<p>Only after exploring these explanations should conclusions be drawn.</p>
+</section>
+</section>
+<section id="example-13.4-longer-is-not-always-worse" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.4-longer-is-not-always-worse">Example 13.4: Longer Is Not Always Worse</h2>
+<p>Hospital A has a median waiting time of six weeks for a specialist clinic.</p>
+<p>Hospital B has a median waiting time of four weeks.</p>
+<p>An immediate conclusion might be that Hospital B performs better.</p>
+<p>However, further investigation shows that Hospital A accepts more complex referrals requiring additional diagnostic investigations before clinic review, while Hospital B redirects many of these patients to tertiary centres.</p>
+<p>The observed variation reflects differences in case mix and pathway design rather than poorer operational performance.</p>
+<p>Without understanding the reasons behind the variation, decision-makers could reach the wrong conclusion.</p>
+</section>
+<section id="distinguishing-signal-from-noise" class="level3">
+<h3 class="anchored" data-anchor-id="distinguishing-signal-from-noise">Distinguishing Signal from Noise</h3>
+<p>Not every observed difference is meaningful.</p>
+<p>Small numbers, random fluctuation and natural variation can all create apparent differences that disappear over time.</p>
+<p>Understanding pathway variation therefore draws together many of the concepts introduced earlier in this book, including:</p>
+<ul>
+<li><strong>Module 4:</strong> Understanding Variation</li>
+<li><strong>Module 5:</strong> Standardisation and Fair Comparisons</li>
+<li><strong>Module 9:</strong> Reading Dashboards Critically</li>
+<li><strong>Module 10:</strong> Evaluating Healthcare Improvement</li>
+</ul>
+<p>Together, these provide the analytical foundation for distinguishing genuine opportunities for improvement from normal operational variation.</p>
+<p>The objective is not simply to identify where pathways differ, but to identify where meaningful improvements can be made.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>When reviewing variation along a pathway, ask yourself:</p>
+<ul>
+<li>Which differences are expected and which are unexpected?</li>
+<li>Is this variation warranted or unwarranted?</li>
+<li>Have we adjusted for differences in population or case mix?</li>
+<li>Could the observed variation reflect data quality or coding differences?</li>
+<li>Is this variation consistent over time or simply random fluctuation?</li>
+<li>Are we learning from areas performing particularly well?</li>
+<li>Which areas of variation have the greatest impact on patients?</li>
+<li>What additional evidence do we need before drawing conclusions?</li>
+</ul>
+</div>
+</div>
+</div>
+<p>Understanding <strong>where</strong> variation exists is only the beginning.</p>
+<p>The next challenge is determining <strong>why</strong> it occurs.</p>
+<p>Effective pathway redesign depends on identifying the underlying causes of variation rather than simply reacting to its symptoms.</p>
+</section>
+<section id="investigating-why-variation-exists" class="level2">
+<h2 class="anchored" data-anchor-id="investigating-why-variation-exists">4. Investigating Why Variation Exists</h2>
+<p>Identifying variation is only the first step.</p>
+<p>The more important question is:</p>
+<blockquote class="blockquote">
+<p><strong>Why does this variation exist?</strong></p>
+</blockquote>
+<p>Healthcare organisations often respond quickly to visible problems such as increasing waiting times, rising admissions or higher readmission rates. However, these are usually symptoms of deeper issues rather than the underlying problem itself.</p>
+<p>Improvement efforts are most successful when they address the causes of variation rather than its consequences.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Treat the symptom.</p>
+<p>Understand the cause.</p>
+<p>Improve the system.</p>
+</div>
+</div>
+</div>
+<section id="symptoms-are-not-root-causes" class="level3">
+<h3 class="anchored" data-anchor-id="symptoms-are-not-root-causes">Symptoms Are Not Root Causes</h3>
+<p>A symptom is something that can be observed.</p>
+<p>A root cause is the underlying factor that produces the symptom.</p>
+<p>For example, increasing emergency admissions may initially appear to be the problem. However, the true causes may include delayed diagnosis, poor access to community services, medication adherence, workforce shortages, socioeconomic factors or inadequate discharge planning.</p>
+<p>Without understanding these underlying causes, organisations risk implementing solutions that address the visible problem while leaving the real issue unchanged.</p>
+<p><img src="../images/Figure13_4_Symptoms_Not_Root_Causes.png" class="img-fluid"></p>
+<p><em>Figure 13.4: Visible performance issues are often symptoms of deeper system problems. Effective improvement begins by understanding the underlying causes.</em></p>
+</section>
+<section id="looking-across-the-whole-system" class="level3">
+<h3 class="anchored" data-anchor-id="looking-across-the-whole-system">Looking Across the Whole System</h3>
+<p>Healthcare pathways operate as interconnected systems.</p>
+<p>A delay observed in one part of the pathway is frequently caused by factors occurring elsewhere.</p>
+<p>For example, delayed discharge may be influenced by:</p>
+<ul>
+<li>community rehabilitation capacity</li>
+<li>availability of domiciliary care</li>
+<li>housing support</li>
+<li>pharmacy delays</li>
+<li>transport arrangements</li>
+<li>family or carer availability</li>
+<li>discharge planning processes.</li>
+</ul>
+<p>Similarly, high emergency admissions may reflect earlier challenges in prevention, diagnosis or ongoing management within primary or community care.</p>
+<p>Understanding these interactions helps avoid local optimisation that simply moves problems elsewhere within the system.</p>
+<p>Figure 13.5 illustrates how effective pathway improvement moves beyond treating visible symptoms. Rather than reacting to problems where they appear, organisations investigate upstream causes, understand the wider system, identify the greatest opportunities for improvement, design interventions that address the underlying issues and finally evaluate whether those changes have achieved their intended impact.</p>
+<p><img src="../images/Figure13_5_Looking_Upstream_Pathway.png" class="img-fluid"></p>
+<p><em>Figure 13.5: Effective pathway improvement follows a structured process: investigate the problem, understand the wider system, identify high-leverage opportunities, design interventions that address underlying causes and evaluate whether meaningful improvement has been achieved. Problems observed later in the pathway often originate much earlier.</em></p>
+<p>Although shown as a sequence, improvement is rarely a linear process. Findings from implementation and evaluation frequently lead organisations to revisit their understanding of the pathway, refine their assumptions and redesign interventions in an ongoing cycle of learning and improvement.</p>
+</section>
+<section id="avoid-jumping-to-conclusions" class="level3">
+<h3 class="anchored" data-anchor-id="avoid-jumping-to-conclusions">Avoid Jumping to Conclusions</h3>
+<p>Understanding why variation exists requires careful investigation rather than quick assumptions.</p>
+<p>Just because two events occur together does not mean that one caused the other.</p>
+<p>For example, an increase in emergency admissions following the introduction of a new community service does not necessarily mean the service caused the increase. Seasonal illness, demographic change, workforce pressures or changes in coding may all contribute to the observed trend.</p>
+<p>Likewise, an apparent improvement following the introduction of a new pathway does not automatically demonstrate that the intervention was successful. Other changes occurring at the same time—such as staffing changes, seasonal pressures or wider system initiatives—may also have influenced the outcome.</p>
+<p>Before designing an intervention, decision-makers should be confident that they understand the factors genuinely driving the observed variation.</p>
+<p>This is why causal thinking and robust evaluation are essential components of pathway improvement.</p>
+</section>
+<section id="rarely-a-single-cause" class="level3">
+<h3 class="anchored" data-anchor-id="rarely-a-single-cause">Rarely a Single Cause</h3>
+<p>Healthcare problems are seldom explained by a single factor.</p>
+<p>Increasing waiting times, for example, may result from rising demand, workforce shortages, inefficient booking processes, delayed diagnostics, seasonal pressures and limited community capacity occurring simultaneously.</p>
+<p>Similarly, high readmission rates may reflect a combination of patient complexity, discharge processes, medication management, social care availability and health inequalities.</p>
+<p>These factors often interact with one another. Addressing only one may improve performance slightly, while leaving the wider problem largely unchanged.</p>
+<p>Effective pathway improvement therefore considers how multiple interacting factors combine to influence performance, rather than searching for one simple explanation.</p>
+</section>
+<section id="asking-better-questions" class="level3">
+<h3 class="anchored" data-anchor-id="asking-better-questions">Asking Better Questions</h3>
+<p>Good investigations begin with good questions.</p>
+<p>Rather than asking:</p>
+<ul>
+<li>Why are admissions increasing?</li>
+<li>Why are waiting times longer?</li>
+<li>Why are readmissions higher?</li>
+</ul>
+<p>Decision-makers should ask:</p>
+<ul>
+<li>What has changed?</li>
+<li>Where in the pathway did this begin?</li>
+<li>Who is most affected?</li>
+<li>Is this happening consistently or only within particular groups?</li>
+<li>Could multiple factors be contributing simultaneously?</li>
+<li>What evidence supports each possible explanation?</li>
+<li>What evidence would help us distinguish between competing explanations?</li>
+</ul>
+<p>Better questions lead to better investigations and ultimately better interventions.</p>
+</section>
+<section id="using-multiple-sources-of-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="using-multiple-sources-of-evidence">Using Multiple Sources of Evidence</h3>
+<p>Routine data can identify <strong>where</strong> variation exists, but it rarely explains <strong>why</strong> it exists.</p>
+<p>Understanding healthcare pathways requires combining multiple sources of evidence.</p>
+<p>Quantitative evidence may include:</p>
+<ul>
+<li>routine activity data</li>
+<li>waiting times</li>
+<li>outcomes</li>
+<li>readmissions</li>
+<li>financial information</li>
+<li>workforce data.</li>
+</ul>
+<p>Qualitative evidence may include:</p>
+<ul>
+<li>patient feedback and surveys</li>
+<li>interviews with patients, carers and staff</li>
+<li>complaints and compliments</li>
+<li>pathway observations and process walkthroughs</li>
+<li>multidisciplinary team discussions</li>
+<li>clinical audit</li>
+<li>incident reviews</li>
+<li>operational knowledge from frontline teams.</li>
+</ul>
+<p>Each provides a different perspective on how the pathway operates.</p>
+<p>By bringing these sources together, organisations develop a richer and more complete understanding than either quantitative or qualitative evidence could provide alone.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Numbers often tell us <strong>where</strong> to investigate.</p>
+<p>People often help us understand <strong>why</strong>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="root-cause-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="root-cause-analysis">Root Cause Analysis</h3>
+<p>Once sufficient evidence has been gathered, structured investigation techniques can help identify the underlying causes of variation.</p>
+<p>Examples include:</p>
+<ul>
+<li>Five Whys</li>
+<li>Fishbone (Ishikawa) Diagrams</li>
+<li>Process Mapping</li>
+<li>Failure Mode and Effects Analysis (FMEA)</li>
+<li>Driver Diagrams.</li>
+</ul>
+<p>The specific technique matters less than the mindset behind it.</p>
+<p>All encourage organisations to move beyond surface-level observations and develop a deeper understanding of how complex healthcare systems behave.</p>
+<p>Rather than asking <em>“What happened?”</em>, they encourage teams to ask <em>“Why did it happen?”</em> and <em>“What within the system allowed it to happen?”</em></p>
+</section>
+</section>
+<section id="example-13.5-reducing-readmissions" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.5-reducing-readmissions">Example 13.5: Reducing Readmissions</h2>
+<p>An organisation identifies increasing 30-day readmissions for patients with heart failure.</p>
+<p>An initial response might be to increase outpatient appointments following discharge.</p>
+<p>However, further investigation shows that many patients struggle to obtain prescribed medication before leaving hospital, receive limited education about recognising early deterioration and experience delays accessing community heart failure services.</p>
+<p>Although readmissions are the visible problem, they are not the underlying cause.</p>
+<p>The improvement effort therefore focuses on pharmacy processes, discharge education and community follow-up rather than simply increasing clinic capacity.</p>
+<p>By addressing the underlying causes rather than the symptom, the intervention is more likely to achieve sustainable improvement.</p>
+</section>
+<section id="developing-a-theory-of-change" class="level3">
+<h3 class="anchored" data-anchor-id="developing-a-theory-of-change">Developing a Theory of Change</h3>
+<p>Once the likely causes of variation have been identified, the next step is deciding how those causes should be addressed.</p>
+<p>Every improvement initiative is based on an assumption about <strong>how change will occur</strong>. This is often referred to as a <strong>Theory of Change</strong>—a clear explanation of how a proposed intervention is expected to lead to improved outcomes.</p>
+<p>A Theory of Change links together:</p>
+<ul>
+<li>the problem being addressed</li>
+<li>the underlying causes</li>
+<li>the proposed intervention</li>
+<li>the expected changes in behaviour or processes</li>
+<li>the anticipated short-, medium- and long-term outcomes.</li>
+</ul>
+<p>Making these assumptions explicit helps organisations test whether their understanding of the problem is correct before investing significant time and resources in implementation.</p>
+<p>If the underlying assumptions about the causes of variation are incorrect, even a well-designed intervention may fail to achieve its intended impact.</p>
+<p>Conversely, a simple intervention that targets the true root causes may produce substantial improvements across multiple parts of the pathway.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Every intervention is based on an implicit explanation of <strong>why the problem exists</strong>.</p>
+<p>Making that explanation explicit through a Theory of Change allows assumptions to be challenged before implementation begins.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="anticipating-unintended-consequences" class="level3">
+<h3 class="anchored" data-anchor-id="anticipating-unintended-consequences">Anticipating Unintended Consequences</h3>
+<p>Healthcare systems are highly interconnected.</p>
+<p>Changes made to one part of a pathway frequently influence other parts of the system, sometimes in unexpected ways.</p>
+<p>For example:</p>
+<ul>
+<li>improving access to diagnostics may increase demand on outpatient clinics</li>
+<li>reducing length of stay may increase pressure on community services</li>
+<li>introducing new referral pathways may increase workload within primary care</li>
+<li>expanding virtual consultations may unintentionally disadvantage patients with limited digital access.</li>
+</ul>
+<p>These unintended consequences do not necessarily mean that an intervention is unsuccessful. Rather, they highlight the importance of considering the whole system when planning change.</p>
+<p>Effective pathway redesign therefore anticipates how different parts of the healthcare system may respond and plans accordingly.</p>
+</section>
+<section id="example-13.6-reducing-length-of-stay" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.6-reducing-length-of-stay">Example 13.6: Reducing Length of Stay</h2>
+<p>A hospital successfully reduces average length of stay by introducing earlier discharge planning.</p>
+<p>Although inpatient capacity improves, community nursing teams experience a substantial increase in workload because more patients require support shortly after discharge.</p>
+<p>The intervention improves one part of the pathway while creating additional pressure elsewhere.</p>
+<p>Considering these wider system impacts during planning allows organisations to develop complementary solutions, such as increasing community capacity alongside changes to hospital discharge processes.</p>
+</section>
+<section id="finding-high-leverage-improvement-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="finding-high-leverage-improvement-opportunities">Finding High-Leverage Improvement Opportunities</h3>
+<p>Not every identified problem deserves the same level of attention.</p>
+<p>Some interventions require considerable investment but produce only modest improvements.</p>
+<p>Others address a relatively small underlying cause that influences multiple parts of the pathway.</p>
+<p>These are often referred to as <strong>high-leverage improvement opportunities</strong>—areas where relatively small changes can produce disproportionately large benefits across the healthcare system.</p>
+<p>Examples might include:</p>
+<ul>
+<li>improving referral criteria to reduce unnecessary investigations</li>
+<li>strengthening medication reconciliation at discharge</li>
+<li>improving communication between organisations</li>
+<li>increasing patient self-management support</li>
+<li>simplifying administrative processes that delay patient flow.</li>
+</ul>
+<p>Focusing on high-leverage opportunities enables organisations to maximise the impact of limited financial, workforce and operational resources.</p>
+</section>
+<section id="prioritising-improvement-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="prioritising-improvement-opportunities">Prioritising Improvement Opportunities</h3>
+<p>In practice, organisations rarely have sufficient resources to address every identified issue.</p>
+<p>Improvement priorities should therefore consider both the <strong>potential impact</strong> of an intervention and the <strong>feasibility</strong> of implementing it.</p>
+<p>Factors influencing prioritisation may include:</p>
+<ul>
+<li>expected improvement in patient outcomes</li>
+<li>reduction in health inequalities</li>
+<li>patient and staff experience</li>
+<li>financial implications</li>
+<li>workforce requirements</li>
+<li>implementation complexity</li>
+<li>organisational readiness</li>
+<li>strategic priorities.</li>
+</ul>
+<p>Considering these factors helps ensure that pathway redesign focuses on interventions that are both meaningful and achievable.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>The best improvement opportunity is not always the largest problem.</p>
+<p>It is often the intervention that addresses an important underlying cause while remaining practical, affordable and sustainable to implement.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="from-investigation-to-improvement" class="level3">
+<h3 class="anchored" data-anchor-id="from-investigation-to-improvement">From Investigation to Improvement</h3>
+<p>By this stage, organisations should have developed a much richer understanding of the pathway than was possible from routine performance reports alone.</p>
+<p>They should understand:</p>
+<ul>
+<li>where variation exists</li>
+<li>which variation is meaningful</li>
+<li>the likely causes of that variation</li>
+<li>how different parts of the pathway interact</li>
+<li>which underlying causes offer the greatest opportunity for improvement</li>
+<li>the assumptions underpinning potential interventions.</li>
+</ul>
+<p>Only once this understanding has been established should pathway redesign begin.</p>
+<p>Skipping this stage risks implementing solutions that are based on assumptions rather than evidence.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Before redesigning a pathway, ask yourself:</p>
+<ul>
+<li>Are we addressing symptoms or the underlying causes?</li>
+<li>Have we considered the pathway as a whole rather than focusing on one organisation or service?</li>
+<li>What evidence supports our explanation of the problem?</li>
+<li>Have we combined quantitative data with qualitative evidence?</li>
+<li>Could multiple interacting factors be contributing?</li>
+<li>Have we clearly articulated our Theory of Change?</li>
+<li>What unintended consequences might arise elsewhere in the system?</li>
+<li>Which improvement opportunities are likely to deliver the greatest overall benefit?</li>
+<li>Do we have sufficient evidence to justify redesigning the pathway?</li>
+</ul>
+</div>
+</div>
+</div>
+<p>Investigating why variation exists marks the transition from understanding a problem to improving it.</p>
+<p>Once the underlying causes have been identified and the wider system understood, organisations can begin redesigning pathways that address root causes rather than symptoms.</p>
+<p>The next section explores how evidence, systems thinking and patient-centred design can be combined to create pathways that consistently deliver better outcomes while making the best use of available resources.</p>
+</section>
+<section id="designing-better-pathways" class="level2">
+<h2 class="anchored" data-anchor-id="designing-better-pathways">5. Designing Better Pathways</h2>
+<p>Understanding why a healthcare pathway performs as it does provides the foundation for improvement.</p>
+<p>The next challenge is deciding <strong>how the pathway should be redesigned</strong> to consistently deliver better outcomes for patients while making the best use of available resources.</p>
+<p>Pathway redesign is about far more than improving the performance of individual services. It involves rethinking how patients move through the healthcare system, identifying opportunities to remove unnecessary barriers, strengthening coordination across services and organisations, and ensuring that every stage of the pathway contributes to better outcomes and patient experience.</p>
+<p>There is rarely a single <em>perfect</em> pathway. Every redesign involves balancing competing priorities such as timely access, quality, patient experience, workforce capacity, financial sustainability and equity. Good pathway design therefore requires evidence, collaboration and careful judgement rather than simply applying a standard solution.</p>
+<p>Ultimately, the goal is to create pathways that are safer, simpler, more equitable and more responsive to the needs of the populations they serve.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Design pathways around <strong>patients rather than organisations</strong>.</p>
+<p>Patients experience one continuous journey through the healthcare system, even when their care spans multiple organisations, professional groups and services.</p>
+</div>
+</div>
+</div>
+<section id="principles-of-good-pathway-design" class="level3">
+<h3 class="anchored" data-anchor-id="principles-of-good-pathway-design">Principles of Good Pathway Design</h3>
+<p>Although every healthcare pathway is unique, successful redesign tends to share several common principles.</p>
+<p>Figure 13.6 provides an overview of these principles. It places the patient journey at the centre of pathway design and distinguishes between the principles that should guide every stage of care and the wider system enablers that allow high-quality pathways to function effectively.</p>
+<p>Good pathway design is not achieved by improving one stage of care in isolation. Instead, patient-centred care, prevention, equity, evidence and coordination should influence the entire journey, while reduced variation, efficient flow, data, digital technologies and AI, sustainable use of resources and continuous learning enable the pathway to perform consistently over time.</p>
+<p><img src="../images/Figure13_6_Good_Pathway_Design.png" class="img-fluid"></p>
+<p><em>Figure 13.6: Good pathway design places the complete patient journey at the centre. Shared principles guide every stage of care, while system-wide enablers support efficient, equitable, sustainable and continuously improving pathways.</em></p>
+<p>Taken together, these principles mean that well-designed pathways should:</p>
+<ul>
+<li>improve patient outcomes and experience</li>
+<li>support prevention and earlier intervention</li>
+<li>provide equitable access and outcomes</li>
+<li>use evidence and local insight to inform decisions</li>
+<li>coordinate care across organisational boundaries</li>
+<li>reduce unnecessary delays and duplication</li>
+<li>reduce unwarranted variation while maintaining appropriate flexibility</li>
+<li>use data, digital technologies and AI where they add genuine value</li>
+<li>make sustainable use of workforce and financial resources</li>
+<li>generate evidence for continuous learning and improvement.</li>
+</ul>
+<p>These principles are closely interconnected. Improvements in one area often strengthen others, although pathway redesign inevitably involves balancing competing priorities and making informed trade-offs.</p>
+<p>Rather than optimising individual parts of the system in isolation, effective pathway redesign seeks to improve the performance of the pathway as a whole.</p>
+<p>Although every principle is important, the starting point is always the patient journey itself.</p>
+</section>
+<section id="start-with-patient-needs" class="level3">
+<h3 class="anchored" data-anchor-id="start-with-patient-needs">Start with Patient Needs</h3>
+<p>Healthcare organisations often design services around professional roles, organisational structures or historical ways of working.</p>
+<p>Patients, however, experience healthcare very differently.</p>
+<p>From their perspective, there is no distinction between primary care, community services, hospitals or social care. They experience one continuous journey through the health and care system.</p>
+<p>Good pathway design therefore begins by understanding what matters most to patients and carers.</p>
+<p>Patients rarely judge healthcare by organisational performance indicators or waiting time targets alone. Instead, they ask questions such as:</p>
+<ul>
+<li>Was I able to access help when I needed it?</li>
+<li>Did professionals communicate with one another?</li>
+<li>Did I understand what was happening?</li>
+<li>Did I receive consistent information?</li>
+<li>Was my care coordinated?</li>
+<li>Did I know what would happen next?</li>
+<li>Was I supported after leaving hospital?</li>
+</ul>
+<p>Understanding these experiences often reveals opportunities for improvement that are not immediately visible within routine performance data.</p>
+<p>When pathways are designed around patient needs rather than organisational convenience, they frequently become both more effective and more efficient.</p>
+</section>
+</section>
+<section id="example-13.7-seeing-the-pathway-through-the-patients-eyes" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.7-seeing-the-pathway-through-the-patients-eyes">Example 13.7: Seeing the Pathway Through the Patient’s Eyes</h2>
+<p>A patient with chronic kidney disease may initially visit their GP before undergoing diagnostic blood tests, attending specialist outpatient clinics, experiencing an emergency admission following acute deterioration and later receiving ongoing support from community services.</p>
+<p>To each organisation involved, these may appear as separate episodes of care.</p>
+<p>To the patient, they represent one continuous healthcare journey.</p>
+<p>Viewing the pathway from the patient’s perspective often reveals duplicated assessments, inconsistent communication, unnecessary delays and gaps in continuity that would be difficult to identify by examining individual services in isolation.</p>
+</section>
+<section id="co-producing-better-pathways" class="level3">
+<h3 class="anchored" data-anchor-id="co-producing-better-pathways">Co-producing Better Pathways</h3>
+<p>No single group fully understands every aspect of a healthcare pathway.</p>
+<p>Patients are experts in experiencing healthcare.</p>
+<p>Frontline clinicians understand how care is delivered.</p>
+<p>Managers understand operational constraints and service delivery.</p>
+<p>Analysts understand the data, patterns of variation and opportunities for improvement.</p>
+<p>Each perspective provides valuable insight, but none is sufficient on its own.</p>
+<p>Successful pathway redesign therefore depends on bringing these different perspectives together.</p>
+<p>Increasingly, healthcare organisations adopt a <strong>co-production</strong> approach, bringing together patients, carers, clinicians, managers and analysts to develop shared solutions.</p>
+<p>Co-production helps ensure that redesigned pathways address problems that matter most to those delivering and receiving care, rather than focusing solely on organisational priorities.</p>
+<p>For example, routine data may identify increasing outpatient non-attendance rates.</p>
+<p>Patient discussions may reveal that appointment letters are difficult to understand, clinic locations are inaccessible by public transport or appointment times conflict with work and caring responsibilities.</p>
+<p>Similarly, clinicians may identify unnecessary duplication of assessments between organisations that is not apparent from routinely collected data.</p>
+<p>By combining quantitative evidence with operational knowledge and lived experience, organisations are more likely to develop improvements that are practical, sustainable and meaningful for patients.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>The best pathway designs combine <strong>evidence with lived experience</strong>.</p>
+<p>Patients, carers, clinicians, operational teams and analysts each understand different parts of the pathway. Bringing these perspectives together leads to more effective, practical and sustainable redesign.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="design-for-prevention-not-just-treatment" class="level3">
+<h3 class="anchored" data-anchor-id="design-for-prevention-not-just-treatment">Design for Prevention, Not Just Treatment</h3>
+<p>Traditionally, many healthcare pathways have focused on responding once illness has developed or deteriorated.</p>
+<p>Increasingly, healthcare systems are seeking to shift activity <strong>upstream</strong>, intervening earlier to prevent avoidable deterioration and reduce future demand.</p>
+<p>Examples include:</p>
+<ul>
+<li>earlier diagnosis</li>
+<li>proactive identification of high-risk patients</li>
+<li>preventative interventions</li>
+<li>supporting self-management</li>
+<li>timely medication optimisation</li>
+<li>improving continuity of care</li>
+<li>strengthening community-based support.</li>
+</ul>
+<p>Preventative pathways often require investment today, while many of the benefits are realised months or even years later.</p>
+<p>However, preventing deterioration frequently improves patient outcomes while simultaneously reducing pressure on emergency departments, inpatient services and urgent care pathways.</p>
+<p>As discussed in the previous section, many of the greatest opportunities for improvement lie upstream, long before patients require hospital treatment.</p>
+<p>Preventative pathway redesign therefore requires organisations to think beyond immediate activity and consider how earlier intervention can improve outcomes across the whole healthcare system.</p>
+</section>
+<section id="reduce-unwarranted-variation" class="level3">
+<h3 class="anchored" data-anchor-id="reduce-unwarranted-variation">Reduce Unwarranted Variation</h3>
+<p>Many preventative interventions also reduce unwarranted variation by ensuring patients receive timely, consistent care before their condition deteriorates.</p>
+<p>Variation identified during pathway analysis should directly inform redesign.</p>
+<p>The objective is <strong>not</strong> to make every patient’s journey identical.</p>
+<p>Healthcare should remain flexible enough to meet individual clinical needs, patient preferences and clinical judgement.</p>
+<p>Instead, pathway redesign seeks to reduce <strong>unwarranted variation</strong>—variation that cannot be explained by legitimate differences in patient need.</p>
+<p>Examples include:</p>
+<ul>
+<li>inconsistent referral criteria</li>
+<li>variation in access to diagnostics</li>
+<li>different discharge processes between organisations</li>
+<li>duplication of assessments</li>
+<li>inconsistent follow-up arrangements</li>
+<li>variation in clinical protocols where evidence supports standardisation.</li>
+</ul>
+<p>Reducing unwarranted variation improves reliability while preserving appropriate flexibility.</p>
+<p>Consistency should support personalised care rather than replace it.</p>
+</section>
+<section id="design-for-equity" class="level3">
+<h3 class="anchored" data-anchor-id="design-for-equity">Design for Equity</h3>
+<p>Good pathway design should improve outcomes for the whole population, not only for those who already access services easily.</p>
+<p>Barriers to care are not experienced equally.</p>
+<p>Factors such as age, disability, ethnicity, language, deprivation, geography and digital exclusion may all influence whether patients are able to access services, navigate pathways or benefit from interventions.</p>
+<p>Designing for equity means identifying these barriers early and considering how pathways can reduce rather than reinforce existing inequalities.</p>
+<p>Examples include:</p>
+<ul>
+<li>improving access for underserved communities</li>
+<li>offering multiple methods of accessing services</li>
+<li>identifying groups with poorer outcomes</li>
+<li>adapting communication to different needs</li>
+<li>ensuring eligibility criteria do not unintentionally disadvantage particular populations.</li>
+</ul>
+<p>Equity should therefore be considered throughout pathway design rather than evaluated only after implementation.</p>
+</section>
+<section id="design-for-value" class="level3">
+<h3 class="anchored" data-anchor-id="design-for-value">Design for Value</h3>
+<p>Healthcare resources are finite.</p>
+<p>Every investment in one pathway represents resources that cannot be invested elsewhere.</p>
+<p>Good pathway design therefore seeks to maximise <strong>value</strong>, achieving the greatest possible improvement in health outcomes, patient experience and equity from the resources available.</p>
+<p>Value extends beyond reducing costs.</p>
+<p>An intervention that increases expenditure may still represent excellent value if it produces substantially better outcomes, prevents future illness or reduces demand elsewhere in the system.</p>
+<p>Conversely, a pathway that is inexpensive but delivers poor outcomes or unnecessary activity may represent poor value.</p>
+<p>Thinking about value encourages organisations to consider both the benefits and the opportunity costs of pathway redesign.</p>
+<p>Health economics provides structured approaches for assessing these trade-offs and is explored in more detail in the next module.</p>
+</section>
+<section id="data-digital-and-ai-as-enablers" class="level3">
+<h3 class="anchored" data-anchor-id="data-digital-and-ai-as-enablers">Data, Digital and AI as Enablers</h3>
+<p>Data, digital technologies and artificial intelligence are increasingly supporting pathway redesign.</p>
+<p>However, technology should enable better pathways rather than become the primary objective.</p>
+<p>Data help organisations understand variation, identify opportunities for improvement and monitor whether redesigned pathways achieve their intended outcomes.</p>
+<p>Digital technologies can improve communication, coordination and patient access.</p>
+<p>Artificial intelligence may assist with activities such as risk stratification, clinical decision support, demand forecasting and administrative automation.</p>
+<p>These technologies can significantly enhance pathway redesign when implemented appropriately.</p>
+<p>However, successful pathways continue to depend upon good clinical practice, effective leadership, collaboration and robust evaluation.</p>
+<p>Technology is an enabler of improvement, not a substitute for thoughtful pathway design.</p>
+</section>
+<section id="designing-sustainable-improvements" class="level3">
+<h3 class="anchored" data-anchor-id="designing-sustainable-improvements">Designing Sustainable Improvements</h3>
+<p>A pathway is only successful if improvements can be maintained over time.</p>
+<p>Changes that rely upon temporary funding, individual enthusiasm or exceptional effort often prove difficult to sustain.</p>
+<p>Sustainable pathway redesign considers:</p>
+<ul>
+<li>workforce capacity</li>
+<li>financial affordability</li>
+<li>operational feasibility</li>
+<li>organisational ownership</li>
+<li>training requirements</li>
+<li>digital infrastructure</li>
+<li>ongoing measurement and evaluation.</li>
+</ul>
+<p>Designing sustainability into a pathway from the outset increases the likelihood that improvements will continue long after implementation.</p>
+</section>
+<section id="designing-for-continuous-learning" class="level3">
+<h3 class="anchored" data-anchor-id="designing-for-continuous-learning">Designing for Continuous Learning</h3>
+<p>No pathway remains optimal forever.</p>
+<p>Clinical evidence evolves.</p>
+<p>Population needs change.</p>
+<p>New technologies emerge.</p>
+<p>Healthcare organisations therefore need pathways that can adapt over time.</p>
+<p>Continuous learning involves routinely monitoring outcomes, reviewing patient experience, evaluating interventions and using evidence to refine pathways.</p>
+<p>Improvement should be viewed as an ongoing cycle rather than a one-off redesign exercise.</p>
+</section>
+<section id="shared-ownership" class="level3">
+<h3 class="anchored" data-anchor-id="shared-ownership">Shared Ownership</h3>
+<p>Successful pathways rarely belong to a single organisation.</p>
+<p>Most healthcare pathways span primary care, community services, acute providers, mental health services, social care and voluntary sector organisations.</p>
+<p>Effective redesign therefore depends upon shared ownership.</p>
+<p>Shared objectives, agreed measures of success, transparent data and collaborative governance all help ensure that organisations work together towards improving the patient journey rather than optimising individual services.</p>
+</section>
+<section id="pathway-design-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="pathway-design-checklist">Pathway Design Checklist</h3>
+<p>Before implementing pathway changes, decision-makers should consider whether the proposed redesign:</p>
+<ul>
+<li>starts with patient needs and experience</li>
+<li>is supported by evidence</li>
+<li>addresses unwarranted variation</li>
+<li>strengthens prevention and earlier intervention</li>
+<li>improves equity</li>
+<li>delivers value for the resources invested</li>
+<li>uses data, digital technology and AI appropriately</li>
+<li>is operationally and financially sustainable</li>
+<li>includes plans for monitoring and evaluation</li>
+<li>has support from patients, clinicians and partner organisations.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Before approving a redesigned pathway, ask yourself:</p>
+<ul>
+<li>Have we designed this pathway around the patient journey?</li>
+<li>What evidence suggests this redesign will improve outcomes?</li>
+<li>Which patients are most likely to benefit?</li>
+<li>Could any groups be disadvantaged?</li>
+<li>Does this redesign improve value as well as outcomes?</li>
+<li>How will we know whether it has worked?</li>
+<li>Is the pathway sustainable over the long term?</li>
+<li>Who is responsible for monitoring and continuously improving the pathway?</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="transition-to-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="transition-to-implementation">Transition to Implementation</h3>
+<p>Designing a better pathway is only the beginning.</p>
+<p>The real challenge lies in successfully implementing change, measuring its impact and continuously refining the pathway as new evidence emerges.</p>
+<p>The following section explores how healthcare organisations can evaluate whether redesigned pathways have delivered the improvements they were intended to achieve.</p>
+</section>
+<section id="turning-pathway-design-into-reality" class="level2">
+<h2 class="anchored" data-anchor-id="turning-pathway-design-into-reality">6. Turning Pathway Design into Reality</h2>
+<p>Designing a better pathway is an important achievement, but it is only the beginning.</p>
+<p>Healthcare systems are inherently complex. Even well-designed pathways can fail if they are introduced without sufficient engagement, planning or support.</p>
+<p>Successful implementation requires organisations to move beyond designing a better future state and focus on how that change will be introduced, adopted and sustained across the healthcare system.</p>
+<p>Implementation is therefore not simply about delivering a project. It is about helping people, organisations and systems adopt new ways of working while maintaining safe, effective and equitable care throughout the transition.</p>
+<section id="why-good-pathway-designs-sometimes-fail" class="level3">
+<h3 class="anchored" data-anchor-id="why-good-pathway-designs-sometimes-fail">Why Good Pathway Designs Sometimes Fail</h3>
+<p>Many pathway redesigns appear technically sound but fail to achieve their intended benefits once introduced into routine practice.</p>
+<p>Common reasons include:</p>
+<ul>
+<li>insufficient engagement with clinicians and operational teams</li>
+<li>unrealistic assumptions about workforce capacity</li>
+<li>lack of shared ownership across organisations</li>
+<li>poorly defined governance and responsibilities</li>
+<li>inadequate communication</li>
+<li>insufficient resources or digital infrastructure</li>
+<li>failure to monitor implementation</li>
+<li>resistance to change</li>
+<li>unintended consequences that were not anticipated.</li>
+</ul>
+<p>In many cases, the pathway itself is not the problem.</p>
+<p>Instead, difficulties arise because organisations underestimate the complexity of introducing change into busy healthcare systems involving multiple organisations, professions and competing priorities.</p>
+<p>Successful implementation should therefore be considered during pathway design rather than after the redesign has been completed.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>A well-designed pathway does not improve healthcare on its own.</p>
+<p>Improvement occurs only when the redesigned pathway is successfully adopted by the people and organisations responsible for delivering care.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="building-shared-ownership" class="level3">
+<h3 class="anchored" data-anchor-id="building-shared-ownership">Building Shared Ownership</h3>
+<p>Healthcare pathways rarely belong to a single organisation.</p>
+<p>Patients often move between general practice, community services, acute hospitals, mental health services, community pharmacy, local authorities and voluntary organisations during a single episode of care.</p>
+<p>Successful implementation therefore depends upon developing a shared understanding of:</p>
+<ul>
+<li>why change is needed</li>
+<li>the expected benefits</li>
+<li>individual roles and responsibilities</li>
+<li>measures of success</li>
+<li>governance arrangements</li>
+<li>how organisations will work together throughout implementation.</li>
+</ul>
+<p>When organisations share ownership of a pathway, they are more likely to solve problems collaboratively, adapt to unexpected challenges and sustain improvements over time.</p>
+<p>Shared ownership also helps avoid one of the most common causes of implementation failure—optimising one part of the pathway while unintentionally creating problems elsewhere.</p>
+</section>
+<section id="leadership-and-culture" class="level3">
+<h3 class="anchored" data-anchor-id="leadership-and-culture">Leadership and Culture</h3>
+<p>Successful implementation depends as much on leadership and organisational culture as it does on technical pathway design.</p>
+<p>Visible clinical leadership, executive sponsorship and engaged operational leaders help create confidence that change is both necessary and achievable.</p>
+<p>However, leadership is not confined to senior managers.</p>
+<p>Clinical leaders, operational managers, analysts and frontline staff all influence whether redesigned pathways become embedded into everyday practice.</p>
+<p>Equally important is creating a culture where staff feel able to identify problems, suggest improvements and learn from implementation without fear of blame.</p>
+<p>Healthcare improvement is rarely a linear process.</p>
+<p>Unexpected challenges will arise, requiring organisations to adapt while remaining focused on the overall objectives of the pathway redesign.</p>
+<p>Successful organisations therefore view implementation as a shared learning process rather than simply the delivery of a predefined project plan.</p>
+</section>
+<section id="communicating-the-change" class="level3">
+<h3 class="anchored" data-anchor-id="communicating-the-change">Communicating the Change</h3>
+<p>People are more likely to support change when they understand why it is happening.</p>
+<p>Communication should therefore begin early and continue throughout implementation.</p>
+<p>Effective communication should explain:</p>
+<ul>
+<li>why the pathway is changing</li>
+<li>the evidence supporting the redesign</li>
+<li>how patients and populations are expected to benefit</li>
+<li>what will change</li>
+<li>what will remain unchanged</li>
+<li>how success will be measured</li>
+<li>how staff, patients and partner organisations can provide feedback.</li>
+</ul>
+<p>Good communication builds trust, reduces uncertainty and encourages engagement across organisational boundaries.</p>
+<p>Communication should also be two-way.</p>
+<p>Listening to concerns from patients, clinicians, operational teams and partner organisations often identifies practical issues that can be addressed before they become barriers to successful implementation.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Before implementation begins, ask yourself:</p>
+<ul>
+<li>Do all organisations understand why the pathway is changing?</li>
+<li>Have patients, clinicians and partner organisations helped shape the implementation?</li>
+<li>Is there genuine shared ownership of the redesign?</li>
+<li>Are leaders visibly supporting the change?</li>
+<li>Have we explained both the benefits and the practical implications of the redesign?</li>
+<li>Do staff know how they can raise concerns or contribute ideas during implementation?</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="working-together-across-the-system" class="level3">
+<h3 class="anchored" data-anchor-id="working-together-across-the-system">Working Together Across the System</h3>
+<p>Successfully implementing a redesigned pathway is rarely the responsibility of a single team or organisation.</p>
+<p>Modern healthcare pathways span multiple providers, commissioners, local authorities, community organisations and patients themselves. No single organisation has complete control over the entire pathway.</p>
+<p>Successful implementation therefore depends upon collaboration, shared decision-making and continuous learning across the whole health and care system.</p>
+<p>Different organisations contribute different expertise throughout the improvement journey.</p>
+<ul>
+<li><p><strong>Strategy and Partnerships</strong> establish strategic priorities, build relationships between organisations and ensure pathway redesign supports wider system objectives.</p></li>
+<li><p><strong>Commissioning teams</strong> work with providers to redesign pathways, develop service specifications, commission services and oversee implementation.</p></li>
+<li><p><strong>Providers and partner organisations</strong> deliver care, contribute operational expertise and identify practical opportunities and challenges during implementation.</p></li>
+<li><p><strong>BI, Analytics, PHM, Evaluation and Health Economics</strong> provide evidence throughout the improvement cycle, helping organisations understand current pathways, identify opportunities for improvement, monitor implementation and evaluate outcomes.</p></li>
+<li><p><strong>Patients, carers and communities</strong> contribute lived experience, ensuring redesigned pathways focus on what matters most to the people receiving care.</p></li>
+</ul>
+<p>Rather than working sequentially, these groups should work collaboratively throughout implementation, continually learning from one another and adapting as new evidence emerges.</p>
+<p><img src="../images/Figure13_7_Mature_Collaborative_Approach.png" class="img-fluid"></p>
+<p><em>Figure 13.7: A mature, collaborative approach to improving healthcare pathways. Strategy, commissioning, providers, analytics and patients each contribute different expertise throughout the pathway improvement cycle.</em></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Successful implementation is a shared responsibility.</p>
+<p>Commissioners, providers, analysts, clinicians, patients and partner organisations each contribute different expertise. Sustainable improvement occurs when these perspectives are brought together rather than working in isolation.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="preparing-for-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="preparing-for-implementation">Preparing for Implementation</h3>
+<p>Once a redesigned pathway has been agreed, organisations need to establish the practical foundations required for successful implementation.</p>
+<p>Preparation typically includes:</p>
+<ul>
+<li>agreeing implementation objectives</li>
+<li>confirming pathway ownership</li>
+<li>establishing governance arrangements</li>
+<li>defining success measures</li>
+<li>agreeing implementation timescales</li>
+<li>confirming workforce and financial resources</li>
+<li>preparing digital systems and data collection</li>
+<li>developing communication and engagement plans</li>
+<li>identifying implementation risks.</li>
+</ul>
+<p>Preparation should not be viewed as delaying implementation.</p>
+<p>Time invested in planning often prevents avoidable problems later and increases the likelihood that improvements become embedded into routine practice.</p>
+</section>
+<section id="turning-pathway-design-into-reality-1" class="level3">
+<h3 class="anchored" data-anchor-id="turning-pathway-design-into-reality-1">Turning Pathway Design into Reality</h3>
+<p>Successful implementation rarely follows a perfectly linear path.</p>
+<p>Instead, organisations typically move through a continuous cycle of planning, testing, learning and refinement.</p>
+<p>The implementation journey begins with a redesigned pathway but continues through shared ownership, preparation, risk management, piloting, monitoring, learning, scaling and ultimately evaluating impact.</p>
+<p>Throughout this process, organisations frequently move backwards and forwards between stages as new information becomes available.</p>
+<p>Continuous learning allows implementation teams to refine both the pathway and the implementation approach while remaining focused on improving outcomes for patients.</p>
+<p><img src="../images/Figure13_8_Turning_Pathway_Design_into_Reality.png" class="img-fluid"></p>
+<p><em>Figure 13.8: Turning pathway design into reality. Successful implementation is an iterative process of building shared ownership, preparing for change, managing risk, testing improvements, learning from experience and embedding successful changes into routine practice. Evaluation informs the next cycle of pathway redesign.</em></p>
+</section>
+<section id="managing-risk-during-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="managing-risk-during-implementation">Managing Risk During Implementation</h3>
+<p>Every pathway redesign introduces uncertainty.</p>
+<p>Even carefully planned improvements may produce unintended consequences once introduced into routine clinical practice.</p>
+<p>Potential risks may include:</p>
+<ul>
+<li>patient safety concerns</li>
+<li>workforce pressures</li>
+<li>increased demand elsewhere in the pathway</li>
+<li>disruption to existing services</li>
+<li>digital or information system failures</li>
+<li>widening health inequalities</li>
+<li>financial pressures</li>
+<li>unintended behavioural responses.</li>
+</ul>
+<p>Identifying risks before implementation allows organisations to develop mitigation plans and monitor emerging issues as implementation progresses.</p>
+<p>Introducing change safely is just as important as introducing change successfully.</p>
+</section>
+<section id="pilot-learn-and-scale" class="level3">
+<h3 class="anchored" data-anchor-id="pilot-learn-and-scale">Pilot, Learn and Scale</h3>
+<p>Large-scale pathway redesign rarely occurs successfully in a single step.</p>
+<p>Many organisations begin by:</p>
+<ul>
+<li>piloting redesigned pathways</li>
+<li>testing changes within one locality or service</li>
+<li>introducing phased implementation</li>
+<li>collecting rapid feedback</li>
+<li>refining the pathway before wider rollout.</li>
+</ul>
+<p>Piloting provides an opportunity to identify practical challenges, understand unintended consequences and make improvements before implementing change at scale.</p>
+<p>Scaling should only occur once organisations have sufficient confidence that the redesigned pathway is delivering the intended benefits without creating unacceptable risks.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>As implementation begins, ask yourself:</p>
+<ul>
+<li>Are all partner organisations working towards the same objectives?</li>
+<li>Do we have the right governance and resources in place?</li>
+<li>Have we identified the main implementation risks?</li>
+<li>Can we test the redesign on a smaller scale before wider rollout?</li>
+<li>How will we know if implementation is progressing as expected?</li>
+<li>Are we prepared to adapt if early learning suggests changes are needed?</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="monitoring-during-implementation" class="level3">
+<h3 class="anchored" data-anchor-id="monitoring-during-implementation">Monitoring During Implementation</h3>
+<p>Successfully introducing a redesigned pathway requires continuous monitoring.</p>
+<p>Monitoring during implementation is different from evaluating whether the pathway has ultimately improved outcomes.</p>
+<p>The purpose of implementation monitoring is to understand whether the redesigned pathway is operating as intended, identify emerging problems early and support timely decision-making.</p>
+<p>Implementation teams often monitor measures such as:</p>
+<ul>
+<li>referral volumes</li>
+<li>pathway activity</li>
+<li>waiting times</li>
+<li>workforce capacity</li>
+<li>patient flow</li>
+<li>operational issues</li>
+<li>patient feedback</li>
+<li>safety incidents</li>
+<li>data quality</li>
+<li>system performance.</li>
+</ul>
+<p>These measures provide rapid feedback, allowing organisations to identify practical problems before they become embedded into routine care.</p>
+<p>Monitoring should therefore be viewed as an early warning system that supports successful implementation rather than as a final judgement on whether the pathway has achieved its intended outcomes.</p>
+</section>
+<section id="adapting-while-maintaining-direction" class="level3">
+<h3 class="anchored" data-anchor-id="adapting-while-maintaining-direction">Adapting While Maintaining Direction</h3>
+<p>Few pathway redesigns are implemented exactly as originally planned.</p>
+<p>Unexpected challenges, changing circumstances and new learning inevitably emerge.</p>
+<p>Successful organisations recognise that implementation is an iterative process.</p>
+<p>Feedback from patients, clinicians, managers, analysts and partner organisations should be used to refine the pathway while maintaining the overall objectives of the redesign.</p>
+<p>This does not mean continually changing direction.</p>
+<p>Instead, organisations should remain committed to improving patient outcomes while being flexible enough to adapt how those improvements are delivered.</p>
+<p>Learning during implementation should be viewed as a sign of organisational maturity rather than evidence that the original design was flawed.</p>
+</section>
+</section>
+<section id="example-13.8-learning-during-implementation" class="level2 callout-example" data-collapse="false">
+<h2 class="anchored" data-anchor-id="example-13.8-learning-during-implementation">Example 13.8: Learning During Implementation</h2>
+<p>A redesigned frailty pathway initially aimed to provide rapid community assessment following discharge from hospital.</p>
+<p>Early implementation monitoring showed that referrals increased far more quickly than anticipated, creating pressure on community teams.</p>
+<p>Rather than abandoning the redesign, implementation teams reviewed referral criteria, introduced additional triage processes and refined workforce deployment.</p>
+<p>Within a few months the pathway became more stable while continuing to achieve its original objective of reducing avoidable readmissions.</p>
+<p>Implementation had not failed.</p>
+<p>The pathway had simply needed to learn and adapt.</p>
+</section>
+<section id="sustaining-improvement" class="level3">
+<h3 class="anchored" data-anchor-id="sustaining-improvement">Sustaining Improvement</h3>
+<p>Implementation does not end once a redesigned pathway has been introduced.</p>
+<p>Long-term success depends upon embedding improvements into routine practice.</p>
+<p>Sustaining improvement requires organisations to consider:</p>
+<ul>
+<li>ongoing clinical leadership</li>
+<li>organisational ownership</li>
+<li>workforce development</li>
+<li>financial sustainability</li>
+<li>digital capability</li>
+<li>continuous monitoring</li>
+<li>regular pathway reviews</li>
+<li>updating pathways as evidence evolves</li>
+<li>maintaining collaboration between partner organisations.</li>
+</ul>
+<p>Without sustained ownership, pathways often drift back towards previous ways of working.</p>
+<p>Successful healthcare systems therefore view implementation as the beginning of continuous improvement rather than the completion of a project.</p>
+</section>
+<section id="building-a-learning-healthcare-system" class="level3">
+<h3 class="anchored" data-anchor-id="building-a-learning-healthcare-system">Building a Learning Healthcare System</h3>
+<p>Modern healthcare organisations increasingly aspire to become <strong>learning healthcare systems</strong>.</p>
+<p>In a learning healthcare system:</p>
+<ul>
+<li>routine operational data are used to monitor performance</li>
+<li>patient and staff feedback informs improvement</li>
+<li>evaluation generates new evidence</li>
+<li>research informs future redesign</li>
+<li>successful innovations are shared and scaled</li>
+<li>lessons learned are incorporated into future pathway development.</li>
+</ul>
+<p>Rather than treating implementation, evaluation and redesign as separate activities, they become part of one continuous learning cycle.</p>
+<p>This approach enables organisations to respond more rapidly to changing patient needs, emerging evidence and new technologies while continuously improving the quality, safety and value of care.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-21-contents" aria-controls="callout-21" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-21" class="callout-21-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>The most successful healthcare organisations do not simply implement pathways.</p>
+<p>They continuously learn from them.</p>
+<p>Every redesigned pathway should generate new evidence that informs the next cycle of pathway improvement.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-22-contents" aria-controls="callout-22" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-22" class="callout-22-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>As implementation progresses, ask yourself:</p>
+<ul>
+<li>Are we monitoring implementation as well as outcomes?</li>
+<li>Are we learning from patients, clinicians and partner organisations?</li>
+<li>Have any unintended consequences emerged?</li>
+<li>What adaptations have we made and why?</li>
+<li>Are improvements becoming embedded into routine practice?</li>
+<li>How will this pathway continue to evolve over the coming years?</li>
+<li>What lessons should inform future pathway redesign?</li>
+</ul>
+<p>Remember that successful implementation is not the end of the improvement journey—it is the beginning of continuous learning.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="transition-to-evaluation" class="level3">
+<h3 class="anchored" data-anchor-id="transition-to-evaluation">Transition to Evaluation</h3>
+<p>A pathway may appear to be operating successfully, but implementation alone cannot tell us whether it has genuinely improved outcomes, reduced inequalities or delivered better value for patients and the healthcare system.</p>
+<p>To answer those questions we need robust evaluation.</p>
+<p>Evaluation moves beyond asking <strong>“Did we implement the pathway?”</strong> to asking:</p>
+<ul>
+<li>Did patient outcomes improve?</li>
+<li>Which patients benefited most?</li>
+<li>Were health inequalities reduced?</li>
+<li>Were there any unintended consequences?</li>
+<li>Did the pathway deliver value for the resources invested?</li>
+<li>Should the pathway be refined, expanded or discontinued?</li>
+</ul>
+<p>The next section explores how healthcare organisations answer these questions using robust evaluation methods and evidence-based decision-making.</p>
+</section>
+<section id="evaluating-whether-the-pathway-worked" class="level2">
+<h2 class="anchored" data-anchor-id="evaluating-whether-the-pathway-worked">7. Evaluating Whether the Pathway Worked</h2>
+<p>Successfully implementing a redesigned pathway does not necessarily mean it has improved care.</p>
+<p>A pathway may be delivered exactly as planned, yet fail to improve patient outcomes. Equally, a pathway may produce encouraging early results that later prove to be temporary or influenced by other factors.</p>
+<p>Implementation and evaluation are therefore closely related but fundamentally different activities.</p>
+<p>Implementation asks:</p>
+<blockquote class="blockquote">
+<p><strong>Did we introduce the redesigned pathway successfully?</strong></p>
+</blockquote>
+<p>Evaluation asks:</p>
+<blockquote class="blockquote">
+<p><strong>Did the redesigned pathway actually make a meaningful difference?</strong></p>
+</blockquote>
+<p>Understanding this distinction is essential for evidence-based decision-making.</p>
+<section id="why-evaluation-matters" class="level3">
+<h3 class="anchored" data-anchor-id="why-evaluation-matters">Why Evaluation Matters</h3>
+<p>Healthcare organisations make investment decisions every day.</p>
+<p>New pathways are introduced, services are expanded, staff are recruited and digital technologies are adopted in the hope of improving patient care.</p>
+<p>Without evaluation, however, organisations cannot confidently answer questions such as:</p>
+<ul>
+<li>Did patient outcomes improve?</li>
+<li>Which patients benefited most?</li>
+<li>Were health inequalities reduced?</li>
+<li>Did patient experience improve?</li>
+<li>Were there unintended consequences?</li>
+<li>Was the pathway delivered consistently?</li>
+<li>Did the pathway represent good value?</li>
+<li>Should the redesign be expanded, refined or discontinued?</li>
+</ul>
+<p>Evaluation transforms assumptions into evidence and enables organisations to learn from both successes and failures.</p>
+<p>Evaluation should therefore be viewed as an essential part of pathway improvement rather than an optional activity undertaken after implementation.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-23-contents" aria-controls="callout-23" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Principle
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-23" class="callout-23-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Implementation tells us <strong>what changed</strong>.</p>
+<p>Evaluation tells us <strong>whether the change actually improved outcomes.</strong></p>
+</div>
+</div>
+</div>
+</section>
+<section id="evaluation-begins-during-pathway-design" class="level3">
+<h3 class="anchored" data-anchor-id="evaluation-begins-during-pathway-design">Evaluation Begins During Pathway Design</h3>
+<p>One of the most common mistakes in healthcare improvement is treating evaluation as something that happens after implementation.</p>
+<p>In reality, effective evaluation begins much earlier.</p>
+<p>As pathways are designed, organisations should already be considering:</p>
+<ul>
+<li>what success looks like</li>
+<li>which outcomes should improve</li>
+<li>how those outcomes will be measured</li>
+<li>what data will be required</li>
+<li>whether suitable comparison groups exist</li>
+<li>how patient experience will be captured</li>
+<li>how health inequalities will be assessed.</li>
+</ul>
+<p>Thinking about evaluation early ensures that appropriate data are collected and that meaningful conclusions can be drawn once implementation is complete.</p>
+<p>This principle has been emphasised throughout this module, from developing a Theory of Change and Logic Model through to pathway redesign and implementation.</p>
+</section>
+<section id="choosing-the-right-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-the-right-outcomes">Choosing the Right Outcomes</h3>
+<p>A successful pathway should improve more than one aspect of healthcare.</p>
+<p>Evaluation therefore usually considers several different types of outcomes.</p>
+<p>Examples include:</p>
+<p><strong>Clinical outcomes</strong></p>
+<ul>
+<li>mortality</li>
+<li>complications</li>
+<li>disease progression</li>
+<li>readmissions</li>
+</ul>
+<p><strong>Operational outcomes</strong></p>
+<ul>
+<li>waiting times</li>
+<li>length of stay</li>
+<li>referral-to-treatment times</li>
+<li>emergency attendances</li>
+</ul>
+<p><strong>Patient outcomes and experience</strong></p>
+<ul>
+<li>Patient Reported Outcome Measures (PROMs)</li>
+<li>Patient Reported Experience Measures (PREMs)</li>
+<li>Friends and Family Test</li>
+<li>patient surveys</li>
+<li>interviews and focus groups</li>
+<li>complaints and compliments</li>
+</ul>
+<p><strong>Equity</strong></p>
+<ul>
+<li>access across different populations</li>
+<li>differences in outcomes by age, ethnicity or deprivation</li>
+<li>geographical variation</li>
+<li>digital inclusion</li>
+</ul>
+<p><strong>Staff outcomes</strong></p>
+<ul>
+<li>workload</li>
+<li>staff experience</li>
+<li>workforce sustainability</li>
+<li>adoption of the redesigned pathway</li>
+</ul>
+<p>Selecting the right combination of outcomes is often just as important as choosing the evaluation method itself.</p>
+</section>
+<section id="bringing-different-types-of-evidence-together" class="level3">
+<h3 class="anchored" data-anchor-id="bringing-different-types-of-evidence-together">Bringing Different Types of Evidence Together</h3>
+<p>Good evaluation rarely relies upon a single source of information.</p>
+<p>Routine operational data help organisations understand what happened.</p>
+<p>Qualitative evidence helps explain why it happened.</p>
+<p>Patients, carers and frontline staff frequently identify barriers and successes that cannot be identified from quantitative data alone.</p>
+<p>Combining multiple sources of evidence provides a richer understanding of how the redesigned pathway performed and why.</p>
+<p>This mixed-methods approach is increasingly recognised as good practice when evaluating complex healthcare interventions.</p>
+</section>
+<section id="choosing-the-appropriate-evaluation-approach" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-the-appropriate-evaluation-approach">Choosing the Appropriate Evaluation Approach</h3>
+<p>The appropriate evaluation approach depends upon:</p>
+<ul>
+<li>the nature of the pathway</li>
+<li>the decision being supported</li>
+<li>available data</li>
+<li>timescales</li>
+<li>practical constraints.</li>
+</ul>
+<p>Some pathway changes may only require simple monitoring.</p>
+<p>Others may require robust observational studies or formal evaluations capable of demonstrating attribution.</p>
+<p>Rather than repeating these methods here, they are explored in detail elsewhere in this series.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-24-contents" aria-controls="callout-24" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Where to Learn More
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-24" class="callout-24-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>This module explains <strong>where evaluation fits within pathway improvement</strong>.</p>
+<p>For a deeper understanding of evaluation, see:</p>
+<ul>
+<li><p><strong>Module 7 – Evaluating Interventions &amp; Schemes (Thinking About Evidence)</strong> for the principles of evidence, attribution and evaluation planning.</p></li>
+<li><p><strong>Module 8 – Evaluating Interventions in Practice (Methods)</strong> for practical evaluation approaches including before-and-after studies, Interrupted Time Series, Difference-in-Differences, matched controls and randomised evaluations where appropriate.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="looking-beyond-effectiveness" class="level3">
+<h3 class="anchored" data-anchor-id="looking-beyond-effectiveness">Looking Beyond Effectiveness</h3>
+<p>Knowing whether a pathway works is only one part of the decision.</p>
+<p>Healthcare organisations must also consider:</p>
+<ul>
+<li>whether benefits justify the resources invested</li>
+<li>whether improvements are sustainable</li>
+<li>whether inequalities have narrowed or widened</li>
+<li>whether the pathway could be improved further</li>
+<li>whether the redesign should be expanded to other populations.</li>
+</ul>
+<p>These questions move beyond evaluation alone.</p>
+<p>Economic evaluation and value for money are explored in <strong>Module 14 — Health Economics &amp; Value in Healthcare Decision-Making</strong>.</p>
+<p>Predicting the likely impact of alternative pathway designs before implementation is explored in <strong>Module 15 — Simulation &amp; Scenario Modelling</strong>.</p>
+</section>
+<section id="continuous-learning" class="level3">
+<h3 class="anchored" data-anchor-id="continuous-learning">Continuous Learning</h3>
+<p>Evaluation should not represent the end of the pathway improvement journey.</p>
+<p>Instead, every evaluation should generate new learning.</p>
+<p>Those lessons should inform future pathway redesign, implementation and evaluation.</p>
+<p>Healthcare systems that continuously evaluate, learn and improve become increasingly capable of delivering better outcomes for their populations over time.</p>
+<p><img src="../images/Figure13_9_Continuous_Learning_Cycle.png" class="img-fluid"></p>
+<p><em>Figure 13.9: Evaluation is not the end of pathway improvement. Learning from implementation and evaluation informs the next cycle of pathway redesign, creating a continuous improvement cycle.</em></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-25-contents" aria-controls="callout-25" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Decision-Maker Questions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-25" class="callout-25-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>When reviewing a redesigned pathway, ask yourself:</p>
+<ul>
+<li>What question is our evaluation trying to answer?</li>
+<li>Have we defined success before implementation?</li>
+<li>Are we measuring outcomes that matter to patients?</li>
+<li>Have we considered equity as well as average outcomes?</li>
+<li>What qualitative evidence complements our routine data?</li>
+<li>Which evaluation approach is most appropriate?</li>
+<li>Have we considered value for money as well as effectiveness?</li>
+<li>How will the findings inform future pathway redesign?</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="bringing-it-all-together" class="level2">
+<h2 class="anchored" data-anchor-id="bringing-it-all-together">Bringing It All Together</h2>
+<p>Throughout this module we have explored healthcare pathways from the perspective of improving outcomes for patients rather than optimising individual organisations.</p>
+<p>We began by recognising that patients experience one continuous journey across the health and care system, often involving multiple organisations, professional groups and services.</p>
+<p>From there we explored how routine operational data create a digital footprint that allows pathways to be understood, variation to be identified and opportunities for improvement to be investigated.</p>
+<p>We then considered how organisations can move beyond understanding pathways to redesigning them, implementing improvements collaboratively across the system and evaluating whether those changes genuinely improve outcomes.</p>
+<p>Taken together, these stages form a continuous pathway improvement cycle rather than a series of isolated activities.</p>
+<p><img src="../images/Figure13_10_Pathway_Improvement_Cycle.png" class="img-fluid"></p>
+<p><em>Figure 13.10: The pathway improvement cycle. Understanding, redesigning, implementing, evaluating and learning are part of one continuous process that supports better patient outcomes and better decision-making.</em></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-26-contents" aria-controls="callout-26" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>The Ten Key Messages
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-26" class="callout-26-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Patients experience <strong>pathways</strong>, not organisations.</li>
+<li>Healthcare pathways frequently cross organisational boundaries.</li>
+<li>Routine data help us understand how pathways actually operate.</li>
+<li>Variation should prompt investigation rather than immediate conclusions.</li>
+<li>Understanding root causes is essential before redesigning services.</li>
+<li>Good pathway design places patients, evidence and equity at the centre.</li>
+<li>Successful implementation depends upon collaboration across organisations.</li>
+<li>Monitoring implementation is different from evaluating impact.</li>
+<li>Evaluation should be planned before implementation begins.</li>
+<li>Every evaluation should generate learning that informs the next cycle of improvement.</li>
+</ol>
+</div>
+</div>
+</div>
+<p>Healthcare improvement is never truly complete.</p>
+<p>Changing population needs, new evidence, technological advances and evolving models of care mean that pathways must continually adapt.</p>
+<p>The most successful healthcare systems therefore view pathway improvement as an ongoing learning process rather than a one-off redesign exercise.</p>
+<p>By combining pathway thinking with robust evidence, meaningful collaboration and continuous evaluation, organisations can make better decisions, improve patient outcomes, reduce health inequalities and make more effective use of limited resources.</p>
+<section id="looking-ahead" class="level3">
+<h3 class="anchored" data-anchor-id="looking-ahead">Looking Ahead</h3>
+<p>This module has focused on <strong>how healthcare pathways can be understood, redesigned, implemented and evaluated</strong>.</p>
+<p>However, an important question remains.</p>
+<p>Even if a redesigned pathway improves outcomes, <strong>does it deliver sufficient value to justify the resources invested?</strong></p>
+<p>The next module introduces <strong>Health Economics &amp; Value in Healthcare Decision-Making</strong>, exploring how healthcare organisations assess costs, benefits, opportunity costs and value for money to support better commissioning and investment decisions.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../modules/12-Data-Quality-Assurance-Trustworthy-Data.html" class="pagination-link" aria-label="Module 12: Data Quality, Assurance &amp; Trustworthy Data">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Module 12: Data Quality, Assurance &amp; Trustworthy Data</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../Project.html" class="pagination-link" aria-label="Project - Health Data Literacy Series">
+        <span class="nav-page-text"><span class="chapter-title">Project - Health Data Literacy Series</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

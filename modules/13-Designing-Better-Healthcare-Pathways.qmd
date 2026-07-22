@@ -143,7 +143,148 @@ When considering a healthcare pathway, ask yourself:
 - Who else needs to be involved if we are to improve outcomes across the entire pathway?
 :::
 
+## 2. Understanding the Current Pathway
 
+Before redesigning a healthcare pathway, it is essential to understand how the current pathway operates. Too often, services introduce new initiatives based on assumptions about where problems exist rather than evidence.
+
+Effective pathway redesign begins by asking:
+
+- How do patients currently move through the pathway?
+- Where do delays occur?
+- Which patients experience poorer outcomes?
+- Where is demand greatest?
+- Which parts of the pathway appear to have the greatest influence on patient outcomes?
+
+Answering these questions requires more than reviewing organisational performance measures. It requires understanding the pathway as a connected system.
+
+### Map the Pathway as It Actually Operates
+
+The first step is to describe how the pathway currently works—not simply how policies, service specifications or process maps say it should work.
+
+A current-state pathway map should show:
+
+- how patients enter the pathway
+- the main stages and decision points
+- which organisations and professionals are involved
+- where information is transferred
+- where patients wait, move between services or leave the pathway
+- where responsibility for care changes
+- how patients with different needs may follow different routes.
+
+This should be developed collaboratively with the people who deliver and experience the pathway. Analysts can describe patterns within the data, but clinicians, operational teams, patients and carers often reveal informal workarounds, communication failures and practical barriers that are not visible within routine records.
+
+::: {.callout-example collapse="false"}
+## Example 13.2: The Designed Pathway versus the Real Pathway
+
+A service specification may state that patients referred with suspected heart failure should receive diagnostic testing within two weeks before being reviewed by a specialist.
+
+However, discussions with clinicians and administrators reveal that diagnostic capacity is limited, some referrals are redirected, additional investigations are requested before appointments can be booked, and patients may attend emergency departments while waiting.
+
+The documented pathway appears straightforward. The real pathway experienced by patients is considerably more complex.
+
+Understanding this difference is often the first step towards meaningful pathway improvement.
+:::
+
+### Every Pathway Leaves a Digital Footprint
+
+Every interaction between a patient and the health and care system generates data.
+
+Referrals, appointments, diagnostic tests, admissions, ward transfers, procedures, prescriptions, community visits and discharge summaries all leave a digital footprint. Individually, these events provide information about a single episode of care. Together, they tell the story of how patients move through the healthcare system.
+
+When linked appropriately, these routine operational data can reveal:
+
+- common routes through a pathway
+- where patients wait longest
+- where patients drop out of the pathway
+- where demand is concentrated
+- which patient groups experience different outcomes
+- how resource use varies across the pathway.
+
+Healthcare organisations already collect much of the information needed to understand pathways. The challenge is often not collecting more data, but connecting existing data to build a complete picture of the patient journey.
+
+![](../images/Healthcare-Pathway-Digital-Footprint.png)
+
+*Figure 13.2: Every interaction along a healthcare pathway generates data. When linked together, these routine operational data create a digital footprint that can be used to understand how patients move through the health and care system.*
+
+::: {.callout-important collapse="false"}
+## The Digital Footprint Is Not the Whole Pathway
+
+Routine data provide an important view of how patients interact with services, but they rarely tell the complete story.
+
+They may not capture:
+
+- unmet need among people who never access services
+- why patients miss appointments or leave the pathway
+- informal care provided by families and carers
+- communication failures between organisations
+- patient and staff experience
+- activity recorded in systems that cannot yet be linked
+- differences between the care recorded and the care actually delivered.
+
+Understanding a pathway therefore requires routine data to be combined with clinical knowledge, operational insight and the experiences of patients, carers and staff.
+:::
+
+### Define the Population and the Pathway Boundaries
+
+Before analysing a pathway, it is important to define clearly:
+
+- which patients are included
+- how entry into the pathway is identified
+- where the pathway begins and ends
+- the period over which patients will be followed
+- which organisations and services are included
+- which outcomes will be examined
+- whether patients can enter the pathway more than once.
+
+These decisions determine what the analysis can meaningfully conclude.
+
+For example, an analysis of chronic kidney disease may begin with diagnosis in general practice, referral to nephrology, an emergency attendance for acute kidney injury or admission to hospital. Each starting point represents a different patient population and answers a different evaluation question.
+
+### Looking Beyond Activity
+
+It is tempting to focus on activity measures such as the number of referrals, appointments, admissions or procedures. While these metrics are important for understanding demand and workload, they rarely explain **why** variation exists or whether patients are receiving the right care at the right time.
+
+A pathway should therefore be examined from multiple perspectives, including:
+
+- patient outcomes
+- patient experience
+- equity
+- operational performance
+- resource use
+- variation
+- clinical quality.
+
+Considering these together provides a much richer understanding than any single performance measure.
+
+::: {.callout-example collapse="false"}
+## Example 13.3: Looking Beyond Activity
+
+Two hospitals admit a similar number of patients with chronic kidney disease each month.
+
+Looking only at admission counts might suggest that both pathways perform similarly.
+
+However, further analysis shows that one hospital has substantially higher readmission rates, longer waiting times for specialist review and poorer outcomes for patients living in more deprived communities.
+
+Although activity is similar, the pathway is performing very differently.
+
+This illustrates why pathway analysis should focus on the whole patient journey rather than isolated activity measures.
+:::
+
+The next step is to understand how variation occurs within the pathway, distinguish normal variation from meaningful differences, and identify where the greatest opportunities for improvement exist.
+
+::: {.callout-tip collapse="false"}
+## Decision-Maker Questions
+
+Before redesigning a pathway, ask yourself:
+
+- Do we understand how the pathway currently operates in practice?
+- Have we spoken to the people delivering and experiencing the pathway?
+- Is the patient population clearly defined?
+- Can patient activity be linked across organisations?
+- What parts of the pathway are invisible within the available data?
+- Are we considering outcomes, experience, equity and resource use as well as activity?
+- Could apparent differences reflect data quality, coding or access rather than genuine differences in care?
+:::
 
 
  

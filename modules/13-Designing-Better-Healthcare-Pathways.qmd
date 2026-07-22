@@ -1,0 +1,106 @@
+# Module 13: Designing Better Healthcare Pathways
+
+## Learning Objectives
+
+By the end of this module you should be able to:
+
+- Explain why healthcare pathways matter more than organisational boundaries.
+- Understand how routine healthcare data can be used to map and analyse patient pathways.
+- Identify variation, bottlenecks and opportunities for improvement along a pathway.
+- Use evidence to inform the design of new or redesigned healthcare pathways.
+- Consider equity, prevention and population need when designing interventions.
+- Recognise the importance of integrated working across organisations, including primary care, community services, hospitals, local authorities and the voluntary sector.
+- Understand how logic models and theories of change support pathway redesign.
+- Appreciate why evaluation should be planned before implementation.
+- Ask better questions when reviewing proposals for service redesign.
+
+---
+
+## Why This Matters
+
+Every day, thousands of patients move between general practice, community services, hospitals, mental health services, social care and voluntary organisations. From the patient's perspective this is a single journey, yet it is often delivered by multiple organisations, professional groups and information systems.
+
+Healthcare pathways are therefore much more than clinical flow diagrams. They describe how people access care, how services interact, where delays occur, how resources are used and ultimately whether patients receive timely, effective and equitable care.
+
+Well-designed pathways can improve patient outcomes, reduce unwarranted variation, prevent avoidable admissions, improve patient experience and make better use of limited healthcare resources. Poorly designed pathways can lead to duplication, fragmented care, unnecessary delays, increased costs and poorer outcomes.
+
+Data plays a central role throughout this process. Every referral, assessment, admission, transfer, discharge and follow-up appointment leaves a digital footprint. When combined with clinical evidence, patient and staff experience, and an understanding of how healthcare systems operate, these data provide powerful insights into where improvements can be made.
+
+However, redesigning a pathway is about much more than analysing data. Effective pathway design requires an understanding of the underlying causes of problems, the needs of different populations, the evidence supporting potential interventions, the practical realities of implementation and how success will be evaluated.
+
+Throughout this module we will follow the journey from understanding the current pathway through to designing an improved future pathway. Along the way, we will explore how data, evidence and systems thinking can support better decision-making and help healthcare organisations design services that improve outcomes, reduce inequalities and deliver greater value for patients and populations.
+
+## 1. Understanding Healthcare Pathways
+
+When most people think about healthcare services, they naturally think in terms of organisations—general practice, community services, hospitals, mental health trusts or social care. Patients, however, rarely experience healthcare in this way.
+
+From the patient's perspective, healthcare is a continuous journey. A person may visit their GP, undergo diagnostic tests at an acute hospital, receive treatment from a specialist team, require support from community services, access rehabilitation and later receive ongoing care from primary care. Increasingly, that journey may also involve social care, community pharmacy, Integrated Neighbourhood Teams (INTs) and voluntary, community and social enterprise (VCSE) organisations.
+
+This connected journey is known as a **healthcare pathway**.
+
+Rather than focusing on the performance of individual organisations, pathway thinking focuses on how well the whole system works together to achieve the best possible outcomes for patients.
+
+::: {.callout-important collapse="false"}
+## Thinking in Pathways
+
+Patients do not experience organisations—they experience pathways.
+
+Improving one organisation does not necessarily improve the patient's overall journey if delays, duplication or poor communication occur elsewhere in the pathway.
+:::
+
+### Why pathways matter
+
+Many of today's healthcare challenges cannot be solved by individual organisations working in isolation.
+
+For example:
+
+- Reducing emergency admissions requires collaboration between primary care, community services, ambulance services and hospitals.
+- Supporting frail older people often involves Integrated Neighbourhood Teams, therapists, community nurses, social care and voluntary organisations.
+- Successful hospital discharge depends upon effective coordination between acute providers, community services, local authorities and carers.
+- Preventing progression of chronic kidney disease requires coordinated working between general practice, nephrology services, pathology, community teams and patients themselves.
+
+Looking at only one part of the pathway can lead organisations to optimise their own performance while unintentionally creating problems elsewhere.
+
+For example, discharging patients more quickly may improve hospital performance, but if community capacity is insufficient it may simply shift demand into other parts of the health and care system or increase the risk of readmission.
+
+### Pathways are increasingly integrated
+
+The NHS is moving away from organisationally focused care towards integrated models that coordinate services around the needs of patients and populations.
+
+Many pathways now span multiple organisations, including:
+
+- General Practice
+- Community Health Services
+- Acute Hospitals
+- Mental Health Services
+- Community Pharmacy
+- Ambulance Services
+- Adult Social Care
+- Public Health
+- Integrated Neighbourhood Teams
+- Voluntary, Community and Social Enterprise (VCSE) organisations
+
+Designing effective pathways therefore requires organisations to work collaboratively, share information appropriately and focus on outcomes that matter to patients rather than individual organisational targets.
+
+### The role of data
+
+Every interaction within a healthcare pathway creates information.
+
+Appointments, referrals, diagnostic tests, admissions, transfers, procedures, discharge summaries and follow-up appointments all contribute to a patient's digital record.
+
+When linked together, these records allow analysts, clinicians and service leaders to understand how patients move through the system, where delays occur, which patients experience poorer outcomes and where opportunities for improvement may exist.
+
+In the next section we will explore how these routine operational data create a digital footprint that can be used to understand and improve healthcare pathways.
+
+::: {.callout-tip collapse="false"}
+## Decision-Maker Questions
+
+When reviewing a healthcare pathway, ask yourself:
+
+- Are we viewing the pathway from the patient's perspective or from the perspective of individual organisations?
+- Which organisations contribute to this pathway?
+- Where are patients most likely to experience delays, duplication or fragmented care?
+- Which parts of the pathway create the greatest value for patients?
+- Are we measuring organisational performance or the performance of the whole pathway?
+:::
+

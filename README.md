@@ -52,7 +52,7 @@ Topics include:
 
 11. Demand, Capacity & Operational Flow ⭐
 12. Data Quality, Assurance & Trustworthy Data
-13. Pathway Analytics & Intervention Design
+13. Designing Better Healthcare Pathways ⭐
 14. Evaluating Complex Healthcare Systems
 15. Population Health Management & Segmentation
 16. Combining Quantitative & Qualitative Evidence

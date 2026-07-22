@@ -797,7 +797,7 @@ Understanding why a healthcare pathway performs as it does provides the foundati
 
 The next challenge is deciding **how the pathway should be redesigned** to consistently deliver better outcomes for patients while making the best use of available resources.
 
-Pathway redesign is about far more than improving the performance of individual services. It involves rethinking how patients move through the healthcare system, identifying opportunities to remove unnecessary barriers, strengthening coordination between services and ensuring that every stage of the pathway contributes towards better health outcomes.
+Pathway redesign is about far more than improving the performance of individual services. It involves rethinking how patients move through the healthcare system, identifying opportunities to remove unnecessary barriers,  strengthening coordination across services and organisations and ensuring that every stage of the pathway contributes to better outcomes and patient experience.
 
 There is rarely a single *perfect* pathway. Every redesign involves balancing competing priorities such as timely access, quality, patient experience, workforce capacity, financial sustainability and equity. Good pathway design therefore requires evidence, collaboration and careful judgement rather than simply applying a standard solution.
 
@@ -823,8 +823,6 @@ The figure also illustrates an important point: good pathway design is not achie
 
 *Figure 13.6: Good pathway design places the complete patient journey at the centre. Shared principles guide every stage of care, while system-wide enablers support efficient, equitable, sustainable and continuously improving pathways.*
 
-Well-designed pathways typically aim to:
-
 Taken together, these principles mean that well-designed pathways should:
 
 - improve patient outcomes and experience
@@ -840,14 +838,7 @@ Taken together, these principles mean that well-designed pathways should:
 
 Rather than optimising individual parts of the system in isolation, pathway redesign seeks to improve the performance of the pathway as a whole.
 
-Figure 13.6 summarises the principles that underpin effective pathway design. It illustrates how the patient journey sits at the centre of the pathway, surrounded by the principles that should guide every stage of care and the system-wide enablers that support high-quality, coordinated and sustainable healthcare delivery.
-
-![](../images/Good-Pathway-Design.png)
-
-*Figure 13.6: Good pathway design places the complete patient journey at the centre. Shared principles guide every stage of care, while system-wide enablers support efficient, equitable, sustainable and continuously improving pathways.*
-
 Although these principles are interconnected, the starting point is always the patient journey itself. Effective pathway redesign begins by understanding what patients need, what they experience and what matters most to them.
-
 ### Start with Patient Needs
 
 Healthcare organisations often design services around professional roles, organisational structures or historical ways of working.
@@ -883,6 +874,8 @@ To the patient, they represent one continuous healthcare journey.
 
 Viewing the pathway from the patient's perspective often reveals duplicated assessments, inconsistent communication, unnecessary delays and gaps in continuity that would be difficult to identify by examining individual services in isolation.
 :::
+
+Successful pathway redesign therefore depends on bringing these different perspectives together.
 
 ### Co-producing Better Pathways
 
@@ -932,13 +925,15 @@ Examples include:
 - improving continuity of care
 - strengthening community-based support.
 
-Preventative pathways often require investment before benefits become visible.
+Preventative pathways often require investment today, while many of the benefits are realised months or even years later.
 
 However, preventing deterioration frequently improves patient outcomes while simultaneously reducing pressure on emergency departments, inpatient services and urgent care pathways.
 
 As discussed in the previous section, many of the greatest opportunities for improvement lie upstream, long before patients require hospital treatment.
 
 ### Reduce Unwarranted Variation
+
+Many preventative interventions also reduce unwarranted variation by ensuring patients receive timely, consistent care before their condition deteriorates.
 
 Variation identified during pathway analysis should directly inform redesign.
 
@@ -967,6 +962,8 @@ Patients rarely experience delays because of one isolated service.
 
 More commonly, delays occur at the boundaries between services, organisations or professional groups.
 
+These boundaries are often where patients experience repeated assessments, duplicated information requests and uncertainty about who is responsible for their care.
+
 Examples include:
 
 - referrals between primary and secondary care
@@ -982,4 +979,4 @@ Reducing unnecessary handovers, improving information sharing and simplifying tr
 
 Well-designed pathways create smoother journeys for patients while enabling staff to spend more time delivering care rather than managing fragmented processes.
 
-Effective pathway redesign should therefore view flow as a property of the **whole system**, not simply the efficiency of individual organisations.
+Effective pathway redesign should therefore view patient flow as a property of the whole system rather than the efficiency of any individual organisation or department.

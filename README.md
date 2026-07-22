@@ -77,7 +77,7 @@ Topics include:
 18. Evidence-Informed Decision-Making in Healthcare ⭐
     - How do healthcare leaders make robust, transparent decisions under uncertainty?
 
-Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)
+# Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to be confirmed)
 
 * Predictive Modelling & Risk Stratification
 * Explainable AI in Healthcare
@@ -85,7 +85,7 @@ Part 3 – Advanced Analytics, AI & the Future of Healthcare Decision-Making (to
 * Responsible AI & AI Governance
 * Additional topics under consideration
 
-Why this project exists
+## Why this project exists
 
 Healthcare organisations generate vast quantities of data.
 
@@ -103,7 +103,7 @@ This project aims to bridge that gap.
 
 Rather than teaching statistics in isolation, it focuses on developing health data literacy—the ability to interpret data critically, understand uncertainty, evaluate evidence and use analytics to support better healthcare decisions.
 
-Guiding Principles
+## Guiding Principles
 
 Throughout the series, several themes are revisited:
 
@@ -115,7 +115,7 @@ Throughout the series, several themes are revisited:
 * Better questions lead to better analysis.
 * Better analysis supports better decisions.
 
-Philosophy
+## Philosophy
 
 The aim is not to create statisticians.
 

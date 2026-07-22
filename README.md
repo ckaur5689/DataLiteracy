@@ -38,25 +38,25 @@ Topics include:
 # Part 1 — How do I interpret healthcare data correctly?
 
 1.  Counts vs Rates
-   - What number should I be comparing?
+    - What number should I be comparing?
 2.  Mean vs Median
-   - What is the best way to summarise the data? 
+    - What is the best way to summarise the data? 
 3.  Correlation vs Causation
-   - Does this relationship actually imply cause and effect?
+    - Does this relationship actually imply cause and effect?
 4.  Variation & Distributions
-   - Is this difference meaningful or simply normal variation?
+    - Is this difference meaningful or simply normal variation?
 5.  Standardisation & Fair Comparison
-   - Are these populations really comparable?
+    - Are these populations really comparable?
 6.  How to Read a Dashboard
-   - What story is the dashboard actually telling me?
+    - What story is the dashboard actually telling me?
 7.  Evaluating Interventions & Schemes (Thinking About Evidence)
-   - How should I think about whether something worked?
+    - How should I think about whether something worked?
 8.  Evaluating Interventions in Practice (Methods)
-   - How do I evaluate it properly?
+    - How do I evaluate it properly?
 9.  Risk, Probability & Uncertainty
-   - How certain can I be about this evidence?
+    - How certain can I be about this evidence?
 10. Common Analytical Traps & Data Fallacies
-   - What mistakes could lead me to the wrong conclusion?
+    - What mistakes could lead me to the wrong conclusion?
 
 # Part 2 — How do we understand, improve and evaluate complex healthcare systems?
 
@@ -65,7 +65,7 @@ Topics include:
 12. Data Quality, Assurance & Trustworthy Data
     - Can we trust the data before making decisions?
 13. Designing Better Healthcare Pathways ⭐
-   - How do we redesign, implement and evaluate better pathways?
+    - How do we redesign, implement and evaluate better pathways?
 14. Health Economics & Value in Healthcare Decision-Making
     - Is the improvement worth the investment?
 15. Population Health Management & Population Segmentation

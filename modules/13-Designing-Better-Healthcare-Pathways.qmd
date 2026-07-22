@@ -54,7 +54,7 @@ A **healthcare pathway** is the coordinated sequence of care that a patient expe
 Healthcare pathways often span multiple organisations, professional groups and information systems, making collaboration essential for delivering high-quality, patient-centred care.
 :::
 
-![](../images/Healthcare-Pathways-Cross-Organisational-Boundaries.png)
+![](../images/Figure13_1_Healthcare_Pathways_Cross_Organisational_Boundaries.png)
 
 *Figure 13.1: Patients experience a single healthcare journey that spans multiple organisations and services. Every interaction creates data that can be used to understand and improve the pathway.*
 
@@ -212,7 +212,7 @@ When linked appropriately, these routine operational data can reveal:
 
 Healthcare organisations already collect much of the information needed to understand pathways. The challenge is often not collecting more data, but connecting existing data to build a complete picture of the patient journey.
 
-![](../images/Healthcare-Pathway-Digital-Footprint.png)
+![](../images/Figure13_2_Healthcare_Pathway_Digital_Footprint.png)
 
 *Figure 13.2: Every interaction along a healthcare pathway generates data. When linked together, these routine operational data create a digital footprint that can be used to understand how patients move through the health and care system.*
 
@@ -312,7 +312,7 @@ Variation is a signal to investigate, not a conclusion.
 The purpose of pathway analytics is not to remove all variation, but to understand why it exists and determine whether it represents an opportunity to improve patient care.
 :::
 
-![](../images/Healthcare-Pathway-Variation.png)
+![](../images/Figure13_3_Healthcare-Pathway-Variation.png)
 
 *Figure 13.3: Variation occurs throughout every stage of a healthcare pathway. Pathway analytics identifies where meaningful differences exist and helps investigate their underlying causes.*
 
@@ -495,7 +495,7 @@ For example, increasing emergency admissions may initially appear to be the prob
 
 Without understanding these underlying causes, organisations risk implementing solutions that address the visible problem while leaving the real issue unchanged.
 
-![](../images/Symptoms-Not-Root-Causes.png)
+![](../images/Figure13_4_Symptoms_Not_Root_Causes.png)
 
 *Figure 13.4: Visible performance issues are often symptoms of deeper system problems. Effective improvement begins by understanding the underlying causes.*
 
@@ -521,7 +521,7 @@ Understanding these interactions helps avoid local optimisation that simply move
 
 Figure 13.5 illustrates how effective pathway improvement moves beyond treating visible symptoms. Rather than reacting to problems where they appear, organisations investigate upstream causes, understand the wider system, identify the greatest opportunities for improvement, design interventions that address the underlying issues and finally evaluate whether those changes have achieved their intended impact.
 
-![](../images/Looking-Upstream-Pathway.png)
+![](../images/Figure13_5_Looking_Upstream_Pathway.png)
 
 *Figure 13.5: Effective pathway improvement follows a structured process: investigate the problem, understand the wider system, identify high-leverage opportunities, design interventions that address underlying causes and evaluate whether meaningful improvement has been achieved. Problems observed later in the pathway often originate much earlier.*
 
@@ -819,7 +819,7 @@ Figure 13.6 provides an overview of these principles. It places the patient jour
 
 Good pathway design is not achieved by improving one stage of care in isolation. Instead, patient-centred care, prevention, equity, evidence and coordination should influence the entire journey, while reduced variation, efficient flow, data, digital technologies and AI, sustainable use of resources and continuous learning enable the pathway to perform consistently over time.
 
-![](../images/Good-Pathway-Design.png)
+![](../images/Figure13_6_Good_Pathway_Design.png)
 
 *Figure 13.6: Good pathway design places the complete patient journey at the centre. Shared principles guide every stage of care, while system-wide enablers support efficient, equitable, sustainable and continuously improving pathways.*
 

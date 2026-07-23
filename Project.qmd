@@ -1,6 +1,6 @@
 # Project - Healthcare Decision Literacy Series
 
-## 
+## Helping healthcare professionals use data, evidence and analytics to make better decisions.
 
 Timeline: May 2026 to November 2026
 
@@ -12,7 +12,7 @@ Audience: Analysts and Decision Makers
 
 # Project Overview
 
-The Healthcare Data Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.
+The Healthcare Decision Literacy Series is a practical, NHS-focused educational resource designed to improve understanding, interpretation and use of healthcare analytics across healthcare systems.
 
 ## The series aims to bridge the gap between:
 

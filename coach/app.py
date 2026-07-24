@@ -9,7 +9,7 @@ from modules import load_modules, recommend_modules
 # ------------------------------------------------------
 
 st.set_page_config(
-    page_title="Healthcare Decision Literacy Companion",
+    page_title="Healthcare Decision Intelligence Companion",
     page_icon="📊",
     layout="wide"
 )

@@ -46,7 +46,7 @@ with col1:
      </p>
 
     <div class="hero-badge">
-    📘 Based on the Healthcare Decision Literacy Programme
+    📘 Based on the Healthcare Decision Intelligence Series
     </div>
 
     </div>

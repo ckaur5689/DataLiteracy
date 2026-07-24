@@ -1,6 +1,6 @@
-# 👥 Healthcare Decision Literacy Series
+# 👥 Healthcare Decision Intelligence Series
 
-📖An open educational resource designed to help healthcare professionals make better use of data, analytics and evidence in decision-making.
+📖An open educational resource designed to help healthcare professionals using Data, Evidence, Evaluation and AI to Make Better Healthcare Decisions
 
 This series bridges the gap between technical analytics and real-world healthcare leadership by explaining not only how analytical methods work, but also when, why and how they should be interpreted in practice.
 

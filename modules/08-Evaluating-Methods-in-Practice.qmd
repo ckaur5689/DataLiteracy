@@ -948,7 +948,7 @@ The important principle is not selecting the most complex model, but choosing th
 
 Real-world healthcare improvement rarely involves a single intervention delivered in a single organisation.
 
-Later in this series, **Module 15: Evaluating Complex Healthcare Systems** explores more advanced evaluation challenges, including:
+Later in this series, **Module 15: Evaluating Change in Complex Healthcare Systems** explores more advanced evaluation challenges, including:
 
 * multiple interventions introduced at the same time
 * phased implementation across organisations

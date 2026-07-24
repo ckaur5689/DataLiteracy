@@ -50,7 +50,7 @@ Scan the QR code below to open the **Healthcare Decision Intelligence**, an inte
 - Guide your learning pathway
 - Help you navigate the Healthcare Decision Intelligence series
 
-![](images/HealthDataLiteracyCompanionQR.png){width=180px}
+![](images/Your-Companion-to-DecisionIntelligence-in-Healthcare-QR.png){width=180px}
 
 Or visit:
 

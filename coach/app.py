@@ -9,7 +9,7 @@ from modules import load_modules, recommend_modules
 # ------------------------------------------------------
 
 st.set_page_config(
-    page_title="Health Data Literacy Companion",
+    page_title="Healthcare Decision Literacy Companion",
     page_icon="📊",
     layout="wide"
 )
@@ -34,7 +34,7 @@ with col1:
     <div class="top-panel">
 
     <h1 class="hero-title">
-    Health Data Literacy Companion
+    Healthcare Decision Literacy Companion
     </h1>
 
     <p class="hero-subtitle">
@@ -42,11 +42,11 @@ with col1:
     </p>
 
     <p class="hero-tagline">
-     Interpret dashboards, challenge assumptions and make better decisions.
+     Interpret data, challenge assumptions and make better decisions.
      </p>
 
     <div class="hero-badge">
-    📘 Based on the Health Data Literacy Programme
+    📘 Based on the Healthcare Decision Literacy Programme
     </div>
 
     </div>

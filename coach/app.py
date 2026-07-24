@@ -60,7 +60,7 @@ with col2:
         with c2:
             st.link_button(
                 "View Book Details",
-                "https://ckaur5689.github.io/DataLiteracy/"
+                "https://ckaur5689.github.io/DecisionIntelligence/"
             )
 
     else:
@@ -75,7 +75,7 @@ st.markdown(
 
 st.markdown(
     "<p style='text-align:center; color:#6B7280;'>"
-    "Choose a common healthcare analytics challenge below, or describe your own."
+    "Choose a common healthcare data, analysis, evaluation challenge below, or describe your own."
     "</p>",
     unsafe_allow_html=True
 )

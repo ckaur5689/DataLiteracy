@@ -48,7 +48,7 @@ However:
 
 This project aims to improve:
 
-- healthcare data literacy
+- healthcare decision intelligence
 - analytical questioning
 - interpretation of metrics
 - understanding of variation and fairness

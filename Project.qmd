@@ -1,6 +1,6 @@
-# Project - Healthcare Decision Literacy Series
+# Project - Healthcare Decision Intelligence Series
 
-## Helping healthcare professionals use data, evidence and analytics to make better decisions.
+## Using Data, Evidence, Evaluation and AI to Make Better Healthcare Decisions
 
 Timeline: May 2026 to November 2026
 

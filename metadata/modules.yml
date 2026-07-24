@@ -3,7 +3,7 @@ modules:
   - id: module1
     title: Counts vs Rates
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/01-Counts-vs-Rates.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/01-Counts-vs-Rates.html"
     keywords: [count, counts, number, numbers, rate, rates, percentage, percentages, proportion, proportions, denominator, numerator, population, population size, activity, volume, prevalence, incidence, per capita, per head, comparison, comparing areas, small numbers]
     questions:
       - Are we looking at counts, rates, percentages or proportions?
@@ -18,7 +18,7 @@ modules:
   - id: module2
     title: Mean vs Median
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/02-Mean-vs-Median.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/02-Mean-vs-Median.html"
     keywords: [mean, median, average, averages, typical, typical patient, outlier, outliers, extreme value, extreme values, skew, skewed, distribution, spread, range, length of stay, waiting time, waiting times, cost, costs, high users, long stay, unusual cases]
     questions:
       - Is the distribution symmetrical or skewed?
@@ -33,7 +33,7 @@ modules:
   - id: module3
     title: Correlation vs Causation
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/03-Correlation-vs-Causation.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/03-Correlation-vs-Causation.html"
     keywords: [correlation, causation, causal, cause, caused, relationship, association, linked, connection, driver, impact, effect, influence, confounding, confounder, underlying factor, reverse causation, made a difference, because of, leads to, linked to, related to]
     questions:
       - Does the analysis show causation or only an association?
@@ -48,7 +48,7 @@ modules:
   - id: module4
     title: Variation and Distributions
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/04-Variation-&-Distributions.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/04-Variation-&-Distributions.html"
     keywords: [variation, variability, distribution, spread, range, standard deviation, skew, skewed, outlier, outliers, common cause, special cause, signal, noise, random variation, normal variation, unusual change, meaningful change, fluctuation, control chart, statistical process control, spc, seasonality, performance change]
     questions:
       - Is this normal variation or evidence of a meaningful change?
@@ -63,7 +63,7 @@ modules:
   - id: module5
     title: Standardisation and Fair Comparison
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/05-Standardisation-&-Fair-Comparison.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/05-Standardisation-&-Fair-Comparison.html"
     keywords: [standardisation, standardization, standardised, standardized, fair comparison, compare fairly, like for like, comparing areas, comparing organisations, case mix, risk adjustment, adjusted rate, age adjustment, age profile, deprivation, population structure, population differences, morbidity, complexity, benchmark, benchmarking, observed, expected, smr, indirectly standardised, directly standardised]
     questions:
       - Are we comparing like with like?
@@ -79,7 +79,7 @@ modules:
   - id: module6
     title: How to Read a Dashboard
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/06-How-to-Read-a-Dashboard.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/06-How-to-Read-a-Dashboard.html"
     keywords: [dashboard, dashboards, kpi, kpis, metric, metrics, measure, measures, indicator, indicators, performance, trend, trends, rag, red amber green, red rating, target, targets, trajectory, benchmark, chart, charts, visualisation, visualization, reporting, performance report, data quality, drill down, monthly performance]
     questions:
       - What decision is this dashboard intended to support?
@@ -96,7 +96,7 @@ modules:
   - id: module7
     title: Thinking About Evidence and Evaluation
     pathway: Evaluation
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/07-Thinking-About-Evidence-&-Evaluation.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/07-Thinking-About-Evidence-&-Evaluation.html"
     keywords: [evidence, evaluation, evaluate, intervention, scheme, pilot, pathway, service change, transformation, initiative, programme, impact, outcome, improvement, effectiveness, has it worked, did it work, made a difference, success, benefits, theory of change, logic model, counterfactual, attribution, unintended consequence, evaluation planning]
     questions:
       - What decision will the evaluation inform?
@@ -113,7 +113,7 @@ modules:
   - id: module8
     title: Evaluating Methods in Practice
     pathway: Evaluation
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/08-Evaluating-Methods-in-Practice.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/08-Evaluating-Methods-in-Practice.html"
     keywords: [evaluate, evaluation, evaluation method, has it worked, did it work, made a difference, intervention, pathway, pilot, scheme, service change, impact, effectiveness, attribution, comparator, comparison, comparison group, control group, counterfactual, before after, before and after, pre post, difference in differences, did, interrupted time series, its, randomised controlled trial, rct, matching, regression to mean, parallel trends]
     questions:
       - Which evaluation design is feasible and proportionate?
@@ -132,7 +132,7 @@ modules:
   - id: module9
     title: Risk, Probability and Uncertainty
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/09-Risk-Probability-Uncertainty.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/09-Risk-Probability-Uncertainty.html"
     keywords: [risk, risks, probability, chance, likelihood, uncertainty, uncertain, confidence, prediction, forecast, estimate, estimated, range, confidence interval, sensitivity, scenario, assumptions, absolute risk, relative risk, false positive, false negative, prediction accuracy, how certain, how confident, likely outcome]
     questions:
       - What exactly does the probability or risk estimate represent?
@@ -149,7 +149,7 @@ modules:
   - id: module10
     title: Common Analytical Traps and Data Fallacies
     pathway: Foundations
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/10-Common-Analytical-Traps-&-Data-Fallacies.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/10-Common-Analytical-Traps-&-Data-Fallacies.html"
     keywords: [fallacy, fallacies, bias, biased, trap, analytical trap, misleading, misleading conclusion, wrong conclusion, false conclusion, cherry picking, selective evidence, regression to mean, data quality, missing data, selection bias, confirmation bias, survivorship bias, ecological fallacy, denominator problem, small numbers, confounding, spurious relationship, p hacking, assumption, assumptions, unreliable analysis]
     questions:
       - Could the conclusion be misleading?
@@ -167,7 +167,7 @@ modules:
   - id: module11
     title: Demand, Capacity and Operational Flow
     pathway: Systems
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/11-Demand_Capacity_Operational_Flow.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/11-Demand_Capacity_Operational_Flow.html"
     keywords: [demand, capacity, flow, operational flow, patient flow, queue, queues, waiting, waiting time, waiting times, waiting list, waiting lists, backlog, bottleneck, constraint, utilisation, throughput, arrivals, departures, referrals, appointments, outpatient, outpatients, elective, electives, diagnostics, theatre, theatres, admissions, discharge, length of stay, bed occupancy, rtt, referral to treatment, clock starts, clock stops, more appointments, growing waiting list]
     questions:
       - Is the primary issue demand, capacity, flow or a combination of all three?
@@ -188,7 +188,7 @@ modules:
   - id: module12
     title: Data Quality, Assurance and Trustworthy Data
     pathway: Systems
-    module_url: "https://ckaur5689.github.io/DataLiteracy/modules/12-Data-Quality-Assurance-Trustworthy-Data.html"
+    module_url: "https://ckaur5689.github.io/DecisionIntelligence/modules/12-Data-Quality-Assurance-Trustworthy-Data.html"
     keywords: [healthcare data, data quality, data assurance, data maturity, master data, master data management, data governance, data structure, patient record, patient journey, spell, spells, episode, episodes, ward stay, ward stays, attribution, specialty attribution, pathway data, raw data, information, evidence, decision, validation, coding, data definitions, data lineage, data source, data flow, poor quality data]
     questions:
       - Where has this data come from?

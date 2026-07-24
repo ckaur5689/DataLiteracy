@@ -43,18 +43,18 @@ The examples throughout the series are intentionally grounded in realistic NHS o
 
 Need help finding the right module or deciding what to read next?
 
-Scan the QR code below to open the **Health Data Literacy Coach**, an interactive companion that can:
+Scan the QR code below to open the **Healthcare Decision Intelligence**, an interactive companion that can:
 
 - Recommend the most relevant module
 - Suggest questions decision-makers should ask
 - Guide your learning pathway
-- Help you navigate the Health Data Literacy series
+- Help you navigate the Healthcare Decision Intelligence series
 
 ![](images/HealthDataLiteracyCompanionQR.png){width=180px}
 
 Or visit:
 
-<https://health-data-literacy-coach.streamlit.app>
+<https://decisionintelligence-healthcare.streamlit.app>
 
 Recommend opening up in Google Chrome for a better user experience.
 

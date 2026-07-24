@@ -1,6 +1,6 @@
 # Welcome
 
-The **Health Data Literacy** series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.
+The **Healthcare Decision Intelligence** series uses practical NHS and healthcare examples to explore how healthcare data should be interpreted, questioned and used within complex healthcare systems.
 
 ## The series is designed to support:
 
@@ -39,7 +39,7 @@ The examples throughout the series are intentionally grounded in realistic NHS o
 
 ::: {.callout-tip appearance="simple"}
 
-## 📱 New Health Data Literacy Companion
+## 📱 New Healthcare Decision Intelligence Companion
 
 Need help finding the right module or deciding what to read next?
 

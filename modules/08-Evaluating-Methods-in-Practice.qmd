@@ -56,7 +56,7 @@ The question now becomes:
 
 > **How do healthcare systems improve confidence that an intervention genuinely contributed to observed change?**
 
-This module introduces practical approaches that are commonly used in healthcare evaluation.
+This  introduces practical approaches that are commonly used in healthcare evaluation.
 
 These approaches do not eliminate uncertainty.
 
@@ -298,7 +298,7 @@ This introduces:
 
 # Sample Size, Statistical Power and Confidence in Findings
 
-In Module 6, we introduced an important question:
+In  6, we introduced an important question:
 
 > *How confident are we that an intervention genuinely contributed to observed change?*
 
@@ -682,7 +682,7 @@ In the next section, we explore practical ways healthcare systems strengthen con
 ## Part 3 — Strengthening Evaluation in Real-World Healthcare
 
 
-In Part 1 and Part 2 of this module, we explored:
+In Part 1 and Part 2 of this , we explored:
 
 * fair comparison through Randomised Controlled Trials (RCTs)
 * why small numbers can mislead
@@ -948,7 +948,7 @@ The important principle is not selecting the most complex model, but choosing th
 
 Real-world healthcare improvement rarely involves a single intervention delivered in a single organisation.
 
-Later in this series, **Module 14: Evaluating Complex Healthcare Systems** explores more advanced evaluation challenges, including:
+Later in this series, **Module 15: Evaluating Complex Healthcare Systems** explores more advanced evaluation challenges, including:
 
 * multiple interventions introduced at the same time
 * phased implementation across organisations

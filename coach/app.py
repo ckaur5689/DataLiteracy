@@ -34,11 +34,11 @@ with col1:
     <div class="top-panel">
 
     <h1 class="hero-title">
-    Healthcare Decision Literacy Companion
+    Healthcare Decision Intelligence Companion
     </h1>
 
     <p class="hero-subtitle">
-    Helping healthcare leaders ask better questions.
+    Helping healthcare leaders Using Data, Evidence, Evaluation and AI to Make Better Healthcare Decisions.
     </p>
 
     <p class="hero-tagline">

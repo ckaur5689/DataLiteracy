@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Health Data Literacy"
+  title: "Healthcare Decision Intelligence"
   author: "Chandan Kaur"
   chapters:
     - Book_Cover.qmd
